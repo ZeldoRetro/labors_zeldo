@@ -1,4 +1,4 @@
-![Logo](data/logos/logo.png)
+![Logo](logo_full.png)
 
 # The Labors of Zeldo
 
