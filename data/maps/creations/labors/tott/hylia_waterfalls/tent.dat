@@ -1,0 +1,617 @@
+properties{
+  x = 2880,
+  y = 1437,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world_labors_tott",
+  tileset = "inside_house",
+  music = "creations/labors/tott/house",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 56,
+  width = 24,
+  height = 144,
+  pattern = "wall.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 56,
+  width = 24,
+  height = 144,
+  pattern = "wall.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 200,
+  width = 144,
+  height = 24,
+  pattern = "wall.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 32,
+  width = 144,
+  height = 24,
+  pattern = "wall.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 192,
+  width = 128,
+  height = 8,
+  pattern = "wall_border.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 64,
+  width = 8,
+  height = 128,
+  pattern = "wall_border.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 56,
+  width = 128,
+  height = 8,
+  pattern = "wall_border.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 64,
+  width = 8,
+  height = 128,
+  pattern = "wall_border.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "floor.8-1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 64,
+  width = 128,
+  height = 128,
+  pattern = "floor_low.5-2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 32,
+  width = 32,
+  height = 32,
+  pattern = "wine_rack.2",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 32,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.3",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 32,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.1",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 168,
+  width = 48,
+  height = 24,
+  pattern = "stove",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 160,
+  width = 32,
+  height = 8,
+  pattern = "table.8",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 136,
+  width = 32,
+  height = 8,
+  pattern = "table.2",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 144,
+  width = 32,
+  height = 16,
+  pattern = "table.5",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 144,
+  width = 8,
+  height = 16,
+  pattern = "table.4",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "table.9",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 144,
+  width = 8,
+  height = 16,
+  pattern = "table.6",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "table.7",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "table_piece.1",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "table_piece.2",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "table_piece.2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 64,
+  width = 32,
+  height = 40,
+  pattern = "bed.default",
+}
+
+wall{
+  layer = 1,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+destination{
+  name = "entree",
+  layer = 1,
+  x = 160,
+  y = 197,
+  direction = 1,
+  default = true,
+}
+
+destructible{
+  name = "auto_destructible_4",
+  layer = 1,
+  x = 216,
+  y = 93,
+  treasure_name = "pickable/random",
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_5",
+  layer = 1,
+  x = 200,
+  y = 77,
+  treasure_name = "pickable/random",
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/tott/hylia_waterfalls/outside",
+  destination = "tent",
+}
+
+chest{
+  layer = 1,
+  x = 216,
+  y = 77,
+  treasure_name = "quest_items/remembrance_shard",
+  treasure_savegame_variable = "remembrance_shard_10005_6",
+  sprite = "entities/Chests/chest_LttP",
+}
+
+custom_entity{
+  layer = 1,
+  x = 216,
+  y = 165,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+destination{
+  name = "sortie_lit",
+  layer = 1,
+  x = 112,
+  y = 77,
+  direction = 3,
+}
+
+npc{
+  name = "bed",
+  layer = 1,
+  x = 112,
+  y = 77,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/bed",
+}
+
+npc{
+  name = "bed_3",
+  layer = 1,
+  x = 120,
+  y = 93,
+  direction = 0,
+  subtype = 0,
+}
+
+npc{
+  name = "bed_2",
+  layer = 1,
+  x = 120,
+  y = 85,
+  direction = 0,
+  subtype = 0,
+}
+
+npc{
+  name = "snores",
+  layer = 1,
+  x = 120,
+  y = 69,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/snores",
+}
+
+tile{
+  layer = 2,
+  x = 128,
+  y = 216,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 216,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 0,
+  width = 288,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 224,
+  width = 288,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 64,
+  height = 240,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 256,
+  y = 0,
+  width = 64,
+  height = 240,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 0,
+  width = 288,
+  height = 32,
+  pattern = "ceiling.2",
+}
+

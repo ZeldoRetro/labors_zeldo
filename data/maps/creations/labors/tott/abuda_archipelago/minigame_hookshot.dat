@@ -1,0 +1,1160 @@
+properties{
+  x = 7792,
+  y = 4477,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world_labors_tott",
+  tileset = "inside_house",
+  music = "creations/forgotten_legend/shooting_gallery",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "wall.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "wall.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 200,
+  width = 240,
+  height = 24,
+  pattern = "wall.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 16,
+  width = 240,
+  height = 24,
+  pattern = "wall.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 192,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "floor.8-1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 48,
+  width = 224,
+  height = 144,
+  pattern = "floor.9-2",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 200,
+  width = 32,
+  height = 24,
+  pattern = "window.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "window.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "window.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "carpet.5",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "carpet.4",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "carpet.6",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "carpet.7",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "carpet.2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "carpet.5",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "carpet.4",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "carpet.6",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "carpet.7",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "carpet.2",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "counter.7",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 128,
+  width = 24,
+  height = 16,
+  pattern = "counter.8",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 144,
+  width = 8,
+  height = 16,
+  pattern = "counter.7",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 144,
+  width = 160,
+  height = 16,
+  pattern = "counter.8",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 144,
+  width = 8,
+  height = 16,
+  pattern = "counter.9",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "counter.3",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 136,
+  width = 152,
+  height = 8,
+  pattern = "counter.2",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "counter.4",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "counter.1",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "counter.3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 56,
+  width = 8,
+  height = 72,
+  pattern = "counter.4",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "counter.2",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 56,
+  width = 8,
+  height = 64,
+  pattern = "counter.6",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "counter.2",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "counter.3",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "counter.6",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "counter.5",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "counter.5",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "counter.5",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 56,
+  width = 16,
+  height = 72,
+  pattern = "counter.5",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 80,
+  width = 48,
+  height = 16,
+  pattern = "carpet.5",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "carpet.4",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "carpet.6",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 96,
+  width = 48,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "carpet.7",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 72,
+  width = 48,
+  height = 8,
+  pattern = "carpet.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.1",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 200,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 56,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-9",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 128,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-9",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-9",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-9",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 144,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-9",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 72,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-9",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-9",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-9",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 192,
+  width = 120,
+  height = 8,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 56,
+  width = 8,
+  height = 104,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 40,
+  width = 120,
+  height = 8,
+  pattern = "2761",
+}
+
+sensor{
+  name = "steal_sensor",
+  layer = 1,
+  x = 256,
+  y = 157,
+  width = 32,
+  height = 16,
+}
+
+wall{
+  layer = 1,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+destination{
+  name = "entree",
+  layer = 1,
+  x = 160,
+  y = 197,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/tott/abuda_archipelago/outside",
+  destination = "hook_minigame",
+}
+
+block{
+  layer = 1,
+  x = 264,
+  y = 157,
+  sprite = "entities/blocks/white_block",
+  pushable = true,
+  pullable = false,
+}
+
+npc{
+  layer = 1,
+  x = 224,
+  y = 173,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/mini_game_man_blue",
+  behavior = "dialog#LABORS.tott.abuda.minigame_hookshot",
+}
+
+custom_entity{
+  name = "lever_1",
+  layer = 1,
+  x = 88,
+  y = 160,
+  properties = {
+    {
+      key = "state",
+      value = "0",
+    },
+  },
+  width = 16,
+  height = 16,
+  origin_x = 0,
+  origin_y = 0,
+  direction = 0,
+  sprite = "entities/lever",
+  model = "lever",
+}
+
+stream{
+  layer = 1,
+  x = 64,
+  y = 133,
+  direction = 6,
+  sprite = "entities/Streams/conveyor_belt3",
+}
+
+stream{
+  layer = 1,
+  x = 64,
+  y = 117,
+  direction = 6,
+  sprite = "entities/Streams/conveyor_belt3",
+}
+
+stream{
+  layer = 1,
+  x = 64,
+  y = 101,
+  direction = 6,
+  sprite = "entities/Streams/conveyor_belt3",
+}
+
+stream{
+  layer = 1,
+  x = 64,
+  y = 85,
+  direction = 6,
+  sprite = "entities/Streams/conveyor_belt3",
+}
+
+stream{
+  layer = 1,
+  x = 64,
+  y = 69,
+  direction = 6,
+  sprite = "entities/Streams/conveyor_belt3",
+}
+
+stream{
+  layer = 1,
+  x = 136,
+  y = 69,
+  direction = 6,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 136,
+  y = 85,
+  direction = 6,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 136,
+  y = 101,
+  direction = 6,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 136,
+  y = 117,
+  direction = 0,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 152,
+  y = 117,
+  direction = 0,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 168,
+  y = 117,
+  direction = 0,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 184,
+  y = 117,
+  direction = 0,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 200,
+  y = 117,
+  direction = 0,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 216,
+  y = 117,
+  direction = 2,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 216,
+  y = 101,
+  direction = 2,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 216,
+  y = 85,
+  direction = 2,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 216,
+  y = 69,
+  direction = 4,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 200,
+  y = 69,
+  direction = 4,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 184,
+  y = 69,
+  direction = 4,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 168,
+  y = 69,
+  direction = 4,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+stream{
+  layer = 1,
+  x = 152,
+  y = 69,
+  direction = 4,
+  sprite = "entities/Streams/conveyor_belt3",
+  speed = 32,
+}
+
+pickable{
+  layer = 1,
+  x = 136,
+  y = 69,
+  treasure_name = "pickable/rupee",
+  treasure_variant = 4,
+  treasure_savegame_variable = "labors_tott_minigame_hookshot_stolen",
+}
+
+pickable{
+  layer = 1,
+  x = 136,
+  y = 117,
+  treasure_name = "pickable/rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "labors_tott_minigame_hookshot_stolen",
+}
+
+pickable{
+  layer = 1,
+  x = 168,
+  y = 117,
+  treasure_name = "pickable/hearts_pile",
+  treasure_savegame_variable = "labors_tott_minigame_hookshot_stolen",
+}
+
+pickable{
+  layer = 1,
+  x = 216,
+  y = 101,
+  treasure_name = "inventory/magic_powder",
+  treasure_savegame_variable = "labors_tott_minigame_hookshot_stolen",
+}
+
+pickable{
+  layer = 1,
+  x = 192,
+  y = 69,
+  treasure_name = "equipment/shield",
+  treasure_savegame_variable = "labors_tott_minigame_hookshot_stolen",
+}
+
+pickable{
+  layer = 1,
+  x = 176,
+  y = 93,
+  treasure_name = "quest_items/remembrance_shard",
+  treasure_variant = 2,
+  treasure_savegame_variable = "remembrance_shard_10006_1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 0,
+  width = 288,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 224,
+  width = 288,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 128,
+  y = 216,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 216,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-1",
+}
+
