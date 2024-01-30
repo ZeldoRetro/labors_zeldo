@@ -1,0 +1,24 @@
+animation{
+  name = "walking",
+  src_image = "enemies/bee.png",
+  frame_delay = 80,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 8, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 6, num_frames = 2 },
+    { x = 0, y = 8, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 6, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 6, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 6, num_frames = 2 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/bee.png",
+  frame_delay = 80,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 8, y = 8, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 6 },
+    { x = 8, y = 8, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 6 },
+    { x = 8, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 6 },
+    { x = 8, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 6 },
+  },
+}
