@@ -1,0 +1,7 @@
+animation{
+  name = "default",
+  src_image = "menus/intro/fresco.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 640, frame_height = 720, origin_x = 8, origin_y = 13 },
+  },
+}

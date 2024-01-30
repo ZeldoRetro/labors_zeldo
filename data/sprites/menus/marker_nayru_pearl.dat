@@ -1,0 +1,9 @@
+animation{
+  name = "normal",
+  src_image = "menus/map_quests_markers.png",
+  frame_delay = 400,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0, num_frames = 2, num_columns = 1 },
+  },
+}
