@@ -1,0 +1,124 @@
+background_color{ 255, 255, 255 }
+tile_pattern{
+  id = "floor",
+  ground = "traversable",
+  default_layer = 1,
+  x = 24,
+  y = 112,
+  width = 24,
+  height = 24,
+  repeat_mode = "horizontal",
+}
+
+tile_pattern{
+  id = "floor_begin",
+  ground = "traversable",
+  default_layer = 1,
+  x = 0,
+  y = 112,
+  width = 24,
+  height = 24,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "floor_end",
+  ground = "traversable",
+  default_layer = 1,
+  x = 48,
+  y = 112,
+  width = 24,
+  height = 24,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "mirror",
+  ground = "wall",
+  default_layer = 1,
+  x = { 0, 24, 48, 72, 96, 120, 144, 168, 192, 216, 240 },
+  y = { 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16 },
+  width = 24,
+  height = 48,
+  frame_delay = 125,
+  mirror_loop = true,
+  repeat_mode = "horizontal",
+}
+
+tile_pattern{
+  id = "mirror_floor",
+  ground = "traversable",
+  default_layer = 0,
+  x = 24,
+  y = 64,
+  width = 24,
+  height = 48,
+  repeat_mode = "horizontal",
+}
+
+tile_pattern{
+  id = "razdarac_motif",
+  ground = "wall",
+  default_layer = 1,
+  x = 0,
+  y = 0,
+  width = 24,
+  height = 16,
+  repeat_mode = "horizontal",
+}
+
+tile_pattern{
+  id = "razdarac_motif_attack",
+  ground = "wall",
+  default_layer = 1,
+  x = { 24, 48 },
+  y = { 0, 0 },
+  width = 24,
+  height = 16,
+  frame_delay = 30,
+  repeat_mode = "horizontal",
+}
+
+tile_pattern{
+  id = "wall",
+  ground = "wall",
+  default_layer = 1,
+  x = 96,
+  y = 128,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "wall_begin",
+  ground = "wall",
+  default_layer = 1,
+  x = 0,
+  y = 64,
+  width = 24,
+  height = 48,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "wall_end",
+  ground = "wall",
+  default_layer = 1,
+  x = 48,
+  y = 64,
+  width = 24,
+  height = 48,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "wall_up",
+  ground = "traversable",
+  default_layer = 2,
+  x = 72,
+  y = 120,
+  width = 24,
+  height = 16,
+  repeat_mode = "horizontal",
+}
+

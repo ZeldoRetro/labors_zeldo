@@ -1,0 +1,17 @@
+quest{
+  solarus_version = "1.6",
+  write_dir = "labors_zeldo",
+  title = "The Labors of Zeldo - Wave 1",
+  short_description = "In The Labors of Zeldo, you can explore the unreleased projects that ZeldoRetro made using the Solarus Engine. Games, retranscriptions of existing contents or simple tests, Zeldo is proposing you to play them in a totally playable and enjoyable version. Have fun !",
+  long_description = [[
+In The Labors of Zeldo, you can explore the unreleased projects that ZeldoRetro made using the Solarus Engine. Games, retranscriptions of existing contents or simple tests, Zeldo is proposing you to play them in a totally playable and enjoyable version. Have fun !
+This 1st Wave of content is about The Legend of Zelda - Tower of the Triforce, a project made during 2017-2019 and never finished, due to a lack of inspiration and too many ideas and ambitions who overhelmed Zeldo. The wave have several environments with many collectibles to lengthen the playtime, and a lot of development notes, tips and anecdotes to reward the players who collect them all.]],
+  author = "ZeldoRetro",
+  quest_version = "1.0.0",
+  release_date = "20240130",
+  website = "",
+  normal_quest_size = "320x240",
+  min_quest_size = "320x240",
+  max_quest_size = "320x240",
+}
+
