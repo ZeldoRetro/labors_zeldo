@@ -1,0 +1,137 @@
+animation{
+  name = "stopped_with_shield",
+  src_image = "npc/newlink.png",
+  directions = {
+    { x = 288, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 224, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 336, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
+animation{
+  name = "brandish",
+  src_image = "npc/newlink.png",
+  directions = {
+    { x = 504, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 504, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 504, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 504, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
+animation{
+  name = "grabbing",
+  src_image = "npc/newlink.png",
+  directions = {
+    { x = 288, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 224, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 336, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "npc/newlink.png",
+  directions = {
+    { x = 288, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 224, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 336, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
+animation{
+  name = "jumping",
+  src_image = "npc/newlink.png",
+  directions = {
+    { x = 288, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 224, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 336, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
+animation{
+  name = "pulling",
+  src_image = "npc/newlink.png",
+  directions = {
+    { x = 288, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 224, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 336, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
+animation{
+  name = "pushing",
+  src_image = "npc/newlink.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 288, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 288, y = 224, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 336, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 288, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+  },
+}
+animation{
+  name = "shooting",
+  src_image = "npc/newlink.png",
+  directions = {
+    { x = 408, y = 224, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 432, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 408, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 408, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
+animation{
+  name = "stopped",
+  src_image = "npc/newlink.png",
+  directions = {
+    { x = 288, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 224, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 336, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
+animation{
+  name = "sword",
+  src_image = "npc/newlink.png",
+  frame_delay = 70,
+  directions = {
+    { x = 456, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 504, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 456, y = 224, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 456, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+  },
+}
+animation{
+  name = "sword_loading_stopped",
+  src_image = "npc/newlink.png",
+  directions = {
+    { x = 288, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 224, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 336, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 288, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "npc/newlink.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 288, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 288, y = 224, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 336, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 288, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+  },
+}
+animation{
+  name = "walking_with_shield",
+  src_image = "npc/newlink.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 288, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 288, y = 224, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 336, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 288, y = 256, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+  },
+}

@@ -1,0 +1,21 @@
+animation{
+  name = "sword",
+  src_image = "npc/playing_character/viscen_sword.png",
+  frame_delay = 50,
+  directions = {
+    { x = 0, y = 0, frame_width = 72, frame_height = 72, origin_x = 36, origin_y = 43, num_frames = 4 },
+    { x = 0, y = 72, frame_width = 72, frame_height = 72, origin_x = 36, origin_y = 43, num_frames = 4 },
+    { x = 0, y = 144, frame_width = 72, frame_height = 72, origin_x = 36, origin_y = 43, num_frames = 4 },
+    { x = 0, y = 216, frame_width = 72, frame_height = 72, origin_x = 36, origin_y = 43, num_frames = 4 },
+  },
+}
+animation{
+  name = "sword_loading_stopped",
+  src_image = "npc/playing_character/viscen_sword.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 72, frame_height = 72, origin_x = 36, origin_y = 43 },
+    { x = 0, y = 72, frame_width = 72, frame_height = 72, origin_x = 36, origin_y = 43 },
+    { x = 0, y = 144, frame_width = 72, frame_height = 72, origin_x = 36, origin_y = 43 },
+    { x = 0, y = 216, frame_width = 72, frame_height = 72, origin_x = 36, origin_y = 43 },
+  },
+}

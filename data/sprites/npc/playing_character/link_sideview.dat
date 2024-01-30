@@ -1,0 +1,147 @@
+animation{
+  name = "stopped",
+  src_image = "npc/playing_character/link_sideview.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+  },
+}
+animation{
+  name = "brandish",
+  src_image = "npc/playing_character/link_sideview.png",
+  directions = {
+    { x = 32, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 32, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 32, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 32, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+  },
+}
+animation{
+  name = "dying",
+  src_image = "npc/playing_character/link_sideview.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 16, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 16, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+  },
+}
+animation{
+  name = "falling",
+  src_image = "npc/playing_character/link_sideview.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+  },
+}
+animation{
+  name = "grabbing",
+  src_image = "npc/playing_character/link_sideview.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "npc/playing_character/link_sideview.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 16, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 16, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+  },
+}
+animation{
+  name = "jumping",
+  src_image = "npc/playing_character/link_sideview.png",
+  directions = {
+    { x = 64, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 64, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 64, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 64, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+  },
+}
+animation{
+  name = "pulling",
+  src_image = "npc/playing_character/link_sideview.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+  },
+}
+animation{
+  name = "pushing",
+  src_image = "npc/playing_character/link_sideview.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+  },
+}
+animation{
+  name = "stopped_with_shield",
+  src_image = "npc/playing_character/link_sideview.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+  },
+}
+animation{
+  name = "sword",
+  src_image = "npc/playing_character/link_sideview.png",
+  frame_delay = 80,
+  directions = {
+    { x = 0, y = 96, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 28, num_frames = 3 },
+    { x = 0, y = 96, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 28, num_frames = 3 },
+    { x = 0, y = 128, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 28, num_frames = 3 },
+    { x = 0, y = 128, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 28, num_frames = 3 },
+  },
+}
+animation{
+  name = "victory",
+  src_image = "npc/playing_character/link_sideview.png",
+  directions = {
+    { x = 32, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 32, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 32, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+    { x = 32, y = 64, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "npc/playing_character/link_sideview.png",
+  frame_delay = 80,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 16, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28, num_frames = 3 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28, num_frames = 3 },
+    { x = 16, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28, num_frames = 3 },
+    { x = 16, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28, num_frames = 3 },
+  },
+}
+animation{
+  name = "walking_with_shield",
+  src_image = "npc/playing_character/link_sideview.png",
+  frame_delay = 80,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 16, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28, num_frames = 3 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28, num_frames = 3 },
+    { x = 16, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28, num_frames = 3 },
+    { x = 16, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 28, num_frames = 3 },
+  },
+}

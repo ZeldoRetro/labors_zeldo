@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "npc/beedle.png",
+  directions = {
+    { x = 48, y = 0, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 25 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 25 },
+    { x = 24, y = 0, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 25 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 25 },
+  },
+}

@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "npc/other_races/zora.png",
+  directions = {
+    { x = 88, y = 128, frame_width = 64, frame_height = 72, origin_x = 32, origin_y = 68 },
+    { x = 88, y = 128, frame_width = 64, frame_height = 72, origin_x = 32, origin_y = 68 },
+    { x = 88, y = 128, frame_width = 64, frame_height = 72, origin_x = 32, origin_y = 68 },
+    { x = 88, y = 128, frame_width = 64, frame_height = 72, origin_x = 32, origin_y = 68 },
+  },
+}
