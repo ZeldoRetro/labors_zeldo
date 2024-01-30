@@ -1,0 +1,42 @@
+animation{
+  name = "stopped",
+  src_image = "enemies/boss/vitreous.png",
+  directions = {
+    { x = 0, y = 16, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 16, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 16, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 16, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/boss/vitreous.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 32, y = 48, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28, num_frames = 3 },
+    { x = 32, y = 48, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28, num_frames = 3 },
+    { x = 32, y = 48, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28, num_frames = 3 },
+    { x = 32, y = 48, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28, num_frames = 3 },
+  },
+}
+animation{
+  name = "sleeping",
+  src_image = "enemies/boss/vitreous.png",
+  directions = {
+    { x = 0, y = 48, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 48, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 48, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 48, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "enemies/boss/vitreous.png",
+  directions = {
+    { x = 64, y = 16, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 16, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 32, y = 16, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 16, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+  },
+}

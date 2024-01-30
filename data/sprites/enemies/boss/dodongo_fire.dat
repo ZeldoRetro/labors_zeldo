@@ -1,0 +1,162 @@
+animation{
+  name = "idle",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 4 },
+  },
+}
+animation{
+  name = "appear",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 4 },
+  },
+}
+animation{
+  name = "flame_attack",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 50,
+  frame_to_loop_on = 4,
+  directions = {
+    { x = 0, y = 0, frame_width = 96, frame_height = 32, origin_x = 25, origin_y = 30, num_frames = 6, num_columns = 3 },
+    { x = 96, y = 64, frame_width = 32, frame_height = 96, origin_x = 16, origin_y = 83, num_frames = 6, num_columns = 3 },
+    { x = 192, y = 64, frame_width = 96, frame_height = 32, origin_x = 71, origin_y = 30, num_frames = 6, num_columns = 1 },
+    { x = 0, y = 64, frame_width = 32, frame_height = 96, origin_x = 16, origin_y = 35, num_frames = 6, num_columns = 3 },
+  },
+}
+animation{
+  name = "gobble_bomb",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 500,
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 24, origin_y = 27 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 14, origin_y = 35 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 20, origin_y = 27 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 14, origin_y = 35 },
+  },
+}
+animation{
+  name = "gobble_bomb_explode",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 55,
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 27, origin_y = 30, num_frames = 10 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 24, origin_y = 39, num_frames = 10 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 21, origin_y = 29, num_frames = 10 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 24, origin_y = 42, num_frames = 10 },
+  },
+}
+animation{
+  name = "gobble_link_bitten_22ms",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 22,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 32, origin_y = 45, num_frames = 9 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 16, origin_y = 50, num_frames = 9 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 32, origin_y = 45, num_frames = 9 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 16, origin_y = 40, num_frames = 9 },
+  },
+}
+animation{
+  name = "gobble_link_bitten_45ms",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 45,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 32, origin_y = 45, num_frames = 9 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 16, origin_y = 50, num_frames = 9 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 32, origin_y = 45, num_frames = 9 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 16, origin_y = 40, num_frames = 9 },
+  },
+}
+animation{
+  name = "gobble_link_bitten_90ms",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 90,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 32, origin_y = 45, num_frames = 9 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 16, origin_y = 50, num_frames = 9 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 32, origin_y = 45, num_frames = 9 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 16, origin_y = 40, num_frames = 9 },
+  },
+}
+animation{
+  name = "gobble_link_escape",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 120,
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 32, origin_y = 45, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 16, origin_y = 38, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 32, origin_y = 45, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 16, origin_y = 40, num_frames = 6 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 110,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 3 },
+  },
+}
+animation{
+  name = "immobilized",
+  src_image = "enemies/boss/dodongo_fire.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "open_mouth",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 70,
+  frame_to_loop_on = 1,
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 25, origin_y = 26, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 12, origin_y = 35, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 22, origin_y = 26, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 13, origin_y = 35, num_frames = 2 },
+  },
+}
+animation{
+  name = "shaking",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 8, origin_y = 13, num_frames = 3 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "enemies/boss/dodongo_fire.png",
+  frame_delay = 110,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 26, origin_y = 20, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 13, origin_y = 38, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 20, origin_y = 20, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 13, origin_y = 35, num_frames = 3 },
+  },
+}

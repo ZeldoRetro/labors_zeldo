@@ -1,0 +1,94 @@
+animation{
+  name = "stopped",
+  src_image = "enemies/boss/ganondorf.png",
+  directions = {
+    { x = 0, y = 384, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32 },
+    { x = 0, y = 192, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32 },
+    { x = 0, y = 504, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32 },
+  },
+}
+animation{
+  name = "arms_up_1",
+  src_image = "enemies/boss/ganondorf.png",
+  frame_delay = 200,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 0, y = 240, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+  },
+}
+animation{
+  name = "arms_up_2",
+  src_image = "enemies/boss/ganondorf.png",
+  frame_delay = 200,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 192, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 192, y = 240, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 192, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 192, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/boss/ganondorf.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 440, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 3 },
+    { x = 0, y = 336, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 3 },
+    { x = 0, y = 560, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 3 },
+    { x = 0, y = 144, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 3 },
+  },
+}
+animation{
+  name = "preparing_fireball_1",
+  src_image = "enemies/boss/ganondorf.png",
+  frame_delay = 300,
+  frame_to_loop_on = 2,
+  directions = {
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 0, y = 288, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+  },
+}
+animation{
+  name = "preparing_fireball_2",
+  src_image = "enemies/boss/ganondorf.png",
+  frame_delay = 300,
+  frame_to_loop_on = 2,
+  directions = {
+    { x = 192, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 192, y = 288, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 192, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 192, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+  },
+}
+animation{
+  name = "sword_attack",
+  src_image = "enemies/boss/ganondorf.png",
+  frame_delay = 50,
+  frame_to_loop_on = 4,
+  directions = {
+    { x = 152, y = 440, frame_width = 64, frame_height = 52, origin_x = 32, origin_y = 32, num_frames = 5 },
+    { x = 144, y = 184, frame_width = 64, frame_height = 52, origin_x = 32, origin_y = 38, num_frames = 5 },
+    { x = 152, y = 560, frame_width = 64, frame_height = 52, origin_x = 32, origin_y = 32, num_frames = 5 },
+    { x = 144, y = 0, frame_width = 64, frame_height = 52, origin_x = 32, origin_y = 30, num_frames = 5 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "enemies/boss/ganondorf.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 48, y = 384, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 48, y = 192, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 2 },
+    { x = 48, y = 504, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 4 },
+    { x = 48, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 2 },
+  },
+}
