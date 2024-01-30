@@ -1,0 +1,21 @@
+animation{
+  name = "closed",
+  src_image = "entities/crystal_grey.png",
+  directions = {
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
+  name = "opening",
+  src_image = "entities/crystal_grey.png",
+  frame_delay = 50,
+  directions = {
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0, num_frames = 4 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0, num_frames = 4 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0, num_frames = 4 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0, num_frames = 4 },
+  },
+}
