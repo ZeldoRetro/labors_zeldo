@@ -1,0 +1,7 @@
+animation{
+  name = "default",
+  src_image = "backgrounds/mountains background.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 632, frame_height = 296, origin_x = 8, origin_y = 13 },
+  },
+}
