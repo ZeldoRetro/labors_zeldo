@@ -1,0 +1,10 @@
+animation{
+  name = "default",
+  src_image = "entities/shadows/giant_shadow.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 16, origin_x = 24, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 16, origin_x = 24, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 16, origin_x = 24, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 16, origin_x = 24, origin_y = 13 },
+  },
+}

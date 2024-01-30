@@ -1,0 +1,10 @@
+animation{
+  name = "default",
+  src_image = "entities/shadows/walrus_shadow.png",
+  directions = {
+    { x = 0, y = 16, frame_width = 69, frame_height = 14, origin_x = 34, origin_y = 11 },
+    { x = 0, y = 16, frame_width = 69, frame_height = 14, origin_x = 34, origin_y = 11 },
+    { x = 0, y = 16, frame_width = 69, frame_height = 14, origin_x = 34, origin_y = 11 },
+    { x = 0, y = 16, frame_width = 69, frame_height = 14, origin_x = 34, origin_y = 11 },
+  },
+}
