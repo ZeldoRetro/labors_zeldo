@@ -1,0 +1,23 @@
+animation{
+  name = "normal",
+  src_image = "entities/rupee.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 112, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 13, num_frames = 10 },
+    { x = 0, y = 0, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 13, num_frames = 10 },
+    { x = 0, y = 16, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 13, num_frames = 10 },
+    { x = 0, y = 32, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 13, num_frames = 10 },
+  },
+}
+animation{
+  name = "disappear",
+  src_image = "entities/rupee.png",
+  frame_delay = 80,
+  directions = {
+    { x = 0, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 176, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+  },
+}
