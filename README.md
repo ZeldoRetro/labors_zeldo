@@ -2,7 +2,7 @@
 
 # The Labors of Zeldo
 
-In **The Labor of Zeldo**, you can explore the unreleased projects that ZeldoRetro made using the Solarus Engine.
+In **The Labors of Zeldo**, you can explore the unreleased projects that ZeldoRetro made using the Solarus Engine.
 Games, retranscriptions of existing contents or simple tests, Zeldo is proposing you to play them in a totally playable and enjoyable version.
 Have fun !
 
