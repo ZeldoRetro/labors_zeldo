@@ -1,0 +1,262 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 960,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "dungeon_10000",
+  tileset = "extra/mirror_corridor",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 80,
+  width = 840,
+  height = 48,
+  pattern = "mirror_floor",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 128,
+  width = 840,
+  height = 24,
+  pattern = "floor",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 80,
+  width = 840,
+  height = 48,
+  pattern = "mirror",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 152,
+  width = 888,
+  height = 88,
+  pattern = "wall",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 0,
+  width = 888,
+  height = 80,
+  pattern = "wall",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 40,
+  height = 240,
+  pattern = "wall",
+}
+
+tile{
+  layer = 1,
+  x = 928,
+  y = 0,
+  width = 32,
+  height = 240,
+  pattern = "wall",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 128,
+  width = 24,
+  height = 24,
+  pattern = "floor_begin",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 80,
+  width = 24,
+  height = 48,
+  pattern = "wall_begin",
+}
+
+tile{
+  layer = 1,
+  x = 904,
+  y = 80,
+  width = 24,
+  height = 48,
+  pattern = "wall_end",
+}
+
+tile{
+  layer = 1,
+  x = 904,
+  y = 128,
+  width = 24,
+  height = 24,
+  pattern = "floor_end",
+}
+
+destination{
+  name = "begin_destination",
+  layer = 1,
+  x = 56,
+  y = 141,
+  direction = 0,
+  starting_location_mode = "no",
+  default = true,
+}
+
+destination{
+  name = "end_destination",
+  layer = 1,
+  x = 912,
+  y = 141,
+  direction = 2,
+  starting_location_mode = "no",
+}
+
+teletransporter{
+  layer = 1,
+  x = 40,
+  y = 128,
+  width = 16,
+  height = 24,
+  destination_map = "creations/labors/tott/hub",
+  destination = "start_razer_room",
+}
+
+teletransporter{
+  layer = 1,
+  x = 912,
+  y = 128,
+  width = 16,
+  height = 24,
+  destination_map = "extra/ending_room",
+  destination = "destination",
+}
+
+dynamic_tile{
+  name = "razdarac_motif",
+  layer = 1,
+  x = 64,
+  y = 64,
+  width = 840,
+  height = 16,
+  pattern = "razdarac_motif",
+}
+
+sensor{
+  name = "sensor_loop_begin",
+  layer = 1,
+  x = 416,
+  y = 133,
+  width = 16,
+  height = 32,
+}
+
+sensor{
+  name = "sensor_loop_1",
+  layer = 1,
+  x = 328,
+  y = 133,
+  width = 16,
+  height = 32,
+}
+
+sensor{
+  name = "sensor_loop_2",
+  layer = 1,
+  x = 632,
+  y = 133,
+  width = 16,
+  height = 32,
+}
+
+wall{
+  name = "invisible_wall_1",
+  layer = 1,
+  x = 40,
+  y = 120,
+  width = 888,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  name = "invisible_wall_2",
+  layer = 1,
+  x = 40,
+  y = 144,
+  width = 888,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+custom_entity{
+  name = "razer_spawner_1",
+  layer = 1,
+  x = 384,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "razer_spawner_2",
+  layer = 1,
+  x = 480,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "razer_spawner_3",
+  layer = 1,
+  x = 576,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+tile{
+  layer = 2,
+  x = 40,
+  y = 136,
+  width = 888,
+  height = 16,
+  pattern = "wall_up",
+}
+
+tile{
+  layer = 2,
+  x = 40,
+  y = 152,
+  width = 888,
+  height = 88,
+  pattern = "wall",
+}
+

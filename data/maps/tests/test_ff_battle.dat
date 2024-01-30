@@ -1,0 +1,330 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "ff_style/battle_backgrounds",
+  music = "creations/zeldo/ff_battle",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "1",
+}
+
+destination{
+  name = "link",
+  layer = 0,
+  x = 248,
+  y = 125,
+  direction = 2,
+}
+
+enemy{
+  name = "enemy_1",
+  layer = 0,
+  x = 72,
+  y = 125,
+  direction = 0,
+  breed = "ff_style/green_goblin",
+}
+
+custom_entity{
+  name = "enemy_1_front",
+  layer = 0,
+  x = 104,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "link_front",
+  layer = 0,
+  x = 232,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 176,
+  width = 16,
+  height = 48,
+  pattern = "3_4",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "3",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 176,
+  width = 16,
+  height = 48,
+  pattern = "3_8",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 160,
+  width = 96,
+  height = 16,
+  pattern = "3_2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 176,
+  width = 96,
+  height = 48,
+  pattern = "3_9",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 224,
+  width = 96,
+  height = 16,
+  pattern = "3_6",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "3_7",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "3_5",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "3_3",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 176,
+  width = 16,
+  height = 48,
+  pattern = "3_4",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "3",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 176,
+  width = 16,
+  height = 48,
+  pattern = "3_8",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 160,
+  width = 96,
+  height = 16,
+  pattern = "3_2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 176,
+  width = 96,
+  height = 48,
+  pattern = "3_9",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 224,
+  width = 96,
+  height = 16,
+  pattern = "3_6",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "3_7",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "3_5",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "3_3",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 176,
+  width = 16,
+  height = 48,
+  pattern = "3_4",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "3",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 176,
+  width = 16,
+  height = 48,
+  pattern = "3_8",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 160,
+  width = 32,
+  height = 16,
+  pattern = "3_2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 176,
+  width = 32,
+  height = 48,
+  pattern = "3_9",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 224,
+  width = 32,
+  height = 16,
+  pattern = "3_6",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "3_7",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "3_5",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "3_3",
+}
+
+dynamic_tile{
+  name = "cursor_action",
+  layer = 2,
+  x = 128,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "cursor",
+}
+
+dynamic_tile{
+  name = "cursor_hero",
+  layer = 2,
+  x = 192,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "cursor",
+}
+
+dynamic_tile{
+  name = "cursor_enemy",
+  layer = 2,
+  x = 0,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "cursor",
+}
+

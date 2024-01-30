@@ -1,0 +1,434 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "outside_main",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 64,
+  width = 16,
+  height = 48,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 64,
+  width = 16,
+  height = 48,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "14032",
+  tileset = "outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "14038",
+  tileset = "outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 64,
+  width = 16,
+  height = 48,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 64,
+  width = 16,
+  height = 48,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "33",
+  tileset = "outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "44",
+  tileset = "outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "58",
+  tileset = "outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "59",
+  tileset = "outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "13586",
+  tileset = "outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+  tileset = "inside_pale_grey_dungeon",
+}
+
+destination{
+  name = "start",
+  layer = 0,
+  x = 176,
+  y = 85,
+  direction = 3,
+  default = true,
+}
+
+destination{
+  name = "sortie_test",
+  layer = 0,
+  x = 80,
+  y = 45,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 72,
+  y = 16,
+  width = 16,
+  height = 16,
+  destination_map = "tests/test_map",
+  destination = "entree_test",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+destination{
+  name = "sortie_temple",
+  layer = 0,
+  x = 312,
+  y = 237,
+  direction = 3,
+}
+
+pickable{
+  layer = 0,
+  x = 24,
+  y = 141,
+  treasure_name = "inventory/bow",
+}
+
+pickable{
+  layer = 0,
+  x = 24,
+  y = 173,
+  treasure_name = "inventory/boomerang",
+}
+
+pickable{
+  layer = 0,
+  x = 24,
+  y = 237,
+  treasure_name = "inventory/bottle_1",
+}
+
+pickable{
+  layer = 0,
+  x = 64,
+  y = 237,
+  treasure_name = "inventory/bottle_2",
+}
+
+pickable{
+  layer = 0,
+  x = 144,
+  y = 141,
+  treasure_name = "equipment/bomb_bag",
+}
+
+pickable{
+  layer = 0,
+  x = 64,
+  y = 205,
+  treasure_name = "inventory/cane_of_somaria",
+}
+
+pickable{
+  layer = 0,
+  x = 104,
+  y = 173,
+  treasure_name = "inventory/fire_rod",
+}
+
+pickable{
+  layer = 0,
+  x = 24,
+  y = 205,
+  treasure_name = "inventory/hammer",
+}
+
+pickable{
+  layer = 0,
+  x = 104,
+  y = 141,
+  treasure_name = "inventory/hookshot",
+}
+
+pickable{
+  layer = 0,
+  x = 184,
+  y = 141,
+  treasure_name = "inventory/lamp",
+}
+
+pickable{
+  layer = 0,
+  x = 184,
+  y = 173,
+  treasure_name = "inventory/magic_mushroom",
+}
+
+pickable{
+  layer = 0,
+  x = 200,
+  y = 173,
+  treasure_name = "inventory/magic_powder",
+}
+
+pickable{
+  layer = 0,
+  x = 184,
+  y = 237,
+  treasure_name = "inventory/echange",
+}
+
+pickable{
+  layer = 0,
+  x = 64,
+  y = 173,
+  treasure_name = "inventory/magic_cape",
+}
+
+pickable{
+  layer = 0,
+  x = 104,
+  y = 237,
+  treasure_name = "inventory/bottle_3",
+}
+
+pickable{
+  layer = 0,
+  x = 144,
+  y = 237,
+  treasure_name = "inventory/bottle_4",
+}
+
+pickable{
+  layer = 0,
+  x = 40,
+  y = 173,
+  treasure_name = "inventory/boomerang",
+  treasure_variant = 2,
+}
+
+pickable{
+  layer = 0,
+  x = 144,
+  y = 173,
+  treasure_name = "inventory/ice_rod",
+}
+
+pickable{
+  layer = 0,
+  x = 104,
+  y = 205,
+  treasure_name = "inventory/cane_of_byrna",
+}
+
+pickable{
+  layer = 0,
+  x = 40,
+  y = 141,
+  treasure_name = "inventory/bow_light",
+}
+
+pickable{
+  layer = 0,
+  x = 144,
+  y = 205,
+  treasure_name = "inventory/monicle_truth",
+}
+
+pickable{
+  layer = 0,
+  x = 64,
+  y = 141,
+  treasure_name = "inventory/ocarina",
+}
+
+pickable{
+  layer = 0,
+  x = 184,
+  y = 205,
+  treasure_name = "treasures/spoils_bag",
+}
+
+pickable{
+  layer = 0,
+  x = 200,
+  y = 205,
+  treasure_name = "treasures/treasures_bag",
+}
+
+teletransporter{
+  layer = 0,
+  x = 80,
+  y = 80,
+  width = 16,
+  height = 16,
+  destination_map = "creations/forgotten_legend/inside/link_house",
+  destination = "from_savegame",
+  sprite = "entities/Teletransporters/teletransporter_subrosia_red",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 0,
+  x = 16,
+  y = 80,
+  width = 16,
+  height = 16,
+  destination_map = "creations/ayttp/outside/light/D2",
+  destination = "lamp_cave",
+  sprite = "entities/Teletransporters/teletransporter_subrosia_red",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 16,
+  destination_map = "tests/test_boss",
+  destination = "destination",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+pickable{
+  layer = 0,
+  x = 200,
+  y = 141,
+  treasure_name = "inventory/feather",
+}
+
+teletransporter{
+  layer = 0,
+  x = 304,
+  y = 192,
+  width = 16,
+  height = 16,
+  destination_map = "cutscenes/end_screen",
+  sprite = "entities/Teletransporters/teletransporter_subrosia_red",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 0,
+  x = 296,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/castle_oblivion_RDC",
+  destination = "entree",
+  sprite = "entities/Teletransporters/teletransporter_subrosia_red",
+  sound = "warp",
+}
+
