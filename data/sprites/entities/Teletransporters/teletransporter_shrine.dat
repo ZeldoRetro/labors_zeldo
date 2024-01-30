@@ -1,0 +1,9 @@
+animation{
+  name = "open",
+  src_image = "entities/Teletransporters/teletransporter_shrine.png",
+  frame_delay = 60,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 64, origin_x = 0, origin_y = 48, num_frames = 16 },
+  },
+}
