@@ -1912,14 +1912,12 @@ file{ path = "maps/extra/razer_room.dat", author = "Razdarac", }
 file{ path = "maps/inside", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/inside/cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/inside/cave.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "maps/inside/caves", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/inside/house_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/inside/house_1.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/inside/house_2.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/inside/house_2.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/inside/link_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/inside/link_house.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
-file{ path = "maps/inside/other", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/lib", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/lib/cannonball_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/lib/chest_game_manager.lua", author = "Christopho", license = "GPL v3" }
