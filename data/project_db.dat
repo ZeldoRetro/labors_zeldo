@@ -105,6 +105,10 @@ sprite{ id = "backgrounds/triforce_sky", description = "Triforce Sky" }
 sprite{ id = "console/cursor", description = "cursor" }
 sprite{ id = "console/icons", description = "icons" }
 sprite{ id = "debug/commands", description = "debug/commands" }
+sprite{ id = "en/dungeon_maps/map_10001", description = "Map - TotT Temple de l'Eau" }
+sprite{ id = "en/dungeon_maps/map_10002", description = "Map - TotT Tombe ancienne" }
+sprite{ id = "en/dungeon_maps/map_10004", description = "Map - TotT Temple du Feu" }
+sprite{ id = "en/dungeon_maps/map_1001", description = "Map - Ruines de l'Aigle" }
 sprite{ id = "enemies/GUAY", description = "GUAY" }
 sprite{ id = "enemies/ally/bomb", description = "Allié - Bombe" }
 sprite{ id = "enemies/ally/viscen", description = "Viscen" }
@@ -1454,6 +1458,7 @@ entity{ id = "switch_rust", description = "Switch rouillé" }
 entity{ id = "torch", description = "Torche" }
 entity{ id = "very_weak_ground", description = "Sol très fragile" }
 
+language{ id = "en", description = "English" }
 language{ id = "fr", description = "Français" }
 
 font{ id = "8_bit", description = "police 8bit" }
@@ -1863,6 +1868,14 @@ file{ path = "items/treasures/treasure_zora_crown.lua", author = "ZeldoRetro", l
 file{ path = "items/treasures/treasures_bag.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/treasures/troc_apple.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "languages", author = "Mixed", license = "Mixed" }
+file{ path = "languages/en", author = "Mixed", license = "Mixed" }
+file{ path = "languages/en/images", author = "Mixed", license = "Mixed" }
+file{ path = "languages/en/images/action_icon.png", author = "Nintendo, Metallizer", license = "Proprietary (Fair use)" }
+file{ path = "languages/en/images/floors.png", author = "Oclero", license = "CC BY-SA 4.0" }
+file{ path = "languages/en/images/gameover_menu.png", author = "Oclero, ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "languages/en/images/pause_icon.png", author = "Nintendo, Metallizer", license = "Proprietary (Fair use)" }
+file{ path = "languages/en/images/sword_icon.png", author = "Nintendo, Metallizer", license = "Proprietary (Fair use)" }
+file{ path = "languages/en/text", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "languages/fr", author = "Mixed", license = "Mixed" }
 file{ path = "languages/fr/images", author = "Mixed", license = "Mixed" }
 file{ path = "languages/fr/images/action_icon.png", author = "Nintendo, Metallizer", license = "Proprietary (Fair use)" }
