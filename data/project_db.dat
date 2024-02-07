@@ -3261,7 +3261,7 @@ file{ path = "sprites/hud/dialog_box_book.png", author = "Level-5, ZeldoRetro", 
 file{ path = "sprites/hud/dialog_box_message_end.dat", author = "Matt Wright", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/dialog_box_stone.png", author = "Matt Wright", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/dialog_box_wood.png", author = "Matt Wright", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hud/dialog_icons.png", author = "Nintendo, ChaosMiles07", license = "Proprietary (fair use)" }
+file{ path = "sprites/hud/dialog_icons.png", author = "Nintendo, ChaosMiles07, Collecter128", license = "Proprietary (fair use)" }
 file{ path = "sprites/hud/empty_heart.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/gameover_fade.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/gameover_fade.png", author = "Nintendo", license = "Proprietary (fair use)" }
