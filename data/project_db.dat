@@ -2087,8 +2087,8 @@ file{ path = "scripts/meta/teletransporter.lua", author = "PhoenixII54", license
 file{ path = "scripts/multi_events.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/quest_manager.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/records_manager.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
-file{ path = "scripts/states", author = "Binbin", license = "GPL v3" }
-file{ path = "scripts/states/carrying.lua", author = "Binbin", license = "GPL v3" }
+file{ path = "scripts/states", author = "Vlag", license = "GPL v3" }
+file{ path = "scripts/states/carrying.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "shaders", author = "stdgregwar, Christopho", }
 file{ path = "sounds", author = "Nintendo, Toby Fox, GameFreak", license = "Proprietary (fair use)" }
 file{ path = "sounds/arrow_hit.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
