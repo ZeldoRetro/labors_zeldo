@@ -35,6 +35,14 @@ local dialog_box = {
   icon_dst_position = nil,     -- Destination coordinates of the icon.
 }
 
+local joy_avoid_repeat = {-2, -2}
+function dialog_box:on_joypad_axis_moved(axis, state)
+  local handled = joy_avoid_repeat[axis] == state
+  joy_avoid_repeat[axis] = state
+
+  return handled
+end
+
 -- Constants.
 local nb_visible_lines = 3     -- Maximum number of lines in the dialog box.
 local char_delays = {

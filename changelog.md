@@ -8,6 +8,7 @@ Release on solarus-games.org , English version and various bugfixes.
 
 - *Game added on the Solarus Website*
 - English Translation
+- Fix axis repetition input during dialogs
 
 ## v1.0.0
 
