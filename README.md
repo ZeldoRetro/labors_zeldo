@@ -13,6 +13,6 @@ The wave have several environments with many collectibles to lengthen the playti
 
 - **Release Date:** January 30th, 2024
 - **Players:** 1
-- **Length:** 3-6 hours
+- **Length:** 4-6 hours
 - **License:** Copyrighted assets + CC BY-SA 4.0 assets.
 - **Languages:** French (English incoming)
