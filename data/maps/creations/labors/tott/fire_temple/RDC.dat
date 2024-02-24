@@ -12867,6 +12867,16 @@ tile{
   pattern = "floor_pot",
 }
 
+tile{
+  layer = 1,
+  x = 912,
+  y = 576,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+  tileset = "inside_cave",
+}
+
 custom_entity{
   layer = 1,
   x = 480,

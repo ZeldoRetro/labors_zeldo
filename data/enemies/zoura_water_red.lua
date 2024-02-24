@@ -29,6 +29,7 @@ function enemy:shoot()
     sprite:set_animation("shooting")
     enemy:create_enemy({
       breed = "fireball_blue_small",
+      layer = 1
     })
     if i == 5 then
       i = 0

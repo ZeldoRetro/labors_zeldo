@@ -28,8 +28,8 @@ function dungeon_manager:create(game)
       maps = { "creations/another_hyrule_fantasy/dungeons/1" },
       key_item = {
         floor = 0,
-        x = 1840 + 3520 - 440,
-        y = 1400 - 32 - 1000,
+        x = 1840 + 4160 - 440,
+        y = 1400 - 520,
         savegame_variable = "get_triforce_1",
       }
     },
@@ -39,7 +39,7 @@ function dungeon_manager:create(game)
       highest_floor = 0,
       maps = { "creations/labors/tott/water_temple/RDC","creations/labors/tott/water_temple/SS1","creations/labors/tott/water_temple/SS2","creations/labors/tott/water_temple/SS3" },
       key_item = {
-        floor = 0,
+        floor = -3,
         x = 1840 + 3520 - 440,
         y = 1400 - 32 - 1000,
         savegame_variable = "get_trophy_10001",

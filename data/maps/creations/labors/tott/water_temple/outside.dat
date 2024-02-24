@@ -9248,6 +9248,16 @@ tile{
   pattern = "3544",
 }
 
+tile{
+  layer = -1,
+  x = 888,
+  y = 808,
+  width = 48,
+  height = 48,
+  pattern = "abyss_bridge",
+  tileset = "inside_blue_dungeon",
+}
+
 wall{
   layer = -1,
   x = 1560,
@@ -9351,6 +9361,26 @@ sensor{
   y = 709,
   width = 16,
   height = 16,
+}
+
+teletransporter{
+  layer = -1,
+  x = 904,
+  y = 824,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/tott/hub",
+  destination = "start_wave_1",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+destination{
+  name = "start",
+  layer = -1,
+  x = 912,
+  y = 829,
+  direction = 1,
 }
 
 tile{
@@ -19061,18 +19091,6 @@ tile{
   pattern = "84",
 }
 
-teletransporter{
-  layer = 0,
-  x = 904,
-  y = 648,
-  width = 16,
-  height = 16,
-  destination_map = "creations/labors/tott/hub",
-  destination = "start_wave_1",
-  sprite = "entities/Teletransporters/teletransporter_subrosia",
-  sound = "warp",
-}
-
 dynamic_tile{
   name = "invisible_tile_22",
   layer = 0,
@@ -20099,14 +20117,6 @@ teletransporter{
   height = 16,
   destination_map = "creations/labors/tott/water_temple/RDC",
   destination = "entree_donjon",
-}
-
-destination{
-  name = "start",
-  layer = 0,
-  x = 912,
-  y = 653,
-  direction = 1,
 }
 
 pickable{
@@ -21168,6 +21178,30 @@ destructible{
   weight = -1,
   can_be_cut = true,
   ground = "grass",
+}
+
+wall{
+  layer = 0,
+  x = 1400,
+  y = 96,
+  width = 8,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 424,
+  y = 136,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 tile{

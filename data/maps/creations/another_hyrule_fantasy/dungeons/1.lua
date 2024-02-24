@@ -41,12 +41,20 @@ function map:on_started(destination)
     game:set_value("force",1)
     game:set_value("defense",1)
 
+    if game:get_value("get_bow") then
+      game:get_item("equipment/quiver"):set_variant(1)
+      local arrows_counter = game:get_item("inventory/bow")
+      arrows_counter:set_variant(1)
+      arrows_counter:set_amount(30)
+    end
+
   end
 
   --Upgrades si achat au magasin
   if game:get_value("labors_magic_flask_upgrade_wave_1") then game:get_item("magic_bar"):set_variant(2) end
   if game:get_value("labors_attack_boost_wave_1") then local force = game:get_value("force") game:set_value("force", force + 1) end
   if game:get_value("labors_defense_boost_wave_1") then local defense = game:get_value("defense") game:set_value("defense", defense + 1) end
+  if game:get_value("labors_quiver_wave_1") then game:get_item("equipment/quiver"):set_variant(2) game:get_item("inventory/bow"):set_amount(50) end
 
   --Clé 1 obtenue
   if game:get_value("key_1001_1") then auto_chest_key_1:set_enabled(true) end

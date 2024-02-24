@@ -43,7 +43,7 @@ function map:on_started(destination)
   end
 
   --Enigme faite
-  if game:get_value("trophy_10003") then
+  if game:get_value("get_trophy_10003") then
     map:set_doors_open("auto_door_1")
     auto_switch_auto_door_1:set_activated(true)
     auto_switch_auto_door_1:set_locked()

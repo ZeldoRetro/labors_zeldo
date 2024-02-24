@@ -448,6 +448,25 @@ Prends ceci !
 }
 
 dialog{
+  id = "LABORS.tott.abuda.tim_need_hook",
+  skip = "current",
+  text = [[
+Salut à toi voyageur.
+Je suis bien content de
+te voir passer chez moi !
+Comme tu peux le voir,
+ma maison est toute
+innondée ! Oh misère...
+Peux-tu m'aider ? Le mécanisme
+est au sous-sol. Malheureusement
+tu ne pourras pas l'atteindre
+avec ton équipement actuel.
+Un objet sur la plage devrait
+t'y aider !
+]],
+}
+
+dialog{
   id = "LABORS.tott.abuda.travel_agency",
   skip = "current",
   text = [[
@@ -1480,15 +1499,13 @@ dialog{
 
        - Ruines de l'Aigle -
 
-Link explore ce... ?
-
-
-?????
-
-
+Explorez ce Donjon de
+Another Hyrule Fantasy
+en avant première !
 Difficulté: ?/10
 Objectif: ??
 Conseil: ???
+
 
 ]],
 }
@@ -7050,6 +7067,22 @@ occupée...
 }
 
 dialog{
+  id = "inn.npc",
+  skip = "current",
+  text = [[
+Bienvenue à l'auberge. Si vous
+désirez réserver une chambre,
+allez de l'autre côté du comptoir.
+Moi ? Et bien je travaille ici
+depuis 5 ans et je n'avais pas
+de dialogue jusqu'à ce que
+Kakash essaie de m'adresser
+la parole. Comme quoi, lire et
+parler aux pnjs c'est important !
+]],
+}
+
+dialog{
   id = "inn.question",
   question = "1",
   skip = "current",
@@ -8754,7 +8787,6 @@ Ne pas acheter
 dialog{
   id = "shop.souvenir.heart_piece",
   icon = "125",
-  question = "1",
   skip = "current",
   text = [[
 Un Quart de coeur.
@@ -8763,16 +8795,15 @@ Un Quart de coeur.
 Il parait qu'en collecter un
 grand nombre permet
 d'augmenter ta vitalité.
-Prix : 6 coquillages
-Acheter
-Ne pas acheter
+Tu ne peux pas te procurer
+cet article dans cette version
+spéciale Labors of Zeldo.
 ]],
 }
 
 dialog{
   id = "shop.souvenir.magic_flask_blue",
   icon = "93",
-  question = "1",
   skip = "current",
   text = [[
 Une Flasque de magie
@@ -8781,9 +8812,9 @@ bleue.
 Elle te permettra d'augmenter
 ta capacité magique.
 
-Prix : 8 coquillages
-Acheter
-Ne pas acheter
+Tu ne peux pas te procurer
+cet article dans cette version
+spéciale Labors of Zeldo.
 ]],
 }
 
@@ -8827,7 +8858,6 @@ Ne pas acheter
 dialog{
   id = "shop.souvenir.scale",
   icon = "46",
-  question = "1",
   skip = "current",
   text = [[
 Une Ecaille de Zora.
@@ -8836,9 +8866,9 @@ Une Ecaille de Zora.
 Elle te permettra de plonger
 sous l'eau.
 
-Prix : 10 coquillages
-Acheter
-Ne pas acheter
+Tu ne peux pas te procurer
+cet article dans cette version
+spéciale Labors of Zeldo.
 ]],
 }
 

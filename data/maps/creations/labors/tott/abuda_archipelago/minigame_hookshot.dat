@@ -1083,7 +1083,8 @@ pickable{
   layer = 1,
   x = 216,
   y = 101,
-  treasure_name = "inventory/magic_powder",
+  treasure_name = "pickable/magic_flask",
+  treasure_variant = 2,
   treasure_savegame_variable = "labors_tott_minigame_hookshot_stolen",
 }
 

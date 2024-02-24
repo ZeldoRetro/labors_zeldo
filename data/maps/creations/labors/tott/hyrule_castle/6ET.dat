@@ -2447,6 +2447,46 @@ custom_entity{
   direction = 3,
 }
 
+custom_entity{
+  layer = 1,
+  x = 1120,
+  y = 605,
+  width = 16,
+  height = 16,
+  direction = 0,
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1440,
+  y = 605,
+  width = 16,
+  height = 16,
+  direction = 0,
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1440,
+  y = 845,
+  width = 16,
+  height = 16,
+  direction = 0,
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1120,
+  y = 845,
+  width = 16,
+  height = 16,
+  direction = 0,
+  model = "hookable",
+}
+
 tile{
   layer = 2,
   x = 72,

@@ -65,7 +65,10 @@ function map:on_opening_transition_finished()
 end
 
 function map:on_key_pressed(key)
-  if key == "space" then sol.audio.play_music(nil) hero:teleport("cutscenes/end_screen") end
+  if key == "space" then
+    if not game:get_value("game_finished") then return end
+    sol.audio.play_music(nil) hero:teleport("cutscenes/end_screen")
+  end
 end
 
 function map:on_joypad_button_pressed(button)

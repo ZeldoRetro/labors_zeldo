@@ -28,7 +28,7 @@ function map:on_started(destination)
   if destination == entree_donjon then
 
     --Modèle LINK
-    hero:set_tunic_sprite_id("hero/tunic1")
+    hero:set_tunic_sprite_id("hero/tunic2")
 
     game:set_max_life(12*4)
     game:set_life(game:get_max_life())
@@ -90,7 +90,7 @@ function map:on_started(destination)
   --Clé 4 obtenue
   if game:get_value("key_10002_4") then auto_chest_key_2:set_enabled(true) end
   --Porte 1 ouverte: Combat
-  if game:get_value("door_10002_1") then sensor_battle_2:set_enabled(false) end
+  if game:get_value("door_103_1") then sensor_battle_2:set_enabled(false) end
   --Grande clé obtenue
   if game:get_value("bosskey_10002") then 
     sensor_battle_1:set_enabled(false) 

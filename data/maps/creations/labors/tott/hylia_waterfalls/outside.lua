@@ -16,7 +16,7 @@ function map:on_started(destination)
   if destination == start then
 
     --Modèle LINK
-    hero:set_tunic_sprite_id("hero/tunic1")
+    hero:set_tunic_sprite_id("hero/tunic2")
 
     game:set_max_life(10*4)
     game:set_life(game:get_max_life())

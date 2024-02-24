@@ -5047,8 +5047,8 @@ teletransporter{
 
 stairs{
   layer = 0,
-  x = 136,
-  y = 1112,
+  x = 152,
+  y = 1136,
   direction = 3,
   subtype = 1,
 }

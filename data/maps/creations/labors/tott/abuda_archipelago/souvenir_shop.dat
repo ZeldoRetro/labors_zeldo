@@ -730,6 +730,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "npc/no_character/souvenir_shop_heart_piece",
+  behavior = "dialog#shop.souvenir.heart_piece",
 }
 
 npc{
@@ -740,6 +741,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "npc/no_character/souvenir_shop_magic_flask_blue",
+  behavior = "dialog#shop.souvenir.magic_flask_blue",
 }
 
 npc{
@@ -750,6 +752,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "npc/no_character/souvenir_shop_zora_scale",
+  behavior = "dialog#shop.souvenir.scale",
 }
 
 teletransporter{

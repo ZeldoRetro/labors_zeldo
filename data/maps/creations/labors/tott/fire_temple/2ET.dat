@@ -4427,7 +4427,7 @@ dynamic_tile{
   layer = 1,
   x = 880,
   y = 720,
-  width = 32,
+  width = 40,
   height = 32,
   pattern = "2761",
 }
@@ -4436,7 +4436,7 @@ dynamic_tile{
   layer = 1,
   x = 880,
   y = 624,
-  width = 32,
+  width = 40,
   height = 64,
   pattern = "2761",
 }

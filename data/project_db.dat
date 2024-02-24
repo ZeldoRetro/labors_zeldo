@@ -2019,7 +2019,7 @@ file{ path = "scripts/ceiling_drop_manager.lua", author = "PhoenixII54", license
 file{ path = "scripts/console.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/debug.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/debug_player.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
-file{ path = "scripts/dialog_box.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "scripts/dialog_box.lua", author = "Christopho, Razdarac", license = "GPL v3" }
 file{ path = "scripts/dungeons.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/effect_manager.lua", author = "stdgregwar", license = "GPL v3" }
 file{ path = "scripts/entity_manager.lua", author = "PhoenixII54, ZeldoRetro", license = "GPL v3" }
@@ -3058,7 +3058,7 @@ file{ path = "sprites/entities/ice_beam.png", author = "Nintendo", license = "Pr
 file{ path = "sprites/entities/impact.dat", author = "Vlag", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/impact.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/items.dat", author = "Christopho, ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/items.png", author = "Nintendo, ChaosMiles07,  Collecter128", license = "Proprietary (fair use)" }
+file{ path = "sprites/entities/items.png", author = "Nintendo, ChaosMiles07,  Collecter128, Razdarac", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/lever.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/lever.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/magic_powder_effect.dat", author = "JulioTanaka", license = "CC BY-SA 4.0" }

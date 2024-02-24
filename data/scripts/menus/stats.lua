@@ -168,7 +168,7 @@ function stats_manager:new(game)
     if command == "action" then
 
       if not can_skip then return end
-      --game:set_value("game_finished",true)
+      game:set_value("game_finished",true)
 
       sol.audio.play_music("none")
       sol.audio.play_sound("ending_fade")

@@ -2421,6 +2421,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/newlink9",
+  behavior = "dialog#inn.npc",
 }
 
 destination{

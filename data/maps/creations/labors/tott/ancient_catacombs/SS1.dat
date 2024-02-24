@@ -8837,7 +8837,7 @@ enemy{
   y = 1325,
   direction = 3,
   breed = "poe",
-  treasure_name = "pickable/random_heart_magic",
+  treasure_name = "pickable/magic_flask",
 }
 
 enemy{
@@ -9436,7 +9436,7 @@ enemy{
   y = 61,
   direction = 3,
   breed = "poe",
-  treasure_name = "pickable/random_heart_magic",
+  treasure_name = "pickable/magic_flask",
 }
 
 dynamic_tile{
@@ -9813,7 +9813,7 @@ enemy{
   y = 605,
   direction = 3,
   breed = "poe",
-  treasure_name = "pickable/random_heart_magic",
+  treasure_name = "pickable/magic_flask",
 }
 
 enemy{
@@ -9823,7 +9823,7 @@ enemy{
   y = 637,
   direction = 3,
   breed = "poe",
-  treasure_name = "pickable/random_heart_magic",
+  treasure_name = "pickable/magic_flask",
 }
 
 enemy{
@@ -9833,7 +9833,7 @@ enemy{
   y = 605,
   direction = 3,
   breed = "poe",
-  treasure_name = "pickable/random_heart_magic",
+  treasure_name = "pickable/magic_flask",
 }
 
 enemy{
@@ -9863,7 +9863,7 @@ enemy{
   y = 573,
   direction = 3,
   breed = "poe",
-  treasure_name = "pickable/random_heart_magic",
+  treasure_name = "pickable/magic_flask",
 }
 
 wall{
@@ -10516,7 +10516,7 @@ enemy{
   y = 1269,
   direction = 3,
   breed = "poe",
-  treasure_name = "pickable/random_heart_magic",
+  treasure_name = "pickable/magic_flask",
 }
 
 enemy{
@@ -10526,7 +10526,7 @@ enemy{
   y = 1381,
   direction = 3,
   breed = "poe",
-  treasure_name = "pickable/random_heart_magic",
+  treasure_name = "pickable/magic_flask",
 }
 
 enemy{
@@ -11341,7 +11341,7 @@ enemy{
   y = 637,
   direction = 3,
   breed = "poe",
-  treasure_name = "pickable/random_heart_magic",
+  treasure_name = "pickable/magic_flask",
 }
 
 enemy{
@@ -11351,7 +11351,7 @@ enemy{
   y = 637,
   direction = 3,
   breed = "poe",
-  treasure_name = "pickable/random_heart_magic",
+  treasure_name = "pickable/magic_flask",
 }
 
 block{

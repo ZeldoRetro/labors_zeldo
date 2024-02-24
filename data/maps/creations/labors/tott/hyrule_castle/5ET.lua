@@ -27,7 +27,7 @@ function map:on_started(destination)
   if destination == escalier_nord then
 
     --Modèle LINK
-    hero:set_tunic_sprite_id("hero/tunic1")
+    hero:set_tunic_sprite_id("hero/tunic3")
 
     game:set_max_life(14*4)
     game:set_life(game:get_max_life())
@@ -48,7 +48,6 @@ function map:on_started(destination)
     game:get_item("inventory/fire_rod"):set_variant(1)
     game:get_item("inventory/ice_rod"):set_variant(1)
     game:get_item("inventory/monicle_truth"):set_variant(1)
-    game:get_item("inventory/ocarina"):set_variant(1)
     game:get_item("equipment/bomb_bag"):set_variant(1)
     local bombs_counter = game:get_item("inventory/bombs_counter")
     bombs_counter:set_variant(1)

@@ -22,7 +22,10 @@ function tim:on_interaction()
     game:start_dialog("LABORS.tott.abuda.tim_give_shard",function()
       hero:start_treasure("quest_items/shell",1,"shell_10006_7")
     end)
-  else game:start_dialog("LABORS.tott.abuda.tim_default") end
+  elseif game:get_value("get_hookshot_10006") then
+    game:start_dialog("LABORS.tott.abuda.tim_default")
+  else game:start_dialog("LABORS.tott.abuda.tim_need_hook")
+  end
 end
 
 --ACTIVATION DES INTERRUPTEURS ET GESTION DU NIVEAU DE L'EAU
