@@ -9,153 +9,149 @@ dialog{
   id = "LABORS.cant_leave",
   skip = "current",
   text = [[
-Ce n'est pas le moment
-de quitter les lieux...
-Inspectons cet endroit !
+It's not the moment
+to leave this area...
+Let's inspect this place !
 ]],
 }
 
 dialog{
   id = "LABORS.end_1st_floor",
   text = [[
-Tu as réussi à terminer
-cette première Vague de
-contenus ! Bien joué !
-D'autres Vagues sont bien
-entendues prévues, chacune relatant
-d'autres projets inachevés...
-En attendant ces futurs contenus,
-je n'ai hélas pas grand chose à
-t'offrir...
-Mon futur projet Zelda Another
-Hyrule Fantasy devrait arriver
-vers l'été 2024 !
-Le développement de Forgotten
-Legend continue lui aussi pour
-une sortie en 2030 !
-J'espère que tu auras aimé
-parcourir mes différents Travaux
-sur Tower of the Triforce...
-Le jeu aurait pu être fou, mais
-mes ambitions trop grandes
-m'ont juste noyé...
-En attendant, je vais rentrer à La
-Capitale, dans mon Château... cela
-fait 5 ans que j'y attends Link...
-Peut-être arrivera-t-il un
-jour, sans prévenir... Qui sait ce
-que le Futur nous réserve...
-Je t'invite aussi à repartir d'ici
-en attendant. Quand j'aurai
-d'autres Travaux à proposer, tu
-seras bien sur invité, ici même.
-Laisse moi t'offrir ce générique
-comme récompense. A plus tard !
+You managed to finish
+this first Wave of
+content ! Well done !
+Other Waves are of course planned,
+each relating to other unfinished
+projects... While waiting for these
+future contents, unfortunately I
+don't have much to offer you...
+
+My future project Zelda Another
+Hyrule Fantasy should arrive
+around summer 2024 !
+Forgotten Legend's development
+continues as well for
+a release in 2030 !
+I hope you enjoyed
+exploring my various Labors
+on Tower of the Triforce...
+The game could have been crazy,
+but my ambitions were too big
+and just drowned me...
+Meanwhile, I'm going back to The
+Capital, to my Castle... it's been
+5 years since I've been
+waiting for Link...
+Maybe he'll come one day,
+unexpectedly...
+Who knows what the Future holds...
+I also invite you to leave from here
+for now. When I have other Labors
+to offer, you will of course be
+invited. Let me offer you
+this credit as a reward.
+See you later !
 ]],
 }
 
 dialog{
   id = "LABORS.entrance",
   text = [[
-Bienvenue à toi Visiteur !
-Bienvenue dans ce projet un
-peu fou : The Labors of Zeldo !
-Le concept y est assez simple :
-dans ma longue carrière de
-Créateur, j'ai réalisé moultes
-choses. Des projets inachevés,
-des copies de projets existants
-ou juste de simples tests.
-Le concept de The Labors of
-Zeldo est de te proposer
-de parcourir ces divers Travaux,
-remis au goût du jour et
-retravaillés pour être parfaitement
-jouables.
-Ce qui nous amène à la situation
-présente. Te voici devant moi, toi,
-Joueur de ce projet un peu fou.
-J'ai créé cet endroit magique
-expressément pour y abriter
-mes Travaux.
-Chaque étage de ce Manoir
-représente une Vague de
-contenus.
-Tu es au 1er Etage, qui porte donc
-sur Zelda Tower of the Triforce,
-un projet datant de 2017.
-Comme c'est le tout premier étage
-du Manoir que tu parcours,
-laisse-moi t'expliquer le
-fonctionnement des lieux...
-Suis-moi je te prie. Je n'ai que
-peu de temps devant moi.
+Welcome to you Visitor !
+Welcome to this somewhat crazy
+project: The Labors of Zeldo !
+The concept is quite simple:
+in my long career as
+a Creator, I've made many
+things. Unfinished projects,
+copies of existing projects,
+or just simple tests.
+The concept of The Labors of
+Zeldo is to offer you
+to explore these various Labors,
+updated and reworked to be
+perfectly playable.
+Which brings us to the present
+situation. Here you are in front
+of me, you, Player of this
+crazy project.
+I created this magical place
+especially to house
+my Labors.
+Each floor of this Manor
+represents a Wave of
+content.
+You're on the 2nd Floor, which is
+therefore about Zelda Tower of the
+Triforce, a project from 2017.
+As this is the very first floor
+of the Manor you're exploring,
+let me explain the
+functioning of the place to you...
+Follow me please. I don't have
+much time.
 ]],
 }
 
 dialog{
   id = "LABORS.rules",
   text = [[
-Bienvenue dans la 1ere Vague
-en tant que tel. J'espère que
-la musique et déco te plaisent.
-Elles proviennent de Tower
-of the Triforce directement.
-Accroche-toi, je t'explique !
-Tu te trouves en ce moment dans
-le HUB de l'étage. Il est toujours
-modélisé selon la Vague en cours.
-(Ici par exemple c'est le Casino
-d'Hyrule, un Donjon annexe prévu
-dans Zelda Tower of the Triforce).
-De celui-ci, tu pourras accéder aux
-divers Travaux que j'ai à proposer
-et aux Galeries.
-La partie de droite est dédiée aux
-Travaux en tant que tel. Explore
-les divers portails disponibles.
-Derrière chaque portail se trouve
-un tableau. N'hésite pas à
-consulter celui-ci pour des infos.
-Chaque portail représente une
-Zone de Travaux. Chaque Zone
-possède un Trophée.
-En récupérant des Trophées, de
-nouveaux portails apparaittront,
-et ainsi de suite jusqu'à obtenir
-la Clé d'Or, qui te permettra
-d'ouvrir la porte derrière moi.
-Une fois cette porte franchie,
-tu auras terminé la Vague de
-contenu. Bien sur il y a des
-collectibles divers à ramasser.
-Mais je te laisserai découvrir tout
-ca... pourquoi ne pas tenter un
-100% ? Bon courage en tout cas...
-Il y a aussi un Magasin. Tu y
-trouveras des bonus divers pour
-t'aider dans les Zones de Travaux.
-La partie de gauche renferme
-les Galeries de Dévelopement.
-C'est le contenus Bonus en gros.
-Tu devras cependant collecter
-diverses Clés de couleur pour
-accéder aux diverses sections.
-Chaque Salle renferme un
-contenu différent. J'espère que
-tu t'amuseras en les visitant.
-C'est tout pour les explications.
-Bravo pour ne pas t'être endormi
-en les lisant.
-Si jamais tu as oublié des
-informations, n'hésite pas à
-consulter les statues de hiboux.
-Elles résument très bien
-chaque section du HUB.
-Ce dialogue est beaucoup
-trop long. Je dois filer.
-On se retrouve à la fin de l'étage.
-Bon amusement !
+Welcome to the 1st Wave
+as such. I hope
+you like the music and decor.
+They come directly from Tower
+of the Triforce.
+Hold on, let me explain !
+You are currently in the HUB
+of the floor. It is always modeled
+according to the current Wave.
+(Here for example it's the Casino
+of Hyrule, an additional Dungeon
+planned in Zelda TotT).
+From here, you can access
+the various Labors I have to offer
+and the Galleries.
+The right part is dedicated to
+the Labors as such. Explore
+the various available portals.
+Behind each portal is
+a tableau. Don't hesitate to
+consult it for information.
+Each portal represents a
+Labor Zone. Each Zone
+has a Trophy.
+By collecting Trophies, new
+portals will appear,
+and so on until you obtain
+the Gold Key, which will allow you
+to open the door behind me.
+Once through this door, you will
+have completed the Wave of
+content. Of course, there are
+various collectibles to gather.
+But I'll let you discover all of
+that... why not try for
+a 100% ? Good luck anyway...
+There's also a Shop. You'll find
+various bonuses to help you
+in the Labor Zones.
+The left part contains
+the Development Galleries.
+It's basically Bonus content.
+However, you'll need to collect
+various colored Keys to
+access the various sections.
+Each Room contains a
+different content. I hope
+you'll have fun visiting them.
+That's all for the explanations.
+Congratulations for not falling
+asleep while reading them.
+This dialogue is way
+too long. I have to go.
+See you at the end of the floor.
+Have fun !
 ]],
 }
 
@@ -163,15 +159,15 @@ dialog{
   id = "LABORS.tott.abuda.bed_woman",
   skip = "current",
   text = [[
-Salut voyageur. Bienvenue dans
-ma modeste demeure.
+Hi traveler. Welcome to
+my humble abode.
 
-J'ai revendu mon lit pour
-me payer cette magnifique
-teinture blonde !
-Du coup, je profite de la nuit
-pour sortir admirer les étoiles.
-C'est ça la mentalité d'Abuda !
+I sold my bed to
+pay for this magnificent
+blonde dye !
+So, I take advantage of the night
+to go out and admire the stars.
+That's the Abuda mentality !
 ]],
 }
 
@@ -179,12 +175,12 @@ dialog{
   id = "LABORS.tott.abuda.bed_woman_night",
   skip = "current",
   text = [[
-Les étoiles sont une fois de plus
-magnifiques cette nuit...
-Regarde ces couleurs !
-Rien à voir avec le ciel
-monotone qu'on peut voir
-sur les terres d'Hyrule.
+The stars are once again
+magnificent tonight...
+Look at those colors !
+Nothing like the monotonous sky
+you can see
+over the lands of Hyrule.
 ]],
 }
 
@@ -192,12 +188,12 @@ dialog{
   id = "LABORS.tott.abuda.boy",
   skip = "current",
   text = [[
-On dit qu'il n'y a rien d'autre
-que d'anciennes ruines
-au nord de l'archipel...
-J'aimerais tant les visiter...
-Ca doit grouiller de trésors !
-Quand je serai grand, j'y irai.
+They say there's nothing but
+ancient ruins
+north of the archipelago...
+I'd love to visit them...
+There must be treasures galore !
+When I grow up, I'll go there.
 ]],
 }
 
@@ -205,15 +201,14 @@ dialog{
   id = "LABORS.tott.abuda.boy_2",
   skip = "current",
   text = [[
-Timothée est encore en train
-de rêvasser au nord de
-l'archipel...
-Il passe ses journées à regarder
-les ruines au loin et à s'imaginer
-y faire la chasse aux trésors.
-J'ai personnellement passé
-l'age de toutes ces gamineries...$0
-On s'fait un fifa ?
+Timothy is still daydreaming north
+of the archipelago...
+He spends his days looking at
+the ruins in the distance and
+imagining treasure hunting there.
+Personally, I've outgrown
+all these childish things...$0
+How about a game of FIFA ?
 ]],
 }
 
@@ -221,9 +216,9 @@ dialog{
   id = "LABORS.tott.abuda.chief",
   skip = "current",
   text = [[
-Bienvenue dans notre paisible
-archipel mon garcon. Fais
-comme chez toi.
+Welcome to our peaceful
+archipelago, my boy. Make
+yourself at home.
 ]],
 }
 
@@ -231,15 +226,13 @@ dialog{
   id = "LABORS.tott.abuda.drunk_man",
   skip = "current",
   text = [[
-Hips !$0 Bienvenue à l'archipel
-d'Abuda mon garcon !$0
-Hips !$0
-Il y a bien plus que de la
-bièraubeurre dans la cave
-Mr Potter...$0 Hips !$0
-Quoi ?$0 J'ai dit quelque chose ?$0
-Hips !$0 Tu veux te battre ? $0
-Croustibat !$0 Hips !$0
+Hic! Welcome to the archipelago
+of Abuda, my boy ! Hic !
+There's more than just
+butterbeer in the cellar,
+Mr. Potter... Hic !
+What ? Did I say something ? Hic !
+Hic !
 ]],
 }
 
@@ -247,13 +240,13 @@ dialog{
   id = "LABORS.tott.abuda.florist",
   skip = "current",
   text = [[
-Bonjour à toi mon garcon.
-As-tu vu mes magnifiques
-fleurs à l'extérieur ?
-C'est ma plus grande passion !
-Je n'ai cependant plus de pelle
-pour continuer mes plantations...
-Oh misère...
+Hello there, young man.
+Have you seen my magnificent
+flowers outside ?
+It's my greatest passion !
+However, I no longer have a shovel
+to continue my plantations...
+Oh, misery...
 ]],
 }
 
@@ -261,15 +254,15 @@ dialog{
   id = "LABORS.tott.abuda.kitchen_woman",
   skip = "current",
   text = [[
-Oh non ! Que vais-je faire ?
-Je n'ai plus de poêle
-à frire !
-Comment vais-je préparer
-mes omelettes pour les
-clients qui viennent
-déjeuner le matin...
-Si seulement j'en trouvais
-une ce serait un miracle !
+Oh no! What am I going to do ?
+I don't have a frying pan
+anymore !
+How will I prepare
+my omelettes for the
+customers who come
+for breakfast in the morning...
+If only I could find one,
+it would be a miracle !
 ]],
 }
 
@@ -277,18 +270,18 @@ dialog{
   id = "LABORS.tott.abuda.minigame_hookshot",
   skip = "current",
   text = [[
-Bienvenue à mon célèbre jeu
-d'adresse voyageur !
-Une partie te coutera 10 Rubis.
-Veux-tu j... $0oh attends un peu...$0
-Ce mini-jeu n'a jamais été codé
-par Zeldo le Magnifique !
-C'est vraiment triste... mais
-alors à quoi je sers ? Aucune
-idée, je ne suis qu'un PNJ !
-Au passage, je pense que le
-bloc derrière-moi peut être
-poussé... mais ne touche à rien !
+Welcome to my famous
+traveler's skill game !
+A game will cost you 10 Rupees.
+Do you want to pl... $0oh
+wait a moment...$0 This mini-game
+was never coded by Zeldo the
+Magnificent ! It's really sad...
+but then what am I here for ?
+No idea, I'm just an NPC !
+By the way, I think the
+block behind me can be pushed...
+But don't touch anything !
 ]],
 }
 
@@ -296,15 +289,15 @@ dialog{
   id = "LABORS.tott.abuda.minigame_hookshot_night",
   skip = "current",
   text = [[
-Bonsoir jeune homme.
-Cette nuit est une fois de plus
-baignée par les étoiles.
-Quelle magnifique vue,
-ne trouves-tu pas ?
-Quel dommage que tu ne puisses
-pas en profiter également.
-Zeldo le Magnifique n'avait pas
-le temps de mettre ca en place...
+Good evening young man.
+This night is once again
+bathed in stars.
+What a magnificent view,
+don't you think ?
+What a pity you can't
+enjoy it as well.
+Zeldo the Magnificent didn't have
+time to implement that...
 ]],
 }
 
@@ -312,20 +305,20 @@ dialog{
   id = "LABORS.tott.abuda.minigame_hookshot_steal",
   skip = "current",
   text = [[
-Ehoh ! Non mais ca ne va pas
-de voler les honnêtes gens
-comme ca ??
-C'est pas parce qu'on est dans
-un jeu vidéo que tu peux tout
-te permettre !
-Je me souviens maintenant de
-mon rôle dans cette mascarade !
-Te punir pour tes actes !
-Vois-tu, Zeldo le Grandissime
-savait que tu me volerais...
-C'est un vraie Génie !
-Alors il m'a appris ce sort...
-Adieu, voleur !
+Hey! What do you think
+you're doing stealing from
+honest people like that ??
+Just because you're in
+a video game doesn't mean you can
+do whatever you want !
+I remember now my role in this
+charade ! To punish you for
+your actions !
+You see, Zeldo the Great
+knew you would steal from me...
+He's a true Genius !
+So he taught me this spell...
+Farewell, thief !
 game:set_life(0)
 ]],
 }
@@ -334,15 +327,15 @@ dialog{
   id = "LABORS.tott.abuda.mother",
   skip = "current",
   text = [[
-Oh un étranger...
-Bienvenur sur notre archipel.
-L'archipel d'Abuda prospère
-depuis des générations, loin
-de tous les soucis présents
-sur les terres d'Hyrule.
-Je te prierais de ne pas
-apporter tes problèmes ici.
-Nous n'en avons pas besoin !
+Oh, a stranger...
+Welcome to our archipelago.
+The Abuda archipelago has
+prospered for generations, far
+from all the troubles present
+in the lands of Hyrule.
+I would ask you not to
+bring your problems here.
+We don't need them !
 ]],
 }
 
@@ -350,18 +343,18 @@ dialog{
   id = "LABORS.tott.abuda.seaten_man",
   skip = "current",
   text = [[
-Bienvenue à toi jeune homme.
-Tu n'es pas du coin visiblement...
-Bienvenue à Abuda !
-Un petit archipel au large
-d'Hyrule où il fait bon vivre.
-Relaxe-toi !
-Les gens d'ici sont tous très
-simples à vivre, tu verras !
-D'ailleurs certains aiment planquer
-des Rubis, qui seront trouvés et
-gardés par ceux qui ont le bonheur
-de les trouver. Génial non ?
+Welcome to you, young man.
+You're not from around here,
+evidently... Welcome to Abuda !
+A small archipelago off
+Hyrule where life is good.
+Relax !
+The people here are all very
+easygoing, you'll see !
+Besides, some like to hide
+Rupees, which will be found and
+kept by those fortunate enough
+to find them. Cool, right ?
 ]],
 }
 
@@ -369,15 +362,15 @@ dialog{
   id = "LABORS.tott.abuda.seaten_man_night",
   skip = "current",
   text = [[
-Bienvenue chez moi jeune homme.
-Encore une nuit à passer seul...
+Welcome to my home, young man.
+Another night to spend alone...
 
-Mon compagnon est parti 
-en Hyrule voir son cousin et
-n'est toujours pas revenu.
-Je trouve de ce fait les nuits
-très longues... ca ne te dirait
-pas de rester un peu ?
+My companion went
+to Hyrule to see his cousin and
+still hasn't returned.
+I find the nights very long
+because of that... wouldn't
+you like to stay a little ?
 ]],
 }
 
@@ -385,15 +378,15 @@ dialog{
   id = "LABORS.tott.abuda.sleeping_man",
   skip = "current",
   text = [[
-Rzzz...
-Oh, une nouvelle tête.
-Bienvenue à Abuda... Zzzz...
-Un homme masqué est venu
-déposer un grappin proche
-d'ici...
-Il a murmuré des choses en
-même temps mais je n'ai rien
-compris... trop fatigué...
+Zzzz...
+Oh, a new face.
+Welcome to Abuda... Zzzz...
+A masked man came
+to leave a hook nearby
+here...
+He whispered things at
+the same time but I didn't
+understand anything... too tired...
 ]],
 }
 
@@ -401,9 +394,9 @@ dialog{
   id = "LABORS.tott.abuda.sleeping_man_night",
   skip = "current",
   text = [[
-Rzzz... Zzzz...$0
-(Il dort paisiblement. Il vaut
-mieux le laisser tranquille.)
+Zzzz... Zzzz...$0
+(He's sleeping peacefully. It's
+better to leave him alone.)
 ]],
 }
 
@@ -411,9 +404,9 @@ dialog{
   id = "LABORS.tott.abuda.tim_cleared",
   skip = "current",
   text = [[
-Rebonjour voyageur. Encore
-merci pour ton aide précieuse.
-Sois le bienvenue chez moi !
+Hello again traveler. Thanks again
+for your invaluable help.
+Welcome to my home !
 ]],
 }
 
@@ -421,16 +414,17 @@ dialog{
   id = "LABORS.tott.abuda.tim_default",
   skip = "current",
   text = [[
-Salut à toi voyageur.
-Je suis bien content de
-te voir passer chez moi !
-Comme tu peux le voir,
-ma maison est toute
-innondée ! Oh misère...
-Peux-tu m'aider ? Le mécanisme
-est au sous-sol. Equipé comme tu
-l'es, tu devrais l'atteindre.
-Je t'en serais très reconnaissant !
+Hi there traveler.
+I'm glad to see you passing by
+my place !
+As you can see,
+my house is completely
+flooded ! Oh misery...
+Can you help me ? The
+mechanism is in the basement.
+Equipped as you are, you should
+be able to reach it. I would be
+very grateful to you !
 ]],
 }
 
@@ -438,30 +432,31 @@ dialog{
   id = "LABORS.tott.abuda.tim_give_shard",
   skip = "current",
   text = [[
-Tu as réussi voyageur !
-Toute l'eau est partie !
-Mille mercis à toi !
-Je n'ai pas grand chose
-sur moi... oh si je sais !
-Prends ceci !
+You did it, traveler !
+All the water is gone !
+Many thanks to you !
+I don't have much
+on me... oh yes I do !
+Take this !
 ]],
 }
 
 dialog{
   id = "LABORS.tott.abuda.tim_need_hook",
+  skip = "current",
   text = [[
-Salut à toi voyageur.
-Je suis bien content de
-te voir passer chez moi !
-Comme tu peux le voir,
-ma maison est toute
-innondée ! Oh misère...
-Peux-tu m'aider ? Le mécanisme
-est au sous-sol. Malheureusement
-tu ne pourras pas l'atteindre
-avec ton équipement actuel.
-Un objet sur la plage devrait
-t'y aider !
+Hi there traveler.
+I'm glad to see you passing by
+my place !
+As you can see,
+my house is completely
+flooded! Oh misery...
+Can you help me ? The
+mechanism is in the basement.
+Unfortunately, you won't be able
+to reach it with your current
+equipment. An object on the
+beach should help you there !
 ]],
 }
 
@@ -469,15 +464,15 @@ dialog{
   id = "LABORS.tott.abuda.travel_agency",
   skip = "current",
   text = [[
-Bienvenue à toi jeune voyageur.
-J'espère que ton séjour sur
-l'Archipel d'Abuda se passe bien.
-Si tu veux retourner sur les terres
-d'Hyrule, je n'ai malheureusement
-plus de billets sur moi.
-Un mystéieux homme masqué
-me les a tous achetés !
-C'est vraiment pas de chance !
+Welcome, young traveler.
+I hope your stay on the Abuda 
+archipelago is going well.
+If you want to return to the lands
+of Hyrule, unfortunately I don't
+have any more tickets on me.
+A mysterious masked man
+bought them all from me !
+It's really unlucky !
 ]],
 }
 
@@ -485,12 +480,12 @@ dialog{
   id = "LABORS.tott.abuda.uncle",
   skip = "current",
   text = [[
-Salut Link. As-tu trouvé
-de nouveaux trésors dans
-les environs ?
-Si tu n'as plus rien à faire
-ici, hissons les voiles !
-L'Aventure nous appelle !
+Hi Link. Have you found
+any new treasures around
+here ?
+If you have nothing else to do
+here, let's hoist the sails !
+Adventure calls us !
 ]],
 }
 
@@ -499,16 +494,16 @@ dialog{
   skip = "current",
   text = [[
 $1...$0
-Aaargh...$0 Quelle douleur...$0
-et soulagement à la fois...
-Merci à toi jeune aventurier,
-me voilà libéré de cet endroit
-maudit grâce à toi...
-Je peux rejoindre mon frère dans
-l'Autre Monde, merci...$0
-Je ne peux plus rester...
-Adieu jeune homme...$0 
-Adieu ce monde...$0
+Aaargh...$0 Such pain...$0
+and relief at the same time...
+Thank you, young adventurer,
+I am now freed from this
+accursed place thanks to you...
+I can join my brother in
+the Other World, thank you...$0
+I can't stay any longer...
+Farewell, young man...$0 
+Farewell, this world...$0
 Aaaaah...$0...$0
 ]],
 }
@@ -517,21 +512,21 @@ dialog{
   id = "LABORS.tott.ancient_catacomb.boss_intro",
   skip = "current",
   text = [[
-Qui voilà ? N'as-tu pas honte de
-déranger l'esprit de Dièze, le
-plus grand compositeur d'Hyrule ?
-J'ai en effet composé le Nocturne
-de l'Ombre. J'en garde d'ailleurs
-la partition depuis ma mort.
-Comment ? Tu souhaiterais en faire
-usage ? Ah ah ! Laisse-moi rire !
-Je crois que je vais surtout
-te tuer pour m'avoir réveillé
-étranger... 
+Who goes there ? Have you no shame
+disturbing the spirit of Dièze,
+the greatest composer of Hyrule ?
+Indeed, I composed the Nocturne
+of Shadow. I still hold
+the sheet music since my death.
+What ? You wish to make
+use of it ? Ah, ha ! Let me laugh !
+I think I'll just
+kill you for waking me up,
+stranger... 
 
-Affute ton Oeil de Vérité si tu 
-ne souhaites pas mourir trop 
-rapidement ! En garde !
+Sharpen your Lens of Truth if you
+don't wish to die too
+quickly ! En garde !
 ]],
 }
 
@@ -539,15 +534,15 @@ dialog{
   id = "LABORS.tott.ancient_catacomb.final_sign",
   skip = "current",
   text = [[
-Toi qui désire plonger au plus
-profond des Ombres, joue de ce
-chant et tu atteindras ton but...
-A ce moment Link devait
-obtenir le Nocturne de l'Ombre
-mais ce ne sera pas le cas ici.
-Tu as terminé ce Donjon et
-rempli ton objectif. Voici donc
-le Trophée de la Victoire !
+You who desire to delve into the
+deepest Shadows, play this melody
+and you will reach your goal...
+At this point Link was supposed
+to obtain the Nocturne of Shadow
+but this will not be the case here.
+You have completed this Dungeon
+and fulfilled your objective.
+Here is the Trophy of Victory !
 ]],
 }
 
@@ -556,23 +551,23 @@ dialog{
   skip = "current",
   text = [[
 $1...$0
-Aaaah c'est ainsi que tout fini
-même pour un mort...
-Merci à toi jeune homme d'avoir
-libéré ainsi mon âme prisonnière
-de ce lieu...
-Avant que je ne parte j'ai une
-dernière volonté...
-Il ne me reste que peu de temps...
-Libère mon frère de ce lieu je
-t'en prie...$0
-Sauve-le de sa tourmente...
-Le Monocle de Vérité qui se trouve
-en ce lieu saura t'y aider...$0
-Trouve mon frère...$0 et utilise
-le Monocle pour le vaincre...$0
-Il devrait t'aider dans ta quête
-également...$0Je t'en prie...$0...$0
+Aaaah, so this is how it all ends
+even for one who is dead...
+Thank you, young man, for
+freeing my soul trapped
+in this place like this...
+Before I leave, I have
+one last request...
+I have little time left...
+Free my brother from this place,
+I beg of you...$0
+Save him from his torment...
+The Lens of Truth that lies
+in this place will help you there...$0
+Find my brother...$0 and use
+the Lens to defeat him...$0
+He should also aid you
+in your quest...$0Please...$0...$0
 ]],
 }
 
@@ -580,24 +575,23 @@ dialog{
   id = "LABORS.tott.ancient_catacomb.miniboss_intro",
   skip = "current",
   text = [[
-Qui ose me déranger dans mon
-sommeil ? Je suis Baimol, l'un des
-compositeurs au service d'Agahnim.
-Tu recherches le Nocturne de
-l'Ombre, clé unique vers le
-Temple de l'Ombre ?
-Je suis désolé mais c'est mon
-frère Dièze qui en connait les
-secrets...
-Dommage pour toi, tu ne sauras
-pas aller le voir car je vais
-m'occuper de toi à présent...
-Considère cela comme une
-conséquence pour avoir perturbé
-l'esprit des morts...
-Au fait, n'espère pas me voir
-ou me faire mal dans cette
-obscurité... Adieu !
+Who dares disturb my sleep ? I am
+Baimol, one of the composers in
+the service of Agahnim.
+Are you searching for the Nocturne
+of Shadow, the unique key to the
+Shadow Temple ?
+I'm sorry, but it's my brother
+Dièze who knows its secrets...
+Too bad for you, you won't
+be able to go see him because
+I'm going to take care of you now...
+Consider this as a
+consequence for disturbing
+the spirits of the dead...
+By the way, don't hope to see
+me or harm me in this darkness...
+Goodbye !
 ]],
 }
 
@@ -605,18 +599,18 @@ dialog{
   id = "LABORS.tott.billy_waterfall_day",
   skip = "current",
   text = [[
-Salut toi. Tu ne sembles pas être
-du coin... Je m'appelle Billy,
-je suis campeur.
-J'ai décidé de m'installer un petit
-moment ici... les Chutes d'Hylia
-sont vraiment magnifiques.
-La nuit, on peut apercevoir
-de nombreux fragments
-lumineux dans les environs...
-Si tu veux, je t'invite à dormir
-dans ma tente et de revenir cette
-nuit, tu pourras les apercevoir.
+Hey there. You don't seem to be
+from around here... I'm Billy,
+a camper.
+I've decided to set up camp here
+for a while... Hylia Wateralls
+are truly breathtaking.
+At night, you can see
+many glowing fragments
+around...
+If you want, I invite you to sleep
+in my tent and come back tonight,
+you'll be able to see them.
 ]],
 }
 
@@ -624,18 +618,17 @@ dialog{
   id = "LABORS.tott.billy_waterfall_night",
   skip = "current",
   text = [[
-Bonjour à toi voyageur.
-Observe donc comment les
-Chutes d'Hylia sont magnifiques !
-Tu peux apercevoir des petites
-lumières aux environs si tu y
-prêtes attention...
-Cela viendrait de fragments
-qu'on dit magiques, contenant
-la Puissance des Grandes Fées.
-J'ai d'ailleurs entendu dire qu'une
-Grande Fée vivait par ici autrefois
-mais je ne l'ai jamais vue...
+Hello, traveler.
+Observe how magnificent
+Hylia Waterfalls are !
+You can see small lights around
+if you pay attention...
+They are said to come from
+magical fragments containing
+the Power of the Great Fairies.
+I've heard that a Great Fairy used
+to live around here, but I've never
+seen her...
 ]],
 }
 
@@ -643,12 +636,12 @@ dialog{
   id = "LABORS.tott.great_fairy_waterfall.1st_time",
   skip = "current",
   text = [[
-Jeune homme, je te remercie.
-Je suis la Grande Fée de l'Eau.
-Mes pouvoirs sont enfin restaurés !
-Laisse-moi te récompenser en 
-t'offrant ce Trophée.
-Bien joué !
+Young man, I thank you.
+I am the Great Fairy of Water.
+My powers are finally restored !
+Let me reward you by
+giving you this Trophy.
+Well done !
 ]],
 }
 
@@ -656,12 +649,12 @@ dialog{
   id = "LABORS.tott.great_fairy_waterfall.goodbye",
   skip = "current",
   text = [[
-Voilà qui est fait. N'hésite pas
-à te servir des fées présentes
-également. Elles te soigneront.
-A bientôt jeune homme et bon
-courage pour la suite de ton
-aventure.
+There you go. Don't hesitate
+to use the present fairies as well.
+They will heal you.
+See you soon, young man, and
+good luck with the rest of
+your adventure.
 ]],
 }
 
@@ -669,12 +662,12 @@ dialog{
   id = "LABORS.tott.great_fairy_waterfall.not_enough_fragments",
   skip = "current",
   text = [[
-$1Oh...$0 il semblerait que tu n'aies
-pas assez de Fragments...$0
-Reviens me voir quand tu en
-auras au moins 5 pour que je
-retrouve mes pouvoirs...$0
-Je t'en prie...$0
+$1Oh...$0 it seems you don't have
+enough Fragments...$0
+Come back to me when you have
+at least 5 so that I can regain
+my powers...$0
+Please...$0
 ]],
 }
 
@@ -683,18 +676,18 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-$1Jeune homme...$0 je te souhaite
-la bienvenue...$0 
+$1Young man...$0 I welcome you...$0 
 ...$0
-Je suis une Grande fée...$0 
-malheureusement mes pouvoirs 
-se sont taris...$0
-Si tu me ramènes 5 Fragments
-de Puissance de Fée je retrouverai
-mes pouvoirs et je t'aiderai...$0
-Pourrais-tu m'aider ?$0
-$3Oui
-Non
+I am a Great Fairy...$0 
+unfortunately, my powers
+have dwindled...$0
+If you bring me 5 Fragments
+of Fairy Power, I will regain
+my powers and help you...$0
+
+Could you help me ? $0
+$3Yes
+No
 ]],
 }
 
@@ -702,9 +695,9 @@ dialog{
   id = "LABORS.tott.great_fairy_waterfall.welcome",
   skip = "current",
   text = [[
-Bienvenue à toi Héros.
-Laisse-moi appaiser tes
-tourments et blessures...
+Welcome, Hero.
+Let me ease your
+troubles and wounds...
 ]],
 }
 
@@ -713,12 +706,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Temple de la Lumière
-Origine : ALBW Sanctuary
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Temple of Light
+Origin: ALBW Sanctuary
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -727,12 +720,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Ruines du Vent
-Origine : MM Stone Tower Temple
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Wind Ruins
+Origin: MM Stone Tower Temple
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -741,12 +734,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Tombe ancienne
-Origine : MC Royal Crypt RMIX
-Auteur : Nintendo (ZREO)
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Ancient Catacomb
+Origin: MC Royal Crypt RMIX
+Author: Nintendo (ZREO)
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -755,12 +748,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Ruines du Château d'Hyrule
-Origine : WW Hyrule Castle
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Hyrule Castle Ruins
+Origin: WW Hyrule Castle
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -769,12 +762,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Casino d'Hyrule
-Origine : Cuphead Funfair Fever
-Auteur : Studio MDHR
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Hyrule Casino
+Origin: Cuphead Funfair Fever
+Author: Studio MDHR
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -783,12 +776,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-L'aventure commence
-Origine : ALBW Beginning Fields
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+The Adventure Begins
+Origin: ALBW Beginning Fields
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -797,12 +790,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Plaine d'Hyrule
-Origine : Zelda 2 Overworld RMIX
-Auteur : Nintendo (Cheese71)
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Hyrule Field
+Origin: Zelda 2 Overworld RMIX
+Author: Nintendo (Cheese71)
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -811,12 +804,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Plaine d'Hyrule - Nuit
-Origine : Zelda 2 Overworld RMIX
-Auteur : Nintendo (R3 Music Box)
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Hyrule Field - Night
+Origin: Zelda 2 Overworld RMIX
+Author: Nintendo (R3 Music Box)
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -825,12 +818,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Cité d'Hyrule
-Origine : ST Castle Town
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Hyrule City
+Origin: ST Castle Town
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -839,12 +832,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Archipel d'Abuda
-Origine : ST Aboda Village RMIX
-Auteur : Nintendo (ZREO)
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Abuda Archipelago
+Origin: ST Aboda Village RMIX
+Author: Nintendo (ZREO)
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -853,12 +846,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Forêt d'Hyrule
-Origine : TP Faron Woods
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Hyrule Forest
+Origin: TP Faron Woods
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -867,12 +860,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Temple de la Terre
-Origine : WW Earth Temple
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Temple of Earth
+Origin: WW Earth Temple
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -881,12 +874,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Pics Blancs
-Origine : TP Snowpeak
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Icy Peaks
+Origin: TP Snowpeak
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -895,12 +888,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Marais de Tabanta
-Origine : OOS Tarm Ruins RMIX
-Auteur : Nintendo (RebeccaETripp)
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Tabanta Marsh
+Origin: OOS Tarm Ruins RMIX
+Author: Nintendo (RebeccaETripp)
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -909,12 +902,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Lieu Sacré
-Origine : BOTW Cave
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Sacred Place
+Origin: BOTW Cave
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -923,12 +916,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Nouveau Château d'Hyrule
-Origine : ST Hyrule Castle RMIX
-Auteur : Nintendo (ZREO)
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+New Hyrule Castle
+Origin: ST Hyrule Castle RMIX
+Author: Nintendo (ZREO)
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -937,12 +930,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Maison
-Origine : PH Inside a House RMIX
-Auteur : Nintendo (ZREO)
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+House
+Origin: PH Inside a House RMIX
+Author: Nintendo (ZREO)
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -951,12 +944,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Bâteau de Link
-Origine : WW HD Inside Pirate Ship
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Link's Ship
+Origin: WW HD Inside Pirate Ship
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -965,12 +958,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Caverne
-Origine : FSA Cave
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Cave
+Origin: FSA Cave
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -979,12 +972,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Maison du maire
-Origine : MM Mayor's Metting
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Mayor's House
+Origin: MM Mayor's Meeting
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -993,12 +986,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Combat contre Agahnim 1
-Origine : ALBW Yuga Battle 1
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Agahnim's Battle 1
+Origin: ALBW Yuga Battle 1
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -1007,12 +1000,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Combat contre Agahnim 2
-Origine : ALBW Yuga Battle 2
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Agahnim's Battle 2
+Origin: ALBW Yuga Battle 2
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -1021,12 +1014,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Temple du Feu
-Origine : SS Fire Sanctuary
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Temple of Fire
+Origin: SS Fire Sanctuary
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -1035,12 +1028,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Thème d'Agahnim
-Origine : ALBW Yuga in Sanctuary
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Agahnim's Theme
+Origin: ALBW Yuga in Sanctuary
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -1049,12 +1042,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Temple de l'Eau
-Origine : SS Ancient Cistern
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Temple of Water
+Origin: SS Ancient Cistern
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -1063,12 +1056,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Temple du Désert
-Origine : OOT Koume and Kotake
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Temple of Desert
+Origin: OOT Koume and Kotake
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -1077,12 +1070,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Temple de la Glace
-Origine : MM Snowhead Temple
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Temple of Ice
+Origin: MM Snowhead Temple
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -1091,12 +1084,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Temple du Vent
-Origine : MM STT Inversed
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Temple of Wind
+Origin: MM STT Inversed
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -1105,12 +1098,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Temple de l'Ombre
-Origine : TP Light and Darkness
-Auteur : Nintendo
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Temple of Shadow
+Origin: TP Light and Darkness
+Author: Nintendo
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -1119,12 +1112,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Tour de la Triforce
-Origine : ST Tower of Spirits RMIX
-Auteur : Nintendo (ClefferNotes)
-Voulez-vous écouter ce morceau ?
-Oui
-Non
+Tower of Triforce
+Origin: ST Tower of Spirits RMIX
+Author: Nintendo (ClefferNotes)
+Listen to this track ?
+Yes
+No
 ]],
 }
 
@@ -1133,17 +1126,17 @@ dialog{
   skip = "current",
   text = [[
 
-         - Tombe ancienne -
+       - Ancient Catacomb -
 
-Link explore cette tombe en quête
-du légendaire Nocturne de
-l'Ombre.
-Ne vous laissez pas berner par les
-illusions de ce lieu mystérieux
-et trouvez la stèle du chant.
-Difficulté: 8/10
-Objectif: Terminer le Donjon
-Conseil: Méfiez-vous des apparences.
+Link explores this tomb in search
+of the legendary Nocturne of
+Shadow.
+Don't be fooled by the illusions
+of this mysterious place
+and find the song pedestal.
+Difficulty: 8/10
+Objective: Complete the Dungeon
+Tip: Beware of appearances.
 
 ]],
 }
@@ -1153,17 +1146,17 @@ dialog{
   skip = "current",
   text = [[
 
-       - Archipel d'Abuda -
+       - Abuda Archipelago -
 
-Link se retrouve sur cet archipel
-tropical lors de ses aventures.
-Une destination de rêve !
-Explorez la zone et trouvez
-assez de coquillages afin de
-les échanger contre votre but.
-Difficulté: 3/10
-Objectif: Collecter des Coquillages
-Conseil: Amusez-vous et visitez.
+Link finds himself on this tropical
+archipelago during his adventures.
+A dream destination !
+Explore the area and find
+enough Seashells to
+exchange them for your goal.
+Difficulty: 3/10
+Objective: Collect Seashells
+Tip: Have fun and explore.
 
 ]],
 }
@@ -1173,17 +1166,17 @@ dialog{
   skip = "current",
   text = [[
 
-    - Tour du Château (Alpha) -
+      - Castle Tower (Alpha) -
 
-Link retrouve le mystérieux
-Agahnim pour un duel
-au sommet !
-Battez votre adversaire et
-libérez Hyrule de cette
-dangereuse menace.
-Difficulté: 9/10
-Objectif: Vaincre le Boss
-Conseil: Eliminez les clones.
+Link encounters the mysterious
+Agahnim for a duel
+at the summit !
+Defeat your opponent and
+free Hyrule from this
+dangerous threat.
+Difficulty: 9/10
+Objective: Defeat the Boss
+Tip: Eliminate the clones.
 
 ]],
 }
@@ -1193,23 +1186,23 @@ dialog{
   skip = "current",
   text = [[
 
-      - Conception Donjon 1 -
+      - Dungeon Design 1 -
 
-Etes-vous curieux de voir
-comment un Donjon est 
-concu dans l'esprit de Zeldo ?
-Vu qu'il ne finira jamais son
-tutoriel sur le sujet, voici un guide
-rapide en 2 étapes...
-La première étape est d'imaginer
-le Graphe du Donjon.
-C'est ce que ce tableau illustre...
-Il s'agit en gros du squelette du
-Donjon. Il représente le parcours
-à y faire, les divers obstacles etc.
-Voici le Graphe du bien aimé
-Temple de l'Eau. Vous n'y
-comprenez rien ? C'est normal.
+Are you curious to see
+how a Dungeon is
+designed in Zeldo's mind ?
+Since he'll never finish his
+tutorial on the subject, here's a
+quick guide in 2 steps...
+The first step is to imagine
+the Dungeon Graph.
+This is what this table illustrates...
+It's basically the skeleton of the
+Dungeon. It represents the path
+to take, the various obstacles etc.
+Here's the Graph of the beloved
+Water Temple. Don't understand
+anything ? That's normal.
 
 ]],
 }
@@ -1219,39 +1212,38 @@ dialog{
   skip = "current",
   text = [[
 
-      - Conception Donjon 2 -
+      - Dungeon Design 2 -
 
-Etes-vous curieux de voir
-comment un Donjon est 
-concu dans l'esprit de Zeldo ?
-Vu qu'il ne finira jamais son
-tutoriel sur le sujet, voici la suite
-du guide rapide en 2 étapes...
-La seconde étape est de
-tout simplement transposer
-le Graphe fait sur une Carte.
-Ainsi, on imagine les pièces et
-on met en scène les divers
-obstacles imaginés à la base.
-Cette Carte est en général plus
-compréhensible que le Graphe
-pour les non initiés...
-On remarque ici que Zeldo est
-tellement doué qu'il n'a même
-pas eu besoin de finir sa Carte.
-Il savait déjà le design du
-reste du Donjon de tête !
-Il est vraiment formidable, non ?
-(Vous me le dites si j'en fais
-trop hein...)
+Are you curious to see
+how a Dungeon is 
+designed in Zeldo's mind ?
+Since he'll never finish his
+tutorial on the subject, here's the
+continuation of the quick guide.
+The second step is simply to
+transpose the Graph onto a Map.
+Thus, we imagine the rooms and
+we stage the various obstacles
+imagined at the beginning.
 
-La dernière étape logique est de
-transposer la Carte ainsi faite
-sur votre logiciel de création...
-C'est sans doute le plus long,
-mais aussi le plus amusant ! Allez
-Davy, faites moi un beau Donjon !
+This Map is generally more
+understandable than the Graph
+for non-initiates...
+We notice here that Zeldo is
+so talented that he didn't even
+need to finish his Map.
+He already knew the design of the
+rest of the Dungeon by heart !
+He's really amazing, isn't he ?
+(You tell me if I'm overdoing it...)
 
+
+The last logical step is to
+transpose the Map thus made
+onto your creation software...
+It's probably the longest, but
+also the most fun ! Come on Max,
+make me a beautiful Dungeon !
 ]],
 }
 
@@ -1260,20 +1252,20 @@ dialog{
   skip = "current",
   text = [[
 
-    - Donjon annexe : Casino -
+    - Side Dungeon: Casino -
 
-Voici le plan du fameux Casino
-d'Hyrule, le Donjon annexe d'où
-viennent cette déco et musique.
-Le Donjon devait permettre de
-rejouer à tous les mini-jeux
-dans une version plus difficile.
-On devait y obtenir la Bourse
-de Rubis sans fond... permettant
-de contenir jusqu'à 9999 Rubis.
-Le Donjon a d'ailleurs une forme
-de dé à 6 faces. Merci à Vincent
-Jouillat pour la grande idée !
+Here is the plan of the famous Casino
+of Hyrule, the side Dungeon from which
+this decoration and music come.
+The Dungeon was supposed to allow
+to replay all the mini-games
+in a more difficult version.
+We were supposed to obtain the
+Bottomless Ruby Wallet there...
+allowing to hold up to 9999 Rupees.
+The Dungeon even has a shape
+of a 6-faced die. Thanks to Vincent
+Jouillat for the great idea !
 
 ]],
 }
@@ -1283,14 +1275,14 @@ dialog{
   skip = "current",
   text = [[
 
-   - Royaume d'Hyrule (complet) -
+   - Kingdom of Hyrule (complete) -
 
-Voici la version la plus avancée
-du Royaume d'Hyrule si on
-cumule toutes les maps
-d'Overworld faites en 2017 et
-en 2019. De quoi vous laisser
-imaginer Link s'y balader !
+Here is the most advanced version
+of the Kingdom of Hyrule if we
+combine all the Overworld maps
+made in 2017 and in 2019.
+Enough to let you imagine
+Link walking around !
 
 ]],
 }
@@ -1300,17 +1292,16 @@ dialog{
   skip = "current",
   text = [[
 
-        - Croquis Hyrule 1 -
+        - Hyrule Sketch 1 -
 
-La première version d'Hyrule
-imaginée sous forme de croquis
-numérique.
-Le Royaume était à la base
-plus petit et devait comporter
-4 Donjons, un dans chaque coin.
-Cette version de l'Overworld
-évoluera lors du développement...
-beaucoup trop d'ailleurs.
+The first version of Hyrule
+imagined as a digital sketch
+The Kingdom was originally
+smaller and was supposed to have
+4 Dungeons, one in each corner.
+This version of the Overworld
+will evolve during development...
+way too much indeed.
 
  
 ]],
@@ -1321,20 +1312,20 @@ dialog{
   skip = "current",
   text = [[
 
-        - Croquis Hyrule 2 -
+        - Hyrule Sketch 2 -
 
-Une version bien plus avancée
-du Royaume d'Hyrule, et bien
-plus proche de sa version finale.
-Le nombre de Donjons y a doublé
-et l'Overworld fait maintenant un
-damier de 5x5 vs celui de 4x4.
-C'est cette version d'Hyrule qui
-est développée dans les Travaux
-de cette première Vague.
-De quoi donner le vertige à
-tous ceux qui peuvent imaginer
-ce monde originellement prévu !
+A much more advanced version
+of the Kingdom of Hyrule, and much
+closer to its final version.
+The number of Dungeons has
+doubled and the Overworld now
+makes a 5x5 grid vs the original 4x4.
+This version of Hyrule is the one
+developed in the Labors
+of this first Wave.
+Enough to make anyone dizzy
+who can imagine
+this originally planned world !
 
 ]],
 }
@@ -1344,20 +1335,19 @@ dialog{
   skip = "current",
   text = [[
 
-         - Notes papier 1 -
+         - Paper Notes 1 -
 
-Des notes papiers diverses.
-Cette feuille illustre les 8 Donjons
-du jeu et leur ordre logique.
-On remarque que Link avait
-une certaine liberté dans le choix
-des Donjons après l'introduction...
-Mmmh... il est d'ailleurs difficile
-maintenant de dire les prérequis
-des derniers Donjons tant les
-lignes se rejoignent et se
-mêlent entre elles... quel cerveau
-incroyable que celui de Zeldo !
+Various paper notes.
+This sheet illustrates the 8 Dungeons
+of the game and their logical order.
+We can see that Link had
+a certain freedom in the choice
+of Dungeons after the introduction...
+Mmmh... it's also difficult now to
+say the prerequisites of the last<
+Dungeons as the lines converge and
+mix with each other... what an
+incredible brain Zeldo has!
 
 ]],
 }
@@ -1367,29 +1357,28 @@ dialog{
   skip = "current",
   text = [[
 
-         - Notes papier 2 -
+         - Paper Notes 2 -
 
-Des notes papiers diverses.
-Celles-ci comportent une liste des
-Magasins d'Hyrule à gauche et
-une liste des différents achats à
-effectuer au cours de la partie
-à droite.
-On remarque que les Rubis
-avaient leur importance et
-que Link devait trouver beaucoup
-d'argent pour mener à bien
-tous ses achats ! Mais Zeldo, qui
-est un vrai Génie, avait une solution.
-Un système de trésors et de
-revente était prévu... à la manière
-de Phantom Hourglass.
-Ainsi Link pouvait trouver des
-trésors valant plus de 500 Rubis
-dans les Donjons avancés du jeu !
-De quoi lui permettre de pouvoir
-se procurer plus facilement toute
-cette liste d'achats. Bien joué Zeldo !
+Various paper notes.
+These include a list of
+Hyrule Shops on the left and
+a list of different purchases to make
+during the game on the right.
+We notice that the Rupees
+were important and
+that Link had to find a lot
+of money to complete
+all his purchases! But Zeldo, who
+is a true Genius, had a solution.
+A treasure and resale system was
+planned... in the manner of
+Phantom Hourglass. So Link could
+find treasures worth more than
+500 Rupees in the advanced
+Dungeons of the game !
+Enough to allow him to easily
+get all these purchases.
+Well done Zeldo!
 
 ]],
 }
@@ -1399,23 +1388,21 @@ dialog{
   skip = "current",
   text = [[
 
-     - Croquis énigme yeux 1 -
+     - Eye Puzzle Sketch 1 -
 
-Voici la mise en place d'une
-énigme présente dans le Temple
-de la Terre.
-Il s'agit d'un puzzle consistant
-à éviter le regard des divers
-yeux présents dans la pièce
-jusqu'à atteindre la porte de
-sortie. Link peut tirer dans les
-yeux pour les fermer ou pousser
-des blocs pour bloquer leur
-regard. Voici la version papier
-de l'énigme... Mmmh...
-C'est effectivement très
-énigmatique ! Voyons le tableau
-suivant pour la version éditeur...
+Here is the setup of a
+puzzle present in the Earth Temple.
+It's a puzzle consisting
+of avoiding the gaze of the various
+eyes in the room
+until reaching the exit door. Link
+can shoot the eyes to close them
+or push blocks to block their
+gaze. Here's the paper version
+of the puzzle... Mmmh...
+It's indeed very
+puzzling ! Let's see the next
+painting for the editor version...
 
 ]],
 }
@@ -1425,19 +1412,18 @@ dialog{
   skip = "current",
   text = [[
 
-     - Croquis énigme yeux 2 -
+     - Eye Puzzle Sketch 2 -
 
-Voici à présent la version
-éditeur de l'énigme des yeux
-du Temple de la Terre.
-Celle-ci est plus claire et
-permet de mieux visualiser
-le parcours à effectuer.
-Cette énigme, tout comme le
-Temple entier, existent en
-version jouable...
-Un commentaire des testeurs
-de l'époque : Quel enfer !
+Here is now the editor version of the
+eye puzzle from the Earth Temple.
+This one is clearer and
+allows a better visualization
+of the path to take.
+This puzzle, like the
+entire Temple, exist in
+playable version...
+A comment from the testers
+of the time: What a hell !
 
 
 ]],
@@ -1448,14 +1434,14 @@ dialog{
   skip = "current",
   text = [[
 
-        - Screen Ingame 1 -
+        - Ingame Screen 1 -
 
-Link parcourant le Temple de la
-Terre. Ce Donjon totalement
-fini fut bêta testé en 2017.
-Voici le constat des testeurs de
-l'époque : c'était long, c'était
-dur, c'était le Zeldo de 2017 !
+Link traversing the Earth Temple.
+This completely finished Dungeon
+was beta-tested in 2017.
+Here's the assessment from
+the testers of the time: it was long,
+it was hard, it was the 2017 Zeldo !
 
 ]],
 }
@@ -1465,14 +1451,14 @@ dialog{
   skip = "current",
   text = [[
 
-        - Screen Ingame 2 -
+        - Ingame Screen 2 -
 
-Link quittant le Temple de la
-Lumière, le premier Donjon
-du jeu.
-Cet endroit devait servir de tutoriel
-et permettait de trouver l'Ocarina,
-objet menant à la Tour de la Triforce.
+Link leaving the Tower of Light, the
+first Dungeon of the game.
+This place was supposed to serve
+as a tutorial and allowed to find
+the Ocarina, an item leading to
+the Tower of Triforce.
 
 ]],
 }
@@ -1482,11 +1468,13 @@ dialog{
   skip = "current",
   text = [[
 
-        - Screen Ingame 3 -
+        - Ingame Screen 3 -
 
-Link se tenant devant la légendaire
-Tour de la Triforce. La Tour devait
-se trouver dans les îles célestes.
+Link standing before the legendary
+Tower of Triforce. The Tower was
+supposed to be located in the
+celestial islands.
+
 
 ]],
 }
@@ -1496,14 +1484,14 @@ dialog{
   skip = "current",
   text = [[
 
-       - Ruines de l'Aigle -
+            - Eagle Ruins -
 
-Explorez ce Donjon de
+Explore this Dungeon from
 Another Hyrule Fantasy
-en avant première !
-Difficulté: ?/10
-Objectif: ??
-Conseil: ???
+in preview !
+Difficulty: ?/10
+Objective: ??
+Tip: ???
 
 ]],
 }
@@ -1513,17 +1501,17 @@ dialog{
   skip = "current",
   text = [[
 
-         - Temple du Feu -
+          - Fire Temple -
 
-Link se rend au coeur de la
-Montagne de la Mort et explore
-ce Donjon bati en son sein.
-Trouvez l'objet du Donjon et
-servez vous-en pour atteindre
-votre but.
-Difficulté: 7/10
-Objectif: Obtenir l'objet du Donjon
-Conseil: Le feu allume les torches.
+Link journeys to the heart of the
+Death Mountain and explores
+this Dungeon built within it.
+Find the Dungeon item and
+use it to reach
+your goal.
+Difficulty: 7/10
+Objective: Obtain the Dungeon item
+Tip: Fire lights torches.
 
 ]],
 }
@@ -1533,17 +1521,17 @@ dialog{
   skip = "current",
   text = [[
 
-         - Chutes d'Hylia -
+       - Hylia Waterfalls -
 
-Cette région est un passage
-pour rejoindre le Pic des Neiges
-et les Ruines du Vent.
-Il est dit qu'une Grande Fée existe
-dans cet endroit... votre but
-sera de la retrouver et de l'aider.
-Difficulté: 5/10
-Objectif: Sauver la Grande Fée
-Conseil: La nuit attire les Gemmes.
+This region is a passage
+to reach the Icy Peak
+and the Wind Ruins.
+It is said that a Great Fairy exists
+in this place... your goal
+will be to find her and help her.
+Difficulty: 5/10
+Objective: Save the Great Fairy
+Tip: Night attracts Gems.
 
 ]],
 }
@@ -1553,17 +1541,14 @@ dialog{
   skip = "current",
   text = [[
 
-   - Puzzle du Pic des Neiges -
+       - Snow Peak Puzzle -
 
-Link devra se creuser la tête pour
-résoudre ces énigmes de blocs
-de glace...
-Aidez-le et prouvez ainsi que vous
-avez un grocervo.
-
-Difficulté: 7/10
-Objectif: Résoudre les énigmes
-Conseil: La glace ca glisse.
+Link will have to rack his brain to
+solve these ice block puzzles... Help
+him and prove that you have a brain.
+Difficulty: 7/10
+Objective: Solve the puzzles
+Tip: Ice is slippery.
 
 ]],
 }
@@ -1585,17 +1570,17 @@ dialog{
   skip = "current",
   text = [[
 
-        - Temple de l'Eau -
+          - Water Temple -
 
-Link fait face ici à son futur plus
-grand traumatisme... et bientôt
-le votre, possiblement.
-Restez concentré, prenez des
-notes et ne pétez pas les plombs.
-Tout devrait bien se passer.
-Difficulté: 8/10
-Objectif: Terminer le Donjon
-Conseil: Bonne chance
+Link faces here his future biggest
+trauma... and soon
+yours, possibly.
+Stay focused, take notes, and don't
+lose your mind. Everything
+should be fine.
+Difficulty: 8/10
+Objective: Complete the Dungeon
+Tip: Good luck
 
 ]],
 }
@@ -1604,8 +1589,8 @@ dialog{
   id = "_1st_shield",
   skip = "current",
   text = [[
-Te retrouver muni d'un Bouclier
-augmente ta Défense !
+Finding yourself equipped with a
+Shield increases your Defense !
 ]],
 }
 
@@ -1613,8 +1598,8 @@ dialog{
   id = "_cant_teleport",
   skip = "all",
   text = [[
-Tu dois être en extérieur
-si tu désires te téléporter.
+You must be outdoors
+if you want to teleport.
 ]],
 }
 
@@ -1622,8 +1607,8 @@ dialog{
   id = "_crystal",
   skip = "all",
   text = [[
-C'est un interrupteur de cristal. 
-Frappe-le avec quelque chose...
+It's a crystal switch.
+Hit it with something...
 ]],
 }
 
@@ -1631,8 +1616,8 @@ dialog{
   id = "_empty_chest",
   skip = "all",
   text = [[
-Ce coffre est vide ! $0
-Tant pis pour toi !
+This chest is empty ! $0
+Too bad for you !
 ]],
 }
 
@@ -1640,11 +1625,11 @@ dialog{
   id = "_key_item_already_taken",
   skip = "all",
   text = [[
-Tu as déjà trouvé l'objet
-qui reposait au fond
-de ce Donjon...
-Tu n'as donc plus rien
-à faire ici !
+You have already found the item
+that rested at the bottom
+of this Dungeon...
+So you have nothing
+more to do here !
 ]],
 }
 
@@ -1652,9 +1637,9 @@ dialog{
   id = "_key_item_already_taken_vire",
   skip = "all",
   text = [[
-La Perle de Din devait 
-se trouver ici avant d'être
-subtilisée par Vire...
+Din's Pearl was supposed 
+to be here before being
+stolen by Vire...
 ]],
 }
 
@@ -1662,9 +1647,8 @@ dialog{
   id = "_need_magic",
   skip = "all",
   text = [[
-Tu es a court de pouvoirs
-magiques ! Tu ne peux pas 
-utiliser cet objet maintenant !
+You're out of magic powers !
+You can't use this item right now !
 ]],
 }
 
@@ -1672,9 +1656,8 @@ dialog{
   id = "_no_empty_bottle",
   skip = "all",
   text = [[
-Tu n'as pas de Bouteille vide !
-Par conséquent, tu ne peux
-pas en transporter !
+You don't have an empty Bottle !
+Therefore, you can't carry it !
 ]],
 }
 
@@ -1683,20 +1666,20 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Voulez-vous continuer la partie ?
-Oui
-Non
+Do you want to continue the game ?
+Yes
+No
 ]],
 }
 
 dialog{
   id = "_razer.1",
   text = [[
-Tiens donc... Surprenant. Je ne
-m'attendais pas à croiser quelqu'un
-comme toi ici.
-Tu ressembles à un certain Link,
-je me trompe ?
+Well, well... Surprising. I didn't
+expect to come across someone
+like you here.
+You resemble a certain Link,
+am I wrong ?
 ...
 ]],
 }
@@ -1704,12 +1687,11 @@ je me trompe ?
 dialog{
   id = "_razer.2",
   text = [[
-Shishi... Je ne suis pas déçu
-d'avoir atterri ici ! Que dirais-tu
-d'un combat de l'ombre, Link ?
-Tu me serviras de camarade de
-jeu le temps que mon heure soit
-venue d'affronter mon double.
+Shishi... I'm not disappointed
+to have landed here ! How about
+a shadowy battle, Link ?
+You'll serve as my playmate until
+my time comes to face my double.
 ]],
 }
 
@@ -1718,9 +1700,9 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Voulez-vous sauvegarder ?
-Oui
-Non
+Do you want to save ?
+Yes
+No
 ]],
 }
 
@@ -1728,9 +1710,9 @@ dialog{
   id = "_shield_burn",
   skip = "current",
   text = [[
-Ton Bouclier a pris feu !
-Tu devrais en retrouver
-un au plus vite...
+Your Shield caught fire !
+You should find
+a new one quickly...
 ]],
 }
 
@@ -1738,7 +1720,7 @@ dialog{
   id = "_shop.amount_full",
   skip = "current",
   text = [[
-Tu es déjà au maximum !
+You are already at the maximum !
 ]],
 }
 
@@ -1746,9 +1728,9 @@ dialog{
   id = "_shop.no_empty_bottle",
   skip = "current",
   text = [[
-Tu n'as pas de Bouteille vide !
-Je ne peux donc pas t'en vendre...
-Reviens avec une Bouteille vide.
+You don't have an empty Bottle !
+So I can't sell you any...
+Come back with an empty bottle.
 ]],
 }
 
@@ -1756,8 +1738,8 @@ dialog{
   id = "_shop.not_enough_money",
   skip = "current",
   text = [[
-Désolé, mais tu n'as
-pas assez d'argent !
+Sorry, but you don't have
+enough money !
 ]],
 }
 
@@ -1766,9 +1748,9 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Prix : $v Rubis.
-Acheter
-Ne pas acheter
+Price: $v Rupees.
+Buy
+Do not buy
 ]],
 }
 
@@ -1777,9 +1759,9 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Revenir à l'entrée du Donjon ?
-Oui
-Non
+Return to the Dungeon entrance ?
+Yes
+No
 ]],
 }
 
@@ -1788,12 +1770,12 @@ dialog{
   icon = "86",
   skip = "all",
   text = [[
-Tu as trouvé la Clé
-des Galeries bleue ! $0
+You found the blue
+Gallery Key ! $0
 
-Elle te permettra d'ouvrir 
-la porte des Galeries
-bleue de cet étage !
+It will allow you to open
+the blue Gallery door
+on this floor !
 ]],
 }
 
@@ -1802,12 +1784,12 @@ dialog{
   icon = "89",
   skip = "all",
   text = [[
-Tu as trouvé la Clé d'Or ! $0
+You found the Gold Key ! $0
 
 
-Tu peux maintenant ouvrir la
-porte à serrure dorée des
-lieux !
+You can now open the
+golden lock door in the
+area!
 ]],
 }
 
@@ -1816,14 +1798,14 @@ dialog{
   icon = "82",
   skip = "all",
   text = [[
-Tu as trouvé la Boussole ! $0
+You found the Compass ! $0
 
 
-Ta position ainsi que celle
-des coffres et de l'objet clé 
-du Donjon te sont révélées. 
-Ouvre la carte pour jeter 
-un oeil à tout ça !
+Your position as well as that
+of the chests and the key
+item of the Dungeon are
+revealed to you. Open the
+Map to take a look at it !
 ]],
 }
 
@@ -1832,12 +1814,12 @@ dialog{
   icon = "85",
   skip = "all",
   text = [[
-Tu as trouvé la Clé
-des Galeries verte ! $0
+You found the green
+Gallery Key ! $0
 
-Elle te permettra d'ouvrir 
-la porte des Galeries
-verte de cet étage !
+It will allow you to open
+the green Gallery door
+on this floor !
 ]],
 }
 
@@ -1846,23 +1828,20 @@ dialog{
   icon = "81",
   skip = "all",
   text = [[
-Tu as trouvé la Carte du
-Donjon ! $0
+You found the Dungeon
+Map ! $0
 
-Appuie sur A pour la
-consulter. (Cette touche
-peut être modifiée
-dans le Menu
-Commandes).
+Press A to consult it.
+(This key can be modified
+in the Commands Menu).
+You can now have access
+to the map of the area.
 
-Tu peux à présent avoir 
-accès à la carte des lieux. 
-
-Tu peux également passer 
-d'un étage à l'autre
-sur l'écran de carte. 
-Les pièces sombres sont 
-celles inexplorées pour le 
+You can also switch
+from one floor to another
+on the map screen.
+The dark rooms are
+those unexplored for the
 moment.
 ]],
 }
@@ -1872,12 +1851,12 @@ dialog{
   icon = "87",
   skip = "all",
   text = [[
-Tu as trouvé la  Clé
-des Galeries rouge ! $0
+You found the red
+Gallery Key ! $0
 
-Elle te permettra d'ouvrir 
-la porte des Galeries
-rouge de cet étage !
+It will allow you to open
+the red Gallery door
+on this floor !
 ]],
 }
 
@@ -1886,11 +1865,11 @@ dialog{
   icon = "80",
   skip = "all",
   text = [[
-Tu as obtenu une Petite 
-Clé !$0
+You obtained a Small
+Key ! $0
 
-Elle doit servir à ouvrir
-une porte dans cette zone...
+It should be used to open
+a door in this area...
 ]],
 }
 
@@ -1899,11 +1878,11 @@ dialog{
   icon = "80",
   skip = "all",
   text = [[
-Tu as obtenu une Petite 
-Clé !$0
+You obtained a Small
+Key ! $0
 
-Elle doit servir à ouvrir
-une porte dans cette zone...
+It should be used to open
+a door in this area...
 ]],
 }
 
@@ -1912,12 +1891,11 @@ dialog{
   icon = "83",
   skip = "all",
   text = [[
-Tu as trouvé un Bec de 
-Pierre ! $0
+You found a Stone Beak ! $0
 
-Tu peux maintenant aller 
-consulter les Statues de 
-Hibou des lieux.
+You can now go
+consult the Owl Statues in
+the area.
 ]],
 }
 
@@ -1926,14 +1904,14 @@ dialog{
   icon = "84",
   skip = "all",
   text = [[
-Tu as trouvé la  Clé
-des Galeries jaune ! $0
+You found the yellow
+Gallery Key ! $0
 
-Cette Clé appelée aussi
-Clé du Spoil te permettra
-d'ouvrir la mystérieuse
-porte des Galeries jaune
-de cet étage...
+This Key also called
+Spoil Key will allow you
+to open the mysterious
+yellow Gallery door
+on this floor...
 ]],
 }
 
@@ -1941,12 +1919,12 @@ dialog{
   id = "_treasure.equipment/bomb_bag.1",
   icon = "64",
   text = [[
-Tu as trouvé un Sac
-de Bombes !$0 
+You found a Bomb
+Bag! $0
 
-Il contient 20 Bombes.
-Assigne-les à une touche et 
-fais tout sauter !
+It contains 20 Bombs.
+Assign them to a key and
+blow everything up!
 ]],
 }
 
@@ -1954,12 +1932,11 @@ dialog{
   id = "_treasure.equipment/bomb_bag.2",
   icon = "65",
   text = [[
-Tu obtiens une
-Bombe d'or !$0
+You get a
+Gold Bomb! $0
 
-Elle te permettra de
-transporter 20 Bombes
-supplémentaires !
+It will allow you to
+carry 20 additional Bombs
 ]],
 }
 
@@ -1967,12 +1944,11 @@ dialog{
   id = "_treasure.equipment/bomb_bag.3",
   icon = "66",
   text = [[
-Tu obtiens une
-Bombe d'or !$0
+You get a
+Gold Bomb! $0
 
-Elle te permettra de
-transporter 20 Bombes
-supplémentaires !
+It will allow you to
+carry 20 additional Bombs
 ]],
 }
 
@@ -1980,12 +1956,12 @@ dialog{
   id = "_treasure.equipment/flippers.1",
   icon = "43",
   text = [[
-Tu as trouvé les
-Palmes !$0
+You found the
+Flippers! $0
 
-Tu peux désormais
-nager en eau
-profonde !
+You can now
+swim in deep
+water!
 ]],
 }
 
@@ -1994,19 +1970,19 @@ dialog{
   icon = "49",
   skip = "current",
   text = [[
-Tu reçois le Détecteur
-de Gemmes de Force !$0
+You receive the
+Strength Gem Detector! $0
 
-Grace à cet objet, tu pourras
-être informé de la présence
-de Gemmes dans une zone.
-En entrant dans un lieu, 
-tu entendras un son si des 
-Gemmes s'y trouvent.
-Dans un Donjon, le Détecteur
-fera un son si une Gemme
-est présente dans l'étage.
-C'est ça le progrès !
+Thanks to this object, you will be able
+to be informed of the presence
+of Gems in an area.
+Entering a location,
+you will hear a sound if
+Gems are there.
+In a Dungeon, the Detector
+will make a sound if a Gem
+is present on the floor.
+That's progress!
 ]],
 }
 
@@ -2014,13 +1990,13 @@ dialog{
   id = "_treasure.equipment/glove.1",
   icon = "40",
   text = [[
-Tu obtiens les Bracelets 
-de Force ! $0
+You get the Power
+Bracelets! $0
 
-Tu peux maintenant soulever
-des objets ! Approche-toi
-et appuie sur Action pour
-les soulever.
+You can now lift
+objects! Approach
+and press Action to
+lift them.
 ]],
 }
 
@@ -2028,13 +2004,13 @@ dialog{
   id = "_treasure.equipment/glove.2",
   icon = "41",
   text = [[
-Tu obtiens les Gants de 
-Puissance ! $0
+You get the Power
+Gloves! $0
 
-Tu peux maintenant soulever
-les pierres blanches ou
-autres objets qui étaient
-trop lourds pour toi !
+You can now lift
+white stones or
+other objects that were
+too heavy for you!
 ]],
 }
 
@@ -2042,12 +2018,12 @@ dialog{
   id = "_treasure.equipment/glove.3",
   icon = "42",
   text = [[
-Tu obtiens les Mouffles des
-Titans ! $0
+You get the Titan's
+Mitts! $0
 
-Tu peux maintenant soulever
-les pierres noires qu'il 
-t'était impossible d'ébranler !
+You can now lift
+black stones that
+you couldn't budge before!
 ]],
 }
 
@@ -2056,11 +2032,11 @@ dialog{
   icon = "45",
   skip = "current",
   text = [[
-Tu obtiens les bottes de
-Pégase ! $0
+You get the Pegasus
+Boots! $0
 
-Ces bottes te permettront 
-de filer comme le vent !
+These boots will allow you
+to dash like the wind!
 ]],
 }
 
@@ -2068,12 +2044,11 @@ dialog{
   id = "_treasure.equipment/quiver.2",
   icon = "68",
   text = [[
-Tu obtiens une
-Flèche d'or !$0
+You get a
+Gold Arrow! $0
 
-Elle te permettra de
-transporter 20 Flèches
-supplémentaires !
+It will allow you to
+carry 20 additional Arrows
 ]],
 }
 
@@ -2081,12 +2056,11 @@ dialog{
   id = "_treasure.equipment/quiver.3",
   icon = "69",
   text = [[
-Tu obtiens une
-Flèche d'or !$0
+You get a
+Gold Arrow! $0
 
-Elle te permettra de
-transporter 20 Flèches
-supplémentaires !
+It will allow you to
+carry 20 additional Arrows
 ]],
 }
 
@@ -2095,14 +2069,14 @@ dialog{
   icon = "60",
   skip = "current",
   text = [[
-Tu as trouvé une Bourse ! $0
+You found a Bag! $0
 
 
-Tu peux maintenant 
-transporter des Rubis, la
-monnaie d'Hyrule.
-Mais attention, tu ne peux 
-en avoir que 99 au maximum...
+You can now
+carry Rupees, the
+currency of Hyrule.
+But be careful, you can only
+have up to 99...
 ]],
 }
 
@@ -2111,11 +2085,11 @@ dialog{
   icon = "61",
   skip = "current",
   text = [[
-Tu as trouvé la Grande
-Bourse de Rubis !$0
+You found the Big
+Ruby Bag! $0
 
-Elle peut contenir
-jusqu'à 500 Rubis !
+It can contain
+up to 500 Rupees!
 ]],
 }
 
@@ -2124,11 +2098,11 @@ dialog{
   icon = "62",
   skip = "current",
   text = [[
-Tu as trouvé la Bourse
-de Rubis géante !$0
+You found the Giant
+Ruby Bag! $0
 
-Elle peut contenir
-jusqu'à 999 rubis !
+It can contain
+up to 999 Rupees!
 ]],
 }
 
@@ -2137,11 +2111,11 @@ dialog{
   icon = "63",
   skip = "current",
   text = [[
-Tu as trouvé la Bourse
-Rubis sans fond !$0
+You found the Bottomless
+Ruby Bag! $0
 
-Elle peut contenir
-jusqu'à 9999 rubis !
+It can contain
+up to 9999 Rupees!
 ]],
 }
 
@@ -2150,12 +2124,12 @@ dialog{
   icon = "73",
   skip = "current",
   text = [[
-Tu obtiens un
-Bouclier !$0
+You get a
+Shield! $0
 
-Tu es protégé contre les
-projectiles ennemis comme
-les pierres ou les flèches.
+You are protected against
+enemy projectiles like
+rocks or arrows.
 ]],
 }
 
@@ -2164,11 +2138,11 @@ dialog{
   icon = "74",
   skip = "current",
   text = [[
-Tu obtiens le
-Bouclier Hylien !$0
+You get the
+Hylian Shield! $0
 
-Tu es désormais protégé 
-contre les attaques magiques.
+You are now protected
+against magical attacks.
 ]],
 }
 
@@ -2177,15 +2151,15 @@ dialog{
   icon = "75",
   skip = "current",
   text = [[
-Tu as trouvé le
-Bouclier Miroir !$0
+You found the
+Mirror Shield! $0
 
-Tu peux désormais
-contrer les lasers ou les
-sorts les plus puissants.
-La magie du bouclier 
-augmente également
-ta Défense !
+You can now
+counter lasers or
+the most powerful spells.
+The shield's magic
+also increases
+your Defense!
 ]],
 }
 
@@ -2193,21 +2167,20 @@ dialog{
   id = "_treasure.equipment/sword.1",
   icon = "76",
   text = [[
-Tu obtiens l'Epée Kokiri !$0
+You get the Kokiri Sword! $0
 
 
-Cette épée faite d'écorce 
-Mojo est un cadeau de 
-l'Ancien de la Forêt Kokiri.
-Appuie sur Attaque pour t'en
-servir et combattre tes
-ennemis. 
-Maintient Attaque enfoncé 
-pour charger ton épée et 
-relache le bouton après un
-certains temps pour faire
-une attaque circulaire
-dévastatrice !
+This sword made of
+Mojo bark is a gift from
+the Kokiri Forest Ancient.
+Press Attack to use it and fight your
+enemies.
+Hold Attack down
+to charge your sword and
+release the button after a
+certain time to perform
+a devastating circular
+attack!
 ]],
 }
 
@@ -2215,15 +2188,14 @@ dialog{
   id = "_treasure.equipment/sword.2",
   icon = "77",
   text = [[
-Tu obtiens l'Epée
-de Viscen !$0
-Ta Force augmente !
-Cette fine lame appartenait au
-Capitaine Viscen... et c'est
-à toi qu'il l'a confiée !
-Manie-la en mémoire du plus
-courageux Capitaine que le
-Royaume ait connu à ce jour !
+You get the
+Viscen Sword! $0
+Your Strength increases!
+This fine blade belonged to
+Captain Viscen... and it's
+you he entrusted it to!
+Wield it in Remembrance of the bravest
+Captain the Kingdom has ever known!
 ]],
 }
 
@@ -2231,12 +2203,12 @@ dialog{
   id = "_treasure.equipment/sword.3",
   icon = "78",
   text = [[
-Tu as trouvé
-l'Epée de Légende !$0
+You found
+the Legendary Sword! $0
 
-Cette Lame légendaire
-aurait le pouvoir de
-repousser le Mal !
+This Legendary Blade
+is said to have the power to
+repel Evil!
 ]],
 }
 
@@ -2244,12 +2216,12 @@ dialog{
   id = "_treasure.equipment/sword.4",
   icon = "79",
   text = [[
-Tu as fait forger 
-l'Epée de Légende !$0
+You had
+the Legendary Sword forged! $0
 
-La puissance de
-cette épée dépasse
-l'entendement...
+The power of
+this sword surpasses
+understanding...
 ]],
 }
 
@@ -2258,12 +2230,12 @@ dialog{
   icon = "48",
   skip = "current",
   text = [[
-Tu obtiens le Précis
-d'Escrime !$0
+You get the Fencing
+Manual! $0
 
-Tu peux désormais faire
-l'attaque tornade, technique
-des grands maîtres épéistes !
+You can now perform
+the whirlwind attack, a technique
+of the great swordmasters!
 ]],
 }
 
@@ -2272,11 +2244,10 @@ dialog{
   icon = "71",
   skip = "current",
   text = [[
-Tu as trouvé la Tunique
-bleue ! $0
+You found the Blue Tunic! $0
 
-Celle-ci augmente 
-ta défense.
+This increases
+your defense.
 ]],
 }
 
@@ -2285,11 +2256,10 @@ dialog{
   icon = "72",
   skip = "current",
   text = [[
-Tu as trouvé la Tunique
-rouge ! $0
+You found the Red Tunic! $0
 
-Celle-ci augmente 
-encore ta défense!
+This increases
+your defense even more!
 ]],
 }
 
@@ -2298,11 +2268,11 @@ dialog{
   icon = "46",
   skip = "current",
   text = [[
-Tu obtiens l'Ecaille
-Zora ! $0
+You get the
+Zora Scale! $0
 
-Tu peux à présent plonger
-dans les fonds marins !
+You can now dive
+into the depths of the sea!
 ]],
 }
 
@@ -2311,12 +2281,12 @@ dialog{
   icon = "47",
   skip = "current",
   text = [[
-Tu obtiens l'Ecaille 
-Zora d'or ! $0
+You get the
+Golden Zora Scale! $0
 
-Cette écaille très rare
-te permettra de rester
-sous l'eau plus longtemps.
+This very rare scale
+will allow you to stay
+underwater longer.
 ]],
 }
 
@@ -2324,12 +2294,12 @@ dialog{
   id = "_treasure.inventory/boomerang.1",
   icon = "3",
   text = [[
-Tu as obtenu un
+You obtained a
 Boomerang !$0
 
-Utilise-le pour immobiliser 
-des ennemis à distance ou 
-pour activer des mécanismes.
+Use it to immobilize
+enemies from a distance or
+to activate mechanisms.
 ]],
 }
 
@@ -2337,12 +2307,12 @@ dialog{
   id = "_treasure.inventory/boomerang.2",
   icon = "4",
   text = [[
-Tu as trouvé le
+You found the
 Super Boomerang !$0
 
-Il est plus rapide
-et va plus loin que
-le vieux !
+It is faster
+and goes farther than
+the old one!
 ]],
 }
 
@@ -2351,12 +2321,12 @@ dialog{
   icon = "10",
   skip = "current",
   text = [[
-Tu obtiens une Bouteille ! $0
+You obtained a Bottle ! $0
 
 
-Celle-ci te permettra de 
-stocker de nombreuses choses
-comme des potions ou des fées.
+This will allow you to
+store many things
+like potions or fairies.
 ]],
 }
 
@@ -2365,12 +2335,12 @@ dialog{
   icon = "11",
   skip = "current",
   text = [[
-Tu as rempli ta Bouteille
-avec de l'eau ! $0
+You filled your Bottle
+with water ! $0
 
-Tu peux l'utiliser pour la 
-verser sur quelque chose 
-ou la donner à quelqu'un.
+You can use it to
+pour on something
+or give it to someone.
 ]],
 }
 
@@ -2379,12 +2349,12 @@ dialog{
   icon = "10",
   skip = "current",
   text = [[
-Tu obtiens une Bouteille ! $0
+You obtained a Bottle ! $0
 
 
-Celle-ci te permettra de 
-stocker de nombreuses choses
-comme des potions ou des fées.
+This will allow you to
+store many things
+like potions or fairies.
 ]],
 }
 
@@ -2393,12 +2363,12 @@ dialog{
   icon = "11",
   skip = "current",
   text = [[
-Tu as rempli ta Bouteille
-avec de l'eau ! $0
+You filled your Bottle
+with water ! $0
 
-Tu peux l'utiliser pour la 
-verser sur quelque chose 
-ou la donner à quelqu'un.
+You can use it to
+pour on something
+or give it to someone.
 ]],
 }
 
@@ -2407,12 +2377,12 @@ dialog{
   icon = "10",
   skip = "current",
   text = [[
-Tu obtiens une Bouteille ! $0
+You obtained a Bottle ! $0
 
 
-Celle-ci te permettra de 
-stocker de nombreuses choses
-comme des potions ou des fées.
+This will allow you to
+store many things
+like potions or fairies.
 ]],
 }
 
@@ -2421,12 +2391,12 @@ dialog{
   icon = "11",
   skip = "current",
   text = [[
-Tu as rempli ta Bouteille
-avec de l'eau ! $0
+You filled your Bottle
+with water ! $0
 
-Tu peux l'utiliser pour la 
-verser sur quelque chose 
-ou la donner à quelqu'un.
+You can use it to
+pour on something
+or give it to someone.
 ]],
 }
 
@@ -2435,12 +2405,12 @@ dialog{
   icon = "10",
   skip = "current",
   text = [[
-Tu obtiens une Bouteille ! $0
+You obtained a Bottle ! $0
 
 
-Celle-ci te permettra de 
-stocker de nombreuses choses
-comme des potions ou des fées.
+This will allow you to
+store many things
+like potions or fairies.
 ]],
 }
 
@@ -2449,12 +2419,12 @@ dialog{
   icon = "11",
   skip = "current",
   text = [[
-Tu as rempli ta Bouteille
-avec de l'eau ! $0
+You filled your Bottle
+with water ! $0
 
-Tu peux l'utiliser pour la 
-verser sur quelque chose 
-ou la donner à quelqu'un.
+You can use it to
+pour on something
+or give it to someone.
 ]],
 }
 
@@ -2462,12 +2432,12 @@ dialog{
   id = "_treasure.inventory/bow.1",
   icon = "1",
   text = [[
-Tu as trouvé un Arc 
-et des flèches !$0
+You found a Bow 
+and arrows ! $0
 
-Tu peux maintenant vaincre
-les ennemis à distance et
-sans risque !
+Now you can defeat
+enemies from a distance
+and without risk !
 ]],
 }
 
@@ -2475,11 +2445,11 @@ dialog{
   id = "_treasure.inventory/bow_light.1",
   icon = "2",
   text = [[
-Tu obtiens les légendaires
-Flèches de Lumière !$0
+You obtained the legendary
+Light Arrows! $0
 
-Leur puissance légendaire
-transperce les Ténèbres !
+Their legendary power
+penetrates the Darkness!
 ]],
 }
 
@@ -2487,12 +2457,12 @@ dialog{
   id = "_treasure.inventory/cane_of_byrna.1",
   icon = "21",
   text = [[
-Tu as trouvé la Canne
-de Byrna ! $0
+You found the Cane
+of Byrna! $0
 
-Elle te restaurera toute ton
-énergie vitale moyennant
-de la magie.
+It will restore all your
+vital energy at the cost
+of some magic.
 ]],
 }
 
@@ -2500,11 +2470,11 @@ dialog{
   id = "_treasure.inventory/cane_of_somaria.1",
   icon = "20",
   text = [[
-Tu as trouvé la Canne
-de Somaria ! $0
+You found the Cane
+of Somaria! $0
 
-Elle te permettra d'invoquer
-des blocs devant toi.
+It will allow you to summon
+blocks in front of you.
 ]],
 }
 
@@ -2512,14 +2482,14 @@ dialog{
   id = "_treasure.inventory/echange.1",
   icon = "30",
   text = [[
-Tu obtiens un Bocal
-d'Epices ! $0
+You obtained a Jar
+of Spices! $0
 
-Sa couleur orange manquera
-à son propriétaire mais c'est
-un ingrédient essentiel à
-la Cuvée Romani... amenez-le
-vite au gérant du bar !
+Its orange color will be missed
+by its owner but it's
+an essential ingredient for
+Cuvée Romani... take it
+quickly to the bar manager!
 ]],
 }
 
@@ -2527,15 +2497,13 @@ dialog{
   id = "_treasure.inventory/echange.2",
   icon = "31",
   text = [[
-Tu obtiens un Flocon 
-de Sucre ! $0
+You obtained a Sugar Flake! $0
 
-Cela peut paraitre comme de
-la glace ordinaire mais elle
-possède un arome sucré.
-C'est un ingrédient qui donne
-tout son goût à la Cuvée 
-Romani. Amenez-le au bar !
+It may seem like ordinary ice
+but it has a sweet aroma.
+It's an ingredient that gives
+all its flavor to Cuvée
+Romani. Take it to the bar!
 ]],
 }
 
@@ -2543,14 +2511,13 @@ dialog{
   id = "_treasure.inventory/echange.3",
   icon = "32",
   text = [[
-Tu obtiens du Miel ! $0
+You obtained some Honey! $0
 
-
-Quelques gouttes suffiront
-à donner à la Cuvée Romani
-son goût irrésistible.
-Cela devrait être le dernier
-ingrédient pour la préparer !
+A few drops will be enough
+to give Cuvée Romani
+its irresistible taste.
+This should be the last
+ingredient to prepare it!
 ]],
 }
 
@@ -2558,12 +2525,12 @@ dialog{
   id = "_treasure.inventory/fire_rod.1",
   icon = "16",
   text = [[
-Tu obtiens la Baguette de
-Feu ! $0
+You obtained the Fire Rod ! $0
 
-Grâce à elle tu pourras
-allumer les torches à
-distance !
+
+Thanks to it, you can
+light torches from
+a distance !
 ]],
 }
 
@@ -2571,12 +2538,11 @@ dialog{
   id = "_treasure.inventory/hammer.1",
   icon = "9",
   text = [[
-Tu obtiens un Marteau ! $0
+You obtained a Hammer! $0
 
-
-Il te permettra d'enfoncer
-les pilones sur ta route et
-les interrupteurs rouillés !
+It will allow you to pound
+stakes in your way and
+rusty switches!
 ]],
 }
 
@@ -2584,12 +2550,12 @@ dialog{
   id = "_treasure.inventory/hookshot.1",
   icon = "6",
   text = [[
-Tu as trouvé le Grappin ! $0
+You found the Hookshot ! $0
 
 
-Il se détend et se contracte
-et te permettra de t'agripper
-à beaucoup de choses !
+It extends and contracts
+and will allow you to grab
+many things !
 ]],
 }
 
@@ -2597,11 +2563,11 @@ dialog{
   id = "_treasure.inventory/ice_rod.1",
   icon = "17",
   text = [[
-Tu obtiens la Baguette de
-Glace ! $0
+You obtained the Ice Rod ! $0
 
-Grâce à elle tu pourras
-éteindre les torches !
+
+Thanks to it, you can
+extinguish torches !
 ]],
 }
 
@@ -2609,14 +2575,14 @@ dialog{
   id = "_treasure.inventory/lamp.1",
   icon = "5",
   text = [[
-Tu obtiens une Lanterne !  $0
+You obtained a Lantern ! $0
 
 
-Elle te permettra de 
-t'éclairer dans l'obscurité
-et d'allumer les torches.
-Mais surveille ton
-énergie magique !
+It will allow you to
+light your way in darkness
+and light torches.
+But watch out ! It has
+a limited supply of oil.
 ]],
 }
 
@@ -2624,11 +2590,10 @@ dialog{
   id = "_treasure.inventory/magic_cape.1",
   icon = "8",
   text = [[
-Tu obtiens la Cape magique ! $0
+You obtain the Magic Cape ! $0
 
-
-Tu peux te rendre invincible
-tant que tu as de la magie !
+You can become invincible
+as long as you have magic !
 ]],
 }
 
@@ -2637,12 +2602,11 @@ dialog{
   icon = "18",
   skip = "current",
   text = [[
-Tu as trouvé un Champignon ! $0
+You found a Mushroom! $0
 
 
-Il a une odeur... spéciale.
-Peut-être que quelqu'un en
-a besoin ?
+It has a... special smell.
+Maybe someone needs it?
 ]],
 }
 
@@ -2650,12 +2614,12 @@ dialog{
   id = "_treasure.inventory/magic_powder.1",
   icon = "19",
   text = [[
-Tu obtiens de la
-Poudre magique ! $0
+You obtain Magic Powder ! $0
 
-Essaie de la saupoudrer
-sur toutes sortes de choses.
-Qui sait ce qui se passera !
+
+Try sprinkling it
+on all sorts of things.
+Who knows what will happen !
 ]],
 }
 
@@ -2663,35 +2627,35 @@ dialog{
   id = "_treasure.inventory/monicle_truth.1",
   icon = "22",
   text = [[
-Tu as trouvé le Monocle
-de Vérité ! $0
+You found the Monicle
+of Truth ! $0
 
-Il te permettra de discerner
-la Vérité et de voir au-delà
-des illusions.
+It will allow you to discern
+the Truth and see beyond
+illusions.
 ]],
 }
 
 dialog{
   id = "_treasure.other/ally_bomb.1",
   text = [[
-Ces Bombes sont parfaites !
-Pour les poser, il me suffit
-d'appuyer sur Objet 1.
-Attention à leur explosion
-dévastatrice cependant !
+These Bombs are perfect!
+To place them, all I have to do
+is press Item 1.
+But beware of their devastating
+explosion!
 ]],
 }
 
 dialog{
   id = "_treasure.other/ally_bomb_throw.1",
   text = [[
-J'ai trouvé les Gants de Puissance!
-Ils ont sans doute été volés
-au forgeron de Cocorico...
-Grace à ça, je vais pouvoir 
-lancer mes Bombes !
-Il suffit d'appuyer sur Objet 2.
+I found the Power Gloves!
+They were probably stolen
+from the blacksmith in Kakariko...
+With these, I'll be able to
+throw my Bombs!
+Just press Item 2.
 ]],
 }
 
@@ -2700,12 +2664,12 @@ dialog{
   icon = "14",
   skip = "current",
   text = [[
-Tu obtiens de la
-Potion bleue ! $0
+You obtain a
+Blue Potion ! $0
 
-Cette potion te restaurera
-toute ta magie et tes 
-coeurs si tu la bois.
+This potion will restore
+all your magic and
+hearts if you drink it.
 ]],
 }
 
@@ -2713,15 +2677,15 @@ dialog{
   id = "_treasure.other/chateau_romani.1",
   icon = "24",
   text = [[
-Tu obtiens de la Cuvée
-Romani ! $0
+You obtain Romani's
+Brew! $0
 
-Cette mixture unique très
-complexe à préparer est
-délicieuse et sait remettre
-d'aplomb n'importe qui en
-un clin d'oeil !
-N'en abusez pas cependant...
+This unique and very
+complex mixture to prepare is
+delicious and knows how to
+revive anyone in
+a blink of an eye!
+Don't abuse it though...
 ]],
 }
 
@@ -2730,12 +2694,12 @@ dialog{
   icon = "13",
   skip = "current",
   text = [[
-Tu obtiens de la
-Potion verte ! $0
+You obtain a
+Green Potion ! $0
 
-Cette potion te restaurera
-toute ta magie si tu
-la bois.
+This potion will restore
+all your magic if you
+drink it.
 ]],
 }
 
@@ -2744,15 +2708,12 @@ dialog{
   icon = "120",
   skip = "current",
   text = [[
-Tu obtiens la clé d'une
-chambre pour cette auberge ! $0
-
-Tu peux a présent te
-reposer dans cette auberge.
-
-Mais attention ! Tu perdras
-la clé en quittant 
-l'auberge.
+You obtain the Key to a
+Room in this Inn ! $0
+You can now rest in this Inn.
+But be careful ! You'll lose
+the Key when leaving
+the Inn.
 ]],
 }
 
@@ -2761,12 +2722,11 @@ dialog{
   icon = "23",
   skip = "current",
   text = [[
-Tu obtiens du Lait ! $0
+You obtain Milk! $0
 
-
-Ce breuvage très répandu
-en Hyrule te restaurera
-6 coeurs d'énergie vitale.
+This widely spread beverage
+in Hyrule will restore
+6 hearts of vital energy.
 ]],
 }
 
@@ -2775,12 +2735,12 @@ dialog{
   icon = "12",
   skip = "current",
   text = [[
-Tu obtiens de la
-Potion rouge ! $0
+You obtain a
+Red Potion ! $0
 
-Cette potion te restaurera
-tous tes coeurs si tu
-la bois.
+This potion will restore
+all your hearts if you
+drink it.
 ]],
 }
 
@@ -2790,8 +2750,8 @@ dialog{
   next = "_treasure.pickable/arrow.1.1",
   skip = "current",
   text = [[
-Tu as trouvé une
-flèche !$0
+You found an
+Arrow ! $0
 ]],
 }
 
@@ -2799,9 +2759,9 @@ dialog{
   id = "_treasure.pickable/arrow.1.1",
   skip = "current",
   text = [[
-Utilise l'arc et les flèches 
-pour vaincre des ennemis à
-distance et sans risque.
+Use the Bow and arrows
+to defeat enemies from
+afar and without risk.
 ]],
 }
 
@@ -2811,7 +2771,7 @@ dialog{
   next = "_treasure.pickable/arrow.1.1",
   skip = "current",
   text = [[
-Tu obtiens 5 flèches !$0
+You obtain 5 Arrows ! $0
 ]],
 }
 
@@ -2821,7 +2781,7 @@ dialog{
   next = "_treasure.pickable/arrow.1.1",
   skip = "current",
   text = [[
-Tu obtiens 10 flèches !$0
+You obtain 10 Arrows ! $0
 ]],
 }
 
@@ -2831,8 +2791,8 @@ dialog{
   next = "_treasure.pickable/arrow.1.1",
   skip = "current",
   text = [[
-Tu obtiens un lot de
-30 flèches !$0
+You obtain a bundle of
+30 Arrows ! $0
 ]],
 }
 
@@ -2842,8 +2802,8 @@ dialog{
   next = "_treasure.pickable/bomb.1.1",
   skip = "all",
   text = [[
-Tu as trouvé une
-bombe !$0
+You found a
+Bomb ! $0
 ]],
 }
 
@@ -2851,9 +2811,8 @@ dialog{
   id = "_treasure.pickable/bomb.1.1",
   skip = "current",
   text = [[
-Utilise une Bombe
-pour faire exploser
-un ennemi ou un obstacle.
+Use a Bomb to explode
+an enemy or an obstacle.
 ]],
 }
 
@@ -2863,7 +2822,7 @@ dialog{
   next = "_treasure.pickable/bomb.1.1",
   skip = "all",
   text = [[
-Tu obtiens 5 bombes !$0
+You obtain 5 Bombs ! $0
 ]],
 }
 
@@ -2873,7 +2832,7 @@ dialog{
   next = "_treasure.pickable/bomb.1.1",
   skip = "all",
   text = [[
-Tu obtiens 10 bombes !$0
+You obtain 10 Bombs ! $0
 ]],
 }
 
@@ -2883,8 +2842,8 @@ dialog{
   next = "_treasure.pickable/bomb.1.1",
   skip = "all",
   text = [[
-Tu obtiens un lot de
-20 bombes !$0
+You obtain a bundle of
+20 Bombs ! $0
 ]],
 }
 
@@ -2893,11 +2852,11 @@ dialog{
   icon = "96",
   skip = "current",
   text = [[
-Tu obtiens un Coeur de vie ! $0
+You obtain a Heart ! $0
 
 
-Ton énergie remonte
-d'un coeur !
+Your energy increases
+by one Heart !
 ]],
 }
 
@@ -2906,11 +2865,11 @@ dialog{
   icon = "90",
   skip = "current",
   text = [[
-Tu obtiens un Tas
-de 3 coeurs ! $0
+You obtain a Pile
+of 3 Hearts ! $0
 
-Ton énergie remonte de
-3 coeurs !
+Your energy increases by
+3 Hearts!
 ]],
 }
 
@@ -2919,11 +2878,11 @@ dialog{
   icon = "91",
   skip = "current",
   text = [[
-Tu obtiens une petite
-Fiole de magie !$0
+You obtain a small
+Magic Flask ! $0
 
-Ton énergie magique est
-restaurée en partie.
+Your magical energy is
+partially restored.
 ]],
 }
 
@@ -2932,12 +2891,11 @@ dialog{
   icon = "92",
   skip = "current",
   text = [[
-Tu obtiens une Grande
-Fiole de magie !$0
+You obtain a Large
+Magic Flask ! $0
 
-Ton énergie magique est
-restaurée en 
-grande partie !
+Your magical energy is
+restored in large amount !
 ]],
 }
 
@@ -2946,15 +2904,15 @@ dialog{
   icon = "110",
   skip = "current",
   text = [[
-Tu as trouvé
-un Rubis vert ! $0
+You found
+a Green Rupee ! $0
 
-Un Rubis vert vaut 
-1 Rubis vert !
+A Green Rupee is worth
+1 Green Rupee !
 
-Les Rubis sont la monnaie en
-Hyrule, essaie d'en collecter
-le plus possible !
+Rupees are the currency in
+Hyrule, try to collect
+as many as possible !
 ]],
 }
 
@@ -2963,12 +2921,12 @@ dialog{
   icon = "111",
   skip = "current",
   text = [[
-Tu as trouvé
-un Rubis bleu ! $0
+You found
+a Blue Rupee ! $0
 
-Un Rubis bleu vaut
-5 Rubis verts !
-C'est bien !
+A Blue Rupee is worth
+5 Green Rupees !
+Well done !
 ]],
 }
 
@@ -2977,12 +2935,12 @@ dialog{
   icon = "112",
   skip = "current",
   text = [[
-Tu as trouvé
-un Rubis rouge ! $0
+You found
+a Red Rupee ! $0
 
-Un Rubis rouge vaut 
-20 Rubis verts !
-C'est joli !
+A Red Rupee is worth
+20 Green Rupees !
+That's nice !
 ]],
 }
 
@@ -2991,12 +2949,12 @@ dialog{
   icon = "113",
   skip = "current",
   text = [[
-Tu as trouvé
-un Rubis violet ! $0
+You found
+a Purple Rupee ! $0
 
-Un Rubis violet vaut
-50 Rubis verts !
-C'est super !
+A Purple Rupee is worth
+50 Green Rupees !
+That's awesome !
 ]],
 }
 
@@ -3005,12 +2963,12 @@ dialog{
   icon = "114",
   skip = "current",
   text = [[
-Tu as trouvé
-un Rubis orange ! $0
+You found
+an Orange Rupee ! $0
 
-Un Rubis orange vaut
-100 Rubis verts !
-C'est grandiose !
+An Orange Rupee is worth
+100 Green Rupees !
+That's splendid !
 ]],
 }
 
@@ -3019,12 +2977,12 @@ dialog{
   icon = "115",
   skip = "current",
   text = [[
-Tu as trouvé
-un Rubis d'argent ! $0
+You found
+a Silver Rupee ! $0
 
-Un Rubis d'argent vaut
-200 Rubis verts !
-C'est épatant !
+A Silver Rupee is worth
+200 Green Rupees !
+That's amazing !
 ]],
 }
 
@@ -3033,12 +2991,12 @@ dialog{
   icon = "116",
   skip = "current",
   text = [[
-Tu as trouvé
-un Rubis doré ! $0
+You found
+a Gold Rupee ! $0
 
-Un Rubis doré vaut
-300 Rubis verts !
-C'est l'extase !
+A Gold Rupee is worth
+300 Green Rupees !
+That's ecstasy !
 ]],
 }
 
@@ -3047,11 +3005,11 @@ dialog{
   icon = "117",
   skip = "current",
   text = [[
-Tu as trouvé
-un Roupir ! $0
+You found
+a Rupoor ! $0
 
-Tu perds 50 Rubis !
-C'est dommage !
+You lose 50 Rupees !
+That's too bad !
 ]],
 }
 
@@ -3060,10 +3018,10 @@ dialog{
   icon = "98",
   skip = "current",
   text = [[
-Tu as obtiens un 
-Boost d'Attaque ! $0
+You obtained an
+Attack Boost ! $0
 
-Ton Attaque augmente de 1.
+Your Attack increases by 1.
 ]],
 }
 
@@ -3072,10 +3030,10 @@ dialog{
   icon = "97",
   skip = "current",
   text = [[
-Tu as obtiens un 
-Boost de Défense ! $0
+You obtained a
+Defense Boost ! $0
 
-Ta Défense augmente de 1.
+Your Defense increases by 1.
 ]],
 }
 
@@ -3083,15 +3041,14 @@ dialog{
   id = "_treasure.quest_items/din_pearl_1.1",
   icon = "132",
   text = [[
-Tu as obtenu la Perle
-de Din !$0
+You obtained Din's Pearl! $0
 
-En tout cas un de ses
-morceaux... Vire semble
-l'avoir brisée...
-Retourne voir la Princesse
-Zelda ! Elle saura peut-être
-quoi faire...
+At least one of its
+fragments... Vire seems to
+have broken it...
+Go see Princess
+Zelda again! Maybe she'll
+know what to do...
 ]],
 }
 
@@ -3100,17 +3057,17 @@ dialog{
   icon = "210",
   skip = "all",
   text = [[
-Tu as trouvé un fragment
-de Puissance de Fée !
+You found a Fairy
+Power Fragment !
 
-Ces cristaux mystérieux
-seraient des fragments du
-pouvoir des Grande Fées.
-Ils n'apparaissent que la 
-nuit et émettent une 
-lumière rosée.
-Essaie d'en trouver le
-plus possible !
+These mysterious crystals
+are fragments of the
+power of Great Fairies.
+They only appear at
+night and emit a
+rosy light.
+Try to find as many
+as possible !
 ]],
 }
 
@@ -3118,14 +3075,13 @@ dialog{
   id = "_treasure.quest_items/farore_pearl.1",
   icon = "130",
   text = [[
-Tu as obtenu la Perle
-de Farore !$0
+You obtained Farore's Pearl! $0
 
-Cette Perle étrange
-contient l'essence
-de la Terre.
-Retourne voir l'Ancien
-Kokiri !
+This strange Pearl
+contains the essence
+of Earth.
+Go see the Elder
+Kokiri again!
 ]],
 }
 
@@ -3134,12 +3090,12 @@ dialog{
   icon = "124",
   skip = "all",
   text = [[
-Tu as trouvé une Gemme de
-Gratitude errante ! $0
+You found a Wandering
+Gratitude Gem! $0
 
-Une force étrange en
-émane... essaie d'en
-trouver d'autres !
+A strange force emanates
+from it... try to find
+more!
 ]],
 }
 
@@ -3148,12 +3104,12 @@ dialog{
   icon = "124",
   skip = "current",
   text = [[
-La reconnaissance de cette
-personne t'emplit de
-Gemmes de Gratitude ! $0
-La Gratitude ressentie
-te donne 5 Gemmes
-supplémentaires.
+This person's gratitude
+fills you with
+Gratitude Gems! $0
+The felt Gratitude
+gives you 5 additional
+Gems.
 ]],
 }
 
@@ -3162,12 +3118,12 @@ dialog{
   icon = "124",
   skip = "current",
   text = [[
-La reconnaissance de cette
-personne t'emplit de
-Gemmes de Gratitude ! $0
-La Gratitude ressentie
-te donne 10 Gemmes
-supplémentaires.
+This person's gratitude
+fills you with
+Gratitude Gems! $0
+The felt Gratitude
+gives you 10 additional
+Gems.
 ]],
 }
 
@@ -3176,12 +3132,12 @@ dialog{
   icon = "124",
   skip = "current",
   text = [[
-La reconnaissance de cette
-personne t'emplit de
-Gemmes de Gratitude ! $0
-La Gratitude ressentie
-te donne 20 Gemmes
-supplémentaires.
+This person's gratitude
+fills you with
+Gratitude Gems! $0
+The felt Gratitude
+gives you 20 additional
+Gems.
 ]],
 }
 
@@ -3190,11 +3146,11 @@ dialog{
   icon = "129",
   skip = "current",
   text = [[
-Tu obtiens un Réceptacle
-de coeur ! $0
+You obtain a
+Heart Container ! $0
 
-Ton énergie vitale augmente
-d'un coeur !
+Your vital energy increases
+by one Heart !
 ]],
 }
 
@@ -3203,11 +3159,11 @@ dialog{
   icon = "93",
   skip = "current",
   text = [[
-Tu as trouvé une 
-Fiole de magie bleue ! $0
+You found a
+Blue Magic Flask ! $0
 
-Ta capacité magique
-augmente !
+Your magical capacity
+increases !
 ]],
 }
 
@@ -3215,15 +3171,14 @@ dialog{
   id = "_treasure.quest_items/nayru_pearl.1",
   icon = "131",
   text = [[
-Tu as obtenu la Perle
-de Nayru !$0
+You obtained Nayru's Pearl! $0
 
-Cette Perle étrange
-contient l'essence
-de l'Eau.
-Il ne reste plus qu'une
-Perle à trouver ! Tu devrais
-retourner voir Zelda...
+This strange Pearl
+contains the essence
+of Water.
+There's only one
+Pearl left to find! You should
+go see Zelda again...
 ]],
 }
 
@@ -3232,8 +3187,8 @@ dialog{
   icon = "125",
   skip = "current",
   text = [[
-Tu as trouvé un
-Quart de Coeur !$0
+You found a
+Heart Piece! $0
 ]],
 }
 
@@ -3242,15 +3197,14 @@ dialog{
   icon = "230",
   skip = "all",
   text = [[
-Tu as trouvé un Eclat
-de Souvenir !
+You found a Remembrance
+Shard !
 
-Ces éclats mystérieux ont été
-dispersés dans les Travaux
-de Zeldo...
-Tu en auras besoin pour
-matérialiser les Clés de
-Galerie.
+These mysterious shards were
+scattered in Zeldo's
+Labors...
+You'll need them to
+materialize Gallery Keys.
 ]],
 }
 
@@ -3259,12 +3213,11 @@ dialog{
   icon = "231",
   skip = "all",
   text = [[
-Tu as trouvé une Pierre
-de Souvenir !
+You found a Remembrance
+Stone !
 
-Cet artefact te donne 5
-Eclats de Souvenir
-supplémentaires.
+This artifact gives you 5
+additional Remembrance Shards.
 ]],
 }
 
@@ -3273,12 +3226,11 @@ dialog{
   icon = "232",
   skip = "all",
   text = [[
-Tu as trouvé une Gemme
-de Souvenir !
+You found a Remembrance
+Gem !
 
-Cet artefact te donne 10
-Eclats de Souvenir
-supplémentaires.
+This artifact gives you 10
+additional Remembrance Shards.
 ]],
 }
 
@@ -3287,12 +3239,11 @@ dialog{
   icon = "233",
   skip = "all",
   text = [[
-Tu as trouvé un Cristal
-de Souvenir !
+You found a Remembrance
+Crystal !
 
-Cet artefact te donne 25
-Eclats de Souvenir
-supplémentaires.
+This artifact gives you 25
+additional Remembrance Shards.
 ]],
 }
 
@@ -3301,20 +3252,18 @@ dialog{
   icon = "211",
   skip = "all",
   text = [[
-Tu as trouvé un Coquillage !
+You found a Seashell !
 
 
-Collectes-en beaucoup
-pour faire du troc...
+Collect plenty
+for trading...
 ]],
 }
 
 dialog{
   id = "_treasure.quest_items/triforce.1",
   text = [[
-Tu as trouvé la Triforce ! $0
-
-
+You found the Triforce! $0
 ]],
 }
 
@@ -3322,8 +3271,8 @@ dialog{
   id = "_treasure.quest_items/trophy.1",
   skip = "current",
   text = [[
-Tu as terminé ce Donjon !
-Bien joué !
+You completed this Dungeon !
+Well done !
 ]],
 }
 
@@ -3331,8 +3280,7 @@ dialog{
   id = "_treasure.song_1.1",
   icon = "30",
   text = [[
-Tu apprends la Berceuse
-de Zelda ! $0
+You learn Zelda's Lullaby ! $0
 ]],
 }
 
@@ -3341,14 +3289,13 @@ dialog{
   icon = "151",
   skip = "current",
   text = [[
-Tu as trouvé de la Gelée
-Chuchu bleue ! $0
+You found some Blue Chuchu Jelly! $0
 
-Ses propriétés magiques
-sont actuellement inconnues.
+Its magical properties
+are currently unknown.
 
-Essaie de l'amener à un
-spécialiste en potions.
+Try taking it to a
+potions specialist.
 ]],
 }
 
@@ -3357,15 +3304,13 @@ dialog{
   icon = "153",
   skip = "current",
   text = [[
-Tu as trouvé de la Gelée
-Chuchu verte ! $0
+You found some Green Chuchu Jelly! $0
 
-Elle est très riche en 
-composantes magiques 
-mais est inconsommable 
-telle quelle.
-Essaie de l'amener à un
-spécialiste en potions.
+It's very rich in magical
+components but is
+inedible as is.
+Try taking it to a
+potions specialist.
 ]],
 }
 
@@ -3374,15 +3319,13 @@ dialog{
   icon = "150",
   skip = "current",
   text = [[
-Tu as trouvé de la Gelée
-Chuchu rouge ! $0
+You found some Red Chuchu Jelly! $0
 
-Elle est très riche en 
-composantes revitalisantes 
-mais est inconsommable 
-telle quelle.
-Essaie de l'amener à un
-spécialiste en potions.
+It's very rich in
+revitalizing components
+but is inedible as is.
+Try taking it to a
+potions specialist.
 ]],
 }
 
@@ -3391,12 +3334,11 @@ dialog{
   icon = "154",
   skip = "current",
   text = [[
-Tu as trouvé un Pendentif
-du Bonheur ! $0
+You found a Joy Pendant! $0
 
-Il est dit que ces bijoux
-font le bonheur de leur
-propriétaire...
+It is said that these jewels
+bring happiness to their
+owner...
 ]],
 }
 
@@ -3405,12 +3347,11 @@ dialog{
   icon = "158",
   skip = "current",
   text = [[
-Tu as trouvé un Blason
-d'Epéiste !$0
+You found a Knight's Crest! $0
 
-Collectes-en assez et tu
-auras le potentiel de
-devenir Chevalier !
+Collect enough and you
+have the potential to
+become a Knight!
 ]],
 }
 
@@ -3419,10 +3360,9 @@ dialog{
   icon = "169",
   skip = "current",
   text = [[
-Tu as trouvé un Oeuf Chance !$0
+You found a Lucky Egg! $0
 
-
-Quel coup de... chance !
+What a stroke of... luck!
 ]],
 }
 
@@ -3431,12 +3371,11 @@ dialog{
   icon = "155",
   skip = "current",
   text = [[
-Tu as trouvé une Griffe
-de Monstre !$0
+You found a Monster Claw! $0
 
-Cette griffe acérée permet
-aux Zouras et aux Lizalfos
-entre autres de chasser...
+This sharp claw allows
+Zoras and Lizalfos
+among others to hunt...
 ]],
 }
 
@@ -3445,18 +3384,17 @@ dialog{
   icon = "50",
   skip = "current",
   text = [[
-Tu obtiens le Sac a Butins ! $0
+You obtain the Spoils Bag! $0
 
-
-Ce Sac te permettra de
-ranger les divers Butins
-laissés par les monstres...
-Pour l'ouvrir, sélectionne-le
-dans l'Inventaire et appuie
-sur Objet 1 ou 2.
-Tu pourras alors assigner
-un Butin pour le montrer
-autour de toi...
+This bag allows you to
+store the various spoils
+left by monsters...
+To open it, select it
+in the Inventory and press
+Item 1 or 2.
+You can then assign
+a spoil to show it
+around you...
 ]],
 }
 
@@ -3465,8 +3403,7 @@ dialog{
   icon = "190",
   skip = "all",
   text = [[
-Tu obtiens une Perle
-d'Ambre ! $0
+You obtain an Amber Pearl! $0
 ]],
 }
 
@@ -3475,15 +3412,14 @@ dialog{
   icon = "208",
   skip = "all",
   text = [[
-Tu obtiens un Minerai
-doré ! $0
+You obtain a Golden Ore! $0
 
-Ce matériau rarissime
-est utilisé en forge pour
-fabriquer les lames
-les plus puissantes.
-C'est en tout cas ce que
-dit le forgeron d'Hyrule...
+This extremely rare material
+is used in forging to
+make the most powerful
+blades.
+At least, that's what
+the Hyrule blacksmith says...
 ]],
 }
 
@@ -3491,7 +3427,7 @@ dialog{
   id = "_treasure.treasures/treasure_moon.1",
   icon = "209",
   text = [[
-Vous gagnez une Lune ! $0
+You gain a Moon! $0
 ]],
 }
 
@@ -3500,7 +3436,7 @@ dialog{
   icon = "170",
   skip = "current",
   text = [[
-Tu obtiens une Pomme ! $0
+You obtain an Apple! $0
 ]],
 }
 
@@ -3508,17 +3444,17 @@ dialog{
   id = "agahnim.1.escape",
   skip = "current",
   text = [[
-Grrr ! Bien joué ! Digne 
-du Héros que vous êtes !
+Grrr ! Well done ! Worthy
+of the Hero you are !
 
-Mais je n'ai pas l'intention
-de me faire vaincre !
+But I have no intention
+of being defeated !
 
-Je reviendrai, prends donc
-ce que ce Temple cache, il
-ne te servira à rien !
-Jamais tu ne perceras le secret
-de la Tour tant que je serai là.
+I will return, so take
+what this Temple hides, it
+will be no use to you !
+You will never uncover the secret
+of the Tower as long as I am here.
 Ah ah ah ah ah !
 ]],
 }
@@ -3527,15 +3463,15 @@ dialog{
   id = "agahnim.1.intro",
   skip = "current",
   text = [[
-Tiens tiens tiens...
-Voici le fameux Héros dont tout
-le monde parle. Link, c'est ca ?
-Je me nomme Agahnim, Sage
-au service d'Hyrule, mais surtout
-au service de sa destruction !
-Tu n'as pas besoin d'en savoir
-plus car tes jours s'arrêtent
-aujourd'hui. En garde !
+Well, well, well...
+Here is the famous Hero
+everyone talks about. Link, right ?
+I am Agahnim, Sage
+in service of Hyrule, but mostly
+in service of its destruction !
+You don't need to know more
+because your days end
+today. En garde !
 ]],
 }
 
@@ -3544,13 +3480,13 @@ dialog{
   skip = "current",
   text = [[
 $1Argh...$0
-Bien joué...$0
+Well done...$0
 . . .$0
-$3Je n'ai cependant pas dit
-mon dernier mot. En garde !$0
-Venez à moi, clones !
-Détruisez cet effronté !$0
-Adieu Link...$0
+$3However, I have not said
+my last word. En garde !$0
+Come to me, clones !
+Destroy this impudent one !$0
+Farewell, Link...$0
 Ah ah ah ah ah !
 ]],
 }
@@ -3559,9 +3495,9 @@ dialog{
   id = "agahnim.3.intro",
   skip = "current",
   text = [[
-La vue sur le Royaume est
-magnifique d'ici, ne trouves-tu
-pas, Link ?
+The view of the Kingdom is
+beautiful from here, don't
+you think, Link ?
 ]],
 }
 
@@ -3569,18 +3505,18 @@ dialog{
   id = "agahnim.3.intro_2",
   skip = "current",
   text = [[
-Longtemps j'ai servi Hyrule,
-dans l'Ombre. Depuis toujours,
-les Ombres vivent à l'écart.
-Mais maintenant ce temps
-est révolu ! Grâce aux Tablettes,
-je percerai enfin le secret de
-la Tour et la Triforce sera à moi !
-Il ne me reste donc qu'une chose
-à faire... Link.
-Je vais t'anéantir, ici même et
-batir un nouveau futur pour Hyrule,
-sous les Ombres ! Ah ah ah ah ah !
+For a long time I have served
+Hyrule, in the Shadows. Since
+forever, the Shadows lived apart.
+But now that time is over ! Thanks
+to the Tablets, I will finally
+uncover the secret of the Tower
+and the Triforce will be mine !
+So there's only one thing left
+to do... Link.
+I will annihilate you, right here
+and build a new future for Hyrule,
+under the Shadows ! Ah ah ah ah !
 ]],
 }
 
@@ -3588,51 +3524,24 @@ dialog{
   id = "antiquarian.1st_time",
   skip = "current",
   text = [[
-Ca alors comment on se retrouve
-Link ! Comment tu ne te souviens
-pas de moi ?
-C'est moi, l'Antiquaire qui
-parcourt le monde à la recherche
-de nouveaux trésors.
-J'ai entendu dire que moult
-trésors reposaient en Hyrule, je
-suis donc ici.
-Quoi ? Mon utilité ? Je vais
-vraiment devoir tout te rappeler
-alors !
-En tant qu'Antiquaire, je cherche
-des trésors, tout comme toi. 
-Tu peux donc me présenter les 
-trésors que tu as trouvés lors de 
-ta quête. Si l'objet me semble 
-intéressant, je te le rachèterai.
-Cela te permettra non seulement
-de te débarasser de ces trésors
-que tu juges trop encombrants
-mais aussi à ma collection de
-s'aggrandir! Eh eh eh...
-
-Me revendre un trésor a également
-un autre avantage: chaque trésor
-que tu me vendras sera en vente
-dans ma boutique unique !
-
-
-Cependant je te préviens que je
-prendrai 25 pourcents de
-bénéfices sur chaque trésor que
-tu me rachèteras, je reste un
-commerçant avant tout...
-
-J'espère que tu n'oublieras pas
-cette fois-ci ! Alors, as-tu un
-trésor pour moi ?
-Pour me présenter un trésor,
-assigne-le à une touche et appuie
-sur cette touche devant moi.
-J'espère que tu as des articles
-intéressants... je te ferai un
-bon prix, c'est promis...
+    Well, well, well, if it isn't Link! How could you forget me?
+    It's me, the Antiquarian who travels the world in search of new treasures.
+    I heard that many treasures were resting in Hyrule, so here I am.
+    What? My usefulness? Do I really have to remind you of everything?
+    As an Antiquarian, I search for treasures, just like you.
+    So, you can show me the treasures you've found on your quest.
+    If the item seems interesting to me, I'll buy it from you.
+    This will not only allow you to get rid of those treasures
+    that you find too cumbersome but also to expand my collection!
+    Selling me a treasure also has another advantage:
+    every treasure you sell me will be for sale in my unique shop!
+    However, I must warn you that I will take 25 percent of
+    the profits on each treasure you sell to me; after all, I am a merchant...
+    I hope you won't forget this time! So, do you have a treasure for me?
+    To show me a treasure, assign it to a key and press
+    that key in front of me.
+    I hope you have some interesting items... I'll give you a good price, I promise...
+  
 ]],
 }
 
@@ -3640,8 +3549,8 @@ dialog{
   id = "antiquarian.amount_big_resell",
   skip = "current",
   text = [[
-Pas mal ! Je te reprend cet
-article pour $v rubis.
+    Not bad! I'll buy this item back from you for $v rupees.
+  
 ]],
 }
 
@@ -3649,8 +3558,9 @@ dialog{
   id = "antiquarian.amount_bigger_resell",
   skip = "current",
   text = [[
-Mais... ou as-tu trouvé ceci ?
-Cela vaut au bas mot $v rubis !
+    But... where did you find this?
+    This is easily worth $v rupees at least!
+  
 ]],
 }
 
@@ -3658,8 +3568,9 @@ dialog{
   id = "antiquarian.amount_normal_resell",
   skip = "current",
   text = [[
-Une belle pièce !
-Je te la rachète pour $v rubis.
+    A fine piece!
+    I'll buy it back from you for $v rupees.
+  
 ]],
 }
 
@@ -3667,8 +3578,9 @@ dialog{
   id = "antiquarian.amount_small_resell",
   skip = "current",
   text = [[
-Ca ne vaut pas plus de $v rubis
-et encore je suis généreux...
+    It's not worth more than $v rupees,
+    and even that's generous...
+  
 ]],
 }
 
@@ -3676,9 +3588,10 @@ dialog{
   id = "antiquarian.amount_very_small_resell",
   skip = "current",
   text = [[
-Mais quelle est cette...
-Je te l'achète $v rubis mais
-seulement parce que c'est toi !
+    What's this...
+    I'll buy it for $v rupees, but
+    only because it's you!
+  
 ]],
 }
 
@@ -3686,9 +3599,10 @@ dialog{
   id = "antiquarian.cant_resell",
   skip = "current",
   text = [[
-Je ne peux pas t'acheter ceci !
-Tu n'as rien d'autre 
-à me montrer ?
+    I can't buy this from you!
+    Don't you have anything else
+    to show me?
+  
 ]],
 }
 
@@ -3697,9 +3611,10 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Ceci te convient-il ?
-Oui
-Non
+    Does this suit you?
+    Yes
+    No
+  
 ]],
 }
 
@@ -3707,7 +3622,8 @@ dialog{
   id = "antiquarian.reflexion",
   skip = "current",
   text = [[
-Mmh... voyons voir...
+    Hm... let me think...
+  
 ]],
 }
 
@@ -3715,9 +3631,9 @@ dialog{
   id = "antiquarian.resale_no",
   skip = "current",
   text = [[
-Non ? Je ne te le prendrai pas
-pour plus cher sache-le !
-As-tu autre chose à me montrer ?
+    No? Then I won't buy it for any more, understand!
+    Do you have something else to show me?
+  
 ]],
 }
 
@@ -3725,8 +3641,9 @@ dialog{
   id = "antiquarian.resale_yes",
   skip = "current",
   text = [[
-Merci beaucoup !
-Eh eh eh...
+    Thank you very much!
+    Heh heh heh...
+  
 ]],
 }
 
@@ -3734,12 +3651,11 @@ dialog{
   id = "antiquarian.welcome",
   skip = "current",
   text = [[
-Ah te revoilà ! As-tu un trésor
-que tu voudrais me montrer ?
-Je te ferai un bon prix.
-Pour me montrer un trésor, il 
-faut que tu appuies sur la touche 
-à laquelle tu l'as assigné !
+    Ah, there you are again! Do you have a treasure
+    you'd like to show me? I'll give you a good price.
+    To show me a treasure, you need to press
+    the key to which you assigned it!
+  
 ]],
 }
 
@@ -3747,9 +3663,9 @@ dialog{
   id = "ayttp.sanctuary.library_A_book",
   skip = "current",
   text = [[
-C'est le rayon des A.
-Tous les livres y sont
-parfaitement rangés.
+This is the A section.
+All the books are
+perfectly arranged here.
 ]],
 }
 
@@ -3757,8 +3673,8 @@ dialog{
   id = "ayttp.sanctuary.library_A_no_book",
   skip = "current",
   text = [[
-C'est le rayon des A.
-Il n'y a pas tous les livres.
+This is the A section.
+Not all the books are here.
 ]],
 }
 
@@ -3766,9 +3682,9 @@ dialog{
   id = "ayttp.sanctuary.library_A_range",
   skip = "current",
   text = [[
-C'est le rayon des A.
-Rangeons-y le Ansem:
-Biography of the Darkness.
+This is the A section.
+Let's put Ansem:
+Biography of the Darkness here.
 ]],
 }
 
@@ -3776,9 +3692,9 @@ dialog{
   id = "ayttp.sanctuary.library_M_book",
   skip = "current",
   text = [[
-C'est le rayon des M.
-Tous les livres y sont
-parfaitement rangés.
+This is the M section.
+All the books are
+perfectly arranged here.
 ]],
 }
 
@@ -3786,8 +3702,8 @@ dialog{
   id = "ayttp.sanctuary.library_M_no_book",
   skip = "current",
   text = [[
-C'est le rayon des M.
-Il n'y a pas tous les livres.
+This is the M section.
+Not all the books are here.
 ]],
 }
 
@@ -3795,9 +3711,9 @@ dialog{
   id = "ayttp.sanctuary.library_M_range",
   skip = "current",
   text = [[
-C'est le rayon des M.
-Rangeons-y le Mario
-Mania Volume 64.
+This is the M section.
+Let's put the Mario
+Mania Volume 64 here.
 ]],
 }
 
@@ -3805,9 +3721,9 @@ dialog{
   id = "ayttp.sanctuary.library_X_book",
   skip = "current",
   text = [[
-C'est le rayon des X.
-Tous les livres y sont
-parfaitement rangés.
+This is the X section.
+All the books are
+perfectly arranged here.
 ]],
 }
 
@@ -3815,8 +3731,8 @@ dialog{
   id = "ayttp.sanctuary.library_X_no_book",
   skip = "current",
   text = [[
-C'est le rayon des X.
-Il n'y a pas tous les livres.
+This is the X section.
+Not all the books are here.
 ]],
 }
 
@@ -3824,9 +3740,9 @@ dialog{
   id = "ayttp.sanctuary.library_X_range",
   skip = "current",
   text = [[
-C'est le rayon des X.
-Rangeons-y le Xar Saroth
-Chronicles.
+This is the X section.
+Let's put the Xar Saroth
+Chronicles here.
 ]],
 }
 
@@ -3834,9 +3750,9 @@ dialog{
   id = "ayttp.sanctuary.library_got_A",
   skip = "current",
   text = [[
-Tu as trouvé le Ansem:
+You found the Ansem:
 Biography of the Darkness !$0
-Il devrait être rangé...
+It should be shelved...
 ]],
 }
 
@@ -3844,9 +3760,9 @@ dialog{
   id = "ayttp.sanctuary.library_got_M",
   skip = "current",
   text = [[
-Tu as trouvé le Mario
+You found the Mario
 Mania Volume 64 !$0
-Il devrait être rangé...
+It should be shelved...
 ]],
 }
 
@@ -3854,9 +3770,9 @@ dialog{
   id = "ayttp.sanctuary.library_got_X",
   skip = "current",
   text = [[
-Tu as trouvé le Xar Saroth
+You found the Xar Saroth
 Chronicles !$0
-Il devrait être rangé...
+It should be shelved...
 ]],
 }
 
@@ -3864,15 +3780,13 @@ dialog{
   id = "bokoblin_king.1.before_khorneth",
   skip = "current",
   text = [[
-Encore toi ?
-Tu n'abandonnes donc
-jamais ou quoi ??
-Je vais te donner une bonne
-lecon ! Je te présente Khornet,
-notre animatronique Bokoblin.
-Il va te lapider et t'écraser !
-Tu n'as aucune chance face à lui !
-Ah ah ah ah ah !
+You again?
+You never give up, do you??
+I'll give you a good lesson! Let me introduce you to Khornet,
+our Bokoblin animatronic.
+He'll pummel and crush you!
+You stand no chance against him!
+Ah ah ah ah ah!
 ]],
 }
 
@@ -3880,11 +3794,11 @@ dialog{
   id = "bokoblin_king.1.escape",
   text = [[
 $2Argh... $0
-Pas mal pour un simple
-humain...$0
-Je n'ai pas le choix d'utiliser
-ma technique ultime... $0
-$3Retraite !
+Not bad for a mere
+human...$0
+I have no choice but to use
+my ultimate technique... $0
+$3Retreat!
 ]],
 }
 
@@ -3892,12 +3806,12 @@ dialog{
   id = "bokoblin_king.1.intro",
   skip = "current",
   text = [[
-Grrr... Comment as-tu pu trouver
-ta route dans les Bois Perdus ?
-Je vais m'occuper de ton cas !
-Je maitrise la fuite et l'attaque
-à revers, tiens-toi prêt...
-En garde !
+Grrr... How did you find
+your way into the Lost Woods?
+I'll take care of you!
+I master fleeing and attacking
+from behind, be ready...
+On guard!
 ]],
 }
 
@@ -3906,18 +3820,17 @@ dialog{
   skip = "all",
   text = [[
 
-       50 Nuances d'Orange
+       50 Shades of Orange
 
-L'orange est un champ chromatique
-de couleurs vives qui, sur le
-cercle chromatique, prennent
-place entre le rouge et le jaune.
-Les couleurs orangées sont des
-couleurs  chaudes: les couleurs
-chaudes se définissent par leur
-proximité avec l'orange. Elles sont
-considérées comme stimulantes
-et provocantes.
+Orange is a bright chromatic field
+of colors that, on the
+color wheel, fall
+between red and yellow.
+Orange colors are warm
+colors: warm colors are defined by their
+proximity to orange. They are
+considered stimulating
+and provocative.
 ]],
 }
 
@@ -3926,17 +3839,16 @@ dialog{
   skip = "all",
   text = [[
 
-   La Nécromancie pour les Nuls
+   Necromancy for Dummies
 
-Pour pratiquer l'art obscur de
-la Nécromancie il vous faut: une 
-pelle, un cadavre et un contenant.
-Nous vous recommandons de
-vivre près d'un cimetière pour
-faciliter vos recherches.
-Pour savoir quoi faire ensuite,
-procurez vous notre second tome:
-La Nécromancie pour les moins Nuls.
+To practice the dark art of
+Necromancy you need: a
+shovel, a corpse, and a container.
+We recommend living near
+a cemetery to facilitate your research.
+To know what to do next,
+get our second volume:
+Necromancy for the less Dummies.
 ]],
 }
 
@@ -3944,36 +3856,36 @@ dialog{
   id = "book.tips_rupees",
   skip = "all",
   text = [[
-Avez-vous de la difficulté à
-trouver des Rubis ?
-Ce Guide est pour vous !
-Dans un premier temps, il est
-essentiel d'ouvrir tous les coffres
-que le Monde renferme...
-Ceux-ci peuvent contenir
-beaucoup d'argent, surtout dans
-les Donjons.
-Les Villages sont également
-un endroit où il est aisé de
-trouver des Rubis.
-On peut même trouver des Rubis
-qui réapparaissent en boucle
-sous les vases.
-Enfin, il faut savoir que Seigneur
-Zeldo est un petit coquinou...
+Having trouble
+finding Rupees ?
+This Guide is for you !
+First and foremost, it's
+essential to open all chests
+that the World contains...
+These can contain
+a lot of money, especially in
+the Dungeons.
+Villages are also
+a place where it's easy to
+find Rupees.
+You can even find Rupees
+that respawn endlessly
+under the pots.
+Finally, it's worth knowing that
+Lord Zeldo is a little rascal...
 
-Il a effectivement planqué
-un Rubis d'argent dans chacune
-de ses Zones de Travaux,
-sauf dans les Temples du
-Feu et de l'Eau, car ceux-ci
-renferment des pièces secrètes.
-Ceux-ci sont cependant très
-bien cachés derrière des
-éléments du décor.
-Mais si vous les trouvez, vous
-aurez probablement assez
-de Rubis pour tout acheter !
+He actually hid
+a Silver Rupee in each
+of his Labor Zones,
+except in the Temples of
+Fire and Water, as those
+contain secret rooms.
+These are, however, very
+well hidden behind
+elements of the decor.
+But if you find them, you'll
+probably have enough
+Rupees to buy everything !
 ]],
 }
 
@@ -3981,41 +3893,40 @@ dialog{
   id = "book.tips_shards_tott",
   skip = "all",
   text = [[
-Avez-vous de la difficulté à
-trouver les Eclats de Souvenir ?
-Ce Guide est pour vous !
-Cette Vague de contenu
-renferme 100 Eclats de
-Souvenir.
-Voici dans un premier temps
-la liste des Eclats présents dans
-chaque Zone : 
-- Archipel d'Abuda : 15
-- Temple du Feu : 8
-- Chutes d'Hylia : 15
-- Temple de l'Eau : 25
-- Caverne gelée : 5
-- Tombe ancienne : 32
-Les Eclats (1) sont en général
-dans des coffres et les Pierres (5)
-sont dans des endroits cachés.
-Les Gemmes (10) et Cristaux (25)
-sont quant à eux laissés par
-les Boss présents dans les Zones.
-Il faut ensuite savoir que
-comme d'habitude dans
-les Créations de Zeldo,
-il y a une pièce secrète dans
-chaque Donjon présenté
-(Eau, Feu et Tombe).
-Celles-ci ne figurent pas sur
-la Carte mais sont déductibles
-suivant le patern du Donjon.
-Vous avez à présent en main
-toutes les clés pour trouver
-ces précieux Eclats.
-Au travail ! (Et n'oubliez pas de
-vous amuser...)
+Having trouble
+finding Remembrance Shards ?
+This Guide is for you !
+This wave of content
+contains 100 Remembrance
+Shards.
+Here is the list of Shards present
+in each Zone:
+
+- Abuda Archipelago: 15
+- Temple of Fire: 8
+- Hylia Falls: 15
+- Temple of Water: 25
+- Frozen Cave: 5
+- Ancient Catacomb: 32
+Shards (1) are generally
+in chests and Stones (5)
+are in hidden places.
+Gems (10) and Crystals
+(25) are left by the
+Bosses present in the Zones.
+It's then worth knowing that
+as usual in
+Zeldo's Creations,
+there's a secret room in
+each presented Dungeon
+(Water, Fire, and Tomb).
+These are not on
+the Map but can be deduced
+based on the Dungeon's pattern.
+You now have all the keys to find
+these precious Shards.
+Get to work! (And don't forget to
+have fun...)
 ]],
 }
 
@@ -4023,39 +3934,39 @@ dialog{
   id = "book.tuto.1",
   skip = "all",
   text = [[
-       Guide de l'Aventurier
-Chapitre 1: Commandes de base
+       Adventurer's Guide
+Chapter 1: Basic Controls
 
-Voici la liste des commandes
-possible à faire dans le jeu:
+Here's the list of possible commands
+to use in the game:
 
-- Action (Espace) permet diverses
-interractions (parler, courir,
-porter, nager, ...).
-- Rouler (Espace) permet de faire
-une roulade, ce qui vous permet
-de vous déplacer rapidement.
-- Attaque (C) permet d'attaquer 
-avec l'épée. En maintenant la
-touche, vous pourrez charger
-votre épée. Vous pourrez alors
-tapoter les murs ou effectuer une 
-attaque circulaire en relachant.
-- Objet 1/2 (X/V) permet
-d'utiliser un objet assigné
-à une de ces touches.
-- Pause (D) permet de mettre le
-jeu en pause et de naviguer entre
-les divers menus.
-- Sauvegarde (Echap) permet de
-sauvegarder la partie. Vous
-pourrez ensuite choisir de
-continuer ou non votre partie.
-N'oubliez pas que tout aventurier
-doit se reposer régulièrement !
-- Regarder autour (S) permet de
-regarder au-delà des limites
-de la caméra en la bougeant.
+- Action (Space) allows various
+interactions (talk, run,
+carry, swim, ...).
+- Roll (Space) allows you to do
+a roll, which allows you
+to move quickly.
+- Attack (C) allows you to attack
+with the sword. By holding the
+button, you can charge
+your sword. You can then
+tap walls or perform a
+circular attack by releasing.
+- Item 1/2 (X/V) allows you to
+use an item assigned
+to one of these keys.
+- Pause (D) allows you to put the
+game on pause and navigate between
+various menus.
+- Save (Escape) allows you to
+save the game. You
+can then choose to
+continue your game or not.
+Don't forget that every adventurer
+must rest regularly!
+- Look around (S) allows you to
+look beyond the limits
+of the camera by moving it.
 ]],
 }
 
@@ -4063,24 +3974,23 @@ dialog{
   id = "book.tuto.2",
   skip = "all",
   text = [[
-       Guide de l'Aventurier
-Chapitre 2: Les menus de pause:
-L'Inventaire
-En appuyant sur Pause, vous
-ouvrirez par défaut le menu
-de l'Inventaire.
-Ce Menu contient les objets
-assignables. Vous pouvez
-bouger votre curseur sur ces
-objets et décider de les utiliser
-en les assignant à Objet 1/2.
+       Adventurer's Guide
+Chapter 2: Pause Menus:
+Inventory
+By pressing Pause, you
+will open by default the
+Inventory menu.
+This menu contains assignable items.
+You can move your cursor to these
+items and decide to use them
+by assigning them to Item 1/2.
 
-Certains objets tels que les sacs
-s'ouvriront. Vous pourrez alors
-visionner leur contenu et
-assigner les objets les contenant
-pour les utiliser ou les montrer
-aux habitants du monde.
+Some items such as bags
+will open. You can then
+view their contents and
+assign the items containing
+them to use or show them
+to the inhabitants of the world.
 ]],
 }
 
@@ -4088,48 +3998,46 @@ dialog{
   id = "book.tuto.3",
   skip = "all",
   text = [[
-       Guide de l'Aventurier
-Chapitre 3: Les autres menus de
-pause
-L'Inventaire n'est pas le seul
-menu de pause. En allant à
-l'extrême gauche/droite avec
-votre curseur, vous pouvez
-basculer à d'autres menus.
+       Adventurer's Guide
+Chapter 3: Other pause menus
+The Inventory is not the only
+pause menu. By going to
+the extreme left/right with
+your cursor, you can
+switch to other menus.
 
-Sachez qu'il existe aussi des
-touches raccourci pour certains
+Know that there are also
+shortcut keys for some
 menus:
-- A ouvrira le menu Carte.
-- Q ouvrira le menu Commandes.
-Ces touches peuvent être modifiées.
-Le menu du Statut Quête contient
-diverses informations relatives
-à la progression de votre quête.
-Il y figure les objets de quête.
-Ils indiquent en général votre
-progression dans des quêtes
-diverses et  variées, principales
-ou annexes.
+- A will open the Map menu.
+- Q will open the Commands menu.
+These keys can be modified.
+The Quest Status menu contains
+various information regarding
+your quest progression.
+It includes quest items.
+They usually indicate your
+progression in various
+main or side quests.
 
-On peut également y consulter
-des statistiques relatives à la
-partie: Votre temps de jeu, 
-votre attaque/défense et votre
-nombre de morts.
+You can also consult
+statistics related to the
+game: Your playtime,
+your attack/defense, and your
+number of deaths.
 
-Le menu de Carte montrera la
-carte du monde et votre position si 
-vous êtes dans le monde extérieur.
-Si vous êtes dans un Donjon, il
-vous montrera la carte de la
-zone et les stats du Donjon.
-Un autre menu est le menu des
-Commandes. Il vous permettra
-de modifier les touches utilisées
-et même de jouer avec une manette
-(voir chapitre 5 pour plus de
-détails).
+The Map menu will show the
+world map and your position if
+you're in the outside world.
+If you're in a Dungeon, it
+will show you the area map and
+the Dungeon's stats.
+Another menu is the Commands
+menu. It will allow you
+to modify the keys used
+and even to play with a controller
+(see chapter 5 for more
+details).
 ]],
 }
 
@@ -4137,30 +4045,27 @@ dialog{
   id = "book.tuto.4",
   skip = "all",
   text = [[
-       Guide de l'Aventurier
-Chapitre 4: Le HUD
+       Adventurer's Guide
+Chapter 4: The HUD
 
-Le HUD ou l'interface de jeu
-présente moult informations.
+The HUD or game interface
+presents various information.
 
-En haut à gauche est indiquée la
-jauge de vie et en-dessous la
-jauge de magie.
-En haut a droite sont indiqués
-les objets assignés aux touches
-X et V, l'icone de l'épée
-ainsi que les actions possibles
-à faire si on appuie sur Action.
+In the top left is the
+health gauge and below it the
+magic gauge.
+In the top right are shown
+the items assigned to the X and V keys, the sword icon,
+and the possible actions
+to perform if you press Action.
 
-En bas à gauche est répertorié
-le nombre de rubis actuels
-ainsi que le nombre de petites
-clés si on se trouve dans un
-Donjon ou une zone contenant des
-petites clés.
-En bas à droite se trouve
-l'horloge. Celle-ci indique le
-cycle actuel du Temps.
+In the bottom left is listed
+the current number of Rupees
+and the number of small keys if
+you're in a Dungeon or an area containing small keys.
+In the bottom right is the
+clock. This indicates the
+current Time cycle.
 ]],
 }
 
@@ -4168,32 +4073,31 @@ dialog{
   id = "book.tuto.5",
   skip = "all",
   text = [[
-       Guide de l'Aventurier
-Chapitre 5: La customisation des
-commandes et support de manettes
-Le détail des commandes se trouve
-dans le menu Commandes.
+       Adventurer's Guide
+Chapter 5: Customizing
+commands and controller support
+The detail of the commands is found
+in the Commands menu.
 
-Nous n'allons pas les répéter ici
-mais vous indiquer qu'il est
-possible de les modifier.
-Pour ce faire, appuyez sur Action
-sur la commande souhaitée et
-appuyez sur la nouvelle touche.
-Bonne nouvelle pour les amateurs
-de gamepad: Il est possible de
-jouer avec une manette !
-Pour attribuer une action à une
-touche de manette, la méthode est 
-la même que citée précédemment.
-Cependant, il est important de
-signaler que toute customisation
-de touche est sauvegardée
-à chaque fichier de jeu
-uniquement. Si vous démarrez une
-nouvelle partie, vous devrez
-attribuer à nouveau vos touches
-personnelles de clavier/manette.
+We won't repeat them here
+but we'll tell you that it's
+possible to modify them.
+To do so, press Action
+on the desired command and
+press the new key.
+Good news for gamepad enthusiasts: It's possible to
+play with a controller!
+To assign an action to a
+controller button, the method is
+the same as mentioned earlier.
+However, it's important to
+note that any key customization
+is saved
+with each game file
+only. If you start a
+new game, you'll need to
+assign your keyboard/controller
+keys again.
 ]],
 }
 
@@ -4201,18 +4105,18 @@ dialog{
   id = "book.tuto.6",
   skip = "all",
   text = [[
-       Guide de l'Aventurier
-Chapitre 6: Remettre un objet
-à quelqu'un
-Pour remettre un objet, il ne
-suffit pas de parler à la personne
-concernée avec l'objet en poche.
-Il faut assigner l'objet et
-ensuite appuyer sur la touche
-assignée à côté de la personne.
-Cela semble anodin mais peut
-être contre instinctif pour
-certains !
+       Adventurer's Guide
+Chapter 6: Giving an item
+to someone
+To give an item, it's not
+enough to talk to the person
+with the item in your pocket.
+You must assign the item and
+then press the assigned key
+next to the person.
+This may seem trivial but can
+be counterintuitive for
+some!
 ]],
 }
 
@@ -4220,33 +4124,34 @@ dialog{
   id = "book.tuto.7",
   skip = "all",
   text = [[
-       Guide de l'Aventurier
-Chapitre 7: Le cycle jour/nuit
+       Adventurer's Guide
+Chapter 7: Day/night cycle
 
-Dans le monde, le Temps passe
-uniquement dans le monde
-extérieur et hors des villages.
-Il suffit de rester assez
-longtemps dans une même zone 
-jusqu'à entendre un effet sonore.
-Cela voudra dire que le temps
-a passé d'un cycle.
+In the world, Time passes
+only in the outside world
+and outside of villages.
+Just stay long enough
+in the same area until you hear
+a sound effect.
+This means that time has passed
+one cycle.
 
-Au prochain changement de zone,
-le Temps sera au cycle suivant.
+In the next zone change,
+Time will be in the next
+cycle.
 
-Le Temps est divisé en 6 cycles:
-2 pour le jour, 1 pour le soir,
-2 pour la nuit, 1 pour l'aube.
-Il est conseillé de visiter
-les zones et particulièrement
-les villages de jour et de nuit.
-Suivant le moment de la journée,
-divers événements peuvent se
-passer.
-Note supplémentaire: Dormir dans
-un lit fera passer directement
-au prochain cycle de jour/nuit.
+Time is divided into 6 cycles:
+2 for day, 1 for evening,
+2 for night, 1 for dawn.
+It's advisable to visit
+areas and especially
+villages during day and night.
+Depending on the time of day,
+various events can occur.
+Additional note: Sleeping in
+a bed will immediately
+advance to the next
+day/night cycle.
 ]],
 }
 
@@ -4254,20 +4159,20 @@ dialog{
   id = "book.tuto.8",
   skip = "all",
   text = [[
-       Guide de l'Aventurier
-Chapitre 8: Les pièces secrètes
+       Adventurer's Guide
+Chapter 8: Secret rooms
 
-Chaque Donjon dans le monde cache
-au moins une pièce secrète.
+Each Dungeon in the world hides
+at least one secret room.
 
-Ces pièces se trouvent derrière
-des murs qu'on peut traverser.
+These rooms are behind
+walls that you can pass through.
 
-Elles cachent en général
-de l'argent. Il existerait dans
-le monde une Loupe permettant
-de révéler la position de
-ces pièces secrètes.
+They usually hide
+money. There's allegedly
+a Magnifying Glass in the world
+that reveals the position of
+these secret rooms.
 ]],
 }
 
@@ -4275,9 +4180,9 @@ dialog{
   id = "chest_game.closed",
   skip = "current",
   text = [[
-Excuse-moi mais le Mini-jeu
-des Coffres est fermé pendant
-la nuit. Reviens me voir demain.
+Excuse me, but the Chest Mini-game
+is closed during the night. 
+Come back tomorrow.
 ]],
 }
 
@@ -4285,8 +4190,8 @@ dialog{
   id = "chest_game.finish",
   skip = "current",
   text = [[
-Le Mini-jeu est fini !
-Alors heureux ?
+The Mini-game is over!
+So, happy?
 ]],
 }
 
@@ -4294,9 +4199,9 @@ dialog{
   id = "chest_game.go_chest",
   skip = "current",
   text = [[
-Le Mini-jeu n'est pas
-fini tu sais...
-Qu'attends-tu ?
+The Mini-game isn't
+finished yet, you know...
+What are you waiting for?
 ]],
 }
 
@@ -4304,8 +4209,8 @@ dialog{
   id = "chest_game.not_enough_money",
   skip = "current",
   text = [[
-Désolé mais tu n'as pas
-assez d'argent !
+Sorry, but you don't have
+enough money!
 ]],
 }
 
@@ -4313,10 +4218,10 @@ dialog{
   id = "chest_game.not_opened_yet",
   skip = "current",
   text = [[
-Désolé mais je viens d'arriver 
-en ville et mon commerce 
-n'est pas encore prêt...
-Reviens plus tard !
+Sorry, but I just arrived 
+in town and my business 
+isn't ready yet...
+Come back later!
 ]],
 }
 
@@ -4324,8 +4229,8 @@ dialog{
   id = "chest_game.pay_first",
   skip = "current",
   text = [[
-Hé ! Ici il faut payer
-avant de jouer !
+Hey! You need to pay
+before playing!
 ]],
 }
 
@@ -4334,12 +4239,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Le Mini-jeu est fini !
-Tu peux retenter ta chance pour
-20 Rubis si tu le désires.
-Veux-tu rejouer ?
-Oui
-Non
+The Mini-game is over!
+You can try your luck again
+for 20 Rupees if you wish.
+Do you want to replay?
+Yes
+No
 ]],
 }
 
@@ -4348,15 +4253,15 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Bienvenue à toi, voici mon
-unique Mini-jeu des Coffres !
+Welcome, here's my
+unique Chest Mini-game!
 
-Les règles sont très simples:
-Tu paies 50 Rubis et tu peux
-ouvrir 3 Coffres...
-Alors ça te dit ?
-Oui
-Non
+The rules are very simple:
+You pay 50 Rupees and you can
+open 3 Chests...
+So, are you in?
+Yes
+No
 ]],
 }
 
@@ -4365,15 +4270,14 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Bienvenue à toi, je te
-présente le Mini-jeu
-des Coffres !
-Les règles sont très simples:
-Tu paies 20 Rubis et tu peux
-ouvrir 1 des 6 Coffres.
-Alors, ça te dit ?
-Oui
-Non
+Welcome, I present to you
+the Chest Mini-game!
+The rules are very simple:
+You pay 20 Rupees and you can
+open 1 of the 6 Chests.
+So, are you in?
+Yes
+No
 ]],
 }
 
@@ -4381,7 +4285,7 @@ dialog{
   id = "chest_game.thanks",
   skip = "current",
   text = [[
-Bonne chance !
+Good luck!
 ]],
 }
 
@@ -4389,9 +4293,9 @@ dialog{
   id = "destructible_cannot_lift_should_cut",
   skip = "all",
   text = [[
-Il te faudrait quelque
-chose de tranchant pour
-couper cet obstacle...
+You would need something
+sharp to cut through
+this obstacle...
 ]],
 }
 
@@ -4399,8 +4303,8 @@ dialog{
   id = "destructible_cannot_lift_still_too_heavy",
   skip = "all",
   text = [[
-C'est beaucoup trop
-lourd pour toi !
+It's way too
+heavy for you!
 ]],
 }
 
@@ -4408,12 +4312,12 @@ dialog{
   id = "destructible_cannot_lift_too_heavy",
   skip = "all",
   text = [[
-Oh la la, c'est
-bien trop lourd !
+Oh dear, it's
+way too heavy!
 
-Tu n'y arriveras jamais
-rien que par la force
-de tes bras !
+You'll never be able to
+move it just by the strength
+of your arms!
 ]],
 }
 
@@ -4421,9 +4325,9 @@ dialog{
   id = "door.block.locked",
   skip = "all",
   text = [[
-Ce bloc possede un trou de
-serrure. Si tu avais une petite
-clé, tu pourrais avancer !
+This block has a keyhole.
+If you had a Small
+Key, you could proceed !
 ]],
 }
 
@@ -4431,9 +4335,9 @@ dialog{
   id = "door.block.weaked",
   skip = "all",
   text = [[
-Ce bloc est fissuré... il
-serait sûrement destructible 
-avec une bombe...
+This block is cracked... it
+could probably be destroyed
+with a bomb...
 ]],
 }
 
@@ -4441,9 +4345,9 @@ dialog{
   id = "door.closed.1",
   skip = "all",
   text = [[
-Cette porte est fermée. Tu ne 
-peux pas l'ouvrir de tes 
-mains.
+This door is closed. You 
+can't open it with your 
+hands.
 ]],
 }
 
@@ -4451,9 +4355,9 @@ dialog{
   id = "door.closed.2",
   skip = "all",
   text = [[
-Cette porte est fermée a clé.
-Si tu avais une Petite Clé, tu
-pourrais l'ouvrir !
+This door is locked.
+If you had a Small Key, you
+could open it !
 ]],
 }
 
@@ -4461,9 +4365,9 @@ dialog{
   id = "door.closed.3",
   skip = "all",
   text = [[
-Cette porte possède un verrou
-spécial... seule une Clé d'Or
-te permettra de l'ouvrir...
+This door has a special lock...
+only a Gold Key
+will allow you to open it...
 ]],
 }
 
@@ -4471,9 +4375,9 @@ dialog{
   id = "door.closed.4",
   skip = "all",
   text = [[
-Cette porte possède un verrou
-jaune... seule une Clé jaune
-te permettra de l'ouvrir...
+This door has a yellow lock...
+only a Yellow Key
+will allow you to open it...
 ]],
 }
 
@@ -4481,9 +4385,9 @@ dialog{
   id = "door.closed.5",
   skip = "all",
   text = [[
-Cette porte possède un verrou
-bleu... seule une Clé bleue
-te permettra de l'ouvrir...
+This door has a blue lock...
+only a Blue Key
+will allow you to open it...
 ]],
 }
 
@@ -4491,9 +4395,9 @@ dialog{
   id = "door.closed.6",
   skip = "all",
   text = [[
-Cette porte possède un verrou
-rouge... seule une Clé rouge
-te permettra de l'ouvrir...
+This door has a red lock...
+only a Red Key
+will allow you to open it...
 ]],
 }
 
@@ -4501,9 +4405,9 @@ dialog{
   id = "door.closed.7",
   skip = "all",
   text = [[
-Cette porte possède un verrou
-vert... seule une Clé verte
-te permettra de l'ouvrir...
+This door has a green lock...
+only a Green Key
+will allow you to open it...
 ]],
 }
 
@@ -4511,9 +4415,9 @@ dialog{
   id = "door.closed.platinum",
   skip = "all",
   text = [[
-Seuls ceux qui obtiendront le
-Rang Platine verront un jour
-cette Porte s'ouvrir...
+Only those who achieve the
+Platinum Rank will ever see
+this door open...
 ]],
 }
 
@@ -4521,57 +4425,53 @@ dialog{
   id = "door.weak",
   skip = "all",
   text = [[
-Ce mur semble fissuré...
-peut-être qu'une explosion
-pourrait dévoiler un passage...
+This wall seems cracked...
+perhaps an explosion
+could reveal a passage...
 ]],
 }
 
 dialog{
   id = "end.end_beta",
   text = [[
-Bravo et merci encore pour avoir
-terminé cette version bêta de
+Congratulations and thank you again for
+completing this beta version of
 Forgotten Legend.
-N'hésitez pas à me laisser
-votre avis sur le contenu du jeu.
+Feel free to leave me
+your feedback on the game's content.
 
-Vos retours me permettront
-de créer une meilleure
-expérience de jeu pour vous.
-N'hésitez pas également à
-me suivre sur Twitch ou YouTube.
-Vous serez rapidement avisés
-du développement du projet
-et de l'arrivée d'une version
-future.
-Mon ambition finale est de créer
-un Zelda purement classique
-qui serait proche de ce que
-Nintendo en personne aurait
-pu sortir... je vise une vaste
-aventure comprenant plus de
-9 Donjons et une vingtaine
-d'heures de jeu.
+Your feedback will help me
+create a better gaming experience for you.
+Also, feel free to follow me on Twitch or YouTube.
+You will be quickly informed
+of the project's development
+and the arrival of a future version.
+My ultimate goal is to create
+a purely classic Zelda
+that would be close to what
+Nintendo themselves could
+have released... I aim for a vast
+adventure comprising more than
+9 Dungeons and about twenty
+hours of gameplay.
 
-Merci à vous de rendre ce rêve
-possible !
+Thank you for making this dream
+possible!
 
-Si vous souhaitez continuer à
-explorer le monde de Forgotten
-Legend, laissez-moi vous aider:
-Je vous offre un Ocarina et le
-Chant de l'Envol. Ils vous
-permettront de voyager rapidement.
-Sachez cependant que ces objets
-ne sont pas censés être obtenus 
-à ce stade du jeu et vous seront
-donc retirés pour les futures
-versions bêta...
+If you wish to continue exploring
+the world of Forgotten
+Legend, let me help you:
+I offer you an Ocarina and the
+Song of Soaring. They will
+allow you to travel quickly.
+However, know that these items
+are not supposed to be obtained 
+at this stage of the game and will be
+removed for future beta versions...
 
-Je crois que tout est dit. Merci
-de votre contribution et n'oubliez
-pas de me faire part de votre avis.
+I believe everything has been said. Thank
+you for your contribution and don't
+forget to share your feedback.
 
 :)
 ]],
@@ -4581,21 +4481,21 @@ dialog{
   id = "end.get_heroic_mode",
   skip = "current",
   text = [[
-Bravo et merci encore pour avoir
-terminé le jeu.
+Congratulations and thank you again for
+completing the game.
 
-Pour vous récompenser, voici un
-petit cadeau: le mode héroique !
+As a reward, here's a
+little gift: the heroic mode!
 
-Dans ce mode, les ennemis vous
-ingligeront deux fois plus
-de dommages.
-Lorsque vous recommencerez une
-nouvelle partie à l'avenir, vous
-pourrez choisir de jouer en
-mode héroique ou non.
-Bon amusement et bon courage si
-le challenge vous tente !
+In this mode, enemies will
+deal twice as much
+damage to you.
+When you start a
+new game in the future, you
+can choose to play in
+heroic mode or not.
+Have fun and good luck if
+you're up for the challenge!
 ]],
 }
 
@@ -4604,12 +4504,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Tu as trouvé une fée.
-Elle est merveilleuse !
+You found a fairy.
+She's wonderful !
 
-Que vas-tu en faire ?
-La mettre dans une Bouteille
-Utiliser ses soins
+What will you do with her ?
+Put her in a Bottle
+Use her healing
 ]],
 }
 
@@ -4617,9 +4517,9 @@ dialog{
   id = "found_fairy.no_empty_bottle",
   skip = "current",
   text = [[
-Tu n'as pas de Bouteille vide !
-Tu utilises par conséquent les
-soins de la fée directement.
+You don't have an empty Bottle !
+So you use the fairy's
+healing directly.
 ]],
 }
 
@@ -4628,9 +4528,9 @@ dialog{
   icon = "126",
   skip = "current",
   text = [[
-4 Quarts de Coeur forment
-un Réceptacle de Coeur.
-Encore 3 à trouver !
+4 Pieces of Heart make up
+a Heart Container.
+3 more to find !
 ]],
 }
 
@@ -4639,8 +4539,8 @@ dialog{
   icon = "127",
   skip = "current",
   text = [[
-Encore 2 et tu obtiendras
-un Coeur supplémentaire !
+2 more and you'll get
+an extra Heart !
 ]],
 }
 
@@ -4649,8 +4549,8 @@ dialog{
   icon = "128",
   skip = "current",
   text = [[
-Plus qu'un à trouver pour
-obtenir un nouveau Coeur !
+Just one more to find for
+a new Heart !
 ]],
 }
 
@@ -4659,11 +4559,11 @@ dialog{
   icon = "129",
   skip = "current",
   text = [[
-Les 4 Quarts de Coeur te
-donnent un Réceptacle de
-Coeur. 
-Ton énergie augmente
-d'un Coeur !
+The 4 Pieces of Heart give you
+a Heart Container.
+
+Your energy increases
+by one Heart !
 ]],
 }
 
@@ -4672,9 +4572,9 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Veux-tu prendre de l'eau ?
-Oui
-Non
+Do you want to take some water ?
+Yes
+No
 ]],
 }
 
@@ -4682,9 +4582,9 @@ dialog{
   id = "found_water.no_bottle",
   skip = "current",
   text = [[
-Tu peux prendre de l'eau ici mais
-tu n'as pas de récipient pour
-la transporter...
+You can take water here but
+you don't have a container to
+carry it...
 ]],
 }
 
@@ -4692,9 +4592,9 @@ dialog{
   id = "found_water.no_empty_bottle",
   skip = "current",
   text = [[
-Tu peux prendre de l'eau ici mais
-tu n'as pas de Bouteille vide
-pour la transporter...
+You can take water here but
+you don't have an empty Bottle
+to carry it...
 ]],
 }
 
@@ -6799,9 +6699,8 @@ dialog{
   id = "hyrule_city.soldiers.restricted_area",
   skip = "current",
   text = [[
-Halte ! Cette zone est strictement
-interdite !
-Circulez immédiatement !
+Halt ! This area is forbidden !
+Go away immediately !
 ]],
 }
 
@@ -6977,12 +6876,12 @@ dialog{
   id = "inn.answer_no",
   skip = "current",
   text = [[
-Très bien. Revenez me voir si
-vous changez d'avis.
+Very well. Come back to me if
+you change your mind.
 
-Si vous désirez me parler
-personnellement, faites le tour 
-du comptoir pour me rejoindre.
+If you want to talk to me
+personally, walk around 
+the counter to join me.
 ]],
 }
 
@@ -6990,8 +6889,9 @@ dialog{
   id = "inn.answer_yes",
   skip = "current",
   text = [[
-Merci Monsieur. Voici votre clé
-de chambre. Bon séjour !
+Thank you, Sir. Here is your
+Room Key.
+Enjoy your stay !
 ]],
 }
 
@@ -7000,12 +6900,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Souhaitez-vous vous reposer ?
-(cette action fera passer
-une demi journée)
-Dormir ?
-Oui
-Non
+Would you like to rest ?
+(this action will advance
+half a day)
+Sleep ?
+Yes
+No
 ]],
 }
 
@@ -7013,9 +6913,9 @@ dialog{
   id = "inn.exit_warning",
   skip = "current",
   text = [[
-Attention ! Tu perdras ta clé de
-chambre en sortant de l'auberge...
-N'oublie pas d'aller y dormir !
+Attention ! You will lose your
+Room Key when leaving the Inn...
+Don't forget to sleep here !
 ]],
 }
 
@@ -7023,7 +6923,7 @@ dialog{
   id = "inn.good_stay",
   skip = "current",
   text = [[
-Passez un bon séjour !
+Have a good stay !
 ]],
 }
 
@@ -7031,8 +6931,8 @@ dialog{
   id = "inn.need_inn_key",
   skip = "all",
   text = [[
-Il te faut une clé pour accéder
-à cette chambre et te reposer.
+You need a key to access
+this room and rest.
 ]],
 }
 
@@ -7040,8 +6940,8 @@ dialog{
   id = "inn.no_money",
   skip = "current",
   text = [[
-Désolé mais vous n'avez pas
-assez d'argent.
+Sorry, but you don't have
+enough money.
 ]],
 }
 
@@ -7049,9 +6949,9 @@ dialog{
   id = "inn.not_front_office",
   skip = "current",
   text = [[
-Si vous souhaitez me parler,
-veuillez aller de l'autre
-côté du comptoir.
+If you want to talk to me,
+please go to the other
+side of the counter.
 ]],
 }
 
@@ -7059,23 +6959,24 @@ dialog{
   id = "inn.not_good_room",
   skip = "current",
   text = [[
-Cette chambre semble déjà
-occupée...
+This room seems already
+occupied...
 ]],
 }
 
 dialog{
   id = "inn.npc",
+  skip = "current",
   text = [[
-Bienvenue à l'auberge. Si vous
-désirez réserver une chambre,
-allez de l'autre côté du comptoir.
-Moi ? Et bien je travaille ici
-depuis 5 ans et je n'avais pas
-de dialogue jusqu'à ce que
-Kakash essaie de m'adresser
-la parole. Comme quoi, lire et
-parler aux pnjs c'est important !
+Welcome to the Inn. If you
+wish to book a Room, go to
+the other side of the counter.
+Me ? Well, I've been working
+here for 5 years and I didn't
+have any dialogue until
+Kakash tried to talk to me.
+Shows that reading and
+talking to NPCs is important !
 ]],
 }
 
@@ -7084,12 +6985,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Bienvenue à l'auberge. Voulez-vous 
-vous reposer ? Une chambre vous 
-coutera $v Rubis.
-Séjourner ici ?
-Oui
-Non
+Welcome to the Inn. Do you want 
+to rest ? A Room will cost you 
+$v Rupees.
+Stay here ?
+Yes
+No
 ]],
 }
 
@@ -7098,45 +6999,41 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Bienvenue au Manoir de la 
-Citadelle, l'auberge 3 étoiles
-du Royaume !
-Voulez-vous vous reposer ? Nous
-avons un rabais pour un temps
-limité !
-Une chambre ne vous coùtera
-que $v Rubis. C'est une offre
-à ne pas rater !
-Séjourner ici ?
-Oui
-Non
+Welcome to the Castle Town Manor,
+the Kingdom's 3-star inn !
+Do you want to rest ? We have
+a discount for a limited time !
+A room will only cost you
+$v Rupees. It's an offer
+not to be missed !
+Stay here ?
+Yes
+No
 ]],
 }
 
 dialog{
   id = "intro.commands",
   text = [[
-Appuie sur Q pour avoir accès au
-Menu Commandes. Tu peux même y
-modifier les touches par défaut !
+Press Q to access the
+Commands Menu. You can even
+customize the default keys!
 ]],
 }
 
 dialog{
   id = "intro.fresco_1",
   text = [[
-Exemple d'intro
-possible pour
-un projet.
+Possible introduction
+example for a project.
 ]],
 }
 
 dialog{
   id = "intro.fresco_2",
   text = [[
-Exemple d'intro
-possible pour
-un projet.
+Possible introduction
+example for a project.
 ]],
 }
 
@@ -8462,22 +8359,10 @@ cette statue essaie de te dire !
 dialog{
   id = "razdarac",
   text = [[
-Je ne m'attendais pas à trouver
-quelqu'un ici. Comment es-tu arrivé
-dans ce monde incomplet ?
-Un esprit sommeille dans l'épée
-derrière moi. Il attend l'arrivée d'un
-Héros pour vaincre son double.
-Mais tu n'es pas le bon Link.
-L'épée attend un autre Héros.
-Ce n'est pas ton moment.
-... Hé hé. Mais qu'est ce que je fais ?
-Tu n'es pas dans le bon jeu !
-Je n'ai pas à m'embêter à t'expliquer
-quoi que ce soit. Moi, Razdarac, vais
-faire en sorte d'achever ce monde.
-Je m'en vais tout simplement !
-Adios, on se reverra peut-être.
+Blablabla, I'm Razdarac, I don't
+speak English. Sorry, but learn
+French to understand what I said.
+Gweh heh heh !
 ]],
 }
 
@@ -8486,12 +8371,12 @@ dialog{
   icon = "95",
   skip = "current",
   text = [[
-Un lot de Flèches.
+A pack of Arrows.
 
 
-Utilise-les pour
-éliminer tes ennemis
-de loin et sans risque !
+Use them to
+eliminate your enemies
+from afar and without risk !
 ]],
 }
 
@@ -8500,11 +8385,11 @@ dialog{
   icon = "98",
   skip = "current",
   text = [[
-Un Boost d'Attaque.
+An Attack Boost.
 
 
-Cette potion augmentera
-ton Attaque.
+This potion will increase
+your Attack.
 ]],
 }
 
@@ -8513,14 +8398,14 @@ dialog{
   icon = "14",
   skip = "current",
   text = [[
-Une Potion bleue.
+A Blue Potion.
 
 
-Ce breuvage restaurera à
-la fois ton énergie vitale
-et magique.
-N'en achète pas sans 
-bouteille vide !
+This elixir will restore both
+your vital and magic energy.
+
+Don't buy it without
+an empty bottle !
 ]],
 }
 
@@ -8529,11 +8414,11 @@ dialog{
   icon = "94",
   skip = "current",
   text = [[
-Un paquet de Bombes.
+A pack of Bombs.
 
 
-Utilise les pour tout
-faire sauter !
+Use them to blow
+everything up !
 ]],
 }
 
@@ -8542,11 +8427,11 @@ dialog{
   icon = "65",
   skip = "current",
   text = [[
-Une Bombe d'or.
+A Golden Bomb.
 
 
-Grace à elle, tu pourras
-transporter plus de Bombes.
+With it, you'll be able
+to carry more Bombs.
 ]],
 }
 
@@ -8555,12 +8440,12 @@ dialog{
   icon = "10",
   skip = "current",
   text = [[
-Une Bouteille vide.
+An Empty Bottle.
 
 
-Elle te permettra de stocker
-diverses choses comme
-des potions ou des fées.
+It will allow you to store
+various things like
+potions or fairies.
 ]],
 }
 
@@ -8569,11 +8454,11 @@ dialog{
   icon = "97",
   skip = "current",
   text = [[
-Un Boost de Défense.
+A Defense Boost.
 
 
-Cette potion augmentera
-ta Défense.
+This potion will increase
+your Defense.
 ]],
 }
 
@@ -8582,12 +8467,11 @@ dialog{
   icon = "41",
   skip = "current",
   text = [[
-Ca c'est mes Gants de
-Puissance.
+These are my Power Gloves.
 
-Tu pourras soulever et
-pitcher des cailloux avec
-ça !
+
+You'll be able to lift and
+throw rocks with them !
 ]],
 }
 
@@ -8596,12 +8480,12 @@ dialog{
   icon = "13",
   skip = "current",
   text = [[
-Une Potion verte.
+A Green Potion.
 
 
-Ce breuvage restaurera
-ton énergie magique. N'en
-achète pas sans bouteille !
+This elixir will restore
+your magic energy. Don't
+buy it without a bottle !
 ]],
 }
 
@@ -8610,12 +8494,11 @@ dialog{
   icon = "90",
   skip = "current",
   text = [[
-Un tas de 3 coeurs.
+A pile of 3 hearts.
 
 
-Il te restaurera une
-partie de ton énergie
-vitale.
+It will restore some
+of your vital energy.
 ]],
 }
 
@@ -8624,12 +8507,12 @@ dialog{
   icon = "92",
   skip = "current",
   text = [[
-Une grosse Flasque de magie
-verte.
+A large flask of green magic.
 
-Celle-ci te restaurera
-une grande partie de
-ta jauge de magie.
+
+This will restore
+a large amount of
+your magic gauge.
 ]],
 }
 
@@ -8638,11 +8521,11 @@ dialog{
   icon = "93",
   skip = "current",
   text = [[
-Une Flasque de magie bleue.
+A Blue Magic Flask.
 
 
-Celle-ci augmentera
-ta Capacité magique.
+This will increase
+your Magic Capacity.
 ]],
 }
 
@@ -8650,9 +8533,9 @@ dialog{
   id = "shop.npc",
   skip = "current",
   text = [[
-Bienvenue jeune homme !
-Choisis l'objet que
-tu veux acheter.
+Welcome young man !
+Choose the item you
+want to buy.
 ]],
 }
 
@@ -8661,11 +8544,11 @@ dialog{
   icon = "68",
   skip = "current",
   text = [[
-Une Flèche d'or.
+A Golden Arrow.
 
 
-Grace à elle, tu pourras
-transporter plus de Flèches.
+With it, you'll be able
+to carry more Arrows.
 ]],
 }
 
@@ -8674,12 +8557,12 @@ dialog{
   icon = "12",
   skip = "current",
   text = [[
-Une Potion rouge.
+A Red Potion.
 
 
-Ce breuvage restaurera
-ton énergie vitale. N'en
-achète pas sans bouteille !
+This elixir will restore
+your vital energy. Don't
+buy it without a bottle !
 ]],
 }
 
@@ -8688,12 +8571,12 @@ dialog{
   icon = "123",
   skip = "current",
   text = [[
-Un coquillage.
+A seashell.
 
 
-Il te servira à faire du troc
-au Magasin de souvenirs
-juste à côté.
+It will help you trade
+at the Souvenir Shop
+next door.
 ]],
 }
 
@@ -8702,12 +8585,12 @@ dialog{
   icon = "73",
   skip = "current",
   text = [[
-Un Bouclier de bois.
+A Wooden Shield.
 
 
-Il te protègera des attaques
-ennemies et t'apportera
-de la Défense !
+It will protect you from
+enemy attacks and provide
+you with Defense!
 ]],
 }
 
@@ -8716,14 +8599,13 @@ dialog{
   icon = "74",
   skip = "current",
   text = [[
-C'est mon Bouclier
-Hylien.
+This is my Hylian Shield.
 
-Il résiste au feu et te
-protègera mieux que
-ton bout de bois !
-Il est unique, ne passe
-pas à côté !
+
+It's fire resistant and will
+protect you better than
+your piece of wood !
+It's unique, don't miss out !
 ]],
 }
 
@@ -8733,15 +8615,15 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Une Clé des Galeries
-bleue.
+A blue Gallery Key.
 
-Grace à elle, tu pourras
-ouvrir une porte des Galeries
-bleue.
-Requiert : 30 Eclats
-Acheter
-Ne pas acheter
+
+With it, you can open a blue
+Gallery door.
+
+Requires: 30 Shards
+Buy
+Do not buy
 ]],
 }
 
@@ -8751,15 +8633,15 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Des Palmes.
+Some Flippers.
 
 
-Grace à elles, tu pourras
-nager en eau profonde.
+With these, you can
+swim in deep water.
 
-Prix : 2 coquillages
-Acheter
-Ne pas acheter
+Price: 2 Shells
+Buy
+Do not buy
 ]],
 }
 
@@ -8769,51 +8651,49 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Une Clé des Galeries
-verte.
+A green Gallery Key.
 
-Grace à elle, tu pourras
-ouvrir une porte des Galeries
-verte.
-Requiert : 40 Eclats
-Acheter
-Ne pas acheter
+
+With it, you can open a green
+Gallery door.
+
+Requires: 40 Shards
+Buy
+Do not buy
 ]],
 }
 
 dialog{
   id = "shop.souvenir.heart_piece",
   icon = "125",
-  question = "1",
   skip = "current",
   text = [[
-Un Quart de coeur.
+A Heart Piece.
 
 
-Il parait qu'en collecter un
-grand nombre permet
-d'augmenter ta vitalité.
-Prix : 6 coquillages
-Acheter
-Ne pas acheter
+Collecting many of these
+supposedly increases
+your vitality.
+You can't buy this item in
+this Labors of Zeldo special
+version.
 ]],
 }
 
 dialog{
   id = "shop.souvenir.magic_flask_blue",
   icon = "93",
-  question = "1",
   skip = "current",
   text = [[
-Une Flasque de magie
-bleue.
+A Blue Magic Flask.
 
-Elle te permettra d'augmenter
-ta capacité magique.
 
-Prix : 8 coquillages
-Acheter
-Ne pas acheter
+It will increase
+your magic capacity.
+
+You can't buy this item in
+this Labors of Zeldo special
+version.
 ]],
 }
 
@@ -8821,9 +8701,9 @@ dialog{
   id = "shop.souvenir.not_enough_shards",
   skip = "all",
   text = [[
-Désolé, mais tu n'as
-pas assez d'Eclats
-de Souvenir !
+Sorry, but you don't have
+enough Remembrance
+Shards !
 ]],
 }
 
@@ -8831,8 +8711,8 @@ dialog{
   id = "shop.souvenir.not_enough_shell",
   skip = "all",
   text = [[
-Désolé, mais tu n'as
-pas assez de coquillages !
+Sorry, but you don't have
+enough Shells !
 ]],
 }
 
@@ -8842,33 +8722,32 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Une Clé des Galeries
-rouge.
+A red Gallery Key.
 
-Grace à elle, tu pourras
-ouvrir une porte des Galeries
-rouge.
-Requiert : 20 Eclats
-Acheter
-Ne pas acheter
+
+With it, you can open a red
+Gallery door.
+
+Requires: 20 Shards
+Buy
+Do not buy
 ]],
 }
 
 dialog{
   id = "shop.souvenir.scale",
   icon = "46",
-  question = "1",
   skip = "current",
   text = [[
-Une Ecaille de Zora.
+A Zora Scale.
 
 
-Elle te permettra de plonger
-sous l'eau.
+It will allow you to dive
+underwater.
 
-Prix : 10 coquillages
-Acheter
-Ne pas acheter
+You can't buy this item in
+this Labors of Zeldo special
+version.
 ]],
 }
 
@@ -8877,15 +8756,15 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Un Trophée.
+A Trophy.
 
 
-Un homme masqué m'a laissé
-ca... Je pense que tu en as besoin
-pour valider ta visite de l'Archipel.
-Prix : 5 coquillages
-Acheter
-Ne pas acheter
+A masked man left this for me...
+I think you need it to validate your
+visit to the archipelago.
+Price: 5 Shells
+Buy
+Do not buy
 ]],
 }
 
@@ -8893,14 +8772,12 @@ dialog{
   id = "shop.souvenir.welcome",
   skip = "all",
   text = [[
-Bienvenue dans le Magasin
-de souvenirs de l'Archipel
-d'Abuda jeune homme !
-Ici, tu pourras acheter des objets
-de la meilleure qualité mais je
-n'accepte que des coquillages !
-Tu devrais en trouver un peu
-partout dans les environs...
+Welcome to the archipelago
+Souvenir Shop, young man !
+Here, you can buy high-quality
+items, but I only accept Shells !
+You should find some
+around the area...
 ]],
 }
 
@@ -8910,15 +8787,15 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Une Clé des Galeries
-jaune.
+A yellow Gallery Key.
 
-Grace à elle, tu pourras
-ouvrir une porte des Galeries
-jaune.
-Requiert : 10 Eclats
-Acheter
-Ne pas acheter
+
+With it, you can open a yellow
+Gallery door.
+
+Requires: 10 Shards
+Buy
+Do not buy
 ]],
 }
 
@@ -8926,8 +8803,8 @@ dialog{
   id = "shop.treasure",
   skip = "current",
   text = [[
-Tu veux ce trésor? Soit mais
-j'espère que tu as l'argent !
+You want this treasure ? Well,
+I hope you have the money !
 ]],
 }
 
@@ -8936,11 +8813,11 @@ dialog{
   icon = "61",
   skip = "current",
   text = [[
-Une Grande Bourse
-de Rubis.
+A Big Wallet.
 
-Grace à elle tu pourras
-porter plus de Rubis !
+
+With it, you'll be able
+to carry more Rupees !
 ]],
 }
 
@@ -8948,9 +8825,9 @@ dialog{
   id = "shop.welcome",
   skip = "all",
   text = [[
-Bienvenue jeune homme !
-Choisis l'objet que
-tu veux acheter.
+Welcome young man !
+Choose the item you
+want to buy.
 ]],
 }
 
@@ -8958,9 +8835,9 @@ dialog{
   id = "shop.welcome_kokiri",
   skip = "all",
   text = [[
-Bienvenue Link !
-Achète donc quelque chose 
-avant de partir à l'aventure.
+Welcome Link !
+Buy something before
+embarking on your adventure.
 ]],
 }
 
@@ -8968,10 +8845,10 @@ dialog{
   id = "shop.welcome_labors",
   skip = "all",
   text = [[
-Bienvenue voyageur ! Je
-vends toutes sortes de choses
-qui t'aideront dans ta quête.
-N'hésite pas à y jeter un oeil...
+Welcome traveler !
+I sell all sorts of things
+that will help you in your quest.
+Feel free to take a look...
 ]],
 }
 
@@ -8979,11 +8856,11 @@ dialog{
   id = "shop.welcome_labors_potion",
   skip = "all",
   text = [[
-Bienvenue à toi étranger.
-Il faut toujours avoir une
-potion sur soi avant de partir.
-N'en achète pas sans
-bouteille vide cependant !
+Welcome stranger.
+It's always good to have a potion
+on hand before setting off.
+Don't buy it without
+an empty bottle though !
 ]],
 }
 
@@ -8991,18 +8868,18 @@ dialog{
   id = "shop.welcome_labors_remembrance",
   skip = "all",
   text = [[
-Bienvenue voyageur.
-Je suis le Gardien des Clés
-des Galeries.
-Chacune d'elle te donnera
-accès à des contenus
-de développement exclusifs.
-(Je ne sais pas trop ce que
-ca veut dire mais le Seigneur
-Zeldo m'a donné ce dialogue...)
-En échange d'Eclats de Souvenir,
-je vais pouvoir matérialiser et
-te remettre ces précieuses Clés.
+Welcome traveler.
+I am the Keeper of the
+Gallery Keys.
+Each one will grant you access
+to exclusive development content.
+
+(I'm not really sure what that
+means but Lord Zeldo gave me
+this dialogue...)
+In exchange for Remembrance
+Shards, I can materialize and hand
+over these valuable Keys to you.
 ]],
 }
 
@@ -9010,9 +8887,9 @@ dialog{
   id = "sign.B3_directions",
   skip = "current",
   text = [[
-Ouest: Lac Hylia
-Nord: Plaine Nord d'Hyrule
-Sud-Est: Citadelle d'Hyrule
+West: Lake Hylia
+North: Northern Hyrule Plain
+Southeast: Hyrule Citadel
 ]],
 }
 
@@ -9020,8 +8897,8 @@ dialog{
   id = "sign.B4_directions",
   skip = "current",
   text = [[
-Est: Citadelle d'Hyrule
-Nord-Ouest: Lac Hylia
+East: Hyrule Citadel
+Northwest: Lake Hylia
 ]],
 }
 
@@ -9029,8 +8906,8 @@ dialog{
   id = "sign.B5_directions",
   skip = "current",
   text = [[
-Ouest: Forêt Kokiri
-Nord-Est: Citadelle d'Hyrule
+West: Kokiri Forest
+Northeast: Hyrule Citadel
 ]],
 }
 
@@ -9038,9 +8915,9 @@ dialog{
   id = "sign.C3_directions",
   skip = "current",
   text = [[
-Sud: Citadelle d'Hyrule
-Nord: Château d'Hyrule
-Nord-Est: Village Cocorico
+South: Hyrule Citadel
+North: Hyrule Castle
+Northeast: Kakariko Village
 ]],
 }
 
@@ -9048,9 +8925,9 @@ dialog{
   id = "sign.C5_directions",
   skip = "current",
   text = [[
-Nord: Citadelle d'Hyrule
-Fermée la nuit pour des raisons
-de sécurité. Rentrez vite !
+North: Hyrule Citadel
+Closed at night for security
+reasons. Hurry in!
 ]],
 }
 
@@ -9058,19 +8935,19 @@ dialog{
   id = "sign.D2_directions",
   skip = "current",
   text = [[
-Est: Village Cocorico
-Ouest: Plaine Nord d'Hyrule
-Sud-Ouest: Citadelle d'Hyrule
+East: Kakariko Village
+West: Northern Hyrule Plain
+Southwest: Hyrule Citadel
 ]],
 }
 
 dialog{
   id = "sign.beta_limit",
   text = [[
-Cette zone est encore en 
-développement et est donc 
-indisponible dans cette bêta.
-Revenez dans une version future !
+This area is still in
+development and is therefore
+unavailable in this beta.
+Come back in a future version!
 ]],
 }
 
@@ -9078,8 +8955,8 @@ dialog{
   id = "sign.default",
   skip = "current",
   text = [[
-Ceci n'est pas un
-panneau de bois.
+This is not a
+wooden sign.
 ]],
 }
 
@@ -9087,7 +8964,7 @@ dialog{
   id = "sign.kakariko_graveyard",
   skip = "current",
   text = [[
-Cimetière de Cocorico
+Kakariko Graveyard
 ]],
 }
 
@@ -9095,9 +8972,9 @@ dialog{
   id = "sign.labors.B2_directions",
   skip = "current",
   text = [[
-Nord : Chutes d'Hylia, Pics Blancs
-Est : Château d'Hyrule
-Ouest : Ruines du Vent
+North: Hylia Waterfalls, Icy Peaks
+East: Hyrule Castle
+West: Wind Ruins
 ]],
 }
 
@@ -9105,15 +8982,15 @@ dialog{
   id = "sign.labors.B2_tip_look_command",
   skip = "current",
   text = [[
-Truc pour touristes :
-Regarder les alentours.
+Tourist tip:
+Look around.
 
-Vous ne savez plus où aller ?
-Maintenez le bouton Regarder
-autour (touche S par défaut)
-pour regarder les alentours et voir
-au-delà de ce que votre vision
-normale vous permet d'observer.
+Not sure where to go ?
+Hold down the Look
+around button (default S key)
+to look around and see
+beyond what your normal vision
+allows you to see.
 ]],
 }
 
@@ -9121,11 +8998,12 @@ dialog{
   id = "sign.labors.B2_to_ice_mountain_cave",
   skip = "current",
   text = [[
-Caverne vers les Pics Blancs.
-Prière de vous couvrir et
-de vous munir d'un objet
-vous permettant de
-traverser les gouffres.
+Cave to the Icy Peaks.
+
+
+Please cover yourself and
+bring an item that allows you
+to cross gaps.
 ]],
 }
 
@@ -9133,7 +9011,7 @@ dialog{
   id = "sign.zeldo3.flower_hamlet",
   skip = "current",
   text = [[
-Hameau aux Fleurs
+Flower Hamlet
 ]],
 }
 
@@ -9141,9 +9019,9 @@ dialog{
   id = "sign.zeldo3.great_bridge",
   skip = "current",
   text = [[
-Grand Viaduc d'Haïroule
-Poste douanier
-Veuillez patienter.
+Great Haïroule Viaduct
+Customs checkpoint
+Please wait.
 ]],
 }
 
@@ -9151,9 +9029,9 @@ dialog{
   id = "sign.zeldo3.great_bridge_queue_1",
   skip = "current",
   text = [[
-Temps d'attente à partir
-de ce point: 2 heures.
-Merci de votre patience.
+Wait time from
+this point: 2 hours.
+Thank you for your patience.
 ]],
 }
 
@@ -9161,9 +9039,9 @@ dialog{
   id = "sign.zeldo3.great_bridge_queue_2",
   skip = "current",
   text = [[
-Temps d'attente à partir
-de ce point: 1 heure.
-Merci de votre patience.
+Wait time from
+this point: 1 hour.
+Thank you for your patience.
 ]],
 }
 
@@ -9171,9 +9049,9 @@ dialog{
   id = "sign.zeldo3.great_bridge_queue_3",
   skip = "current",
   text = [[
-Temps d'attente à partir
-de ce point: 20 minutes.
-Merci de votre patience.
+Wait time from
+this point: 20 minutes.
+Thank you for your patience.
 ]],
 }
 
@@ -9181,7 +9059,7 @@ dialog{
   id = "sign.zeldo3.takapa_village",
   skip = "current",
   text = [[
-Village de Takapa
+Takapa Village
 ]],
 }
 
@@ -9189,9 +9067,9 @@ dialog{
   id = "teleportation.cancel",
   question = "1",
   text = [[
-Annuler ?
-Oui
-Non
+Cancel ?
+Yes
+No
 ]],
 }
 
@@ -9199,9 +9077,9 @@ dialog{
   id = "teleportation.castle_town",
   question = "1",
   text = [[
-Aller à la Citadelle d'Hyrule ?
-Oui
-Non
+Go to Hyrule Citadel ?
+Yes
+No
 ]],
 }
 
@@ -9209,9 +9087,9 @@ dialog{
   id = "teleportation.kakariko_village",
   question = "1",
   text = [[
-Aller au Village Cocorico ?
-Oui
-Non
+Go to Kakariko Village ?
+Yes
+No
 ]],
 }
 
@@ -9219,9 +9097,9 @@ dialog{
   id = "teleportation.kokiri_forest",
   question = "1",
   text = [[
-Aller à la Forêt Kokiri ?
-Oui
-Non
+Go to Kokiri Forest ?
+Yes
+No
 ]],
 }
 
@@ -9229,9 +9107,9 @@ dialog{
   id = "teleportation.lake_hylia",
   question = "1",
   text = [[
-Aller au Lac Hylia ?
-Oui
-Non
+Go to Lake Hylia ?
+Yes
+No
 ]],
 }
 
@@ -9239,9 +9117,9 @@ dialog{
   id = "teleportation.tingle_house",
   question = "1",
   text = [[
-Aller chez Tingle ?
-Oui
-Non
+Go to Tingle's place ?
+Yes
+No
 ]],
 }
 
@@ -9249,7 +9127,7 @@ dialog{
   id = "trade.no_item",
   skip = "current",
   text = [[
-Je n'ai plus rien à t'échanger.
+I have nothing left to trade you.
 ]],
 }
 
@@ -9257,7 +9135,7 @@ dialog{
   id = "trade.not_enough",
   skip = "all",
   text = [[
-Tu n'as pas assez.
+You don't have enough.
 ]],
 }
 
@@ -9266,12 +9144,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Une Pomme contre 10 rubis.
+An Apple for 10 Rupees.
 
 
-D'accord ?
-Oui
-Non
+Agree?
+Yes
+No
 ]],
 }
 
@@ -9280,12 +9158,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Un Quart de coeur contre 
-20 rubis et 3 Pommes.
+A Heart Piece for 
+20 Rupees and 3 Apples.
 
-D'accord?
-Oui
-Non
+Agree?
+Yes
+No
 ]],
 }
 
@@ -9294,7 +9172,7 @@ dialog{
   skip = "current",
   text = [[
 
-        $1I L    A R R I V E
+        $1I  A M   C O M I N G
 ]],
 }
 
@@ -9302,7 +9180,7 @@ dialog{
   id = "ts.dungeon_1.hint_1",
   skip = "current",
   text = [[
-La Carte ne ment jamais.
+The Map never lies.
 ]],
 }
 
@@ -9310,15 +9188,13 @@ dialog{
   id = "ts.dungeon_100.hint_1",
   skip = "current",
   text = [[
-Notes sur le système de plomberie
-du château: Appuyez sur le cristal
-pour changer le sens d'écoulement.
-Ecoulement vers le nord: Irrigation
-de la salle de bain.
-A activer le jour !
-Ecoulement vers le sud: Irrigation
-des douves de la prison.
-A activer la nuit !
+Notes on the castle's plumbing
+system: Press the crystal
+to change the flow direction.
+Flowing north: Bathroom irrigation.
+Activate during the day!
+Flowing south: Moat irrigation.
+Activate during the night!
 ]],
 }
 
@@ -9326,14 +9202,24 @@ dialog{
   id = "ts.dungeon_100.hint_2",
   skip = "current",
   text = [[
-Poème du prof pour indiquer 
-les endroits ou passer pour
-laisser la porte ouverte.
-- Entre table et mur
-- Entre bilbiothèque et table
-- Contre fenetre
-- Entre bibliothèque et mur
-- Contre draperie
+Prof's poem to indicate
+where to go to keep the door open.
+- Between table and wall
+- Between bookshelf and table
+- Against window
+- Between bookshelf and wall
+- Against drapery
+]],
+}
+
+dialog{
+  id = "ts.dungeon_100.to_ice_mountain_cave",
+  skip = "current",
+  text = [[
+Cave to the White Peaks.
+Please cover yourself and
+bring an item that allows you
+to cross gaps.
 ]],
 }
 
@@ -9341,9 +9227,9 @@ dialog{
   id = "ts.dungeon_17.hint_1",
   skip = "current",
   text = [[
-Lorsque les 4 bougies seront
-allumées dans le temps imparti,
-la voie sera révélée.
+When the 4 candles are
+lit within the time limit,
+the path will be revealed.
 ]],
 }
 
@@ -9351,9 +9237,9 @@ dialog{
   id = "ts.dungeon_2.hint_1",
   skip = "current",
   text = [[
-Si tu te retrouves bloqué,
-garde à l'esprit que ce Palais
-possède plusieurs entrées.
+If you find yourself stuck,
+remember that this Palace
+has multiple entrances.
 ]],
 }
 
@@ -9361,9 +9247,9 @@ dialog{
   id = "ts.dungeon_2.hint_2",
   skip = "current",
   text = [[
-Le Motif dans la pièce cachée
-du premier sous-sol te mènera
-à la Clé Dorée.
+The Pattern in the secret room
+of the first basement will lead
+you to the Golden Key.
 ]],
 }
 
@@ -9371,8 +9257,8 @@ dialog{
   id = "ts.dungeon_2.hint_3",
   skip = "current",
   text = [[
-Le Motif de Blocs de la pièce 
-précédente est la clé.
+The Block Pattern in the
+previous room is the key.
 ]],
 }
 
@@ -9380,9 +9266,9 @@ dialog{
   id = "ts.dungeon_2.hint_4",
   skip = "current",
   text = [[
-Un oeil avisé sur la Carte et
-le trajet de l'eau te mènera
-à la Clé submergée.
+A keen eye on the Map and
+the water's path will lead
+you to the Submerged Key.
 ]],
 }
 
@@ -9390,9 +9276,9 @@ dialog{
   id = "ts.dungeon_2402.hint_1",
   skip = "current",
   text = [[
-Les 3 torches cachées dans
-l'obscurité devront toutes être
-allumées dans le temps imparti.
+The 3 torches hidden
+in the darkness must all be
+lit within the time limit.
 ]],
 }
 
@@ -9400,9 +9286,9 @@ dialog{
   id = "ts.dungeon_2402.hint_2",
   skip = "current",
   text = [[
-Frapper la lumière dissimulée
-dans cette pièce permettra
-d'obtenir la Clé dorée.
+Hitting the hidden light
+in this room will grant
+you the Golden Key.
 ]],
 }
 
@@ -9410,11 +9296,11 @@ dialog{
   id = "ts.dungeon_2402.hint_3",
   skip = "current",
   text = [[
-Note à moi-même :
-Ne pas oublier de ranger les
-livres dans la bibliotheque.
-Ces maudits monstres les
-ont éparpillés un peu partout...
+Note to self:
+Don't forget to tidy up the
+books in the library.
+Those darn monsters
+have scattered them everywhere...
 ]],
 }
 
@@ -9422,12 +9308,11 @@ dialog{
   id = "ts.dungeon_2402.hint_4",
   skip = "current",
   text = [[
-Note à moi-même :
-Ne pas oublier que le vitrail
-de la chambre mène
-à la réserve secrète de la
-bibliothèque. Je devrais
-peut-être le détruire aussi...
+Note to self:
+Don't forget that the stained
+glass in the room leads
+to the library's secret stash.
+I should probably destroy it too...
 ]],
 }
 
@@ -9435,8 +9320,8 @@ dialog{
   id = "ts.dungeon_4.hint_1",
   skip = "current",
   text = [[
-Les dalles volantes renferment
-le secret de l'Ordre.
+The flying tiles hold
+the secret of Order.
 ]],
 }
 
@@ -9444,8 +9329,8 @@ dialog{
   id = "ts.dungeon_4.hint_2",
   skip = "current",
   text = [[
-Les dalles volantes renferment
-le secret de l'Ordre.
+The flying tiles hold
+the secret of Order.
 ]],
 }
 
@@ -9453,8 +9338,8 @@ dialog{
   id = "ts.dungeon_4.hint_3",
   skip = "current",
   text = [[
-Suis le rayon de Lumière et
-tu atteindras la Clé Dorée.
+Follow the Beam of Light and
+you'll reach the Golden Key.
 ]],
 }
 
@@ -9462,8 +9347,8 @@ dialog{
   id = "ts.dungeon_4.hint_4",
   skip = "current",
   text = [[
-Le halo de Lumière des
-Cristaux sera ton guide.
+The Crystal's Light Halos
+will be your guide.
 ]],
 }
 
@@ -9471,15 +9356,15 @@ dialog{
   id = "ts.labors.gallery_blue_room",
   skip = "current",
   text = [[
-Bienvenue dans la Salle des
-Galeries bleue !
+Welcome to the Blue
+Galleries Room !
 
-Vous voici dans la Chambre
-du Test Son... interagissez avec
-les Sopranotes pour écouter les
-diverses musiques qui étaient
-prévues dans le projet final...
-Bonne écoute cher Invité.
+Here you are in the Sound Test
+Chamber... interact with the
+Sopranotes to listen to the various
+musics that were planned in the
+final project... Enjoy your
+listening, dear Guest.
 ]],
 }
 
@@ -9487,21 +9372,21 @@ dialog{
   id = "ts.labors.gallery_green_room",
   skip = "current",
   text = [[
-Bienvenue dans la Salle des
-Galeries verte !
+Welcome to the Green
+Galleries Room !
 
-Le portail au fond de la pièce
-vous mènera à la Salle du
-Donjon sur demande.
-Une Salle dans laquelle vous
-serez transporté dans les décors
-des divers Donjons prévus.
-Dans cette Salle magique,
-activez les interrupteurs pour
-passer d'un Donjon à l'autre...
-Il y a également une stèle
-informative sur chaque Donjon
-présenté. Amusez-vous cher Invité.
+The portal at the back of the room
+will take you to the Dungeon Room
+upon request.
+A Room in which you will be
+transported into the settings
+of the various planned Dungeons.
+In this magical Room, activate
+the switches to switch from one
+Dungeon to another...
+There is also an informative plaque
+on each Dungeon presented.
+Enjoy, dear Guest.
 ]],
 }
 
@@ -9509,15 +9394,15 @@ dialog{
   id = "ts.labors.gallery_red_room",
   skip = "current",
   text = [[
-Bienvenue dans la Salle des
-Galeries rouge !
+Welcome to the Red
+Galleries Room !
 
-Vous trouverez ici des notes,
-croquis ou screens de
-développement exclusifs !
-Inspectez les tableaux pour
-en savoir plus... bonne
-lecture cher Invité.
+You will find here exclusive
+development notes, sketches,
+or screens !
+Inspect the paintings to
+learn more... happy
+reading, dear Guest.
 ]],
 }
 
@@ -9526,17 +9411,17 @@ dialog{
   skip = "current",
   text = [[
 
- - Couloir des Galeries de Zeldo -
+  - Zeldo's Galleries Corridor -
 
-Accédez ici à des contenus de
-développement exclusifs,
-fournis par Zeldo en personne.
-Trouvez les diverses Clés de
-Galerie. Chacune vous donnera
-accès à une nouvelle partie.
-Que se cache-t-il derrière ces
-portes ? A vous de le découvrir...
-Bonne découverte !
+Access exclusive development
+content here, provided by
+Zeldo himself.
+Find the various Gallery Keys. Each
+one will give you access to
+a new section.
+What lies behind these doors ?
+It's up to you to find out...
+Happy exploring !
 ]],
 }
 
@@ -9544,12 +9429,12 @@ dialog{
   id = "ts.labors.gallery_useless_room",
   skip = "current",
   text = [[
-Bienvenue dans la Salle des
-Galeries inutile !
+Welcome to the Useless
+Galleries Room !
 
-Cette pièce ne sert à rien.$0
-Sans blague.$0 C'est juste une
-transition vers la salle suivante.
+This room serves no purpose.$0
+No kidding.$0 It's just a
+transition to the next room.
 ]],
 }
 
@@ -9558,17 +9443,17 @@ dialog{
   skip = "current",
   text = [[
 
- - Couloir des Travaux de Zeldo -
+    - Zeldo's Labors Corridor -
 
-Explorez les divers Travaux de
-Zeldo disponibles et remportez
-les Trophées pour avancer.
-De nouvelles Zones se
-débloquerons au fur et à mesure
-des Trophées que vous remportez.
-N'hésitez pas à observer les cadres
-derrières les portails pour avoir
-plus d'infos sur les Zones.
+Explore the various Labors of
+Zeldo available and win
+the Trophies to progress.
+New Zones will unlock gradually
+as you win Trophies.
+
+Feel free to observe the frames
+behind the portals for more
+informations about the Zones.
 ]],
 }
 
@@ -9577,20 +9462,20 @@ dialog{
   skip = "current",
   text = [[
 
-         - Les Magasins -
+           - The Shops -
 
-Utilisez les ressources collectées
-dans les Travaux de Zeldo pour
-acheter des objets utiles.
-Les Rubis vous permettront
-d'obtenir diverses upgrades qui
-vous serviront dans les Zones.
-Les Eclats de Souvenir vous
-permettront d'acquérir les
-Clés des Galeries.
-Attention : Les divers objets
-obtenus ici ne sont utilisables
-que pour l'étage en cours.
+Use the resources collected
+in Zeldo's Labors to
+buy useful items.
+The Rupees will allow you
+to obtain various upgrades that
+will help you in the Zones.
+The Remembrance Shards will
+allow you to acquire the
+Gallery Keys.
+Warning : The various items
+obtained here are only usable
+for the current floor.
 ]],
 }
 
@@ -9598,22 +9483,22 @@ dialog{
   id = "ts.labors.tott.dungeon_1_info",
   skip = "current",
   text = [[
-Niveau 1 :
-Temple de la Lumière
+Level 1:
+Light Temple
 
-Le tout premier Donjon que Link
-devait parcourir. Il y trouvait
-l'Ocarina qui devait lui permettre
-de passer l'introduction du jeu.
-Il était ensuite libre de parcourir
-le Royaume d'Hyrule dans sa
-quasi totalité. Ce Donjon était
-prévu comme le tutoriel du jeu
-et une version light des futurs
-obstacles auxquels Link
-aurait du faire face dans son
-aventure. Un prototype du
-Donjon jouable existe...
+The very first Dungeon that Link
+had to traverse. He found the
+Ocarina there, which was supposed
+to allow him to bypass the game's
+introduction. He was then free
+to explore the Kingdom of Hyrule
+almost in its entirety.
+This Dungeon was planned as
+the game's tutorial and a light
+version of the future obstacles
+Link would have faced in his
+adventure. A playable prototype
+of the Dungeon exists...
 ]],
 }
 
@@ -9621,24 +9506,23 @@ dialog{
   id = "ts.labors.tott.dungeon_2_info",
   skip = "current",
   text = [[
-Niveau 2 :
-Temple de la Terre
+Level 2:
+Earth Temple
 
-Ce Donjon situé après les Bois
-perdus devait être la première
-véritable épreuve de Link.
-La difficulté avait été augmentée
-pour montrer que le stade du
-tutoriel était passé.
-Il devait y obtenir l'Arc et s'en
-servir pour trouver 4 statues vertes
-dissimulées dans le Donjon.
-Ce Donjon a été finalisé dans
-une version prototype jouable
-et a même pu être bêta testé
-par quelques élus... Adenothe,
-Nirelia et Renkineko pourraient
-vous en dire plus...
+This Dungeon located after the
+Lost Woods was supposed to be
+Link's first real challenge.
+The difficulty was increased
+to show that the tutorial stage
+was over. He was supposed to
+obtain the Bow and use it to find
+4 green statues hidden in the
+Dungeon. This Dungeon was
+finalized in a playable prototype
+version and could even be
+beta tested by a few chosen ones...
+Adenothe, Nirelia, and Renkineko
+could tell you more...
 ]],
 }
 
@@ -9646,21 +9530,20 @@ dialog{
   id = "ts.labors.tott.dungeon_3_info",
   skip = "current",
   text = [[
-Niveau 3 : 
-Temple du Feu
+Level 3:
+Fire Temple
 
-Un Donjon à un stade assez
-avancé. Vous avez pu y jouer
-dans un de mes Travaux.
-Il n'y a donc pas grand chose
-à en dire de plus... la seconde
-moitié du Donjon n'a jamais
-été finie même si les idées
-de sa conception demeurent
-dans mon esprit. 
-J'espère donc que cette première
-moitié vous aura suffisamment
-plu.
+A Dungeon at a fairly
+advanced stage. You could play
+it in one of my Labors.
+So there's not much
+else to say... the second
+half of the Dungeon was never
+finished even though the ideas
+for its design remain
+in my mind.
+So I hope this first
+half was enjoyable enough for you.
 ]],
 }
 
@@ -9668,17 +9551,17 @@ dialog{
   id = "ts.labors.tott.dungeon_4_info",
   skip = "current",
   text = [[
-Niveau 4 : 
-Temple de l'Eau
+Level 4:
+Water Temple
 
-Sans doute ma plus grande
-réussite de Design de Donjon.
-Vous l'avez détesté ? Amateurs !
-Sachez que ce Temple possède
-une version alpha qui était encore
-plus ardue et casse-tête...
-Peut-être vous la proposerai-je
-un jour...
+Probably my greatest
+Dungeon design achievement.
+Did you hate it ? Amateurs !
+Know that this Temple has
+an alpha version that was even
+more challenging and puzzling...
+Perhaps I'll offer it to you
+one day...
 ]],
 }
 
@@ -9686,24 +9569,24 @@ dialog{
   id = "ts.labors.tott.dungeon_5_info",
   skip = "current",
   text = [[
-Niveau 5 : 
-Temple du Désert
+Level 5:
+Desert Temple
 
-Sans doute le Donjon le moins
-avancé de toute la liste.
-Link devait y obtenir le Marteau.
-Le reste ? Je n'en sais trop rien.
-Le Donjon devait comporter
-moult pièges et mécanismes
-style ancienne pyramide mais
-je n'ai jamais rien réalisé de
-concret à ce sujet.
-Même la décoration de la pièce
-que vous voyez en ce moment
-n'était pas du tout définitive.
-Peut-être un jour me motiverai-je
-assez à créer une Pyramide
-digne de ce nom !
+Probably the least advanced
+Dungeon on the entire list.
+Link was supposed to obtain the
+Hammer there.
+The rest ? I don't really know.
+The Dungeon was supposed to
+feature many traps and
+mechanisms like an ancient
+pyramid but I never did anything
+concrete about it. Even the
+decoration of the room you
+see right now was not at all final.
+Maybe one day I'll be motivated
+enough to create a pyramid
+worthy of its name !
 ]],
 }
 
@@ -9711,18 +9594,18 @@ dialog{
   id = "ts.labors.tott.dungeon_6_info",
   skip = "current",
   text = [[
-Niveau 6 :
-Temple de la Glace
+Level 6:
+Ice Temple
 
-Un Donjon situé dans la seconde
-moitié du jeu pour Link. Il devait
-y obtenir la Baguette de Glace.
-Si vous voulez imaginer ce à
-quoi ce Donjon aurait pu
-ressembler, je vous réfère au
-Palais de la Glace du Défi de
-Zeldo Chapitre 2. C'est une version
-un peu mini du Donjon prévu.
+A Dungeon located in the second
+half of the game for Link. He was
+supposed to obtain the Ice Rod.
+If you want to imagine what this
+Dungeon could have looked like,
+I refer you to the Ice Palace in
+Zeldo's Challenge Chapter 2.
+It's a slightly mini version of the
+planned Dungeon.
 ]],
 }
 
@@ -9730,24 +9613,24 @@ dialog{
   id = "ts.labors.tott.dungeon_7_info",
   skip = "current",
   text = [[
-Niveau 7 :
-Temple du Vent
+Level 7:
+Wind Temple
 
-Un Donjon dans une thématique
-qui me plait bien : le Ciel !
-J'étais donc très motivé à le faire.
-Malheureusement l'objet prévu
-du Donjon qui était la Plume me
-posa bien des soucis...
-Ayant repris celle de A Link to
-the Dream, je fus heurté à de
-nombreux bugs...
-Je n'ai donc pas pu avancer
-bien loin dans le développement
-de ce Donjon même si toute
-son esthétique était définitive.
-Depuis, je n'ai plus repris d'objets
-provenant de ALTTD... oh wait...
+A Dungeon in a theme
+that I really like: the Sky !
+So I was very motivated to do it.
+Unfortunately, the planned
+item for the Dungeon, which was
+the Feather, caused me a lot
+of problems... Having reused the
+one from A Link to the Dream,
+I ran into many bugs...
+So I couldn't get very far
+in the development of this Dungeon
+even though all its aesthetics
+were final. Since then, I haven't
+used any items from ALTTD...
+Oh wait...
 ]],
 }
 
@@ -9755,44 +9638,35 @@ dialog{
   id = "ts.labors.tott.dungeon_8_info",
   skip = "current",
   text = [[
-Niveau 8 :
-Temple de l'Ombre
+Level 8:
+Shadow Temple
 
-Et non, il ne s'agit pas de la
-Tombe ancienne présentée
-dans mes Travaux.
-Celle-ci n'était que le Mini-Donjon
-menant ensuite à ce Temple
-bien plus coriace.
-Sachez d'ailleurs que de nombreux
-Donjons annexes étaient prévus
-dans le jeu final.
-Un résidu de ceux-ci est par
-exemple les décors dans lesquels
-vous vous baladez dans le Hub.
-Ces décors appartenaient autrefois
-au Casino d'Hyrule, prévu comme
-étant un Donjon annexe de endgame.
-Enfin bref je m'égare... le Temple
-de l'Ombre était donc le dernier
-Donjon logique avant la Tour.
-Link y trouvait le Bouclier Miroir
-qui lui permettait de devenir
-très résistant à tout projectile.
-Le Boss de ce lieu devait être
-Agahim qu'on retrouvait pour
-un combat assez similaire à
-celui présenté dans mes Travaux.
-Ce Donjon devait beaucoup
-miser sur son ambiance...$0
-Une ambiance lourde...$0
-pesante...$0
-Un lieu où devait régner une
-ambiance plus horrifique...$0
-Ne serait-ce pas l'occasion de...$0
-Me rattraper ?$0
+And no, this is not the
+Ancient Tomb presented
+in my Labors.
+This was only the Mini-Dungeon
+leading to this much tougher Temple.
+The Shadow Temple was
+therefore the last logical Dungeon
+before the Tower. Link found
+the Mirror Shield there which
+allowed him to become very
+resistant to any projectile.
+The Boss of this place was
+supposed to be Agahnim,
+encountered for a fairly similar
+battle to the one presented in
+my Labors. This Dungeon was
+supposed to rely heavily
+on its atmosphere...$0
+A heavy...$0
+oppressive...$0
+An atmosphere where
+a more horrific atmosphere...$0
+Wouldn't it be an opportunity to...$0
+Redeem myself? $0
 
-        $1I L    A R R I V E
+        $1I T    A R R I V E S
 ]],
 }
 
@@ -9800,34 +9674,34 @@ dialog{
   id = "ts.labors.tott.dungeon_9_info",
   skip = "current",
   text = [[
-Niveau 9 :
-Tour de la Triforce
+Level 9:
+Tower of the triforce
 
-Le dernier Donjon. Le point
-d'orgue. Ma plus grande
-Création. Le Donjon ABSOLU.
-8 étages. Chacun étant une
-révision de chacun des 8 Donjons
-parcourus.
-Ensuite le Vrai Donjon qui
-commence avec des mécaniques
-inédites. Chaque objet utilisé.
-Une densité jamais vue.
-Un parcours du combattant.
-Le Test Ultime pour Link.
-Mon idée était que le joueur
-y passe des heures... oui j'étais
-complètement fou.
-Mais c'était le Zeldo de 2017.
-Ne pas avoir achevé cette Tour
-reste mon plus grand regret...
-Certains étages sont finis et
-jouables. Mais ils renferment tout
-le PIRE de ce que j'ai pu créer.
-Link ne sera jamais prêt. Jamais
-à gravir la Tour de la Triforce. La
-Triforce demeurera en son sommet.
-A jamais.
+The last Dungeon. The climax.
+My greatest creation.
+The ABSOLUTE Dungeon.
+8 floors. Each one a revision of
+each of the 8 Dungeons
+traversed.
+Then the Real Dungeon begins
+with unique mechanics. Every
+item used.
+A density never seen before.
+An obstacle course.
+The Ultimate Test for Link.
+My idea was for the player
+to spend hours there... yes,
+I was completely crazy.
+But that was the Zeldo of 2017.
+Not having finished this Tower
+remains my greatest regret...
+Some floors are finished and
+playable. But they contain all
+the WORST of what I could create.
+Link will never be ready. Never
+to climb the Triforce Tower. The
+Triforce will remain at its peak.
+Forever.
 ]],
 }
 
@@ -9835,9 +9709,9 @@ dialog{
   id = "ts.labors.tott.fire_temple_hint_1",
   skip = "current",
   text = [[
-Les 4 torches cachées dans
-l'obscurité devront toutes être
-allumées dans le temps imparti.
+The 4 torches hidden in
+the darkness must all be
+lit within the allotted time.
 ]],
 }
 
@@ -9845,9 +9719,9 @@ dialog{
   id = "ts.labors.tott.fire_temple_hint_2",
   skip = "current",
   text = [[
-Frappe de ton épée les murs
-et tends l'oreille... les secrets
-font des sons particuliers.
+Strike your sword against the walls
+and listen... secrets
+make particular sounds.
 ]],
 }
 
@@ -9855,12 +9729,12 @@ dialog{
   id = "ts.labors.tott.hylia_waterfall_icy_peak_entrance",
   skip = "current",
   text = [[
-Les escaliers juste devant toi
-mènent aux Pics Blancs, région
-où règne le froid et la mort.
-Ils n'ont jamais été mappés
-cependant.$0
-Dommage.
+The stairs just in front of you
+lead to the Icy Peaks, a region
+where cold and death reign.
+They were never mapped
+though.$0
+Too bad.
 ]],
 }
 
@@ -9868,8 +9742,8 @@ dialog{
   id = "ts.labors.tott.water_temple_boss_key_puzzle",
   skip = "current",
   text = [[
-Ce Code te mènera à
-la Clé dorée.
+This Code will lead you to
+the Golden Key.
 ]],
 }
 
@@ -9877,9 +9751,9 @@ dialog{
   id = "ts.labors.tott.water_temple_frogs_puzzle",
   skip = "current",
   text = [[
-Frapper les grenouilles
-qui ne crachent pas
-est la clé.
+Hitting the frogs
+that don't spit
+is the key.
 ]],
 }
 
@@ -9959,62 +9833,60 @@ dialog{
   id = "ts.telep_boss",
   skip = "current",
   text = [[
-Emprunte le Téléporteur si tu
-souhaites resortir du temple
-ou à contrario revenir ici.
+Take the Teleporter if you
+wish to exit the temple
+or alternatively return here.
 ]],
 }
 
 dialog{
   id = "vire.1.appear",
   text = [[
-Alors te voilà enfin...
+So you're finally here...
 ]],
 }
 
 dialog{
   id = "vire.1.end",
   text = [[
-Pas mal pour un simple gamin...
-Il semblerait que je t'aie
-sous estimé.
-Je vais te laisser la vie sauve,
-pour le moment.
-Eh eh eh...
-Tu comprendras bien assez
-vite que la Mort était un sort
-meilleur que ce qui t'attend.
-Nous nous reverrons !
-Prends donc ce qui reste de
-la Perle de Din... je te l'offre !
-Eh eh eh...
+Not bad for a mere kid...
+It seems I've
+underestimated you.
+I'll let you live,
+for now.
+Hehehe...
+You'll soon understand
+that Death was a better fate
+than what awaits you.
+We will meet again!
+Take what remains of
+Din's Pearl... I offer it to you!
+Hehehe...
 ]],
 }
 
 dialog{
   id = "vire.1.intro",
   text = [[
-Eh eh eh... comme l'avait prédit
-Maître Ganondorf. 
+Hehehe... as Master Ganondorf predicted. 
 
-Je suppose que tu es venu 
-chercher la Perle de Din ?
+I suppose you've come
+for Din's Pearl?
 
-Je dois hélas t'annoncer qu'elle
-n'est plus ici ! Plus entièrement
-en tout cas... eh eh eh...
-Je me nomme Vire et je suis
-venu ici sur ordre de mon
-Maître pour 2 choses...
-La première: M'assurer qu'un
-jeune garcon blond ne pourrait 
-pas trouver la Perle de Din.
-La seconde: Me débarasser
-de ce jeune garçon !
+I regret to inform you that it
+is no longer here! Not entirely
+at least... hehehe...
+My name is Vire and I have come
+here on my Master's orders for 2 things...
+The first: To ensure that a
+young blond boy could not find
+Din's Pearl.
+The second: To get rid of
+this young boy!
 
-Il ne me reste donc qu'une
-chose à faire...
-En garde !
+So I have only one
+thing left to do...
+En garde!
 ]],
 }
 
@@ -10022,9 +9894,9 @@ dialog{
   id = "vire.1.phase_1",
   skip = "current",
   text = [[
-Tu te débrouilles pas mal...
-Mais sauras-tu tenir
-le rythme ?
+You're doing quite well...
+But will you be able to keep
+up the pace?
 ]],
 }
 
@@ -10032,9 +9904,9 @@ dialog{
   id = "vire.1.phase_2",
   skip = "current",
   text = [[
-Bien joué ! Mais à partir de 
-maintenant, ne compte plus sur 
-ton Epée pour m'atteindre.
+Well done! But from now on,
+don't count on
+your Sword to reach me.
 ]],
 }
 

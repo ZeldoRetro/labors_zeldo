@@ -81,7 +81,7 @@ mes Travaux.
 Chaque étage de ce Manoir
 représente une Vague de
 contenus.
-Tu es au 1er Etage, qui porte donc
+Tu es au 1er étage, qui porte donc
 sur Zelda Tower of the Triforce,
 un projet datant de 2017.
 Comme c'est le tout premier étage
@@ -212,7 +212,7 @@ Il passe ses journées à regarder
 les ruines au loin et à s'imaginer
 y faire la chasse aux trésors.
 J'ai personnellement passé
-l'age de toutes ces gamineries...$0
+l'âge de toutes ces gamineries...$0
 On s'fait un fifa ?
 ]],
 }
@@ -335,7 +335,7 @@ dialog{
   skip = "current",
   text = [[
 Oh un étranger...
-Bienvenur sur notre archipel.
+Bienvenue sur notre archipel.
 L'archipel d'Abuda prospère
 depuis des générations, loin
 de tous les soucis présents
@@ -472,11 +472,11 @@ dialog{
   text = [[
 Bienvenue à toi jeune voyageur.
 J'espère que ton séjour sur
-l'Archipel d'Abuda se passe bien.
+l'archipel d'Abuda se passe bien.
 Si tu veux retourner sur les terres
 d'Hyrule, je n'ai malheureusement
 plus de billets sur moi.
-Un mystéieux homme masqué
+Un mystérieux homme masqué
 me les a tous achetés !
 C'est vraiment pas de chance !
 ]],
@@ -1160,7 +1160,7 @@ Link se retrouve sur cet archipel
 tropical lors de ses aventures.
 Une destination de rêve !
 Explorez la zone et trouvez
-assez de coquillages afin de
+assez de Coquillages afin de
 les échanger contre votre but.
 Difficulté: 3/10
 Objectif: Collecter des Coquillages
@@ -1824,7 +1824,7 @@ Tu as trouvé la Boussole ! $0
 Ta position ainsi que celle
 des coffres et de l'objet clé 
 du Donjon te sont révélées. 
-Ouvre la carte pour jeter 
+Ouvre la Carte pour jeter 
 un oeil à tout ça !
 ]],
 }
@@ -1874,7 +1874,7 @@ dialog{
   icon = "87",
   skip = "all",
   text = [[
-Tu as trouvé la  Clé
+Tu as trouvé la Clé
 des Galeries rouge ! $0
 
 Elle te permettra d'ouvrir 
@@ -1928,7 +1928,7 @@ dialog{
   icon = "84",
   skip = "all",
   text = [[
-Tu as trouvé la  Clé
+Tu as trouvé la Clé
 des Galeries jaune ! $0
 
 Cette Clé appelée aussi
@@ -2560,10 +2560,10 @@ dialog{
   id = "_treasure.inventory/fire_rod.1",
   icon = "16",
   text = [[
-Tu obtiens la Baguette de
+Tu as trouvé la Baguette de
 Feu ! $0
 
-Grâce à elle tu pourras
+Grâce à elle, tu pourras
 allumer les torches à
 distance !
 ]],
@@ -2746,15 +2746,15 @@ dialog{
   icon = "120",
   skip = "current",
   text = [[
-Tu obtiens la clé d'une
-chambre pour cette auberge ! $0
+Tu obtiens la Clé d'une
+Chambre pour cette Auberge ! $0
 
 Tu peux a présent te
-reposer dans cette auberge.
+reposer dans cette Auberge.
 
 Mais attention ! Tu perdras
-la clé en quittant 
-l'auberge.
+la Clé en quittant 
+l'Auberge.
 ]],
 }
 
@@ -2793,7 +2793,7 @@ dialog{
   skip = "current",
   text = [[
 Tu as trouvé une
-flèche !$0
+Flèche !$0
 ]],
 }
 
@@ -2801,7 +2801,7 @@ dialog{
   id = "_treasure.pickable/arrow.1.1",
   skip = "current",
   text = [[
-Utilise l'arc et les flèches 
+Utilise l'Arc et les flèches 
 pour vaincre des ennemis à
 distance et sans risque.
 ]],
@@ -2813,7 +2813,7 @@ dialog{
   next = "_treasure.pickable/arrow.1.1",
   skip = "current",
   text = [[
-Tu obtiens 5 flèches !$0
+Tu obtiens 5 Flèches !$0
 ]],
 }
 
@@ -2823,7 +2823,7 @@ dialog{
   next = "_treasure.pickable/arrow.1.1",
   skip = "current",
   text = [[
-Tu obtiens 10 flèches !$0
+Tu obtiens 10 Flèches !$0
 ]],
 }
 
@@ -2834,7 +2834,7 @@ dialog{
   skip = "current",
   text = [[
 Tu obtiens un lot de
-30 flèches !$0
+30 Flèches !$0
 ]],
 }
 
@@ -2845,7 +2845,7 @@ dialog{
   skip = "all",
   text = [[
 Tu as trouvé une
-bombe !$0
+Bombe !$0
 ]],
 }
 
@@ -2865,7 +2865,7 @@ dialog{
   next = "_treasure.pickable/bomb.1.1",
   skip = "all",
   text = [[
-Tu obtiens 5 bombes !$0
+Tu obtiens 5 Bombes !$0
 ]],
 }
 
@@ -2875,7 +2875,7 @@ dialog{
   next = "_treasure.pickable/bomb.1.1",
   skip = "all",
   text = [[
-Tu obtiens 10 bombes !$0
+Tu obtiens 10 Bombes !$0
 ]],
 }
 
@@ -2886,7 +2886,7 @@ dialog{
   skip = "all",
   text = [[
 Tu obtiens un lot de
-20 bombes !$0
+20 Bombes !$0
 ]],
 }
 
@@ -2899,7 +2899,7 @@ Tu obtiens un Coeur de vie ! $0
 
 
 Ton énergie remonte
-d'un coeur !
+d'un Coeur !
 ]],
 }
 
@@ -2909,10 +2909,10 @@ dialog{
   skip = "current",
   text = [[
 Tu obtiens un Tas
-de 3 coeurs ! $0
+de 3 Coeurs ! $0
 
 Ton énergie remonte de
-3 coeurs !
+3 Coeurs !
 ]],
 }
 
@@ -3102,7 +3102,7 @@ dialog{
   icon = "210",
   skip = "all",
   text = [[
-Tu as trouvé un fragment
+Tu as trouvé un Fragment
 de Puissance de Fée !
 
 Ces cristaux mystérieux
@@ -3193,10 +3193,10 @@ dialog{
   skip = "current",
   text = [[
 Tu obtiens un Réceptacle
-de coeur ! $0
+de Coeur ! $0
 
 Ton énergie vitale augmente
-d'un coeur !
+d'un Coeur !
 ]],
 }
 
@@ -3531,7 +3531,7 @@ dialog{
   text = [[
 Tiens tiens tiens...
 Voici le fameux Héros dont tout
-le monde parle. Link, c'est ca ?
+le monde parle. Link, c'est ça ?
 Je me nomme Agahnim, Sage
 au service d'Hyrule, mais surtout
 au service de sa destruction !
@@ -4424,8 +4424,8 @@ dialog{
   skip = "all",
   text = [[
 Ce bloc possede un trou de
-serrure. Si tu avais une petite
-clé, tu pourrais avancer !
+serrure. Si tu avais une Petite
+Clé, tu pourrais avancer !
 ]],
 }
 
@@ -4515,7 +4515,7 @@ dialog{
   text = [[
 Seuls ceux qui obtiendront le
 Rang Platine verront un jour
-cette Porte s'ouvrir...
+cette porte s'ouvrir...
 ]],
 }
 
@@ -6992,8 +6992,8 @@ dialog{
   id = "inn.answer_yes",
   skip = "current",
   text = [[
-Merci Monsieur. Voici votre clé
-de chambre. Bon séjour !
+Merci Monsieur. Voici votre Clé
+de Chambre. Bon séjour !
 ]],
 }
 
@@ -7015,8 +7015,8 @@ dialog{
   id = "inn.exit_warning",
   skip = "current",
   text = [[
-Attention ! Tu perdras ta clé de
-chambre en sortant de l'auberge...
+Attention ! Tu perdras ta Clé de
+Chambre en sortant de l'Auberge...
 N'oublie pas d'aller y dormir !
 ]],
 }
@@ -7033,8 +7033,8 @@ dialog{
   id = "inn.need_inn_key",
   skip = "all",
   text = [[
-Il te faut une clé pour accéder
-à cette chambre et te reposer.
+Il te faut une Clé pour accéder
+à cette Chambre et te reposer.
 ]],
 }
 
@@ -7061,7 +7061,7 @@ dialog{
   id = "inn.not_good_room",
   skip = "current",
   text = [[
-Cette chambre semble déjà
+Cette Chambre semble déjà
 occupée...
 ]],
 }
@@ -7070,8 +7070,8 @@ dialog{
   id = "inn.npc",
   skip = "current",
   text = [[
-Bienvenue à l'auberge. Si vous
-désirez réserver une chambre,
+Bienvenue à l'Auberge. Si vous
+désirez réserver une Chambre,
 allez de l'autre côté du comptoir.
 Moi ? Et bien je travaille ici
 depuis 5 ans et je n'avais pas
@@ -7087,9 +7087,9 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Bienvenue à l'auberge. Voulez-vous 
-vous reposer ? Une chambre vous 
-coutera $v Rubis.
+Bienvenue à l'Auberge. Voulez-vous 
+vous reposer ? Une Chambre vous 
+coûtera $v Rubis.
 Séjourner ici ?
 Oui
 Non
@@ -7102,12 +7102,12 @@ dialog{
   skip = "current",
   text = [[
 Bienvenue au Manoir de la 
-Citadelle, l'auberge 3 étoiles
+Citadelle, l'Auberge 3 étoiles
 du Royaume !
 Voulez-vous vous reposer ? Nous
 avons un rabais pour un temps
 limité !
-Une chambre ne vous coùtera
+Une Chambre ne vous coûtera
 que $v Rubis. C'est une offre
 à ne pas rater !
 Séjourner ici ?
@@ -8760,7 +8760,7 @@ Des Palmes.
 Grace à elles, tu pourras
 nager en eau profonde.
 
-Prix : 2 coquillages
+Prix : 2 Coquillages
 Acheter
 Ne pas acheter
 ]],
@@ -8833,7 +8833,7 @@ dialog{
   skip = "all",
   text = [[
 Désolé, mais tu n'as
-pas assez de coquillages !
+pas assez de Coquillages !
 ]],
 }
 
@@ -8882,8 +8882,8 @@ Un Trophée.
 
 Un homme masqué m'a laissé
 ca... Je pense que tu en as besoin
-pour valider ta visite de l'Archipel.
-Prix : 5 coquillages
+pour valider ta visite de l'archipel.
+Prix : 5 Coquillages
 Acheter
 Ne pas acheter
 ]],
@@ -8894,11 +8894,11 @@ dialog{
   skip = "all",
   text = [[
 Bienvenue dans le Magasin
-de souvenirs de l'Archipel
+de souvenirs de l'archipel
 d'Abuda jeune homme !
 Ici, tu pourras acheter des objets
 de la meilleure qualité mais je
-n'accepte que des coquillages !
+n'accepte que des Coquillages !
 Tu devrais en trouver un peu
 partout dans les environs...
 ]],
