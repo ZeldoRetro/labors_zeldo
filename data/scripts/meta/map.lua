@@ -11,7 +11,7 @@ monicle_img:set_opacity(92)
 
 sol.main.load_settings()
 texte_lieu = sol.text_surface.create{
-  text_key = "location.castle_oblivion_RDC",
+  text = "default",
   font = "alttp",
   font_size = 24,
   horizontal_alignment = "left",

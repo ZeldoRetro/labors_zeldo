@@ -1,7 +1,7 @@
 quest{
   solarus_version = "1.6",
   write_dir = "labors_zeldo",
-  title = "The Labors of Zeldo - Wave 1",
+  title = "The Labors of Zeldo",
   short_description = "In The Labors of Zeldo, you can explore the unreleased projects that ZeldoRetro made using the Solarus Engine. Games, retranscriptions of existing contents or simple tests, Zeldo is proposing you to play them in a totally playable and enjoyable version. Have fun !",
   long_description = [[
 In The Labors of Zeldo, you can explore the unreleased projects that ZeldoRetro made using the Solarus Engine. Games, retranscriptions of existing contents or simple tests, Zeldo is proposing you to play them in a totally playable and enjoyable version. Have fun !

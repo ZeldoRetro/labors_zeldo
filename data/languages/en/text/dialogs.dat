@@ -2627,7 +2627,7 @@ dialog{
   id = "_treasure.inventory/monicle_truth.1",
   icon = "22",
   text = [[
-You found the Monicle
+You found the Lens
 of Truth ! $0
 
 It will allow you to discern

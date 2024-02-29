@@ -14,6 +14,7 @@ local ending_background = sol.surface.create("menus/ending.png")
 local menu_background_picture
 
 local can_skip = false
+local reseting = false
 
 local function create_menu_title_widget(game)
   local widget = gui_designer:create(88, 28)
@@ -168,6 +169,10 @@ function stats_manager:new(game)
     if command == "action" then
 
       if not can_skip then return end
+      if reseting then return end
+
+      reseting = true
+
       game:set_value("game_finished",true)
 
       sol.audio.play_music("none")

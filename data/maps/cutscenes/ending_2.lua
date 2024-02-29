@@ -72,6 +72,6 @@ function map:on_key_pressed(key)
 end
 
 function map:on_joypad_button_pressed(button)
-  sol.audio.play_music(nil)
-  hero:teleport("cutscenes/end_screen")
+  if not game:get_value("game_finished") then return end
+  sol.audio.play_music(nil) hero:teleport("cutscenes/end_screen")
 end

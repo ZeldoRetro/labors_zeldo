@@ -15,4 +15,4 @@ The wave have several environments with many collectibles to lengthen the playti
 - **Players:** 1
 - **Length:** 4-6 hours
 - **License:** Copyrighted assets + CC BY-SA 4.0 assets.
-- **Languages:** French (English incoming)
+- **Languages:** French, English

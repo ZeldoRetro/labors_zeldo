@@ -5,6 +5,9 @@ local language_menu = {}
 
 local language_manager = require("scripts/language_manager")
 
+local background_img = sol.surface.create(320,240)
+background_img:fill_color({255,255,255})
+
 function language_menu:on_started()
 
   if sol.language.get_language() ~= nil then
@@ -28,6 +31,7 @@ function language_menu:on_started()
       language.text = sol.text_surface.create{
         font = font,
         font_size = font_size,
+        color = {0,0,0},
         text = sol.language.get_language_name(id),
         horizontal_alignment = "center"
       }
@@ -55,6 +59,8 @@ end
 function language_menu:on_draw(dst_surface)
 
   self.surface:clear()
+
+  background_img:draw(dst_surface)
 
   local y = 120 - 8 * self.nb_visible_languages
   local first = self.first_visible_language
@@ -159,9 +165,9 @@ end
 function language_menu:set_cursor_position(cursor_position)
 
   if self.cursor_position ~= nil then
-    self.languages[self.cursor_position].text:set_color{255, 255, 255}
+    self.languages[self.cursor_position].text:set_color{0, 0, 0}
   end
-  self.languages[cursor_position].text:set_color{255, 255, 0}
+  self.languages[cursor_position].text:set_color{0, 255, 0}
 
   if cursor_position < self.first_visible_language then
     self.first_visible_language = cursor_position
