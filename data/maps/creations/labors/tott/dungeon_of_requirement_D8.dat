@@ -778,3 +778,17 @@ tile{
   pattern = "403",
 }
 
+custom_entity{
+  name = "img_chara",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  origin_x = 0,
+  origin_y = 0,
+  direction = 0,
+  sprite = "backgrounds/img_chara",
+}
+

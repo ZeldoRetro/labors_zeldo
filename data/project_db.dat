@@ -99,6 +99,7 @@ tileset{ id = "sideview/mario_1_tileset", description = "Tileset Mario 1" }
 tileset{ id = "sideview/sideview_dungeon", description = "Vue de cote (donjons)" }
 
 sprite{ id = "backgrounds/fog", description = "Brouillard" }
+sprite{ id = "backgrounds/img_chara", description = "CHARA" }
 sprite{ id = "backgrounds/mountains_light", description = "Montagnes (soleil)" }
 sprite{ id = "backgrounds/mountains_twilight", description = "Montagnes (crépuscule)" }
 sprite{ id = "backgrounds/triforce_sky", description = "Triforce Sky" }
@@ -1062,7 +1063,6 @@ sound{ id = "save_menu_cancel", description = "save_menu_cancel" }
 sound{ id = "save_menu_cursor", description = "save_menu_cursor" }
 sound{ id = "save_menu_select", description = "save_menu_select" }
 sound{ id = "save_menu_start_game", description = "save_menu_start_game" }
-sound{ id = "screamer", description = "screamer" }
 sound{ id = "secret", description = "secret" }
 sound{ id = "shield", description = "shield" }
 sound{ id = "shooting_gallery_bell", description = "shooting_gallery_bell" }
@@ -2237,7 +2237,6 @@ file{ path = "sounds/save_menu_cancel.ogg", author = "Nintendo", license = "Prop
 file{ path = "sounds/save_menu_cursor.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/save_menu_select.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/save_menu_start_game.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
-file{ path = "sounds/screamer.ogg", license = "Proprietary (fair use)" }
 file{ path = "sounds/secret.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/shield.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/shooting_gallery_bell.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
@@ -2291,12 +2290,14 @@ file{ path = "sounds/zeldo_laugh.ogg", author = "ZeldoRetro", license = "Public 
 file{ path = "sounds/zora.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/backgrounds", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
-file{ path = "sprites/backgrounds/CHARA.png", license = "Proprietary (fair use)" }
+file{ path = "sprites/backgrounds/CHARA.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/clouds_reflection.png", author = "stdgregwar", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/clouds_shadow.png", author = "stdgregwar", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/fog.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/fog.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/fsaeffect.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/backgrounds/img_chara.dat", author = "Razdarac", license = "CC BY-SA 4.0" }
+file{ path = "sprites/backgrounds/img_chara.png", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/light_center.png", author = "ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/monicle.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/mountains background.png", author = "Nintendo, ZeldoRetro", license = "Proprietary (fair use)" }
@@ -2313,6 +2314,7 @@ file{ path = "sprites/console/icons.png", author = "Maxs", license = "CC BY-SA 4
 file{ path = "sprites/debug", author = "Maxs", license = "CC BY-SA 4.0" }
 file{ path = "sprites/debug/commands.dat", author = "Maxs", license = "CC BY-SA 4.0" }
 file{ path = "sprites/debug/debug_commands.png", author = "Maxs", license = "CC BY-SA 4.0" }
+file{ path = "sprites/en", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/enemies", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/enemies/GUAY.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/GUAY.png", author = "Nintendo", license = "Proprietary (fair use)" }

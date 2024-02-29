@@ -1,0 +1,9 @@
+animation{
+  name = "default",
+  src_image = "backgrounds/img_chara.png",
+  frame_delay = 40,
+  frame_to_loop_on = 15,
+  directions = {
+    { x = 0, y = 0, frame_width = 320, frame_height = 240, origin_x = 0, origin_y = 0, num_frames = 21, num_columns = 7 },
+  },
+}
