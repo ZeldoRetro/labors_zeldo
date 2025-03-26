@@ -555,6 +555,13 @@ animation{
   },
 }
 animation{
+  name = "pickable/random_pickable",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
   name = "pickable/random_rupees",
   src_image = "entities/items.png",
   directions = {
@@ -964,5 +971,53 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 528, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "upgrade_cards/tott_arrows",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 464, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 416, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "upgrade_cards/tott_attack",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 496, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 416, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "upgrade_cards/tott_bombs",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 448, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 416, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "upgrade_cards/tott_casual",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 432, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 416, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "upgrade_cards/tott_defence",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 512, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 416, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "upgrade_cards/tott_magic",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 480, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 416, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }

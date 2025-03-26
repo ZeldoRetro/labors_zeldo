@@ -838,6 +838,15 @@ tile{
   pattern = "window.2-2",
 }
 
+tile{
+  layer = 1,
+  x = 88,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "2761",
+}
+
 wall{
   layer = 1,
   x = 152,

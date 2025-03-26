@@ -37,29 +37,42 @@ function map:on_draw(dst_surface)
 	light_screen:draw(dst_surface)
 end
 
---REGARDER LES PORTRAITS
-local function look_painting(painting_sprite,painting_dialog)
-  hero:freeze()
-  painting_sprite:set_enabled(true)
-  painting_sprite:get_sprite():fade_in(25,function()
-    game:set_hud_enabled(false)
-    sol.timer.start(map,1500,function()
-      game:set_dialog_position("bottom")
-      game:set_dialog_style("blank")
-      game:start_dialog(painting_dialog,function()
-        game:set_dialog_position("auto")
-        game:set_hud_enabled(true)
-        painting_sprite:get_sprite():fade_out(25,function()
-          painting_sprite:set_enabled(false)
-          sol.audio.play_sound("spectral_sound")
-          hero:teleport("creations/labors/tott/hub","start_razer_room")
+--REGARDER LE PORTRAIT
+
+local function look_frame(frame_dialog, test_image)
+  game:start_dialog(frame_dialog,function()
+    game:set_pause_allowed(false)
+    test_image:fade_in(30,function()
+      game:start_dialog("empty", function()
+        test_image:fade_out(50, function()
+          game:set_pause_allowed(true)
           hero:unfreeze()
+          function sol.video:on_draw(screen) end
         end)
       end)
     end)
+    function sol.video:on_draw(screen)
+      local x_size_1, y_size_1 = sol.video.get_window_size()
+      local x_size_2, y_size_2 = test_image:get_size()
+      local calcul = 1
+      if x_size_1 < y_size_1 then
+        calcul = x_size_1/x_size_2
+      else
+        calcul = y_size_1/y_size_2
+      end
+      test_image:set_scale(calcul, calcul)
+      test_image:draw(screen, 0, 0)
+    end
   end)
 end
 
-function painting_razdarac_room_npc:on_interaction()
-  look_painting(painting_razdarac_room,"LABORS.tott.paintings.razdarac_room")
+for npc in map:get_entities("npc_frame_") do
+  function npc:on_interaction()
+    hero:freeze()
+    look_frame(npc:get_property("dialog"),sol.surface.create(npc:get_property("image")))
+  end
+end
+
+function map:on_finished()
+  function sol.video:on_draw(screen) end
 end

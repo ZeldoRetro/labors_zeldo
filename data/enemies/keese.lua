@@ -12,6 +12,7 @@ function enemy:on_created()
   self:set_layer_independent_collisions(true)
   self:set_size(16, 16)
   self:set_origin(8, 13)
+  self:set_attacking_collision_mode("overlapping")
 end
 
 function enemy:on_restarted()

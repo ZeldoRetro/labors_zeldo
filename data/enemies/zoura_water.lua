@@ -8,6 +8,7 @@ function enemy:on_created()
   enemy:set_life(2)
   enemy:set_damage(1)
   enemy:set_obstacle_behavior("swimming")
+  enemy:set_property("is_major","true")
   enemy:set_pushed_back_when_hurt(false)
   enemy:set_layer_independent_collisions(true)
   enemy:set_size(16, 16)
@@ -26,7 +27,7 @@ function enemy:shoot()
   sprite:set_animation("shooting")
   enemy:create_enemy({
     breed = "fireball_blue_small",
-    layer = 1
+    layer = 2
   })
   sol.timer.start(enemy, 1000, function()
     sprite:set_animation("walking")

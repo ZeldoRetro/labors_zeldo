@@ -295,6 +295,11 @@ function commands_manager:new(game)
       return false
     end
 
+    if key == "f1" then
+      sol.audio.play_sound("wrong")
+      return false
+    end
+
     local item = commands_items[cursor_index]
     set_command_keyboard_binding(item, key)
     stop_customizing()

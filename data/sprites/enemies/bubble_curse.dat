@@ -1,0 +1,60 @@
+animation{
+  name = "walking",
+  src_image = "enemies/bubble.png",
+  frame_delay = 25,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 126, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+    { x = 0, y = 126, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+    { x = 0, y = 126, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+    { x = 0, y = 126, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+  },
+}
+animation{
+  name = "blue",
+  src_image = "enemies/bubble.png",
+  frame_delay = 25,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 90, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+    { x = 0, y = 90, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+    { x = 0, y = 90, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+    { x = 0, y = 90, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+  },
+}
+animation{
+  name = "frozen",
+  src_image = "enemies/bubble.png",
+  frame_delay = 25,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 54, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+    { x = 0, y = 54, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+    { x = 0, y = 54, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+    { x = 0, y = 54, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/bubble.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 162, y = 0, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 5, num_columns = 1 },
+    { x = 162, y = 0, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 5, num_columns = 1 },
+    { x = 162, y = 0, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 5, num_columns = 1 },
+    { x = 162, y = 0, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 5, num_columns = 1 },
+  },
+}
+animation{
+  name = "red",
+  src_image = "enemies/bubble.png",
+  frame_delay = 25,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 108, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+    { x = 0, y = 108, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+    { x = 0, y = 108, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+    { x = 0, y = 108, frame_width = 18, frame_height = 18, origin_x = 9, origin_y = 9, num_frames = 10 },
+  },
+}

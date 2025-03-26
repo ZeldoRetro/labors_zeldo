@@ -1,0 +1,68 @@
+animation{
+  name = "stopped",
+  src_image = "enemies/lynel.png",
+  directions = {
+    { x = 416, y = 56, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37 },
+    { x = 272, y = 192, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37 },
+    { x = 416, y = 192, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37 },
+    { x = 272, y = 56, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37 },
+  },
+}
+animation{
+  name = "attack",
+  src_image = "enemies/lynel.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 368, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53, num_frames = 2 },
+    { x = 224, y = 136, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53, num_frames = 2 },
+    { x = 368, y = 136, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53, num_frames = 2 },
+    { x = 224, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53, num_frames = 2 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/lynel.png",
+  frame_delay = 60,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 192, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37, num_frames = 4 },
+    { x = 0, y = 232, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37, num_frames = 4 },
+    { x = 0, y = 152, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37, num_frames = 4 },
+    { x = 0, y = 112, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37, num_frames = 4 },
+  },
+}
+animation{
+  name = "immobilized",
+  src_image = "enemies/lynel.png",
+  directions = {
+    { x = 416, y = 56, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37 },
+    { x = 272, y = 192, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37 },
+    { x = 416, y = 192, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37 },
+    { x = 272, y = 56, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37 },
+  },
+}
+animation{
+  name = "shaking",
+  src_image = "enemies/lynel.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 368, y = 56, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37, num_frames = 2 },
+    { x = 224, y = 192, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37, num_frames = 2 },
+    { x = 368, y = 192, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37, num_frames = 2 },
+    { x = 224, y = 56, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37, num_frames = 2 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "enemies/lynel.png",
+  frame_delay = 150,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 416, y = 56, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37, num_frames = 4, num_columns = 2 },
+    { x = 272, y = 192, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37, num_frames = 4, num_columns = 2 },
+    { x = 416, y = 192, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37, num_frames = 4, num_columns = 2 },
+    { x = 272, y = 56, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37, num_frames = 4, num_columns = 2 },
+  },
+}

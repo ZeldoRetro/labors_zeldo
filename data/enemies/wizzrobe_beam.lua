@@ -13,7 +13,8 @@ function enemy:on_created()
   enemy:set_origin(8, 8)
   enemy:set_obstacle_behavior("flying")
   enemy:set_invincible()
-  enemy:set_minimum_shield_needed(3) -- Mirror shield.
+  enemy:set_property("is_major","true")
+  enemy:set_minimum_shield_needed(2) -- Mirror shield.
 end
 
 function enemy:on_obstacle_reached()

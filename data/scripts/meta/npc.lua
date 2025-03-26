@@ -4,6 +4,39 @@ require("scripts/multi_events")
 
 local npc_meta = sol.main.get_metatable("npc")
 
+-- FUNCTIONS TO MAKE THE NPCS WALK/RUN
+local function npc_walk(npc)
+  local movement = sol.movement.create("random_path")
+  local speed = npc:get_property("walking_speed") or 32
+  movement:set_speed(speed)
+  movement:start(npc)
+end
+
+npc_meta:register_event("on_created", function(npc)
+  local game = npc:get_game()
+  local hero = game:get_hero()
+
+  -- Disable the npc if the savegame value passed in property is true
+  if npc:get_property("disable_if_value") ~= nil then
+    if game:get_value(npc:get_property("disable_if_value")) then
+      npc:set_enabled(false)
+    end
+  end
+
+  -- Enable the npc if the savegame value passed in property is true
+  if npc:get_property("enable_if_value") ~= nil then
+    if game:get_value(npc:get_property("enable_if_value")) then
+      npc:set_enabled(true)
+    end
+  end
+
+  -- NPCs indiqués marchent/courent
+  if npc:get_property("walking_npc") then
+    npc_walk(npc)
+  end
+
+end)
+
 function npc_meta:on_interaction()
   local game = self:get_game()
   local name = self:get_name()
@@ -96,6 +129,30 @@ function npc_meta:on_interaction()
     if game:get_map():get_entity("key_item") ~= nil then
       game:get_map():get_entity("key_item"):set_position(game:get_map():get_hero():get_position())
     else sol.audio.play_sound("wrong") game:start_dialog("_key_item_already_taken") end
+  end
+
+  -- Aubergistes: proposent de prendre une clé de chambre pour un certain montant
+  if name:match("^aubergiste") then
+    local price = tonumber(map:get_entity(name):get_property("key_price"))
+  	if game:get_value("get_inn_key") then
+  		game:start_dialog("inn.good_stay")
+  	else
+  		game:start_dialog("inn.question",price,function(answer)
+        if answer == 1 then
+          if game:get_money() >= price then
+            game:remove_money(price)
+         	  game:start_dialog("inn.answer_yes", function()
+              hero:start_treasure("other/inn_key", 1, "get_inn_key")
+            end)
+          else
+            sol.audio.play_sound("wrong")
+            game:start_dialog("inn.no_money")
+          end
+        else
+          game:start_dialog("inn.answer_no")
+        end
+  		end)
+  	end
   end
 
   --Lit pour dormir: Passage jour/nuit + Restauration d'une partie de la santé

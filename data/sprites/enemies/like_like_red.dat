@@ -1,0 +1,124 @@
+animation{
+  name = "stopped",
+  src_image = "enemies/like_like_red.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+  },
+}
+animation{
+  name = "buried",
+  src_image = "enemies/like_like_red.png",
+  frame_delay = 50,
+  directions = {
+    { x = 96, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 96, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 96, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 96, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+  },
+}
+animation{
+  name = "eating",
+  src_image = "enemies/like_like_red.png",
+  frame_delay = 25,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 64, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 64, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 64, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 64, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+  },
+}
+animation{
+  name = "emerges",
+  src_image = "enemies/like_like_red.png",
+  frame_delay = 20,
+  directions = {
+    { x = 128, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 128, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 128, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 128, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+  },
+}
+animation{
+  name = "escape",
+  src_image = "enemies/like_like_red.png",
+  frame_delay = 100,
+  directions = {
+    { x = 32, y = 192, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 27, num_frames = 3, num_columns = 1 },
+    { x = 32, y = 192, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 27, num_frames = 3, num_columns = 1 },
+    { x = 32, y = 192, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 27, num_frames = 3, num_columns = 1 },
+    { x = 32, y = 192, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 27, num_frames = 3, num_columns = 1 },
+  },
+}
+animation{
+  name = "frozen",
+  src_image = "enemies/like_like_red.png",
+  directions = {
+    { x = 32, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/like_like_red.png",
+  frame_delay = 60,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 4, num_columns = 1 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 4, num_columns = 1 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 4, num_columns = 1 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 4, num_columns = 1 },
+  },
+}
+animation{
+  name = "immobilized",
+  src_image = "enemies/like_like_red.png",
+  directions = {
+    { x = 32, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+  },
+}
+animation{
+  name = "shaking",
+  src_image = "enemies/like_like_red.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 32, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 2, num_columns = 1 },
+    { x = 32, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 2, num_columns = 1 },
+    { x = 32, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 2, num_columns = 1 },
+    { x = 32, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 2, num_columns = 1 },
+  },
+}
+animation{
+  name = "struggles",
+  src_image = "enemies/like_like_red.png",
+  frame_delay = 50,
+  directions = {
+    { x = 0, y = 288, frame_width = 32, frame_height = 32, origin_x = 13, origin_y = 29, num_frames = 5 },
+    { x = 0, y = 352, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 5 },
+    { x = 0, y = 320, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 5 },
+    { x = 0, y = 384, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 5 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "enemies/like_like_red.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 9, num_columns = 1 },
+  },
+}

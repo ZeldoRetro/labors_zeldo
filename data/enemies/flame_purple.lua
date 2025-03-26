@@ -3,15 +3,16 @@ local enemy = ...
 -- A red flame shot by another enemy.
 
 function enemy:on_created()
+  self:set_invincible()
   self:set_life(1)
   self:set_damage(4)
   self:create_sprite("enemies/flame_purple")
   self:set_size(16, 16)
   self:set_origin(8, 13)
-  self:set_invincible(true)
   self:set_obstacle_behavior("flying")
   self:set_layer_independent_collisions(true)
   self:set_optimization_distance(0)
+  enemy:set_property("is_major","true")
   enemy:set_minimum_shield_needed(2) -- Hylian shield.
 end
 

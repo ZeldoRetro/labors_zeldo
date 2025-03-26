@@ -76,6 +76,7 @@ function enemy:on_created()
   self:set_fire_reaction(properties.fire_reaction)
   self:set_size(16, 16)
   self:set_origin(8, 13)
+  self:set_attacking_collision_mode("overlapping")
 end
 
 function enemy:on_movement_changed(movement)

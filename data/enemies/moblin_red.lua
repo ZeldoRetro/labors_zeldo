@@ -8,6 +8,7 @@ function enemy:on_created()
 
   enemy:set_life(12)
   enemy:set_damage(12)
+  self:set_attacking_collision_mode("overlapping")
   enemy:create_sprite("enemies/" .. enemy:get_breed())
 end
 

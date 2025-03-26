@@ -9258,6 +9258,17 @@ tile{
   tileset = "inside_blue_dungeon",
 }
 
+custom_entity{
+  name = "night_entity_1",
+  layer = -1,
+  x = 912,
+  y = 837,
+  width = 16,
+  height = 16,
+  direction = 0,
+  model = "light",
+}
+
 wall{
   layer = -1,
   x = 1560,
@@ -9375,12 +9386,120 @@ teletransporter{
   sound = "warp",
 }
 
+dynamic_tile{
+  name = "casual_entity_2",
+  layer = -1,
+  x = 904,
+  y = 808,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.2",
+  tileset = "extra/casual_tileset",
+}
+
 destination{
   name = "start",
   layer = -1,
   x = 912,
   y = 829,
   direction = 1,
+}
+
+dynamic_tile{
+  name = "casual_entity_3",
+  layer = -1,
+  x = 920,
+  y = 824,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_5",
+  layer = -1,
+  x = 888,
+  y = 824,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.4",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_6",
+  layer = -1,
+  x = 936,
+  y = 824,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "3",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_7",
+  layer = -1,
+  x = 880,
+  y = 824,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "4",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_8",
+  layer = -1,
+  x = 908,
+  y = 792,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "2",
+  tileset = "extra/casual_tileset",
 }
 
 tile{
@@ -16760,15 +16879,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 880,
-  y = 96,
-  width = 16,
-  height = 16,
-  pattern = "1040",
-}
-
-tile{
-  layer = 0,
   x = 1360,
   y = 816,
   width = 8,
@@ -20681,7 +20791,6 @@ destructible{
   layer = 0,
   x = 440,
   y = 445,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -20693,7 +20802,6 @@ destructible{
   layer = 0,
   x = 584,
   y = 109,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -20705,7 +20813,6 @@ destructible{
   layer = 0,
   x = 600,
   y = 125,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -20717,7 +20824,6 @@ destructible{
   layer = 0,
   x = 552,
   y = 125,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -20729,7 +20835,6 @@ destructible{
   layer = 0,
   x = 968,
   y = 125,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -20741,7 +20846,6 @@ destructible{
   layer = 0,
   x = 968,
   y = 141,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -20753,7 +20857,6 @@ destructible{
   layer = 0,
   x = 1528,
   y = 77,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -20765,7 +20868,6 @@ destructible{
   layer = 0,
   x = 1544,
   y = 93,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -20777,7 +20879,6 @@ destructible{
   layer = 0,
   x = 1560,
   y = 109,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -20789,7 +20890,6 @@ destructible{
   layer = 0,
   x = 1576,
   y = 269,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -20801,7 +20901,6 @@ destructible{
   layer = 0,
   x = 1416,
   y = 669,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -20813,7 +20912,6 @@ destructible{
   layer = 0,
   x = 1352,
   y = 733,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -21101,7 +21199,6 @@ destructible{
   layer = 0,
   x = 520,
   y = 509,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -21113,7 +21210,6 @@ destructible{
   layer = 0,
   x = 504,
   y = 509,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   weight = 1,
@@ -21224,6 +21320,192 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+}
+
+custom_entity{
+  name = "day_entity_2",
+  layer = 0,
+  x = 968,
+  y = 557,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_2",
+  layer = 0,
+  x = 968,
+  y = 557,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "day_entity_3",
+  layer = 0,
+  x = 856,
+  y = 557,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_3",
+  layer = 0,
+  x = 856,
+  y = 557,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "day_entity_4",
+  layer = 0,
+  x = 1240,
+  y = 685,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_4",
+  layer = 0,
+  x = 1240,
+  y = 685,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "day_entity_5",
+  layer = 0,
+  x = 1512,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_5",
+  layer = 0,
+  x = 1512,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "day_entity_6",
+  layer = 0,
+  x = 888,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_6",
+  layer = 0,
+  x = 888,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "day_entity_7",
+  layer = 0,
+  x = 440,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_7",
+  layer = 0,
+  x = 440,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "day_entity_8",
+  layer = 0,
+  x = 552,
+  y = 525,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_8",
+  layer = 0,
+  x = 552,
+  y = 525,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+dynamic_tile{
+  name = "casual_entity_4",
+  layer = 0,
+  x = 464,
+  y = 240,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.hookshot",
+  tileset = "extra/casual_tileset",
 }
 
 tile{

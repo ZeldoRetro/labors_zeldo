@@ -68,7 +68,7 @@ function enemy:on_hurt()
   end
 end
 
---Le dommage de l'ennemi sera de 61, quelle que soit la défense
+--Le dommage de l'ennemi sera de 1, quelle que soit la défense
 function enemy:on_attacking_hero(hero, enemy_sprite)
 	enemy:get_game():remove_life(3)
   hero:start_hurt(enemy, 1)

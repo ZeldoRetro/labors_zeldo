@@ -55,7 +55,7 @@ function chest_manager:open_when_enemies_dead(chest)
           chest:set_enabled(true)
           chest:get_sprite():fade_in(100,function()
             sol.audio.play_sound("secret")
-            map:get_entity(chest_prefix.."_appears_effect"):set_enabled(false)
+            map:get_entity(chest_prefix.."_appears_effect"):get_sprite():fade_out(20, function() map:get_entity(chest_prefix.."_appears_effect"):set_enabled(false) end)
           end)
         end)
       end,1000,5000)
@@ -77,6 +77,11 @@ function chest_manager:open_when_switch_activated(chest)
   if switch ~= nil then
     function switch:on_activated()
       sol.audio.play_sound("correct")
+      -- Light of Switch
+      if map:get_entity("auto_switch_"..chest_prefix.."_torch") ~= nil then
+        map:get_entity("auto_switch_"..chest_prefix.."_torch"):set_lit(true)
+        map:get_entity("auto_switch_"..chest_prefix.."_torch"):on_lit(true)
+      end
       map:move_camera(chest_prefix_x,chest_prefix_y,256,function()
         sol.audio.play_sound("chest_appears")
         map:get_entity(chest_prefix.."_appears_effect"):get_sprite():set_ignore_suspend(true)
@@ -87,7 +92,7 @@ function chest_manager:open_when_switch_activated(chest)
           chest:get_sprite():fade_in(100,function()
             sol.audio.play_sound("secret")
             map:set_entities_enabled(chest_prefix,true)
-            map:get_entity(chest_prefix.."_appears_effect"):set_enabled(false)
+            map:get_entity(chest_prefix.."_appears_effect"):get_sprite():fade_out(20, function() map:get_entity(chest_prefix.."_appears_effect"):set_enabled(false) end)
           end)
         end)
       end,1000,5000)
@@ -96,6 +101,8 @@ function chest_manager:open_when_switch_activated(chest)
       -- chest saved in state open.
       switch:set_activated(true)
       switch:set_locked()
+      -- Light of Switch
+      if map:get_entity("auto_switch_"..chest_prefix.."_torch") ~= nil then map:get_entity("auto_switch_"..chest_prefix.."_torch"):set_lit(true) end
     end
   end
 
@@ -124,7 +131,7 @@ function chest_manager:open_when_torches_lit(chest)
             chest:get_sprite():fade_in(100,function()
               sol.audio.play_sound("secret")
               map:set_entities_enabled(chest_prefix,true)
-              map:get_entity(chest_prefix.."_appears_effect"):set_enabled(false)
+              map:get_entity(chest_prefix.."_appears_effect"):get_sprite():fade_out(20, function() map:get_entity(chest_prefix.."_appears_effect"):set_enabled(false) end)
             end)
           end)
         end,1000,5000)
@@ -165,6 +172,9 @@ function chest_manager:open_when_timed_torches_lit(chest)
       remaining = remaining - 1
       if remaining == 0 then
         sol.audio.play_sound("correct")
+        for torch in map:get_entities("definitive_"..torch_prefix) do
+          torch:set_enabled(true) torch:set_lit(true) torch:on_lit()
+        end
         map:move_camera(chest_prefix_x,chest_prefix_y,256,function()
           sol.audio.play_sound("chest_appears")
           map:get_entity(chest_prefix.."_appears_effect"):get_sprite():set_ignore_suspend(true)
@@ -175,7 +185,7 @@ function chest_manager:open_when_timed_torches_lit(chest)
             chest:get_sprite():fade_in(100,function()
               sol.audio.play_sound("secret")
               map:set_entities_enabled(chest_prefix,true)
-              map:get_entity(chest_prefix.."_appears_effect"):set_enabled(false)
+              map:get_entity(chest_prefix.."_appears_effect"):get_sprite():fade_out(20, function() map:get_entity(chest_prefix.."_appears_effect"):set_enabled(false) end)
             end)
           end)
         end,1000,5000)

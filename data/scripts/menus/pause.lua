@@ -52,7 +52,7 @@ function pause_manager:create(game)
       inventory = 1,
       quest_status = 2,
       map = 3,
-      commands = 4,
+      commands = 9,
       songs = 10,
       treasures = 11,
       loots = 12,
@@ -82,7 +82,7 @@ function pause_manager:create(game)
     set_submenu_index(submenus_order.inventory)
 
     -- Show left and right arrows.
-    sol.menu.start(pause_menu, arrows_menu)
+    if not game:get_value("in_commands_menu") then sol.menu.start(pause_menu, arrows_menu) end
   end
 
   function pause_menu:on_finished()

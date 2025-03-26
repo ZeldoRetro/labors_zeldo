@@ -186,6 +186,18 @@ text{ key = "quest_status.item_caption.equipment/tunic.4", value = "Purple Mail"
 text{ key = "quest_status.item_caption.quest_items/attack_boost.1", value = "Attack Boost" }
 text{ key = "quest_status.item_caption.quest_items/defense_boost.1", value = "Defense Boost" }
 text{ key = "quest_status.item_caption.quest_items/magic_flask_upgrade.1", value = "Magic Flask Upgrade" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_arrows.1", value = "Arrows Upgrade" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_arrows.2", value = "Arrows Upgrade" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_attack.1", value = "Attack Upgrade" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_attack.2", value = "Attack Upgrade" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_bombs.1", value = "Bombs Upgrade" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_bombs.2", value = "Bombs Upgrade" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_casual.1", value = "Help for Casuals" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_casual.2", value = "Help for Casuals" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_defence.1", value = "Defense Upgrade" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_defence.2", value = "Defense Upgrade" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_magic.1", value = "Magic Capacity Upgrade" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_magic.2", value = "Magic Capacity Upgrade" }
 text{ key = "savegames_menu.cancel", value = "CANCEL" }
 text{ key = "savegames_menu.delete", value = "DELETE" }
 text{ key = "savegames_menu.delete_question", value = "ARE YOU SURE ?" }

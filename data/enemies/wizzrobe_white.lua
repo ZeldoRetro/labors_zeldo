@@ -6,8 +6,9 @@ local children = {}
 
 function enemy:on_created()
 
-  enemy:set_life(8)
+  enemy:set_life(4)
   enemy:set_damage(8)
+  self:set_attacking_collision_mode("overlapping")
   enemy:set_invincible()
   enemy:create_sprite("enemies/" .. enemy:get_breed())
 end

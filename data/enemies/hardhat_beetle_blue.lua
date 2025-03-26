@@ -8,6 +8,7 @@ enemy:set_properties({
   damage = 4,
   normal_speed = 32,
   faster_speed = 32,
+  fire_reaction = "immobilized",
   push_hero_on_sword = true,
   movement_create = function()
     local m = sol.movement.create("random")

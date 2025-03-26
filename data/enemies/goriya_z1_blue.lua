@@ -10,6 +10,7 @@ function enemy:on_created()
   enemy:set_damage(4)
   enemy:set_pushed_back_when_hurt(false)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
+  self:set_attacking_collision_mode("overlapping")
 end
 
 local function go_hero()

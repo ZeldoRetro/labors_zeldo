@@ -5165,26 +5165,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 392,
-  y = 136,
-  width = 16,
-  height = 24,
-  pattern = "3_2",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 1,
-  x = 552,
-  y = 136,
-  width = 16,
-  height = 24,
-  pattern = "3_2",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 1,
   x = 432,
   y = 16,
   width = 16,
@@ -7932,26 +7912,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 392,
-  y = 296,
-  width = 16,
-  height = 24,
-  pattern = "3",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 1,
-  x = 552,
-  y = 296,
-  width = 16,
-  height = 24,
-  pattern = "3",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 1,
   x = 344,
   y = 392,
   width = 16,
@@ -7993,15 +7953,6 @@ tile{
   width = 24,
   height = 32,
   pattern = "stain_glass.wide.3.top",
-}
-
-tile{
-  layer = 1,
-  x = 600,
-  y = 344,
-  width = 24,
-  height = 32,
-  pattern = "stain_glass.wide.4.top",
 }
 
 tile{
@@ -8121,6 +8072,60 @@ tile{
   width = 8,
   height = 48,
   pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 352,
+  width = 32,
+  height = 16,
+  pattern = "floor_low.10-2",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 368,
+  width = 24,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 344,
+  width = 24,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 600,
+  y = 368,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.4.support.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 600,
+  y = 344,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.4.support.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 600,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
 }
 
 wall{
@@ -8249,7 +8254,7 @@ npc{
   name = "zeldo",
   layer = 1,
   x = 480,
-  y = 109,
+  y = 77,
   direction = 1,
   subtype = 1,
   sprite = "enemies/boss/zeldo",
@@ -8319,6 +8324,48 @@ sensor{
   y = 413,
   width = 128,
   height = 16,
+}
+
+teletransporter{
+  layer = 1,
+  x = 640,
+  y = 0,
+  width = 16,
+  height = 480,
+  transition = "scrolling",
+  destination_map = "creations/labors/forgotten_corridor",
+  destination = "_side",
+}
+
+dynamic_tile{
+  name = "weak_door_1_closed_1",
+  layer = 1,
+  x = 600,
+  y = 328,
+  width = 24,
+  height = 64,
+  pattern = "wall.4-6",
+}
+
+door{
+  name = "weak_door_1",
+  layer = 1,
+  x = 600,
+  y = 352,
+  direction = 0,
+  sprite = "entities/Doors/Inside/door_d1_weak_wall",
+  savegame_variable = "weak_10000_1_opened",
+  opening_method = "explosion",
+}
+
+dynamic_tile{
+  name = "weak_door_1_closed_2",
+  layer = 1,
+  x = 600,
+  y = 344,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.4.top",
 }
 
 tile{
@@ -8591,6 +8638,46 @@ tile{
   pattern = "door_top.closed.2-6",
 }
 
+tile{
+  layer = 2,
+  x = 392,
+  y = 136,
+  width = 16,
+  height = 24,
+  pattern = "3_2",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 2,
+  x = 552,
+  y = 136,
+  width = 16,
+  height = 24,
+  pattern = "3_2",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 2,
+  x = 392,
+  y = 296,
+  width = 16,
+  height = 24,
+  pattern = "3",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 2,
+  x = 552,
+  y = 296,
+  width = 16,
+  height = 24,
+  pattern = "3",
+  tileset = "inside_other",
+}
+
 separator{
   layer = 2,
   x = -8,
@@ -8605,5 +8692,25 @@ separator{
   y = -8,
   width = 16,
   height = 496,
+}
+
+dynamic_tile{
+  name = "weak_door_1_open_2",
+  layer = 2,
+  x = 616,
+  y = 328,
+  width = 8,
+  height = 64,
+  pattern = "door_cache.4-6",
+}
+
+dynamic_tile{
+  name = "weak_door_1_open_1",
+  layer = 2,
+  x = 616,
+  y = 344,
+  width = 8,
+  height = 32,
+  pattern = "door_top.4-3",
 }
 

@@ -16,6 +16,7 @@ function enemy:on_created()
   self:set_can_hurt_hero_running(true)
   self:set_obstacle_behavior("flying")
   self:set_invincible()
+  enemy:set_ice_reaction("custom")
   self:set_powder_reaction(1)
 end
 
@@ -69,3 +70,10 @@ enemy:register_event("on_attacking_hero", function(enemy)
 	enemy:get_game():remove_life(2)
   hero:start_hurt(enemy, 1)
 end)
+
+function enemy:on_custom_attack_received(attack, enemy_sprite)
+  if (attack == "ice") then
+    enemy:create_enemy({ breed = "bubble_white" })
+    enemy:remove()
+  end
+end

@@ -12,6 +12,7 @@ function enemy:on_created()
   self:set_origin(4, 4)
   self:set_can_hurt_hero_running(true)
   self:set_invincible()
+  enemy:set_ice_reaction("custom")
   self:set_powder_reaction(1)
 end
 
@@ -61,7 +62,15 @@ function enemy:on_attacking_hero(hero)
   local game = enemy:get_game()
 
   -- Hero is slowed.
+  hero_slowed = true
   hero:start_hurt(enemy, 0)
   hero:set_walking_speed(48)
-  sol.timer.start(3000, function() hero:set_walking_speed(88) end)
+  sol.timer.start(3000, function() hero_slowed = false hero:set_walking_speed(88) end)
+end
+
+function enemy:on_custom_attack_received(attack, enemy_sprite)
+  if (attack == "ice") then
+    enemy:create_enemy({ breed = "bubble_white" })
+    enemy:remove()
+  end
 end

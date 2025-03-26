@@ -1,0 +1,749 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 480,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "inside_ganon_tower_2",
+}
+
+wall{
+  layer = 0,
+  x = 144,
+  y = 160,
+  width = 16,
+  height = 160,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 480,
+  y = 160,
+  width = 16,
+  height = 160,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 240,
+  y = 64,
+  width = 160,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 240,
+  y = 400,
+  width = 160,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 160,
+  y = 320,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 176,
+  y = 336,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 192,
+  y = 352,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 208,
+  y = 368,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 224,
+  y = 384,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 400,
+  y = 384,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 416,
+  y = 368,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 432,
+  y = 352,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 448,
+  y = 336,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 464,
+  y = 320,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 160,
+  y = 144,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 176,
+  y = 128,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 192,
+  y = 112,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 208,
+  y = 96,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 224,
+  y = 80,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 400,
+  y = 80,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 416,
+  y = 96,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 432,
+  y = 112,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 448,
+  y = 128,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 464,
+  y = 144,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+enemy{
+  name = "CRAZY_1",
+  layer = 0,
+  x = -8,
+  y = 245,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "bubble_blue",
+}
+
+enemy{
+  name = "CRAZY_2",
+  layer = 0,
+  x = 320,
+  y = 493,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "bubble_dark",
+}
+
+enemy{
+  name = "CRAZY_3",
+  layer = 0,
+  x = 320,
+  y = -3,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "bubble_green",
+}
+
+enemy{
+  name = "CRAZY_4",
+  layer = 0,
+  x = 648,
+  y = 245,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "bubble_red",
+}
+
+enemy{
+  name = "CRAZY_5",
+  layer = 0,
+  x = 616,
+  y = 29,
+  direction = 0,
+  breed = "bubble_blue",
+}
+
+enemy{
+  name = "CRAZY_6",
+  layer = 0,
+  x = 24,
+  y = 29,
+  direction = 0,
+  breed = "bubble_dark",
+}
+
+enemy{
+  name = "CRAZY_7",
+  layer = 0,
+  x = 616,
+  y = 461,
+  direction = 0,
+  breed = "bubble_green",
+}
+
+enemy{
+  name = "CRAZY_8",
+  layer = 0,
+  x = 24,
+  y = 461,
+  direction = 0,
+  breed = "bubble_red",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 480,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 80,
+  width = 320,
+  height = 320,
+  pattern = "dive_to_the_heart.1",
+  tileset = "extra/zeldo_battle_room",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 64,
+  width = 160,
+  height = 16,
+  pattern = "6",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "8",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "7",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "7",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "7",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "7",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "7",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 160,
+  width = 16,
+  height = 160,
+  pattern = "6",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "9",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 480,
+  y = 160,
+  width = 16,
+  height = 160,
+  pattern = "6",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 400,
+  width = 160,
+  height = 16,
+  pattern = "6",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 448,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "8",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "8",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 448,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "8",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "8",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+}
+
+tile{
+  layer = 1,
+  x = 496,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "arrow.4",
+}
+
+tile{
+  layer = 1,
+  x = 496,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "arrow.4",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "arrow.2",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "arrow.2",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "arrow.1",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "arrow.1",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "9",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "9",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "9",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "9",
+  tileset = "inside_other",
+}
+
+destination{
+  name = "destination",
+  layer = 1,
+  x = 320,
+  y = 245,
+  direction = 3,
+  starting_location_mode = "no",
+  default = true,
+}
+
+enemy{
+  name = "CRAZY_",
+  layer = 1,
+  x = 320,
+  y = 165,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "boss/zeldo_wave_1/zeldo",
+}
+

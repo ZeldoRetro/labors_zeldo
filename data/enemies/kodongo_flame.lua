@@ -13,6 +13,7 @@ function enemy:on_created()
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_invincible()
   enemy:set_obstacle_behavior("flying")
+  enemy:set_property("is_major","true")
   enemy:set_minimum_shield_needed(3) -- Miror shield.
 
   function el:on_update()

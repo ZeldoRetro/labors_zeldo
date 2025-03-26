@@ -68,14 +68,13 @@ function stats_manager:new(game)
   local function get_items_inventory_string()
 
     num_items_inventory = 0
-    if game:get_value("labors_bottle_1_wave_1") then num_items_inventory = num_items_inventory + 1 end
-    if game:get_value("labors_bottle_2_wave_1") then num_items_inventory = num_items_inventory + 1 end
+    if game:get_value("labors_casualization_wave_1") then num_items_inventory = num_items_inventory + 1 end
     if game:get_value("labors_quiver_wave_1") then num_items_inventory = num_items_inventory + 1 end
     if game:get_value("labors_bomb_bag_wave_1") then num_items_inventory = num_items_inventory + 1 end
     if game:get_value("labors_magic_flask_upgrade_wave_1") then num_items_inventory = num_items_inventory + 1 end
     if game:get_value("labors_defense_boost_wave_1") then num_items_inventory = num_items_inventory + 1 end
     if game:get_value("labors_attack_boost_wave_1") then num_items_inventory = num_items_inventory + 1 end
-    max_items_inventory = 7
+    max_items_inventory = 6
     return tr("stats_menu.items_inventory") .. " " .. num_items_inventory .. " / "  ..max_items_inventory
   end
 

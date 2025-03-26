@@ -15198,7 +15198,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = "1040",
+  pattern = "1502",
 }
 
 tile{
@@ -15365,20 +15365,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 208,
-  y = 144,
-  width = 16,
-  height = 16,
-  pattern = "1040",
-}
-
-tile{
-  layer = 0,
   x = 192,
   y = 208,
   width = 16,
   height = 16,
-  pattern = "1040",
+  pattern = "1502",
 }
 
 tile{
@@ -16602,7 +16593,7 @@ tile{
   y = 448,
   width = 16,
   height = 16,
-  pattern = "1040",
+  pattern = "1502",
 }
 
 tile{
@@ -16922,7 +16913,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1288,
+  x = 1296,
   y = 472,
   width = 8,
   height = 8,
@@ -20639,27 +20630,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = "1040",
-}
-
-tile{
-  layer = 0,
-  x = 1264,
-  y = 448,
-  width = 32,
-  height = 16,
-  pattern = "14004",
-  tileset = "outside_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 1264,
-  y = 432,
-  width = 32,
-  height = 16,
-  pattern = "14005",
-  tileset = "outside_buildings",
+  pattern = "1502",
 }
 
 tile{
@@ -20981,6 +20952,79 @@ tile{
   width = 48,
   height = 32,
   pattern = "941",
+}
+
+tile{
+  layer = 0,
+  x = 1264,
+  y = 464,
+  width = 32,
+  height = 16,
+  pattern = "14667",
+}
+
+tile{
+  layer = 0,
+  x = 1272,
+  y = 472,
+  width = 16,
+  height = 8,
+  pattern = "119",
+}
+
+tile{
+  layer = 0,
+  x = 1288,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "121",
+}
+
+tile{
+  layer = 0,
+  x = 1264,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "125",
+}
+
+tile{
+  layer = 0,
+  x = 1264,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "115",
+}
+
+tile{
+  layer = 0,
+  x = 1288,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "114",
+}
+
+tile{
+  layer = 0,
+  x = 1272,
+  y = 456,
+  width = 16,
+  height = 16,
+  pattern = "910",
+}
+
+tile{
+  layer = 0,
+  x = 1264,
+  y = 448,
+  width = 32,
+  height = 16,
+  pattern = "14004",
+  tileset = "outside_buildings",
 }
 
 tile{
@@ -22158,7 +22202,6 @@ destructible{
   layer = 0,
   x = 200,
   y = 173,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22169,7 +22212,6 @@ destructible{
   layer = 0,
   x = 216,
   y = 173,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22180,7 +22222,6 @@ destructible{
   layer = 0,
   x = 456,
   y = 109,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22191,7 +22232,6 @@ destructible{
   layer = 0,
   x = 200,
   y = 493,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22202,7 +22242,6 @@ destructible{
   layer = 0,
   x = 216,
   y = 493,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22213,7 +22252,6 @@ destructible{
   layer = 0,
   x = 200,
   y = 509,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22224,7 +22262,6 @@ destructible{
   layer = 0,
   x = 184,
   y = 525,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22235,7 +22272,6 @@ destructible{
   layer = 0,
   x = 280,
   y = 469,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22246,7 +22282,6 @@ destructible{
   layer = 0,
   x = 280,
   y = 453,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22257,7 +22292,6 @@ destructible{
   layer = 0,
   x = 264,
   y = 453,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22268,7 +22302,6 @@ destructible{
   layer = 0,
   x = 200,
   y = 413,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22279,7 +22312,6 @@ destructible{
   layer = 0,
   x = 200,
   y = 381,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22338,7 +22370,6 @@ destructible{
   layer = 0,
   x = 1496,
   y = 149,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22349,7 +22380,6 @@ destructible{
   layer = 0,
   x = 1512,
   y = 181,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22360,7 +22390,6 @@ destructible{
   layer = 0,
   x = 1352,
   y = 269,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22371,7 +22400,6 @@ destructible{
   layer = 0,
   x = 1496,
   y = 165,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22418,7 +22446,6 @@ destructible{
   layer = 0,
   x = 1368,
   y = 493,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22429,7 +22456,6 @@ destructible{
   layer = 0,
   x = 1368,
   y = 461,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22512,7 +22538,6 @@ destructible{
   layer = 0,
   x = 1192,
   y = 477,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22523,7 +22548,6 @@ destructible{
   layer = 0,
   x = 1192,
   y = 493,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22534,7 +22558,6 @@ destructible{
   layer = 0,
   x = 840,
   y = 109,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22545,7 +22568,6 @@ destructible{
   layer = 0,
   x = 824,
   y = 109,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22556,7 +22578,6 @@ destructible{
   layer = 0,
   x = 840,
   y = 125,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22567,7 +22588,6 @@ destructible{
   layer = 0,
   x = 1112,
   y = 173,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22578,7 +22598,6 @@ destructible{
   layer = 0,
   x = 1112,
   y = 157,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22589,7 +22608,6 @@ destructible{
   layer = 0,
   x = 1080,
   y = 173,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22600,7 +22618,6 @@ destructible{
   layer = 0,
   x = 1176,
   y = 109,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22717,7 +22734,6 @@ destructible{
   layer = 0,
   x = 1272,
   y = 861,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22728,7 +22744,6 @@ destructible{
   layer = 0,
   x = 1256,
   y = 845,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22739,7 +22754,6 @@ destructible{
   layer = 0,
   x = 1288,
   y = 861,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22750,7 +22764,6 @@ destructible{
   layer = 0,
   x = 1288,
   y = 877,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22761,7 +22774,6 @@ destructible{
   layer = 0,
   x = 1240,
   y = 893,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22772,7 +22784,6 @@ destructible{
   layer = 0,
   x = 1208,
   y = 893,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22783,7 +22794,6 @@ destructible{
   layer = 0,
   x = 1440,
   y = 781,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -22794,7 +22804,6 @@ destructible{
   layer = 0,
   x = 1440,
   y = 797,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -23021,7 +23030,6 @@ destructible{
   layer = 0,
   x = 1080,
   y = 893,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -23032,7 +23040,6 @@ destructible{
   layer = 0,
   x = 240,
   y = 685,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -23043,7 +23050,6 @@ destructible{
   layer = 0,
   x = 280,
   y = 837,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -23054,7 +23060,6 @@ destructible{
   layer = 0,
   x = 480,
   y = 829,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -23065,7 +23070,6 @@ destructible{
   layer = 0,
   x = 544,
   y = 845,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -23076,7 +23080,6 @@ destructible{
   layer = 0,
   x = 680,
   y = 885,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -23087,7 +23090,6 @@ destructible{
   layer = 0,
   x = 720,
   y = 861,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -23098,7 +23100,6 @@ destructible{
   layer = 0,
   x = 704,
   y = 829,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -23109,7 +23110,6 @@ destructible{
   layer = 0,
   x = 840,
   y = 829,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -23120,7 +23120,6 @@ destructible{
   layer = 0,
   x = 808,
   y = 845,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -23251,7 +23250,6 @@ destructible{
   layer = 0,
   x = 528,
   y = 829,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_01",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24244,19 +24242,6 @@ wall{
   stops_projectiles = true,
 }
 
-wall{
-  layer = 0,
-  x = 1272,
-  y = 432,
-  width = 16,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
 sensor{
   name = "not_texte",
   layer = 0,
@@ -24264,6 +24249,142 @@ sensor{
   y = 893,
   width = 16,
   height = 32,
+}
+
+custom_entity{
+  name = "day_entity_7",
+  layer = 0,
+  x = 216,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_12",
+  layer = 0,
+  x = 216,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+jumper{
+  layer = 0,
+  x = 936,
+  y = 688,
+  width = 32,
+  height = 8,
+  direction = 2,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 0,
+  x = 936,
+  y = 728,
+  width = 32,
+  height = 8,
+  direction = 6,
+  jump_length = 56,
+}
+
+jumper{
+  layer = 0,
+  x = 968,
+  y = 696,
+  width = 8,
+  height = 32,
+  direction = 0,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 0,
+  x = 928,
+  y = 696,
+  width = 8,
+  height = 32,
+  direction = 4,
+  jump_length = 40,
+}
+
+dynamic_tile{
+  name = "casual_entity_45",
+  layer = 0,
+  x = 1328,
+  y = 432,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.hookshot",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_46",
+  layer = 0,
+  x = 856,
+  y = 816,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.boomerang",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_39",
+  layer = 0,
+  x = 240,
+  y = 400,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.4",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_47",
+  layer = 0,
+  x = 464,
+  y = 280,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.hookshot",
+  tileset = "extra/casual_tileset",
 }
 
 tile{
@@ -26731,6 +26852,88 @@ tile{
   pattern = "84",
 }
 
+tile{
+  layer = 1,
+  x = 192,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "1502_top",
+}
+
+tile{
+  layer = 1,
+  x = 1200,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "1502_top",
+}
+
+tile{
+  layer = 1,
+  x = 1472,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "1502_top",
+}
+
+tile{
+  layer = 1,
+  x = 1312,
+  y = 440,
+  width = 16,
+  height = 8,
+  pattern = "1502_top",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 848,
+  width = 8,
+  height = 8,
+  pattern = "126",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 864,
+  width = 8,
+  height = 8,
+  pattern = "127",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 936,
+  width = 8,
+  height = 8,
+  pattern = "127",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 904,
+  width = 8,
+  height = 8,
+  pattern = "126",
+}
+
+tile{
+  layer = 1,
+  x = 1264,
+  y = 432,
+  width = 32,
+  height = 16,
+  pattern = "14005",
+  tileset = "outside_buildings",
+}
+
 dynamic_tile{
   name = "weak_door_1_open_7",
   layer = 1,
@@ -26787,6 +26990,30 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+custom_entity{
+  name = "day_entity_6",
+  layer = 1,
+  x = 8,
+  y = 861,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_11",
+  layer = 1,
+  x = 8,
+  y = 861,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
 }
 
 tile{
@@ -27133,24 +27360,6 @@ tile{
 
 tile{
   layer = 2,
-  x = 16,
-  y = 864,
-  width = 8,
-  height = 8,
-  pattern = "127",
-}
-
-tile{
-  layer = 2,
-  x = 0,
-  y = 936,
-  width = 8,
-  height = 8,
-  pattern = "127",
-}
-
-tile{
-  layer = 2,
   x = 464,
   y = 0,
   width = 8,
@@ -27261,24 +27470,6 @@ tile{
   layer = 2,
   x = 48,
   y = 416,
-  width = 8,
-  height = 8,
-  pattern = "126",
-}
-
-tile{
-  layer = 2,
-  x = 8,
-  y = 904,
-  width = 8,
-  height = 8,
-  pattern = "126",
-}
-
-tile{
-  layer = 2,
-  x = 0,
-  y = 848,
   width = 8,
   height = 8,
   pattern = "126",

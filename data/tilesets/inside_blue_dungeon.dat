@@ -28496,7 +28496,7 @@ tile_pattern{
 
 tile_pattern{
   id = "arrow.1",
-  ground = "traversable",
+  ground = "empty",
   default_layer = 0,
   x = 200,
   y = 176,
@@ -28507,7 +28507,7 @@ tile_pattern{
 
 tile_pattern{
   id = "arrow.2",
-  ground = "traversable",
+  ground = "empty",
   default_layer = 0,
   x = 216,
   y = 192,
@@ -28518,7 +28518,7 @@ tile_pattern{
 
 tile_pattern{
   id = "arrow.3",
-  ground = "traversable",
+  ground = "empty",
   default_layer = 0,
   x = 200,
   y = 192,
@@ -28529,7 +28529,7 @@ tile_pattern{
 
 tile_pattern{
   id = "arrow.4",
-  ground = "traversable",
+  ground = "empty",
   default_layer = 0,
   x = 216,
   y = 176,
@@ -41070,13 +41070,12 @@ tile_pattern{
 
 tile_pattern{
   id = "telepathic_stone",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 520,
   y = 352,
   width = 16,
   height = 16,
-  repeat_mode = "none",
 }
 
 tile_pattern{

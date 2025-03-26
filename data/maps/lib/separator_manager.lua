@@ -10,8 +10,9 @@ require("scripts/multi_events")
 
 function separator_manager:manage_map(map)
 
-  local enemy_places = {}
+  local enemy_starting_positions = {}
   local destructible_places = {}
+  local custom_entity_places = {}
   local game = map:get_game()
 
   -- Function called when a separator was just taken.
@@ -31,7 +32,7 @@ function separator_manager:manage_map(map)
   end
 
   -- Function called when a separator is being taken.
-  local function separator_on_activating(separator)
+  local function separator_on_activating(separator, direction4)
 
     local hero = map:get_hero()
 
@@ -62,6 +63,77 @@ function separator_manager:manage_map(map)
         end
       end
     end
+
+    -- Custom entities.
+    for _, custom_entity_place in ipairs(custom_entity_places) do
+      local custom_entity = custom_entity_place.custom_entity
+
+      if not custom_entity:exists() then
+        -- Re-create custom_entity in all regions except the active one.
+        if not custom_entity:is_in_same_region(hero) then
+          local custom_entity = map:create_custom_entity({
+            direction = custom_entity_place.direction,
+            x = custom_entity_place.x,
+            y = custom_entity_place.y,
+            layer = custom_entity_place.layer,
+            width = custom_entity_place.width,
+            height = custom_entity_place.height,
+            name = custom_entity_place.name,
+            sprite = custom_entity_place.sprite,
+            model = custom_entity_place.model,
+          })
+          -- We don't recreate the treasure.
+          custom_entity_place.custom_entity = custom_entity
+          custom_entity:bring_to_back()
+
+        end
+      end
+    end
+
+    -- Enemies
+    -- disable enemies in the current room
+    for entity in map:get_entities_in_region(map:get_camera()) do
+      local is_boss = entity:get_property("is_major") == "true"
+      if entity:get_type() == "enemy" and not is_boss then
+        entity:set_enabled(false)
+        -- reset enemy position to its starting location
+        local address = string.format("%p", entity)
+        local pos = enemy_starting_positions[address]
+        if pos ~= nil then
+          entity:set_position(pos[1], pos[2])
+        end
+      end
+    end
+
+    -- clear enemy positions from previous room
+    local count = #enemy_starting_positions
+    for j = 1, count do enemy_starting_positions[j] = nil end
+
+    -- compute next room position
+    local target_x, target_y = hero:get_position()
+    if direction4 == 0 then
+      target_x = target_x + 16
+    elseif direction4 == 1 then
+      target_y = target_y - 16
+    elseif direction4 == 2 then
+      target_x = target_x - 16
+    elseif direction4 == 3 then
+      target_y = target_y + 16
+    end
+
+    -- enable enemies in the next room
+    for entity in map:get_entities_in_region(target_x, target_y) do
+      local is_boss = entity:get_property("is_major") == "true"
+      if entity:get_type() == "enemy" and not is_boss then
+        entity:set_enabled(true)
+        local address = string.format("%p", entity)
+
+        -- save enemy starting location when leaving the room
+        local pos_x, pos_y = entity:get_position()
+        enemy_starting_positions[address] = { pos_x, pos_y }
+      end
+    end
+
   end
 
   for separator in map:get_entities("auto_separator") do
@@ -96,6 +168,24 @@ function separator_manager:manage_map(map)
       damage_on_enemies = destructible:get_damage_on_enemies(),
       ground = destructible:get_modified_ground(),
       destructible = destructible,
+    }
+  end
+
+  -- Store the position and properties of destructibles.
+  for custom_entity in map:get_entities("auto_custom_entity") do
+    local x, y, layer = custom_entity:get_position()
+    local width, height = custom_entity:get_size()
+    custom_entity_places[#custom_entity_places + 1] = {
+      direction = custom_entity:get_direction(),
+      x = x,
+      y = y,
+      layer = layer,
+      width = width,
+      height = height,
+      name = custom_entity:get_name(),
+      sprite = custom_entity:get_sprite():get_animation_set(),
+      model = custom_entity:get_model(),
+      custom_entity = custom_entity,
     }
   end
 

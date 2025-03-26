@@ -9,22 +9,13 @@ animation{
   },
 }
 animation{
-  name = "following_1",
+  name = "destroying",
   src_image = "enemies/fireball_purple_small.png",
+  frame_delay = 100,
   directions = {
-    { x = 8, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
-    { x = 8, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
-    { x = 8, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
-    { x = 8, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
-  },
-}
-animation{
-  name = "following_2",
-  src_image = "enemies/fireball_purple_small.png",
-  directions = {
-    { x = 16, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
-    { x = 16, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
-    { x = 16, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
-    { x = 16, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4, num_frames = 3 },
   },
 }

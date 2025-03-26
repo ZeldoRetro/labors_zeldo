@@ -58,14 +58,13 @@ function map:on_started(destination)
     arrows_counter:set_variant(1)
     arrows_counter:set_amount(30)
 
-  end
+    --Upgrades si achat au magasin
+    if game:get_value("tott_upgrade_card_force_active") then local force = game:get_value("force") game:set_value("force", force + 1) end
+    if game:get_value("tott_upgrade_card_defense_active") then local defense = game:get_value("defense") game:set_value("defense", defense + 1) end
+    if game:get_value("tott_upgrade_card_arrows_active") then game:get_item("equipment/quiver"):set_variant(2) game:get_item("inventory/bow"):set_amount(50) end
+    if game:get_value("tott_upgrade_card_bombs_active") then game:get_item("equipment/bomb_bag"):set_variant(2) game:get_item("inventory/bombs_counter"):set_amount(40) end
 
-  --Upgrades si achat au magasin
-  if game:get_value("labors_magic_flask_upgrade_wave_1") then game:get_item("magic_bar"):set_variant(2) end
-  if game:get_value("labors_attack_boost_wave_1") then local force = game:get_value("force") game:set_value("force", force + 1) end
-  if game:get_value("labors_defense_boost_wave_1") then local defense = game:get_value("defense") game:set_value("defense", defense + 1) end
-  if game:get_value("labors_quiver_wave_1") then game:get_item("equipment/quiver"):set_variant(2) game:get_item("inventory/bow"):set_amount(50) end
-  if game:get_value("labors_bomb_bag_wave_1") then game:get_item("equipment/bomb_bag"):set_variant(2) game:get_item("inventory/bombs_counter"):set_amount(40) end
+  end
 
   --Enemis et entités invisibles
   for entity in map:get_entities("invisible_path") do
@@ -78,7 +77,6 @@ function map:on_started(destination)
   --Portes ouvertes, ennemis visibles, ...
   map:set_doors_open("door_boss_1")
   map:set_doors_open("minidoor_boss_1")
-  map:set_doors_open("falling_door")
   map:set_doors_open("door_battle_back")
   map:set_doors_open("auto_door_1_back")
   map:set_entities_enabled("enemy_battle",false)

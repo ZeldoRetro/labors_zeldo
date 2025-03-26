@@ -11,7 +11,7 @@ separator_manager:manage_map(map)
 
 --EFFET DE CHALEUR
 local heat = sol.surface.create(320,240)
-heat:set_opacity(60)
+heat:set_opacity(50)
 heat:fill_color({255,40,0})
 
 map:register_event("on_draw",function(map,dst_surface)
@@ -38,7 +38,7 @@ function map:on_started()
 end
 
 for torch in map:get_entities("auto_timed_torch_auto_door_5") do
-  torch:set_duration(25000)
+  torch:set_duration(26000)
 end
 
 --PORTES INVISIBLES

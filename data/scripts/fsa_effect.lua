@@ -149,11 +149,8 @@ local function setup_inside_lights(map)
                  (function()
                     if map:get_game():get_value("dark_room") then return {12,12,12}
                     elseif map:get_game():get_value("dark_room_middle") then return {128,128,128}
-                    elseif map:get_world() == "outside_light" or map:get_world() == "outside_light_2"
-                    or map:get_world() == "outside_light_labors_tott"
-                    or map:get_id() == "creations/forgotten_legend/dungeons/4/1ET_outside" then
+                    elseif map:is_outside() then
                       if map:get_game():get_value("night") then return {0,33,164}
-                      --elseif map:get_game():get_value("twilight") then return {244,116,0}
                       elseif map:get_game():get_value("dawn") then return {255,94,109}
                       else return {255,255,255}
                       end
@@ -289,9 +286,7 @@ function fsa:on_map_changed(map)
   if self.current_map == map then
     return -- already registered and created
   end
-  local outside = map:get_world() == "outside_light" or map:get_world() == "outside_light_2"
-  or map:get_world() == "outside_light_labors_tott"
-  or map:get_id() == "creations/forgotten_legend/dungeons/4/1ET_outside"
+  local outside = map:is_outside()
   setup_inside_lights(map)
   self.outside = outside
   self.current_map = map
@@ -317,8 +312,10 @@ function fsa:on_map_draw(map, dst)
 
   if self.outside then
     if map:get_id() == "creations/forgotten_legend/outside/light/A4"
-    or map:get_id() == "creations/forgotten_legend/outside/light/A5" 
+    or map:get_id() == "creations/forgotten_legend/outside/light/A5"
+    or map:get_id() == "creations/another_hyrule_fantasy/outside/light/A4" 
     or map:get_id() == "creations/forgotten_legend/outside/light/sacred_forest_meadow" then return end
+  if map:get_entity("init_map") ~= nil and map:get_entity("init_map"):get_property("disable_clouds") ~= nil then return end
     fsa:draw_clouds_shadow(dst,dx,dy)
   end
 end

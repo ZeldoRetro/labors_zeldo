@@ -3,7 +3,7 @@ local enemy = ...
 --Ice Keese: Can freeze the hero
 
 function enemy:on_created()
-  self:set_life(4)
+  self:set_life(6)
   self:set_damage(4)
   self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_attack_consequence("boomerang", 1)
@@ -25,8 +25,8 @@ function enemy:on_restarted()
 end
 
 function enemy:on_attacking_hero(hero)
-    -- Hero is frozen.
-	enemy:get_game():remove_life(3)
+  -- Hero is frozen.
+	enemy:get_game():remove_life(7)
   hero:start_hurt(enemy, 1)
   hero:freeze()
 	hero:set_animation("frozen")

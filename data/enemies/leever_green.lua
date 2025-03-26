@@ -3,18 +3,20 @@ local enemy = ...
 --Leever: Can disappear into the sand
 
 function enemy:on_created()
-  self:set_life(2)
+  self:set_life(1)
   self:set_damage(2)
   self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_size(16, 16)
   self:set_origin(8, 13)
+  self:set_attacking_collision_mode("overlapping")
+  self:set_property("is_major","true")
   self:set_layer_independent_collisions(true)
 end
 
 function enemy:on_restarted()
   local m = sol.movement.create("path_finding")
   m:set_speed(32)
-  sol.timer.start(enemy, math.random(3000,5000), function() enemy:disappear() end)
+  sol.timer.start(enemy, math.random(2000,5000), function() enemy:disappear() end)
   m:start(self)
 end
 

@@ -12,6 +12,7 @@ function enemy:on_created()
   enemy:set_invincible()
   enemy:set_layer_independent_collisions(true)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
+  enemy:set_property("is_major","true")
 end
 
 function enemy:on_restarted()

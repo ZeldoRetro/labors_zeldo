@@ -6,7 +6,7 @@ quest{
   long_description = [[
 In The Labors of Zeldo, you can explore the unreleased projects that ZeldoRetro made using the Solarus Engine. Games, retranscriptions of existing contents or simple tests, Zeldo is proposing you to play them in a totally playable and enjoyable version. Have fun !]],
   author = "ZeldoRetro",
-  quest_version = "1.1.0",
+  quest_version = "1.2.0",
   release_date = "20240130",
   website = "",
   normal_quest_size = "320x240",

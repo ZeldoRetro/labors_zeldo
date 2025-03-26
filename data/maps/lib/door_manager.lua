@@ -71,6 +71,11 @@ function door_manager:open_when_switch_activated(door)
   if switch ~= nil then
     function switch:on_activated()
       sol.audio.play_sound("correct")
+      -- Light of Switch
+      if map:get_entity("auto_switch_"..door_prefix.."_torch") ~= nil then
+        map:get_entity("auto_switch_"..door_prefix.."_torch"):set_lit(true)
+        map:get_entity("auto_switch_"..door_prefix.."_torch"):on_lit(true)
+      end
       map:move_camera(door_prefix_x,door_prefix_y,256,function() map:open_doors(door_prefix) end)
     end
     function switch:on_inactivated()
@@ -81,6 +86,8 @@ function door_manager:open_when_switch_activated(door)
       -- Door saved in state open.
       switch:set_activated(true)
       switch:set_locked()
+      -- Light of Switch
+      if map:get_entity("auto_switch_"..door_prefix.."_torch") ~= nil then map:get_entity("auto_switch_"..door_prefix.."_torch"):set_lit(true) end
     end
   end
 
@@ -140,6 +147,9 @@ function door_manager:open_when_timed_torches_lit(door)
       remaining = remaining - 1
       if remaining == 0 then
         sol.audio.play_sound("correct")
+        for torch in map:get_entities("definitive_"..torch_prefix) do
+          torch:set_enabled(true) torch:set_lit(true) torch:on_lit()
+        end
         map:move_camera(door_prefix_x,door_prefix_y,256,function() map:open_doors(door_prefix) end)
       end
     end

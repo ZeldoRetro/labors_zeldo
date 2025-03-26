@@ -9330,6 +9330,94 @@ pickable{
   treasure_savegame_variable = "rupees_10001_10",
 }
 
+sensor{
+  name = "sensor_push_hero_auto_door_2_back",
+  layer = 0,
+  x = 312,
+  y = 821,
+  properties = {
+    {
+      key = "direction",
+      value = "0",
+    },
+    {
+      key = "angle",
+      value = "0",
+    },
+    {
+      key = "disable_if_value",
+      value = "door_10001_9",
+    },
+  },
+  width = 16,
+  height = 16,
+}
+
+destructible{
+  name = "casual_entity_53",
+  layer = 0,
+  x = 560,
+  y = 805,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_54",
+  layer = 0,
+  x = 560,
+  y = 885,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+door{
+  name = "auto_door_2_2",
+  layer = 0,
+  x = 472,
+  y = 1008,
+  direction = 1,
+  sprite = "entities/Doors/Inside/door_d1_normal",
+  savegame_variable = "door_10001_9",
+  cannot_open_dialog = "door.closed.1",
+}
+
+dynamic_tile{
+  name = "casual_entity_30",
+  layer = 0,
+  x = 1432,
+  y = 1048,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.boss-lock",
+  tileset = "extra/casual_tileset",
+}
+
 tile{
   layer = 1,
   x = 688,
@@ -20238,48 +20326,34 @@ tile{
   pattern = "floor_pot",
 }
 
-wall{
-  name = "chest_item_2",
+tile{
   layer = 1,
-  x = 1424,
-  y = 280,
+  x = 1904,
+  y = 1024,
   width = 32,
-  height = 24,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-custom_entity{
-  layer = 1,
-  x = 1456,
-  y = 293,
-  width = 8,
-  height = 24,
-  direction = 0,
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 1,
-  x = 1432,
-  y = 293,
-  width = 8,
-  height = 24,
-  direction = 0,
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 1,
-  x = 1440,
-  y = 293,
-  width = 16,
   height = 8,
-  direction = 0,
-  model = "hookable",
+  pattern = "barrier.1-1",
+  tileset = "inside_blue_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 1904,
+  y = 1048,
+  width = 32,
+  height = 8,
+  pattern = "barrier.1-1",
+  tileset = "inside_blue_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 1904,
+  y = 1032,
+  width = 32,
+  height = 16,
+  pattern = "floor.20-1",
+  tileset = "inside_blue_dungeon",
 }
 
 dynamic_tile{
@@ -20952,15 +21026,6 @@ wall{
   height = 16,
   stops_enemies = true,
   stops_blocks = true,
-}
-
-chest{
-  layer = 1,
-  x = 1440,
-  y = 301,
-  treasure_name = "inventory/hookshot",
-  treasure_savegame_variable = "get_hookshot_10001",
-  sprite = "entities/Chests/chest_big_LttP",
 }
 
 door{
@@ -22753,6 +22818,12 @@ enemy{
   layer = 1,
   x = 1440,
   y = 613,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "boss/great_zoura",
   treasure_name = "pickable/fairy",
@@ -27285,7 +27356,6 @@ destructible{
   layer = 1,
   x = 824,
   y = 605,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -27326,7 +27396,6 @@ destructible{
   layer = 1,
   x = 728,
   y = 1261,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -27338,7 +27407,6 @@ destructible{
   layer = 1,
   x = 872,
   y = 1261,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -27350,7 +27418,6 @@ destructible{
   layer = 1,
   x = 904,
   y = 1293,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -27362,7 +27429,6 @@ destructible{
   layer = 1,
   x = 904,
   y = 1357,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -27374,7 +27440,6 @@ destructible{
   layer = 1,
   x = 872,
   y = 1389,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -27386,7 +27451,6 @@ destructible{
   layer = 1,
   x = 728,
   y = 1389,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -27398,7 +27462,6 @@ destructible{
   layer = 1,
   x = 696,
   y = 1357,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -27410,7 +27473,6 @@ destructible{
   layer = 1,
   x = 696,
   y = 1293,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -27555,7 +27617,6 @@ destructible{
   layer = 1,
   x = 88,
   y = 893,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -27567,7 +27628,6 @@ destructible{
   layer = 1,
   x = 232,
   y = 893,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -27945,7 +28005,6 @@ destructible{
   layer = 1,
   x = 1368,
   y = 813,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -27957,7 +28016,6 @@ destructible{
   layer = 1,
   x = 1512,
   y = 813,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28176,7 +28234,6 @@ destructible{
   layer = 1,
   x = 1656,
   y = 637,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28188,7 +28245,6 @@ destructible{
   layer = 1,
   x = 1688,
   y = 669,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28200,7 +28256,6 @@ destructible{
   layer = 1,
   x = 1832,
   y = 669,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28212,7 +28267,6 @@ destructible{
   layer = 1,
   x = 1864,
   y = 637,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28224,7 +28278,6 @@ destructible{
   layer = 1,
   x = 1656,
   y = 493,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28236,7 +28289,6 @@ destructible{
   layer = 1,
   x = 1688,
   y = 461,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28248,7 +28300,6 @@ destructible{
   layer = 1,
   x = 1832,
   y = 461,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28260,7 +28311,6 @@ destructible{
   layer = 1,
   x = 1864,
   y = 493,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28435,7 +28485,6 @@ destructible{
   layer = 1,
   x = 2472,
   y = 1501,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28447,7 +28496,6 @@ destructible{
   layer = 1,
   x = 2504,
   y = 1533,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28459,7 +28507,6 @@ destructible{
   layer = 1,
   x = 2504,
   y = 1597,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28471,7 +28518,6 @@ destructible{
   layer = 1,
   x = 2472,
   y = 1629,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28483,7 +28529,6 @@ destructible{
   layer = 1,
   x = 2008,
   y = 1629,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28495,7 +28540,6 @@ destructible{
   layer = 1,
   x = 1976,
   y = 1597,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28660,7 +28704,6 @@ destructible{
   layer = 1,
   x = 1976,
   y = 1533,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28672,7 +28715,6 @@ destructible{
   layer = 1,
   x = 2008,
   y = 1501,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28684,7 +28726,6 @@ destructible{
   layer = 1,
   x = 1064,
   y = 861,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28696,7 +28737,6 @@ destructible{
   layer = 1,
   x = 1816,
   y = 861,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28708,7 +28748,6 @@ destructible{
   layer = 1,
   x = 1016,
   y = 1061,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28744,7 +28783,6 @@ destructible{
   layer = 1,
   x = 1288,
   y = 1357,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28756,7 +28794,6 @@ destructible{
   layer = 1,
   x = 1320,
   y = 1389,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28768,7 +28805,6 @@ destructible{
   layer = 1,
   x = 1560,
   y = 1389,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28780,7 +28816,6 @@ destructible{
   layer = 1,
   x = 1592,
   y = 1357,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28792,7 +28827,6 @@ destructible{
   layer = 1,
   x = 1352,
   y = 1533,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28804,7 +28838,6 @@ destructible{
   layer = 1,
   x = 1384,
   y = 1501,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28816,7 +28849,6 @@ destructible{
   layer = 1,
   x = 1528,
   y = 1533,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -28828,7 +28860,6 @@ destructible{
   layer = 1,
   x = 1496,
   y = 1501,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -29642,7 +29673,6 @@ destructible{
   layer = 1,
   x = 696,
   y = 1117,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -29654,7 +29684,6 @@ destructible{
   layer = 1,
   x = 728,
   y = 1149,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -29666,7 +29695,6 @@ destructible{
   layer = 1,
   x = 872,
   y = 1149,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -29678,7 +29706,6 @@ destructible{
   layer = 1,
   x = 904,
   y = 1117,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -30510,7 +30537,6 @@ destructible{
   layer = 1,
   x = 56,
   y = 1053,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -30522,7 +30548,6 @@ destructible{
   layer = 1,
   x = 88,
   y = 1021,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -30534,7 +30559,6 @@ destructible{
   layer = 1,
   x = 232,
   y = 1021,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -30546,7 +30570,6 @@ destructible{
   layer = 1,
   x = 264,
   y = 1053,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -30684,7 +30707,6 @@ destructible{
   layer = 1,
   x = 1864,
   y = 1109,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -30788,6 +30810,400 @@ sensor{
   y = 1453,
   width = 16,
   height = 16,
+}
+
+wall{
+  layer = 1,
+  x = 1424,
+  y = 288,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+custom_entity{
+  layer = 1,
+  x = 1456,
+  y = 301,
+  width = 8,
+  height = 16,
+  direction = 0,
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1432,
+  y = 301,
+  width = 8,
+  height = 16,
+  direction = 0,
+  model = "hookable",
+}
+
+chest{
+  layer = 1,
+  x = 1440,
+  y = 301,
+  treasure_name = "inventory/hookshot",
+  treasure_savegame_variable = "get_hookshot_10001",
+  sprite = "entities/Chests/chest_big_LttP",
+}
+
+dynamic_tile{
+  name = "casual_entity_6",
+  layer = 1,
+  x = 1728,
+  y = 512,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.1",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_7",
+  layer = 1,
+  x = 1712,
+  y = 576,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_8",
+  layer = 1,
+  x = 1776,
+  y = 592,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.2",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_9",
+  layer = 1,
+  x = 1792,
+  y = 528,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.4",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_10",
+  layer = 1,
+  x = 1432,
+  y = 304,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.2",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_11",
+  layer = 1,
+  x = 1456,
+  y = 288,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.4",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_12",
+  layer = 1,
+  x = 1408,
+  y = 288,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+  tileset = "extra/casual_tileset",
+}
+
+destructible{
+  name = "casual_entity_49",
+  layer = 1,
+  x = 1400,
+  y = 653,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_50",
+  layer = 1,
+  x = 1480,
+  y = 653,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_51",
+  layer = 1,
+  x = 1480,
+  y = 557,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_52",
+  layer = 1,
+  x = 1400,
+  y = 557,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+dynamic_tile{
+  name = "casual_entity_13",
+  layer = 1,
+  x = 1840,
+  y = 1032,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 128,
+  height = 16,
+  pattern = "yellow.switch",
+  tileset = "inside_blue_dungeon",
+}
+
+dynamic_tile{
+  name = "casual_entity_17",
+  layer = 1,
+  x = 848,
+  y = 1072,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.hookshot",
+  tileset = "extra/casual_tileset",
+}
+
+wall{
+  layer = 1,
+  x = 1952,
+  y = 1032,
+  width = 8,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+dynamic_tile{
+  name = "casual_entity_31",
+  layer = 1,
+  x = 1752,
+  y = 768,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.small-key",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_28",
+  layer = 1,
+  x = 1168,
+  y = 784,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.small-lock",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_29",
+  layer = 1,
+  x = 1432,
+  y = 856,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.small-lock",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_18",
+  layer = 1,
+  x = 1296,
+  y = 880,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.hookshot",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_19",
+  layer = 1,
+  x = 1568,
+  y = 880,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.hookshot",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_32",
+  layer = 1,
+  x = 2176,
+  y = 1072,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.small-key",
+  tileset = "extra/casual_tileset",
 }
 
 tile{
@@ -32545,6 +32961,15 @@ tile{
   pattern = "door_top.2-5",
 }
 
+tile{
+  layer = 2,
+  x = 1920,
+  y = 720,
+  width = 320,
+  height = 240,
+  pattern = "ceiling.1",
+}
+
 separator{
   name = "auto_separator_1",
   layer = 2,
@@ -32747,5 +33172,301 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/Switches/switch_stars_effect",
+}
+
+dynamic_tile{
+  name = "casual_entity_14",
+  layer = 2,
+  x = 1904,
+  y = 1032,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_15",
+  layer = 2,
+  x = 1920,
+  y = 1032,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+  tileset = "extra/casual_tileset",
+}
+
+wall{
+  layer = 2,
+  x = 32,
+  y = 752,
+  width = 256,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 32,
+  y = 920,
+  width = 256,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 32,
+  y = 760,
+  width = 8,
+  height = 160,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 280,
+  y = 760,
+  width = 8,
+  height = 160,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 672,
+  y = 752,
+  width = 256,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 672,
+  y = 920,
+  width = 256,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 672,
+  y = 760,
+  width = 8,
+  height = 160,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 920,
+  y = 760,
+  width = 8,
+  height = 160,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 672,
+  y = 1232,
+  width = 256,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 672,
+  y = 1400,
+  width = 256,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 672,
+  y = 1240,
+  width = 8,
+  height = 160,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 920,
+  y = 1240,
+  width = 8,
+  height = 160,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 992,
+  y = 512,
+  width = 256,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 992,
+  y = 680,
+  width = 256,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 992,
+  y = 520,
+  width = 8,
+  height = 160,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 1240,
+  y = 520,
+  width = 8,
+  height = 160,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 1952,
+  y = 992,
+  width = 256,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 1952,
+  y = 1400,
+  width = 256,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 1952,
+  y = 1000,
+  width = 8,
+  height = 400,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 2200,
+  y = 1000,
+  width = 8,
+  height = 400,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 

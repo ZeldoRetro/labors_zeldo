@@ -13,6 +13,7 @@ function enemy:on_created()
   self:set_origin(8, 13)
   self:set_obstacle_behavior("flying")
   self:set_can_hurt_hero_running(true)
+  enemy:set_property("is_major","true")
   self:set_invincible()
 end
 

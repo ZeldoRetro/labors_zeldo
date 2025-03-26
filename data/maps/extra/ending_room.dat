@@ -1209,10 +1209,20 @@ sensor{
 }
 
 npc{
-  name = "painting_razdarac_room_npc",
+  name = "npc_frame_razdarac_room",
   layer = 0,
   x = 160,
   y = 69,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.razdarac_room",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_razdarac_room.png",
+    },
+  },
   direction = 3,
   subtype = 0,
 }
@@ -1242,19 +1252,5 @@ tile{
   width = 224,
   height = 8,
   pattern = "47",
-}
-
-custom_entity{
-  name = "painting_razdarac_room",
-  layer = 2,
-  x = 0,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_razdarac_room",
 }
 

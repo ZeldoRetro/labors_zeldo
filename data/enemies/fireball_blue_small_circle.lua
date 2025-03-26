@@ -17,7 +17,7 @@ function enemy:on_created()
   enemy:set_minimum_shield_needed(2) -- Hylian shield.
 
   for i = 0, 2 do 
-    sprites[#sprites + 1] = enemy:create_sprite("enemies/fireball_blue_small")
+    sprites[#sprites + 1] = enemy:create_sprite("enemies/fireball_blue_small_circle")
   end
 end
 

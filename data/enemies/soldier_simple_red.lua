@@ -9,7 +9,7 @@ enemy:set_ice_reaction("protected")
 enemy:set_hookshot_reaction("protected")
 enemy:set_attack_consequence("thrown_item","protected")
 enemy:set_attack_consequence("boomerang","protected")
-enemy:set_layer_independent_collisions(true)
+self:set_attacking_collision_mode("overlapping")
 
 local sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
 

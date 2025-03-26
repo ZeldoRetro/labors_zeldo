@@ -94,6 +94,284 @@ peu de temps devant moi.
 }
 
 dialog{
+  id = "LABORS.forgotten_corridor.paintings.1",
+  skip = "current",
+  text = [[
+
+ - Notes papier : Palais Sagesse -
+
+Les première ébauches de ce qui
+allait être le Palais de la Sagesse.
+Les sous-sols y sont complets.
+La version ingame du Donjon est
+quasiment identique. Comme quoi,
+le premier jet est parfois le bon !
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.10",
+  skip = "current",
+  text = [[
+
+   - Notes numériques : Script -
+
+Le screen de notes le plus
+précieux pour certains : le Script
+de Forgotten Legend.
+En voici un extrait.
+Le Script sous cette forme existe
+pour une bonne partie du jeu.
+La fin est encore dans ma tête,
+mais je sais parfaitement où
+me diriger avec le scénario.
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.11",
+  skip = "current",
+  text = [[
+
+  - Overworld : Château d'Hyrule -
+
+Je ne pouvais résister à l'envie
+de vous partager quelques maps
+en grand format !
+Voici par exemple le majestueux
+Château d'Hyrule. Il est assez
+similaire à celui de ALTTP ?
+Ce n'est que de l'inspiration, j'ai
+le droit de reprendre une forme
+de château sans critique, mmh ?
+(Comme une coupe de cheveux
+genre...)
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.12",
+  skip = "current",
+  text = [[
+
+  - Overworld : Montagne d'Hera -
+
+Une autre map en grand format.
+Je voulais vous partager la
+Montagne d'Hera que je trouve
+très jolie. Cela reste une de mes
+meilleurs maps d'extérieur, avec
+toutes ces falaises du cauchemar.
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.13",
+  skip = "current",
+  text = [[
+
+   - Overworld complet (bêta) -
+
+Tradition oblige, voici une version
+complète de l'Overworld suite
+à la bêta.
+Il y a plus de choses sur le jeu
+actuel, mais tout cela, je vous
+laisserai le découvrir.
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.14",
+  skip = "current",
+  text = [[
+
+        - Screen ingame 1 -
+
+Un petit screen de contenu
+plus avancé. Il se peut que la
+décoration de la pièce change.
+DarkDavy15 possède en effet
+de magnifiques tiles 'organiques'.
+Peut-être lui en emprunterai-je...
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.15",
+  skip = "current",
+  text = [[
+
+        - Screen ingame 2 -
+
+Un autre screen de développement
+plus avancé que certains d'entre
+vous ont déjà pu voir.
+Voici comment on mappe une
+pyramide, sans fioritures sur
+les dalles, ca fait rêver...
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.16",
+  skip = "current",
+  text = [[
+
+  - Logo du jeu et mot de la fin -
+
+Voici pour terminer le logo
+actuel du jeu, tel qu'on peut
+le voir sur le trailer ou Itch.
+J'espère que cette galerie
+de développement vous aura
+plu. Je l'ai faite en 3 jours.
+Nous nous reverrons en 2025
+pour des nouvelles sur Forgotten !
+Place au dev !
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.2",
+  skip = "current",
+  text = [[
+
+  - Notes papier : Palais Force -
+
+Une version papier du Graphe et
+de la Carte du Palais de la Force.
+Celle-ci est plus 'au propre'.
+A la base, le Donjon ne comportait
+que 2 étages. Mais un sous-sol
+fut ajouté pour le prolonger.
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.3",
+  skip = "current",
+  text = [[
+
+   - Notes papier : Plaine Sud -
+
+Une fois n'est pas coutume,
+laissez-moi vous partager des
+croquis d'Overworld.
+Ils sont en général très sommaires
+et montrent le terrain global.
+Les détails viennent en mappant !
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.4",
+  skip = "current",
+  text = [[
+
+   - Palais du Courage : Graphe -
+
+Depuis peu, j'ai découvert un outil
+formidable me permettant de faire
+des Graphes en version numérique.
+Voici donc le Graphe du premier
+Donjon du jeu, tout beau, tout
+propre, tout numérique !
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.5",
+  skip = "current",
+  text = [[
+
+   - Palais du Courage : Carte -
+
+Vous vous souvenez bien sûr de
+mon tuto sur la conception des
+Donjons.
+Une fois le Graphe fait, nous
+passons à la Carte. Tout comme le
+Graphe, la voici en numérique !
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.6",
+  skip = "current",
+  text = [[
+
+         - Graphes divers -
+
+Les Graphes du Palais de
+la Sagesse et de la Force.
+Observez comme celui de
+la Sagesse est large et celui
+de la Force fin. Ceci témoigne
+de leur parcours assez différent.
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.7",
+  skip = "current",
+  text = [[
+
+     - Plan : Repaire Goriyas -
+
+Ce mini croquis numérique
+montre une première ébauche
+du repaire des Goriyas.
+Il faut savoir que chaque pièce
+est prévue pour avoir une fonction,
+rendant ainsi le lieu réaliste.
+Au delà d'un mini Donjon, je tenais
+à ce que l'endroit puisse être un
+vrai lieu de vie pour ces monstres.
+Le Château d'Hyrule a droit
+au même traitement. Je trouve
+cela important, et cohérent.
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.8",
+  skip = "current",
+  text = [[
+
+  - Notes numériques : Bestiaire -
+
+J'ai ENORMEMENT de notes
+diverses sur plein d'aspects
+de Forgotten Legend.
+Voici par exemple un screen
+montrant une part du Bestiaire.
+Le tout est garni d'infos et stats.
+De quoi faire une vraie galerie
+de figurines Tendo !
+]],
+}
+
+dialog{
+  id = "LABORS.forgotten_corridor.paintings.9",
+  skip = "current",
+  text = [[
+
+ - Notes numériques : Personnages -
+
+Les notes continuent avec cette
+entrée dédiée aux personnages
+du jeu.
+Je trouve important qu'ils aient un
+nom, une vie, une histoire...
+Ce ne sont pas de vulgaires plots.
+Ce sont des personnages qui peuvent
+être attachants, tous différemment,
+afin d'inssufler une AME au jeu.
+]],
+}
+
+dialog{
   id = "LABORS.rules",
   text = [[
 Bienvenue dans la 1ere Vague
@@ -1145,7 +1423,6 @@ et trouvez la stèle du chant.
 Difficulté: 8/10
 Objectif: Terminer le Donjon
 Conseil: Méfiez-vous des apparences.
-
 ]],
 }
 
@@ -1165,7 +1442,6 @@ les échanger contre votre but.
 Difficulté: 3/10
 Objectif: Collecter des Coquillages
 Conseil: Amusez-vous et visitez.
-
 ]],
 }
 
@@ -1185,7 +1461,6 @@ dangereuse menace.
 Difficulté: 9/10
 Objectif: Vaincre le Boss
 Conseil: Eliminez les clones.
-
 ]],
 }
 
@@ -1211,7 +1486,6 @@ Donjon. Il représente le parcours
 Voici le Graphe du bien aimé
 Temple de l'Eau. Vous n'y
 comprenez rien ? C'est normal.
-
 ]],
 }
 
@@ -1252,7 +1526,6 @@ sur votre logiciel de création...
 C'est sans doute le plus long,
 mais aussi le plus amusant ! Allez
 Davy, faites moi un beau Donjon !
-
 ]],
 }
 
@@ -1275,7 +1548,6 @@ de contenir jusqu'à 9999 Rubis.
 Le Donjon a d'ailleurs une forme
 de dé à 6 faces. Merci à Vincent
 Jouillat pour la grande idée !
-
 ]],
 }
 
@@ -1292,7 +1564,6 @@ cumule toutes les maps
 d'Overworld faites en 2017 et
 en 2019. De quoi vous laisser
 imaginer Link s'y balader !
-
 ]],
 }
 
@@ -1312,8 +1583,6 @@ plus petit et devait comporter
 Cette version de l'Overworld
 évoluera lors du développement...
 beaucoup trop d'ailleurs.
-
- 
 ]],
 }
 
@@ -1336,7 +1605,6 @@ de cette première Vague.
 De quoi donner le vertige à
 tous ceux qui peuvent imaginer
 ce monde originellement prévu !
-
 ]],
 }
 
@@ -1359,7 +1627,6 @@ des derniers Donjons tant les
 lignes se rejoignent et se
 mêlent entre elles... quel cerveau
 incroyable que celui de Zeldo !
-
 ]],
 }
 
@@ -1391,7 +1658,6 @@ dans les Donjons avancés du jeu !
 De quoi lui permettre de pouvoir
 se procurer plus facilement toute
 cette liste d'achats. Bien joué Zeldo !
-
 ]],
 }
 
@@ -1417,7 +1683,6 @@ de l'énigme... Mmmh...
 C'est effectivement très
 énigmatique ! Voyons le tableau
 suivant pour la version éditeur...
-
 ]],
 }
 
@@ -1439,8 +1704,6 @@ Temple entier, existent en
 version jouable...
 Un commentaire des testeurs
 de l'époque : Quel enfer !
-
-
 ]],
 }
 
@@ -1457,7 +1720,6 @@ fini fut bêta testé en 2017.
 Voici le constat des testeurs de
 l'époque : c'était long, c'était
 dur, c'était le Zeldo de 2017 !
-
 ]],
 }
 
@@ -1474,7 +1736,6 @@ du jeu.
 Cet endroit devait servir de tutoriel
 et permettait de trouver l'Ocarina,
 objet menant à la Tour de la Triforce.
-
 ]],
 }
 
@@ -1488,7 +1749,6 @@ dialog{
 Link se tenant devant la légendaire
 Tour de la Triforce. La Tour devait
 se trouver dans les îles célestes.
-
 ]],
 }
 
@@ -1505,8 +1765,6 @@ en avant première !
 Difficulté: ?/10
 Objectif: ??
 Conseil: ???
-
-
 ]],
 }
 
@@ -1526,7 +1784,6 @@ votre but.
 Difficulté: 7/10
 Objectif: Obtenir l'objet du Donjon
 Conseil: Le feu allume les torches.
-
 ]],
 }
 
@@ -1546,7 +1803,6 @@ sera de la retrouver et de l'aider.
 Difficulté: 5/10
 Objectif: Sauver la Grande Fée
 Conseil: La nuit attire les Gemmes.
-
 ]],
 }
 
@@ -1566,7 +1822,6 @@ avez un grocervo.
 Difficulté: 7/10
 Objectif: Résoudre les énigmes
 Conseil: La glace ca glisse.
-
 ]],
 }
 
@@ -1576,9 +1831,6 @@ dialog{
   text = [[
 
               - ??? -
-
-
-
 ]],
 }
 
@@ -1598,7 +1850,6 @@ Tout devrait bien se passer.
 Difficulté: 8/10
 Objectif: Terminer le Donjon
 Conseil: Bonne chance
-
 ]],
 }
 
@@ -3507,6 +3758,90 @@ Tu obtiens une Pomme ! $0
 }
 
 dialog{
+  id = "_treasure.upgrade_cards/tott_arrows.1",
+  icon = "236",
+  skip = "current",
+  text = [[
+Tu obtiens la Carte
+d'Upgrade de Flèches
+de cette Vague ! $0
+Si elle est activée, cette
+Carte augmentera ta
+Capacité de Flèches.
+]],
+}
+
+dialog{
+  id = "_treasure.upgrade_cards/tott_attack.1",
+  icon = "238",
+  skip = "current",
+  text = [[
+Tu obtiens la Carte
+d'Upgrade d'Attaque
+de cette Vague ! $0
+Si elle est activée, cette
+Carte augmentera ton
+Attaque de 1 point.
+]],
+}
+
+dialog{
+  id = "_treasure.upgrade_cards/tott_bombs.1",
+  icon = "235",
+  skip = "current",
+  text = [[
+Tu obtiens la Carte
+d'Upgrade de Bombes
+de cette Vague ! $0
+Si elle est activée, cette
+Carte augmentera ta
+Capacité de Bombes.
+]],
+}
+
+dialog{
+  id = "_treasure.upgrade_cards/tott_casual.1",
+  icon = "234",
+  skip = "current",
+  text = [[
+Tu obtiens la Carte
+d'Aide pour les Casus
+de cette Vague !
+Si elle est activée, cette
+Carte simplifiera ton
+Aventure et te guidera.
+]],
+}
+
+dialog{
+  id = "_treasure.upgrade_cards/tott_defence.1",
+  icon = "239",
+  skip = "current",
+  text = [[
+Tu obtiens la Carte
+d'Upgrade de Défense
+de cette Vague ! $0
+Si elle est activée, cette
+Carte augmentera ta
+Défense de 1 point.
+]],
+}
+
+dialog{
+  id = "_treasure.upgrade_cards/tott_magic.1",
+  icon = "237",
+  skip = "current",
+  text = [[
+Tu obtiens la Carte
+d'Upgrade de Magie
+de cette Vague ! $0
+Si elle est activée, cette
+Carte doublera ta
+Capacité magique.
+]],
+}
+
+dialog{
   id = "agahnim.1.escape",
   skip = "current",
   text = [[
@@ -3742,203 +4077,6 @@ Je te ferai un bon prix.
 Pour me montrer un trésor, il 
 faut que tu appuies sur la touche 
 à laquelle tu l'as assigné !
-]],
-}
-
-dialog{
-  id = "ayttp.sanctuary.library_A_book",
-  skip = "current",
-  text = [[
-C'est le rayon des A.
-Tous les livres y sont
-parfaitement rangés.
-]],
-}
-
-dialog{
-  id = "ayttp.sanctuary.library_A_no_book",
-  skip = "current",
-  text = [[
-C'est le rayon des A.
-Il n'y a pas tous les livres.
-]],
-}
-
-dialog{
-  id = "ayttp.sanctuary.library_A_range",
-  skip = "current",
-  text = [[
-C'est le rayon des A.
-Rangeons-y le Ansem:
-Biography of the Darkness.
-]],
-}
-
-dialog{
-  id = "ayttp.sanctuary.library_M_book",
-  skip = "current",
-  text = [[
-C'est le rayon des M.
-Tous les livres y sont
-parfaitement rangés.
-]],
-}
-
-dialog{
-  id = "ayttp.sanctuary.library_M_no_book",
-  skip = "current",
-  text = [[
-C'est le rayon des M.
-Il n'y a pas tous les livres.
-]],
-}
-
-dialog{
-  id = "ayttp.sanctuary.library_M_range",
-  skip = "current",
-  text = [[
-C'est le rayon des M.
-Rangeons-y le Mario
-Mania Volume 64.
-]],
-}
-
-dialog{
-  id = "ayttp.sanctuary.library_X_book",
-  skip = "current",
-  text = [[
-C'est le rayon des X.
-Tous les livres y sont
-parfaitement rangés.
-]],
-}
-
-dialog{
-  id = "ayttp.sanctuary.library_X_no_book",
-  skip = "current",
-  text = [[
-C'est le rayon des X.
-Il n'y a pas tous les livres.
-]],
-}
-
-dialog{
-  id = "ayttp.sanctuary.library_X_range",
-  skip = "current",
-  text = [[
-C'est le rayon des X.
-Rangeons-y le Xar Saroth
-Chronicles.
-]],
-}
-
-dialog{
-  id = "ayttp.sanctuary.library_got_A",
-  skip = "current",
-  text = [[
-Tu as trouvé le Ansem:
-Biography of the Darkness !$0
-Il devrait être rangé...
-]],
-}
-
-dialog{
-  id = "ayttp.sanctuary.library_got_M",
-  skip = "current",
-  text = [[
-Tu as trouvé le Mario
-Mania Volume 64 !$0
-Il devrait être rangé...
-]],
-}
-
-dialog{
-  id = "ayttp.sanctuary.library_got_X",
-  skip = "current",
-  text = [[
-Tu as trouvé le Xar Saroth
-Chronicles !$0
-Il devrait être rangé...
-]],
-}
-
-dialog{
-  id = "bokoblin_king.1.before_khorneth",
-  skip = "current",
-  text = [[
-Encore toi ?
-Tu n'abandonnes donc
-jamais ou quoi ??
-Je vais te donner une bonne
-lecon ! Je te présente Khornet,
-notre animatronique Bokoblin.
-Il va te lapider et t'écraser !
-Tu n'as aucune chance face à lui !
-Ah ah ah ah ah !
-]],
-}
-
-dialog{
-  id = "bokoblin_king.1.escape",
-  text = [[
-$2Argh... $0
-Pas mal pour un simple
-humain...$0
-Je n'ai pas le choix d'utiliser
-ma technique ultime... $0
-$3Retraite !
-]],
-}
-
-dialog{
-  id = "bokoblin_king.1.intro",
-  skip = "current",
-  text = [[
-Grrr... Comment as-tu pu trouver
-ta route dans les Bois Perdus ?
-Je vais m'occuper de ton cas !
-Je maitrise la fuite et l'attaque
-à revers, tiens-toi prêt...
-En garde !
-]],
-}
-
-dialog{
-  id = "book.fifty_shades_of_orange",
-  skip = "all",
-  text = [[
-
-       50 Nuances d'Orange
-
-L'orange est un champ chromatique
-de couleurs vives qui, sur le
-cercle chromatique, prennent
-place entre le rouge et le jaune.
-Les couleurs orangées sont des
-couleurs  chaudes: les couleurs
-chaudes se définissent par leur
-proximité avec l'orange. Elles sont
-considérées comme stimulantes
-et provocantes.
-]],
-}
-
-dialog{
-  id = "book.necromancy_for_noobs",
-  skip = "all",
-  text = [[
-
-   La Nécromancie pour les Nuls
-
-Pour pratiquer l'art obscur de
-la Nécromancie il vous faut: une 
-pelle, un cadavre et un contenant.
-Nous vous recommandons de
-vivre près d'un cimetière pour
-faciliter vos recherches.
-Pour savoir quoi faire ensuite,
-procurez vous notre second tome:
-La Nécromancie pour les moins Nuls.
 ]],
 }
 
@@ -4530,6 +4668,13 @@ pourrait dévoiler un passage...
 }
 
 dialog{
+  id = "empty",
+  text = [[
+ 
+]],
+}
+
+dialog{
   id = "end.end_beta",
   text = [[
 Bravo et merci encore pour avoir
@@ -4711,2271 +4856,6 @@ dialog{
 }
 
 dialog{
-  id = "hyrule_city.bar.day_merchant",
-  skip = "current",
-  text = [[
-Bonsoir à toi. Je suis désolé mais
-le marché de jour est fermé
-pendant la nuit...
-Retourne me voir sur la Place
-quand il fera jour !
-]],
-}
-
-dialog{
-  id = "hyrule_city.bar.drunk_man",
-  skip = "current",
-  text = [[
-Hips !$0 Ce vin est vraiment sublime.$0
-Gloire et longue prospérité au
-Royaume d'Hyrule et Zelda !$0 Hips !$0
-]],
-}
-
-dialog{
-  id = "hyrule_city.bar.night_merchant",
-  skip = "current",
-  text = [[
-Bonjour à toi. Je suis désolé
-mais si tu veux faire affaire avec
-moi je serai là uniquement la nuit.
-Je m'occupe du marché de nuit sur
-la Place. Je vends des articles
-uniques alors viens me voir !
-]],
-}
-
-dialog{
-  id = "hyrule_city.bar.old_man",
-  skip = "current",
-  text = [[
-$2Ooooh... $0ma tête... $0toute cette
-Cuvée Romani me donne
-le tournis.
-Mais ça m'aide à oublier ma
-vie. Alors c'est bien, non ?$0
-Ooooh... $0je hais ce siècle...$0
-]],
-}
-
-dialog{
-  id = "hyrule_city.bar.soldier_day",
-  skip = "current",
-  text = [[
-Qu'y a-t-il petit ? Je suis en ce
-moment en mission top secrète dans
-ce bar ! Quoi, ce verre de lait ?
-...$0 c'est pour le travail !$0
-Hips...$0
-]],
-}
-
-dialog{
-  id = "hyrule_city.bar.soldier_night",
-  skip = "current",
-  text = [[
-Rien de tel qu'un bon verre de lait
-au bar après une journée de dur
-labeur. Tu veux notre photo petit ?
-]],
-}
-
-dialog{
-  id = "hyrule_city.barman.no_chateau_romani",
-  text = [[
-Je suis désolé Monsieur mais
-vous êtes trop jeune pour
-avoir un tel breuvage.
-Comment ? Ce n'est pas pour vous ?
-Dans ce cas, c'est assez différent.
-
-Mais ça ne change pas grand chose:
-Mes stocks sont en effet vides.
-
-Si vous voulez en discuter plus
-en détails, venez me voir de
-l'autre côté du compoir.
-]],
-}
-
-dialog{
-  id = "hyrule_city.barman.no_chateau_romani_2",
-  skip = "current",
-  text = [[
-Je suis désolé Monsieur mais
-vous êtes trop jeune pour
-avoir un tel breuvage.
-]],
-}
-
-dialog{
-  id = "hyrule_city.barman.take_drink_question",
-  question = "1",
-  skip = "current",
-  text = [[
-Bienvenue au Bar de la Citadelle
-Monsieur !
-
-Qu'est ce que ce sera ?
-Lait
-Cuvée Romani
-]],
-}
-
-dialog{
-  id = "hyrule_city.barman.take_milk_question",
-  question = "1",
-  skip = "current",
-  text = [[
-Un verre de Lait pour 20 Rubis ?
-Carrément !
-Non...
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.ask_crystal",
-  skip = "current",
-  text = [[
-Vous n'avez pas encore de
-Flocon de Sucre ?
-
-Je vous demande de vous presser 
-quand même... le mélange ne va 
-pas tenir sans cet ingrédient.
-Il s'agit d'un ingrédient de
-cuisine assez connu, vous
-devriez donc en trouver aisément
-dans des cuisines. N'oubliez 
-pas de demander avant de
-fouiller chez les autres !
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.ask_honey",
-  skip = "current",
-  text = [[
-Vous n'avez pas encore trouvé
-de Miel ? Je conçois que cette
-tâche peut se révéler complexe
-mais j'ai foi en vous. Courage !
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.ask_spices",
-  skip = "current",
-  text = [[
-Où sont les Epices ? J'ai entendu 
-dire que le propriétaire de la
-maison orange de la ville en avait.
-Il est assez particulier mais si
-vous êtes tout comme lui fan
-de la couleur orange tout ira bien.
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.ask_water",
-  skip = "current",
-  text = [[
-Et bien que faites-vous ?
-Allez vite chercher de l'eau !
-
-Vous en trouverez aux
-fontaines du nord de la Citadelle.
-Prenez-en avec votre Bouteille...
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.crystal_ok",
-  text = [[
-Bon travail ! Ce Flocon est
-merveilleux !
-Contemplez cette beauté...
-La Cuvée Romani sera presque
-prête. Il ne reste qu'un seul
-ingrédient.
-Je vous demanderais de trouver
-un peu de Miel, pour finaliser
-le tout.
-Je ne sais hélas pas où vous
-pourrez en trouver... mais je
-suis certain que vous trouverez.
-Je vous attend avec impatience.
-Je ferai pour vous mon meilleur
-verre de Cuvée Romani !
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.default",
-  skip = "current",
-  text = [[
-Tiens, un nouveau client ?
-Bonjour à vous !
-
-Si vous désirez prendre un verre,
-veuillez aller de l'autre côté
-du comptoir.
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.dont_drink",
-  skip = "current",
-  text = [[
-Vu le mal que tu as eu à en trouver
-il faudrait mieux que tu évites
-de boire le contenu du flacon...
-Va vite l'apporter au soldat
-sur le pont !
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.honey_ok",
-  text = [[
-Formidable ! Il y en a bien plus
-que nécessaire mais je vous
-remercie.
-Attendez...$0
-...$0
-Et... voilà !$0
-Un verre de Cuvée Romani
-pour Monsieur !
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.quest_begin",
-  text = [[
-Pour en revenir à la Cuvée Romani,
-je suis au regret de vous annoncer 
-que mes stocks sont vides... 
-Sans les ingrédients je ne pourrai 
-hélas pas vous en préparer.
-
-Revenez dans quelques jours,
-je devrais être approvisioné...
-
-Si vous êtes trop impatient
-cependant je vous propose
-un marché:
-Si vous me rapportez les
-ingrédients, je vous offrirai
-un flacon gratuit.
-Je possède déjà le lait mais
-pour commencer le mélange
-j'aurais besoin d'eau.
-Vous devriez en trouver aux
-fontaines du nord
-de la Citadelle.
-Revenez vite avec de l'eau, je
-vais préparer mon matériel
-en attendant.
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.quest_finished",
-  skip = "current",
-  text = [[
-Rebonjour à vous ! Et puis
-cette Cuvée Romani ?
-Ah ah ah que de bons souvenirs...
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.spices_ok",
-  text = [[
-Ces Epices sont superbes !
-Joli travail !
-Je vais les ajouter directement...
-Pour le prochain ingrédient, il
-me faudrait un Flocon de Sucre.
-
-Cet ingrédient est assez connu
-dans la préparation des desserts
-et des boissons glacées.
-Par conséquent, vous en trouverez 
-aisément dans des cuisines...
-
-Demandez aux personnes avant
-de leur en emprunter et dites
-que vous venez de ma part.
-Cela devrait vous faciliter
-la tâche.
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.thanks",
-  text = [[
-On peut dire que vous le méritez !
-Bravo à vous pour vos recherches.
-Je n'ai hélas que peu de breuvage
-mais cela devrait me permettre
-de tenir jusqu'à la prochaine
-livraison des ingrédients.
-N'hésitez pas à repasser quand
-vous voudrez, cela me fera
-plaisir de reparler avec vous.
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.barman.water_ok",
-  text = [[
-Vous revoilà ! Merci beaucoup
-pour l'eau. Je vais pouvoir 
-la mélanger directement au lait...
-Pendant que je m'en occupe,
-pourrez-vous aller chercher un
-Bocal d'épices ?
-Elle sont essentielles pour
-relever le gout de l'ensemble.
-
-Où en trouver ? Je pense avoir
-entendu dire que le propriétaire
-de la maison orange de la ville
-en a acquis récemment.
-Bon courage à vous ! Il parait
-que cette personne est spéciale...
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.bee_attack.ask_destroy_bees",
-  text = [[
-Que fais-tu ici ? Le Château est
-en ce moment attaqué par des
-abeilles !
-Tous les soldats sont paniqués.
-Peux-tu nous aider ? Il faut tuer
-toutes ces maudites bêtes !
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.bee_attack.finished",
-  skip = "current",
-  text = [[
-Toutes les abeilles ont disparu.
-Encore merci de ton aide.
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.bee_attack.give_honey",
-  text = [[
-Un grand merci à toi jeune
-homme... il faudrait vraiment
-engager de nouveaux soldats.
-En attendant je peux te confier
-la Ruche abandonnée des
-abeilles...
-Il doit y avoir du Miel là dedans.
-Prends ceci comme récompense.
-Encore merci !
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.bee_attack.nomore_bees",
-  text = [[
-Plus aucune abeille en vue !
-Retournez à vos postes
-bande de froussards !
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.bee_attack.soldier",
-  skip = "current",
-  text = [[
-Au secours ! Des abeilles
-attaquent les jardins !
-A l'aide !
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.inn.chest_autorisation",
-  text = [[
-Bonjour à vous. Bienvenue
-dans l'Auberge de la Citadelle,
-la meilleure de tout Hyrule.
-Désirez-vous un service
-en particulier ?
-Un Flocon de Sucre ?
-Je dois en avoir un échantillon
-dans le coffre des cuisines oui...
-
-Comme vous venez de la part
-du gérant du bar d'à côté et
-que vous l'avez demandé poliment,
-je vous autorise à vous servir.
-Mais ne prenez que le Flocon !
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.inn.default",
-  skip = "current",
-  text = [[
-Bonjour à vous. Bienvenue
-dans l'Auberge de la Citadelle,
-la meilleure de tout Hyrule.
-Si vous souhaitez prendre une
-chambre, veuillez aller de
-l'autre côté du comptoir.
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.inn.finished",
-  skip = "current",
-  text = [[
-Avez-vous trouvé votre bonheur ?
-Excellent ! Je me chargerai plus
-tard de voir ce gérant distrait.
-En attendant, n'hésitez pas
-à réserver une chambre chez
-nous ! 
-C'est la meilleure auberge
-de tout Hyrule, vous ne le
-regretterez pas !
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.orange_fan.answer_no",
-  skip = "current",
-  text = [[
-Tu ne veux pas ?
-Tu n'es peut-être pas aussi
-fan que moi du orange...
-Alors va-t-en ! Ce Bocal sera
-uniquement à moi !
-Contemple cette beauté orange...
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.orange_fan.answer_yes",
-  text = [[
-Je vois que tu es prêt à y mettre
-le prix... je te donne donc avec 
-regret ce Bocal orange magnifique
-mais je me dis que tu sauras
-en prendre soin autant que moi...
-Ne lui fais pas de mal !
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.orange_fan.default",
-  skip = "current",
-  text = [[
-Salut. Bienvenue dans ma
-demeure orange où tout
-est orange.
-Dis-moi, aimes-tu la couleur
-orange ? C'est ma couleur
-favorite !
-Je collectionne tout ce qui est
-orange, et toi ? Tu aimes le
-orange ? J'imagine que oui...
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.orange_fan.finished",
-  skip = "current",
-  text = [[
-Oh te revoilà. As-tu pu exposer
-ce magnifique Bocal orange ?
-Je regrette de te l'avoir cédé...
-Si tu trouvais pas hasard un autre
-objet orange, saurais-tu me
-l'amener ? Entre fans de orange...
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.orange_fan.no_rupee",
-  skip = "current",
-  text = [[
-Je vois l'étincelle dans ton regard
-mais où est l'argent ? Si tu n'es
-pas prêt à y mettre le prix,
-je vais garder cette beauté
-orange pour moi tout seul...
-Si bel objet orange... orange...
-]],
-}
-
-dialog{
-  id = "hyrule_city.chateau_romani_quest.orange_fan.question",
-  question = "1",
-  text = [[
-Salut. Bienvenue dans ma
-demeure orange où tout
-est orange.
-Si j'ai un Bocal d'Epices ?
-Si tu parles de cette bouteille
-orange magnifique alors oui.
-Je vois que tu es tout comme
-moi un homme de goût...
-Contemple cette beauté orange...
-Je ne l'aurais donné à
-personne en temps normal mais
-vu que tu es fan autant que moi
-je pourrais te céder cette
-merveille contre 10... 
-non, 20 Rubis.
-Qu'en penses-tu ?
-J'en serais honoré.
-Je ne suis pas intéressé...
-]],
-}
-
-dialog{
-  id = "hyrule_city.cucco_fan.default",
-  skip = "current",
-  text = [[
-Sois gentil avec les Cocottes !
-Si tu les frappes trop, elles
-te le feront regretter.
-]],
-}
-
-dialog{
-  id = "hyrule_city.day_market",
-  skip = "all",
-  text = [[
-Bienvenue au Marché de Jour !
-Veux-tu m'acheter
-quelque chose ?
-Sinon je peux te racheter
-un truc... montre-le moi
-en l'assignant à une touche.
-]],
-}
-
-dialog{
-  id = "hyrule_city.field_boy.default",
-  skip = "current",
-  text = [[
-Oh c'est toi ! Merci encore pour
-ton aide à la Plaine. Mais ne dis
-rien à mes parents...
-De toute façon ils sont trop
-occupés pour se soucier
-de moi...
-Tu ne veux pas jouer avec moi ?
-Je me sens seul... être fils
-unique, quelle plaie !
-]],
-}
-
-dialog{
-  id = "hyrule_city.field_boy.give_bottle",
-  text = [[
-Merci beaucoup !
-Je rentrais vers la Citadelle et
-je me suis fait attaquer...
-Les plaines ne sont vraiment
-plus aussi paisibles
-qu'auparavant...
-Je n'ai hélas rien de bien
-pour te récompenser mais
-j'ai cette bouteille vide sur moi.
-Si tu n'en as pas, c'est toujours
-pratique d'en avoir sur soi
-pour transporter des potions.
-]],
-}
-
-dialog{
-  id = "hyrule_city.field_boy.help",
-  text = [[
-Au secours ! Des monstres
-m'attaquent !
-Aidez-moi !
-]],
-}
-
-dialog{
-  id = "hyrule_city.field_boy.helped",
-  skip = "current",
-  text = [[
-Merci encore de ton aide...
-Je devrais pouvoir me
-débrouiller pour rentrer.
-]],
-}
-
-dialog{
-  id = "hyrule_city.field_boy.saved",
-  text = [[
-Tu les a tués ??
-Waw trop fort !
-]],
-}
-
-dialog{
-  id = "hyrule_city.goron.default",
-  skip = "current",
-  text = [[
-Bienvenue dans ma demeure
-jeune hylien. Bah alors ?
-Tu n'as jamais vu un goron ?
-Je me suis installé en ville
-car j'aime votre style de vie
-simple.
-Mais par contre, il faut avouer
-que vous n'avez pas notre
-savoir-faire...
-Regarde ces vases par exemple:
-Il sont faits de roche de la
-Montagne et sont plus solides
-que vos simples pots en
-terre cuite.
-Ca c'est du savoir-faire !
-]],
-}
-
-dialog{
-  id = "hyrule_city.house_owner.elma_gone",
-  skip = "current",
-  text = [[
-Bonjour jeune homme !
-Je suis la propriétaire de cette
-grande demeure.
-Comment ? La locataire d'à côté ?
-Elle est en effet repartie pour
-la forêt il y a quelques jours...
-Elle n'est toujours pas arrivée ?
-Oh misère, j'espère qu'il ne lui
-est rien arrivé...
-Elle passait par la plaine sud.
-Je lui ai dit d'être prudente mais
-elle semblait être habituée...
-Tu devrais inspecter la plaine !
-Je vais prier les Déesses
-qu'elle soit saine et sauve...
-]],
-}
-
-dialog{
-  id = "hyrule_city.house_owner.elma_gone_2",
-  skip = "current",
-  text = [[
-Bonjour jeune homme !
-Je suis la propriétaire de cette
-grande demeure.
-Ma jeune locataire est retournée
-dans la forêt pour retrouver
-sa grande cousine.
-Elle reviendra dans quelques
-semaines...
-Va lui rendre visite à l'occasion.
-]],
-}
-
-dialog{
-  id = "hyrule_city.house_owner.elma_here",
-  skip = "current",
-  text = [[
-Bonjour jeune homme !
-Je suis la propriétaire de cette
-grande demeure.
-Une jeune hylienne me loue
-la chambre d'à côté mais elle
-repartira bientôt dans la forêt
-pour retrouver de la famille.
-Tu viens de la forêt ? Tu dois
-sans doute la connaitre alors !
-]],
-}
-
-dialog{
-  id = "hyrule_city.house_owner.elma_saved",
-  skip = "current",
-  text = [[
-Bonjour jeune homme !
-Ma jeune locataire est donc
-rentrée saine et sauve ?
-Formidable ! J'espère que
-son retour ici se passera
-sans encombre.
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.ganondorf_cutscene.alert",
-  text = [[
-Princesse Zelda !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.ganondorf_cutscene.explanation",
-  text = [[
-Le Prince Ganondorf prend
-le Château d'assaut avec une
-armée de monstres !
-Quelles sont vos instructions ?
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.ganondorf_cutscene.ganondorf_1",
-  text = [[
-Où pensez-vous partir
-comme ça ?
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.ganondorf_cutscene.ganondorf_2",
-  text = [[
-Vous ne pensiez tout de même
-pas pouvoir m'échapper ?
-Quelle douce innocence...
-Je me nomme Ganondorf, et
-dans peu de temps je serai
-le Roi de ce Royaume.
-Mes fidèles monstres sont en ce
-moment même en train de prendre
-possession de votre fidèle armée.
-Oh mais que vois-je... tenue verte,
-épée de bois... ne serais-tu pas
-le jeune gringalet à qui Zelda
-a demandé de trouver la Perle de 
-Din ? Vire m'a parlé de toi. Il
-parait que tu aurais le
-potentiel d'un Héros.
-C'est ce que nous allons voir
-directement. En garde !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.ganondorf_cutscene.ganondorf_3",
-  text = [[
-Ah ah ah ah ! Ridicule !
-Et c'est ce que Vire prétend
-être un Héros ??
-Enfin, tu m'auras permis de me
-divertir avant de passer aux
-choses sérieuses.
-Soldats ! Obéissez à ma Volonté !
-Emmenez ce gamin aux cachots.
-Je vais m'occuper de Zelda...
-Tout bientôt, votre Royaume
-m'appartiendra jeune Princesse...
-Ah ah ah ah !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.ganondorf_cutscene.surprised",
-  text = [[
-Comment ? Ganondorf est le
-Chef de la tribu Gerudo. Nous
-avions signé un traité de paix !
-Il n'est pourtant pas une mauvaise
-personne. Je ne comprends pas...
-Que pouvons-nous faire ??
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.ganondorf_cutscene.viscen",
-  text = [[
-Votre Majesté, les explications
-attendront. Pour l'heure le
-Château est menacé !
-Je vais prendre les devants et
-affronter ces monstres avec
-mes hommes.
-De votre côté, fuyez ce Château
-avec vos gardes du corps.
-Link, accompagne-les.
-Je te fais confiance, veille à la
-sécurité de la Princesse Zelda.
-Il ne doit rien lui arriver !
-Les autres, en avant !
-Nous allons montrer de quoi
-l'armée d'Hyrule est capable !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.ganondorf_cutscene.zelda",
-  text = [[
-Link, tu as bien entendu ce que
-le Capitaine Viscen a dit ?
-Partons au plus vite.
-Je suis sûre qu'il s'en sortira. Il
-reste l'un des meilleurs Capitaines
-que le Royaume ait connu.
-Il n'y a pas une seconde à
-perdre. Quittons ce Château !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.owl_puzzle.correct",
-  skip = "current",
-  text = [[
-Bonne réponse. Accès à la
-bibliothèque autorisé. Merci.
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.owl_puzzle.question",
-  question = "1",
-  skip = "current",
-  text = [[
-Bonjour. Afin d'accéder à la
-bibliothèque, veuillez répondre
-à cette énigme:
-ENIGME
-
-
-Quelle est votre réponse ?
-A Mauvaise réponse
-B Mauvaise réponse
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.owl_puzzle.question_answer",
-  question = "1",
-  skip = "current",
-  text = [[
-Bonjour. Afin d'accéder à la
-bibliothèque, veuillez répondre
-à cette énigme:
-ENIGME
-
-
-Quelle est votre réponse ?
-A Bonne réponse
-B Mauvaise réponse
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.owl_puzzle.solved",
-  skip = "current",
-  text = [[
-Vous avez déjà répondu à mon
-énigme avec succès. L'accès à la
-bibliothèque vous est ouvert.
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.owl_puzzle.wrong",
-  skip = "current",
-  text = [[
-Mauvaise réponse. Accès à la
-bibliothèque refusé.
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.professor.escape.base",
-  skip = "current",
-  text = [[
-utilise ma réponse pour
-accéder a la bibliothèque
-et trouver la clé de mon bureau.
-tu y trouveras certainement
-un objet utile !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.professor.escape.hint_lamp",
-  skip = "current",
-  text = [[
-tu cherches ta lampe ? je pense
-avoir entendu les soldats
-parler de la salle de bain.
-si ils l'y ont cachée c'est surement
-dans le bassin d'eau.
-tu devras donc le vider...
-utilise le système de plomberie
-pour faire couler l'eau vers les
-douves. ca videra le bassin !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.professor.escape.leave",
-  skip = "current",
-  text = [[
-tu as tout trouvé !
-pars vers la salle du trone
-et emprunte passage secret !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.professor.escape.library_password",
-  text = [[
-donne réponse a énigme
-pour aller dans la bibliothèque.
-tu y trouveras la clé bleue.
-cette clé ouvre bureau du prof
-au premier étage. les soldats
-y ont surement caché un objet.
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.professor.escape.save_zelda",
-  skip = "current",
-  text = [[
-tu as trouvé une clé jaune ?
-c'est la clé de la salle du trone !
-pour l'heure sauve zelda !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.boss.begin",
-  text = [[
-Bande d'incapables !
-Peu importe, je vais m'occuper
-de ton cas personnellement...
-En garde !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.boss.end",
-  text = [[
-$2Argh...$0
-Link...$0 
-C'est bien toi ? $0
-
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.boss.intro",
-  text = [[
-Halte !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.boss.soldiers",
-  text = [[
-Pas un pas de plus vermine !
-Tu es en état d'arrestation.
-Rends-toi et tu auras la vie sauve.
-Comment ?$0
-Link ?$0
-...$0
-Ce nom ne me dit rien du tout !
-Soldats !
-Saisissez-le !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.default",
-  skip = "current",
-  text = [[
-Bonjour à toi jeune homme. J'ai 
-entendu dire que la Princesse
-Zelda t'avait confié une mission
-de la plus haute importance.
-Je ne peux que te souhaiter
-de la réussir...
-Tout le Royaume d'Hyrule
-compte sur toi !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.escape.base",
-  skip = "current",
-  text = [[
-utilise clé rouge pour aller
-dans bureau Viscen a l'étage
-et récupérer ton épée.
-elle te permettra de tuer soldats
-rouges et atteindre cellule
-de zelda !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.escape.hint_lamp",
-  skip = "current",
-  text = [[
-tu cherches ta lampe ? je ne
-sais pas ou elle est mais je peux
-te dire qu'il y a un passage
-secret dans le dortoir des gardes.
-utilise ton épée sur les rideaux...
-ils cachent un secret !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.escape.leave",
-  skip = "current",
-  text = [[
-tu as tout trouvé !
-pars vers la salle du trone
-et emprunte passage secret !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.escape.red_key",
-  text = [[
-donne clé rouge pour ouvrir
-bureau de Viscen a l'étage.
-tu y trouveras ton épée.
-utilise ton épée pour vaincre
-soldats rouges et sauver zelda
-dans la cellule royale !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.escape.save_zelda",
-  skip = "current",
-  text = [[
-bravo pour épée !
-sauve Zelda a présent !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.to_mountain",
-  skip = "current",
-  text = [[
-Bonjour à toi Link ! Comment se
-passent tes aventures ?
-La Montagne est dangereuse...
-Sois bien préparé avant de
-t'y rendre ! 
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.to_zelda",
-  text = [[
-Ah te voila enfin ! Tu dois être
-Link, le jeune hylien qui vient
-de la forêt Kokiri ?
-La Princesse Zelda a demandé
-à te voir au plus vite.
-Suis-moi je te prie...
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.to_zelda_2",
-  skip = "current",
-  text = [[
-La Princesse Zelda est prête
-à te recevoir. Va donc lui parler,
-ne sois pas timide.
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.begin",
-  text = [[
-Oh tiens, je t'ai déjà vu quelque
-part... ah oui ! Tu es Link, le
-jeune hylien convoqué par Zelda.
-Comment se passe ta mission ?
-Ici, ca ne va pas du tout !
-Le Village Cocorico est menacé !
-Des goriyas du Nord ont tenté
-à plusieurs reprises d'envahir
-le Village...
-Je suis venu ici prêter main forte
-avec quelques soldats pour 
-repousser ces adversaires mais
-mes hommes se sont fait
-emprisonner dans leur planque sur 
-la Plaine à l'ouest de Cocorico.
-Je comptais m'y rendre justement.
-Les autres soldats veillent sur le 
-Village pour contrer toute menace.
-Veux-tu m'accompagner ? Je pense 
-que le destin de Cocorico
-est une priorité absolue !
-Je me rends à la Plaine. On se
-retrouvera là bas.
-Ne traine pas !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.front_lair",
-  text = [[
-Nous y voilà... le véritable 
-Repaire des goriyas... ce n'est pas
-le moment de se relacher !
-Je passe devant cette fois-ci.
-Cocorico compte sur nous !
-En avant !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.front_prison.open",
-  text = [[
-Te voici enfin !
-Le destin de Cocorico repose sur
-nos épaules jeune homme.
-Ces maudits goriyas ont refermé
-l'accès à leur planque...
-Je vais utiliser une de mes Bombes.
-Les Déesses bénissent les Gorons
-d'avoir créé ces explosifs.
-Recule-toi...
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.front_prison.opened",
-  text = [[
-La voie est désormais libre.
-Passe devant Link, je te rejoins.
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_lair.bombs",
-  text = [[
-Ces Blocs bloquent le passage...
-Je devrais pouvoir les dégager
-avec mon stock de Bombes !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_lair.boss_battle",
-  text = [[
-Ne t'en fais pas Link, je vais
-t'aider du mieux que je peux !
-Je peux encore lancer des Bombes !
-Ce Monstre a certes raison mais
-mes Bombes devraient l'atteindre.
-Essaie de l'attirer proche de moi !
-Sois prudent, son Boomerang
-peut te viser d'après ce que j'ai
-vu dans leur forge...
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_lair.clear",
-  text = [[
-Nous avons réussi Link !
-Cocorico est libérée de la
-menace de ces créatures.
-Rentrons vite annoncer la
-bonne nouvelle au Maire !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_lair.door_1",
-  text = [[
-Merci pour la porte Link.
-Mmmh...
-Tu sembles bloqué de ton côté...
-Je vais voir si je peux trouver
-quelque chose par ici.
-Ne bouge pas !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_lair.door_2",
-  text = [[
-Peux-tu avancer Link ?
-Je suis bloqué de mon côté !
-Penses-tu pouvoir m'aider ?
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_lair.final_door",
-  text = [[
-Bien joué Link.
-Voici ce que j'appelle du
-travail d'équipe !
-Le Chef des Goriyas devrait être
-derrière cette porte...
-En avant !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_lair.goriya_king_1",
-  text = [[
-Grrr comment avez-vous pu
-saccager notre Repaire ?
-Peu importe, vous ne m'aurez pas !
-Regardez à vos pieds !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_lair.goriya_king_2",
-  text = [[
-Gnyeheheheh ! 
-Vous voici à ma merci Viscen !
-
-Comment ? Tu n'es pas venu seul ??
-Peu importe...
-
-Eh gamin en vert ! Tu penses 
-pouvoir m'arrêter ? Ne sois pas 
-idiot ! Tu ferais mieux de fuir.
-Cette armure me rend invincible !
-Sans Bombes, tu ne me feras jamais
-mal !
-Je vais pouvoir tester mon
-nouveau Boomerang sur toi...
-Tu feras un bon cobaye !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_lair.intro",
-  text = [[
-Nous sommes déjà repérés !
-Il ne faut pas trainer Link !
-Je pars à gauche, bonne chance !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_lair.intruders",
-  text = [[
-Qu... qui êtes-vous ??
-Des Intrus !
-Je fonce prévenir le Boss !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_lair.red_potion_express",
-  skip = "current",
-  text = [[
-Je... je suis blessé...
-Heureusement je possède un
-stock de Potions rouges !
-Voilà qui devrait me soigner.
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_lair.red_potion_express_to_link",
-  skip = "current",
-  text = [[
-Tout va bien Link ? Tu ne sembles
-pas en grande forme...
-Prends cette Potion rouge ! Vite !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_prison.clear",
-  text = [[
-Capitaine ! Nous avions si peur
-de ne plus vous revoir...
-Quittons vite cet endroit lugubre !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_prison.intruders",
-  text = [[
-Intrus !
-Te voici enfermé gamin...
-Occupons-nous de lui les gars !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_prison.keeper",
-  text = [[
-C'est toi qui a été envoyé pour
-sauver ces mauviettes ?
-Je vais te corriger !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_prison.viscen_key",
-  text = [[
-Tu as repoussé tous les Goriyas ??
-Impressionant !
-Maintenant sauvons les Soldats...
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_prison.viscen_link",
-  text = [[
-Link ? $0
-Où es-tu ??
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.goriyas_prison.viscen_locked",
-  text = [[
-Link ?? Ils ont refermé la porte !
-Je vais trouver une solution pour
-entrer... Tiens bon !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.lair_clear",
-  text = [[
-Notre mission est terminée Link. 
-Je suis très fier de toi ! Tu 
-as l'étoffe d'un futur Chevalier.
-Si jamais tu décides de suivre
-cette voie, il me fera plaisir
-d'être ton mentor.
-Le Maire est avisé de la situation.
-Des soldats resteront au Village
-pour la sureté des habitants.
-Je voudrais te remettre ceci Link:
-C'est un Blason d'Epéiste. Vu ton
-rôle joué tu le mérites. Prends.
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.must_clean_lair",
-  skip = "all",
-  text = [[
-Il faut absolument aider Viscen à 
-éliminer les goriyas ! La Montagne 
-et la Perle attendront.
-Il faut d'abord sauver le Village
-Cocorico de la menace
-de ces monstres !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.prison_clear",
-  text = [[
-Mes hommes sont tous sains
-et saufs. Certains blessés sont
-rentrés au Château...
-Je dois admettre, Link, que je
-suis impressionné. La Princesse
-a sans doute raison a ton sujet.
-Nous n'en avons cependant
-pas fini avec ces monstres ! Ce 
-n'est que le début de la mission.
-Le véritable Repaire des goriyas
-se trouve à la Montagne d'Hera
-si il n'est pas sur la Plaine...
-J'ai une faveur a te demander Link:
-Je ne veux pas risquer les vies
-d'autres soldats.
-Alors je voulais te demander
-de m'accompagner jusqu'à
-la Montagne d'Hera.
-Je serai devant la barrière
-de Cocorico. Rejoins-moi quand
-tu seras prêt a en finir.
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.quest_end",
-  text = [[
-Ces Blasons sont des Preuves
-que seuls les meilleurs Chevaliers
-peuvent collecter.
-Si tu en rassembles 10 lors de
-tes aventures, reviens me voir.
-Je t'en dirai plus.
-Je vais rentrer au Château.
-Fais attention et courage à toi
-dans la suite de ta quête.
-On se reverra, j'en suis convaincu.
-Si tu vas à la Montagne, fais
-attention aux monstres qui rodent.
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.viscen.viscen_vs_goriyas_quest.to_lair",
-  text = [[
-Rebonjour Link. Alors te voilà
-prêt a en découdre avec les
-goriyas restants...
-Droit devant nous se dresse la
-Montagne d'Hera. C'est un lieu
-dangereux. Reste bien près de moi.
-Je vais dégager le passage alors
-fais attention aux explosions.
-Je pense que tout est dit.
-En avant !
-Pour Hyrule ! Pour la
-prospérité de Cocorico !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.1st_time",
-  text = [[
-Bienvenue à toi Link.
-Désolée pour cette convocation
-si soudaine.
-Je suis la Princesse Zelda,
-souveraine du Royaume d'Hyrule, au
-cas où tu ne l'aurais pas compris.
-Tu dois sûrement te demander
-pourquoi toi, un jeune hylien
-élevé parmis les Kokiris, est ici.
-Laisse-moi te conter la Légende
-de notre Royaume avant toute
-chose...
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.escape.encounter_1",
-  text = [[
-donne ocarina
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.escape.encounter_2",
-  text = [[
-donne berceuse zelda
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.escape.encounter_3",
-  text = [[
-passage secret dans salle
-du trone
-besoin de la cle jaune + lampe
-prof et viscen ont peut etre des
-indices pour trouver lampe
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.escape.hint_lamp",
-  text = [[
-tu as besoin de clé + lampe
-pour partir. prof ou viscen
-doivent avoir des indices...
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.escape.intro",
-  text = [[
-Link ?$0 Peux-tu m'entendre ?$0
-C'est Zelda !$0 Je te contacte
-par télépathie...
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.escape.intro_2",
-  text = [[
-Link. Ecoute-moi bien...
-Ganondorf a pris d'assaut le
-Château d'Hyrule...
-Il contrôle par un charme tous
-les soldats du Royaume...
-Ce n'est plus qu'une question
-de temps avant que tout
-le Royaume d'Hyrule
-ne lui appartienne...
-Mais tout espoir n'est pas perdu !
-Je vais utiliser mes dernières
-forces pour ouvrir ta cellule...
-Fraie-toi un chemin à travers
-le Château et rejoins-moi !
-Je suis dans la cellule royale...
-Ton équipement a également
-été dissimulé dans tout
-le batiment...
-Hâte-toi à présent !
-Tu es notre seul espoir Link !
-Et... sois prudent...
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.escape.leave",
-  text = [[
-tu as tout trouvé !
-pars vers la salle du trone
-et emprunte passage secret !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.get_3rd_pearl",
-  text = [[
-Link ! Te revoilà !
-Je commençais à m'inquiéter.
-As-tu sur toi la Perle de Din ?
-...$0
-Comment ?$0
-Tu n'en as qu'une partie ??
-Il semblerait que ce Vire ait
-réussi à trouver le moyen de
-casser la Perle en morceaux.
-Il a dû les dissimuler dans tout
-le Royaume d'Hyrule...$0
-Mmmh... que faire...
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.master_sword_tale",
-  text = [[
-Voici la Légende du Royaume,
-telle que contée par les Anciens.
-
-Depuis peu, je fais des cauchemars.
-Dans ces songes, Hyrule est
-envahi par cette Entité du Mal.
-Récemment des monstres sont
-apparus un peu partout et cela
-ne fait qu'amplifier mon sentiment.
-Les Légendes des Anciens
-disent également qu'une arme
-permettrait de pourfendre le Mal.
-Cette arme serait l'Epée de
-Légende, et elle reposerait
-au fond du Temple de la Lumière.
-Il faut cependant diverses
-Reliques pour accéder au
-fond de ce Temple...
-La Perle de Farore, que tu as en
-ta possession, est l'une d'entre
-elles.
-Les Perles de Nayru et Din
-sont également nécessaires,
-ainsi que l'Ocarina Royal,
-possédé par ma famille depuis
-des générations.
-
-Je vais être directe Link: Si je
-t'ai convoquée ici, c'est parce
-que toi seul peut sauver Hyrule.
-Dans mes rêves, un jeune garçon
-tout de vert vêtu combattait
-le Mal, armé de l'Epée de Légende.
-J'ai donc fait mes recherches et
-appris qu'un jeune hylien vivait
-dans la Forêt Kokiri...
-J'ai donc demandé à l'Ancien de la
-Forêt de t'amener ici, t'emmenant
-aussi chercher la Perle de Farore.
-Ainsi, je serais sûre que tu
-pourrais être l'Elu de ces rêves.
-Il ne faut donc pas trainer !
-Plus nous parlons, plus le Mal
-approche d'Hyrule...
-
-Je vais t'envoyer chercher la
-Perle de Nayru Link.
-
-Elle se trouve au Lac Hylia et
-repose dans le Palais de la
-Sagesse.
-Ce Palais mettra ton intelligence
-à l'épreuve, sois prudent.
-
-A présent va Link, ramène-moi
-la Perle de Nayru. Le Royaume
-d'Hyrule compte sur toi !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.to_2nd_pearl",
-  skip = "current",
-  text = [[
-La Perle de Nayru se trouve au
-fond du Palais de la Sagesse,
-situé au Lac Hylia.
-Ne traine pas Link !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.to_3rd_pearl",
-  skip = "current",
-  text = [[
-J'ai appris que tu avais aidé
-Viscen au Village Cocorico ?
-Bravo à toi Link !
-Hâte-toi maintenant de chercher
-la Perle de Din à la Montagne
-d'Hera.
-Je sens une puissance maléfique
-qui approche... ne traine pas !
-]],
-}
-
-dialog{
-  id = "hyrule_city.hyrule_castle.zelda.viscen_quest",
-  text = [[
-Comme je le pensais, tu as
-trouvé la Perle de Nayru.
-Félicitations Link !
-Je ne m'étais pas trompée
-à ton sujet... mais il reste une
-dernière Perle à trouver !
-Il s'agit de la Perle de Din,
-laissée par la Déesse de la Force.
-Elle renferme la Puissance du Feu.
-Celle-ci reposerait au fond du
-Palais de la Force, situé au
-sommet de la Montagne d'Hera.
-Passe par la Plaine Est à côté
-du château pour t'y rendre. Tu
-passeras par le Village Cocorico.
-Le Capitaine Viscen y est
-justement en mission... peut-être
-le croiseras-tu ?
-Hâte-toi à présent Link !
-L'avenir du Royaume repose
-sur tes épaules.
-]],
-}
-
-dialog{
-  id = "hyrule_city.inn.aubergiste_colere",
-  skip = "current",
-  text = [[
-Partez d'ici immédiatemment !
-Sinon j'appelle la Garde !
-]],
-}
-
-dialog{
-  id = "hyrule_city.inn.cant_open_crystal_chest",
-  skip = "current",
-  text = [[
-Un instant !
-]],
-}
-
-dialog{
-  id = "hyrule_city.inn.cant_open_crystal_chest_2",
-  skip = "current",
-  text = [[
-Je vous interdis de fouiller dans
-ce coffre ! Il s'agit de mes 
-précieux ingrédients de cuisine.
-Ressortez d'ici immédiatement !
-]],
-}
-
-dialog{
-  id = "hyrule_city.inn.weaked_door",
-  skip = "all",
-  text = [[
-Cette chambre est vraiment mal
-entretenue... on peut entendre
-le voisin dormir d'ici !
-]],
-}
-
-dialog{
-  id = "hyrule_city.joy_pendants_fan.default",
-  skip = "current",
-  text = [[
-Bonjour jeune homme. Je ne t'ai 
-jamais vu ici je crois... dans ce
-cas laisse-moi me présenter:
-Je me nomme Mademoiselle Marie
-et je suis une collectionneuse de
-bijoux de toutes sortes...
-Mon dernier coup de coeur est
-les Pendentifs du Bonheur. Ces
-bijoux prodigueraient du bonheur.
-Ils sont, parait-il, portés par
-certains monstres tels que les
-goriyas ou les bokoblins.
-Tu me sembles aventureux.
-Si tu en trouvais, voudrais-tu
-me les donner ?
-Je te paierai bien plus que les
-marchands ambulants en ville !
-]],
-}
-
-dialog{
-  id = "hyrule_city.joy_pendants_fan.give_20_pendants_answer_yes",
-  skip = "current",
-  text = [[
-Tu es sérieux ??
-Tu es vraiment une personne
-formidable !
-Tends la main... et voila
-pour toi ! Tu le mérites !
-]],
-}
-
-dialog{
-  id = "hyrule_city.joy_pendants_fan.give_20_pendants_question",
-  question = "1",
-  skip = "current",
-  text = [[
-Tu as trouvé d'autres pendentifs ?
-Tu es un véritable amour ! Si j'en 
-possédais 20, je serais comblée.
-Ils sont pour moi ?
-Bah sur !
-Eeeet... non !
-]],
-}
-
-dialog{
-  id = "hyrule_city.joy_pendants_fan.give_gratitude",
-  skip = "current",
-  text = [[
-Vraiment merci merci merci...
-Ma collection sera resplandissante
-grâce à toi !
-Tu as ma Gratitude éternelle !
-]],
-}
-
-dialog{
-  id = "hyrule_city.joy_pendants_fan.give_more_pendants",
-  skip = "current",
-  text = [[
-Tu possèdes d'autres Pendentifs
-du Bonheur ? Tu es un véritable
-Cadeau des Déesses !
-Je n'ai hélas plus de place pour
-les ranger... mais garde les ! Ils
-pourraient me servir dans le futur.
-]],
-}
-
-dialog{
-  id = "hyrule_city.joy_pendants_fan.give_pendant_answer_no",
-  skip = "current",
-  text = [[
-Comment ça non ?
-Si c'est une blague, elle
-n'est pas drôle !
-]],
-}
-
-dialog{
-  id = "hyrule_city.joy_pendants_fan.give_pendant_answer_not_enough",
-  skip = "current",
-  text = [[
-C'est bien beau tout ça mais 
-tu n'as pas assez de Pendentifs !
-Reviens quand tu auras le compte !
-]],
-}
-
-dialog{
-  id = "hyrule_city.joy_pendants_fan.give_pendant_answer_yes",
-  skip = "current",
-  text = [[
-Vraiment ? Tu es trop gentil !
-Prends ça, en guise de
-remerciement...
-]],
-}
-
-dialog{
-  id = "hyrule_city.joy_pendants_fan.give_pendant_question",
-  question = "1",
-  skip = "current",
-  text = [[
-Au nom des Déesses ! C'est
-un Pendentif du Bonheur ! Il est 
-aussi beau que dans mes livres...
-Il est pour moi ?
-Bien sur !
-En fait, non.
-]],
-}
-
-dialog{
-  id = "hyrule_city.joy_pendants_fan.going_20_pendants",
-  skip = "current",
-  text = [[
-Si jamais tu trouves d'autres
-Pendentifs du Bonheur
-reviens me voir !
-Je t'en serais très reconnaissante.
-J'aimerais en posséder 20 pour
-ma collection personnelle...
-]],
-}
-
-dialog{
-  id = "hyrule_city.joy_pendants_fan.got_1_pendant",
-  skip = "current",
-  text = [[
-Rebonjour mon jeune ami !
-Encore merci pour ce merveilleux
-Pendentif du Bonheur...
-En tant que collectionneuse, mon
-but serait d'en rassembler 20.
-M'aideras-tu ?
-Je t'en serais très
-reconnaissante !
-]],
-}
-
-dialog{
-  id = "hyrule_city.joy_pendants_fan.got_20_pendants",
-  skip = "current",
-  text = [[
-Bienvenue mon jeune ami !
-Regarde tous ces magnifiques
-Pendentifs du Bonheur !
-Encore merci à toi de ton aide
-très précieuse. Je te souhaite
-le meilleur pour tes aventures !
-]],
-}
-
-dialog{
-  id = "hyrule_city.librarian.default",
-  skip = "current",
-  text = [[
-Bienvenue à la Bibliothèque
-d'Hyrule. Notre vaste collection
-de livres se trouve sur la droite.
-Vous trouverez la salle de lecture
-en haut. Nous y avons disposé
-le Guide de l'Aventurier.
-La réserve se trouve enfin au
-fond et renferme les ouvrages
-les plus mystérieux du Royaume...
-]],
-}
-
-dialog{
-  id = "hyrule_city.man.default",
-  skip = "current",
-  text = [[
-Qu'est-ce que c'est ? Ma femme
-est la gérante de l'Auberge et
-mon fils joue dehors.
-Du coup, je passe mes journées
-seul. Quelle vie...
-]],
-}
-
-dialog{
-  id = "hyrule_city.night_market",
-  skip = "all",
-  text = [[
-Bienvenue au Marché de Nuit !
-Veux-tu m'acheter
-quelque chose ?
-Sinon je peux te racheter
-un truc... montre-le moi
-en l'assignant à une touche.
-]],
-}
-
-dialog{
-  id = "hyrule_city.old_man.sleep",
-  skip = "current",
-  text = [[
-Rzzzz...$0 Zzzz...$0
-(Il dort profondément. Mieux
-vaut le laisser tranquille).
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.1",
-  skip = "current",
-  text = [[
-Nous montons la garde.
-Ne fais pas de bêtises ou
-tu auras affaire à nous !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.2",
-  skip = "current",
-  text = [[
-Cette zone est sous notre
-contrôle. De jour comme
-de nuit.
-Vivement l'augmentation...
-enfin un peu de rep... hum!
-Circulez !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.3",
-  skip = "current",
-  text = [[
-Monter la garde c'est fatigant...
-Rester fixe sans but...
-Ce job est si nul... pfff...
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.4",
-  skip = "current",
-  text = [[
-Gloire et prospérité au
-Royaume d'Hyrule !
-Longue vie à la Princesse Zelda !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.5",
-  skip = "current",
-  text = [[
-Halte ! Arrêtez de rouler
-partout comme ça c'est
-insupportable !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.castle_night_enter",
-  skip = "current",
-  text = [[
-L'accès au Château d'Hyrule est
-strictement interdit pendant
-la nuit.
-Un enfant comme toi devrait
-dormir à cette heure d'ailleurs...
-Va te coucher !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.city_night_enter",
-  skip = "current",
-  text = [[
-Halte ! L'accès à la Citadelle
-est bloqué pendant la nuit
-pour des raisons de sécurité.
-Revenez lorsqu'il fera jour !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.city_night_leave",
-  skip = "current",
-  text = [[
-Je suis désolé mais il est
-interdit de sortir de la Citadelle
-pendant la nuit.
-Je vous suggère de vous
-reposer à l'auberge
-en attendant le jour.
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.kakariko",
-  skip = "current",
-  text = [[
-Le Capitaine Viscen nous
-a demandé de rester ici pour
-surveiller le Village.
-Alors tiens-toi tranquille !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.kakariko_confined",
-  skip = "current",
-  text = [[
-Des goriyas menacent le Village !
-Le Maire a donc ordonné un
-confinement des habitants...
-Nous sommes ici pour monter la
-garde et infliger de très lourdes
-amendes aux récalcitrants !
-Tu as de la chance d'être un
-voyageur sinon tu en aurais
-eu une sur le champ...
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.kakariko_gate_closed",
-  skip = "current",
-  text = [[
-Le Maire m'a ordonné de fermer
-l'accès à la Montagne d'Hera
-tant que les goriyas seront là.
-Alors du balai gamin !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.kakariko_gate_help_viscen",
-  skip = "current",
-  text = [[
-Tu as l'autorisation du Capitaine
-Viscen d'accéder à la Montagne
-d'Hera. Tu peux donc passer.
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.kakariko_gate_opened",
-  skip = "current",
-  text = [[
-La menace des goriyas n'est
-plus. Tu peux donc t'aventurer
-vers la Montagne d'Hera.
-Fais tout de même attention
-aux monstres qui y vivent.
-Cette zone est dangereuse !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.prof_bodyguard",
-  skip = "current",
-  text = [[
-Je m'occupe de veiller sur
-le Professeur lors de ses audiences
-ici mais il est encore absent...
-Je me demande vraiment
-pourquoi on m'envoie encore
-ici et pas dans la bibliothèque...
-Enfin bon, je suis payé très cher
-pour limite rien alors je ne me
-plaindrai pas ! Eheheh...
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.restricted_area",
-  skip = "current",
-  text = [[
-Halte ! Cette zone est strictement
-interdite !
-Circulez immédiatement !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.soldier_need_water.ask_chateau",
-  text = [[
-Halte ! Tant que je serai là
-personne ne traversera ce pont !
-Recule !
-Comment ? Envoyé par la Princesse 
-Zelda ? Ah ah ah ! Sans permission
-tu ne passeras pas.
-Mais si tu insistes, j'aimerais 
-prendre un verre de Cuvée Romani. 
-Je ne peux  cependant pas 
-quitter mon poste...
-Si tu vas en chercher pour moi
-au bar, je te laisserai passer.
-Marché conclu ?
-Allez ne traine pas !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.soldier_need_water.ask_chateau_2",
-  skip = "current",
-  text = [[
-Ah te revoila !
-Et ma Cuvée Romani ?
-Pas de Cuvée, pas de passage !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.soldier_need_water.boomerang",
-  text = [[
-Ah oui j'oubliais... il y a pas mal
-de monstres vers le Lac, surtout
-des zouras...
-Ces monstres craignent le feu
-et la glace mais vu qu'ils vivent
-dans l'eau ce sera difficile
-de les atteindre sans arme de jet.
-Je te remet donc ceci, ça devrait
-t'aider là bas. Au revoir petit.
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.soldier_need_water.cant_pass",
-  skip = "current",
-  text = [[
-Halte ! Tant que je serai là
-personne ne traversera ce pont !
-Recule !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.soldier_need_water.give_chateau",
-  text = [[
-Oh mais c'est une Cuvée Romani
-que tu as là ! Tu sais que ma ronde
-était terminée ?
-J'aurais pu y aller moi-même mais
-merci quand même.
-Comment ça ? Pas au courant ?
-Ah ah ah ! Tu ferais mieux de 
-déguerpir avant que je ne change
-d'avis demi portion...
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.throne_room",
-  skip = "current",
-  text = [[
-Ces escaliers mènent à la 
-Salle du Trône. La Princesse
-Zelda y est disponible
-pour audience avec tout citoyen
-pendant la journée.
-Gloire au Royaume d'Hyrule !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.viscen_bodygard.default",
-  skip = "current",
-  text = [[
-Je m'occupe personnellement
-de la sécurité du Capitaine
-Viscen.
-Bien qu'il soit un excellent
-combattant... je le défendrai
-jusqu'à mon trépas !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.viscen_bodygard.viscen_left",
-  skip = "current",
-  text = [[
-Le Capitaine Viscen est parti en
-mission au Village Cocorico avec
-d'autres soldats mais pas moi !
-Je l'ai supplié de l'accompagner
-mais il a refusé...
-Ai-je fait quelque chose de mal ?
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.viscen_bodygard.viscen_quest_finished",
-  skip = "current",
-  text = [[
-Le Capitaine est rentré de sa
-mission en sécurité. Je suis si
-heureux de le revoir !
-]],
-}
-
-dialog{
-  id = "hyrule_city.soldiers.zelda_bodyguard",
-  skip = "current",
-  text = [[
-Nous sommes la Garde personnelle 
-de la Princesse Zelda.
-Parle-lui avec respect ! Sinon...
-]],
-}
-
-dialog{
-  id = "hyrule_city.stone_collector.default",
-  skip = "current",
-  text = [[
-Ces ouvrages sur les pierres
-sont fascinants !
-
-Monsieur, êtes-vous vous aussi
-un collectionneur de ces
-merveilles ?
-]],
-}
-
-dialog{
-  id = "hyrule_city.weird_guy.default",
-  skip = "current",
-  text = [[
-Bonsoir à toi petit.
-La nuit est belle aujourd'hui
-tu ne trouves pas ?
-J'aime me balader dans les
-ruelles la nuit, ça n'a rien de
-suspect... n'est-ce pas ?
-]],
-}
-
-dialog{
-  id = "hyrule_city.weird_guy.inn",
-  skip = "current",
-  text = [[
-Bonjour à toi petit.
-As-tu déjà goûté à la cuisine
-de cette Auberge ?
-Elle est vraiment délicieuse ! Cet
-ajout de Flocon de Sucre change
-vraiment tout dans les recettes...
-]],
-}
-
-dialog{
   id = "inn.answer_no",
   skip = "current",
   text = [[
@@ -7117,1310 +4997,6 @@ Non
 }
 
 dialog{
-  id = "intro.commands",
-  text = [[
-Appuie sur Q pour avoir accès au
-Menu Commandes. Tu peux même y
-modifier les touches par défaut !
-]],
-}
-
-dialog{
-  id = "intro.fresco_1",
-  text = [[
-Exemple d'intro
-possible pour
-un projet.
-]],
-}
-
-dialog{
-  id = "intro.fresco_2",
-  text = [[
-Exemple d'intro
-possible pour
-un projet.
-]],
-}
-
-dialog{
-  id = "intro.kokiri_elder.after_pearl",
-  text = [[
-Te revoilà... Au vu de ta mine
-réjouie tu dois avoir récupéré
-la Perle de Farore.
-Félicitations à toi ! Tel que je le
-pensais tu es digne de quitter la
-forêt.
-Maintenant rends-toi au Château
-d'Hyrule et va rencontrer la
-Princesse Zelda.
-Ce n'est que le début d'une grande
-aventure pour toi, je peux le
-sentir...
-Tu seras toujours le bienvenue
-ici sache-le...
-
-Au revoir Link, et bon courage
-à toi dans la quête qui t'attend...
-]],
-}
-
-dialog{
-  id = "intro.kokiri_elder.before_pearl",
-  skip = "current",
-  text = [[
-Rends-toi au Palais du Courage
-et amène-moi la Perle de Farore...
-
-Ainsi, je te jugerai digne de
-quitter la forêt...
-]],
-}
-
-dialog{
-  id = "intro.kokiri_elder.before_sword",
-  text = [[
-Bienvenue à toi Link. Je vois
-que tu as bien reçu mon
-message...
-Si je t'ai convoqué ici, Link,
-c'est parce que j'ai reçu un
-message de la Princesse Zelda.
-La Princesse Zelda est la
-souveraine du Royaume d'Hyrule,
-ce message est donc très important.
-Ce message te concerne Link...
-La Princesse en personne demande
-à te voir au Château d'Hyrule !
-J'ignore la nature de cette
-demande mais tu ne peux pas
-refuser cette invitation.
-Cependant, ceci implique que tu
-devras quitter la forêt...
-
-Même si la Loi Kokiri ne s'applique
-pas pour toi qui est en vérité un
-hylien, il ne serait pas prudent
-de te laisser quitter la forêt
-sans défense et sans préparation.
-
-Je vais donc te demander de te
-rendre au Palais du Courage et d'y
-chercher la Perle de Farore.
-Une fois ceci fait, tu devras
-revenir ici et me la montrer. Alors 
-je te jugerai digne de partir...
-Pour t'aider dans cette tâche, je
-vais te remettre une Epée. Utilise
-la avec sagesse...
-Je te recommande aussi d'acheter
-un Bouclier dans la boutique
-du village. Bon courage à toi...
-]],
-}
-
-dialog{
-  id = "intro.kokiri_elder.welcome_periode_1",
-  skip = "current",
-  text = [[
-Bienvenue Link. J'espère que ta
-quête se déroulera pour le mieux.
-Hyrule compte sur toi.
-]],
-}
-
-dialog{
-  id = "intro.kokiri_exit.cant_leave",
-  skip = "current",
-  text = [[
-La sortie de la Forêt se trouve
-juste derrière moi. Je suis désolé
-mais tu ne partiras pas d'ici.
-La Loi Kokiri interdit formellement
-à quiconque de quitter la Forêt !
-]],
-}
-
-dialog{
-  id = "intro.kokiri_exit.leave",
-  text = [[
-Comment ? L'Ancien t'as permis de
-quitter la Forêt ???
-
-Tu n'es pas vraiment un Kokiri
-après tout, c'est vrai...
-Fais tout de même attention...
-Avant ton départ j'aimerais te
-remettre ceci Link: c'est un Sac
-à Butins.
-Il te permettra de ranger les 
-objets laissés par les monstres 
-ou trouvés dans ton aventure.
-J'aimerais que tu en prennes soin.
-Bon courage dans ta quête Link...
-Tu seras toujours le bienvenue ici.
-]],
-}
-
-dialog{
-  id = "intro.kokiri_exit.leave_2",
-  skip = "current",
-  text = [[
-Bon courage à toi Link. Fais
-attention aux moult dangers 
-hors de la Forêt...
-]],
-}
-
-dialog{
-  id = "intro.kokiri_intro.1",
-  text = [[
-Link ! $0
-LIIIIIINK !!
-]],
-}
-
-dialog{
-  id = "intro.kokiri_intro.2",
-  text = [[
-Link espèce de feignasse !$0
-Debout !$0
-ALLEEEEEZ !!!
-]],
-}
-
-dialog{
-  id = "intro.kokiri_intro.3",
-  text = [[
-Enfin, ce n'est pas trop tôt !
-
-
-L'Ancien demande à te voir,
-alors dépèche-toi et va
-le voir !
-]],
-}
-
-dialog{
-  id = "intro.kokiri_intro.4",
-  text = [[
-Je ne sais pas ce qu'il te
-veut mais avec un peu de
-chance il va te renvoyer
-hors de la forêt... c'est
-ta place après tout, 
-pseudo "kokiri"... Pffff !
-]],
-}
-
-dialog{
-  id = "intro.kokiri_intro.outside",
-  skip = "current",
-  text = [[
-Tu es debout, c'est un véritable
-miracle ! Maintenant, va voir
-l'Ancien Kokiri, hâte-toi !
-Il habite dans la grande cabane
-au nord de la forêt, à côté de
-la girouette, tu as oublié ?
-Misère mais comment l'Ancien
-a-t-il pu accepter
-de te recueillir... Pffff !
-]],
-}
-
-dialog{
-  id = "intro.saria.after_pearl",
-  skip = "current",
-  text = [[
-Link ! Les Déesses soient louées,
-tu n'as rien !
-
-Quoi ? Tu vas quitter la forêt ?
-...$0
-Bien sur, je comprends...
-Tu n'es pas vraiment un Kokiri je
-le sais mais... si telle est ta
-destinée, je le comprends...
-N'hésite pas à repasser ici et
-à revenir me voir... Même si tu
-pars, nous serons toujours amis...
-N'oublie pas...
-]],
-}
-
-dialog{
-  id = "intro.saria.before_pearl",
-  skip = "current",
-  text = [[
-Te revoilà ! Tout s'est bien
-passé ?
-
-Comment ? Le Palais du Courage ?
-
-
-Il est à l'extrémité nord-ouest
-du village mais c'est très
-dangereux d'y aller !
-Des monstres y ont été aperçus
-récemment, fais très attention
-à toi...
-]],
-}
-
-dialog{
-  id = "intro.saria.before_sword",
-  skip = "current",
-  text = [[
-Salut Link ! Comment vas-tu ?
-Mon père demande à te voir, mais
-tu dois déjà être au courant...
-Il a envoyé Mido te porter le
-message... Il n'a pas du être
-tendre avec toi...
-Il a vraiment une dent contre
-toi... et j'ignore totalement
-pourquoi...
-]],
-}
-
-dialog{
-  id = "intro.saria.welcome_periode_1",
-  skip = "current",
-  text = [[
-Link ! Comment se passent tes
-aventures en dehors de la forêt ?
-
-Je suis ravie que tu aies pensé
-à venir me voir !
-
-Laisse-moi te soigner si tu as
-des plaies dues à ton voyage...
-
-N'hésite pas à revenir, je suis
-toujours ravie de te revoir Link !
-]],
-}
-
-dialog{
-  id = "kakariko_village.flute_boy.default",
-  skip = "current",
-  text = [[
-J'adore jouer de la flute par ici.
-C'est si relaxant. Si tu as un jour
-un instrument, reviens me voir.
-Je t'apprendrai quelque chose
-d'utile à propos de ce symbole
-d'Ocarina à côté de moi.
-]],
-}
-
-dialog{
-  id = "kakariko_village.grandma_broom.confined",
-  skip = "current",
-  text = [[
-Youpi !
-J'ai la pêche, et toi ?
-
-Le récent confinement m'empêche
-de ballayer dehors mais la
-maison sera bien propre au moins !
-Mon mari qui est Forgeron peut
-exceptionnellement continuer à
-travailler. Quel bonheur !
-]],
-}
-
-dialog{
-  id = "kakariko_village.grandma_broom.default",
-  skip = "current",
-  text = [[
-Youpi !
-J'ai la pêche, et toi ?
-
-J'adore ballayer toute la journée
-pendant que mon mari travaille à
-la Forge. Tu devrais aller le voir.
-Il confectionne les meilleures
-armes du Royaume même si
-ses prix sont un peu élevés...
-]],
-}
-
-dialog{
-  id = "kakariko_village.grandma_broom.night",
-  skip = "current",
-  text = [[
-Youpi !
-J'ai la pêche, et toi ?
-
-Il faut passer le balai dans
-la maison maintenant que la 
-journée est finie... en avant !
-]],
-}
-
-dialog{
-  id = "kakariko_village.lost_man.first_aid_1_done",
-  skip = "current",
-  text = [[
-Merci encore pour ton aide
-à la Montagne d'Hera.
-Je vais rester ici un moment...
-Mais une fois totalement remis,
-je repars pour la Montagne !
-
-Peut-être qu'on s'y retrouvera ?
-Ah ah ah !
-Ce serait drôle...
-]],
-}
-
-dialog{
-  id = "kakariko_village.lost_man.first_aid_1_finished",
-  skip = "current",
-  text = [[
-Tu es une bonne personne.
-Le chemin du retour devrait
-bien se passer.
-Je me souviendrai de toi.
-Tu as ma Gratitude !
-]],
-}
-
-dialog{
-  id = "kakariko_village.lost_man.give_milk",
-  skip = "current",
-  text = [[
-Mais c'est du lait que tu as là !
-Grâce à ce breuvage, je serais
-en forme pour rentrer chez moi.
-C'est pour moi ? Merci infiniment !
-Tiens, prends ceci.
-]],
-}
-
-dialog{
-  id = "kakariko_village.lost_man.goriyas_menace",
-  skip = "current",
-  text = [[
-Maudits goriyas ! Je me faisais
-une joie de partir en randonnée
-à la Montagne d'Hera mais nous
-devons rester chez nous tant
-que ces monstres seront
-dans les parages.
-Je vais devenir fou avec ces
-enfants. J'ai besoin d'air !
-]],
-}
-
-dialog{
-  id = "kakariko_village.lost_man.need_milk",
-  skip = "current",
-  text = [[
-A l'aide ! Je faisais ma randonnée
-tranquillement mais je me suis
-blessé avec tous ces rochers...
-Si seulement j'avais un peu
-de lait, je serais d'aplomb pour
-rentrer chez moi. Peux-tu m'aider ?
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor.default",
-  skip = "current",
-  text = [[
-C'est terrible ! 
-Des goriyas menacent le Village ! 
-Le Capitaine Viscen devrait 
-bientot venir nous prêter main
-forte. J'attends sa venue avec
-impatience. J'ai en attendant
-ordonné un confinement de tous
-les habitants de Cocorico et fermé
-l'accès à la Montagne d'Hera.
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor.goriyas_finished",
-  skip = "current",
-  text = [[
-Bienvenue à vous jeune homme.
-Comment se déroule votre quête ?
-Reposez-vous dans notre
-village paisible si nécessaire...
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor.goriyas_menace",
-  skip = "current",
-  text = [[
-C'est terrible ! 
-Des goriyas menacent le Village ! 
-Le Capitaine Viscen est venu 
-nous prêter main forte.
-Pourras-tu nous aider ? Cocorico 
-ne doit pas etre envahie !
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor.gratitude",
-  text = [[
-Ce sont des Gemmes de Gratitude.
-Ces Gemmes mystérieuses sont
-l'expression de la Gratitude.
-Lorsque vous rendez service
-autour de vous, il se peut que la 
-reconnaissance que vous gagnez
-se matérialise sous la forme de ces 
-Gemmes. Plus forte est la gratitude 
-plus de ces Gemmes apparaissent.
-Rendez au plus service autour
-de vous pour en collecter le plus
-possible.
-Il parait qu'un certain Tingle les
-collectionne. Il vivrait proche des
-Bois Perdus.
-Poursuivez votre route maintenant.
-La Montagne d'Hera vous attend !
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor.secretary",
-  skip = "current",
-  text = [[
-Oh, un client ! Bienvenue à vous,
-vous êtes bien à la Mairie
-du Village Cocorico.
-Le Maire est disponible pour
-toute audience pendant la journée.
-Parlez lui avec respect...
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor.secretary_confined",
-  skip = "current",
-  text = [[
-Tout le Village Cocorico est
-confiné depuis la menace
-des goriyas de la Montagne...
-On pourrait croire que mon poste
-de secrétaire serait épargné vu
-comment le Maire est demandé.
-Et pourtant non ! Je dois rester
-chez moi ! C'est dire à quel point
-mon travail ne sert a rien !
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor.secretary_night",
-  skip = "current",
-  text = [[
-Encore une journée à rester
-debout sans rien faire à la Mairie.
-Le Maire ne reçoit jamais personne,
-je me demande à quoi je sers
-là-bas... quand je pense à ma
-soeur à la Citadelle...
-Elle est propriétaire d'une maison
-double et a un collectionneur 
-de pierres précieuses comme mari !
-On ne vit pas la même vie dans
-ce village en déclin...
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor.steward",
-  skip = "current",
-  text = [[
-Bonsoir jeune homme. Je suis
-l'Intendant de Cocorico. J'ai pour
-charge d'écouter les besoins de 
-tout citoyen le temps de la soirée 
-et nuit. Les demandes sont rares
-mais je suis là pour vous écouter.
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor.viscen_quest_finished",
-  text = [[
-Jeune homme, le Capitaine Viscen
-m'a conté vos exploits et votre
-héroïsme à la Montagne d'Hera.
-Sachez que je vous en serai
-éternellement reconnaissant...
-Cocorico se souviendra de vous.
-Laissez moi vous partagez cette
-Gratitude... 
-Prenez ceci.
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor_bodyguard.appartment",
-  skip = "current",
-  text = [[
-Halte ! L'accès aux appartements
-privés du Maire est strictement
-interdit. Recule-toi !
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor_bodyguard.default",
-  skip = "current",
-  text = [[
-Voici le Maire de Cocorico.
-Parle lui avec respect !
-Sinon tu auras affaire à moi...
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor_bodyguard.goriyas_finished",
-  skip = "current",
-  text = [[
-Même si le Repaire des goriyas
-a été nettoyé, certains monstres
-peuvent encore menacer le Village.
-Je les attends de pied ferme !
-Je défendrai le Maire !
-Qu'ils viennent !
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor_bodyguard.goriyas_menace",
-  skip = "current",
-  text = [[
-Le Village est menacé par ces
-maudits goriyas ! J'ai entendu
-que le Capitaine Viscen veut
-s'en occuper avec toi. Tache de
-ne pas le décevoir, sa confiance
-est une chose sacrée.
-]],
-}
-
-dialog{
-  id = "kakariko_village.mayor_bodyguard.night",
-  skip = "current",
-  text = [[
-Monsieur le Maire dort pendant
-la nuit. Si tu as un problème,
-transmet ton message à l'Intendant.
-]],
-}
-
-dialog{
-  id = "kakariko_village.meditator.default",
-  skip = "current",
-  text = [[
-$2Bienvenue à toi jeune homme.
-Installe-toi confortablement...
-Et fais le vide dans ta tête...
-Ma femme est constamment
-sur les nerfs. Elle devrait faire
-comme moi... relaxer...
-]],
-}
-
-dialog{
-  id = "kakariko_village.meditator.wife",
-  skip = "current",
-  text = [[
-Ooooh je le hais tellement...
-Désolé mais je ne suis pas
-d'humeur à discuter.
-Mon mari passe son temps à
-rester à la maison et à 'méditer'.
-Non mais franchement !
-Un homme qui ne travaille pas
-pour nourrir sa famille, c'est
-du jamais vu !
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.all_caught",
-  skip = "current",
-  text = [[
-Ok tu nous as tous attrapés !
-On se rend !
-Pas mal pour un vieux...
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.elders.old_man_goriyas_menace",
-  text = [[
-$2Satanés goriyas !
-Je ne peux pas sortir profiter du
-soleil car nous sommes confinés...
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.elders.old_man_quadruplets_quest_begin",
-  text = [[
-$2Satanés gamins !
-Ils hurlent à longueur de journée
-et écrasent ma belle pelouse...
-Eh toi ! Tu ne veux pas aller les
-voir pour me débarasser d'eux ?
-Je te donnerai de l'argent.
-Ne me déçois pas !
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.elders.old_man_quadruplets_quest_finished",
-  text = [[
-$2Satané mal de dos...
-Je ne peux rien faire sans mes
-médicaments. Je hais ce siècle...
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.elders.old_man_quadruplets_quest_going",
-  text = [[
-$2Tu es incapable ou quoi ?
-Va me débarasser de ces
-sales gosses ! Maintenant !
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.elders.old_man_quadruplets_quest_reward",
-  text = [[
-$2Te revoilà. Il était temps !
-Je vais enfin pouvoir faire
-mes mots croisés....
-Quoi, l'argent ? 
-Oh oui prends ça...
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.elders.old_woman_goriyas_menace",
-  skip = "current",
-  text = [[
-$2Ooooh... J'espère que le
-confinement sera bientôt fini.
-Mon mari est insupportable...
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.elders.old_woman_quadruplets_quest",
-  skip = "current",
-  text = [[
-$2Merci d'aider mon mari.
-Dépêche-toi s'il te plait...
-Il est vraiment insupportable.
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.elders.old_woman_quadruplets_quest_finished",
-  skip = "current",
-  text = [[
-$2Même si les enfants sont partis
-mon mari continue de se plaindre...
-Ooooh...
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.elders.old_woman_quadruplets_quest_hey",
-  skip = "current",
-  text = [[
-$2Eh jeune homme !
-Attends un peu...
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.elders.old_woman_quadruplets_quest_reward",
-  skip = "current",
-  text = [[
-$2Je te suis très reconnaissante.
-Grâce à toi, mon mari va peut-être
-arrêter de se plaindre de tout.
-Tu as ma Gratitude éternelle.
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.kid_1_caught",
-  skip = "current",
-  text = [[
-Tu m'a attrapé !
-J'y crois trop pas !!!
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.kid_2_caught",
-  skip = "current",
-  text = [[
-Waaaah !
-T'es trop fort !
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.kid_3_caught",
-  skip = "current",
-  text = [[
-Comment tu m'as trouvé ???
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.kid_4_caught",
-  skip = "current",
-  text = [[
-Boooo !
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.leader_begin_hide",
-  skip = "current",
-  text = [[
-Ecoutez ça ! Les vieux de la maison
-d'en face veulent qu'on arrête
-de faire du bruit !
-Tu sais quoi t'es courageux de
-venir nous dire ça en face.
-Je te propose un truc...
-Si tu nous attrapes tous les
-quatre alors on rentrera chez nous
-sans protester. Ca te tente ?
-Alors à 3: 1...$0 2...$0 3...$0
-On se cache !
-Bonne chance le vieux !
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.leader_challenge",
-  skip = "current",
-  text = [[
-Yeaaah ! Maintenant que ces sales 
-goriyas sont partis rien ne nous
-empêche de jouer toute la journée !
-Quoi ? Le vieux de la maison
-d'en face ?
-...
-Tu veux te battre ? On a attendu
-des jours que ces goriyas se
-cassent et on devrait rentrer ?
-Eh les frères !
-Ramenez vous !
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.leader_default",
-  skip = "current",
-  text = [[
-Yeaaah ! Maintenant que ces sales 
-goriyas sont partis rien ne nous
-empêche de jouer toute la journée !
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.win_hide",
-  skip = "current",
-  text = [[
-J'peux pas croire que tu nous ai
-tous attrapés ! Mais une parole
-reste une parole...
-On va rester chez nous et laisser
-ces vieux tranquilles...
-Oublie pas d'aller leur dire.
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets.yay",
-  skip = "current",
-  text = [[
-Yeaaah !
-]],
-}
-
-dialog{
-  id = "kakariko_village.quadruplets_mother.default",
-  skip = "current",
-  text = [[
-Oh misère... mon bébé n'arrive
-pas à s'endormir sans sa peluche
-et je l'ai perdue... que faire...
-]],
-}
-
-dialog{
-  id = "kakariko_village.shooting_minigame.answer_no",
-  skip = "current",
-  text = [[
-Très bien. Personne ne t'oblige à
-jouer, tu sais.
-]],
-}
-
-dialog{
-  id = "kakariko_village.shooting_minigame.answer_yes",
-  skip = "current",
-  text = [[
-OKAY !!
-Ce jeu n'est pas pour les gamins !
-Le célèbre Jeu d'adresse d'Hyrule !
-Vise bien et dégomme ce qui
-apparaît ! Pourras-tu toucher
-les 10 cibles ?
-Es-tu prêt ?
-Fais-moi un sans faute !
-Bonne chance !
-]],
-}
-
-dialog{
-  id = "kakariko_village.shooting_minigame.calcul",
-  skip = "current",
-  text = [[
-Tu as terminé p'tite tête !
-Vérifions combien de
-cibles tu as touché...
-]],
-}
-
-dialog{
-  id = "kakariko_village.shooting_minigame.goplay",
-  skip = "current",
-  text = [[
-Les cibles t'attendent dans
-la pièce derrière moi.
-Donne-toi à fond !
-]],
-}
-
-dialog{
-  id = "kakariko_village.shooting_minigame.loser",
-  skip = "current",
-  text = [[
-Dommage !
-Entraîne-toi et reviens vite !
-]],
-}
-
-dialog{
-  id = "kakariko_village.shooting_minigame.no_bow",
-  skip = "current",
-  text = [[
-Mais... Où est ton arc ?
-]],
-}
-
-dialog{
-  id = "kakariko_village.shooting_minigame.no_money",
-  skip = "current",
-  text = [[
-Non p'tite tête... T'as pas assez
-d'argent !
-]],
-}
-
-dialog{
-  id = "kakariko_village.shooting_minigame.question",
-  question = "1",
-  skip = "current",
-  text = [[
-Bienvenue au célèbre Jeu
-d'adresse d'Hyrule gamin !
-Réservé aux plus grands experts
-archers du Royaume et très connu
-pour sa musique ennivrante...
-C'est 20 Rubis la partie.
-Veux-tu tenter ta chance ?
-Oui
-Pas question
-]],
-}
-
-dialog{
-  id = "kakariko_village.shooting_minigame.retry",
-  skip = "current",
-  text = [[
-Si tu veux rejouer, reviens
-me voir !
-]],
-}
-
-dialog{
-  id = "kakariko_village.shooting_minigame.retry_question",
-  question = "1",
-  skip = "current",
-  text = [[
-Tu veux retenter ta chance ?
-Oui
-Pas question
-]],
-}
-
-dialog{
-  id = "kakariko_village.shooting_minigame.winner",
-  skip = "current",
-  text = [[
-Fantastique !!!
-Bravo !!!
-Génial !!!
-Voici ton magnifique prix !
-]],
-}
-
-dialog{
-  id = "kakariko_village.shop_owner.confined",
-  skip = "current",
-  text = [[
-Saletés de goriyas ! Nous sommes
-confinés chez nous tant que ces
-monstres sont dans les parages...
-Résultat mon magasin est fermé !
-Pourtant l'Auberge et la Forge
-peuvent rester ouverts... car ils
-seraient 'essentiels'. Mais
-mon magasin ne l'est pas !
-C'est le monde à l'envers !
-]],
-}
-
-dialog{
-  id = "kakariko_village.shop_owner.default",
-  skip = "current",
-  text = [[
-Mes articles sont de qualité,
-assurément ! Prends garde
-cependant si tu comptes aller
-à la Montagne d'Hera.
-Un bouclier en bois risque vite
-de bruler au contact des flammes !
-]],
-}
-
-dialog{
-  id = "kakariko_village.shop_owner.night",
-  skip = "current",
-  text = [[
-Je suis désolé mais je ne fais
-affaire avec aucun client
-pendant la nuit.
-Reviens me voir au Magasin
-de Cocorico quand il fera jour !
-]],
-}
-
-dialog{
-  id = "kakariko_village.smith.default",
-  skip = "current",
-  text = [[
-Yo ! Grâce au Cap'taine j'ai 
-retrouvé mes Gants de Puissance !
-Tu veux-tu les acheter ?
-Sinon j'ai ce magnifique Bouclier
-Hylien, c'est le meilleur !
-Sur la tête de ma mère !
-]],
-}
-
-dialog{
-  id = "kakariko_village.smith.glove_stolen",
-  skip = "current",
-  text = [[
-Yo ! J'suis le forgeron.
-J'me suis fait voler mes Gants de 
-Puissance par ces s{{{{ goriyas !
-Mais tu peux quand même
-m'acheter des trucs regarde.
-Je retourne bosser...
-]],
-}
-
-dialog{
-  id = "kakariko_village.smith.home",
-  skip = "current",
-  text = [[
-Yo ! La Forge est fermée pendant
-la nuit. Mais si tu veux un conseil
-de pro, passe m'y voir le jour !
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.dania_default",
-  skip = "current",
-  text = [[
-Ma cousine Elma va bientôt
-revenir de la Citadelle
-pour sa visite annuelle !
-J'ai si hâte ! Dommage que je n'ai
-pas comme elle de sang hylien...
-Rester dans la Forêt c'est pénible.
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.dania_reward",
-  skip = "current",
-  text = [[
-Link ! Elma m'a tout raconté !
-Tu es un véritable Héros !
-Tu lui a sauvé la vie !
-Je t'en serai à jamais
-reconnaissante... voici ma
-Gratitude pour toi !
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.dania_shop_reduction",
-  skip = "current",
-  text = [[
-Comment pourrai-je à jamais
-te remercier...
-J'ai une idée !
-Je t'offre une réduction de moitié
-prix à vie dans ma boutique !
-Repasses-y à l'occasion.
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.dania_wait_elma",
-  skip = "current",
-  text = [[
-Rebonjour Link. As-tu pu voir ma
-cousine Elma ? Elle était censée
-arriver il y a quelque temps.
-Elle habite dans la Citadelle.
-Y es-tu allé ?
-J'espère qu'elle va bien...
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.elma_failed",
-  skip = "current",
-  text = [[
-Link ? Où es-tu ?
-Je suis restée en arrière !
-A l'aiiiide !!!
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.elma_in_city",
-  skip = "current",
-  text = [[
-Ca alors Link ! C'est toi ?
-Je suis Elma, la jeune cousine de 
-Dania, la propriétaire du magasin !
-Je commençais justement
-à me préparer à repartir dans
-la forêt pour ma visite annuelle...
-On s'y retrouvera peut-être !
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.elma_in_forest",
-  skip = "current",
-  text = [[
-Bonjour à toi Link.
-Merci encore pour tout ce que
-tu as fait pour me sauver...
-Je vais rester ici. Les plaines
-sont trop dangereuses ces
-temps-ci...
-Dania est bien sûr très heureuse
-mais je ne pense pas que ma
-propriétaire à la Citadelle le soit.
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.elma_rescued",
-  skip = "current",
-  text = [[
-Link c'est toi ?
-Aide moi par pitié !
-Sortons vite d'ici !
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.elma_reward",
-  skip = "current",
-  text = [[
-Tu es venu Link.
-J'ai tout raconté à Dania !
-Mille merci pour ton aide encore...
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.elma_saved",
-  skip = "current",
-  text = [[
-Tu m'as sauvé la vie !
-Je ne saurais jamais assez
-te remercier Link.
-Je vais pouvoir rentrer seule.
-Viens me voir chez Dania.
-Elle saura te récompenser...
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.quest_begin",
-  skip = "current",
-  text = [[
-Ma cousine Elma est partie
-de la Citadelle mais elle n'est
-toujours pas arrivée...
-Link, toi qui peut quitter la forêt
-peux-tu aller dans la Citadelle
-voir si elle va bien ?
-Je n'ai pas de nouvelles et
-je commence à m'inquiéter...
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.quest_finished",
-  skip = "current",
-  text = [[
-Bienvenue à toi Link !
-Encore merci pour ton aide
-inestimable envers Elma.
-N'oublie pas de passer
-à la boutique ! Je te vendrai
-mes articles à un prix réduit !
-]],
-}
-
-dialog{
-  id = "kokiri_forest.elma_dania.shop_prince_reduced",
-  skip = "current",
-  text = [[
-Bienvenue à toi Link !
-Encore merci pour ton aide
-inestimable envers Elma.
-Achète ce qu'il te plait.
-Tout est à moitié prix
-pour toi !
-]],
-}
-
-dialog{
-  id = "kokiri_forest.fado.default",
-  skip = "current",
-  text = [[
-Bienvenue chez moi Link.
-Ma cartographie des Bois
-Perdus avance bien !
-Je devrais bientôt pouvoir
-aider toutes les personnes
-qui voudront s'y aventurer.
-]],
-}
-
-dialog{
-  id = "kokiri_forest.fado.in_woods",
-  skip = "current",
-  text = [[
-Salut Link. Toi aussi tu te
-ballades dans les Bois Perdus ?
-Ne t'y perds pas !
-J'aimerais réussir à en faire
-une Carte complète pour aider
-les gens qui s'y aventureront...
-]],
-}
-
-dialog{
-  id = "kokiri_forest.mido.default",
-  skip = "current",
-  text = [[
-Regardez qui voilà !
-Monsieur l'Aventurier...
-
-J'ai entendu que tu avais été
-convoqué par la Princesse
-Zelda en personne...
-Alors ça te fait quoi ? Tu dois
-sûrement être heureux ! Avec ça,
-Saria va encore plus t'admirer.
-Tu le fais exprès c'est ça ??
-Vas-y viens me narguer
-jusque chez moi !
-Sache que même avec ça, tu restes
-juste un minable à mes yeux...
-Allez disparais minable ! Pffff !
-]],
-}
-
-dialog{
-  id = "kokiri_forest.mido.night",
-  skip = "current",
-  text = [[
-Qu... qui va là ?
-Link ???
-Qu'est-ce que tu fais ici ?
-Moi ? Je ne fais rien du tout !
-Saria vit ici et elle passe
-parfois devant cette fenêtre et...
-Mais qu'est-ce que je raconte...
-Tout est de ta faute !
-Si Saria ne t'admirait pas tant...
-Je te déteste !
-Oublie ce que tu as vu !
-DISPARAIS MINABLE !!!
-]],
-}
-
-dialog{
-  id = "kokiri_forest.mido.sensor",
-  skip = "current",
-  text = [[
-Eh ! Où est-ce que tu vas ?
-Tu comptes espionner ma
-demeure ?
-Tu te dis que vu que tu es devenu
-le centre des yeux de Saria ça
-te donne tous les droits ??
-Disparais ! Je te déteste
-espèce de minable !
-Pffff !
-]],
-}
-
-dialog{
   id = "ocarina_path.interaction",
   skip = "current",
   text = [[
@@ -8477,7 +5053,7 @@ Ce n'est pas ton moment.
 ... Hé hé. Mais qu'est ce que je fais ?
 Tu n'es pas dans le bon jeu !
 Je n'ai pas à m'embêter à t'expliquer
-quoi que ce soit. Moi, Razdarac, vais
+quoi que ce soit. Moi, DarkDavy15, vais
 faire en sorte d'achever ce monde.
 Je m'en vais tout simplement !
 Adios, on se reverra peut-être.
@@ -8500,14 +5076,20 @@ de loin et sans risque !
 
 dialog{
   id = "shop.attack_boost",
-  icon = "98",
+  icon = "238",
   skip = "current",
   text = [[
-Un Boost d'Attaque.
+La Carte d'Upgrade
+d'Attaque.
 
+Cette Carte augmentera ton
+Attaque de 1 point.
 
-Cette potion augmentera
-ton Attaque.
+N'oublie pas que cette Carte
+est valable uniquement
+dans cette Vague et peut être
+désactivée à tout moment
+dans le Statut Quête !
 ]],
 }
 
@@ -8542,14 +5124,20 @@ faire sauter !
 
 dialog{
   id = "shop.bomb_bag",
-  icon = "65",
+  icon = "235",
   skip = "current",
   text = [[
-Une Bombe d'or.
+La Carte d'Upgrade
+de Bombes.
 
-
-Grace à elle, tu pourras
-transporter plus de Bombes.
+Cette Carte te permettra
+de transporter 20 Bombes
+supplémentaires.
+N'oublie pas que cette Carte
+est valable uniquement
+dans cette Vague et peut être
+désactivée à tout moment
+dans le Statut Quête !
 ]],
 }
 
@@ -8564,19 +5152,31 @@ Une Bouteille vide.
 Elle te permettra de stocker
 diverses choses comme
 des potions ou des fées.
+Ce n'est pas une Carte,
+mais son obtention sera
+permanente pour toi à
+travers toutes les Vagues !
+Considère ceci comme une grâce
+de la part du Grand Zeldo.
 ]],
 }
 
 dialog{
   id = "shop.defense_boost",
-  icon = "97",
+  icon = "239",
   skip = "current",
   text = [[
-Un Boost de Défense.
+La Carte d'Upgrade
+de Défense.
 
+Cette Carte augmentera ta
+Défense de 1 point.
 
-Cette potion augmentera
-ta Défense.
+N'oublie pas que cette Carte
+est valable uniquement
+dans cette Vague et peut être
+désactivée à tout moment
+dans le Statut Quête !
 ]],
 }
 
@@ -8638,14 +5238,20 @@ ta jauge de magie.
 
 dialog{
   id = "shop.magic_flask_upgrade",
-  icon = "93",
+  icon = "237",
   skip = "current",
   text = [[
-Une Flasque de magie bleue.
+La Carte d'Upgrade
+de Magie.
 
-
-Celle-ci augmentera
-ta Capacité magique.
+Cette Carte te permettra
+de doubler ta Capacité
+de Magie.
+N'oublie pas que cette Carte
+est valable uniquement
+dans cette Vague et peut être
+désactivée à tout moment
+dans le Statut Quête !
 ]],
 }
 
@@ -8661,14 +5267,20 @@ tu veux acheter.
 
 dialog{
   id = "shop.quiver",
-  icon = "68",
+  icon = "236",
   skip = "current",
   text = [[
-Une Flèche d'or.
+La Carte d'Upgrade
+de Flèches.
 
-
-Grace à elle, tu pourras
-transporter plus de Flèches.
+Cette Carte te permettra
+de transporter 20 Flèches
+supplémentaires.
+N'oublie pas que cette Carte
+est valable uniquement
+dans cette Vague et peut être
+désactivée à tout moment
+dans le Statut Quête !
 ]],
 }
 
@@ -8736,7 +5348,7 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Une Clé des Galeries
+La Clé des Galeries
 bleue.
 
 Grace à elle, tu pourras
@@ -8772,7 +5384,7 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Une Clé des Galeries
+La Clé des Galeries
 verte.
 
 Grace à elle, tu pourras
@@ -8843,7 +5455,7 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Une Clé des Galeries
+La Clé des Galeries
 rouge.
 
 Grace à elle, tu pourras
@@ -8910,7 +5522,7 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Une Clé des Galeries
+La Clé des Galeries
 jaune.
 
 Grace à elle, tu pourras
@@ -8928,6 +5540,32 @@ dialog{
   text = [[
 Tu veux ce trésor? Soit mais
 j'espère que tu as l'argent !
+]],
+}
+
+dialog{
+  id = "shop.upgrade_card_casual",
+  icon = "234",
+  skip = "current",
+  text = [[
+La Carte d'Aide pour les
+Casus.
+
+Cette Carte rendra ta
+progression bien moins
+difficile...
+Divers éléments pour te
+faciliter la vie apparaitront:
+Flèches, dalles ou autres...
+Zeldo a su être très fourbe,
+il le reconnait. Si tu trouves
+le jeu trop dur, n'hésite pas
+à activer cette Carte !
+N'oublie pas que cette Carte
+est valable uniquement
+dans cette Vague et peut être
+désactivée à tout moment
+dans le Statut Quête !
 ]],
 }
 
@@ -8968,10 +5606,18 @@ dialog{
   id = "shop.welcome_labors",
   skip = "all",
   text = [[
-Bienvenue voyageur ! Je
-vends toutes sortes de choses
-qui t'aideront dans ta quête.
-N'hésite pas à y jeter un oeil...
+Bienvenue voyageur !
+Je suis le Gardien des
+Cartes d'Upgrade.
+Ces précieuses Cartes te
+permettront d'obtenir une Upgrade
+permanente dans les Zones !
+Ces Upgrades sont variées et
+peuvent être désactivées à tout
+moment via le Statut Quête.
+Elles sont toutes pour toi
+mon ami... si tu as assez
+de Rubis...
 ]],
 }
 
@@ -9307,47 +5953,6 @@ La Carte ne ment jamais.
 }
 
 dialog{
-  id = "ts.dungeon_100.hint_1",
-  skip = "current",
-  text = [[
-Notes sur le système de plomberie
-du château: Appuyez sur le cristal
-pour changer le sens d'écoulement.
-Ecoulement vers le nord: Irrigation
-de la salle de bain.
-A activer le jour !
-Ecoulement vers le sud: Irrigation
-des douves de la prison.
-A activer la nuit !
-]],
-}
-
-dialog{
-  id = "ts.dungeon_100.hint_2",
-  skip = "current",
-  text = [[
-Poème du prof pour indiquer 
-les endroits ou passer pour
-laisser la porte ouverte.
-- Entre table et mur
-- Entre bilbiothèque et table
-- Contre fenetre
-- Entre bibliothèque et mur
-- Contre draperie
-]],
-}
-
-dialog{
-  id = "ts.dungeon_17.hint_1",
-  skip = "current",
-  text = [[
-Lorsque les 4 bougies seront
-allumées dans le temps imparti,
-la voie sera révélée.
-]],
-}
-
-dialog{
   id = "ts.dungeon_2.hint_1",
   skip = "current",
   text = [[
@@ -9523,7 +6128,7 @@ lecture cher Invité.
 
 dialog{
   id = "ts.labors.gallery_rules",
-  skip = "current",
+  skip = "all",
   text = [[
 
  - Couloir des Galeries de Zeldo -
@@ -9555,7 +6160,7 @@ transition vers la salle suivante.
 
 dialog{
   id = "ts.labors.labors_rules",
-  skip = "current",
+  skip = "all",
   text = [[
 
  - Couloir des Travaux de Zeldo -
@@ -9574,7 +6179,7 @@ plus d'infos sur les Zones.
 
 dialog{
   id = "ts.labors.shop_rules",
-  skip = "current",
+  skip = "all",
   text = [[
 
          - Les Magasins -
@@ -9583,8 +6188,8 @@ Utilisez les ressources collectées
 dans les Travaux de Zeldo pour
 acheter des objets utiles.
 Les Rubis vous permettront
-d'obtenir diverses upgrades qui
-vous serviront dans les Zones.
+d'obtenir des Cartes d'Upgrade
+qui vous serviront dans les Zones.
 Les Eclats de Souvenir vous
 permettront d'acquérir les
 Clés des Galeries.

@@ -113,16 +113,6 @@ function map_manager:new(game)
       sprite:set_animation("dungeons/compass")
       dungeon_map_widget:make_sprite(sprite, 80, 180)
     end
-    --if game:has_dungeon_stone_beak() then
-    --  local sprite = sol.sprite.create("entities/items")
-    --  sprite:set_animation("dungeons/stone_beak")
-    --  dungeon_map_widget:make_sprite(sprite, 42, 224)
-    --end
-    --if game:has_dungeon_big_key() then
-    --  local sprite = sol.sprite.create("entities/items")
-    --  sprite:set_animation("dungeons/big_key")
-    --  dungeon_map_widget:make_sprite(sprite, 42, 224)
-    --end
     if game:has_dungeon_boss_key() then
       local sprite = sol.sprite.create("entities/items")
       sprite:set_animation("dungeons/boss_key")
@@ -222,81 +212,13 @@ function map_manager:new(game)
     world_map_widget = gui_designer:create(320, 240)
     world_map_widget:make_text(sol.language.get_string("menu_title.map"), 160, 13, "center")
 
-    --LIGHT WORLD
-    if world == "outside_light" or world == "outside_light_2" 
-      or world == "inside_world" 
-      or world == "dungeon_16"
-      or world == "dungeon_17"
-      or world == "dungeon_100" then
-      world_map_widget:make_text(sol.language.get_string("light_world_caption"), 159, 207, "center")
-	    world_map_img:draw(dst_surface)
-
-  	  --Nuages pour les zones non explorées
-      if not game:get_value("light_A1_explored") then clouds_img:draw(dst_surface,36,61) end
-      if not game:get_value("light_A2_explored") then clouds_img:draw(dst_surface,36,88) end
-      if not game:get_value("light_A3_explored") then clouds_img:draw(dst_surface,36,115) end
-      if not game:get_value("light_A4_explored") then clouds_img:draw(dst_surface,36,142) end
-      if not game:get_value("light_A5_explored") then clouds_img:draw(dst_surface,36,169) end
-      if not game:get_value("light_B1_explored") then clouds_img:draw(dst_surface,86,61) end
-      if not game:get_value("light_B2_explored") then clouds_img:draw(dst_surface,86,88) end
-      if not game:get_value("light_B3_explored") then clouds_img:draw(dst_surface,86,115) end
-      if not game:get_value("light_B4_explored") then clouds_img:draw(dst_surface,86,142) end
-      if not game:get_value("light_B5_explored") then clouds_img:draw(dst_surface,86,169) end
-      if not game:get_value("light_C1_explored") then clouds_img:draw(dst_surface,136,61) end
-      if not game:get_value("light_C2_explored") then clouds_img:draw(dst_surface,136,88) end
-      if not game:get_value("light_C3_explored") then clouds_img:draw(dst_surface,136,115) end
-      if not game:get_value("light_C4_explored") then clouds_img:draw(dst_surface,136,142) end
-      if not game:get_value("light_C5_explored") then clouds_img:draw(dst_surface,136,169) end
-      if not game:get_value("light_D1_explored") then clouds_img:draw(dst_surface,186,61) end
-      if not game:get_value("light_D2_explored") then clouds_img:draw(dst_surface,186,88) end
-      if not game:get_value("light_D3_explored") then clouds_img:draw(dst_surface,186,115) end
-      if not game:get_value("light_D4_explored") then clouds_img:draw(dst_surface,186,142) end
-      if not game:get_value("light_D5_explored") then clouds_img:draw(dst_surface,186,169) end
-      if not game:get_value("light_E1_explored") then clouds_img:draw(dst_surface,236,61) end
-      if not game:get_value("light_E2_explored") then clouds_img:draw(dst_surface,236,88) end
-      if not game:get_value("light_E3_explored") then clouds_img:draw(dst_surface,236,115) end
-      if not game:get_value("light_E4_explored") then clouds_img:draw(dst_surface,236,142) end
-      if not game:get_value("light_E5_explored") then clouds_img:draw(dst_surface,236,169) end
-
-    --DARK WORLD
-    elseif world == "outside_dark" or world == "outside_dark_2" or world == "inside_world_dark" then
-      world_map_widget:make_text(sol.language.get_string("dark_world_caption"), 159, 207, "center")
-      world_map_img:draw(dst_surface)
-
-  	  --Nuages pour les zones non explorées
-      if not game:get_value("dark_A1_explored") then clouds_img:draw(dst_surface,36,61) end
-      if not game:get_value("dark_A2_explored") then clouds_img:draw(dst_surface,36,88) end
-      if not game:get_value("dark_A3_explored") then clouds_img:draw(dst_surface,36,115) end
-      if not game:get_value("dark_A4_explored") then clouds_img:draw(dst_surface,36,142) end
-      if not game:get_value("dark_A5_explored") then clouds_img:draw(dst_surface,36,169) end
-      if not game:get_value("dark_B1_explored") then clouds_img:draw(dst_surface,86,61) end
-      if not game:get_value("dark_B2_explored") then clouds_img:draw(dst_surface,86,88) end
-      if not game:get_value("dark_B3_explored") then clouds_img:draw(dst_surface,86,115) end
-      if not game:get_value("dark_B4_explored") then clouds_img:draw(dst_surface,86,142) end
-      if not game:get_value("dark_B5_explored") then clouds_img:draw(dst_surface,86,169) end
-      if not game:get_value("dark_C1_explored") then clouds_img:draw(dst_surface,136,61) end
-      if not game:get_value("dark_C2_explored") then clouds_img:draw(dst_surface,136,88) end
-      if not game:get_value("dark_C3_explored") then clouds_img:draw(dst_surface,136,115) end
-      if not game:get_value("dark_C4_explored") then clouds_img:draw(dst_surface,136,142) end
-      if not game:get_value("dark_C5_explored") then clouds_img:draw(dst_surface,136,169) end
-      if not game:get_value("dark_D1_explored") then clouds_img:draw(dst_surface,186,61) end
-      if not game:get_value("dark_D2_explored") then clouds_img:draw(dst_surface,186,88) end
-      if not game:get_value("dark_D3_explored") then clouds_img:draw(dst_surface,186,115) end
-      if not game:get_value("dark_D4_explored") then clouds_img:draw(dst_surface,186,142) end
-      if not game:get_value("dark_D5_explored") then clouds_img:draw(dst_surface,186,169) end
-      if not game:get_value("dark_E1_explored") then clouds_img:draw(dst_surface,236,61) end
-      if not game:get_value("dark_E2_explored") then clouds_img:draw(dst_surface,236,88) end
-      if not game:get_value("dark_E3_explored") then clouds_img:draw(dst_surface,236,115) end
-      if not game:get_value("dark_E4_explored") then clouds_img:draw(dst_surface,236,142) end
-      if not game:get_value("dark_E5_explored") then clouds_img:draw(dst_surface,236,169) end
-
-    --Travaux de Zeldo - Manoir
-    elseif world == "dungeon_10000" then
+    --Travaux de Zeldo - Manoir Oblivion
+  	if world == "dungeon_10000" then
       world_map_widget:make_text(sol.language.get_string("labors_castle_caption"), 159, 207, "center")
       world_map_img:draw(dst_surface)
 
     --Travaux de Zeldo - TotT
-    elseif world == "outside_light_labors_tott" or world == "inside_world_labors_tott" then
+    elseif world == "outside_light_labors_tott" or world == "inside_world_labors_tott" or world == "dungeon_10007" then
       world_map_widget:make_text(sol.language.get_string("light_world_caption"), 159, 207, "center")
       world_map_img:draw(dst_surface)
 
@@ -314,21 +236,13 @@ function map_manager:new(game)
     dungeon_index = game:get_dungeon_index()
     dungeon = game:get_dungeon()
     rooms_img = nil
-    if world == "outside_light" or world == "outside_light_2" 
-      or world == "inside_world" 
-      or world == "dungeon_16"
-      or world == "dungeon_17"
-      or world == "dungeon_100" then
-      world_map_img = sol.surface.create("menus/world_map.png") 
-    elseif world == "outside_dark" or world == "outside_dark_2" or world == "inside_world_dark" then
-      world_map_img = sol.surface.create("menus/world_map_dark.png")
 
-    --Travaux de Zeldo - Manoir
-    elseif world == "dungeon_10000" then
+    --Travaux de Zeldo - Manoir Oblivion
+    if world == "dungeon_10000" then
       world_map_img = sol.surface.create("menus/world_map_labors_castle.png")
 
     --Travaux de Zeldo - TotT
-    elseif world == "outside_light_labors_tott" or world == "inside_world_labors_tott" then
+    elseif world == "outside_light_labors_tott" or world == "inside_world_labors_tott" or world == "dungeon_10007" then
       world_map_img = sol.surface.create("menus/world_map_labors_tott.png")
 
     end
@@ -345,10 +259,6 @@ function map_manager:new(game)
       inventory_background:draw(dst_surface) 
       draw_world_map(dst_surface)
       link_head_sprite:draw(dst_surface)
-      if game:get_value("get_sword_1") and not game:get_value("get_farore_pearl")then marker_farore_pearl:draw(dst_surface) end
-      if game:get_value("can_leave_forest") and not game:get_value("zelda_1st_time")then marker_cross:draw(dst_surface) end
-      if game:get_value("zelda_1st_time") and not game:get_value("get_nayru_pearl")then marker_nayru_pearl:draw(dst_surface) end
-      if game:get_value("get_nayru_pearl") and not game:get_value("get_din_pearl_1")then marker_din_pearl:draw(dst_surface) end
     else
       inventory_background:draw(dst_surface)
       draw_dungeon_map(dst_surface)

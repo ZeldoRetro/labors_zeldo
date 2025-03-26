@@ -5,17 +5,21 @@ local entity_manager= require("scripts/entity_manager")
 
 local enemy_meta = sol.main.get_metatable("enemy")
 
-function enemy_meta:on_created()
+enemy_meta:register_event("on_created", function(enemy)
+  local game = enemy:get_game()
+  local hero = game:get_hero()
+  local name = enemy:get_name()
 
-  local name = self:get_name()
+
+
   if name == nil then
     return
   end
   if name:match("^invisible_enemy") then
-    self:set_visible(false)
+    enemy:set_visible(false)
   end
 
-end
+end)
 
 -- Redefine how to calculate the damage inflicted by the sword.
 function enemy_meta:on_hurt_by_sword(hero, enemy_sprite)
@@ -71,9 +75,10 @@ function enemy_meta:on_dead()
     if not map:has_entities("miniboss") then
       local door_x, door_y = map:get_entity("door_miniboss_2"):get_position()
       sol.audio.play_sound("correct")
-      map:move_camera(door_x,door_y,256,function() 
+      map:move_camera(door_x + 8,door_y,256,function() 
         map:open_doors("door_miniboss") 
         map:set_entities_enabled("telep_miniboss",true)
+        map:set_entities_enabled("path_miniboss",true)
         game:set_value("miniboss_"..game:get_dungeon_index(),true)
         sol.audio.play_music(music_map)
       end)
@@ -99,23 +104,21 @@ enemy_meta:register_event("on_dying", function(enemy)
     sol.audio.play_music("none")
     sol.timer.start(6000,function()
       sol.audio.play_sound("correct")
-      map:move_camera(door_x,door_y,256,function()  
+      map:move_camera(door_x + 8,door_y,256,function()  
         map:open_doors("door_boss_2")
         map:set_entities_enabled("boss_lock",false)
         game:set_pause_allowed(true)
         hero:unfreeze()
         sol.audio.play_music("after_boss")
         map:set_entities_enabled("after_boss",true)
-        local x, y = map:get_entity("heart_container_spot"):get_position()
+        local x, y, layer = map:get_entity("heart_container_spot"):get_position()
         enemy:get_map():create_pickable{
-          --treasure_name = "quest_items/heart_container",
-          --treasure_variant = 1,
           treasure_name = "quest_items/remembrance_shard",
           treasure_variant = 3,
           treasure_savegame_variable = "heart_container_"..game:get_dungeon_index(),
           x = x,
           y = y,
-          layer = 1
+          layer = layer
         }
       end)
     end)
@@ -140,9 +143,9 @@ enemy_meta:register_event("on_attacking_hero", function(enemy)
   if game:get_value("starman") then enemy:set_life(0)
   else game:get_map():get_hero():start_hurt(enemy, enemy:get_damage()) end
 
-  --Shield burn if the enemy is a fire one
+  --Wooden shield burn if the enemy is a fire one
   if game:get_value("get_shield_1") then
-    if enemy:get_breed() == "fireball_red_small" or enemy:get_breed() == "bubble_red" or enemy:get_breed() == "keese_fire" or enemy:get_breed() == "flame_red" then
+    if enemy:get_breed() == "fireball_red_small" or enemy:get_breed() == "fireball_red_small_light" or enemy:get_breed() == "bubble_red" or enemy:get_breed() == "keese_fire" or enemy:get_breed() == "flame_red" then
       sol.timer.start(game, 1000, function()
         local x, y, layer = enemy:get_map():get_hero():get_position()
         enemy:get_map():create_custom_entity{

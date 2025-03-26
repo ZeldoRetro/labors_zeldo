@@ -1432,7 +1432,6 @@ destructible{
   layer = 0,
   x = 80,
   y = 869,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -1444,7 +1443,6 @@ destructible{
   layer = 0,
   x = 240,
   y = 869,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -5409,7 +5407,6 @@ destructible{
   layer = 1,
   x = 1368,
   y = 1133,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -5421,7 +5418,6 @@ destructible{
   layer = 1,
   x = 1512,
   y = 1149,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -5457,7 +5453,6 @@ destructible{
   layer = 1,
   x = 2312,
   y = 1389,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -5469,7 +5464,6 @@ destructible{
   layer = 1,
   x = 2488,
   y = 1389,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -6084,6 +6078,24 @@ teletransporter{
   height = 16,
   destination_map = "creations/labors/tott/water_temple/outside",
   destination = "sortie_temple_2",
+}
+
+dynamic_tile{
+  name = "casual_entity_31",
+  layer = 1,
+  x = 152,
+  y = 872,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.small-key",
+  tileset = "extra/casual_tileset",
 }
 
 tile{

@@ -927,22 +927,10 @@ destructible{
   layer = 1,
   x = 56,
   y = 101,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
   can_be_cut = true,
-}
-
-door{
-  name = "weak_block_1",
-  layer = 1,
-  x = 48,
-  y = 104,
-  direction = 3,
-  sprite = "entities/Doors/Inside/door_weak_block",
-  opening_method = "explosion",
-  cannot_open_dialog = "door.block.weaked",
 }
 
 chest{
@@ -999,6 +987,24 @@ wall{
   width = 112,
   height = 8,
   stops_npcs = true,
+}
+
+custom_entity{
+  name = "weak_block_1",
+  layer = 1,
+  x = 56,
+  y = 117,
+  properties = {
+    {
+      key = "treasure",
+      value = "pickable/random_bombs",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Doors/Inside/door_weak_block",
+  model = "weak_block",
 }
 
 tile{

@@ -1,6 +1,6 @@
 properties{
-  x = 0,
-  y = 0,
+  x = 4000,
+  y = 1280,
   width = 2560,
   height = 1680,
   min_layer = 0,
@@ -48,6 +48,186 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "backgrounds/mountains_light",
+}
+
+custom_entity{
+  name = "night_entity_13",
+  layer = 0,
+  x = 1128,
+  y = 469,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_14",
+  layer = 0,
+  x = 1432,
+  y = 469,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_15",
+  layer = 0,
+  x = 1616,
+  y = 605,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_16",
+  layer = 0,
+  x = 1616,
+  y = 725,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_17",
+  layer = 0,
+  x = 1616,
+  y = 853,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_18",
+  layer = 0,
+  x = 944,
+  y = 597,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_19",
+  layer = 0,
+  x = 944,
+  y = 725,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_20",
+  layer = 0,
+  x = 944,
+  y = 853,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_21",
+  layer = 0,
+  x = 1224,
+  y = 1117,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_22",
+  layer = 0,
+  x = 1336,
+  y = 1117,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_23",
+  layer = 0,
+  x = 1328,
+  y = 997,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_24",
+  layer = 0,
+  x = 1232,
+  y = 997,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_25",
+  layer = 0,
+  x = 1216,
+  y = 853,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_26",
+  layer = 0,
+  x = 1344,
+  y = 853,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_27",
+  layer = 0,
+  x = 1280,
+  y = 485,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
 }
 
 tile{
@@ -9725,6 +9905,12 @@ enemy{
   x = 792,
   y = 685,
   enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "knight_red",
   treasure_name = "pickable/random_heart_magic",
@@ -9736,6 +9922,12 @@ enemy{
   x = 888,
   y = 749,
   enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "knight_red",
 }
@@ -9746,6 +9938,12 @@ enemy{
   x = 824,
   y = 877,
   enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "knight_blue",
   treasure_name = "pickable/random_heart_magic",
@@ -9757,6 +9955,12 @@ enemy{
   x = 1688,
   y = 669,
   enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "knight_red",
 }
@@ -9767,6 +9971,12 @@ enemy{
   x = 1784,
   y = 733,
   enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "knight_red",
   treasure_name = "pickable/random_heart_magic",
@@ -9778,6 +9988,12 @@ enemy{
   x = 1720,
   y = 861,
   enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "knight_blue",
   treasure_name = "pickable/random_heart_magic",
@@ -9789,6 +10005,12 @@ enemy{
   x = 1224,
   y = 1277,
   enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "knight_chain_and_ball_gold",
   treasure_name = "pickable/hearts_pile",
@@ -9800,6 +10022,12 @@ enemy{
   x = 1336,
   y = 1277,
   enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "knight_chain_and_ball_gold",
   treasure_name = "pickable/hearts_pile",
@@ -9840,6 +10068,355 @@ sensor{
   y = 461,
   width = 48,
   height = 32,
+}
+
+wall{
+  layer = 1,
+  x = 1320,
+  y = 1104,
+  width = 8,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+custom_entity{
+  name = "day_entity_5",
+  layer = 1,
+  x = 1176,
+  y = 1325,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_5",
+  layer = 1,
+  x = 1176,
+  y = 1325,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "day_entity_6",
+  layer = 1,
+  x = 1384,
+  y = 1325,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_6",
+  layer = 1,
+  x = 1384,
+  y = 1325,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+destructible{
+  name = "casual_entity_42",
+  layer = 1,
+  x = 920,
+  y = 589,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_43",
+  layer = 1,
+  x = 920,
+  y = 605,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_44",
+  layer = 1,
+  x = 712,
+  y = 717,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_45",
+  layer = 1,
+  x = 712,
+  y = 733,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_46",
+  layer = 1,
+  x = 920,
+  y = 845,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_47",
+  layer = 1,
+  x = 920,
+  y = 861,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_48",
+  layer = 1,
+  x = 1640,
+  y = 589,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_49",
+  layer = 1,
+  x = 1640,
+  y = 605,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_50",
+  layer = 1,
+  x = 1848,
+  y = 717,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_51",
+  layer = 1,
+  x = 1848,
+  y = 733,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_52",
+  layer = 1,
+  x = 1640,
+  y = 845,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_53",
+  layer = 1,
+  x = 1640,
+  y = 861,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_54",
+  layer = 1,
+  x = 1256,
+  y = 1357,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_55",
+  layer = 1,
+  x = 1272,
+  y = 1357,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_56",
+  layer = 1,
+  x = 1288,
+  y = 1357,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "casual_entity_57",
+  layer = 1,
+  x = 1304,
+  y = 1357,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
 }
 
 tile{
@@ -11114,6 +11691,136 @@ destructible{
   destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
+}
+
+custom_entity{
+  name = "EXCEPTION_outside",
+  layer = 2,
+  x = 640,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "init_map",
+  layer = 2,
+  x = 640,
+  y = 253,
+  properties = {
+    {
+      key = "disable_clouds",
+      value = "true",
+    },
+    {
+      key = "timelapse",
+      value = "false",
+    },
+    {
+      key = "location_key",
+      value = "location.hyrule_castle_tower",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "day_entity_1",
+  layer = 2,
+  x = 944,
+  y = 469,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_1",
+  layer = 2,
+  x = 944,
+  y = 469,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "day_entity_2",
+  layer = 2,
+  x = 1616,
+  y = 469,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_2",
+  layer = 2,
+  x = 1616,
+  y = 469,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "day_entity_3",
+  layer = 2,
+  x = 1616,
+  y = 981,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_3",
+  layer = 2,
+  x = 1616,
+  y = 981,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "day_entity_4",
+  layer = 2,
+  x = 944,
+  y = 981,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_4",
+  layer = 2,
+  x = 944,
+  y = 981,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
 }
 
 tile{

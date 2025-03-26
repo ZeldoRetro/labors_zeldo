@@ -76,7 +76,7 @@ end
 
 -- Create additional impact effect on hurt hero.
 enemy:register_event("on_attacking_hero", function(enemy, hero, enemy_sprite)
-	enemy:get_game():remove_life(2)
+	enemy:get_game():remove_life(3)
   hero:start_hurt(enemy, 1)
 end)
 
@@ -85,13 +85,16 @@ enemy:register_event("on_created", function(enemy)
   enemy:set_life(1)
   enemy:set_size(4, 4)
   enemy:set_origin(2, 2)
+  enemy:set_property("is_major","true")
   enemy:set_minimum_shield_needed(3) -- Mirror shield.
 end)
 
 -- Restart settings.
 enemy:register_event("on_restarted", function(enemy)
-
-  angle = enemy:get_angle(hero)
+  angle = enemy:get_name()
+  local laser_direction = angle:match("(.-)%_")
+  if laser_direction ~= nil then angle = laser_direction end
+  angle = tonumber(angle)
   enemy:set_obstacle_behavior("flying")
   enemy:set_can_hurt_hero_running(true)
   enemy:set_invincible(true)

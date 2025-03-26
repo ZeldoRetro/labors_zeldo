@@ -14,15 +14,15 @@ local debug_info_num_pages = 4
 function debug:on_key_pressed(key, modifiers)
 
   local handled = true
-  if key == "f1" then
+  if key == "f2" then
     if sol.game.exists("save1.dat") then
       sol.main.start_game(game_manager:create("save1.dat"))
     end
-  elseif key == "f2" then
+  elseif key == "f3" then
     if sol.game.exists("save2.dat") then
       sol.main.start_game(game_manager:create("save2.dat"))
     end
-  elseif key == "f3" then
+  elseif key == "f4" then
     if sol.game.exists("save3.dat") then
       sol.main.start_game(game_manager:create("save3.dat"))
     end

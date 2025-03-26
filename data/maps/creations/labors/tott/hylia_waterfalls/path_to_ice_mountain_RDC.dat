@@ -1165,17 +1165,6 @@ custom_entity{
   model = "torch",
 }
 
-door{
-  name = "weak_block_1",
-  layer = 0,
-  x = 552,
-  y = 88,
-  direction = 3,
-  sprite = "entities/Doors/Inside/door_weak_block",
-  opening_method = "explosion",
-  cannot_open_dialog = "door.block.weaked",
-}
-
 custom_entity{
   layer = 0,
   x = 480,
@@ -1263,6 +1252,24 @@ pickable{
   treasure_name = "quest_items/remembrance_shard",
   treasure_variant = 2,
   treasure_savegame_variable = "remembrance_shard_10005_7",
+}
+
+custom_entity{
+  name = "weak_block_1",
+  layer = 0,
+  x = 560,
+  y = 101,
+  properties = {
+    {
+      key = "treasure",
+      value = "pickable/random_bombs",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Doors/Inside/door_weak_block",
+  model = "weak_block",
 }
 
 tile{

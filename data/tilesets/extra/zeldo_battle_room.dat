@@ -1,0 +1,164 @@
+background_color{ 25, 26, 114 }
+tile_pattern{
+  id = "dive_to_the_heart.1",
+  ground = "empty",
+  default_layer = 0,
+  x = 0,
+  y = 16,
+  width = 320,
+  height = 320,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "floor.1",
+  ground = "traversable",
+  default_layer = 0,
+  x = 48,
+  y = 0,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "hole.1",
+  ground = "hole",
+  default_layer = 0,
+  x = 56,
+  y = 8,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "wall.1.down",
+  ground = "wall",
+  default_layer = 0,
+  x = 16,
+  y = 8,
+  width = 8,
+  height = 8,
+  repeat_mode = "horizontal",
+}
+
+tile_pattern{
+  id = "wall.1.down_left_exterior",
+  ground = "wall_top_right",
+  default_layer = 0,
+  x = 0,
+  y = 8,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "wall.1.down_left_interior",
+  ground = "wall_bottom_left",
+  default_layer = 0,
+  x = 8,
+  y = 8,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "wall.1.down_right_exterior",
+  ground = "wall_top_left",
+  default_layer = 0,
+  x = 32,
+  y = 8,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "wall.1.down_right_interior",
+  ground = "wall_bottom_right",
+  default_layer = 0,
+  x = 24,
+  y = 8,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "wall.1.left",
+  ground = "wall",
+  default_layer = 0,
+  x = 40,
+  y = 0,
+  width = 8,
+  height = 8,
+  repeat_mode = "vertical",
+}
+
+tile_pattern{
+  id = "wall.1.right",
+  ground = "wall",
+  default_layer = 0,
+  x = 56,
+  y = 0,
+  width = 8,
+  height = 8,
+  repeat_mode = "vertical",
+}
+
+tile_pattern{
+  id = "wall.1.up",
+  ground = "wall",
+  default_layer = 0,
+  x = 16,
+  y = 0,
+  width = 8,
+  height = 8,
+  repeat_mode = "horizontal",
+}
+
+tile_pattern{
+  id = "wall.1.up_left_exterior",
+  ground = "wall_bottom_right",
+  default_layer = 0,
+  x = 0,
+  y = 0,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "wall.1.up_left_interior",
+  ground = "wall_top_left",
+  default_layer = 0,
+  x = 8,
+  y = 0,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "wall.1.up_right_exterior",
+  ground = "wall_bottom_left",
+  default_layer = 0,
+  x = 32,
+  y = 0,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "wall.1.up_right_interior",
+  ground = "wall_top_right",
+  default_layer = 0,
+  x = 24,
+  y = 0,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+

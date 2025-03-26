@@ -12,6 +12,7 @@ function enemy:on_created()
   self:set_invincible(true)
   self:set_can_attack(false)
   self:set_traversable(false)
+  self:set_attacking_collision_mode("overlapping")
 end
 
 function enemy:on_restarted()

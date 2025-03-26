@@ -6,7 +6,7 @@ local can_shoot = true
 
 function enemy:on_created()
 
-  enemy:set_life(12)
+  enemy:set_life(9)
   enemy:set_damage(16)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
 end
@@ -43,7 +43,7 @@ local function shoot()
   sprite:set_animation("shooting")
   enemy:stop_movement()
   sol.timer.start(enemy, 300, function()
-    sol.audio.play_sound("bow")
+    sol.audio.play_sound("fire")
     local fire = enemy:create_enemy({
       breed = "zazak_flame",
       x = dxy[direction + 1][1],

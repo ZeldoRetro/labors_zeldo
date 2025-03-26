@@ -14,6 +14,7 @@ require("enemies/lib/common_actions").learn(enemy)
 function enemy:on_created()
   enemy:set_life(4)
   enemy:set_damage(4)
+  self:set_attacking_collision_mode("overlapping")
   enemy:set_hookshot_reaction(2)
   enemy:set_attack_consequence("boomerang",1)
   enemy:set_attack_consequence("thrown_item",2)
@@ -100,6 +101,7 @@ enemy:register_event("on_jump_finished", function(enemy)
   enemy:restart()
   sol.timer.start(enemy, throwing_bone_delay, function()      
     if enemy:get_life() > 0 then
+      sol.audio.play_sound("sword3")
       local x, y, layer = enemy:get_position()
       enemy:get_map():create_enemy({
         breed = "skeleton_bone",

@@ -5,14 +5,14 @@ local enemy = ...
 local x,y = enemy:get_position()
 
 function enemy:on_created()
-
+  enemy:set_invincible()
   enemy:set_life(1)
   enemy:set_damage(2)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_size(8, 8)
   enemy:set_origin(4, 4)
-  enemy:set_invincible()
   enemy:set_obstacle_behavior("flying")
+  enemy:set_property("is_major","true")
   enemy:set_minimum_shield_needed(1) -- Wooden shield.
 end
 

@@ -4700,46 +4700,6 @@ tile{
   pattern = "statue_slab-2",
 }
 
-tile{
-  layer = 0,
-  x = 96,
-  y = 304,
-  width = 16,
-  height = 24,
-  pattern = "3_3",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 304,
-  width = 16,
-  height = 24,
-  pattern = "3_4",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 192,
-  width = 16,
-  height = 24,
-  pattern = "3_3",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 192,
-  width = 16,
-  height = 24,
-  pattern = "3_4",
-  tileset = "inside_other",
-}
-
 wall{
   layer = 0,
   x = 152,
@@ -5226,6 +5186,46 @@ tile{
   width = 16,
   height = 32,
   pattern = "door_boss.1.pillar.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 304,
+  width = 16,
+  height = 24,
+  pattern = "3_3",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 304,
+  width = 16,
+  height = 24,
+  pattern = "3_4",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 192,
+  width = 16,
+  height = 24,
+  pattern = "3_3",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 192,
+  width = 16,
+  height = 24,
+  pattern = "3_4",
+  tileset = "inside_other",
 }
 
 wall{

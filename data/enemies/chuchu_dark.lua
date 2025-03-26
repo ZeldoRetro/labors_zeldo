@@ -6,6 +6,7 @@ function enemy:on_created()
   self:set_life(6)
   self:set_damage(4)
   self:create_sprite("enemies/" .. enemy:get_breed())
+  enemy:set_property("is_major","true")
   self:set_size(16, 16); self:set_origin(8, 13)
   self:set_fire_reaction(4)
 end

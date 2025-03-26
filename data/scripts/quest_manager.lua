@@ -1,10 +1,8 @@
 -- This script handles global behavior of this quest,
 -- things not related to a particular savegame.
 
---require"scripts/fx/fog"
---require"scripts/fx/lighting/lighting_manager"
---require"scripts/fx/lighting/map_lighting"
---require"scripts/fx/white_flash"
+require("scripts/meta/block")
+require("scripts/meta/chest")
 require("scripts/meta/hero")
 require("scripts/meta/map")
 require("scripts/meta/dynamic_tile")
@@ -18,6 +16,8 @@ require("scripts/meta/door")
 require("scripts/meta/camera")
 require("scripts/meta/item")
 require("scripts/meta/game")
+require("scripts/meta/separator")
+require("scripts/meta/switch")
 require("scripts/meta/teletransporter")
 
 return true

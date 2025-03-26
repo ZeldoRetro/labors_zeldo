@@ -10,5 +10,5 @@ enemy:set_properties({
   damage = 2,
   play_hero_seen_sound = false,
   normal_speed = 32,
-  faster_speed = 48,
+  faster_speed = 32,
 })

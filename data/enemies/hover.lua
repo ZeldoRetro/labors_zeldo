@@ -10,7 +10,7 @@ function enemy:on_created()
   self:set_size(16, 16)
   self:set_origin(8, 13)
   self:set_obstacle_behavior("swimming")  -- Allow to traverse water.
-  self:set_layer_independent_collisions(true)
+  enemy:set_property("is_major","true")
 end
 
 function enemy:on_movement_changed(movement)

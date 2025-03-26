@@ -162,6 +162,7 @@ enemy:register_event("on_created", function(enemy)
 
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
+  enemy:set_property("is_major","true")
 
   for i = 3, 1, -1 do
     chain_sprites[i] = enemy:create_sprite("enemies/chain_gold")

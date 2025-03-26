@@ -15,11 +15,11 @@ end
 
 
 --DEBUT DE LA MAP
-function map:on_started()
+map:register_event("on_started",function(map, destination)
 
   --Boss
   if game:get_value("boss_10007") then boss_sensor:set_enabled(false) else boss:set_enabled(false) end
-end
+end)
 
 --INTERACTION AVEC AGAHNIM: DIALOGUES PUIS LANCEMENT DU COMBAT
 function boss_sensor:on_activated()

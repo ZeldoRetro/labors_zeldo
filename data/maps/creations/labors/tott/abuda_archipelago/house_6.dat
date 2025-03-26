@@ -700,7 +700,6 @@ destructible{
   layer = 1,
   x = 248,
   y = 61,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -712,7 +711,6 @@ destructible{
   layer = 1,
   x = 248,
   y = 77,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -724,7 +722,6 @@ destructible{
   layer = 1,
   x = 264,
   y = 77,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -736,7 +733,6 @@ destructible{
   layer = 1,
   x = 264,
   y = 93,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -776,6 +772,24 @@ npc{
   subtype = 1,
   sprite = "npc/newlink1",
   behavior = "dialog#LABORS.tott.abuda.seaten_man_night",
+}
+
+dynamic_tile{
+  name = "casual_entity_8",
+  layer = 1,
+  x = 224,
+  y = 48,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+  tileset = "extra/casual_tileset",
 }
 
 tile{

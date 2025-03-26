@@ -4,6 +4,7 @@ local enemy = ...
 
 enemy:set_life(2)
 enemy:set_damage(1)
+enemy:set_attacking_collision_mode("overlapping")
 
 local sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
 

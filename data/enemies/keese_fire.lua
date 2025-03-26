@@ -3,7 +3,7 @@ local enemy = ...
 --Fire Keese: Drop fire on the ground
 
 function enemy:on_created()
-  self:set_life(2)
+  self:set_life(3)
   self:set_damage(0)
   self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_attack_consequence("boomerang", 1)

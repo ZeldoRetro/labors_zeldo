@@ -1,6 +1,13 @@
 map{ id = "creations/another_hyrule_fantasy/dungeons/1", description = "Niveau 1 - Ruines de l'Aigle" }
+map{ id = "creations/labors/1st_solarus_quest/hub", description = "Hub 1st Solarus Quest" }
+map{ id = "creations/labors/1st_solarus_quest/link_forest/courage_palace", description = "Palais du Courage" }
+map{ id = "creations/labors/1st_solarus_quest/link_forest/courage_palace_out", description = "Palais du Courage (ext)" }
+map{ id = "creations/labors/1st_solarus_quest/link_forest/link_house", description = "Maison de Link" }
+map{ id = "creations/labors/1st_solarus_quest/link_forest/lost_woods", description = "Bois perdus" }
+map{ id = "creations/labors/FORBIDDEN_ACCESS", description = "FORBIDDEN_ACCESS" }
 map{ id = "creations/labors/castle_oblivion_1ET", description = "Manoir Oblivion 1ET - TotT" }
 map{ id = "creations/labors/castle_oblivion_RDC", description = "Manoir Oblivion RDC - Hall" }
+map{ id = "creations/labors/forgotten_corridor", description = "Couloir de Forgotten" }
 map{ id = "creations/labors/tott/abuda_archipelago/chief_house", description = "Maison du Maire" }
 map{ id = "creations/labors/tott/abuda_archipelago/house_1", description = "Maison 1 - Maison du fleuriste" }
 map{ id = "creations/labors/tott/abuda_archipelago/house_2", description = "Maison 2 - Maison innondee" }
@@ -64,8 +71,10 @@ map{ id = "tests/test_ff_battle" }
 map{ id = "tests/test_item", description = "test objets" }
 map{ id = "tests/test_map", description = "tests entrée" }
 
+tileset{ id = "extra/casual_tileset", description = "Tiles Casu" }
 tileset{ id = "extra/mirror_corridor", description = "extra/mirror_corridor" }
 tileset{ id = "extra/razdarac_room", description = "extra/razdarac_room" }
+tileset{ id = "extra/zeldo_battle_room", description = "Zeldo Battle Room" }
 tileset{ id = "ff_style/battle_backgrounds" }
 tileset{ id = "inside_blue_dungeon", description = "Donjon bleu" }
 tileset{ id = "inside_cave", description = "Cavernes" }
@@ -97,6 +106,7 @@ tileset{ id = "outside_special", description = "Overworld (special)" }
 tileset{ id = "sideview/mario_1_backgrounds", description = "Mario Backgrounds" }
 tileset{ id = "sideview/mario_1_tileset", description = "Tileset Mario 1" }
 tileset{ id = "sideview/sideview_dungeon", description = "Vue de cote (donjons)" }
+tileset{ id = "stained_glass", description = "Vitraux Zeldo" }
 
 sprite{ id = "backgrounds/fog", description = "Brouillard" }
 sprite{ id = "backgrounds/img_chara", description = "CHARA" }
@@ -114,6 +124,7 @@ sprite{ id = "enemies/GUAY", description = "GUAY" }
 sprite{ id = "enemies/ally/bomb", description = "Allié - Bombe" }
 sprite{ id = "enemies/ally/viscen", description = "Viscen" }
 sprite{ id = "enemies/armos", description = "Armos" }
+sprite{ id = "enemies/arrow_obstacle", description = "Mini-jeu Archerie AHF (obstacle)" }
 sprite{ id = "enemies/arrow_target", description = "Cible pour flèche" }
 sprite{ id = "enemies/ball", description = "Fléau (boule)" }
 sprite{ id = "enemies/ball_gold", description = "Fléau doré (boule)" }
@@ -124,6 +135,9 @@ sprite{ id = "enemies/bari_red", description = "Bari rouge" }
 sprite{ id = "enemies/beamos", description = "Beamos" }
 sprite{ id = "enemies/beamos_laser", description = "Laser de Beamos" }
 sprite{ id = "enemies/bee", description = "Abeille" }
+sprite{ id = "enemies/bit_blue", description = "Bit bleu" }
+sprite{ id = "enemies/bit_green", description = "Bit vert" }
+sprite{ id = "enemies/bit_red", description = "Bit rouge" }
 sprite{ id = "enemies/bokoblin_blue", description = "Bokoblin bleu" }
 sprite{ id = "enemies/bokoblin_green", description = "Bokoblin vert" }
 sprite{ id = "enemies/bokoblin_red", description = "Bokoblin rouge" }
@@ -132,17 +146,24 @@ sprite{ id = "enemies/bomb", description = "Bombe (projectile)" }
 sprite{ id = "enemies/boomerang", description = "Boomerang" }
 sprite{ id = "enemies/boomerang_2", description = "Boomerang 2" }
 sprite{ id = "enemies/boss/agahnim", description = "Agahnim" }
+sprite{ id = "enemies/boss/agahnim_alttp/agahnim", description = "Agahnim ALTTP" }
+sprite{ id = "enemies/boss/agahnim_alttp/agahnim_projo_1", description = "Agahnim ALTTP (projectile 1)" }
+sprite{ id = "enemies/boss/agahnim_alttp/agahnim_projo_2", description = "Agahnim ALTTP (projectile 2)" }
+sprite{ id = "enemies/boss/agahnim_alttp/agahnim_projo_3", description = "Agahnim ALTTP (projectile 3)" }
 sprite{ id = "enemies/boss/agahnim_blue_fireball", description = "Agahnim - Sort bleu" }
 sprite{ id = "enemies/boss/agahnim_clone", description = "Agahnim (clone)" }
 sprite{ id = "enemies/boss/agahnim_lightning", description = "Agahnim - Eclair" }
 sprite{ id = "enemies/boss/agahnim_little_fireball", description = "Agahnim - Petite boule bleue" }
 sprite{ id = "enemies/boss/agahnim_red_fireball", description = "Agahnim - Sort rouge" }
+sprite{ id = "enemies/boss/aquamentus", description = "Aquamentus" }
 sprite{ id = "enemies/boss/armos_tie_blue", description = "Armos bleu" }
 sprite{ id = "enemies/boss/arrghus", description = "Arrghus" }
 sprite{ id = "enemies/boss/arrghus_baby", description = "Mini Arrghus de Pierre" }
 sprite{ id = "enemies/boss/arrghus_stone", description = "Arrghus de Pierre" }
 sprite{ id = "enemies/boss/bokoblin_king", description = "Chef des Bokoblins" }
 sprite{ id = "enemies/boss/bokoblin_weapon", description = "Bokoblin (arme)" }
+sprite{ id = "enemies/boss/digdogger", description = "Digdogger" }
+sprite{ id = "enemies/boss/digdogger_mini", description = "Digdogger Mini" }
 sprite{ id = "enemies/boss/dodongo", description = "Dodongo" }
 sprite{ id = "enemies/boss/dodongo_fire", description = "Dodongo (feu)" }
 sprite{ id = "enemies/boss/dodongo_head", description = "Dodongo (bouche)" }
@@ -180,7 +201,12 @@ sprite{ id = "enemies/boss/viscen", description = "Viscen" }
 sprite{ id = "enemies/boss/vitreous", description = "Vitreous" }
 sprite{ id = "enemies/boss/vitreous_mini", description = "Vitreous Mini" }
 sprite{ id = "enemies/boss/zeldo", description = "Zeldo" }
+sprite{ id = "enemies/boss/zeldo_broken", description = "Zeldo (masque brisé)" }
+sprite{ id = "enemies/boss/zeldo_mask_particle", description = "Zeldo (particule de masque)" }
+sprite{ id = "enemies/boss/zeldo_wave_1/card_projo", description = "Cartes - Projectile" }
+sprite{ id = "enemies/boss/zeldo_wave_1/zeldo", description = "Zeldo - Vague 1" }
 sprite{ id = "enemies/bubble_blue", description = "Bubble bleu" }
+sprite{ id = "enemies/bubble_curse", description = "Bubble maudit" }
 sprite{ id = "enemies/bubble_dark", description = "Bubble sombre" }
 sprite{ id = "enemies/bubble_green", description = "Bubble vert" }
 sprite{ id = "enemies/bubble_red", description = "Bubble rouge" }
@@ -191,6 +217,7 @@ sprite{ id = "enemies/cannonball_big", description = "Gros boulet de canon" }
 sprite{ id = "enemies/cannonball_hand", description = "Main (obstacle)" }
 sprite{ id = "enemies/chain", description = "Fléau (chaine)" }
 sprite{ id = "enemies/chain_gold", description = "Fléau doré (chaine)" }
+sprite{ id = "enemies/chasupa", description = "Chasupa" }
 sprite{ id = "enemies/chuchu_blue", description = "Chuchu bleu" }
 sprite{ id = "enemies/chuchu_dark", description = "Chuchu noir" }
 sprite{ id = "enemies/chuchu_green", description = "Chuchu vert" }
@@ -210,6 +237,8 @@ sprite{ id = "enemies/ff_style/green_goblin", description = "FF - Gobelin vert" 
 sprite{ id = "enemies/fire_wall", description = "Mur de flammes" }
 sprite{ id = "enemies/fireball_animated", description = "Boule de feu (barre de feu)" }
 sprite{ id = "enemies/fireball_blue_small", description = "Petite boule de feu bleue" }
+sprite{ id = "enemies/fireball_blue_small_circle", description = "Petite boule d'eau (cercle)" }
+sprite{ id = "enemies/fireball_green_small", description = "Petite boule de poison" }
 sprite{ id = "enemies/fireball_purple_small", description = "Petite boule de feu violette" }
 sprite{ id = "enemies/fireball_red_small", description = "Boule de feu rouge" }
 sprite{ id = "enemies/fireball_white_small", description = "Boule de feu blanche" }
@@ -251,10 +280,15 @@ sprite{ id = "enemies/kodongo_red", description = "Kodongo rouge" }
 sprite{ id = "enemies/leever_blue", description = "Leever bleu" }
 sprite{ id = "enemies/leever_green", description = "Leever vert" }
 sprite{ id = "enemies/leever_red", description = "Leever rouge" }
+sprite{ id = "enemies/like_like_brown", description = "Like Like brun" }
+sprite{ id = "enemies/like_like_red", description = "Like Like rouge" }
 sprite{ id = "enemies/lizalfos_blue", description = "Lizalfos bleu" }
 sprite{ id = "enemies/lizalfos_green", description = "Lizalfos vert" }
 sprite{ id = "enemies/lizalfos_red", description = "Lizalfos rouge" }
 sprite{ id = "enemies/lizalfos_weapon", description = "Lizalfos (arme)" }
+sprite{ id = "enemies/lynel", description = "Lynel" }
+sprite{ id = "enemies/lynel_beam", description = "Lynel (rayon)" }
+sprite{ id = "enemies/lynel_head", description = "Lynel (tête)" }
 sprite{ id = "enemies/medusa", description = "Shooter" }
 sprite{ id = "enemies/mini_moldorm", description = "Mini Moldorm" }
 sprite{ id = "enemies/mini_moldorm_body", description = "Mini Moldorm (corps)" }
@@ -267,6 +301,8 @@ sprite{ id = "enemies/octorok_blue", description = "Octoroc bleu" }
 sprite{ id = "enemies/octorok_green", description = "Octoroc vert" }
 sprite{ id = "enemies/octorok_red", description = "Octoroc rouge" }
 sprite{ id = "enemies/octorok_stone", description = "Octoroc (pierre)" }
+sprite{ id = "enemies/peahat", description = "Peahat" }
+sprite{ id = "enemies/peahat_immobilized", description = "Peahat (immo)" }
 sprite{ id = "enemies/pengator_blue", description = "Pingouin bleu" }
 sprite{ id = "enemies/pengator_green", description = "Pingouin vert" }
 sprite{ id = "enemies/pengator_red", description = "Pingouin rouge" }
@@ -279,12 +315,15 @@ sprite{ id = "enemies/pike_big", description = "Grande pique" }
 sprite{ id = "enemies/pike_detect", description = "Pique détecte" }
 sprite{ id = "enemies/pike_ground", description = "Piques au sol" }
 sprite{ id = "enemies/poe", description = "Ame" }
+sprite{ id = "enemies/pols_voice", description = "Pols voice" }
 sprite{ id = "enemies/rat", description = "Rat" }
+sprite{ id = "enemies/rolling_spike_trap", description = "Rolling Spike Trap" }
 sprite{ id = "enemies/sideviews/goomba", description = "Goomba" }
 sprite{ id = "enemies/sideviews/koopa_green", description = "Koopa vert" }
 sprite{ id = "enemies/sideviews/koopa_green_shell" }
 sprite{ id = "enemies/skeleton_blue", description = "Squelette bleu" }
 sprite{ id = "enemies/skeleton_bone", description = "Squelette (os)" }
+sprite{ id = "enemies/skeleton_green", description = "Squelette vert" }
 sprite{ id = "enemies/skeleton_red", description = "Squelette rouge" }
 sprite{ id = "enemies/snake", description = "Serpent" }
 sprite{ id = "enemies/snap_dragon", description = "Snap Dragon" }
@@ -301,9 +340,12 @@ sprite{ id = "enemies/taros_blue_weapon", description = "Taurus bleu (arme)" }
 sprite{ id = "enemies/taros_green", description = "Taurus vert" }
 sprite{ id = "enemies/taros_red", description = "Taurus rouge" }
 sprite{ id = "enemies/taros_red_weapon", description = "Taurus rouge (arme)" }
+sprite{ id = "enemies/tektite", description = "Tektite" }
 sprite{ id = "enemies/tentacle_blue", description = "Tentacle bleu" }
 sprite{ id = "enemies/tentacle_dark", description = "Tentacle 2.0" }
+sprite{ id = "enemies/tentacle_green", description = "Tentacle vert" }
 sprite{ id = "enemies/tentacle_red", description = "Tentacle rouge" }
+sprite{ id = "enemies/vire_z1", description = "Vire (Zelda 1)" }
 sprite{ id = "enemies/wallmaster", description = "La Main" }
 sprite{ id = "enemies/wizzrobe_beam", description = "Wizzrobe (projectile)" }
 sprite{ id = "enemies/wizzrobe_blue", description = "Wizzrobe bleu" }
@@ -375,9 +417,6 @@ sprite{ id = "entities/Decorations/ladder_wooden_top", description = "Echelle de
 sprite{ id = "entities/Decorations/little_flame", description = "Petite flamme" }
 sprite{ id = "entities/Decorations/master_sword_in_pedestal", description = "Master sword (dans piédestal)" }
 sprite{ id = "entities/Decorations/master_sword_pedestal", description = "Master sword (piédestal)" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_ancient_catacomb" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_archipelago" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_castle_tower" }
 sprite{ id = "entities/Decorations/paintings_labors_tott_dev_graph_1" }
 sprite{ id = "entities/Decorations/paintings_labors_tott_dev_graph_2" }
 sprite{ id = "entities/Decorations/paintings_labors_tott_dev_misc_1" }
@@ -391,12 +430,6 @@ sprite{ id = "entities/Decorations/paintings_labors_tott_dev_puzzle_2" }
 sprite{ id = "entities/Decorations/paintings_labors_tott_dev_screen_1" }
 sprite{ id = "entities/Decorations/paintings_labors_tott_dev_screen_2" }
 sprite{ id = "entities/Decorations/paintings_labors_tott_dev_screen_3" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_eagle" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_fire_temple" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_hylia_waterfall" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_ice_cave" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_razdarac_room" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_water_temple" }
 sprite{ id = "entities/Decorations/rain", description = "Effet de pluie" }
 sprite{ id = "entities/Decorations/snow", description = "Effet de neige" }
 sprite{ id = "entities/Decorations/triforce_rotating", description = "Fragment de Triforce (tournant)" }
@@ -420,10 +453,13 @@ sprite{ id = "entities/Destructables/stone_black_skull", description = "Pierre n
 sprite{ id = "entities/Destructables/stone_white", description = "Pierre blanche" }
 sprite{ id = "entities/Destructables/stone_white_skull", description = "Pierre blanche dark" }
 sprite{ id = "entities/Destructables/vase", description = "Vase classique" }
+sprite{ id = "entities/Destructables/vase_casual", description = "Vase Casual" }
+sprite{ id = "entities/Destructables/vase_gold", description = "Vase doré (regen)" }
 sprite{ id = "entities/Destructables/vase_heavy", description = "Vase lourd" }
 sprite{ id = "entities/Destructables/vase_skull", description = "Crane classique" }
 sprite{ id = "entities/Destructables/vase_skull_black", description = "Crane très lourd" }
 sprite{ id = "entities/Destructables/vase_skull_heavy", description = "Crane lourd" }
+sprite{ id = "entities/Destructables/vase_very_heavy", description = "Vase très lourd" }
 sprite{ id = "entities/Doors/Inside/castle_lock", description = "Verrou prison" }
 sprite{ id = "entities/Doors/Inside/door_cave_weak_block", description = "Bloc fissuré caverne" }
 sprite{ id = "entities/Doors/Inside/door_d1_big_key", description = "Porte verrouillée (grande clé)" }
@@ -460,6 +496,7 @@ sprite{ id = "entities/Doors/Inside/door_d4_very_weak_wall", description = "Mur 
 sprite{ id = "entities/Doors/Inside/door_d4_weak_wall", description = "Mur maison fissuré" }
 sprite{ id = "entities/Doors/Inside/door_small_key_block1", description = "Bloc verrouillé" }
 sprite{ id = "entities/Doors/Inside/door_weak_block", description = "Bloc fissuré" }
+sprite{ id = "entities/Doors/Inside/door_weak_block_alt", description = "Bloc fissuré ext" }
 sprite{ id = "entities/Doors/Outside/door_castle01", description = "Porte château (classique)" }
 sprite{ id = "entities/Doors/Outside/door_castle02", description = "Porte château (blanc)" }
 sprite{ id = "entities/Doors/Outside/door_castle03", description = "Porte château (bleu)" }
@@ -612,6 +649,7 @@ sprite{ id = "entities/bed", description = "lit" }
 sprite{ id = "entities/blocks/block", description = "Bloc" }
 sprite{ id = "entities/blocks/block-dungeon1", description = "Bloc donjon" }
 sprite{ id = "entities/blocks/block-dungeon2", description = "Bloc donjon (2)" }
+sprite{ id = "entities/blocks/block_casual", description = "Bloc Casual" }
 sprite{ id = "entities/blocks/block_cave", description = "Bloc (caverne)" }
 sprite{ id = "entities/blocks/block_ice", description = "Bloc de glace" }
 sprite{ id = "entities/blocks/block_ice_boss_key", description = "Bloc de glace (contient cle de boss)" }
@@ -740,6 +778,7 @@ sprite{ id = "npc/castle_guard", description = "Chef des gardes" }
 sprite{ id = "npc/castle_guard_blue", description = "Garde fixe bleu" }
 sprite{ id = "npc/castle_guard_green", description = "Garde fixe vert" }
 sprite{ id = "npc/castle_guard_red", description = "Garde fixe rouge" }
+sprite{ id = "npc/dd15_npc/zeldo", description = "Zeldo" }
 sprite{ id = "npc/drunk_man", description = "Homme ivre" }
 sprite{ id = "npc/fairy", description = "Fée classique" }
 sprite{ id = "npc/fairy_queen", description = "Reine des Fées" }
@@ -879,6 +918,7 @@ music{ id = "creations/ahf/dungeon", description = "Donjon" }
 music{ id = "creations/forgotten_legend/agahnim_battle_1", description = "Combat contre Agahnim 1" }
 music{ id = "creations/forgotten_legend/people_in_trouble", description = "Troubles et Ennuis" }
 music{ id = "creations/forgotten_legend/shooting_gallery", description = "Mini-jeu Archerie" }
+music{ id = "creations/labors/DARK_IMPETUS", description = "DARK_IMPETUS" }
 music{ id = "creations/labors/castle_hall", description = "Manoir Oblivion (Hall)" }
 music{ id = "creations/labors/results_screen", description = "Ecran Statistiques" }
 music{ id = "creations/labors/title_labors", description = "Ecran titre" }
@@ -964,7 +1004,20 @@ sound{ id = "ff_cursor", description = "ff_cursor" }
 sound{ id = "ff_ok", description = "ff_ok" }
 sound{ id = "fire", description = "fire" }
 sound{ id = "follower_wait", description = "follower_wait" }
+sound{ id = "fr/zeldo_wave_1_voice/attack_cards", description = "attack_cards" }
+sound{ id = "fr/zeldo_wave_1_voice/attack_fire", description = "attack_fire" }
+sound{ id = "fr/zeldo_wave_1_voice/attack_fly", description = "attack_fly" }
+sound{ id = "fr/zeldo_wave_1_voice/attack_water", description = "attack_water" }
+sound{ id = "fr/zeldo_wave_1_voice/desesperate_move", description = "desesperate_move" }
+sound{ id = "fr/zeldo_wave_1_voice/dying", description = "dying" }
+sound{ id = "fr/zeldo_wave_1_voice/gonna_cry", description = "gonna_cry" }
+sound{ id = "fr/zeldo_wave_1_voice/hurt_1", description = "hurt_1" }
+sound{ id = "fr/zeldo_wave_1_voice/hurt_2", description = "hurt_2" }
+sound{ id = "fr/zeldo_wave_1_voice/hurt_3", description = "hurt_3" }
+sound{ id = "fr/zeldo_wave_1_voice/laugh", description = "laugh" }
+sound{ id = "fr/zeldo_wave_1_voice/laugh_reverb", description = "laugh_reverb" }
 sound{ id = "get_master_sword", description = "get_master_sword" }
+sound{ id = "glitch_transition", description = "glitch_transition" }
 sound{ id = "goron_1", description = "goron_1" }
 sound{ id = "goron_2", description = "goron_2" }
 sound{ id = "goron_3", description = "goron_3" }
@@ -1054,6 +1107,8 @@ sound{ id = "quadruplet_4_yay", description = "quadruplet_4_yay" }
 sound{ id = "quake", description = "quake" }
 sound{ id = "rain", description = "rain" }
 sound{ id = "rat", description = "rat" }
+sound{ id = "raz64/aqua_screamer", description = "aqua_screamer" }
+sound{ id = "raz64/screamer_002", description = "Ne le lis pas." }
 sound{ id = "rolling", description = "rolling" }
 sound{ id = "running", description = "running" }
 sound{ id = "running_obstacle", description = "running_obstacle" }
@@ -1186,6 +1241,7 @@ item{ id = "pickable/random_drop_joy_pendant", description = "Drop Pendentif Bon
 item{ id = "pickable/random_drop_knight_crest", description = "Drop Blason Epeiste" }
 item{ id = "pickable/random_drop_monster_claw", description = "Drop Griffe de Monstre" }
 item{ id = "pickable/random_heart_magic", description = "??? (+ vie, magie)" }
+item{ id = "pickable/random_pickable", description = "Drop Destructibles" }
 item{ id = "pickable/random_rupees", description = "??? (+ rubis)" }
 item{ id = "pickable/red_potion_express", description = "Potion rouge Express" }
 item{ id = "pickable/rupee", description = "Rubis (x1,x5,x20,x50,x100,x200,x300)" }
@@ -1231,12 +1287,19 @@ item{ id = "treasures/treasure_shadow_pearl", description = "Trésor - Perle d'O
 item{ id = "treasures/treasure_zora_crown", description = "Trésor - Couronne Zora" }
 item{ id = "treasures/treasures_bag", description = "Sac a tresors" }
 item{ id = "treasures/troc_apple", description = "Troc - Pomme" }
+item{ id = "upgrade_cards/tott_arrows", description = "Carte d'Upgrade - Flèches" }
+item{ id = "upgrade_cards/tott_attack", description = "Carte d'Upgrade - Attaque" }
+item{ id = "upgrade_cards/tott_bombs", description = "Carte d'Upgrade - Bombes" }
+item{ id = "upgrade_cards/tott_casual", description = "Carte d'Upgrade - Casu" }
+item{ id = "upgrade_cards/tott_defence", description = "Carte d'Upgrade - Défense" }
+item{ id = "upgrade_cards/tott_magic", description = "Carte d'Upgrade - Magie" }
 
 enemy{ id = "GUAY", description = "GUAY" }
 enemy{ id = "Snake", description = "Serpent" }
 enemy{ id = "ally/bomb", description = "Allié - Bombe" }
 enemy{ id = "ally/viscen", description = "Viscen" }
 enemy{ id = "armos", description = "Armos" }
+enemy{ id = "arrow_obstacle", description = "Mini-jeu Archerie AHF (obstacle)" }
 enemy{ id = "arrow_target", description = "Cible pour flèche" }
 enemy{ id = "bari_blue", description = "Bari bleu" }
 enemy{ id = "bari_blue_circle", description = "Bari bleu (en cercle)" }
@@ -1250,6 +1313,9 @@ enemy{ id = "bari_red_circle", description = "Bari rouge (en cercle)" }
 enemy{ id = "beamos", description = "Beamos" }
 enemy{ id = "beamos_laser", description = "Laser de Beamos" }
 enemy{ id = "bee", description = "Abeille" }
+enemy{ id = "bit_blue", description = "Bit bleu" }
+enemy{ id = "bit_green", description = "Bit vert" }
+enemy{ id = "bit_red", description = "Bit rouge" }
 enemy{ id = "bokoblin_blue", description = "Bokoblin bleu" }
 enemy{ id = "bokoblin_green", description = "Bokoblin vert" }
 enemy{ id = "bokoblin_red", description = "Bokoblin rouge" }
@@ -1258,6 +1324,10 @@ enemy{ id = "boomerang", description = "Boomerang" }
 enemy{ id = "boomerang_2", description = "Boomerang magique" }
 enemy{ id = "boss/agahnim", description = "Agahnim" }
 enemy{ id = "boss/agahnim_3", description = "Agahnim Phase 3" }
+enemy{ id = "boss/agahnim_alttp/agahnim", description = "Agahnim ALTTP" }
+enemy{ id = "boss/agahnim_alttp/agahnim_projo_1", description = "Agahnim ALTTP (projectile 1)" }
+enemy{ id = "boss/agahnim_alttp/agahnim_projo_2", description = "Agahnim ALTTP (projectile 2)" }
+enemy{ id = "boss/agahnim_alttp/agahnim_projo_3", description = "Agahnim ALTTP (projectile 3)" }
 enemy{ id = "boss/agahnim_blue_fireball", description = "Agahnim - Sort bleu" }
 enemy{ id = "boss/agahnim_blue_fireball_3", description = "Agahnim P3 - Sort bleu" }
 enemy{ id = "boss/agahnim_clone", description = "Agahnim (Clone)" }
@@ -1266,11 +1336,14 @@ enemy{ id = "boss/agahnim_little_fireball", description = "Agahnim - Petite boul
 enemy{ id = "boss/agahnim_little_fireball_3", description = "Agahnim P3 - Petite boule bleue" }
 enemy{ id = "boss/agahnim_red_fireball", description = "Agahnim - Sort rouge" }
 enemy{ id = "boss/agahnim_red_fireball_3", description = "Agahnim P3 - Sort rouge" }
+enemy{ id = "boss/aquamentus", description = "Aquamentus" }
 enemy{ id = "boss/armos_tie", description = "Armos" }
 enemy{ id = "boss/arrghus", description = "Arrghus" }
 enemy{ id = "boss/arrghus_baby", description = "Arrghus de Pierre (mini)" }
 enemy{ id = "boss/arrghus_stone", description = "Arrghus de Pierre" }
 enemy{ id = "boss/bokoblin_king", description = "Chef des Bokoblins" }
+enemy{ id = "boss/digdogger", description = "Digdogger" }
+enemy{ id = "boss/digdogger_mini", description = "Digdogger Mini" }
 enemy{ id = "boss/dodongo", description = "Dodongo" }
 enemy{ id = "boss/ganon_basic", description = "Ganon (basique)" }
 enemy{ id = "boss/ganondorf_1", description = "Ganondorf (Combat 1)" }
@@ -1300,7 +1373,11 @@ enemy{ id = "boss/vire_1", description = "Vire - Phase 1" }
 enemy{ id = "boss/viscen", description = "Viscen" }
 enemy{ id = "boss/vitreous", description = "Vitreous" }
 enemy{ id = "boss/vitreous_mini", description = "Vitreous Mini" }
+enemy{ id = "boss/zeldo", description = "Zeldo" }
+enemy{ id = "boss/zeldo_wave_1/card_projo", description = "Cartes - Projectile" }
+enemy{ id = "boss/zeldo_wave_1/zeldo", description = "Zeldo (Vague 1)" }
 enemy{ id = "bubble_blue", description = "Bubble bleu" }
+enemy{ id = "bubble_curse", description = "Bubble maudit" }
 enemy{ id = "bubble_dark", description = "Bubble ombre" }
 enemy{ id = "bubble_green", description = "Bubble vert" }
 enemy{ id = "bubble_red", description = "Bubble rouge" }
@@ -1308,6 +1385,7 @@ enemy{ id = "bubble_white", description = "Bubble blanc" }
 enemy{ id = "cannonball", description = "Boulet de canon" }
 enemy{ id = "chain_and_ball", description = "chaine et boule" }
 enemy{ id = "chain_and_ball_gold", description = "chaine et boule doree" }
+enemy{ id = "chasupa", description = "Chasupa" }
 enemy{ id = "chuchu_blue", description = "Chuchu bleu" }
 enemy{ id = "chuchu_dark", description = "Chuchu violet" }
 enemy{ id = "chuchu_green", description = "Chuchu vert" }
@@ -1327,6 +1405,7 @@ enemy{ id = "fire_bar", description = "Barre de feu" }
 enemy{ id = "fireball_animated", description = "Barre de feu (éléments)" }
 enemy{ id = "fireball_blue_small", description = "Boule eau" }
 enemy{ id = "fireball_blue_small_circle", description = "Boule eau (cercle)" }
+enemy{ id = "fireball_green_small", description = "Boule de poison" }
 enemy{ id = "fireball_purple_small", description = "Boule ombre" }
 enemy{ id = "fireball_red_small", description = "Boule de feu" }
 enemy{ id = "fireball_red_small_light", description = "Boule de feu (avec lumiere)" }
@@ -1368,11 +1447,16 @@ enemy{ id = "kodongo_red", description = "Kodongo rouge" }
 enemy{ id = "leever_blue", description = "Leever bleu" }
 enemy{ id = "leever_green", description = "Leever vert" }
 enemy{ id = "leever_red", description = "Leever rouge" }
+enemy{ id = "like_like_brown", description = "Like Like brun" }
+enemy{ id = "like_like_red", description = "Like Like rouge" }
 enemy{ id = "lizalfos_blue", description = "Lizalfos bleu" }
 enemy{ id = "lizalfos_green", description = "Lizalfos vert" }
 enemy{ id = "lizalfos_red", description = "Lizalfos rouge" }
+enemy{ id = "lynel", description = "Lynel" }
+enemy{ id = "lynel_beam", description = "Lynel (rayon)" }
 enemy{ id = "medusa", description = "Shooter" }
 enemy{ id = "medusa_blue", description = "Shooter bleu" }
+enemy{ id = "medusa_green", description = "Shooter vert" }
 enemy{ id = "medusa_light", description = "Shooter (effet de lumiere)" }
 enemy{ id = "medusa_purple", description = "Shooter violet" }
 enemy{ id = "medusa_white", description = "Shooter blanc" }
@@ -1385,6 +1469,7 @@ enemy{ id = "octorok_blue", description = "Octorock bleu" }
 enemy{ id = "octorok_green", description = "Octorock vert" }
 enemy{ id = "octorok_red", description = "Octorock rouge" }
 enemy{ id = "octorok_stone", description = "Octorock (pierre)" }
+enemy{ id = "peahat", description = "Peahat" }
 enemy{ id = "pengator_blue", description = "Pingouin bleu" }
 enemy{ id = "pengator_green", description = "Pingouin vert" }
 enemy{ id = "pengator_red", description = "Pingouin rouge" }
@@ -1395,9 +1480,12 @@ enemy{ id = "pike_auto", description = "Pique auto" }
 enemy{ id = "pike_big", description = "Grande pique" }
 enemy{ id = "pike_detect", description = "Pique détecte" }
 enemy{ id = "poe", description = "Spectre" }
+enemy{ id = "pols_voice", description = "Pols Voice" }
 enemy{ id = "rat", description = "Rat" }
+enemy{ id = "rolling_spike_trap", description = "Rolling Spike Trap" }
 enemy{ id = "skeleton_blue", description = "Squelette bleu" }
 enemy{ id = "skeleton_bone", description = "Squelette (os)" }
+enemy{ id = "skeleton_green", description = "Squelette vert" }
 enemy{ id = "skeleton_red", description = "Squelette rouge" }
 enemy{ id = "snake", description = "Serpent" }
 enemy{ id = "snap_dragon", description = "Snap Dragon" }
@@ -1411,9 +1499,12 @@ enemy{ id = "spark", description = "Spark" }
 enemy{ id = "taros_blue", description = "Taurus bleu" }
 enemy{ id = "taros_green", description = "Taurus vert" }
 enemy{ id = "taros_red", description = "Taurus rouge" }
+enemy{ id = "tektite", description = "Tektite" }
 enemy{ id = "tentacle_blue", description = "Tentacle" }
 enemy{ id = "tentacle_dark", description = "Tentacle du monde des ténèbres" }
+enemy{ id = "tentacle_green", description = "Tentacle vert" }
 enemy{ id = "tentacle_red", description = "Tentacle rouge" }
+enemy{ id = "vire_z1", description = "Vire (Zelda 1)" }
 enemy{ id = "wallmaster", description = "La Main" }
 enemy{ id = "wallmaster_shadow", description = "Ombre de grande main" }
 enemy{ id = "wizzrobe_beam", description = "Rayon de Wizzrobe" }
@@ -1432,6 +1523,7 @@ enemy{ id = "zoura_water_red", description = "Zoura sur l'eau (rouge)" }
 
 entity{ id = "arrow", description = "Flèches" }
 entity{ id = "bomb", description = "Bombes" }
+entity{ id = "burnable", description = "Brulable" }
 entity{ id = "cactus", description = "Pique solide/cactus" }
 entity{ id = "explosion", description = "Explosion" }
 entity{ id = "fire", description = "fire" }
@@ -1457,6 +1549,7 @@ entity{ id = "stone_pile", description = "Tas de pierres" }
 entity{ id = "switch_rust", description = "Switch rouillé" }
 entity{ id = "torch", description = "Torche" }
 entity{ id = "very_weak_ground", description = "Sol très fragile" }
+entity{ id = "weak_block", description = "Bloc fissuré" }
 
 language{ id = "en", description = "English" }
 language{ id = "fr", description = "Français" }
@@ -1490,6 +1583,7 @@ file{ path = "enemies/ally", author = "Vlag, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/ally/bomb.lua", author = "Vlag, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/ally/viscen.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/armos.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/arrow_obstacle.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/arrow_target.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/bari_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bari_blue_circle.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
@@ -1500,9 +1594,12 @@ file{ path = "enemies/bari_mixin.lua", author = "Christopho", license = "GPL v3"
 file{ path = "enemies/bari_mixin_circle.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/bari_red.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bari_red_circle.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
-file{ path = "enemies/beamos.lua", author = "Vlag", license = "GPL v3" }
-file{ path = "enemies/beamos_laser.lua", author = "Vlag", license = "GPL v3" }
+file{ path = "enemies/beamos.lua", author = "Vlag, Adenothe", license = "GPL v3" }
+file{ path = "enemies/beamos_laser.lua", author = "Vlag, Adenothe", license = "GPL v3" }
 file{ path = "enemies/bee.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/bit_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/bit_green.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/bit_red.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/bokoblin_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/bokoblin_green.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/bokoblin_red.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -1512,6 +1609,11 @@ file{ path = "enemies/boomerang_2.lua", author = "ZeldoRetro", license = "GPL v3
 file{ path = "enemies/boss", author = "Mixed", license = "GPL v3" }
 file{ path = "enemies/boss/agahnim.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss/agahnim_3.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/boss/agahnim_alttp", author = "Christopho, DarkDavy15", license = "GPL v3" }
+file{ path = "enemies/boss/agahnim_alttp/agahnim.lua", author = "DarkDavy15", license = "GPL v3" }
+file{ path = "enemies/boss/agahnim_alttp/agahnim_projo_1.lua", author = "Christopho, DarkDavy15", license = "GPL v3" }
+file{ path = "enemies/boss/agahnim_alttp/agahnim_projo_2.lua", author = "DarkDavy15", license = "GPL v3" }
+file{ path = "enemies/boss/agahnim_alttp/agahnim_projo_3.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/boss/agahnim_blue_fireball.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/boss/agahnim_blue_fireball_3.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/boss/agahnim_clone.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
@@ -1520,12 +1622,15 @@ file{ path = "enemies/boss/agahnim_little_fireball.lua", author = "ZeldoRetro", 
 file{ path = "enemies/boss/agahnim_little_fireball_3.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss/agahnim_red_fireball.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/boss/agahnim_red_fireball_3.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/boss/aquamentus.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss/armos_tie.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/boss/arrghus.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss/arrghus_baby.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss/arrghus_stone.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss/bokoblin_king.lua", author = "ZeldoRetro", license = "GPL v3" }
-file{ path = "enemies/boss/dodongo.lua", author = "Razdarac", license = "GPL v3" }
+file{ path = "enemies/boss/digdogger.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/boss/digdogger_mini.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/boss/dodongo.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/boss/ganon_basic.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss/ganondorf_1.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss/gohma.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -1554,7 +1659,12 @@ file{ path = "enemies/boss/vire_1.lua", author = "ZeldoRetro", license = "GPL v3
 file{ path = "enemies/boss/viscen.lua", author = "ZeldoRetro, Vlag", license = "GPL v3" }
 file{ path = "enemies/boss/vitreous.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss/vitreous_mini.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/boss/zeldo.lua", author = "Zeldoretro", license = "GPL v3" }
+file{ path = "enemies/boss/zeldo_wave_1", author = "DarkDavy15", license = "GPL v3" }
+file{ path = "enemies/boss/zeldo_wave_1/card_projo.lua", author = "DarkDavy15", license = "GPL v3" }
+file{ path = "enemies/boss/zeldo_wave_1/zeldo.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/bubble_blue.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/bubble_curse.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/bubble_dark.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/bubble_green.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/bubble_red.lua", author = "Christopho", license = "GPL v3" }
@@ -1562,6 +1672,7 @@ file{ path = "enemies/bubble_white.lua", author = "Christopho, ZeldoRetro", lice
 file{ path = "enemies/cannonball.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/chain_and_ball.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/chain_and_ball_gold.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/chasupa.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/chuchu_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/chuchu_dark.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/chuchu_green.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -1582,6 +1693,7 @@ file{ path = "enemies/fire_bar.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/fireball_animated.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/fireball_blue_small.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/fireball_blue_small_circle.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/fireball_green_small.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/fireball_purple_small.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/fireball_red_small.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/fireball_red_small_light.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
@@ -1636,11 +1748,16 @@ file{ path = "enemies/lib/towards_hero.lua", author = "Vlag", license = "GPL v3"
 file{ path = "enemies/lib/waiting_for_hero.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/lib/weapons.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/lib/zol.lua", author = "Vlag", license = "GPL v3" }
+file{ path = "enemies/like_like_brown.lua", author = "DarkDavy15, ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/like_like_red.lua", author = "DarkDavy15, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/lizalfos_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/lizalfos_green.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/lizalfos_red.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/lynel.lua", author = "DarkDavy15", license = "GPL v3" }
+file{ path = "enemies/lynel_beam.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/medusa.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/medusa_blue.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/medusa_green.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/medusa_light.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/medusa_purple.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/medusa_white.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
@@ -1653,6 +1770,7 @@ file{ path = "enemies/octorok_blue.lua", author = "ZeldoRetro", license = "GPL v
 file{ path = "enemies/octorok_green.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/octorok_red.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/octorok_stone.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/peahat.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/pengator_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/pengator_green.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/pengator_red.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -1663,9 +1781,12 @@ file{ path = "enemies/pike_auto.lua", author = "Christopho", license = "GPL v3" 
 file{ path = "enemies/pike_big.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/pike_detect.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/poe.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/pols_voice.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/rat.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/rolling_spike_trap.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/skeleton_blue.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/skeleton_bone.lua", author = "Vlag", license = "GPL v3" }
+file{ path = "enemies/skeleton_green.lua", author = "Vlag, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/skeleton_red.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/snake.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/snap_dragon.lua", author = "Christopho", license = "GPL v3" }
@@ -1679,10 +1800,13 @@ file{ path = "enemies/spark.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/taros_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/taros_green.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/taros_red.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/tektite.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/tentacle_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/tentacle_dark.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/tentacle_green.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/tentacle_red.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/towards_hero.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/vire_z1.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/waiting_for_hero.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/wallmaster.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/wallmaster_shadow.lua", author = "Christopho", license = "GPL v3" }
@@ -1702,6 +1826,7 @@ file{ path = "enemies/zoura_water_red.lua", author = "ZeldoRetro", license = "GP
 file{ path = "entities", author = "Mixed", license = "GPL v3" }
 file{ path = "entities/arrow.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/bomb.lua", author = "Vlag", license = "GPL v3" }
+file{ path = "entities/burnable.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "entities/cactus.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "entities/explosion.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "entities/fire.lua", author = "Christopho", license = "GPL v3" }
@@ -1727,6 +1852,7 @@ file{ path = "entities/stone_pile.lua", author = "ZeldoRetro", license = "GPL v3
 file{ path = "entities/switch_rust.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "entities/torch.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/very_weak_ground.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "entities/weak_block.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "fonts", author = "Mixed", license = "Mixed" }
 file{ path = "fonts/8_bit.png", author = "usr_share, Christopho", license = "Public domain" }
 file{ path = "fonts/8bit.ttf", author = "usr_share, Christopho", license = "Public domain" }
@@ -1819,6 +1945,7 @@ file{ path = "items/pickable/random_drop_joy_pendant.lua", author = "ZeldoRetro"
 file{ path = "items/pickable/random_drop_knight_crest.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/pickable/random_drop_monster_claw.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/pickable/random_heart_magic.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
+file{ path = "items/pickable/random_pickable.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/pickable/random_rupees.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "items/pickable/red_potion_express.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/pickable/rupee.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
@@ -1867,6 +1994,13 @@ file{ path = "items/treasures/treasure_shadow_pearl.lua", author = "ZeldoRetro",
 file{ path = "items/treasures/treasure_zora_crown.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/treasures/treasures_bag.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/treasures/troc_apple.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/upgrade_cards", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/upgrade_cards/tott_arrows.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/upgrade_cards/tott_attack.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/upgrade_cards/tott_bombs.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/upgrade_cards/tott_casual.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/upgrade_cards/tott_defence.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/upgrade_cards/tott_magic.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "languages", author = "Mixed", license = "Mixed" }
 file{ path = "languages/en", author = "Mixed", license = "Mixed" }
 file{ path = "languages/en/images", author = "Mixed", license = "Mixed" }
@@ -1894,10 +2028,30 @@ file{ path = "logos/icon_32.png", author = "ZeldoRetro", license = "CC BY-SA 4.0
 file{ path = "logos/icon_64.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "logos/logo.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "main.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
-file{ path = "maps", author = "Christopho, ZeldoRetro, Razdarac", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps", author = "Christopho, ZeldoRetro, DarkDavy15", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/creations", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/creations/another_hyrule_fantasy", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/creations/labors", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hub.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hub.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/courage_palace.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/courage_palace.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/courage_palace_out.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/courage_palace_out.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/link_house.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/link_house.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/lost_woods.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/lost_woods.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/FORBIDDEN_ACCESS.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/FORBIDDEN_ACCESS.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/castle_oblivion_1ET.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/castle_oblivion_1ET.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/castle_oblivion_RDC.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/castle_oblivion_RDC.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/forgotten_corridor.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/forgotten_corridor.lua", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/tott", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/creations/labors/tott/abuda_archipelago", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/creations/labors/tott/ancient_catacombs", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
@@ -1920,8 +2074,8 @@ file{ path = "maps/cutscenes/ending_2.dat", author = "ZeldoRetro", license = "CC
 file{ path = "maps/cutscenes/ending_2.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/cutscenes/intro.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/cutscenes/intro.lua", author = "ZeldoRetro", license = "GPL v3" }
-file{ path = "maps/extra", author = "Razdarac", }
-file{ path = "maps/extra/razer_room.dat", author = "Razdarac", }
+file{ path = "maps/extra", author = "DarkDavy15", }
+file{ path = "maps/extra/razer_room.dat", author = "DarkDavy15", }
 file{ path = "maps/inside", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/inside/cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/inside/cave.lua", author = "Christopho", license = "GPL v3" }
@@ -1970,6 +2124,7 @@ file{ path = "musics/creations/forgotten_legend/agahnim_battle_1.ogg", author = 
 file{ path = "musics/creations/forgotten_legend/people_in_trouble.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/forgotten_legend/shooting_gallery.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/labors", author = "Mixed", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/DARK_IMPETUS.ogg", author = "Square Enix", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/labors/castle_hall.ogg", author = "Square Enix", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/labors/results_screen.ogg", author = "Square Enix", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/labors/title_labors.ogg", author = "Square Enix", license = "Proprietary (Fair use)" }
@@ -2019,7 +2174,7 @@ file{ path = "scripts/ceiling_drop_manager.lua", author = "PhoenixII54", license
 file{ path = "scripts/console.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/debug.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/debug_player.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
-file{ path = "scripts/dialog_box.lua", author = "Christopho, Razdarac", license = "GPL v3" }
+file{ path = "scripts/dialog_box.lua", author = "Christopho, DarkDavy15", license = "GPL v3" }
 file{ path = "scripts/dungeons.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/effect_manager.lua", author = "stdgregwar", license = "GPL v3" }
 file{ path = "scripts/entity_manager.lua", author = "PhoenixII54, ZeldoRetro", license = "GPL v3" }
@@ -2069,11 +2224,13 @@ file{ path = "scripts/menus/savegames.lua", author = "Christopho, ZeldoRetro", l
 file{ path = "scripts/menus/solarus_logo.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/stats.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/menus/title_screen_labors.lua", author = "ZeldoRetro", license = "GPL v3" }
-file{ path = "scripts/meta", author = "Christopho, ZeldoRetro, PhoenixII54", license = "GPL v3" }
+file{ path = "scripts/meta", author = "Mixed", license = "GPL v3" }
+file{ path = "scripts/meta/block.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/camera.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/meta/carried_object.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/meta/chest.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/custom_entity.lua", author = "ZeldoRetro", license = "GPL v3" }
-file{ path = "scripts/meta/destructible.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "scripts/meta/destructible.lua", author = "Christopho, ZeldoRetro, DarkDavy15", license = "GPL v3" }
 file{ path = "scripts/meta/door.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/dynamic_tile.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/enemy.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
@@ -2083,6 +2240,8 @@ file{ path = "scripts/meta/item.lua", author = "ZeldoRetro", license = "GPL v3" 
 file{ path = "scripts/meta/map.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/npc.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/sensor.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/meta/separator.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/meta/switch.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/teletransporter.lua", author = "PhoenixII54", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/quest_manager.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -2134,7 +2293,22 @@ file{ path = "sounds/ff_cursor.ogg", author = "Nintendo", license = "Proprietary
 file{ path = "sounds/ff_ok.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/fire.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/follower_wait.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice/attack_cards.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice/attack_fire.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice/attack_fly.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice/attack_water.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice/desesperate_move.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice/dying.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice/gonna_cry.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice/hurt_1.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice/hurt_2.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice/hurt_3.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice/laugh.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/fr/zeldo_wave_1_voice/laugh_reverb.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sounds/get_master_sword.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sounds/glitch_transition.ogg", license = "Proprietary (fair use)" }
 file{ path = "sounds/goron_1.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/goron_2.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/goron_3.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
@@ -2228,6 +2402,9 @@ file{ path = "sounds/quadruplet_4_yay.ogg", author = "Nintendo", license = "Prop
 file{ path = "sounds/quake.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/rain.ogg", license = "Proprietary (fair use)" }
 file{ path = "sounds/rat.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sounds/raz64", author = "Nintendo, Toby Fox, GameFreak", license = "Proprietary (fair use)" }
+file{ path = "sounds/raz64/aqua_screamer.ogg", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sounds/raz64/screamer_002.ogg", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sounds/rolling.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/running.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/running_obstacle.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
@@ -2243,7 +2420,7 @@ file{ path = "sounds/shooting_gallery_bell.ogg", author = "Nintendo", license = 
 file{ path = "sounds/shooting_gallery_whistle.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/smb_bump.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/smb_flagpole.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
-file{ path = "sounds/spectral_sound.ogg", author = "Razdarac", license = "Proprietary (fair use)" }
+file{ path = "sounds/spectral_sound.ogg", author = "DarkDavy15", license = "Proprietary (fair use)" }
 file{ path = "sounds/splash.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/stairs_down_end.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/stairs_down_start.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
@@ -2296,7 +2473,7 @@ file{ path = "sprites/backgrounds/clouds_shadow.png", author = "stdgregwar", lic
 file{ path = "sprites/backgrounds/fog.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/fog.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/fsaeffect.png", author = "Nintendo", license = "Proprietary (fair use)" }
-file{ path = "sprites/backgrounds/img_chara.dat", author = "Razdarac", license = "CC BY-SA 4.0" }
+file{ path = "sprites/backgrounds/img_chara.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/img_chara.png", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/light_center.png", author = "ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/monicle.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -2324,6 +2501,7 @@ file{ path = "sprites/enemies/ally/bomb.png", author = "Nintendo", license = "Pr
 file{ path = "sprites/enemies/ally/viscen.dat", author = "Newlink, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/armos.dat", author = "Matt Wright", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/armos.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/arrow_obstacle.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/arrow_target.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/arrow_target.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/ball.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -2339,6 +2517,9 @@ file{ path = "sprites/enemies/beamos_laser.dat", author = "ZeldoRetro", license 
 file{ path = "sprites/enemies/beamos_laser.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/bee.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/bee.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/bit_blue.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/bit_green.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/bit_red.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/bokoblin.png", author = "Newlink", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/bokoblin_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/bokoblin_green.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -2353,6 +2534,12 @@ file{ path = "sprites/enemies/boomerang_2.png", author = "Nintendo, ZeldoRetro",
 file{ path = "sprites/enemies/boss", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/enemies/boss/agahnim.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/agahnim.png", author = "Pepeztyle", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/agahnim_alttp", author = "Nintendo, DarkDavy15", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/enemies/boss/agahnim_alttp/agahnim.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/agahnim_alttp/agahnim.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/boss/agahnim_alttp/agahnim_projo_1.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/agahnim_alttp/agahnim_projo_2.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/agahnim_alttp/agahnim_projo_3.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/agahnim_blue_fireball.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/agahnim_clone.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/agahnim_clone.png", author = "Pepeztyle", license = "CC BY-SA 4.0" }
@@ -2361,32 +2548,37 @@ file{ path = "sprites/enemies/boss/agahnim_lightning.dat", author = "ZeldoRetro"
 file{ path = "sprites/enemies/boss/agahnim_lightning.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/boss/agahnim_little_fireball.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/agahnim_red_fireball.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/aquamentus.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/aquamentus.png", author = "Nintendo, DarkDavy15", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/boss/armos_tie_blue.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/armos_tie_blue.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/boss/arrghus.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/arrghus.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/boss/arrghus_baby.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/boss/arrghus_baby.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/boss/arrghus_baby.png", author = "Matt Wright, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/arrghus_stone.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/boss/arrghus_stone.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/boss/arrghus_stone.png", author = "Matt Wright, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/bokoblin_king.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/boss/bokoblin_king.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/boss/bokoblin_king.png", author = "Newlink, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/bokoblin_weapon.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/boss/dodongo.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/digdogger.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/digdogger.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/digdogger_mini.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/dodongo.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/dodongo.png", author = "Nintendo", license = "Proprietary (fair use)" }
-file{ path = "sprites/enemies/boss/dodongo_fire.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/dodongo_fire.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/dodongo_fire.png", author = "Nintendo", license = "Proprietary (fair use)" }
-file{ path = "sprites/enemies/boss/dodongo_head.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/dodongo_head.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/dodongo_head.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/boss/ganon.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/ganon.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/boss/ganon_shadow.png", author = "Nintendo, ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/boss/ganondorf.png", author = "Bucketboy", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/boss/ganondorf_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/boss/gohma.dat", author = "Matt Wright", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/boss/gohma.png", author = "JulioTanaka", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/gohma.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/gohma.png", author = "Nintendo, JulioTanaka", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/boss/gohma_eye.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/boss/gohma_eye.png", author = "JulioTanaka", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/gohma_eye.png", author = "Nintendo, JulioTanaka", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/boss/goriya_king.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/goriya_king.png", author = "Newlink", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/goriya_king_boomerang.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -2440,8 +2632,18 @@ file{ path = "sprites/enemies/boss/vitreous.png", author = "Nintendo", license =
 file{ path = "sprites/enemies/boss/vitreous_mini.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/zeldo.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/zeldo.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/zeldo_broken.dat", author = "DarkDavy15", }
+file{ path = "sprites/enemies/boss/zeldo_broken.png", author = "DarkDavy15", }
+file{ path = "sprites/enemies/boss/zeldo_mask_particle.dat", author = "ZeldoRetro", }
+file{ path = "sprites/enemies/boss/zeldo_new.png", author = "DarkDavy15", }
+file{ path = "sprites/enemies/boss/zeldo_wave_1", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/zeldo_wave_1/card_projo.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/zeldo_wave_1/zeldo.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/zeldo_wave_1/zeldo.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/bot.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/bubble.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/bubble_blue.dat", author = "Matt Wright", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/bubble_curse.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/bubble_dark.dat", author = "Matt Wright", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/bubble_green.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/bubble_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2456,6 +2658,11 @@ file{ path = "sprites/enemies/chain.dat", author = "ZeldoRetro", license = "CC B
 file{ path = "sprites/enemies/chain_and_ball.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/chain_and_ball_gold.png", author = "Nintendo, ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/chain_gold.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/chasupa.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/chasupa.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/chicken.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/chicken.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/chicken_big.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/chuchu.png", author = "Nintendo, Matt Wright", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/chuchu_blue.dat", author = "Matt Wright", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/chuchu_dark.dat", author = "Matt Wright", license = "CC BY-SA 4.0" }
@@ -2489,6 +2696,10 @@ file{ path = "sprites/enemies/fireball.png", author = "Nintendo", license = "Pro
 file{ path = "sprites/enemies/fireball_animated.dat", author = "Matt Wright", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/fireball_blue_small.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/fireball_blue_small.png", author = "Nintendo, ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/fireball_blue_small_circle.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/fireball_blue_small_circle.png", author = "Nintendo, ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/fireball_green_small.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/fireball_green_small.png", author = "Nintendo, ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/fireball_purple_small.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/fireball_purple_small.png", author = "Nintendo, Vincent Jouillat", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/fireball_red_small.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2561,11 +2772,20 @@ file{ path = "sprites/enemies/leever.png", author = "JulioTanaka", license = "CC
 file{ path = "sprites/enemies/leever_blue.dat", author = "Vlag", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/leever_green.dat", author = "Vlag", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/leever_red.dat", author = "Vlag", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/like_like_brown.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/like_like_brown.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/like_like_red.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/like_like_red.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/lizalfos.png", author = "Newlink, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/lizalfos_blue.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/lizalfos_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/lizalfos_red.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/lizalfos_weapon.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/lynel.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/lynel.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/lynel_beam.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/lynel_beam.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/lynel_head.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/medusa.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/medusa.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/mini_moldorm.dat", author = "Vlag", license = "CC BY-SA 4.0" }
@@ -2589,6 +2809,9 @@ file{ path = "sprites/enemies/octorok_red.dat", author = "Christopho", license =
 file{ path = "sprites/enemies/octorok_red.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/octorok_stone.dat", author = "Christopho, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/octorok_stone.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/peahat.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/peahat.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/peahat_immobilized.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/pengator.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/pengator_blue.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/pengator_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2608,8 +2831,12 @@ file{ path = "sprites/enemies/pike_detect.dat", author = "Christopho", license =
 file{ path = "sprites/enemies/pike_ground.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/poe.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/poe.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/pols_voice.dat", author = "Vlag", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/pols_voice.png", author = "JulioTanaka", license = "Proprietary, Fair use" }
 file{ path = "sprites/enemies/rat.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/rat.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/rolling_spike_trap.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/rolling_spike_trap.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/sideviews", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/enemies/sideviews/goomba.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/sideviews/goomba.png", author = "Nintendo", license = "Proprietary (fair use)" }
@@ -2620,6 +2847,8 @@ file{ path = "sprites/enemies/skeleton_blue.dat", author = "Christopho", license
 file{ path = "sprites/enemies/skeleton_blue.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/skeleton_bone.dat", author = "Vlag", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/skeleton_bone.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/skeleton_green.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/skeleton_green.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/skeleton_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/skeleton_red.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/snake.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2649,10 +2878,15 @@ file{ path = "sprites/enemies/taros_green.png", author = "Nintendo, ZeldoRetro",
 file{ path = "sprites/enemies/taros_red.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/taros_red.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/taros_red_weapon.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/tektite.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/tektite.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/tentacle.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/tentacle_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/tentacle_dark.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/tentacle_green.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/tentacle_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vire_z1.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vire_z1.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/wallmaster.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/wallmaster.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/wizzrobe_beam.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2721,6 +2955,16 @@ file{ path = "sprites/entities/Collapsing Tiles/collapse_tile2.dat", author = "F
 file{ path = "sprites/entities/Collapsing Tiles/collapse_tile3.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Collapsing Tiles/collapse_tile4.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/entities/Decorations/console.png", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/entities/Decorations/console_instruction_1.png", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/entities/Decorations/console_instruction_1_done.png", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/entities/Decorations/console_instruction_2.png", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/entities/Decorations/console_instruction_2_done.png", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/entities/Decorations/console_instruction_3.png", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/entities/Decorations/console_instruction_3_done.png", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/entities/Decorations/console_instruction_4.png", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/entities/Decorations/console_instruction_4_done.png", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/entities/Decorations/console_instruction_5.png", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/entities/Decorations/curtain.png", author = "Nintendo, FFomega", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/Decorations/curtain_bottom.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/curtain_left.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -2738,6 +2982,28 @@ file{ path = "sprites/entities/Decorations/fairy_green.dat", author = "ZeldoRetr
 file{ path = "sprites/entities/Decorations/fairy_red.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/fairy_yellow.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/flashing_pendant.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_ancient_catacomb.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_archipelago.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_castle_tower.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_graph_1.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_graph_2.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_misc_1.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_misc_2.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_overworld_1.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_overworld_2.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_paper_1.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_paper_2.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_puzzle_1.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_puzzle_2.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_screen_1.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_screen_2.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_dev_screen_3.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_eagle.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_fire_temple.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_hylia_waterfall.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_ice_cave.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_razdarac_room.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/frame_labors_tott_water_temple.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/ladder_wooden.dat", author = "PhoenixII54", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/ladder_wooden.png", author = "JulioTanaka", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/ladder_wooden_top.dat", author = "PhoenixII54", license = "CC BY-SA 4.0" }
@@ -2747,10 +3013,6 @@ file{ path = "sprites/entities/Decorations/little_flame.png", author = "Nintendo
 file{ path = "sprites/entities/Decorations/master_sword_in_pedestal.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/master_sword_pedestal.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/master_sword_pedestal.png", author = "Nintendo, FFomega", license = "Proprietary (fair use)" }
-file{ path = "sprites/entities/Decorations/paintings_labor_tott.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_ancient_catacomb.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_archipelago.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_castle_tower.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_graph_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_graph_2.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_misc_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -2764,12 +3026,6 @@ file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_puzzle_2.da
 file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_screen_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_screen_2.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_screen_3.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_eagle.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_fire_temple.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_hylia_waterfall.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_ice_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_razdarac_room.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_water_temple.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/rain.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/rain.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/Decorations/snow.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -2799,10 +3055,13 @@ file{ path = "sprites/entities/Destructables/stone_black_skull.dat", author = "C
 file{ path = "sprites/entities/Destructables/stone_white.dat", author = "Matt Wright", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Destructables/stone_white_skull.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Destructables/vase.dat", author = "JulioTanaka", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Destructables/vase_casual.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Destructables/vase_gold.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Destructables/vase_heavy.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Destructables/vase_skull.dat", author = "JulioTanaka", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Destructables/vase_skull_black.dat", author = "JulioTanaka", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Destructables/vase_skull_heavy.dat", author = "JulioTanaka", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Destructables/vase_very_heavy.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/entities/Doors/Inside", author = "FFomega, JulioTanaka, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Inside/castle_lock.dat", author = "FFomega", license = "CC BY-SA 4.0" }
@@ -2842,6 +3101,7 @@ file{ path = "sprites/entities/Doors/Inside/door_d4_very_weak_wall.dat", author 
 file{ path = "sprites/entities/Doors/Inside/door_d4_weak_wall.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Inside/door_small_key_block1.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Inside/door_weak_block.dat", author = "FFomega", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Doors/Inside/door_weak_block_alt.dat", author = "ZeldoRetro", }
 file{ path = "sprites/entities/Doors/Outside", author = "Mixed", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Outside/door_castle01.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Outside/door_castle02.dat", author = "FFomega", license = "CC BY-SA 4.0" }
@@ -2991,7 +3251,7 @@ file{ path = "sprites/entities/Teletransporters/teletransporter.png", author = "
 file{ path = "sprites/entities/Teletransporters/teletransporter_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Teletransporters/teletransporter_final.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Teletransporters/teletransporter_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Teletransporters/teletransporter_shrine.dat", author = "Razdarac", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Teletransporters/teletransporter_shrine.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Teletransporters/teletransporter_shrine.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/Teletransporters/teletransporter_subrosia.dat", author = "Matt Wright", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Teletransporters/teletransporter_subrosia_red.dat", author = "Matt Wright", license = "CC BY-SA 4.0" }
@@ -3011,6 +3271,7 @@ file{ path = "sprites/entities/blocks", author = "Mixed", license = "CC BY-SA 4.
 file{ path = "sprites/entities/blocks/block-dungeon1.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/blocks/block-dungeon2.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/blocks/block.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/blocks/block_casual.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/blocks/block_cave.dat", author = "JulioTanaka", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/blocks/block_ice.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/blocks/block_ice_boss_key.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -3060,7 +3321,7 @@ file{ path = "sprites/entities/ice_beam.png", author = "Nintendo", license = "Pr
 file{ path = "sprites/entities/impact.dat", author = "Vlag", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/impact.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/items.dat", author = "Christopho, ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/items.png", author = "Nintendo, ChaosMiles07,  Collecter128, Razdarac", license = "Proprietary (fair use)" }
+file{ path = "sprites/entities/items.png", author = "Nintendo, ChaosMiles07,  Collecter128, DarkDavy15", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/lever.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/lever.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/magic_powder_effect.dat", author = "JulioTanaka", license = "CC BY-SA 4.0" }
@@ -3115,9 +3376,9 @@ file{ path = "sprites/entities/transformation.png", author = "Nintendo", license
 file{ path = "sprites/entities/very_weak_ground.png", author = "JulioTanaka, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/very_weak_ground_bridge_horizontal.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/very_weak_ground_bridge_vertical.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/extra", author = "Razdarac", license = "CC BY-SA 4.0" }
-file{ path = "sprites/extra/razer.dat", author = "Razdarac", license = "CC BY-SA 4.0" }
-file{ path = "sprites/extra/razer.png", author = "Razdarac", license = "CC BY-SA 4.0" }
+file{ path = "sprites/extra", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/extra/razer.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/extra/razer.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/fr", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/fr/credits", author = "ZeldoRetro, Nintendo, Toby Fox", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/fr/credits/credits_1.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -3341,10 +3602,10 @@ file{ path = "sprites/menus/stats_labors_background.png", author = "SquareEnix, 
 file{ path = "sprites/menus/stats_labors_curtain_1.png", author = "Zeldoretro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/stats_labors_curtain_2.png", author = "Zeldoretro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/stats_labors_curtain_3.png", author = "Zeldoretro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/stats_picture_bronze.png", author = "Razdarac", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/stats_picture_gold.png", author = "Razdarac", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/stats_picture_platinum.png", author = "Razdarac", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/stats_picture_silver.png", author = "Razdarac", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/stats_picture_bronze.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/stats_picture_gold.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/stats_picture_platinum.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/stats_picture_silver.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/telep_map_light.dat", author = "Zeldoretro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/telep_map_light.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/telep_map_pointer.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -3362,7 +3623,7 @@ file{ path = "sprites/menus/title_labors_frames_2.png", author = "ZeldoRetro", l
 file{ path = "sprites/menus/title_labors_gamepad.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/title_labors_logo.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/title_labors_release.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/title_labors_zeldo.png", author = "Razdarac", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/title_labors_zeldo.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/treasures_background.png", author = "Oclero, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/world_map.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/world_map_dark.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -3390,6 +3651,7 @@ file{ path = "sprites/npc/castle_guard.dat", author = "Christopho", license = "C
 file{ path = "sprites/npc/castle_guard_blue.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/castle_guard_green.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/castle_guard_red.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/dd15_npc/zeldo.dat", author = "DarkDavy15", }
 file{ path = "sprites/npc/drunk_man.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/fairy.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/fairy.png", author = "Nintendo", license = "Proprietary (fair use)" }
@@ -3576,12 +3838,18 @@ file{ path = "sprites/npc/woman_green.dat", author = "Christopho", license = "CC
 file{ path = "sprites/npc/woman_yellow.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/young_girl_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/zelda.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/screen_image", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/screen_image/GETOUT.png", author = "DarkDavy15", license = "CC BY-NC-SA 4.0" }
 file{ path = "tilesets", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
-file{ path = "tilesets/extra", author = "Razdarac", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
-file{ path = "tilesets/extra/mirror_corridor.dat", author = "Razdarac", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/extra/mirror_corridor.tiles.png", author = "Razdarac", license = "Proprietary (Fair use)" }
-file{ path = "tilesets/extra/razdarac_room.dat", author = "Razdarac", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/extra/razdarac_room.tiles.png", author = "Razdarac", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/extra", author = "DarkDavy15", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "tilesets/extra/casual_tileset.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/extra/casual_tileset.tiles.png", author = "ZeldoRetro, Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/extra/mirror_corridor.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/extra/mirror_corridor.tiles.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/extra/razdarac_room.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/extra/razdarac_room.tiles.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/extra/zeldo_battle_room.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/extra/zeldo_battle_room.tiles.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/ff_style", author = "ZeldoRetro, Nintendo", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "tilesets/ff_style/battle_backgrounds.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/ff_style/battle_backgrounds.tiles.png", author = "ZeldoRetro, Nintendo", license = "Proprietary (Fair use)" }
@@ -3669,3 +3937,5 @@ file{ path = "tilesets/sideview/mario_1_tileset.dat", author = "ZeldoRetro", lic
 file{ path = "tilesets/sideview/mario_1_tileset.tiles.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/sideview/sideview_dungeon.dat", author = "Oclero, JulioTanaka", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/sideview/sideview_dungeon.tiles.png", author = "Oclero, JulioTanaka", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/stained_glass.dat", author = "ZeldoRetro, DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/stained_glass.tiles.png", author = "ZeldoRetro, DarkDavy15", license = "CC BY-SA 4.0" }

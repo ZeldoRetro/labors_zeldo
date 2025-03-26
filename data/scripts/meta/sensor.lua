@@ -4,13 +4,37 @@ require("scripts/multi_events")
 
 local sensor_meta = sol.main.get_metatable("sensor")
 
+sensor_meta:register_event("on_created", function(sensor)
+  local game = sensor:get_game()
+  local hero = game:get_hero()
+
+  -- Disable the sensor if the savegame value passed in property is true (an opened door for example)
+  if sensor:get_property("disable_if_value") ~= nil then
+    if game:get_value(sensor:get_property("disable_if_value")) then
+      sensor:set_enabled(false)
+    end
+  end
+
+  -- Enable the sensor if the savegame value passed in property is true
+  if sensor:get_property("enable_if_value") ~= nil then
+    if game:get_value(sensor:get_property("enable_if_value")) then
+      sensor:set_enabled(true)
+    end
+  end
+
+end)
+
 -- sensor_meta represents the default behavior of all sensors.
-function sensor_meta:on_activated()
-  -- self is the sensor.
-  local hero = self:get_map():get_hero()
-  local game = self:get_game()
-  local map = self:get_map()
-  local name = self:get_name()
+sensor_meta:register_event("on_activated", function(sensor)
+
+  local hero = sensor:get_map():get_hero()
+  local game = sensor:get_game()
+  local map = sensor:get_map()
+  local name = sensor:get_name()
+
+  if name == nil then
+    return
+  end
 
   -- Sensors prefixed by "save_solid_ground_sensor" are where the hero come back
   -- when falling into a hole or other bad ground.
@@ -30,7 +54,7 @@ function sensor_meta:on_activated()
   local room = name:match("^dungeon_room_(%d+)")
   if room ~= nil then
     game:set_explored_dungeon_room(nil, nil, tonumber(room))
-    self:remove()
+    sensor:remove()
     return
   end
 
@@ -59,35 +83,6 @@ function sensor_meta:on_activated()
     map:set_entities_enabled("texte_lieu",false)
   end
 
-  --Affichage boss
-  --local opacity_boss = 1
-  --local function fade_in_boss()
-  --	opacity_boss = opacity_boss - 5
-  --	texte_boss:set_opacity(opacity_boss)
-  --  if opacity_boss > 0 then
-  -- 		sol.timer.start(50,fade_in_boss)
-  --  else
-  --    texte_boss_on = false
-  -- end
-  --end
-  --local function fade_out_boss()
-  --	opacity_boss = opacity_boss + 5
-  --	texte_boss:set_opacity(opacity_boss)
-  --  if opacity_boss < 255 then
-  --		sol.timer.start(50,fade_out_boss)
-  --  else
-  --  fade_in_boss()
-  --end
-  --end
-  --local function affiche_boss()
-  --  texte_boss_on = true
-  --  fade_out_boss()
-  --  map:set_entities_enabled("texte_boss",false)
-  --end
-  --if name:match("^texte_boss") then
-  --  affiche_boss()
-  --end
-
   --Sensors qui ferment les portes derrière nous (définitives (ex:passage sens unique) ou temporaire (ex:combat))
   local j = 0
   while j ~= 9 do
@@ -96,67 +91,69 @@ function sensor_meta:on_activated()
       map:set_entities_enabled(name,false)
       map:close_doors("auto_door_"..j)
     end
-    --Le héros avance tout seul pour les portes qui se referment définitivement
     if name:match("^sensor_falling_door_"..j) then
       map:close_doors("falling_door_"..j)
     end
-    if name:match("^sensor_falling_door_"..j.."_e_open") then
-      map:set_doors_open("falling_door_"..j)
+    --Le héros avance tout seul et la porte se referme derrière lui
+    if name:match("^sensor_push_hero_auto_door_"..j) then
+      map:get_entity(name):set_enabled(false)
+      local x, y, layer = hero:get_position()
       hero:freeze()
       hero:set_animation("walking")
-      hero:set_direction(0)
+      hero:set_direction(map:get_entity(name):get_property("direction"))
       local movement = sol.movement.create("straight")
       movement:set_speed(88)
-      local angle = 0
-      movement:set_angle(angle)
-      movement:set_max_distance(56) 
-      movement:start(hero) 
-      sol.timer.start(600,function() hero:unfreeze() end)
+      local angle
+      movement:set_angle(map:get_entity(name):get_property("angle"))
+      if layer == 1 then movement:set_max_distance(56) else movement:set_max_distance(80) end
+      movement:start(hero,function() hero:unfreeze() end)
     end
-    if name:match("^sensor_falling_door_"..j.."_n_open") then
-      map:set_doors_open("falling_door_"..j)
+    if name:match("^sensor_push_hero_other_door_"..j) then
+      map:get_entity(name):set_enabled(false)
+      local x, y, layer = hero:get_position()
       hero:freeze()
       hero:set_animation("walking")
-      hero:set_direction(1)
+      hero:set_direction(map:get_entity(name):get_property("direction"))
       local movement = sol.movement.create("straight")
       movement:set_speed(88)
-      local angle = math.pi / 2
-      movement:set_angle(angle)
-      movement:set_max_distance(56) 
-      movement:start(hero) 
-      sol.timer.start(600,function() hero:unfreeze() end)
+      local angle
+      movement:set_angle(map:get_entity(name):get_property("angle"))
+      if layer == 1 then movement:set_max_distance(56) else movement:set_max_distance(80) end
+      movement:start(hero,function() hero:unfreeze() end)
     end
-    if name:match("^sensor_falling_door_"..j.."_w_open") then
-      map:set_doors_open("falling_door_"..j)
+    if name:match("^sensor_push_hero_falling_door_"..j) then
+      local prefix = j
+      local x, y, layer = hero:get_position()
+      map:set_doors_open("falling_door_"..prefix)
       hero:freeze()
       hero:set_animation("walking")
-      hero:set_direction(2)
+      hero:set_direction(map:get_entity(name):get_property("direction"))
       local movement = sol.movement.create("straight")
       movement:set_speed(88)
-      local angle = math.pi
-      movement:set_angle(angle)
-      movement:set_max_distance(56) 
-      movement:start(hero) 
-      sol.timer.start(600,function() hero:unfreeze() end)
+      local angle
+      movement:set_angle(map:get_entity(name):get_property("angle"))
+      if layer == 1 then movement:set_max_distance(56) else movement:set_max_distance(80) end
+      movement:start(hero,function() hero:unfreeze() end)
     end
-    if name:match("^sensor_falling_door_"..j.."_s_open") then
-      map:set_doors_open("falling_door_"..j)
-      hero:freeze()
-      hero:set_animation("walking")
-      hero:set_direction(3)
-      local movement = sol.movement.create("straight")
-      movement:set_speed(88)
-      local angle = 3 * math.pi / 2
-      movement:set_angle(angle)
-      movement:set_max_distance(56) 
-      movement:start(hero) 
-      sol.timer.start(600,function() hero:unfreeze() end)
-    end
+
   end
 
   --Son de secret après certains passages
   if name:match("^sensor_secret") then
     sol.audio.play_sound("secret")
+  end
+
+  -- Avertissement avant de quitter Auberge sans utiliser la clé
+  if name:match("^exit_sensor_inn") then
+    if game:get_value("get_inn_key") and not map:get_entity("inn_room_door"):is_open() then
+      sensor:set_enabled(false)
+      game:start_dialog("inn.exit_warning")
+    end
+  end  
+
+  -- Joue une musique particulière en touchant le sensor
+  if name:match("^play_music_sensor") then
+    sol.audio.play_music(sensor:get_property("music_id"))
   end  
 
   --Pas de sons dans certains lieux (ex:avant boss)
@@ -212,6 +209,6 @@ function sensor_meta:on_activated()
         --map:get_entity("texte_boss_1"):set_enabled(false)
       end)
   end
-end
+end)
 
 return true

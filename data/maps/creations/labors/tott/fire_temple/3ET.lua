@@ -11,7 +11,7 @@ separator_manager:manage_map(map)
 
 --EFFET DE CHALEUR
 local heat = sol.surface.create(320,240)
-heat:set_opacity(100)
+heat:set_opacity(80)
 heat:fill_color({255,40,0})
 
 map:register_event("on_draw",function(map,dst_surface)

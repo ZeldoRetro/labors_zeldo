@@ -86,6 +86,7 @@ function enemy:on_created()
   main_sprite = self:create_sprite(properties.main_sprite)
   self:set_size(16, 16)
   self:set_origin(8, 13)
+  self:set_attacking_collision_mode("overlapping")
   self:set_fire_reaction(properties.fire_reaction)
   self:set_ice_reaction(properties.ice_reaction)
   self:set_hammer_reaction(properties.hammer_reaction)
@@ -101,12 +102,8 @@ end
 function enemy:on_restarted()
 
   if not being_pushed then
-    if going_hero then
-      self:go_hero()
-    else
       self:go_random()
       self:check_hero()
-    end
   end
 end
 

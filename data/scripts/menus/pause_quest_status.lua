@@ -6,12 +6,12 @@ local gui_designer = require("scripts/menus/lib/gui_designer")
 
 local item_names = {
   -- Place inventory items here
-  "equipment/rupee_bag", 
-  "equipment/quiver",
-  "equipment/bomb_bag",
-  "quest_items/defense_boost",
-  "quest_items/attack_boost",
-  "quest_items/magic_flask_upgrade",
+  "upgrade_cards/tott_casual",
+  "upgrade_cards/tott_arrows",
+  "upgrade_cards/tott_bombs",
+  "upgrade_cards/tott_defence",
+  "upgrade_cards/tott_attack",
+  "upgrade_cards/tott_magic",
 }
 local items_num_columns = 3
 local items_num_rows = math.ceil(#item_names / items_num_columns)
@@ -30,20 +30,24 @@ local function create_equipment_items_widget(game)
   widget:set_xy(17 - movement_distance, 119)
   local items_surface = widget:get_surface()
 
+  local item_sprites = {}
+
+  local temp = 0
+
   for i, item_name in ipairs(item_names) do
     local variant = game:get_item(item_name):get_variant()
     if variant > 0 then
       local column = (i - 1) % items_num_columns + 1
       local row = math.floor((i - 1) / items_num_columns + 1)
-      -- Draw the sprite statically. This is okay as long as
-      -- item sprites are not animated.
-      -- If they become animated one day, they will have to be
-      -- drawn at each frame instead (in on_draw()).
       local item_sprite = sol.sprite.create("entities/items")
-      item_sprite:set_animation(item_name)
-      item_sprite:set_direction(variant - 1)
-      item_sprite:set_xy(16 + column * 32 - 16, 13 + row * 32 - 16)
-      item_sprite:draw(items_surface)
+
+      item_sprites[temp] = sol.sprite.create("entities/items")
+      item_sprites[temp]:set_animation(item_name)
+      item_sprites[temp]:set_direction(variant - 1)
+      item_sprites[temp]:set_xy(16 + column * 32 - 16, 13 + row * 32 - 16)
+      item_sprites[temp]:draw(items_surface)
+      temp = temp + 1
+
       if game:get_item(item_name):has_amount() then
         -- Show a counter in this case.
         local amount = game:get_item(item_name):get_amount()
@@ -55,7 +59,7 @@ local function create_equipment_items_widget(game)
       end
     end
   end
-  return widget
+  return widget, item_sprites
 end
 
 --TITRE DU MENU
@@ -119,44 +123,14 @@ local function create_stats_widget(game)
   widget:make_image_region(icons_img, 24, 0, 12, 12, 10, 6)
   --Force
   widget:make_image_region(icons_img, 0, 0, 12, 12, 11, 29)
-  widget:make_counter(game:get_value("force"), 21, 35)
   --Défense
   widget:make_image_region(icons_img, 12, 0, 12, 12, 31, 29)
-  widget:make_counter(game:get_value("defense"), 43, 35)
   --Compteur de morts
   widget:make_image_region(icons_img, 36, 0, 12, 14, 51, 29)
   widget:make_counter(game:get_value("death_counter"), 64, 35)
 
   return widget
 end
-
---[[FENETRE DU COMPTEUR DE GEMMES DE FORCE
-local function create_force_gem_widget(game)
-  local widget = gui_designer:create(48, 52)
-  widget:set_xy(134, 121)
-    local x_gems
-    local amount = game:get_item("quest_items/force_gem"):get_amount()
-    if amount < 10 then 
-      x_gems = 21
-      widget:make_counter(amount, x_gems + 7, 19)        
-    elseif amount >= 10 and amount < 100 then
-      x_gems = 19
-      widget:make_counter(amount, x_gems + 7, 19) 
-    elseif amount >= 100 and amount < game:get_item("quest_items/force_gem"):get_max_amount() then
-      x_gems = 16
-      widget:make_counter(amount, x_gems + 7, 19) 
-    elseif amount == game:get_item("quest_items/force_gem"):get_max_amount() then
-      x_gems = 16
-      widget:make_green_counter(amount, x_gems + 7, 19)
-    end
-    local item_sprite = sol.sprite.create("entities/items")
-    item_sprite:set_animation("quest_items/force_gem")
-    item_sprite:set_direction(0)
-    item_sprite:set_xy(x_gems, 26)
-    item_sprite:draw(widget:get_surface())
-  return widget
-end
---]]
 
 --FENETRE DU COMPTEUR D'ÉCLATS DE SOUVENIR
 local function create_force_gem_widget(game)
@@ -226,7 +200,7 @@ function quest_status_manager:new(game)
   local state = "opening"  -- "opening", "ready" or "closing".
 
   local menu_title_widget = create_menu_title_widget(game)
-  local equipment_items_widget = create_equipment_items_widget(game)
+  local equipment_items_widget, item_sprites = create_equipment_items_widget(game, item_list)
   local pieces_of_heart_widget = create_pieces_of_heart_widget(game)
   local status_widget = create_status_widget(game)
   local stats_widget = create_stats_widget(game)
@@ -249,6 +223,27 @@ function quest_status_manager:new(game)
         item_assigned_index = i - 1
       end
     end
+  end
+
+  -- Draws the stats of the player (force and defense)
+  local force_text = sol.text_surface.create{
+    font = "white_digits",
+    horizontal_alignment = "left",
+    vertical_alignment = "top",
+  }
+  local defense_text = sol.text_surface.create{
+    font = "white_digits",
+    horizontal_alignment = "left",
+    vertical_alignment = "top",
+  }
+
+  local function draw_player_stats(dst_surface)
+    local force = game:get_value("force")
+    force_text:set_text(force)
+    force_text:draw(dst_surface, 55, 107) 
+    local defense = game:get_value("defense")
+    defense_text:set_text(defense)
+    defense_text:draw(dst_surface, 77, 107)
   end
 
   local time_played_text = sol.text_surface.create{
@@ -320,11 +315,19 @@ function quest_status_manager:new(game)
     menu_title_widget:draw(dst_surface)
     equipment_items_widget:draw(dst_surface)
     pieces_of_heart_widget:draw(dst_surface)
-    status_widget: draw(dst_surface)
-    stats_widget: draw(dst_surface)
+    status_widget:draw(dst_surface)
+    stats_widget:draw(dst_surface)
     force_gem_widget:draw(dst_surface)
     fairy_power_fragment_widget:draw(dst_surface)
 
+    for i, item_sprite in pairs(item_sprites) do
+      if not (game:get_item(item_sprite:get_animation()):get_variant()-1 == item_sprite:get_direction()) then
+        item_sprite:set_direction(game:get_item(item_sprite:get_animation()):get_variant()-1)
+      end
+      item_sprite:draw(dst_surface,16,119)
+    end
+
+    draw_player_stats(dst_surface)
     draw_time_played(dst_surface)
     -- Show the item cursors and name
     draw_item_cursors(dst_surface)
@@ -374,6 +377,16 @@ function quest_status_manager:new(game)
         set_cursor_position(cursor_row + 1, cursor_column)
       else
         set_cursor_position(0, cursor_column)
+      end
+      handled = true
+
+    elseif command == "action" then
+      --Active the selected Upgrade Card
+      local item = game:get_item(item_names[cursor_index + 1])
+      if game:has_item(item:get_name()) then
+        sol.audio.play_sound("ok")
+        if item:get_variant() == 1 then item:set_variant(2) else item:set_variant(1) end
+        
       end
       handled = true
     end

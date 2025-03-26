@@ -1,7 +1,0 @@
-animation{
-  name = "normal",
-  src_image = "entities/Decorations/paintings_labor_tott.png",
-  directions = {
-    { x = 640, y = 480, frame_width = 320, frame_height = 240, origin_x = 0, origin_y = 0 },
-  },
-}

@@ -1,0 +1,102 @@
+animation{
+  name = "stopped",
+  src_image = "enemies/peahat.png",
+  directions = {
+    { x = 160, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17 },
+    { x = 160, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17 },
+    { x = 160, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17 },
+    { x = 160, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17 },
+  },
+}
+animation{
+  name = "fly_1",
+  src_image = "enemies/peahat.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 192, y = 8, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 192, y = 8, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 192, y = 8, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 192, y = 8, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13, num_frames = 2, num_columns = 1 },
+  },
+}
+animation{
+  name = "fly_2",
+  src_image = "enemies/peahat.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 192, y = 8, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 192, y = 8, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 192, y = 8, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 192, y = 8, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13, num_frames = 2, num_columns = 1 },
+  },
+}
+animation{
+  name = "fly_3",
+  src_image = "enemies/peahat.png",
+  frame_delay = 15,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 192, y = 40, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 192, y = 40, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 192, y = 40, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 192, y = 40, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13, num_frames = 2, num_columns = 1 },
+  },
+}
+animation{
+  name = "frozen",
+  src_image = "enemies/peahat.png",
+  directions = {
+    { x = 160, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17 },
+    { x = 160, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17 },
+    { x = 160, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17 },
+    { x = 160, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/peahat.png",
+  frame_delay = 60,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 160, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17, num_frames = 4, num_columns = 2 },
+    { x = 160, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17, num_frames = 4, num_columns = 2 },
+    { x = 160, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17, num_frames = 4, num_columns = 2 },
+    { x = 160, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17, num_frames = 4, num_columns = 2 },
+  },
+}
+animation{
+  name = "immobilized",
+  src_image = "enemies/peahat.png",
+  directions = {
+    { x = 160, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17 },
+    { x = 160, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17 },
+    { x = 160, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17 },
+    { x = 160, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17 },
+  },
+}
+animation{
+  name = "shaking",
+  src_image = "enemies/peahat.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 160, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17, num_frames = 3, num_columns = 1 },
+    { x = 160, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17, num_frames = 3, num_columns = 1 },
+    { x = 160, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17, num_frames = 3, num_columns = 1 },
+    { x = 160, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17, num_frames = 3, num_columns = 1 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "enemies/peahat.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 160, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17, num_frames = 3, num_columns = 1 },
+    { x = 160, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17, num_frames = 3, num_columns = 1 },
+    { x = 160, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17, num_frames = 3, num_columns = 1 },
+    { x = 160, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 17, num_frames = 3, num_columns = 1 },
+  },
+}

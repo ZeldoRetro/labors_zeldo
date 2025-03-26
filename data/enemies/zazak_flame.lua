@@ -4,7 +4,7 @@ local enemy = ...
 local map = enemy:get_map()
 
 require("scripts/fsa_effect")
-local el = create_light(map,-256,-256,0,"80","193,185,100")
+local el = create_light(map,-256,-256,0,"80","240,210,15")
 
 function enemy:on_created()
 
@@ -13,7 +13,7 @@ function enemy:on_created()
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_invincible()
   enemy:set_obstacle_behavior("flying")
-  enemy:set_minimum_shield_needed(3) -- Miror shield.
+  enemy:set_minimum_shield_needed(2) -- Miror shield.
 
   function el:on_update()
     el:set_position(enemy:get_position())

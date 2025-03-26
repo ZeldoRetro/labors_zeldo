@@ -25,6 +25,47 @@ local function run_chronometer(game)
   timer:set_suspended_with_map(false)
 end
 
+-- Roll for hero
+local function hero_roll(game)
+  local hero = game:get_map():get_hero()
+  local effect = game:get_command_effect("action")
+  local hero_state = hero:get_state()
+  local dx = {[0] = 8, [1] = 0, [2] = -8, [3] = 0}
+  local dy = {[0] = 0, [1] = -8, [2] = 0, [3] = 8}
+  local direction = hero:get_direction()
+  local has_space = not hero:test_obstacles(dx[direction], dy[direction])
+  if not game:is_suspended() and has_space and not game:is_dialog_enabled() and game:get_life() > 0 and hero_state == "free" and hero:is_walking() and not hero_rolling and not arcade_game and not hero_slowed then
+    local angle
+    if hero:get_direction() == 0 then angle = 0
+    elseif hero:get_direction() == 1 then angle = math.pi / 2
+    elseif hero:get_direction() == 2 then angle = math.pi
+    elseif hero:get_direction() == 3 then angle = 3 * math.pi / 2 end
+
+    local movement = sol.movement.create("straight")
+    movement:set_speed(128)
+    movement:set_angle(angle)
+    movement:set_smooth(true)
+    movement:set_max_distance(56)
+
+    function movement:on_obstacle_reached()
+      movement:stop()
+      hero:unfreeze() 
+      hero_rolling = false
+    end
+
+    hero_rolling = true
+    
+    hero:set_animation("rolling",function() movement:stop() hero:unfreeze() hero_rolling = false end)
+
+    if hero:get_tunic_sprite_id() ~="npc/playing_character/eldran2" then
+      sol.audio.play_sound("rolling")
+      local index = math.random(1, 3)
+      if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/rolling_voice_" .. index) end
+    end
+    movement:start(hero,function() hero:unfreeze() hero_rolling = false end)     
+  end
+end
+
 -- Creates a game ready to be played.
 function game_manager:create(file)
 
@@ -34,7 +75,7 @@ function game_manager:create(file)
   if not exists then
     -- New game settings.
     game:set_starting_location("creations/labors/castle_oblivion_RDC","entree")
-    game:set_max_life(3*4)
+    game:set_max_life(20*4)
     game:set_life(game:get_max_life())
     game:get_item("equipment/tunic"):set_variant(1)
     game:get_item("equipment/rupee_bag"):set_variant(1)
@@ -43,7 +84,7 @@ function game_manager:create(file)
     --Touches manettes et clavier
     game:set_value("keyboard_look", "s")
     game:set_value("keyboard_roll", "space")
-    game:set_value("keyboard_commands", "q")
+    game:set_value("keyboard_commands", "f1")
     game:set_value("keyboard_map", "a")
     game:set_value("keyboard_save", "escape")
     game:set_value("joypad_look", "button 4")
@@ -59,13 +100,7 @@ function game_manager:create(file)
     game:set_value("daytime", 1)
     game:set_value("day",true)
 
-    game:set_value("intro",true)
-
-    --Other variables
-    game:set_value("wisdom_palace_water_level",3)
-    game:set_value("hyrule_castle_water_flux_north",true)
-    game:set_value("jabu_belly_water_level",1)
-    game:set_value("water_temple_water_level",4)
+    game:set_value("game_version", "1.2.0")
 
     game:set_value("remembrance_shard_found", 0)
 
@@ -79,6 +114,11 @@ function game_manager:create(file)
   local pause_manager = require("scripts/menus/pause")
   local pause_menu
 
+  -- Départ à l'entrée du Manoir quand le jeu est mis à jour
+  if game:get_value("game_version") == nil then
+    game:set_starting_location("creations/labors/castle_oblivion_RDC","entree")
+  end
+
   -- Function called when the player runs this game.
   function game:on_started()
 
@@ -89,6 +129,51 @@ function game_manager:create(file)
 	  dungeon_manager:create(game)
     equipment_manager:create(game)
     camera_manager:create(game)
+
+    -- Update variables for the next version of the game
+    if game:get_value("game_version") == nil then -- Version before 1.2.0
+
+      -- Ajustement de la variable de version
+      print("Te revoici après une longue attente... laisse-moi adapter certaines variables pour qu'elles correpondent à cette nouvelle version 1.2.")
+      game:set_value("game_version", "1.2.0")
+
+      -- Touche Menu Commandes et variable "intro" permettant au cycle jour/nuit de se faire
+      game:set_value("keyboard_commands", "f1")
+      game:set_value("intro",false)
+      
+      -- Remplacer les Upgrades de Vague par les Cartes d'Upgrade (Aide Casus désactivée par défaut)
+      if game:get_value("labors_bottle_1_wave_1") then
+        game:set_value("labors_bottle_1_wave_1",false)
+        game:set_value("labors_bottle_1",true)
+      end
+      if game:get_value("labors_bottle_2_wave_1") then
+        game:set_value("labors_bottle_2_wave_1",false)
+        game:get_item("inventory/bottle_2"):set_variant(0)
+        game:set_value("labors_casualization_wave_1",true)
+        game:get_item("upgrade_cards/tott_casual"):set_variant(2)
+      end
+      if game:get_value("labors_magic_flask_upgrade_wave_1") then
+        game:get_item("quest_items/magic_flask_upgrade"):set_variant(0)
+        game:get_item("upgrade_cards/tott_magic"):set_variant(1)
+      end
+      if game:get_value("labors_quiver_wave_1") then
+        game:get_item("equipment/quiver"):set_variant(0)
+        game:get_item("upgrade_cards/tott_arrows"):set_variant(1)
+      end
+      if game:get_value("labors_attack_boost_wave_1") then
+        game:get_item("quest_items/attack_boost"):set_variant(0)
+        game:get_item("upgrade_cards/tott_attack"):set_variant(1)
+      end
+      if game:get_value("labors_bomb_bag_wave_1") then
+        game:get_item("equipment/bomb_bag"):set_variant(0)
+        game:get_item("upgrade_cards/tott_bombs"):set_variant(1)
+      end
+      if game:get_value("labors_defense_boost_wave_1") then
+        game:get_item("quest_items/defense_boost"):set_variant(0)
+        game:get_item("upgrade_cards/tott_defence"):set_variant(1)
+      end
+
+    end
 
     -- Measure the time played.
     run_chronometer(game)
@@ -151,7 +236,9 @@ function game_manager:create(file)
       elseif key == game:get_value("keyboard_commands") then
         -- Commands.
         if not game:is_suspended() or game:is_paused() then
+          game:set_value("in_commands_menu", true)
           game:switch_pause_menu("commands")
+          game:set_value("in_commands_menu", false)
           handled = true
         end
 
@@ -188,43 +275,7 @@ function game_manager:create(file)
       end
 
       if key == game:get_value("keyboard_roll") then
-        local hero = game:get_map():get_hero()
-        local effect = game:get_command_effect("action")
-        local hero_state = hero:get_state()
-        local dx = {[0] = 8, [1] = 0, [2] = -8, [3] = 0}
-        local dy = {[0] = 0, [1] = -8, [2] = 0, [3] = 8}
-        local direction = hero:get_direction()
-        local has_space = not hero:test_obstacles(dx[direction], dy[direction])
-        if not game:is_suspended() and has_space and not game:is_dialog_enabled() and game:get_life() > 0 and hero_state == "free" and hero:is_walking() and not hero_rolling and not arcade_game and not hero_slowed then
-          local angle
-          if hero:get_direction() == 0 then angle = 0
-          elseif hero:get_direction() == 1 then angle = math.pi / 2
-          elseif hero:get_direction() == 2 then angle = math.pi
-          elseif hero:get_direction() == 3 then angle = 3 * math.pi / 2 end
-
-          local movement = sol.movement.create("straight")
-          movement:set_speed(128)
-          movement:set_angle(angle)
-          movement:set_smooth(true)
-          movement:set_max_distance(56)
-
-          function movement:on_obstacle_reached()
-            movement:stop()
-            hero:unfreeze() 
-            hero_rolling = false
-          end
-
-          hero_rolling = true
-          hero:set_animation("rolling")
-          if hero:get_tunic_sprite_id() == "hero/tunic1" or hero:get_tunic_sprite_id() == "hero/tunic2" or hero:get_tunic_sprite_id() == "hero/tunic3" then
-            sol.audio.play_sound("rolling")
-            local index = math.random(1, 3)
-            if link_voice_manager:get_link_voice_enabled() then
-              sol.audio.play_sound("link_voices/rolling_voice_" .. index)
-            end
-          end
-          movement:start(hero,function() hero:unfreeze() hero_rolling = false end)         
-        end
+        hero_roll(game)
       end
    end
 
@@ -248,13 +299,6 @@ function game_manager:create(file)
         -- Map.
         if not game:is_suspended() or game:is_paused() then
           game:switch_pause_menu("map")
-          handled = true
-        end
-
-      elseif joypad_action == game:get_value("joypad_commands") then
-        -- Commands.
-        if not game:is_suspended() or game:is_paused() then
-          game:switch_pause_menu("commands")
           handled = true
         end
 
@@ -291,43 +335,7 @@ function game_manager:create(file)
     end
 
     if joypad_action == game:get_value("joypad_roll") then
-        local hero = game:get_map():get_hero()
-        local effect = game:get_command_effect("action")
-        local hero_state = hero:get_state()
-        local dx = {[0] = 8, [1] = 0, [2] = -8, [3] = 0}
-        local dy = {[0] = 0, [1] = -8, [2] = 0, [3] = 8}
-        local direction = hero:get_direction()
-        local has_space = not hero:test_obstacles(dx[direction], dy[direction])
-        if not game:is_suspended() and has_space and not game:is_dialog_enabled() and game:get_life() > 0 and hero_state == "free" and hero:is_walking() and not hero_rolling and not arcade_game and not hero_slowed then
-          local angle
-          if hero:get_direction() == 0 then angle = 0
-          elseif hero:get_direction() == 1 then angle = math.pi / 2
-          elseif hero:get_direction() == 2 then angle = math.pi
-          elseif hero:get_direction() == 3 then angle = 3 * math.pi / 2 end
-
-          local movement = sol.movement.create("straight")
-          movement:set_speed(128)
-          movement:set_angle(angle)
-          movement:set_smooth(true)
-          movement:set_max_distance(56)
-
-          function movement:on_obstacle_reached()
-            movement:stop()
-            hero:unfreeze() 
-            hero_rolling = false
-          end
-
-          hero_rolling = true
-          hero:set_animation("rolling")
-          if hero:get_tunic_sprite_id() == "hero/tunic1" or hero:get_tunic_sprite_id() == "hero/tunic2" or hero:get_tunic_sprite_id() == "hero/tunic3" then
-            sol.audio.play_sound("rolling")
-            local index = math.random(1, 3)
-            if link_voice_manager:get_link_voice_enabled() then
-              sol.audio.play_sound("link_voices/rolling_voice_" .. index)
-            end
-          end
-          movement:start(hero,function() hero:unfreeze() hero_rolling = false end)         
-        end
+      hero_roll(game)
     end
 
     return handled

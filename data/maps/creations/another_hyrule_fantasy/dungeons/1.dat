@@ -21759,9 +21759,9 @@ tile{
 wall{
   layer = 1,
   x = 784,
-  y = 344,
+  y = 352,
   width = 32,
-  height = 24,
+  height = 16,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -21772,9 +21772,9 @@ wall{
 custom_entity{
   layer = 1,
   x = 816,
-  y = 357,
+  y = 365,
   width = 8,
-  height = 24,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -21782,19 +21782,9 @@ custom_entity{
 custom_entity{
   layer = 1,
   x = 792,
-  y = 357,
+  y = 365,
   width = 8,
-  height = 24,
-  direction = 0,
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 1,
-  x = 800,
-  y = 357,
-  width = 16,
-  height = 8,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -22477,7 +22467,6 @@ destructible{
   layer = 1,
   x = 1112,
   y = 1085,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -22489,7 +22478,6 @@ destructible{
   layer = 1,
   x = 376,
   y = 829,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -22501,7 +22489,6 @@ destructible{
   layer = 1,
   x = 376,
   y = 861,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -22513,7 +22500,6 @@ destructible{
   layer = 1,
   x = 1448,
   y = 1149,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -22525,7 +22511,6 @@ destructible{
   layer = 1,
   x = 1768,
   y = 877,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -22915,7 +22900,6 @@ destructible{
   layer = 1,
   x = 1128,
   y = 301,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,
@@ -23336,6 +23320,12 @@ enemy{
   layer = 1,
   x = 1760,
   y = 557,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 0,
   breed = "boss/gohma",
   savegame_variable = "boss_1001",
@@ -23346,6 +23336,12 @@ enemy{
   layer = 1,
   x = 1760,
   y = 557,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 0,
   breed = "boss/gohma_eye",
   savegame_variable = "boss_1001",
@@ -23356,34 +23352,8 @@ destructible{
   layer = 1,
   x = 1656,
   y = 589,
-  treasure_name = "pickable/random_arrows",
-  sprite = "entities/Destructables/vase",
-  destruction_sound = "vase",
-  weight = 1,
-  can_be_cut = true,
-  can_regenerate = true,
-}
-
-destructible{
-  name = "auto_destructible_21",
-  layer = 1,
-  x = 1656,
-  y = 621,
-  treasure_name = "pickable/random_arrows",
-  sprite = "entities/Destructables/vase",
-  destruction_sound = "vase",
-  weight = 1,
-  can_be_cut = true,
-  can_regenerate = true,
-}
-
-destructible{
-  name = "auto_destructible_22",
-  layer = 1,
-  x = 1656,
-  y = 605,
-  treasure_name = "pickable/random_heart_magic",
-  sprite = "entities/Destructables/vase",
+  treasure_name = "pickable/arrow",
+  sprite = "entities/Destructables/vase_gold",
   destruction_sound = "vase",
   weight = 1,
   can_be_cut = true,
@@ -23657,6 +23627,32 @@ sensor{
   y = 1013,
   width = 32,
   height = 16,
+}
+
+destructible{
+  name = "auto_destructible_21",
+  layer = 1,
+  x = 1656,
+  y = 621,
+  treasure_name = "pickable/arrow",
+  sprite = "entities/Destructables/vase_gold",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+  can_regenerate = true,
+}
+
+destructible{
+  name = "auto_destructible_22",
+  layer = 1,
+  x = 1656,
+  y = 605,
+  treasure_name = "pickable/random_arrows",
+  sprite = "entities/Destructables/vase_gold",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+  can_regenerate = true,
 }
 
 tile{

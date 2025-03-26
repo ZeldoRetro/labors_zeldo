@@ -1,0 +1,12 @@
+animation{
+  name = "flying",
+  src_image = "enemies/boss/zeldo_broken.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 320, y = 80, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4, num_frames = 4 },
+    { x = 320, y = 80, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4, num_frames = 4 },
+    { x = 320, y = 80, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4, num_frames = 4 },
+    { x = 320, y = 80, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4, num_frames = 4 },
+  },
+}

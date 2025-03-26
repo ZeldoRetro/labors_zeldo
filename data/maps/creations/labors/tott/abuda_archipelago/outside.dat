@@ -13586,6 +13586,7 @@ door{
   y = 128,
   direction = 0,
   sprite = "entities/Doors/Outside/door_light01",
+  cannot_open_dialog = "door.closed.1",
 }
 
 door{
@@ -13617,14 +13618,6 @@ destination{
   direction = 3,
 }
 
-destination{
-  name = "house_2",
-  layer = -1,
-  x = 1488,
-  y = 373,
-  direction = 3,
-}
-
 teletransporter{
   layer = -1,
   x = 1480,
@@ -13633,14 +13626,6 @@ teletransporter{
   height = 16,
   destination_map = "creations/labors/tott/abuda_archipelago/house_2",
   destination = "entree",
-}
-
-destination{
-  name = "inn",
-  layer = -1,
-  x = 1160,
-  y = 821,
-  direction = 3,
 }
 
 teletransporter{
@@ -13736,6 +13721,40 @@ npc{
   subtype = 1,
   sprite = "npc/kid_2",
   behavior = "dialog#LABORS.tott.abuda.boy",
+}
+
+dynamic_tile{
+  name = "casual_entity_2",
+  layer = -1,
+  x = 1072,
+  y = 624,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.4",
+  tileset = "extra/casual_tileset",
+}
+
+destination{
+  name = "house_2",
+  layer = -1,
+  x = 1488,
+  y = 373,
+  direction = 3,
+}
+
+destination{
+  name = "inn",
+  layer = -1,
+  x = 1160,
+  y = 821,
+  direction = 3,
 }
 
 tile{
@@ -23161,7 +23180,6 @@ destructible{
   layer = 0,
   x = 832,
   y = 157,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24402,7 +24420,6 @@ destructible{
   layer = 0,
   x = 344,
   y = 461,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24425,7 +24442,6 @@ destructible{
   layer = 0,
   x = 344,
   y = 477,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24436,7 +24452,6 @@ destructible{
   layer = 0,
   x = 344,
   y = 493,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24447,7 +24462,6 @@ destructible{
   layer = 0,
   x = 344,
   y = 509,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24458,7 +24472,6 @@ destructible{
   layer = 0,
   x = 520,
   y = 461,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24469,7 +24482,6 @@ destructible{
   layer = 0,
   x = 520,
   y = 477,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24480,7 +24492,6 @@ destructible{
   layer = 0,
   x = 456,
   y = 573,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24535,7 +24546,6 @@ destructible{
   layer = 0,
   x = 744,
   y = 861,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24746,7 +24756,6 @@ destructible{
   layer = 0,
   x = 1480,
   y = 669,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24757,7 +24766,6 @@ destructible{
   layer = 0,
   x = 1496,
   y = 685,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24768,7 +24776,6 @@ destructible{
   layer = 0,
   x = 1368,
   y = 693,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24779,7 +24786,6 @@ destructible{
   layer = 0,
   x = 1352,
   y = 693,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24814,7 +24820,6 @@ destructible{
   layer = 0,
   x = 1336,
   y = 621,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24967,7 +24972,6 @@ destructible{
   layer = 0,
   x = 888,
   y = 461,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24978,7 +24982,6 @@ destructible{
   layer = 0,
   x = 1000,
   y = 413,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -24989,7 +24992,6 @@ destructible{
   layer = 0,
   x = 1016,
   y = 413,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -25000,7 +25002,6 @@ destructible{
   layer = 0,
   x = 1016,
   y = 429,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -25011,7 +25012,6 @@ destructible{
   layer = 0,
   x = 1176,
   y = 477,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -25022,7 +25022,6 @@ destructible{
   layer = 0,
   x = 1176,
   y = 493,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -25033,7 +25032,6 @@ destructible{
   layer = 0,
   x = 920,
   y = 621,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -25044,7 +25042,6 @@ destructible{
   layer = 0,
   x = 936,
   y = 621,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -25055,7 +25052,6 @@ destructible{
   layer = 0,
   x = 888,
   y = 621,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -25066,7 +25062,6 @@ destructible{
   layer = 0,
   x = 744,
   y = 581,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -25077,7 +25072,6 @@ destructible{
   layer = 0,
   x = 728,
   y = 581,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -25088,7 +25082,6 @@ destructible{
   layer = 0,
   x = 712,
   y = 565,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -25323,7 +25316,6 @@ destructible{
   layer = 0,
   x = 1336,
   y = 693,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -25637,6 +25629,7 @@ door{
   y = 608,
   direction = 0,
   sprite = "entities/Doors/Outside/door_light03",
+  cannot_open_dialog = "door.closed.1",
 }
 
 door{
@@ -25646,6 +25639,7 @@ door{
   y = 456,
   direction = 0,
   sprite = "entities/Doors/Outside/door_light01",
+  cannot_open_dialog = "door.closed.1",
 }
 
 door{
@@ -25655,6 +25649,7 @@ door{
   y = 464,
   direction = 0,
   sprite = "entities/Doors/Outside/door_light01",
+  cannot_open_dialog = "door.closed.1",
 }
 
 door{
@@ -25664,6 +25659,7 @@ door{
   y = 688,
   direction = 0,
   sprite = "entities/Doors/Outside/door_light02",
+  cannot_open_dialog = "door.closed.1",
 }
 
 door{
@@ -25938,7 +25934,6 @@ destructible{
   layer = 0,
   x = 728,
   y = 445,
-  treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_07",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -26015,6 +26010,42 @@ wall{
   width = 96,
   height = 8,
   stops_npcs = true,
+}
+
+dynamic_tile{
+  name = "casual_entity_1",
+  layer = 0,
+  x = 752,
+  y = 864,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.4",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_3",
+  layer = 0,
+  x = 576,
+  y = 144,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.hookshot",
+  tileset = "extra/casual_tileset",
 }
 
 tile{

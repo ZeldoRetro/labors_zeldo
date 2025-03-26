@@ -6,8 +6,9 @@ local children = {}
 
 function enemy:on_created()
 
-  enemy:set_life(12)
+  enemy:set_life(8)
   enemy:set_damage(16)
+  self:set_attacking_collision_mode("overlapping")
   enemy:set_invincible()
   enemy:create_sprite("enemies/" .. enemy:get_breed())
 end
@@ -103,4 +104,11 @@ function enemy:on_removed()
   for _, child in ipairs(children) do
     child:remove()
   end
+end
+
+function enemy:on_movement_changed(movement)
+
+  local direction4 = movement:get_direction4()
+  local sprite = self:get_sprite()
+  sprite:set_direction(direction4)
 end

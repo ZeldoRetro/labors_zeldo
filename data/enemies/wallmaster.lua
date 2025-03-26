@@ -8,11 +8,12 @@ local grabbed_hero
 
 function enemy:on_created()
 
-  enemy:set_life(16)
+  enemy:set_life(8)
   enemy:set_damage(0)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
   enemy:set_obstacle_behavior("flying")
+  enemy:set_property("is_major","true")
   enemy:set_can_hurt_hero_running(true)
   enemy:set_layer_independent_collisions(true)
   enemy:set_optimization_distance(0)

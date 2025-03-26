@@ -965,7 +965,6 @@ destructible{
   layer = 1,
   x = 200,
   y = 61,
-  treasure_name = "pickable/random",
   sprite = "entities/Destructables/vase",
   destruction_sound = "vase",
   weight = 1,

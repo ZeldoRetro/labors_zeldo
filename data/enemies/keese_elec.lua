@@ -3,7 +3,7 @@ local enemy = ...
 --Electric Keese: Can electrocute the hero
 
 function enemy:on_created()
-  self:set_life(4)
+  self:set_life(3)
   self:set_damage(4)
   self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_attack_consequence("boomerang", 1)

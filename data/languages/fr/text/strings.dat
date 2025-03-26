@@ -161,30 +161,18 @@ text{ key = "pause.commands.save", value = "Sauvegarder" }
 text{ key = "pause.commands.sword", value = "Attaque" }
 text{ key = "pause.commands.title", value = "COMMANDES" }
 text{ key = "pause.commands.up", value = "Haut" }
-text{ key = "quest_status.item_caption.equipment/bomb_bag.1", value = "Capacité de Bombes - 20" }
-text{ key = "quest_status.item_caption.equipment/bomb_bag.2", value = "Capacité de Bombes - 40" }
-text{ key = "quest_status.item_caption.equipment/bomb_bag.3", value = "Capacité de Bombes - 60" }
-text{ key = "quest_status.item_caption.equipment/quiver.1", value = "Capacité de Flèches - 30" }
-text{ key = "quest_status.item_caption.equipment/quiver.2", value = "Capacité de Flèches - 50" }
-text{ key = "quest_status.item_caption.equipment/quiver.3", value = "Capacité de Flèches - 70" }
-text{ key = "quest_status.item_caption.equipment/rupee_bag.1", value = "Bourse de Rubis" }
-text{ key = "quest_status.item_caption.equipment/rupee_bag.2", value = "Grande Bourse de Rubis" }
-text{ key = "quest_status.item_caption.equipment/rupee_bag.3", value = "Bourse de Rubis géante" }
-text{ key = "quest_status.item_caption.equipment/rupee_bag.4", value = "Bourse de Rubis sans fond" }
-text{ key = "quest_status.item_caption.equipment/shield.1", value = "Bouclier de bois" }
-text{ key = "quest_status.item_caption.equipment/shield.2", value = "Bouclier Hylien" }
-text{ key = "quest_status.item_caption.equipment/shield.3", value = "Bouclier Miroir" }
-text{ key = "quest_status.item_caption.equipment/sword.1", value = "Epée Kokiri" }
-text{ key = "quest_status.item_caption.equipment/sword.2", value = "Epée de Viscen" }
-text{ key = "quest_status.item_caption.equipment/sword.3", value = "Epée de Légende" }
-text{ key = "quest_status.item_caption.equipment/sword.4", value = "Epée de Légende forgée" }
-text{ key = "quest_status.item_caption.equipment/tunic.1", value = "Tunique verte" }
-text{ key = "quest_status.item_caption.equipment/tunic.2", value = "Tunique bleue" }
-text{ key = "quest_status.item_caption.equipment/tunic.3", value = "Tunique rouge" }
-text{ key = "quest_status.item_caption.equipment/tunic.4", value = "Tunique violette" }
-text{ key = "quest_status.item_caption.quest_items/attack_boost.1", value = "Boost d'Attaque" }
-text{ key = "quest_status.item_caption.quest_items/defense_boost.1", value = "Boost de Défense" }
-text{ key = "quest_status.item_caption.quest_items/magic_flask_upgrade.1", value = "Double de Magie" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_arrows.1", value = "Upgrade de Flèches" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_arrows.2", value = "Upgrade de Flèches" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_attack.1", value = "Upgrade d'Attaque" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_attack.2", value = "Upgrade d'Attaque" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_bombs.1", value = "Upgrade de Bombes" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_bombs.2", value = "Upgrade de Bombes" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_casual.1", value = "Aide pour Casus" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_casual.2", value = "Aide pour Casus" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_defence.1", value = "Upgrade de Défense" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_defence.2", value = "Upgrade de Défense" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_magic.1", value = "Upgrade de Magie" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_magic.2", value = "Upgrade de Magie" }
 text{ key = "savegames_menu.cancel", value = "ANNULER" }
 text{ key = "savegames_menu.delete", value = "EFFACER" }
 text{ key = "savegames_menu.delete_question", value = "ETES-VOUS SUR ?" }
@@ -207,7 +195,7 @@ text{ key = "stats_menu.game_time", value = "Temps de jeu :" }
 text{ key = "stats_menu.items", value = "Objets :" }
 text{ key = "stats_menu.items_dungeons", value = "Clés des Galeries :" }
 text{ key = "stats_menu.items_equipment", value = "Objets d'equipement :" }
-text{ key = "stats_menu.items_inventory", value = "Upgrades du Magasin :" }
+text{ key = "stats_menu.items_inventory", value = "Cartes d'Upgrades :" }
 text{ key = "stats_menu.items_main_quest", value = "Trophées de Complétion :" }
 text{ key = "stats_menu.percent", value = "Complétion totale : $v %" }
 text{ key = "stats_menu.pieces_of_heart", value = "Quarts de coeur :" }

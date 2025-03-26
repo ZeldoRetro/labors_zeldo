@@ -37,6 +37,65 @@ require("scripts/multi_events")
    However, you can still do combinations by testing for the ability in your item script itself, or even make it an assignable item.
 --]]
 
+texte_lieu_on = false
+texte_boss_on = false
+
+achievement_display_on = false
+
+local monicle_img = sol.surface.create("backgrounds/monicle.png")
+monicle_img:set_opacity(92)
+
+texte_lieu = sol.text_surface.create{
+  text = "default",
+  font = "alttp",
+  font_size = 24,
+  horizontal_alignment = "left",
+  vertical_alignment = "middle",
+}
+location_text_background = sol.surface.create("menus/location_text_background.png")
+
+achievement_background = sol.surface.create("menus/achievement_background.png")
+achievement_title = sol.text_surface.create{
+  text = "Achievement",
+  font = "minecraftia",
+  font_size = 8,
+  horizontal_alignment = "left",
+  vertical_alignment = "middle",
+}
+achievement_descr = sol.text_surface.create{
+  text = "Achievement descr",
+  font = "minecraftia",
+  font_size = 8,
+  horizontal_alignment = "left",
+  vertical_alignment = "middle",
+}
+
+game_meta:register_event("on_draw",function(game,dst_surface)
+  local map = game:get_map()
+  local hero = map:get_hero()
+
+  --EFFET MONOCLE DE VERITE
+  if game:get_value("monicle_active") then
+    monicle_img:draw(dst_surface)
+  end
+
+
+  --AFFICHAGE LIEU
+  if texte_lieu_on then 
+    location_text_background:draw(dst_surface)
+    texte_lieu:draw(dst_surface, 8, 56) 
+  end
+  --AFFICHAGE BOSS
+  --if texte_boss_on then texte_boss:draw(dst_surface) end
+
+  --AFFICHAGE SUCCÈS
+  if achievement_display_on then 
+    achievement_background:draw(dst_surface, -224)
+    achievement_title:draw(dst_surface, 28, 194)
+    achievement_descr:draw(dst_surface, 28, 194)
+  end
+end)
+
 
 game_meta:register_event("on_command_pressed", function(game, command)
     local hero=game:get_hero()

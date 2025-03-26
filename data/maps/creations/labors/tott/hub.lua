@@ -12,40 +12,43 @@ function map:on_started()
   shrine_portal:set_drawn_in_y_order(true)
 
   --Reset du statut
-    game:set_max_life(3*4)
-    game:set_life(game:get_max_life())
-    game:set_item_assigned(1, nil)
-    game:set_item_assigned(2, nil)
-    game:get_item("equipment/tunic"):set_variant(1)
-    game:set_ability("tunic",1)
-    game:get_item("equipment/sword"):set_variant(0)
-    game:get_item("equipment/shield"):set_variant(0)
+  game:set_max_life(20*4)
+  game:set_life(game:get_max_life())
+  game:set_item_assigned(1, nil)
+  game:set_item_assigned(2, nil)
+  game:get_item("equipment/tunic"):set_variant(1)
+  game:set_ability("tunic",1)
+  game:get_item("equipment/sword"):set_variant(0)
+  game:get_item("equipment/shield"):set_variant(0)
 
-    game:set_value("force",1)
-    game:set_value("defense",1)
+  game:set_value("force",1)
+  game:set_value("defense",1)
 
-    game:get_item("magic_bar"):set_variant(1)
-    game:get_item("inventory/lamp"):set_variant(0)
-    game:get_item("inventory/boomerang"):set_variant(0)
-    game:get_item("inventory/hookshot"):set_variant(0)
-    game:get_item("inventory/hammer"):set_variant(0)
-    game:get_item("inventory/fire_rod"):set_variant(0)
-    game:get_item("inventory/ice_rod"):set_variant(0)
-    game:get_item("inventory/ocarina"):set_variant(0)
-    game:get_item("inventory/magic_powder"):set_variant(0)
-    game:get_item("inventory/monicle_truth"):set_variant(0)
-    game:get_item("equipment/bomb_bag"):set_variant(0)
-    game:get_item("equipment/flippers"):set_variant(0)
-    game:set_ability("swim",0)
-    game:get_item("equipment/glove"):set_variant(0)
-    game:set_ability("lift",1)
-    local bombs_counter = game:get_item("inventory/bombs_counter")
-    bombs_counter:set_variant(0)
-    bombs_counter:set_amount(0)
-    game:get_item("equipment/quiver"):set_variant(0)
-    local arrows_counter = game:get_item("inventory/bow")
-    arrows_counter:set_variant(0)
-    arrows_counter:set_amount(0)
+  game:get_item("inventory/lamp"):set_variant(0)
+  game:get_item("inventory/boomerang"):set_variant(0)
+  game:get_item("inventory/hookshot"):set_variant(0)
+  game:get_item("inventory/hammer"):set_variant(0)
+  game:get_item("inventory/fire_rod"):set_variant(0)
+  game:get_item("inventory/ice_rod"):set_variant(0)
+  game:get_item("inventory/ocarina"):set_variant(0)
+  game:get_item("inventory/magic_powder"):set_variant(0)
+  game:get_item("inventory/monicle_truth"):set_variant(0)
+  game:get_item("equipment/bomb_bag"):set_variant(0)
+  game:get_item("equipment/flippers"):set_variant(0)
+  game:set_ability("swim",0)
+  game:get_item("equipment/glove"):set_variant(0)
+  game:set_ability("lift",1)
+  local bombs_counter = game:get_item("inventory/bombs_counter")
+  bombs_counter:set_variant(0)
+  bombs_counter:set_amount(0)
+  game:get_item("equipment/quiver"):set_variant(0)
+  local arrows_counter = game:get_item("inventory/bow")
+  arrows_counter:set_variant(0)
+  arrows_counter:set_amount(0)
+
+  --Upgrades si achat au magasin
+  if game:get_value("tott_upgrade_card_force_active") then local force = game:get_value("force") game:set_value("force", force + 1) end
+  if game:get_value("tott_upgrade_card_defense_active") then local defense = game:get_value("defense") game:set_value("defense", defense + 1) end
 
   --Modèle PLAYER
   hero:set_tunic_sprite_id("npc/playing_character/eldran2")
@@ -74,7 +77,7 @@ function map:on_started()
 
   --Articles du Magasin
   if not game:get_value("labors_magic_flask_upgrade_wave_1") then
-    if game:get_value("labors_bottle_2_wave_1") then shop_magic_flask_upgrade:set_enabled(true) elseif game:get_value("labors_bottle_1_wave_1") then shop_bottle_2:set_enabled(true) end
+    if game:get_value("labors_casualization_wave_1") then shop_magic_flask_upgrade:set_enabled(true) elseif game:get_value("labors_bottle_1") then shop_bottle_2:set_enabled(true) end
   end
   if not game:get_value("labors_attack_boost_wave_1") then
     if game:get_value("labors_quiver_wave_1") then shop_attack_boost:set_enabled(true) end
@@ -127,6 +130,29 @@ function welcome_shop_remembrance:on_activated()
   self:set_enabled(false)
   game:start_dialog("shop.welcome_labors_remembrance")
 end
+
+--ITEMS ACHETÉS S'ACTUALISENT EN DIRECT POUR LE SUIVANT
+if shop_bottle_1 ~= nil then 
+  function shop_bottle_1:on_bought()
+    shop_bottle_2:set_enabled(true)
+  end
+end
+if shop_bottle_2 ~= nil then 
+  function shop_bottle_2:on_bought()
+    shop_magic_flask_upgrade:set_enabled(true)
+  end
+end
+if shop_quiver ~= nil then 
+  function shop_quiver:on_bought()
+    shop_attack_boost:set_enabled(true)
+  end
+end
+if shop_bomb_bag ~= nil then 
+  function shop_bomb_bag:on_bought()
+    shop_defense_boost:set_enabled(true)
+  end
+end
+
 
 --PAS DE POTION SI PAS DE BOUTEILLE VIDE
 if game:get_value("labors_bottle_1_wave_1") then
@@ -212,97 +238,44 @@ function yellow_key:on_interaction()
   end)
 end
 
---REGARDER LES PORTRAITS
-local function look_painting(painting_sprite,painting_dialog)
-  hero:freeze()
-  painting_sprite:set_enabled(true)
-  painting_sprite:get_sprite():fade_in(25,function()
-    game:set_hud_enabled(false)
-    sol.timer.start(map,1500,function()
-      game:set_dialog_position("bottom")
-      game:set_dialog_style("blank")
-      game:start_dialog(painting_dialog,function()
-        game:set_dialog_position("auto")
-        game:set_hud_enabled(true)
-        painting_sprite:get_sprite():fade_out(25,function()
-          painting_sprite:set_enabled(false)
+--REGARDER LES PORTRAITS : ZONES ET TABLEAUX DE DEV
+
+local function look_frame(frame_dialog, test_image)
+  game:start_dialog(frame_dialog,function()
+    game:set_pause_allowed(false)
+    test_image:fade_in(30,function()
+      game:start_dialog("empty", function()
+        test_image:fade_out(50, function()
+          game:set_pause_allowed(true)
           hero:unfreeze()
+          function sol.video:on_draw(screen) end
         end)
       end)
     end)
+    function sol.video:on_draw(screen)
+      local x_size_1, y_size_1 = sol.video.get_window_size()
+      local x_size_2, y_size_2 = test_image:get_size()
+      local calcul = 1
+      if x_size_1 < y_size_1 then
+        calcul = x_size_1/x_size_2
+      else
+        calcul = y_size_1/y_size_2
+      end
+      test_image:set_scale(calcul, calcul)
+      test_image:draw(screen, 0, 0)
+    end
   end)
 end
 
-function painting_archipelago_npc:on_interaction()
-  look_painting(painting_archipelago,"LABORS.tott.paintings.archipelago")
-end
-function painting_ice_cave_npc:on_interaction()
-  look_painting(painting_ice_cave,"LABORS.tott.paintings.ice_cave")
-end
-function painting_hylia_waterfall_npc:on_interaction()
-  look_painting(painting_hylia_waterfall,"LABORS.tott.paintings.hylia_waterfall")
-end
-function painting_water_temple_npc:on_interaction()
-  look_painting(painting_water_temple,"LABORS.tott.paintings.water_temple")
-end
-function painting_ancient_catacomb_npc:on_interaction()
-  look_painting(painting_ancient_catacomb,"LABORS.tott.paintings.ancient_catacomb")
-end
-function painting_fire_temple_npc:on_interaction()
-  look_painting(painting_fire_temple,"LABORS.tott.paintings.fire_temple")
-end
-function painting_castle_tower_npc:on_interaction()
-  look_painting(painting_castle_tower,"LABORS.tott.paintings.castle_tower")
-end
-function painting_eagle_npc:on_interaction()
-  look_painting(painting_eagle,"LABORS.tott.paintings.eagle")
+for npc in map:get_entities("npc_frame_") do
+  function npc:on_interaction()
+    hero:freeze()
+    look_frame(npc:get_property("dialog"),sol.surface.create(npc:get_property("image")))
+  end
 end
 
---TABLEAUX DE DÉVELOPPEMENT
-
-function painting_dev_screen_1_npc:on_interaction()
-  look_painting(painting_dev_screen_1,"LABORS.tott.paintings.dev_screen_1")
-end
-function painting_dev_screen_2_npc:on_interaction()
-  look_painting(painting_dev_screen_2,"LABORS.tott.paintings.dev_screen_2")
-end
-function painting_dev_screen_3_npc:on_interaction()
-  look_painting(painting_dev_screen_3,"LABORS.tott.paintings.dev_screen_3")
-end
-
-function painting_dev_misc_1_npc:on_interaction()
-  look_painting(painting_dev_misc_1,"LABORS.tott.paintings.dev_misc_1")
-end
-function painting_dev_misc_2_npc:on_interaction()
-  look_painting(painting_dev_misc_2,"LABORS.tott.paintings.dev_misc_2")
-end
-
-function painting_dev_puzzle_1_npc:on_interaction()
-  look_painting(painting_dev_puzzle_1,"LABORS.tott.paintings.dev_puzzle_1")
-end
-function painting_dev_puzzle_2_npc:on_interaction()
-  look_painting(painting_dev_puzzle_2,"LABORS.tott.paintings.dev_puzzle_2")
-end
-
-function painting_dev_paper_1_npc:on_interaction()
-  look_painting(painting_dev_paper_1,"LABORS.tott.paintings.dev_paper_1")
-end
-function painting_dev_paper_2_npc:on_interaction()
-  look_painting(painting_dev_paper_2,"LABORS.tott.paintings.dev_paper_2")
-end
-
-function painting_dev_graph_1_npc:on_interaction()
-  look_painting(painting_dev_graph_1,"LABORS.tott.paintings.dev_graph_1")
-end
-function painting_dev_graph_2_npc:on_interaction()
-  look_painting(painting_dev_graph_2,"LABORS.tott.paintings.dev_graph_2")
-end
-
-function painting_dev_overworld_1_npc:on_interaction()
-  look_painting(painting_dev_overworld_1,"LABORS.tott.paintings.dev_overworld_1")
-end
-function painting_dev_overworld_2_npc:on_interaction()
-  look_painting(painting_dev_overworld_2,"LABORS.tott.paintings.dev_overworld_2")
+function map:on_finished()
+  function sol.video:on_draw(screen) end
 end
 
 --TEST SON ET LISTE DES MUSIQUES

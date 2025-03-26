@@ -35,7 +35,6 @@ function map:on_started(destination)
     game:set_value("force",1)
     game:set_value("defense",1)
 
-    game:get_item("magic_bar"):set_variant(1)
     game:get_item("inventory/lamp"):set_variant(1)
     game:get_item("equipment/glove"):set_variant(1)
     game:set_ability("lift",1)

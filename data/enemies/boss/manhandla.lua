@@ -12,13 +12,6 @@ function enemy:on_created()
   self:set_pushed_back_when_hurt(false)
   self:set_push_hero_on_sword(true)
   self:set_invincible()
-  self:set_attack_consequence("sword", "protected")
-  self:set_attack_consequence("thrown_item", "protected")
-  self:set_attack_consequence("explosion", "protected")
-  self:set_arrow_reaction("protected")
-  self:set_hookshot_reaction("protected")
-  self:set_hammer_reaction("protected")
-  self:set_attack_consequence("boomerang", "protected")
 end
 
 -- Makes the boss go toward a diagonal direction (1, 3, 5 or 7).

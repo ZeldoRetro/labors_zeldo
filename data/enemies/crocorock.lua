@@ -37,7 +37,7 @@ function enemy:on_movement_finished()
     end)
 end
 
--- Makes the rat walk towards a direction.
+-- Makes the crocorock walk towards a direction.
 function enemy:go()
 
     -- Set the sprite.
@@ -58,7 +58,7 @@ function enemy:go()
 end
 
 function enemy:on_immobilized()
+  self:set_traversable(false)
   self:set_life(1)
   self:set_invincible()
-  self:set_traversable(false)
 end

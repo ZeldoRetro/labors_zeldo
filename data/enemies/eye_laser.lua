@@ -15,6 +15,7 @@ function enemy:on_created()
   self:set_can_hurt_hero_running(true)
   self:set_invincible()
   self:set_minimum_shield_needed(3)
+  enemy:set_property("is_major","true")
   self:set_obstacle_behavior("flying")
 
   initial_position.x, initial_position.y, initial_position.layer = self:get_position()

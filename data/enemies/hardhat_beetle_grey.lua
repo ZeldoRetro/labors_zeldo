@@ -9,6 +9,7 @@ enemy:set_properties({
   normal_speed = 32,
   faster_speed = 40,
   push_hero_on_sword = true,
+  fire_reaction = "immobilized",
   movement_create = function()
     local m = sol.movement.create("random")
     m:set_smooth(true)

@@ -28,12 +28,10 @@ function link_voice_manager:save()
 end
 
 function link_voice_manager:set_link_voice_enabled()
-  print("1")
   link_voice.link_voice_enabled = true
 end
 
 function link_voice_manager:set_link_voice_disabled()
-  print("0")
   link_voice.link_voice_enabled = false
 end
 

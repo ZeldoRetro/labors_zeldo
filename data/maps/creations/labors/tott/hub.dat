@@ -4981,15 +4981,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1392,
-  y = 256,
-  width = 16,
-  height = 32,
-  pattern = "wall_pillar.1-2",
-}
-
-tile{
-  layer = 1,
   x = 1472,
   y = 256,
   width = 16,
@@ -6979,7 +6970,7 @@ tile{
 tile{
   layer = 1,
   x = 600,
-  y = 152,
+  y = 56,
   width = 16,
   height = 32,
   pattern = "5_5",
@@ -6989,7 +6980,7 @@ tile{
 tile{
   layer = 1,
   x = 600,
-  y = 56,
+  y = 152,
   width = 16,
   height = 32,
   pattern = "5_6",
@@ -6999,7 +6990,7 @@ tile{
 tile{
   layer = 1,
   x = 24,
-  y = 56,
+  y = 152,
   width = 16,
   height = 32,
   pattern = "5_8",
@@ -7009,7 +7000,7 @@ tile{
 tile{
   layer = 1,
   x = 24,
-  y = 152,
+  y = 56,
   width = 16,
   height = 32,
   pattern = "5_7",
@@ -7898,6 +7889,15 @@ tile{
   pattern = "wall_pillar.1-2",
 }
 
+tile{
+  layer = 1,
+  x = 1392,
+  y = 256,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-2",
+}
+
 sensor{
   name = "welcome_shop_potion",
   layer = 1,
@@ -7942,10 +7942,10 @@ wall{
   name = "final_chest_1_2",
   layer = 1,
   x = 1424,
-  y = 536,
+  y = 544,
   enabled_at_start = false,
   width = 32,
-  height = 24,
+  height = 16,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -8246,86 +8246,12 @@ destination{
   direction = 3,
 }
 
-npc{
-  name = "painting_archipelago_npc",
-  layer = 1,
-  x = 1360,
-  y = 277,
-  direction = 3,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_ice_cave_npc",
-  layer = 1,
-  x = 1440,
-  y = 277,
-  direction = 3,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_hylia_waterfall_npc",
-  layer = 1,
-  x = 1520,
-  y = 277,
-  direction = 3,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_water_temple_npc",
-  layer = 1,
-  x = 1360,
-  y = 453,
-  direction = 1,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_ancient_catacomb_npc",
-  layer = 1,
-  x = 1440,
-  y = 453,
-  direction = 1,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_fire_temple_npc",
-  layer = 1,
-  x = 1520,
-  y = 453,
-  direction = 1,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_castle_tower_npc",
-  layer = 1,
-  x = 1568,
-  y = 605,
-  direction = 2,
-  subtype = 0,
-}
-
 destination{
   name = "start_final_1",
   layer = 1,
   x = 1440,
   y = 621,
   direction = 3,
-}
-
-chest{
-  name = "final_chest_1_1",
-  layer = 1,
-  x = 1440,
-  y = 557,
-  enabled_at_start = false,
-  treasure_name = "dungeons/boss_key",
-  treasure_savegame_variable = "boss_key_10000_1",
-  sprite = "entities/Chests/chest_big_yellow",
 }
 
 door{
@@ -8368,7 +8294,7 @@ shop_treasure{
   x = 1064,
   y = 104,
   enabled_at_start = false,
-  treasure_name = "quest_items/magic_flask_upgrade",
+  treasure_name = "upgrade_cards/tott_magic",
   treasure_savegame_variable = "labors_magic_flask_upgrade_wave_1",
   price = 200,
   font = "la",
@@ -8381,7 +8307,7 @@ shop_treasure{
   x = 1104,
   y = 104,
   enabled_at_start = false,
-  treasure_name = "quest_items/attack_boost",
+  treasure_name = "upgrade_cards/tott_attack",
   treasure_savegame_variable = "labors_attack_boost_wave_1",
   price = 300,
   font = "la",
@@ -8394,7 +8320,7 @@ shop_treasure{
   x = 1144,
   y = 104,
   enabled_at_start = false,
-  treasure_name = "quest_items/defense_boost",
+  treasure_name = "upgrade_cards/tott_defence",
   treasure_savegame_variable = "labors_defense_boost_wave_1",
   price = 200,
   font = "la",
@@ -8536,11 +8462,11 @@ shop_treasure{
   x = 1064,
   y = 104,
   enabled_at_start = false,
-  treasure_name = "inventory/bottle_2",
-  treasure_savegame_variable = "labors_bottle_2_wave_1",
+  treasure_name = "upgrade_cards/tott_casual",
+  treasure_savegame_variable = "labors_casualization_wave_1",
   price = 100,
   font = "la",
-  dialog = "shop.bottle",
+  dialog = "shop.upgrade_card_casual",
 }
 
 shop_treasure{
@@ -8548,8 +8474,7 @@ shop_treasure{
   layer = 1,
   x = 1144,
   y = 104,
-  treasure_name = "equipment/bomb_bag",
-  treasure_variant = 2,
+  treasure_name = "upgrade_cards/tott_bombs",
   treasure_savegame_variable = "labors_bomb_bag_wave_1",
   price = 100,
   font = "la",
@@ -8561,8 +8486,7 @@ shop_treasure{
   layer = 1,
   x = 1104,
   y = 104,
-  treasure_name = "equipment/quiver",
-  treasure_variant = 2,
+  treasure_name = "upgrade_cards/tott_arrows",
   treasure_savegame_variable = "labors_quiver_wave_1",
   price = 100,
   font = "la",
@@ -8570,11 +8494,12 @@ shop_treasure{
 }
 
 shop_treasure{
+  name = "shop_bottle_1",
   layer = 1,
   x = 1064,
   y = 104,
   treasure_name = "inventory/bottle_1",
-  treasure_savegame_variable = "labors_bottle_1_wave_1",
+  treasure_savegame_variable = "labors_bottle_1",
   price = 100,
   font = "la",
   dialog = "shop.bottle",
@@ -8682,132 +8607,6 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/no_character/owl_statue_2",
-}
-
-npc{
-  name = "painting_eagle_npc",
-  layer = 1,
-  x = 928,
-  y = 605,
-  direction = 2,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_screen_3_npc",
-  layer = 1,
-  x = 320,
-  y = 37,
-  direction = 3,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_screen_1_npc",
-  layer = 1,
-  x = 160,
-  y = 37,
-  direction = 3,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_screen_2_npc",
-  layer = 1,
-  x = 480,
-  y = 37,
-  direction = 3,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_misc_1_npc",
-  layer = 1,
-  x = 160,
-  y = 213,
-  direction = 1,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_misc_2_npc",
-  layer = 1,
-  x = 320,
-  y = 213,
-  direction = 1,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_puzzle_2_npc",
-  layer = 1,
-  x = 160,
-  y = 101,
-  direction = 1,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_puzzle_1_npc",
-  layer = 1,
-  x = 160,
-  y = 149,
-  direction = 3,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_paper_1_npc",
-  layer = 1,
-  x = 480,
-  y = 149,
-  direction = 3,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_paper_2_npc",
-  layer = 1,
-  x = 480,
-  y = 101,
-  direction = 1,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_overworld_1_npc",
-  layer = 1,
-  x = 32,
-  y = 173,
-  direction = 0,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_overworld_2_npc",
-  layer = 1,
-  x = 32,
-  y = 77,
-  direction = 0,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_graph_1_npc",
-  layer = 1,
-  x = 608,
-  y = 173,
-  direction = 2,
-  subtype = 0,
-}
-
-npc{
-  name = "painting_dev_graph_2_npc",
-  layer = 1,
-  x = 608,
-  y = 77,
-  direction = 2,
-  subtype = 0,
 }
 
 npc{
@@ -9567,6 +9366,436 @@ teletransporter{
   destination = "begin_destination",
   sprite = "entities/Teletransporters/teletransporter_shrine",
   sound = "warp",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1432,
+  y = 557,
+  width = 8,
+  height = 16,
+  direction = 0,
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1456,
+  y = 557,
+  width = 8,
+  height = 16,
+  direction = 0,
+  model = "hookable",
+}
+
+chest{
+  name = "final_chest_1_1",
+  layer = 1,
+  x = 1440,
+  y = 557,
+  enabled_at_start = false,
+  treasure_name = "dungeons/boss_key",
+  treasure_savegame_variable = "boss_key_10000_1",
+  sprite = "entities/Chests/chest_big_yellow",
+}
+
+npc{
+  name = "npc_frame_area_1",
+  layer = 1,
+  x = 1360,
+  y = 277,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.archipelago",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_archipelago.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_2",
+  layer = 1,
+  x = 1520,
+  y = 453,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.fire_temple",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_fire_temple.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_3",
+  layer = 1,
+  x = 1520,
+  y = 277,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.hylia_waterfall",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_hylia_waterfall.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_4",
+  layer = 1,
+  x = 1360,
+  y = 453,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.water_temple",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_water_temple.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_5",
+  layer = 1,
+  x = 1440,
+  y = 277,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.ice_cave",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_ice_cave.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_6",
+  layer = 1,
+  x = 1440,
+  y = 453,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.ancient_catacomb",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_ancient_catacomb.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_7",
+  layer = 1,
+  x = 1568,
+  y = 605,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.castle_tower",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_castle_tower.png",
+    },
+  },
+  direction = 2,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_spoil",
+  layer = 1,
+  x = 928,
+  y = 605,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.eagle",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_eagle.png",
+    },
+  },
+  direction = 2,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_1",
+  layer = 1,
+  x = 160,
+  y = 37,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_screen_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_screen_1.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_2",
+  layer = 1,
+  x = 480,
+  y = 37,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_screen_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_screen_2.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_3",
+  layer = 1,
+  x = 320,
+  y = 37,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_screen_3",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_screen_3.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_4",
+  layer = 1,
+  x = 480,
+  y = 149,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_paper_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_paper_1.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_5",
+  layer = 1,
+  x = 480,
+  y = 101,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_paper_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_paper_2.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_6",
+  layer = 1,
+  x = 608,
+  y = 77,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_graph_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_graph_1.png",
+    },
+  },
+  direction = 2,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_7",
+  layer = 1,
+  x = 608,
+  y = 173,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_graph_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_graph_2.png",
+    },
+  },
+  direction = 2,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_8",
+  layer = 1,
+  x = 32,
+  y = 77,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_overworld_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_overworld_1.png",
+    },
+  },
+  direction = 0,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_9",
+  layer = 1,
+  x = 32,
+  y = 173,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_overworld_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_overworld_2.png",
+    },
+  },
+  direction = 0,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_10",
+  layer = 1,
+  x = 160,
+  y = 149,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_puzzle_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_puzzle_1.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_11",
+  layer = 1,
+  x = 160,
+  y = 101,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_puzzle_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_puzzle_2.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_12",
+  layer = 1,
+  x = 160,
+  y = 213,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_misc_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_misc_1.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_13",
+  layer = 1,
+  x = 320,
+  y = 213,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.tott.paintings.dev_misc_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_tott_dev_misc_2.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
 }
 
 tile{
@@ -10878,299 +11107,5 @@ dynamic_tile{
   width = 8,
   height = 16,
   pattern = "423",
-}
-
-custom_entity{
-  name = "painting_archipelago",
-  layer = 3,
-  x = 1280,
-  y = 240,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_archipelago",
-}
-
-custom_entity{
-  name = "painting_ice_cave",
-  layer = 3,
-  x = 1280,
-  y = 240,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_ice_cave",
-}
-
-custom_entity{
-  name = "painting_hylia_waterfall",
-  layer = 3,
-  x = 1280,
-  y = 240,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_hylia_waterfall",
-}
-
-custom_entity{
-  name = "painting_ancient_catacomb",
-  layer = 3,
-  x = 1280,
-  y = 240,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_ancient_catacomb",
-}
-
-custom_entity{
-  name = "painting_water_temple",
-  layer = 3,
-  x = 1280,
-  y = 240,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_water_temple",
-}
-
-custom_entity{
-  name = "painting_fire_temple",
-  layer = 3,
-  x = 1280,
-  y = 240,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_fire_temple",
-}
-
-custom_entity{
-  name = "painting_castle_tower",
-  layer = 3,
-  x = 1280,
-  y = 480,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_castle_tower",
-}
-
-custom_entity{
-  name = "painting_eagle",
-  layer = 3,
-  x = 640,
-  y = 480,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_eagle",
-}
-
-custom_entity{
-  name = "painting_dev_screen_3",
-  layer = 3,
-  x = 160,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_screen_3",
-}
-
-custom_entity{
-  name = "painting_dev_screen_1",
-  layer = 3,
-  x = 0,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_screen_1",
-}
-
-custom_entity{
-  name = "painting_dev_screen_2",
-  layer = 3,
-  x = 320,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_screen_2",
-}
-
-custom_entity{
-  name = "painting_dev_misc_1",
-  layer = 3,
-  x = 0,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_misc_1",
-}
-
-custom_entity{
-  name = "painting_dev_misc_2",
-  layer = 3,
-  x = 160,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_misc_2",
-}
-
-custom_entity{
-  name = "painting_dev_puzzle_1",
-  layer = 3,
-  x = 0,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_puzzle_1",
-}
-
-custom_entity{
-  name = "painting_dev_puzzle_2",
-  layer = 3,
-  x = 0,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_puzzle_2",
-}
-
-custom_entity{
-  name = "painting_dev_paper_1",
-  layer = 3,
-  x = 320,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_paper_1",
-}
-
-custom_entity{
-  name = "painting_dev_paper_2",
-  layer = 3,
-  x = 320,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_paper_2",
-}
-
-custom_entity{
-  name = "painting_dev_graph_1",
-  layer = 3,
-  x = 320,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_graph_1",
-}
-
-custom_entity{
-  name = "painting_dev_graph_2",
-  layer = 3,
-  x = 320,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_graph_2",
-}
-
-custom_entity{
-  name = "painting_dev_overworld_1",
-  layer = 3,
-  x = 0,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_overworld_1",
-}
-
-custom_entity{
-  name = "painting_dev_overworld_2",
-  layer = 3,
-  x = 0,
-  y = 0,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  origin_x = 0,
-  origin_y = 0,
-  direction = 0,
-  sprite = "entities/Decorations/paintings_labors_tott_dev_overworld_2",
 }
 
