@@ -2,6 +2,36 @@
 
 You can find here the version history of the Labors of Zeldo. Every version has a release linked to it.
 
+## v1.2.0
+
+Migrations provided via the ZeldoPack
+
+- Import of new metatables (doors, switches, destructibles, etc.)
+- Import of enemy upgrades (collision mode and properties)
+- Replace all cracked blocks with the corresponding new custom entities
+- Misc adjustments
+- Rework of the Command Menu
+
+New features
+
+- Time will now pass in Hylia waterfalls and outside the water temple + Day/night cycle taken into account in the castle tower
+- Shop upgrades are now upgrade cards : they add an upgrade effect to all areas of the current wave and can be activated/deactivated via the quest status menu
+- New item : the casual help card. This upgrade card will spawn various entities to help players activating it
+- The Player has now 20 hearts in the hub areas
+- Forgotten corridor
+- Update variables for savefiles with previous versions
+
+Bugfixes
+
+- Invisible walls for enemy projectiles
+- Fix borders around lava holes
+- Map displayed in the Hyrule Castle tower
+- Extend the timing of Fire Temple torches (1 second added)
+- Shop items are updated live, without having to leave the HUB to reload the next item to sell
+- Fix Attack and defense constantly increasing in areas with the attack/defense upgrades
+- Fix various mapping errors
+- Misc
+
 ## v1.1.0
 
 New features
