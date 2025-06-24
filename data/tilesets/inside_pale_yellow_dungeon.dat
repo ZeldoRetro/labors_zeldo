@@ -6971,7 +6971,7 @@ tile_pattern{
 
 tile_pattern{
   id = "162",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 448,
   y = 112,
@@ -7082,7 +7082,7 @@ tile_pattern{
 
 tile_pattern{
   id = "163",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 144,
@@ -39896,7 +39896,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_down.2.border.1-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 104,
@@ -39907,7 +39907,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_down.2.border.1-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 48,
@@ -39918,7 +39918,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_down.2.border.2-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 80,
@@ -39929,7 +39929,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_down.2.border.2-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 56,
@@ -39940,7 +39940,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_down.2.border.2-3",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 112,
@@ -39951,7 +39951,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_down.2.border.2-4",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 432,
   y = 168,
@@ -39962,7 +39962,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_down.2.border.3-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 448,
   y = 80,
@@ -39973,7 +39973,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_down.2.border.3-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 448,
   y = 56,
@@ -39984,7 +39984,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_down.2.border.3-3",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 136,
@@ -39995,7 +39995,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_down.2.border.3-4",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 432,
   y = 144,
@@ -50279,7 +50279,7 @@ tile_pattern{
 
 tile_pattern{
   id = "waterfall.1.bottom",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 0,
   x = { 600, 616, 632 },
   y = { 128, 128, 128 },
@@ -50315,7 +50315,7 @@ tile_pattern{
 
 tile_pattern{
   id = "waterfall.2.bottom",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 0,
   x = { 600, 616, 632 },
   y = { 136, 136, 136 },
@@ -50351,7 +50351,7 @@ tile_pattern{
 
 tile_pattern{
   id = "waterfall.3.bottom",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 0,
   x = { 616, 616, 616 },
   y = { 160, 176, 192 },
@@ -50387,7 +50387,7 @@ tile_pattern{
 
 tile_pattern{
   id = "waterfall.4.bottom",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 0,
   x = { 624, 624, 624 },
   y = { 160, 176, 192 },

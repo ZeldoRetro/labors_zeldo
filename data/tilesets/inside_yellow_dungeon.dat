@@ -36613,7 +36613,7 @@ tile_pattern{
 
 tile_pattern{
   id = "glass_floor.8",
-  ground = "ice",
+  ground = "traversable",
   default_layer = 0,
   x = 216,
   y = 128,

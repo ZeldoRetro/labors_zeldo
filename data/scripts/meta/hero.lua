@@ -27,22 +27,19 @@ hero_meta:register_event("on_state_changed", function(hero , state)
     elseif ground == "lava" then
       if game:get_life() >= 1 then game:add_life(2) end
     end
-  elseif state == "sword swinging" then
-    -- Sword swinging
-    local index = math.random(1, 3)
-    if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/sword_voice_" .. index) end
-  elseif state == "falling" then
-    if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/hero_falls") else sol.audio.play_sound("hero_falls") end
-  elseif state == "sword spin attack" then
-    -- Sword spinning
-    local index = math.random(1, 3)
-    if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/spin_voice_" .. index) end
-  --elseif state == "sword loading" then
-    -- Avoid the hero to load the sword during X
-  --  if map:is_sideview() then
-  --    hero:freeze()
-  --    hero:unfreeze()
-  --  end
+  end
+  if map:get_world() ~= "dungeon_10000" and map:get_world() ~= "dungeon_10010" then 
+    if state == "sword swinging" then
+      -- Sword swinging
+      local index = math.random(1, 3)
+      if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/sword_voice_" .. index) end
+    elseif state == "falling" then
+      if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/hero_falls") else sol.audio.play_sound("hero_falls") end
+    elseif state == "sword spin attack" then
+      -- Sword spinning
+      local index = math.random(1, 3)
+      if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/spin_voice_" .. index) end
+    end
   end
 
   hero_rolling = false
@@ -59,6 +56,7 @@ hero_meta:register_event("on_taking_damage", function(hero , damage)
 
   -- Here, self is the hero.
   local game = hero:get_game()
+  local map = game:get_map()
 
   -- In the parameter, the damage unit is 1/4 of a heart.
 
@@ -79,7 +77,11 @@ hero_meta:register_event("on_taking_damage", function(hero , damage)
 
   game:remove_life(damage)
 
-  if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/hero_hurt") else sol.audio.play_sound("hero_hurt") end
+  if link_voice_manager:get_link_voice_enabled() then
+    if map:get_world() ~= "dungeon_10000" and map:get_world() ~= "dungeon_10010" then
+      sol.audio.play_sound("link_voices/hero_hurt")
+    end
+  else sol.audio.play_sound("hero_hurt") end
 end)
 
 -- Set fixed stopped/walking animations for the hero (or nil to disable them).

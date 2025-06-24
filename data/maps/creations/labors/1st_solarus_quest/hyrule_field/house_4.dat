@@ -1,0 +1,601 @@
+properties{
+  x = 5032,
+  y = 3638,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world_labors_1st_solarus_quest",
+  tileset = "inside_house",
+  music = "creations/labors/1st_solarus_quest/house",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 64,
+  width = 128,
+  height = 128,
+  pattern = "floor.cracked.6-2",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 56,
+  width = 128,
+  height = 8,
+  pattern = "wall_border.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 64,
+  width = 8,
+  height = 128,
+  pattern = "wall_border.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 64,
+  width = 8,
+  height = 128,
+  pattern = "wall_border.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 192,
+  width = 128,
+  height = 8,
+  pattern = "wall_border.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 32,
+  width = 144,
+  height = 24,
+  pattern = "wall.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 56,
+  width = 24,
+  height = 144,
+  pattern = "wall.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 56,
+  width = 24,
+  height = 144,
+  pattern = "wall.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 200,
+  width = 144,
+  height = 24,
+  pattern = "wall.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "floor.8-1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 160,
+  width = 8,
+  height = 24,
+  pattern = "tub.5",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "tub.8",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "tub.3",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 160,
+  width = 8,
+  height = 24,
+  pattern = "tub.4",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "tub.2",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "tub.9",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "tub.7",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 160,
+  width = 8,
+  height = 24,
+  pattern = "tub.6",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "tub.1",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "bug_cage",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "bug_cage",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "bug_cage",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "table.7",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "table.4",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 168,
+  width = 16,
+  height = 8,
+  pattern = "table.5",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "table.6",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "table.2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "table.9",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "table.8",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 160,
+  width = 8,
+  height = 16,
+  pattern = "wine_bottle",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 80,
+  width = 48,
+  height = 24,
+  pattern = "stove",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 32,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.1",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 32,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.3",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 32,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 32,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 32,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.2",
+}
+
+wall{
+  layer = 1,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/hyrule_field/field_out",
+  destination = "house_4",
+}
+
+destination{
+  name = "entree",
+  layer = 1,
+  x = 160,
+  y = 197,
+  direction = 1,
+  starting_location_mode = "no",
+}
+
+custom_entity{
+  layer = 1,
+  x = 136,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+pickable{
+  layer = 1,
+  x = 120,
+  y = 109,
+  treasure_name = "pickable/rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "rupees_10016_19",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 96,
+  y = 64,
+  width = 32,
+  height = 40,
+  pattern = "bed.default",
+}
+
+tile{
+  layer = 2,
+  x = 128,
+  y = 216,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 216,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 64,
+  height = 240,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 256,
+  y = 0,
+  width = 64,
+  height = 240,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 64,
+  y = 0,
+  width = 192,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 64,
+  y = 224,
+  width = 192,
+  height = 16,
+  pattern = "ceiling.2",
+}
+

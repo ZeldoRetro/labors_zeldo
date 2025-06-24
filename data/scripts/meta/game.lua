@@ -37,6 +37,48 @@ require("scripts/multi_events")
    However, you can still do combinations by testing for the ability in your item script itself, or even make it an assignable item.
 --]]
 
+
+-- FONCTION CUSTOM RETOURNANT LA VAGUE EN COURS
+game_meta:register_event("get_current_wave",function(game)
+  local map = game:get_map()
+  local world = map:get_world()
+
+  -- Vague 1 - Tower of the Triforce
+  if world == "dungeon_10000" -- Manoir Oblivion - Étage 1
+  or world == "dungeon_10001" -- Temple de l'Eau
+  or world == "dungeon_10002" -- Tombe ancienne
+  or world == "dungeon_10003" -- Caverne de Glace
+  or world == "dungeon_10004" -- Temple du Feu
+  or world == "dungeon_10005" -- Chutes d'Hylia
+  or world == "dungeon_10006" -- Archipel d'Abuda
+  or world == "dungeon_10007" -- Tour du Château
+  or world == "dungeon_1001" -- Zone SPOIL - AHF : Ruines de l'Aigle
+  or world == "outside_light_labors_tott"
+  or world == "inside_world_labors_tott" then
+    return "tott"
+
+  -- Vague 2 - 1st Solarus Quest
+  elseif world == "dungeon_10010" -- Manoir Oblivion - Étage 2
+  or world == "dungeon_10011" -- Terrain de Link et Forêt
+  or world == "dungeon_10012" -- Village du Lac
+  or world == "dungeon_10013" -- Montagne d'Héra
+  or world == "dungeon_10014" -- Temple de la Force
+  or world == "dungeon_10015" -- Temple de la Sagesse
+  or world == "dungeon_10016" -- Plaine d'Hyrule
+  or world == "dungeon_10017" -- Château d'Hyrule
+  or world == "dungeon_10018" -- Château de Ganon
+  or world == "dungeon_10019" -- Village de la Forêt
+  or world == "dungeon_4_out" -- Zone SPOIL - Forgotten : Jardins Kokiri
+  or world == "dungeon_4" -- Zone SPOIL - Forgotten : Jardins Kokiri
+  or world == "outside_light_labors_1st_solarus_quest"
+  or world == "inside_world_labors_1st_solarus_quest" then
+    return "1st_solarus_quest"
+
+  -- Hors Vague - Autre contenu 
+  else return "other" end
+end)
+
+
 texte_lieu_on = false
 texte_boss_on = false
 

@@ -35,7 +35,7 @@ end
 
 function item:get_force()
 
-  return 4
+  return 8
 end
 
 function item:get_arrow_sprite_id()

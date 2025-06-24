@@ -1,24 +1,82 @@
--- Lua script of map creations/labors/1st_solarus_quest/link_forest/link_house.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map is loaded.
-function map:on_started()
+-- DEBUT DE LA MAP
+map:register_event("on_started",function(map, destination)
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
-end
+  --Modèle LINK
+  hero:set_tunic_sprite_id("hero/tunic1")
+  hero:set_sword_sprite_id("hero/sword1")
+  if game:get_value("get_shield_10011") then hero:set_shield_sprite_id("npc/playing_character/link_1st_solarus_quest/shield1") end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+  -- Valeurs et équipement donnés pour la Zone
+  if destination == start then
 
-end
+    game:set_item_assigned(1, nil)
+    game:set_item_assigned(2, nil)
+
+    -- Stats force/défense + apparence
+    game:set_max_life(3*4)
+    game:set_life(game:get_max_life())
+    game:get_item("equipment/tunic"):set_variant(1)
+
+    -- Épée ?
+    if game:get_value("get_sword_10011") then 
+      game:get_item("equipment/sword"):set_variant(1)
+      game:set_value("force",1)
+    else
+      game:get_item("equipment/sword"):set_variant(0)
+      game:set_value("force",0)
+    end
+
+    -- Bouclier ?
+    if game:get_value("get_shield_10011") then
+      game:get_item("equipment/shield"):set_variant(1)
+      game:set_value("defense",1)
+    else
+      game:get_item("equipment/shield"):set_variant(0)
+      game:set_value("defense",0)
+    end
+
+    -- Arc ?
+    if game:get_value("get_bow_10011") then
+      game:get_item("equipment/quiver"):set_variant(1)
+      local arrows_counter = game:get_item("inventory/bow")
+      arrows_counter:set_variant(1)
+      arrows_counter:set_amount(30)
+    end
+
+    -- Objets permanents
+    if game:get_value("labors_perma_flippers_wave_2") then
+      game:get_item("equipment/flippers"):set_variant(1)
+      game:set_ability("swim",1)
+    end
+    if game:get_value("labors_perma_bombs_wave_2") then
+      game:get_item("equipment/bomb_bag"):set_variant(1)
+      local bombs_counter = game:get_item("inventory/bombs_counter")
+      bombs_counter:set_variant(1)
+      bombs_counter:set_amount(20)
+    end
+    if game:get_value("labors_perma_glove_3_wave_2") then
+      game:get_item("equipment/glove"):set_variant(3)
+      game:set_ability("lift",3)
+    end
+    if game:get_value("labors_perma_lamp_wave_2") then
+      game:get_item("inventory/lamp"):set_variant(1)
+    end
+    if game:get_value("labors_perma_boomerang_2_wave_2") then
+      game:get_item("inventory/boomerang"):set_variant(2)
+    end
+    if game:get_value("labors_perma_monicle_truth_wave_2") then
+      game:get_item("inventory/monicle_truth"):set_variant(1)
+    end
+
+    --Upgrades si achat au magasin
+    if game:get_value("tott_upgrade_card_force_active") then local force = game:get_value("force") game:set_value("force", force + 1) end
+    if game:get_value("tott_upgrade_card_defense_active") then local defense = game:get_value("defense") game:set_value("defense", defense + 1) end
+    if game:get_value("tott_upgrade_card_arrows_active") then game:get_item("equipment/quiver"):set_variant(2) game:get_item("inventory/bow"):set_amount(50) end
+    if game:get_value("tott_upgrade_card_bombs_active") then
+      if game:get_value("labors_perma_bombs_wave_2") then game:get_item("equipment/bomb_bag"):set_variant(2) game:get_item("inventory/bombs_counter"):set_amount(40) end
+    end
+  end
+end)

@@ -1,0 +1,9 @@
+animation{
+  name = "normal",
+  src_image = "entities/Decorations/triangle_pad.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 28, frame_height = 24, origin_x = 14, origin_y = 21 },
+    { x = 28, y = 0, frame_width = 28, frame_height = 24, origin_x = 14, origin_y = 21 },
+    { x = 56, y = 0, frame_width = 28, frame_height = 24, origin_x = 14, origin_y = 21 },
+  },
+}

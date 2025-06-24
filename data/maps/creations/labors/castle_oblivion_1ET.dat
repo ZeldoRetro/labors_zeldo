@@ -8128,6 +8128,15 @@ tile{
   pattern = "door.4",
 }
 
+sensor{
+  name = "texte_lieu_2",
+  layer = 1,
+  x = 472,
+  y = 29,
+  width = 32,
+  height = 32,
+}
+
 wall{
   layer = 1,
   x = 56,
@@ -8172,6 +8181,7 @@ destination{
   x = 480,
   y = 453,
   direction = 1,
+  starting_location_mode = "no",
 }
 
 teletransporter{
@@ -8218,6 +8228,7 @@ destination{
   x = 480,
   y = 229,
   direction = 1,
+  starting_location_mode = "no",
 }
 
 destination{
@@ -8226,6 +8237,7 @@ destination{
   x = 480,
   y = 261,
   direction = 3,
+  starting_location_mode = "no",
 }
 
 teletransporter{
@@ -8250,21 +8262,17 @@ teletransporter{
   sound = "warp",
 }
 
-npc{
-  name = "zeldo",
-  layer = 1,
-  x = 480,
-  y = 77,
-  direction = 1,
-  subtype = 1,
-  sprite = "enemies/boss/zeldo",
-}
-
 sensor{
-  name = "sensor_ending",
+  name = "sensor_wave_end",
   layer = 1,
   x = 424,
   y = 173,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
   width = 128,
   height = 16,
 }
@@ -8366,6 +8374,99 @@ dynamic_tile{
   width = 24,
   height = 32,
   pattern = "stain_glass.wide.4.top",
+}
+
+wall{
+  layer = 1,
+  x = 472,
+  y = 24,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+destination{
+  name = "escalier_n",
+  layer = 1,
+  x = 480,
+  y = 37,
+  direction = 3,
+  starting_location_mode = "no",
+}
+
+teletransporter{
+  layer = 1,
+  x = 472,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/castle_oblivion_2ET",
+  destination = "escalier_s",
+}
+
+stairs{
+  layer = 1,
+  x = 472,
+  y = 24,
+  direction = 1,
+  subtype = 2,
+}
+
+npc{
+  name = "zeldo_boss",
+  layer = 1,
+  x = 480,
+  y = 77,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/boss/zeldo_wave_1/zeldo",
+}
+
+npc{
+  name = "zeldo",
+  layer = 1,
+  x = 480,
+  y = 77,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  direction = 1,
+  subtype = 1,
+  sprite = "enemies/boss/zeldo",
+}
+
+destination{
+  name = "after_zeldo_battle",
+  layer = 1,
+  x = 480,
+  y = 173,
+  direction = 1,
+  starting_location_mode = "no",
+}
+
+npc{
+  name = "zeldo_defeated",
+  layer = 1,
+  x = 480,
+  y = 77,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/boss/zeldo_broken",
+}
+
+sensor{
+  name = "not_texte_2",
+  layer = 1,
+  x = 368,
+  y = 93,
+  width = 240,
+  height = 16,
 }
 
 tile{
@@ -8638,46 +8739,6 @@ tile{
   pattern = "door_top.closed.2-6",
 }
 
-tile{
-  layer = 2,
-  x = 392,
-  y = 136,
-  width = 16,
-  height = 24,
-  pattern = "3_2",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 2,
-  x = 552,
-  y = 136,
-  width = 16,
-  height = 24,
-  pattern = "3_2",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 2,
-  x = 392,
-  y = 296,
-  width = 16,
-  height = 24,
-  pattern = "3",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 2,
-  x = 552,
-  y = 296,
-  width = 16,
-  height = 24,
-  pattern = "3",
-  tileset = "inside_other",
-}
-
 separator{
   layer = 2,
   x = -8,
@@ -8712,5 +8773,198 @@ dynamic_tile{
   width = 8,
   height = 32,
   pattern = "door_top.4-3",
+}
+
+custom_entity{
+  name = "transformation_effect",
+  layer = 2,
+  x = 344,
+  y = 29,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/transformation",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 256,
+  y = 288,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 32,
+  height = 40,
+  pattern = "12_3",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 240,
+  y = 304,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 16,
+  height = 24,
+  pattern = "3_2",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 392,
+  y = 136,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 16,
+  height = 24,
+  pattern = "3_2",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 552,
+  y = 136,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 16,
+  height = 24,
+  pattern = "3_2",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 384,
+  y = 128,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 32,
+  height = 40,
+  pattern = "12_3",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 544,
+  y = 128,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 32,
+  height = 40,
+  pattern = "12_3",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 392,
+  y = 296,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 16,
+  height = 24,
+  pattern = "3",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 552,
+  y = 296,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 16,
+  height = 24,
+  pattern = "3",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 384,
+  y = 288,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 32,
+  height = 40,
+  pattern = "12_4",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 544,
+  y = 288,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 32,
+  height = 40,
+  pattern = "12_4",
+  tileset = "inside_other",
+}
+
+custom_entity{
+  name = "init_map",
+  layer = 2,
+  x = -8,
+  y = -3,
+  properties = {
+    {
+      key = "location_key",
+      value = "location.castle_oblivion_1ET",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 

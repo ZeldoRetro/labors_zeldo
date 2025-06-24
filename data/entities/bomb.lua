@@ -7,8 +7,11 @@
 
 -- Global variables.
 local bomb = ...
---local carriable_behavior = require("entities/lib/carriable")
---carriable_behavior.apply(bomb, {bounce_sound = "hero_lands", is_offensive = false})
+
+-- FOR ZELDA 1 STYLE BOMBS, JUST COMMENT THESE 2 LINES
+local carriable_behavior = require("entities/lib/carriable")
+carriable_behavior.apply(bomb, {bounce_sound = "hero_lands", slowdown_ratio = 0.2, is_offensive = false})
+
 
 local carrying_state = require("scripts/states/carrying.lua")
 local carrying = false
@@ -17,11 +20,50 @@ local map = bomb:get_map()
 local sprite = bomb:get_sprite()
 local exploding_timer, blinking_timer
 
+--RAZDARAC FIX
+
+local on_a_stream = nil
+bomb:set_follow_streams(false)
+
+function bomb:launch_this_collision()
+ bomb:add_collision_test("center", function(entity, other)
+  if other:get_type() == "stream" then
+    if on_a_stream == nil then
+      local m = sol.movement.create("path")
+      m:set_speed(other:get_speed())
+      m:set_path({other:get_direction()})
+      function m:on_obstacle_reached()
+        bomb:clear_collision_tests()
+        on_a_stream = nil
+        bomb:launch_this_collision()
+      end
+      m:start(bomb, function()
+        bomb:clear_collision_tests()
+        on_a_stream = nil
+        bomb:launch_this_collision()
+      end)
+      on_a_stream = true
+    end
+  end
+ end)
+end
+bomb:launch_this_collision()
+
+function bomb:on_finish_throw()
+  on_a_stream = nil
+  bomb:launch_this_collision()
+end
+
+bomb:register_event("on_thrown", function(bomb)
+  on_a_stream = nil
+  bomb:clear_collision_tests()
+end)
+
 -- Configuration variables.
 local countdown_duration = tonumber(bomb:get_property("countdown_duration")) or 2500
 local blinking_duration = 1000
 
---Cette partie ici a eetee ajoutee par DarkDavy15. Utilisez-le pour faire fonctionner l'ia du Dodongo.
+--Cette partie ici a ete ajoutee par DarkDavy15. Utilisez-le pour faire fonctionner l'ia du Dodongo.
 
 -- Collision with a Dodongo when mouth open 
 bomb:add_collision_test("sprite", function(entity, other, entity_sprite, other_sprite)
@@ -126,8 +168,6 @@ end)
 
 -- Setup traversable rules and start the bomb timer before exploding.
 bomb:register_event("on_created", function(bomb)
-  --carrying_state.start(bomb:get_map():get_hero(), bomb, sprite)
   sol.audio.play_sound("bomb")
   start_countdown()
-  bomb:set_follow_streams(true)
 end)

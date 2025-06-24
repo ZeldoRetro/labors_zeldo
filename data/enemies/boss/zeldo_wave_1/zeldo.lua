@@ -29,8 +29,8 @@ sound_list[6] = sol.language.get_language().."/zeldo_wave_1_voice/attack_water" 
 sound_list[7] = sol.language.get_language().."/zeldo_wave_1_voice/attack_cards" -- attaque cartes
 local card_projectile_id = "boss/zeldo_wave_1/card_projo"
 
-local id_dialog_1 = "door.closed.1" -- lorsqu'il utilise la "desperate move"
-local id_dialog_2 = "door.closed.2" -- lorsqu'il est definitivement tuee
+local id_dialog_1 = "LABORS.zeldo_wave_1.desesperate_move" -- lorsqu'il utilise la "desperate move"
+local id_dialog_2 = "LABORS.zeldo_wave_1.desesperate_move" -- lorsqu'il est definitivement tuee
 
 movement:set_target(hero)
 movement:set_speed(48)
@@ -42,7 +42,7 @@ movement:set_speed(48)
 -- Ecrire ceci pour remettre le mod normal
 function enemy:stop_the_joke()
   state = 0
-  enemy:set_damage(2)
+  enemy:set_damage(4)
   var_2 = 6
   enemy:restart()
 end

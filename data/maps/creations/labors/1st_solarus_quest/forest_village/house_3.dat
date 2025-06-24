@@ -1,0 +1,750 @@
+properties{
+  x = 1816,
+  y = 2260,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world_labors_1st_solarus_quest",
+  tileset = "inside_cave",
+  music = "creations/labors/1st_solarus_quest/house",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-9",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-9",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-9",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-9",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 16,
+  width = 240,
+  height = 24,
+  pattern = "wall.1-9",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 200,
+  width = 240,
+  height = 24,
+  pattern = "wall.2-9",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "wall.4-9",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "wall.3-9",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.3-5",
+  tileset = "inside_golden_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 192,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.2-5",
+  tileset = "inside_golden_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.4-5",
+  tileset = "inside_golden_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.1-5",
+  tileset = "inside_golden_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-5",
+  tileset = "inside_golden_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-5",
+  tileset = "inside_golden_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-5",
+  tileset = "inside_golden_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-5",
+  tileset = "inside_golden_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 48,
+  width = 224,
+  height = 144,
+  pattern = "floor.1-1",
+  tileset = "inside_pale_green_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "floor.8-1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 152,
+  width = 32,
+  height = 40,
+  pattern = "bed.default",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "table.8",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "table.7",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 104,
+  width = 8,
+  height = 24,
+  pattern = "table.6",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 96,
+  width = 16,
+  height = 8,
+  pattern = "table.2",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 104,
+  width = 16,
+  height = 24,
+  pattern = "table.5",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "table.9",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 104,
+  width = 8,
+  height = 24,
+  pattern = "table.4",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.3",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.1",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.2",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 16,
+  width = 48,
+  height = 32,
+  pattern = "bookshelf.2",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 48,
+  width = 48,
+  height = 24,
+  pattern = "stove",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 16,
+  width = 32,
+  height = 32,
+  pattern = "cook.pot",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "wall_torch.3",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "carpet.4",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 168,
+  width = 32,
+  height = 8,
+  pattern = "carpet.2",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 184,
+  width = 32,
+  height = 8,
+  pattern = "carpet.8",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "carpet.7",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "carpet.6",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 176,
+  width = 32,
+  height = 8,
+  pattern = "carpet.5",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 112,
+  width = 16,
+  height = 24,
+  pattern = "barrel",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 128,
+  width = 16,
+  height = 24,
+  pattern = "barrel",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "tub.3",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "tub.2",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "tub.9",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "tub.1",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "tub.8",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 160,
+  width = 8,
+  height = 24,
+  pattern = "tub.5",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 160,
+  width = 8,
+  height = 24,
+  pattern = "tub.6",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "tub.7",
+  tileset = "inside_house",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 160,
+  width = 8,
+  height = 24,
+  pattern = "tub.4",
+  tileset = "inside_house",
+}
+
+wall{
+  layer = 1,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/forest_village/outside",
+  destination = "house_3",
+}
+
+destination{
+  name = "entree",
+  layer = 1,
+  x = 160,
+  y = 197,
+  direction = 1,
+  starting_location_mode = "no",
+}
+
+chest{
+  layer = 1,
+  x = 56,
+  y = 77,
+  treasure_name = "pickable/rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "rupees_10019_1",
+  sprite = "entities/Chests/chest_LttP",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 0,
+  width = 288,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 224,
+  width = 288,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 128,
+  y = 216,
+  width = 64,
+  height = 8,
+  pattern = "2719",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 216,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-5",
+}
+

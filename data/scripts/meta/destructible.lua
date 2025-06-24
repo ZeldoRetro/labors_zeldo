@@ -79,6 +79,10 @@ destructible_meta:register_event("on_created",function(destructible)
   if name:match("^dev_entity") then
     destructible:set_visible(false)
   end
+
+  if name:match("^invisible_path") then
+    destructible:set_visible(false)
+  end
 end)
 
 destructible_meta:register_event("on_cut",function(destructible)

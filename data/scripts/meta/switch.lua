@@ -57,6 +57,10 @@ switch_meta:register_event("on_created", function(switch)
     return
   end
 
+  if name:match("^invisible_path") then
+    switch:set_visible(false)
+  end
+
   -- Switch qui révèle les chemins invisibles (via torches, ou pas)
   if name:match("^switch_reveals_path") then
     switch_reveals_path_counter = 0

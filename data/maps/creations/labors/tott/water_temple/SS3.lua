@@ -168,7 +168,7 @@ function map:on_started()
     map:set_doors_open("door_boss")
     local x, y = heart_container_spot:get_position()
     map:create_pickable{
-      treasure_name = "quest_items/remembrance_shard",
+      treasure_name = "quest_items/remembrance_shard_tott",
       treasure_variant = 3,
       treasure_savegame_variable = "heart_container_10001",
       x = x,

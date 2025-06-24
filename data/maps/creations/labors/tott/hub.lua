@@ -11,6 +11,11 @@ function map:on_started()
 
   shrine_portal:set_drawn_in_y_order(true)
 
+  --Modèle PLAYER
+  hero:set_tunic_sprite_id("npc/playing_character/eldran2")
+  hero:set_sword_sprite_id("npc/playing_character/eldran_sword1")
+  hero:set_shield_sprite_id("npc/playing_character/eldran_shield1")
+
   --Reset du statut
   game:set_max_life(20*4)
   game:set_life(game:get_max_life())
@@ -18,7 +23,10 @@ function map:on_started()
   game:set_item_assigned(2, nil)
   game:get_item("equipment/tunic"):set_variant(1)
   game:set_ability("tunic",1)
-  game:get_item("equipment/sword"):set_variant(0)
+  if game:get_value("zeldo_wave_1_defeated") then
+    game:get_item("equipment/sword"):set_variant(6)
+  else game:get_item("equipment/sword"):set_variant(0) end
+  game:set_ability("shield",0)
   game:get_item("equipment/shield"):set_variant(0)
 
   game:set_value("force",1)
@@ -50,13 +58,10 @@ function map:on_started()
   if game:get_value("tott_upgrade_card_force_active") then local force = game:get_value("force") game:set_value("force", force + 1) end
   if game:get_value("tott_upgrade_card_defense_active") then local defense = game:get_value("defense") game:set_value("defense", defense + 1) end
 
-  --Modèle PLAYER
-  hero:set_tunic_sprite_id("npc/playing_character/eldran2")
-
   --Zeldo passé
   if game:get_value("labors_rules_done") then sensor_rules:set_enabled(false) zeldo:set_enabled(false) end
 
-  --Téléporteur ouverts après X trophées
+  --Téléporteur ouverts après X trophées + Clé jaune
   if game:get_item("quest_items/trophy_labors_tott"):get_amount() >= 1 then
     map:set_entities_enabled("lock_1_trophy_",false)
     tp_water_temple:set_enabled(true)
@@ -68,12 +73,13 @@ function map:on_started()
       if game:get_item("quest_items/trophy_labors_tott"):get_amount() >= 6 then
         map:set_entities_enabled("lock_6_trophy_",false)
         tp_castle_tower:set_enabled(true)
+        map:set_entities_enabled("yellow_key",true)
       end
     end
   end
 
   --Coffre final et Clé du Spoil apparait quand fini Boss final
-  if game:get_value("labors_tott_wave_1_1_done") then map:set_entities_enabled("final_chest_1_",true) map:set_entities_enabled("yellow_key",true) end
+  if game:get_value("labors_tott_wave_1_1_done") then map:set_entities_enabled("final_chest_1_",true) end
 
   --Articles du Magasin
   if not game:get_value("labors_magic_flask_upgrade_wave_1") then
@@ -155,7 +161,7 @@ end
 
 
 --PAS DE POTION SI PAS DE BOUTEILLE VIDE
-if game:get_value("labors_bottle_1_wave_1") then
+if game:get_value("labors_bottle_1") then
   function shop_potion_1:on_buying()
     local first_empty_bottle = self:get_game():get_first_empty_bottle()
     if first_empty_bottle == nil then
@@ -184,8 +190,8 @@ end
 function red_key:on_interaction()
   game:start_dialog("shop.souvenir.red_key",function(answer)
     if answer == 1 then
-      if game:get_item("quest_items/remembrance_shard"):get_amount() >= 20 then
-        game:get_item("quest_items/remembrance_shard"):remove_amount(20)
+      if game:get_item("quest_items/remembrance_shard_tott"):get_amount() >= 20 then
+        game:get_item("quest_items/remembrance_shard_tott"):remove_amount(20)
         map:set_entities_enabled("red_key",false)
         hero:start_treasure("dungeons/red_key",1,"red_key_10000_1_1")
       else
@@ -198,8 +204,8 @@ end
 function blue_key:on_interaction()
   game:start_dialog("shop.souvenir.blue_key",function(answer)
     if answer == 1 then
-      if game:get_item("quest_items/remembrance_shard"):get_amount() >= 30 then
-        game:get_item("quest_items/remembrance_shard"):remove_amount(30)
+      if game:get_item("quest_items/remembrance_shard_tott"):get_amount() >= 30 then
+        game:get_item("quest_items/remembrance_shard_tott"):remove_amount(30)
         map:set_entities_enabled("blue_key",false)
         hero:start_treasure("dungeons/blue_key",1,"blue_key_10000_1_1")
       else
@@ -212,8 +218,8 @@ end
 function green_key:on_interaction()
   game:start_dialog("shop.souvenir.green_key",function(answer)
     if answer == 1 then
-      if game:get_item("quest_items/remembrance_shard"):get_amount() >= 40 then
-        game:get_item("quest_items/remembrance_shard"):remove_amount(40)
+      if game:get_item("quest_items/remembrance_shard_tott"):get_amount() >= 40 then
+        game:get_item("quest_items/remembrance_shard_tott"):remove_amount(40)
         map:set_entities_enabled("green_key",false)
         hero:start_treasure("dungeons/green_key",1,"green_key_10000_1_1")
       else
@@ -226,8 +232,8 @@ end
 function yellow_key:on_interaction()
   game:start_dialog("shop.souvenir.yellow_key",function(answer)
     if answer == 1 then
-      if game:get_item("quest_items/remembrance_shard"):get_amount() >= 10 then
-        game:get_item("quest_items/remembrance_shard"):remove_amount(10)
+      if game:get_item("quest_items/remembrance_shard_tott"):get_amount() >= 10 then
+        game:get_item("quest_items/remembrance_shard_tott"):remove_amount(10)
         map:set_entities_enabled("yellow_key",false)
         hero:start_treasure("dungeons/yellow_key",1,"yellow_key_10000_1")
       else
@@ -235,6 +241,70 @@ function yellow_key:on_interaction()
         game:start_dialog("shop.souvenir.not_enough_shards")
       end
     end
+  end)
+end
+
+-- LIVRE DE LA LISTE DES ÉCLATS DE SOUVENIR
+function book_shards_list:on_interaction()
+  -- Compte des éclats : Zone 1
+  local current_shards = 0
+  game:set_dialog_style("book")
+  if game:get_value("remembrance_shard_10006_2") then current_shards = current_shards + 5 end
+  if game:get_value("remembrance_shard_10006_1") then current_shards = current_shards + 5 end
+  if game:get_value("remembrance_shard_10006_3") then current_shards = current_shards + 1 end
+  if game:get_value("remembrance_shard_10006_4") then current_shards = current_shards + 1 end
+  if game:get_value("remembrance_shard_10006_5") then current_shards = current_shards + 1 end
+  if game:get_value("remembrance_shard_10006_6") then current_shards = current_shards + 1 end
+  if game:get_value("remembrance_shard_10006_7") then current_shards = current_shards + 1 end
+  game:start_dialog("book.tips_shards_tott_list_1", current_shards, function()
+    -- Compte des éclats : Zone 2
+    local current_shards = 0
+    game:set_dialog_style("book")
+    if game:get_value("remembrance_shard_10004_1") then current_shards = current_shards + 5 end
+    if game:get_value("rupee_10004_2") then current_shards = current_shards + 1 end
+    if game:get_value("rupee_10004_5") then current_shards = current_shards + 1 end
+    if game:get_value("rupee_10004_1") then current_shards = current_shards + 1 end
+    game:start_dialog("book.tips_shards_tott_list_2", current_shards, function()
+      -- Compte des éclats : Zone 3
+      local current_shards = 0
+      game:set_dialog_style("book")
+      if game:get_value("remembrance_shard_10005_1") then current_shards = current_shards + 5 end
+      if game:get_value("remembrance_shard_10005_7") then current_shards = current_shards + 5 end
+      if game:get_value("remembrance_shard_10005_2") then current_shards = current_shards + 1 end
+      if game:get_value("remembrance_shard_10005_3") then current_shards = current_shards + 1 end
+      if game:get_value("remembrance_shard_10005_4") then current_shards = current_shards + 1 end
+      if game:get_value("remembrance_shard_10005_5") then current_shards = current_shards + 1 end
+      if game:get_value("remembrance_shard_10005_6") then current_shards = current_shards + 1 end
+      game:start_dialog("book.tips_shards_tott_list_3", current_shards, function()
+        -- Compte des éclats : Zone 4
+        local current_shards = 0
+        game:set_dialog_style("book")
+        if game:get_value("remembrance_shard_10001_1") then current_shards = current_shards + 5 end
+        if game:get_value("remembrance_shard_10001_2") then current_shards = current_shards + 5 end
+        if game:get_value("rupees_10001_20") then current_shards = current_shards + 1 end
+        if game:get_value("rupees_10001_4") then current_shards = current_shards + 1 end
+        if game:get_value("rupees_10001_3") then current_shards = current_shards + 1 end
+        if game:get_value("rupees_10001_5") then current_shards = current_shards + 1 end
+        if game:get_value("rupees_10001_7") then current_shards = current_shards + 1 end
+        if game:get_value("heart_container_10001") then current_shards = current_shards + 10 end
+        game:start_dialog("book.tips_shards_tott_list_4", current_shards, function()
+          -- Compte des éclats : Zone 5
+          local current_shards = 0
+          game:set_dialog_style("book")
+          if game:get_value("rupees_10003_2") then current_shards = current_shards + 5 end
+          game:start_dialog("book.tips_shards_tott_list_5", current_shards, function()
+            -- Compte des éclats : Zone 6
+            local current_shards = 0
+            game:set_dialog_style("book")
+            if game:get_value("remembrance_shard_10002_1") then current_shards = current_shards + 5 end
+            if game:get_value("rupees_10002_3") then current_shards = current_shards + 1 end
+            if game:get_value("rupees_10002_4") then current_shards = current_shards + 1 end
+            if game:get_value("heart_container_10002") then current_shards = current_shards + 25 end
+            game:start_dialog("book.tips_shards_tott_list_6", current_shards)
+          end)
+        end)
+      end)
+    end)
   end)
 end
 

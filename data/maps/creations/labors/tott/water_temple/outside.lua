@@ -22,6 +22,8 @@ function map:on_started(destination)
 
     --Modèle LINK
     hero:set_tunic_sprite_id("hero/tunic1")
+    hero:set_sword_sprite_id("hero/sword1")
+    hero:set_shield_sprite_id("hero/shield2")
 
     game:set_value("water_temple_water_level",4)
 

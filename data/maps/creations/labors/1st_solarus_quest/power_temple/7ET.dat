@@ -1,0 +1,897 @@
+properties{
+  x = 460,
+  y = 240,
+  width = 2560,
+  height = 1920,
+  min_layer = 0,
+  max_layer = 3,
+  world = "dungeon_10014",
+  floor = 7,
+  tileset = "outside_main",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1160,
+  y = 949,
+  width = 576,
+  height = 288,
+  direction = 0,
+  sprite = "backgrounds/mountains_light",
+  tiled = true,
+}
+
+tile{
+  layer = 1,
+  x = 1528,
+  y = 1032,
+  width = 8,
+  height = 184,
+  pattern = "7920",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1344,
+  y = 1032,
+  width = 8,
+  height = 184,
+  pattern = "7924",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1352,
+  y = 1208,
+  width = 8,
+  height = 8,
+  pattern = "7925",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1520,
+  y = 1208,
+  width = 8,
+  height = 8,
+  pattern = "7925",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1352,
+  y = 1216,
+  width = 176,
+  height = 8,
+  pattern = "7922",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1360,
+  y = 1192,
+  width = 160,
+  height = 24,
+  pattern = "7930",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1352,
+  y = 1192,
+  width = 8,
+  height = 24,
+  pattern = "7931",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1520,
+  y = 1192,
+  width = 8,
+  height = 24,
+  pattern = "7932",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1352,
+  y = 1176,
+  width = 8,
+  height = 8,
+  pattern = "7925",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1520,
+  y = 1176,
+  width = 8,
+  height = 8,
+  pattern = "7925",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1352,
+  y = 1184,
+  width = 176,
+  height = 8,
+  pattern = "7922",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1360,
+  y = 1160,
+  width = 160,
+  height = 24,
+  pattern = "7930",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1352,
+  y = 1160,
+  width = 8,
+  height = 24,
+  pattern = "7931",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1520,
+  y = 1160,
+  width = 8,
+  height = 24,
+  pattern = "7932",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1344,
+  y = 1216,
+  width = 8,
+  height = 8,
+  pattern = "7923",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1528,
+  y = 1216,
+  width = 8,
+  height = 8,
+  pattern = "7921",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1344,
+  y = 1184,
+  width = 8,
+  height = 8,
+  pattern = "7923",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1528,
+  y = 1184,
+  width = 8,
+  height = 8,
+  pattern = "7921",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 1152,
+  y = 936,
+  width = 192,
+  height = 288,
+  pattern = "2765",
+  tileset = "inside_pale_yellow_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 1536,
+  y = 936,
+  width = 192,
+  height = 288,
+  pattern = "2765",
+  tileset = "inside_pale_yellow_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 1344,
+  y = 936,
+  width = 192,
+  height = 96,
+  pattern = "2765",
+  tileset = "inside_pale_yellow_dungeon",
+}
+
+door{
+  name = "door_boss_2",
+  layer = 1,
+  x = 1432,
+  y = 1024,
+  direction = 1,
+  sprite = "entities/Doors/Inside/door_d1_normal",
+  cannot_open_dialog = "door.closed.1",
+}
+
+door{
+  name = "door_boss_1",
+  layer = 1,
+  x = 1440,
+  y = 1240,
+  properties = {
+    {
+      key = "set_door_open",
+      value = "true",
+    },
+  },
+  direction = 3,
+  sprite = "entities/Doors/Inside/door_d1_normal",
+  cannot_open_dialog = "door.closed.1",
+}
+
+custom_entity{
+  name = "night_entity_1",
+  layer = 1,
+  x = 1392,
+  y = 1181,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+enemy{
+  name = "boss",
+  layer = 1,
+  x = 1440,
+  y = 989,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "boss/1st_solarus_quest/mothula",
+  savegame_variable = "boss_10014",
+}
+
+wall{
+  layer = 1,
+  x = 1296,
+  y = 1008,
+  width = 288,
+  height = 8,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 1,
+  x = 1320,
+  y = 936,
+  width = 8,
+  height = 96,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 1,
+  x = 1552,
+  y = 936,
+  width = 8,
+  height = 96,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+tile{
+  layer = 2,
+  x = 1528,
+  y = 1024,
+  width = 8,
+  height = 8,
+  pattern = "7919",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 2,
+  x = 1352,
+  y = 1032,
+  width = 176,
+  height = 120,
+  pattern = "7925",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 2,
+  x = 1352,
+  y = 1024,
+  width = 176,
+  height = 8,
+  pattern = "7918",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 2,
+  x = 1352,
+  y = 1152,
+  width = 176,
+  height = 8,
+  pattern = "7922",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 2,
+  x = 1528,
+  y = 1152,
+  width = 8,
+  height = 8,
+  pattern = "7921",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 2,
+  x = 1344,
+  y = 1152,
+  width = 8,
+  height = 8,
+  pattern = "7923",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 2,
+  x = 1344,
+  y = 1024,
+  width = 8,
+  height = 8,
+  pattern = "7917",
+  tileset = "outside_buildings",
+}
+
+tile{
+  layer = 2,
+  x = 1360,
+  y = 1128,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+  tileset = "inside_purple_dungeon",
+}
+
+tile{
+  layer = 2,
+  x = 1504,
+  y = 1128,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+  tileset = "inside_purple_dungeon",
+}
+
+tile{
+  layer = 2,
+  x = 1432,
+  y = 1128,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+  tileset = "inside_purple_dungeon",
+}
+
+separator{
+  name = "auto_separator_9",
+  layer = 2,
+  x = 1160,
+  y = 1216,
+  width = 560,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_10",
+  layer = 2,
+  x = 1144,
+  y = 944,
+  width = 16,
+  height = 272,
+}
+
+separator{
+  name = "auto_separator_11",
+  layer = 2,
+  x = 1720,
+  y = 944,
+  width = 16,
+  height = 272,
+}
+
+dynamic_tile{
+  name = "boss_lock_6",
+  layer = 2,
+  x = 1448,
+  y = 1080,
+  width = 8,
+  height = 24,
+  pattern = "stairs_down.2.border.3-1",
+  tileset = "inside_pale_yellow_dungeon",
+}
+
+dynamic_tile{
+  name = "boss_lock_4",
+  layer = 2,
+  x = 1424,
+  y = 1080,
+  width = 8,
+  height = 24,
+  pattern = "stairs_down.2.border.2-1",
+  tileset = "inside_pale_yellow_dungeon",
+}
+
+dynamic_tile{
+  name = "boss_lock_5",
+  layer = 2,
+  x = 1432,
+  y = 1080,
+  width = 16,
+  height = 24,
+  pattern = "stairs_down.2-1",
+  tileset = "inside_pale_yellow_dungeon",
+}
+
+dynamic_tile{
+  name = "boss_lock_7",
+  layer = 2,
+  x = 1424,
+  y = 1104,
+  width = 32,
+  height = 8,
+  pattern = "stairs_down.2.border.1-1",
+  tileset = "inside_pale_yellow_dungeon",
+}
+
+wall{
+  name = "boss_lock_3",
+  layer = 2,
+  x = 1432,
+  y = 1080,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+destination{
+  name = "escalier",
+  layer = 2,
+  x = 1440,
+  y = 1093,
+  direction = 1,
+}
+
+teletransporter{
+  name = "boss_lock_2",
+  layer = 2,
+  x = 1432,
+  y = 1080,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/power_temple/6ET",
+  destination = "escalier_boss",
+}
+
+stairs{
+  name = "boss_lock_1",
+  layer = 2,
+  x = 1432,
+  y = 1080,
+  direction = 3,
+  subtype = 3,
+}
+
+sensor{
+  name = "dungeon_room_37",
+  layer = 2,
+  x = 1440,
+  y = 1093,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_boss",
+  layer = 2,
+  x = 1432,
+  y = 1077,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "boss_10014",
+    },
+  },
+  width = 32,
+  height = 16,
+}
+
+custom_entity{
+  name = "heart_container_spot",
+  layer = 2,
+  x = 1440,
+  y = 1125,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+dynamic_tile{
+  name = "dev_entity_1",
+  layer = 2,
+  x = 1344,
+  y = 1024,
+  width = 192,
+  height = 8,
+  pattern = "barrier.1-1",
+  tileset = "inside_pale_yellow_dungeon",
+}
+
+dynamic_tile{
+  name = "dev_entity_3",
+  layer = 2,
+  x = 1528,
+  y = 1032,
+  width = 8,
+  height = 120,
+  pattern = "barrier.2-1",
+  tileset = "inside_pale_yellow_dungeon",
+}
+
+dynamic_tile{
+  name = "dev_entity_4",
+  layer = 2,
+  x = 1344,
+  y = 1032,
+  width = 8,
+  height = 120,
+  pattern = "barrier.2-1",
+  tileset = "inside_pale_yellow_dungeon",
+}
+
+dynamic_tile{
+  name = "dev_entity_2",
+  layer = 2,
+  x = 1344,
+  y = 1152,
+  width = 192,
+  height = 8,
+  pattern = "barrier.1-1",
+  tileset = "inside_pale_yellow_dungeon",
+}
+
+separator{
+  name = "auto_separator_8",
+  layer = 2,
+  x = 1160,
+  y = 928,
+  width = 560,
+  height = 16,
+}
+
+custom_entity{
+  name = "trophy_spot",
+  layer = 2,
+  x = 1440,
+  y = 1045,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "EXCEPTION_outside",
+  layer = 2,
+  x = 1144,
+  y = 933,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "init_map",
+  layer = 2,
+  x = 1144,
+  y = 949,
+  properties = {
+    {
+      key = "disable_clouds",
+      value = "true",
+    },
+    {
+      key = "timelapse",
+      value = "false",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "night_entity_3",
+  layer = 2,
+  x = 1488,
+  y = 1181,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_28",
+  layer = 2,
+  x = 1368,
+  y = 1045,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "night_entity_29",
+  layer = 2,
+  x = 1512,
+  y = 1045,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+switch{
+  name = "pot_switch",
+  layer = 2,
+  x = 1432,
+  y = 1128,
+  subtype = "walkable",
+  sprite = "entities/Switches/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+destructible{
+  name = "auto_destructible_1",
+  layer = 2,
+  x = 1368,
+  y = 1141,
+  treasure_name = "pickable/random",
+  sprite = "entities/Destructables/vase_very_heavy",
+  destruction_sound = "vase",
+  weight = 2,
+}
+
+destructible{
+  name = "auto_destructible_2",
+  layer = 2,
+  x = 1512,
+  y = 1141,
+  treasure_name = "pickable/random",
+  sprite = "entities/Destructables/vase_very_heavy",
+  destruction_sound = "vase",
+  weight = 2,
+}
+
+destructible{
+  name = "auto_destructible_3",
+  layer = 2,
+  x = 1440,
+  y = 1141,
+  sprite = "entities/Destructables/vase_very_heavy",
+  destruction_sound = "vase",
+  weight = 2,
+}
+
+custom_entity{
+  name = "pot_placeholder_1",
+  layer = 2,
+  x = 1368,
+  y = 1141,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "pot_placeholder_2",
+  layer = 2,
+  x = 1512,
+  y = 1141,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+destructible{
+  name = "casual_entity_3",
+  layer = 2,
+  x = 1368,
+  y = 1093,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/arrow",
+  treasure_variant = 2,
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "casual_entity_4",
+  layer = 2,
+  x = 1512,
+  y = 1093,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/arrow",
+  treasure_variant = 2,
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "casual_entity_5",
+  layer = 2,
+  x = 1512,
+  y = 1077,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "casual_entity_6",
+  layer = 2,
+  x = 1512,
+  y = 1109,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "casual_entity_7",
+  layer = 2,
+  x = 1368,
+  y = 1109,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "casual_entity_8",
+  layer = 2,
+  x = 1368,
+  y = 1077,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+  damage_on_enemies = 2,
+}
+
+dynamic_tile{
+  name = "night_entity_2",
+  layer = 3,
+  x = 1376,
+  y = 1168,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.1",
+  tileset = "inside_dark_purple_dungeon",
+}
+
+dynamic_tile{
+  name = "night_entity_4",
+  layer = 3,
+  x = 1472,
+  y = 1168,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.1",
+  tileset = "inside_dark_purple_dungeon",
+}
+

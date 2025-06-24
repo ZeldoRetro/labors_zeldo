@@ -29,6 +29,8 @@ function map:on_started(destination)
 
     --Modèle LINK
     hero:set_tunic_sprite_id("hero/tunic1")
+    hero:set_sword_sprite_id("hero/sword1")
+    hero:set_shield_sprite_id("hero/shield1")
 
     game:set_max_life(3*4)
     game:set_life(game:get_max_life())
@@ -48,13 +50,13 @@ function map:on_started(destination)
       arrows_counter:set_amount(30)
     end
 
-  end
+    --Upgrades si achat au magasin
+    if game:get_value("tott_upgrade_card_force_active") then local force = game:get_value("force") game:set_value("force", force + 1) end
+    if game:get_value("tott_upgrade_card_defense_active") then local defense = game:get_value("defense") game:set_value("defense", defense + 1) end
+    if game:get_value("tott_upgrade_card_arrows_active") then game:get_item("equipment/quiver"):set_variant(2) game:get_item("inventory/bow"):set_amount(50) end
+    if game:get_value("tott_upgrade_card_bombs_active") then game:get_item("equipment/bomb_bag"):set_variant(2) game:get_item("inventory/bombs_counter"):set_amount(40) end
 
-  --Upgrades si achat au magasin
-  if game:get_value("labors_magic_flask_upgrade_wave_1") then game:get_item("magic_bar"):set_variant(2) end
-  if game:get_value("labors_attack_boost_wave_1") then local force = game:get_value("force") game:set_value("force", force + 1) end
-  if game:get_value("labors_defense_boost_wave_1") then local defense = game:get_value("defense") game:set_value("defense", defense + 1) end
-  if game:get_value("labors_quiver_wave_1") then game:get_item("equipment/quiver"):set_variant(2) game:get_item("inventory/bow"):set_amount(50) end
+  end
 
   --Clé 1 obtenue
   if game:get_value("key_1001_1") then auto_chest_key_1:set_enabled(true) end

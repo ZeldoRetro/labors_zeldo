@@ -9,6 +9,8 @@ map:register_event("on_started",function(map, destination)
 
     --Modèle LINK
     hero:set_tunic_sprite_id("hero/tunic3")
+    hero:set_sword_sprite_id("hero/sword3")
+    hero:set_shield_sprite_id("hero/shield3")
 
     game:set_max_life(14*4)
     game:set_life(game:get_max_life())

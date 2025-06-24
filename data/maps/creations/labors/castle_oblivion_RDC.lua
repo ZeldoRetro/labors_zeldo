@@ -12,7 +12,11 @@ texte_lieu = sol.text_surface.create{
 function map:set_joypad_commands()
 
   -- Button mapping according commonly used xbox gamepad on PC
-  game:set_command_joypad_binding("pause", "button 7")  -- button 7 = Menu/Start (xbox/pc)
+  game:set_command_joypad_binding("action", "button 0")  -- button 0 = A (xbox/pc)
+  game:set_command_joypad_binding("attack", "button 2")  -- button 2 = X (xbox/pc)
+  game:set_command_joypad_binding("item_1", "button 3")  -- button 3 = Y (xbox/pc)
+  game:set_command_joypad_binding("item_2", "button 1")  -- button 1 = B (xbox/pc)
+  game:set_command_joypad_binding("pause", "button 7")   -- button 7 = Menu/Start (xbox/pc)
   game:set_command_joypad_binding("up", "hat 0 up")
   game:set_command_joypad_binding("left", "hat 0 left")
   game:set_command_joypad_binding("right", "hat 0 right")
@@ -20,7 +24,12 @@ function map:set_joypad_commands()
 end
 
 --DÉBUT DE LA MAP
-function map:on_started()
+function map:on_started(destination)
+
+  --Modèle PLAYER
+  hero:set_tunic_sprite_id("npc/playing_character/eldran2")
+  hero:set_sword_sprite_id("npc/playing_character/eldran_sword1")
+  hero:set_shield_sprite_id("npc/playing_character/eldran_shield1")
 
   --Reset du statut
   game:set_max_life(20*4)
@@ -29,7 +38,9 @@ function map:on_started()
   game:set_item_assigned(2, nil)
   game:get_item("equipment/tunic"):set_variant(1)
   game:set_ability("tunic",1)
-  game:get_item("equipment/sword"):set_variant(0)
+  if game:get_value("zeldo_wave_1_defeated") then
+    game:get_item("equipment/sword"):set_variant(6)
+  else game:get_item("equipment/sword"):set_variant(0) end
   game:get_item("equipment/shield"):set_variant(0)
 
   game:set_value("force",1)
@@ -57,14 +68,26 @@ function map:on_started()
   arrows_counter:set_variant(0)
   arrows_counter:set_amount(0)
 
-  --Upgrades si achat au magasin
-  if game:get_value("tott_upgrade_card_force_active") then local force = game:get_value("force") game:set_value("force", force + 1) end
-  if game:get_value("tott_upgrade_card_defense_active") then local defense = game:get_value("defense") game:set_value("defense", defense + 1) end
-
   --Modèle PLAYER
   hero:set_tunic_sprite_id("npc/playing_character/eldran2")
+  hero:set_sword_sprite_id("npc/playing_character/eldran_sword1")
 
-  map:set_joypad_commands()
+  -- RESET DES UPGRADES : CHANGEMENT DE VAGUE
+  game:get_item("upgrade_cards/tott_arrows"):set_variant(0)
+  game:get_item("upgrade_cards/tott_attack"):set_variant(0)
+  game:get_item("upgrade_cards/tott_magic"):set_variant(0)
+  game:get_item("upgrade_cards/tott_bombs"):set_variant(0)
+  game:get_item("upgrade_cards/tott_defence"):set_variant(0)
+  game:get_item("upgrade_cards/tott_casual"):set_variant(0)
+
+  game:set_value("force",1)
+  game:set_value("defense",1)
+
+  if destination == entree then map:set_joypad_commands() end
+end
+
+function map:on_opening_transition_finished(destination)
+  if destination == entree then game:set_dialog_style("blank") game:start_dialog("LABORS.1st_message") end
 end
 
 --Mur invisible pour ne pas sortir

@@ -35,11 +35,6 @@ separator_meta:register_event("on_activating", function(separator, direction4)
     return
   end
 
-  -- Secret Rooms and secret sound
-  if name:match("^secret_separator") then
-    if direction4 == tonumber(separator:get_property("direction_trigger")) then sol.audio.play_sound("secret") end
-  end
-
 end)
 
 return true

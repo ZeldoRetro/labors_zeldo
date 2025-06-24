@@ -50191,7 +50191,7 @@ tile_pattern{
 
 tile_pattern{
   id = "waterfall.1.bottom",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 0,
   x = { 600, 616, 632 },
   y = { 128, 128, 128 },
@@ -50227,7 +50227,7 @@ tile_pattern{
 
 tile_pattern{
   id = "waterfall.2.bottom",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 0,
   x = { 600, 616, 632 },
   y = { 136, 136, 136 },
@@ -50263,7 +50263,7 @@ tile_pattern{
 
 tile_pattern{
   id = "waterfall.3.bottom",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 0,
   x = { 616, 616, 616 },
   y = { 160, 176, 192 },
@@ -50299,7 +50299,7 @@ tile_pattern{
 
 tile_pattern{
   id = "waterfall.4.bottom",
-  ground = "shallow_water",
+  ground = "deep_water",
   default_layer = 0,
   x = { 624, 624, 624 },
   y = { 160, 176, 192 },

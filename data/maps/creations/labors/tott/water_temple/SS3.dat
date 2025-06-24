@@ -2992,7 +2992,7 @@ chest{
   layer = 0,
   x = 1520,
   y = 565,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_savegame_variable = "rupees_10001_7",
   sprite = "entities/Chests/chest_LttP",
 }
@@ -20777,7 +20777,7 @@ sensor{
 }
 
 sensor{
-  name = "dungeon_room_2",
+  name = "dungeon_room_2_1",
   layer = 1,
   x = 480,
   y = 1173,
@@ -21423,6 +21423,7 @@ block{
   layer = 1,
   x = 448,
   y = 861,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -21439,6 +21440,7 @@ block{
   layer = 1,
   x = 496,
   y = 877,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -21455,6 +21457,7 @@ block{
   layer = 1,
   x = 512,
   y = 813,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -21682,6 +21685,7 @@ block{
   layer = 1,
   x = 496,
   y = 813,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -21698,6 +21702,7 @@ block{
   layer = 1,
   x = 512,
   y = 845,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -21714,6 +21719,7 @@ block{
   layer = 1,
   x = 512,
   y = 877,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -21730,6 +21736,7 @@ block{
   layer = 1,
   x = 448,
   y = 813,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -21746,6 +21753,7 @@ block{
   layer = 1,
   x = 448,
   y = 829,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -21791,6 +21799,15 @@ dynamic_tile{
   height = 16,
   pattern = "symbol.small-key",
   tileset = "extra/casual_tileset",
+}
+
+sensor{
+  name = "dungeon_room_2_2",
+  layer = 1,
+  x = 632,
+  y = 1085,
+  width = 16,
+  height = 16,
 }
 
 tile{

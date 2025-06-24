@@ -415,7 +415,7 @@ teletransporter{
   y = 192,
   width = 16,
   height = 16,
-  destination_map = "cutscenes/end_screen",
+  destination_map = "cutscenes/end_screen_wave_1",
   sprite = "entities/Teletransporters/teletransporter_subrosia_red",
   sound = "warp",
 }

@@ -9727,7 +9727,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "creations/labors/tott/hub",
-  destination = "start_final_1",
+  destination = "start_final",
   sound = "warp",
 }
 

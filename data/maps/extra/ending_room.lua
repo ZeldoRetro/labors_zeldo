@@ -47,6 +47,8 @@ local function look_frame(frame_dialog, test_image)
         test_image:fade_out(50, function()
           game:set_pause_allowed(true)
           hero:unfreeze()
+          hero:teleport("creations/labors/tott/hub","start_razer_room","fade")
+          sol.audio.play_sound("spectral_sound")
           function sol.video:on_draw(screen) end
         end)
       end)

@@ -174,7 +174,7 @@ end)
 enemy:register_event("on_restarted", function(enemy)
 
   enemy:set_invincible(true)
-  enemy:set_damage(16)
+  enemy:set_damage(24)
   enemy:set_layer_independent_collisions(true)
 
   chain_origin_offset_x = 0

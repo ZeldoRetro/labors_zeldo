@@ -63,12 +63,7 @@ function enemy:on_restarted()
       sprite = "enemies/fireball_purple_small",
     })
     local sprite = following:get_sprite()
-    sprite:set_animation("destroying")
-    sprite.on_animation_finished = function(animation)
-      if animation == "destroying" then
-        enemy:remove()
-      end
-    end
+    sprite:set_animation("destroying",function() following:remove() end)
     return true
   end)
 end

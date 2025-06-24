@@ -1,0 +1,9 @@
+animation{
+  name = "stopped",
+  src_image = "additions/teletransporter_shrine.png",
+  frame_delay = 66,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 64, origin_x = 8, origin_y = 61, num_frames = 16 },
+  },
+}

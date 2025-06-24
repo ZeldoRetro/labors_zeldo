@@ -22,6 +22,18 @@ function dungeon_manager:create(game)
       }
     },
 
+    [4] = {
+      lowest_floor = -1,
+      highest_floor = 2,
+      maps = { "creations/forgotten_legend/dungeons/4/SS1", "creations/forgotten_legend/dungeons/4/RDC", "creations/forgotten_legend/dungeons/4/1ET", "creations/forgotten_legend/dungeons/4/1ET_outside", "creations/forgotten_legend/dungeons/4/2ET" },
+      key_item = {
+        floor = 2,
+        x = 1840 + 3520 - 160,
+        y = 1400 - 32 - 720,
+        savegame_variable = "get_din_pearl_2",
+      }
+    },
+
     [1001] = {
       lowest_floor = 0,
       highest_floor = 0,
@@ -65,6 +77,50 @@ function dungeon_manager:create(game)
         x = 1840 + 4200 - 480,
         y = 1400 - 32 - 480,
         savegame_variable = "get_trophy_10004",
+      }
+    },
+    [10011] = {
+      lowest_floor = 0,
+      highest_floor = 0,
+      maps = { "creations/labors/1st_solarus_quest/link_forest/courage_palace" },
+      key_item = {
+        floor = 0,
+        x = 1440 + 4200 - 780 + 64,
+        y = 100 + 240 + 32,
+        savegame_variable = "get_trophy_10011",
+      }
+    },
+    [10014] = {
+      lowest_floor = 0,
+      highest_floor = 7,
+      maps = { "creations/labors/1st_solarus_quest/power_temple/1ET","creations/labors/1st_solarus_quest/power_temple/2ET","creations/labors/1st_solarus_quest/power_temple/3ET","creations/labors/1st_solarus_quest/power_temple/4ET","creations/labors/1st_solarus_quest/power_temple/5ET","creations/labors/1st_solarus_quest/power_temple/6ET","creations/labors/1st_solarus_quest/power_temple/7ET","creations/labors/1st_solarus_quest/power_temple/RDC" },
+      key_item = {
+        floor = 7,
+        x = 1440 + 4200 - 780 + 64,
+        y = 100 + 1200 + 32,
+        savegame_variable = "get_trophy_10014",
+      }
+    },
+    [10015] = {
+      lowest_floor = -2,
+      highest_floor = 0,
+      maps = { "creations/labors/1st_solarus_quest/wisdom_temple/RDC","creations/labors/1st_solarus_quest/wisdom_temple/SS1","creations/labors/1st_solarus_quest/wisdom_temple/SS2" },
+      key_item = {
+        floor = 0,
+        x = 1440 + 4200 - 780 + 64,
+        y = 100 + 480 + 32,
+        savegame_variable = "get_trophy_10015",
+      }
+    },
+    [10017] = {
+      lowest_floor = -2,
+      highest_floor = 1,
+      maps = { "creations/labors/1st_solarus_quest/hyrule_castle/1ET","creations/labors/1st_solarus_quest/hyrule_castle/RDC","creations/labors/1st_solarus_quest/hyrule_castle/SS1","creations/labors/1st_solarus_quest/hyrule_castle/SS2" },
+      key_item = {
+        floor = -2,
+        x = 1440 + 4200 - 780 + 64,
+        y = 100 + 240 + 480 + 32,
+        savegame_variable = "get_trophy_10017",
       }
     },
   }

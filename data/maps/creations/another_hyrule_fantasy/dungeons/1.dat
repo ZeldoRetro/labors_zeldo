@@ -21852,7 +21852,8 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "creations/labors/tott/hub",
-  destination = "start_incoming_2",
+  destination = "start_incoming",
+  sound = "warp",
 }
 
 wall{
@@ -22290,7 +22291,7 @@ pickable{
   layer = 1,
   x = 2080,
   y = 595,
-  treasure_name = "quest_items/trophy_labors_tott",
+  treasure_name = "quest_items/trophy_labors_EX",
   treasure_savegame_variable = "key_item_1001",
 }
 

@@ -113,7 +113,7 @@ enemy_meta:register_event("on_dying", function(enemy)
         map:set_entities_enabled("after_boss",true)
         local x, y, layer = map:get_entity("heart_container_spot"):get_position()
         enemy:get_map():create_pickable{
-          treasure_name = "quest_items/remembrance_shard",
+          treasure_name = "quest_items/remembrance_shard_"..game:get_current_wave(),
           treasure_variant = 3,
           treasure_savegame_variable = "heart_container_"..game:get_dungeon_index(),
           x = x,

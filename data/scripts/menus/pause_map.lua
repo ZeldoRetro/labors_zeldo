@@ -176,10 +176,11 @@ function map_manager:new(game)
     -- Hero head
     local hero_x, hero_y = 0, 0
     if world == "outside_light" or world == "outside_dark"
-    or world == "outside_light_labors_tott" then
+    or world == "outside_light_labors_tott"
+    or world == "outside_light_labors_1st_solarus_quest" then
       hero_x, hero_y = hero:get_position()
     end
-    if world == "dungeon_10000" then
+    if world == "dungeon_9999" or world == "dungeon_10000" or world == "dungeon_10010" or world == "dungeon_4_out" then
       hero_x, hero_y = 4000, 2400
     end
     local x, y = map_x + hero_x, map_y + hero_y
@@ -213,14 +214,19 @@ function map_manager:new(game)
     world_map_widget:make_text(sol.language.get_string("menu_title.map"), 160, 13, "center")
 
     --Travaux de Zeldo - Manoir Oblivion
-  	if world == "dungeon_10000" then
+  	if world == "dungeon_9999" or world == "dungeon_10000" or world == "dungeon_10010" or world == "dungeon_4_out" then
       world_map_widget:make_text(sol.language.get_string("labors_castle_caption"), 159, 207, "center")
       world_map_img:draw(dst_surface)
 
     --Travaux de Zeldo - TotT
     elseif world == "outside_light_labors_tott" or world == "inside_world_labors_tott" or world == "dungeon_10007" then
-      world_map_widget:make_text(sol.language.get_string("light_world_caption"), 159, 207, "center")
+      world_map_widget:make_text(sol.language.get_string("light_world_caption_tott"), 159, 207, "center")
       world_map_img:draw(dst_surface)
+    
+    --Travaux de Zeldo - 1st Solarus Quest
+    elseif world == "outside_light_labors_1st_solarus_quest" or world == "inside_world_labors_1st_solarus_quest" or world == "dungeon_10018" or world == "dungeon_10012" then
+      world_map_widget:make_text(sol.language.get_string("light_world_caption_1st_solarus_quest"), 159, 207, "center")
+      world_map_img:draw(dst_surface)    
 
     end
     world_map_widget:draw(dst_surface)
@@ -238,14 +244,18 @@ function map_manager:new(game)
     rooms_img = nil
 
     --Travaux de Zeldo - Manoir Oblivion
-    if world == "dungeon_10000" then
+    if world == "dungeon_9999" or world == "dungeon_10000" or world == "dungeon_10010" or world == "dungeon_4_out" then
       world_map_img = sol.surface.create("menus/world_map_labors_castle.png")
-
+    
     --Travaux de Zeldo - TotT
     elseif world == "outside_light_labors_tott" or world == "inside_world_labors_tott" or world == "dungeon_10007" then
       world_map_img = sol.surface.create("menus/world_map_labors_tott.png")
 
+    --Travaux de Zeldo - 1st Solarus Quest
+    elseif world == "outside_light_labors_1st_solarus_quest" or world == "inside_world_labors_1st_solarus_quest" or world == "dungeon_10018" or world == "dungeon_10012" then
+      world_map_img = sol.surface.create("menus/world_map_labors_1st_solarus_quest.png")
     end
+
     if dungeon == nil then
       build_world_map_widget()
     else

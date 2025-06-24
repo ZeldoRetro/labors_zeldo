@@ -1,0 +1,1055 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 544,
+  min_layer = -1,
+  max_layer = 2,
+  world = "dungeon_10000",
+  tileset = "extra/zeldo_battle_room",
+}
+
+custom_entity{
+  name = "distorsion_effect",
+  layer = -1,
+  x = 0,
+  y = -320,
+  width = 640,
+  height = 864,
+  origin_x = 0,
+  origin_y = 0,
+  direction = 0,
+  sprite = "backgrounds/distorsion_effect_battle",
+  tiled = true,
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 544,
+  pattern = "2765",
+  tileset = "inside_blue_dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 120,
+  width = 8,
+  height = 304,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 120,
+  width = 8,
+  height = 304,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 128,
+  width = 8,
+  height = 288,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 128,
+  width = 8,
+  height = 288,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 136,
+  width = 8,
+  height = 272,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 136,
+  width = 8,
+  height = 272,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 144,
+  width = 8,
+  height = 256,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 144,
+  width = 8,
+  height = 256,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 152,
+  width = 8,
+  height = 240,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 152,
+  width = 8,
+  height = 240,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 160,
+  width = 8,
+  height = 224,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 160,
+  width = 8,
+  height = 224,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 168,
+  width = 8,
+  height = 208,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 168,
+  width = 8,
+  height = 208,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 176,
+  width = 8,
+  height = 192,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 176,
+  width = 8,
+  height = 192,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 184,
+  width = 8,
+  height = 176,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 184,
+  width = 8,
+  height = 176,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 112,
+  width = 176,
+  height = 320,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 104,
+  width = 160,
+  height = 8,
+  pattern = "wall.1.up",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 432,
+  width = 160,
+  height = 8,
+  pattern = "wall.1.down",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 192,
+  width = 8,
+  height = 160,
+  pattern = "wall.1.left",
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 192,
+  width = 8,
+  height = 160,
+  pattern = "wall.1.right",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.up_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 368,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 368,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_interior",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_right_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 368,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 368,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_interior",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "wall.1.down_left_exterior",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 112,
+  width = 320,
+  height = 320,
+  pattern = "dive_to_the_heart.1",
+}
+
+enemy{
+  name = "zeldo_boss",
+  layer = 0,
+  x = 320,
+  y = 277,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "boss/zeldo_wave_1/zeldo",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 320,
+  y = 357,
+  direction = 1,
+  starting_location_mode = "no",
+  default = true,
+}
+
+npc{
+  name = "zeldo_npc",
+  layer = 1,
+  x = 320,
+  y = 269,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/boss/zeldo_wave_1/zeldo",
+}
+
+dynamic_tile{
+  name = "end_battle",
+  layer = 1,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 640,
+  height = 544,
+  pattern = "1098",
+  tileset = "inside_blue_dungeon",
+}
+

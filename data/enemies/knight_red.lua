@@ -7,7 +7,7 @@ enemy:set_properties({
   main_sprite = "enemies/knight_red",
   sword_sprite = "enemies/knight_weapon",
   life = 16,
-  damage = 16,
+  damage = 32,
   play_hero_seen_sound = true,
   normal_speed = 40,
   faster_speed = 72,

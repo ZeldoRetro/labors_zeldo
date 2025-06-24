@@ -1,0 +1,7 @@
+animation{
+  name = "stopped",
+  src_image = "additions/painting.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 80, frame_height = 40, origin_x = 40, origin_y = 20 },
+  },
+}

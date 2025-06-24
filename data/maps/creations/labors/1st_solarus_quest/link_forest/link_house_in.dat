@@ -1,0 +1,705 @@
+properties{
+  x = 2224,
+  y = 4620,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world_labors_1st_solarus_quest",
+  tileset = "inside_house",
+  music = "creations/labors/1st_solarus_quest/house",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 240,
+  height = 160,
+  pattern = "floor.9-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 32,
+  width = 240,
+  height = 8,
+  pattern = "wall_border.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 40,
+  width = 8,
+  height = 160,
+  pattern = "wall_border.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 40,
+  width = 8,
+  height = 160,
+  pattern = "wall_border.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 200,
+  width = 240,
+  height = 8,
+  pattern = "wall_border.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 8,
+  width = 256,
+  height = 24,
+  pattern = "wall.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 32,
+  width = 24,
+  height = 176,
+  pattern = "wall.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 32,
+  width = 24,
+  height = 176,
+  pattern = "wall.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 208,
+  width = 256,
+  height = 24,
+  pattern = "wall.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 208,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 208,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 160,
+  width = 16,
+  height = 24,
+  pattern = "barrel",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 176,
+  width = 16,
+  height = 24,
+  pattern = "barrel",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 176,
+  width = 16,
+  height = 24,
+  pattern = "barrel",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 120,
+  width = 8,
+  height = 16,
+  pattern = "table.4",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 112,
+  width = 48,
+  height = 8,
+  pattern = "table.2",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "table.7",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "table.9",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 136,
+  width = 48,
+  height = 8,
+  pattern = "table.8",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 120,
+  width = 48,
+  height = 16,
+  pattern = "table.5",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 120,
+  width = 8,
+  height = 16,
+  pattern = "table.6",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "table_piece.1",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "table_piece.2",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "table_piece.2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 120,
+  width = 8,
+  height = 16,
+  pattern = "wine_bottle",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "cook.pot",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.1",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.3",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "carpet.7",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 168,
+  width = 8,
+  height = 24,
+  pattern = "carpet.6",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 168,
+  width = 32,
+  height = 24,
+  pattern = "carpet.5",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 168,
+  width = 8,
+  height = 24,
+  pattern = "carpet.4",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 192,
+  width = 32,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 160,
+  width = 32,
+  height = 8,
+  pattern = "carpet.2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 112,
+  width = 32,
+  height = 40,
+  pattern = "bed.default",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 40,
+  width = 32,
+  height = 40,
+  pattern = "bed.default",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 40,
+  width = 32,
+  height = 40,
+  pattern = "bed.default",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 208,
+  width = 32,
+  height = 24,
+  pattern = "window.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 208,
+  width = 32,
+  height = 24,
+  pattern = "window.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "floor.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+destination{
+  name = "entree",
+  layer = 1,
+  x = 160,
+  y = 205,
+  direction = 1,
+  starting_location_mode = "no",
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/link_forest/link_house",
+  destination = "link_house",
+}
+
+npc{
+  name = "uncle",
+  layer = 1,
+  x = 160,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/link_uncle_alt",
+  behavior = "dialog#LABORS.1st_solarus_quest.link_forest.link_uncle",
+}
+
+custom_entity{
+  layer = 1,
+  x = 48,
+  y = 53,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 1,
+  x = 128,
+  y = 53,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 1,
+  x = 48,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+pickable{
+  layer = 1,
+  x = 256,
+  y = 66,
+  treasure_name = "pickable/rupee",
+  treasure_variant = 6,
+  treasure_savegame_variable = "silver_rupee_10011",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 232,
+  y = 56,
+  width = 48,
+  height = 24,
+  pattern = "stove",
+}
+
+tile{
+  layer = 2,
+  x = 128,
+  y = 224,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 224,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 312,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 8,
+  y = 0,
+  width = 304,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 8,
+  y = 232,
+  width = 304,
+  height = 8,
+  pattern = "ceiling.2",
+}
+

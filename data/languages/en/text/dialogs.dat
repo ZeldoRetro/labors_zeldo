@@ -1,7 +1,1814 @@
 dialog{
   id = "CHARA",
   text = [[
-:)
+ :)
+]],
+}
+
+dialog{
+  id = "LABORS.1st_message",
+  text = [[
+At last, you're here, dear Visitor.
+Finally, these long corridors will
+serve their purpose...
+What is this place ?
+Who am I ?
+Why do you look like that ?
+So many questions...
+Answers you'll find
+within these walls...
+Climb the stairs before you
+and join me without delay.
+I'm waiting for you, dear Player.
+By the way, if you want to
+customize the game controls,
+press F1 on your keyboard.
+Due to numerous issues with
+the 'Menu of Doom', I decided to
+remove that button from the joypad.
+There. I didn't know where else
+to put this dialogue...
+Now hurry up !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.field.billy",
+  skip = "current",
+  text = [[
+Hey, did you know that the house
+northwest of the Citadel has been
+abandoned for years ?
+They say that bandits have even
+set up a hideout there... There's
+an entrance at the top of the house
+Isn't that a fascinating story ?
+You should check it out sometime...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.field.billy_night",
+  skip = "current",
+  text = [[
+Uhh...$0 Hi...$0 What what ? ?$0
+I'm not doing anything shady...$0
+Just hanging around, that's all.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.field.granny",
+  skip = "current",
+  text = [[
+$2My husband is so devoted
+to the Ancients who made
+Hyrule prosper,
+he goes every day to
+pay his respects at their tomb,
+located in the Northwest Plains.
+It's an important act of memory
+for him. He only comes home
+at night to sleep, then
+leaves again at sunrise.
+I find this love and passion
+admirable, but... If only he cared
+as much about his dear
+and loving wife...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.field.old_man_grave_day",
+  skip = "current",
+  text = [[
+$2I'm paying my respects at the tomb
+of the Ancients of the Kingdom...
+We must continue to honor them.
+Did you know they fought
+to the death for the
+prosperity of the Hylian people ?
+This tomb was built so
+their service to the homeland
+would never be forgotten !
+So please let me pray,
+thank you.$0
+Darned disrespectful youth...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.field.old_man_grave_night",
+  skip = "current",
+  text = [[
+$2Zzzz... All for the memory of
+the Ancients... Darned kids
+don't respect anything anymore...
+Zzzz...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.field.old_man_grave_twilight",
+  skip = "current",
+  text = [[
+$2Oh dear, where is
+that blasted bridge...
+I don't have my glasses.
+Here ? Oh no... This way ? Nope.
+What ? Who are you ? Leave me be !$0
+Darned disrespectful kids...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.field.running_kid",
+  skip = "current",
+  text = [[
+Yayyyyy ! Run run run
+run run run...
+RUUUUUUUUUUUUUUUN !
+(uhh okay... What did you expect
+trying to talk to a kid
+sprinting at full speed...)
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.field.seaten_man",
+  skip = "current",
+  text = [[
+What's that ? My wife runs the inn
+and my son is playing outside.
+Can't wait for tonight when I get
+to see them again. There's nothing
+like being with your family !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.field.seaten_man_night",
+  skip = "current",
+  text = [[
+How wonderful it is to be here
+every evening with
+my son and my wife.
+I'm not looking forward to
+going home... Another day
+alone... What a life.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.field.weird_guy",
+  skip = "current",
+  text = [[
+Hello there, little one.
+Have you tried the food
+at the inn ?
+It's not as good
+as it used to be...
+Such a shame...
+Since the innkeeper ran out
+of Sugar Flakes, it's
+just not the same !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.field.weird_guy_night",
+  skip = "current",
+  text = [[
+Good evening, little one.
+Isn't the night beautiful tonight ?
+I like walking through
+the alleys at night, there's
+nothing suspicious about that...
+Right ?
+Heard that before, have you ?$0
+You're a funny one !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.field.zelda",
+  skip = "current",
+  text = [[
+Welcome, Link, Hero
+chosen by the Goddesses.
+I am Princess Zelda.
+But you knew that already,
+didn't you ?
+You also know your destiny
+is probably to find some
+lost legendary artifacts
+in 3 hidden Temples...
+And blah blah blah, you're
+Hyrule's only hope, and blah blah
+blah you have to hurry...
+Even though we all know that
+Ganon is just going to wait
+until you gather all the artifacts
+so he can steal them at the end
+of the game and take over Hyrule...
+Then you'll get the Master Sword,
+same one as always,
+to finally go beat that nasty-$0
+Oh...$0
+What's happening to me ?
+I felt like this whole story
+was just a video game !
+But... what's a video game ?
+I don't know !
+I'm just a fragile Princess...
+Save us, Link !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.ganon",
+  skip = "current",
+  text = [[
+Well well, look who it is...
+Mister "Hero" himself.
+Welcome to my Castle.
+Do you really hope to defeat me
+with that pathetic sword ?
+Don't be foolish !
+I will destroy you, right here.
+And once I find the Triforce,
+the World shall be mine !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.ganon_alt",
+  skip = "current",
+  text = [[
+Ah ah ah ah !
+The Triforce is finally mine !
+I must thank you, Link.
+I've been searching for those
+Pendants for years !
+What ?$0 I'm dumb ??$0
+Insolent brat !
+Taste the Power of the
+Sacred Triangles !
+Be destroyed, right here !
+That is my will, Triforce !
+AND LET THE WORLD BE MINE !!!
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.card_employee_card_allclear",
+  skip = "current",
+  text = [[
+You've reached the top rank,
+dear VIP Member. Congratulations !
+Our Great Manager awaits you...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.card_employee_card_bronze_next",
+  skip = "current",
+  text = [[
+Earn 10 Fidelity Points
+to reach the Bronze Rank.
+Good luck.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.card_employee_card_give",
+  skip = "current",
+  text = [[
+Welcome, good Sir.
+Welcome to the Great Shop,
+the ideal place for all your needs!
+Here, our Customers enjoy a
+unique Fidelity Program
+rewarding every purchase !
+Allow me to give you our
+Fidelity Card. With every purchase
+at the Great Shop, you'll earn
+Fidelity Points.
+Gather enough Points and come
+see me again.
+Your Fidelity Rank will increase,
+granting you access to new
+Shop Sections and more
+purchase options !
+We have some truly rare items
+in stock.
+Don't hesitate ! Shop here and be
+rewarded for your fidelity, Sir.
+Here is your Fidelity Card.
+Use it wisely.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.card_employee_card_give_bronze",
+  skip = "current",
+  text = [[
+Your purchases have earned you
+the Bronze Rank of the Great Shop.
+As a token of your effort,
+here is the Bronze Fidelity Card.
+You now have access to the
+Bronze Section of the Shop.
+Not bad !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.card_employee_card_give_gold",
+  skip = "current",
+  text = [[
+Your purchases have earned you
+the Gold Rank of the Great Shop.
+As a token of your effort,
+here is the Gold Fidelity Card.
+You now have access to the
+Gold Section of the Shop.
+Excellent.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.card_employee_card_give_silver",
+  skip = "current",
+  text = [[
+Your purchases have earned you
+the Silver Rank of the Great Shop.
+As a token of your effort,
+here is the Silver Fidelity Card.
+You now have access to the
+Silver Section of the Shop.
+Well done.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.card_employee_card_give_vip",
+  skip = "current",
+  text = [[
+Your purchases have earned you
+the VIP Rank of the Great Shop.
+As a token of your effort,
+here is the VIP Fidelity Card.
+Congratulations.
+Dear VIP Member, our
+Great Manager awaits you
+to deliver your reward.
+Do not keep him waiting.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.card_employee_card_gold_next",
+  skip = "current",
+  text = [[
+Earn 50 Fidelity Points
+to reach the Gold Rank.
+Keep it up.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.card_employee_card_npc",
+  skip = "current",
+  text = [[
+Welcome to the Great Shop,
+Sir. If you want to talk business,
+go to the other side.
+Me ? Well, I've worked here
+for 10 years and didn't have
+a line of dialogue until I figured
+nosy folks like Kakash/Raz
+would try talking to me...
+Thanks guys.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.card_employee_card_silver_next",
+  skip = "current",
+  text = [[
+Earn 25 Fidelity Points
+to reach the Silver Rank.
+Best of luck.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.card_employee_card_vip_next",
+  skip = "current",
+  text = [[
+Earn 99 Fidelity Points
+to reach the VIP Rank.
+Just a bit more effort.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.welcome_grade_bronze",
+  skip = "all",
+  text = [[
+Greetings, young man.
+Welcome to the Bronze Section.
+Take a look at my wares.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.welcome_grade_gold",
+  skip = "all",
+  text = [[
+Welcome, my Lord.
+Welcome to the Gold Section.
+Take a look at my rare items.
+Special products just for you,
+O Golden Member. You won't find
+better quality anywhere ! Slurrp.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.welcome_grade_normal",
+  skip = "all",
+  text = [[
+Hey.
+Welcome to the Standard Section.
+Pick whatever you want.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.welcome_grade_silver",
+  skip = "all",
+  text = [[
+Hello, good Sir.
+Welcome to the Silver Section.
+Have a look at what I've got.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.hyrule_field.great_shop.welcome_grade_vip",
+  skip = "all",
+  text = [[
+Welcome, my very dear
+VIP Member. Yes, it's me :
+Your favorite traveling merchant !
+To reward you for your hard-earned
+climb through my Shop's ranks,
+here's a gift...
+Everything in this Section is
+dirt cheap - 90% off !
+Enjoy it to the fullest, dear VIP.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.bodyguard_intendant",
+  skip = "current",
+  text = [[
+I'm the personal bodyguard
+of the Lake Village Steward.
+Watch your manners !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.bodyguard_sage",
+  skip = "current",
+  text = [[
+We are the personal guards
+of the Blue Sage.
+Speak to him with respect !
+Or else...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.drunk_man",
+  skip = "current",
+  text = [[
+Oh hey, you managed to
+find me. I like staying
+away from everyone...
+Want a little tip ?
+I suggest you pay attention
+to the trees around here.
+Some hide secrets in their branches
+Others can be followed along their
+trunks and lead to well-hidden paths
+even if it doesn't look like it...
+Details matter !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.drunk_man_night",
+  skip = "current",
+  text = [[
+Aaah, nothing beats a nice glass
+of wine at home to unwind at night.
+The bar ? Oh no no, I leave such
+nonsense to my drunken peers !
+I'm better than that.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.2-miroir.answer_no",
+  skip = "current",
+  text = [[
+How dare you ?$0
+How dare you refuse
+this Beauty standing before you ?
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.2-miroir.answer_yes",
+  skip = "current",
+  text = [[
+Wonderful ! Now I can admire
+myself from every corner
+of my home !
+Oh yes, take this Broom.
+It's brand new !
+Perfect for cleaning, right ?
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.2-miroir.default",
+  skip = "current",
+  text = [[
+If only I had a Mirror...
+I love gazing at myself
+all day long !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.2-miroir.done",
+  skip = "current",
+  text = [[
+Ah, you're back. Thanks again
+for that Mirror ! Now I can admire
+myself all the time. Hee hee hee !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.2-miroir.question",
+  question = "1",
+  skip = "current",
+  text = [[
+Oh, is that a Mirror
+you've got there ! Perfect timing !
+You won't need it, I'm sure...
+Would you give it to me ?
+With pleasure, beauty !
+I'm more handsome, so there !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.3-balai.answer_no",
+  skip = "current",
+  text = [[
+Oh... what a shame...
+What will I do now ?
+Oh, misery...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.3-balai.answer_yes",
+  skip = "current",
+  text = [[
+Fantastic ! I feel alive again !
+How can I reward you ?
+I know ! Take this precious Stone :
+It's a pure Diamond.
+You deserve it ! Go on, take it !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.3-balai.default",
+  skip = "current",
+  text = [[
+Oh dear... my old Broom is
+completely worn out, I can't
+clean properly with it.
+If I could find a new one,
+it would be a miracle !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.3-balai.done",
+  skip = "current",
+  text = [[
+Yay ! I feel great again !
+What about you ?
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.3-balai.question",
+  question = "1",
+  skip = "current",
+  text = [[
+That's a brand-new Broom
+you've got there ! Would you
+give it to me ?
+My old Broom is too worn
+to clean properly.
+
+Can I have your Broom ?
+With pleasure !
+No, cleaning awaits me...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.4-pierre.answer_no",
+  skip = "current",
+  text = [[
+Very well. I suppose
+you're not ready yet...
+
+Forgive me for bothering you,
+good Sir.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.4-pierre.answer_yes",
+  skip = "current",
+  text = [[
+Oh, thank you my friend.
+Here's a book I borrowed
+from the library.
+What will you do with it ?
+No idea !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.4-pierre.default",
+  skip = "current",
+  text = [[
+Behold this beautiful book
+on Rare Stones.
+Fascinating stuff !
+I'm actively seeking
+rare Minerals.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.4-pierre.done",
+  skip = "current",
+  text = [[
+My collection keeps growing
+by the day.
+
+But mind you, these are not
+just rocks !
+They are Minerals !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.4-pierre.question",
+  question = "1",
+  skip = "current",
+  text = [[
+Oh, you have a Diamond ?
+I've just started collecting
+Minerals... Would you be
+willing to trade it ?
+
+
+I want that Diamond !
+Yes, I don't need it.
+No, I'll be RIIICH !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.5-livre.default",
+  skip = "current",
+  text = [[
+Looks like there's a book
+missing from this library...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.5-livre.done",
+  skip = "current",
+  text = [[
+The book is neatly placed,
+and the door is now open.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.5-livre.question",
+  question = "1",
+  skip = "current",
+  text = [[
+You're holding a book
+that seems to belong
+in the library.
+Would you like to place it there ?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.6-collier.answer_no",
+  skip = "current",
+  text = [[
+Very well. You must not be
+ready yet... come back when
+you are !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.6-collier.answer_yes",
+  skip = "current",
+  text = [[
+Very well ! Here is the Key
+to the Cave ! Watch out for
+the monsters inside, and
+good luck with your journey !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.6-collier.default",
+  skip = "current",
+  text = [[
+Greetings, young one !
+Welcome to Lake Village.
+I am the Blue Sage.
+I assume you're here
+in search of a Trophy ?
+
+That artifact lies in the Cave
+northwest of the Village...
+However, monsters have
+been spotted there recently...
+
+
+I sealed the entrance,
+and I can't give the Key
+until you prove your worth.
+Explore the Village and
+seek out a Pearl Necklace.
+That will prove you are
+worthy of the Key.
+
+
+Here's a hint : talk to the locals
+and solve their problems...
+It'll lead you to the Necklace !
+Come back once you have it !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.6-collier.default_2",
+  skip = "current",
+  text = [[
+Ah, you're back ! Hmm...
+Did you find the Necklace ?
+If so, show it to me !
+Don't forget to help the villagers-
+that will lead you to it !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.6-collier.done",
+  skip = "current",
+  text = [[
+Ah, hello again young Hero.
+Has there been any progress
+in your Quest ?
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.echange.6-collier.question",
+  question = "1",
+  skip = "current",
+  text = [[
+Ah, you're back ! And I see you
+have the Pearl Necklace !
+Then I see no reason not to give
+you the Lake Cave Key...
+
+
+Do you want the Key ?
+Yes, I want it !
+No, I'm scared of monsters...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.intendant",
+  skip = "current",
+  text = [[
+What is it ?
+I'm the Village Steward.
+I'm very busy ! Be gone !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.intendant_night",
+  skip = "current",
+  text = [[
+What is it ?
+I'm the Village Steward.
+I'm very busy ! Be gone !
+What, this glass of wine ?$0
+...$0 It's for work !
+Move along now.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.kitchen_girl_day",
+  skip = "current",
+  text = [[
+Aaah what a wonderful day !
+I can enjoy it because all today's
+meals are already prepared !
+The Blue Sage is so happy
+to have me as his cook. Everything
+is always ready in no time !
+And I can relax all day long,
+until the next night... What a life
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.kitchen_girl_night",
+  skip = "current",
+  text = [[
+Faster ! Faaaster !
+I must finish preparing all
+the meals for tomorrow !
+Quality ? Who cares !
+As long as everyone gets
+their meals for the day and night,
+that's what matters most !
+That's just how this world works.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.library_woman",
+  skip = "current",
+  text = [[
+$2Oh misery... These books won't
+put themselves away...
+And so many are still missing...
+Maybe if I noted down who
+borrowed what, I could keep up.
+Misery...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.library_woman_night",
+  skip = "current",
+  text = [[
+$2Good evening, young man.
+Are you admiring the starry sky
+above Lake Hylia too ?
+It's truly magnificent
+to look at... What ?$0
+Ah yes, you can't see it.
+That's such a shame...
+If I were you, I'd file
+an issue right away.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.mustache_man",
+  skip = "current",
+  text = [[
+Hello there, young man.
+Welcome to Lake Village.
+A lovely place to live.
+Take your time and stroll around
+this quiet corner, far from the
+hectic Castle Town...
+
+Oh, by the way, there are small
+pots all over the place.
+If you find them, break them !
+They should contain helpful stuff
+for your journey. And they refill
+over and over ! Awesome.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.mustache_man_night",
+  skip = "current",
+  text = [[
+There's nothing like a nice drink
+at the bar after a whole day
+standing still !
+And tomorrow, it'll all start
+again, endlessly... But hey,
+that's what they call 'adding life'
+apparently.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.seaten_man",
+  skip = "current",
+  text = [[
+Hello young man.
+Need something ?
+There's no Trophy here.
+But the room in this inn has a
+very well-hidden secret !
+Have you found the Lens ?
+Zeldo the Magnificent overused it
+in this new Wave...
+Use it everywhere !
+You'd be surprised how many
+secrets it reveals.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.seaten_man_kill",
+  skip = "current",
+  text = [[
+Hello young man.
+Need wha...$0 Hey !$0
+I recognize you !
+You dared to rob me in
+the last Wave ! You may have
+forgotten, but I haven't !
+Want to taste Zeldo's magic
+again ?$0 Come on, just once...$0
+game:set_life(0)
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.seaten_man_night",
+  skip = "current",
+  text = [[
+Good evening young man.
+This starry view above the Lake
+is beautiful, isn't it ?
+Once again, the Great Zeldo
+didn't have time to implement it...
+He's so lazy, huh ?
+If you think that, you don't know
+him at all ! Believe me,
+Making is his true passion !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.soldier_kitchen",
+  skip = "current",
+  text = [[
+These kitchens are so quiet
+during the day... But at night,
+it's a whole different story !
+Come back at night, and
+you'll see what I mean...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.soldier_kitchen_night",
+  skip = "current",
+  text = [[
+You're just in time, kid !
+This is when the kitchen
+gets busy ! Look closely...
+That woman works so fast
+and efficiently she can prep
+all the meals in one night.
+That way, she's free
+all day long...
+I find it fascinating.
+What ? The food's not fresh
+and it's all reheated ? Well,
+quality isn't a priority !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.soldier_library",
+  skip = "current",
+  text = [[
+Oh man, I'm so boooored...
+Who thought it was a good idea
+to make me guard this library ?
+There's nothing but
+old books here!
+This job sucks... Ugh.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.soldier_stockroom",
+  skip = "current",
+  text = [[
+Oh man, I'm so boooored...
+Who thought it was a good idea
+to make me guard this storeroom ?
+There's nothing but
+old trinkets here !
+This job sucks... Ugh.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.lake_village.tim",
+  skip = "current",
+  text = [[
+Hello there, traveler.
+As you can see, my house
+is completely flooded !
+What ? A system to drain
+the water ? Oh no no,
+I don't have that here...
+But if you've got something
+that lets you swim in deep
+water, happy swimming !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.link_forest.forest_guide_cant_pass",
+  skip = "current",
+  text = [[
+Mmmh, I see that
+you don't have a
+Sword or Shield...
+Without at least that equipment,
+you'll never find your way
+through these Woods.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.link_forest.forest_guide_pass",
+  skip = "current",
+  text = [[
+You have a Sword
+and a Shield ?
+In that case, you may pass.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.link_forest.link_uncle",
+  skip = "current",
+  text = [[
+Hi Link !
+Any progress on
+your Quest ?
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_castle_town",
+  skip = "current",
+  text = [[
+
+- Hyrule Castle Town (prototype) -
+
+Here is a prototype version of
+the Hyrule Castle Town map,
+with a lovely editor view.
+The Labors version takes most of
+it and adds useful buildings
+for the area.
+The 2016 project version is
+closer to the one seen in
+Forgotten Legend, but I thought
+this one was more primitive
+and interesting for
+The Labors of Zeldo.
+Also, it changes things up from
+Forgotten Legend !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_evolution",
+  skip = "current",
+  text = [[
+
+ - Map B4 (2015 - 2018 version) -
+
+Here's an interesting screenshot,
+with some explanation.
+Yes, you read correctly : 2018.
+Although The 1st Solarus Quest
+was made around 2015/2016, a
+'remake' was considered in 2018,
+while I was working on the
+'Basic Quest'.
+This 2018 version was meant
+to be shorter and serve as a
+prototype for a 'complete' game,
+showcasing the Basic Quest's
+possibilities.
+A sort of Sample Quest, yes...
+But when Zeldo's Challenge
+Chapter 2 was released, I already
+had a game illustrating all that.
+So the 2018 version of 1st Solarus
+Quest was quickly dropped.
+Still, I managed to make a few
+things, which you'll mostly
+see in this blue Gallery room.
+Let's start with the first map.
+On the left is the 2016 version,
+seen in the Labors, and on the
+right the 2018 version, larger.
+In the end, I find the 2015 version
+has more charm, like a lot of
+things that got remade...
+Nostalgia perhaps...
+Or my love for sadism ?
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_map_1",
+  skip = "current",
+  text = [[
+
+   - Temple of Courage V.2018 -
+
+Here's the full map of the Temple
+of Courage from The 1st Solarus
+Quest, 2018 version.
+The path is the same as in
+the 2015 version, but the visuals
+are completely redone.
+And honestly... I now prefer
+the 2015 version !
+Good choice for the Labors then.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_map_2",
+  skip = "current",
+  text = [[
+
+  - Temple of Wisdom V.2018 -
+
+Here is the B1F map of the
+Temple of Wisdom from The 1st
+Solarus Quest, 2018 version.
+Some rooms are different but
+the general layout and graphics
+are mostly the same.
+Still, I chose the 2015 version
+for the Labors for one good reason:
+The 2018 version was not finished.
+And... the 2015 one is more
+sadistic, eh eh eh.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_menu_1",
+  skip = "current",
+  text = [[
+
+ - Inventory Menu (prototype) -
+
+Here's the Inventory menu and
+how it evolved over time.
+At first, I went with a style
+similar to Zelda Solarus DX,
+since I've always been good
+at copying.
+Later, starting from the ALTTP
+Pack, I made my own menu style
+using the gui_designer.
+In the end, both styles looked
+nice. The pure ALTTP style
+stayed with me for a long time
+and even appeared in Zeldo's
+Challenge Chapter 1, before
+becoming a unified type of
+menu in Zeldo 2, TotT,
+and the 'Basic Quest'.
+(a.k.a. the fragments of
+the ZeldoPack)
+I could write so many notes
+about this evolution...
+Maybe in a future Wave ?
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_menu_2",
+  skip = "current",
+  text = [[
+
+   - Map Menu (prototype) -
+
+Here is the very first version
+of the map menu. Very basic,
+simple and effective.
+But its design...
+If I recall correctly, it was
+a surface drawn in the map's
+on_draw event.
+The map showed the room layout,
+the compass showed the boss...
+and the Big Key icon was just
+brutally pasted on the surface.
+Ugly ? I know.
+But at the time, the ALTTP Pack
+had no map menu !
+And... it still doesn't today.
+Later on, I reused the map
+menu from ROTH Solarus Edition,
+which is very good !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_misc_1",
+  skip = "current",
+  text = [[
+
+- Miscellaneous Development Notes -
+
+Sometimes I'd add small debug tools
+or extra features just for fun,
+like cheat codes or secret keys.
+These little additions helped me
+test parts of the game faster,
+but I never planned to include
+them in the final versions.
+
+For example, the 'god mode'
+was useful during early
+playtesting to skip difficult
+rooms or bosses quickly.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_misc_2",
+  skip = "current",
+  text = [[
+
+- Sound Design Evolution -
+
+Sound effects have always
+been important to me.
+In the beginning, I used
+basic midi tones and simple
+waveforms for effects.
+
+As the project grew,
+I started composing more
+complex sounds using
+external tools, importing
+samples and layering sounds.
+
+This brought a richer
+and more immersive feeling
+to the gameplay experience.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_num_1",
+  skip = "current",
+  text = [[
+
+- Dungeon and Item List Notes -
+
+Here is a detailed list of
+planned dungeons for the 2018
+version of the game.
+
+Only the three main dungeons
+and Hyrule Castle were planned
+to be fully developed at that time,
+with some bonus dungeons and
+Ganon's Tower as extras.
+
+Many ideas never moved past
+the note stage but show the scope
+I had envisioned.
+
+Items were also catalogued,
+some removed or replaced,
+aiming for a compact,
+fast-paced gameplay experience.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_num_2",
+  skip = "current",
+  text = [[
+
+- Equipment Item Notes -
+
+A detailed numeric list
+of all equipment items,
+most inherited from 2016's version.
+
+Additional quests and features
+were also planned for some items.
+
+These notes show how much
+preparation and planning
+goes into creating a game.
+
+Forgotten Legend also has
+similar lists, full of ideas
+waiting to come alive in-game.
+
+Patience is key to see them all !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_overworld",
+  skip = "current",
+  text = [[
+
+       - Overworld Sketch -      
+
+A complete version of
+the Overworld from The 1st Solarus
+Quest, 2018 version.
+The layout of the regions
+strongly resembles the 2015
+version, and what was shown
+in this Content Wave.
+Only the White Peaks and
+Cursed Lands Zone is missing.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_paper_1",
+  skip = "current",
+  text = [[
+
+- Paper Notes : Temple of Courage -
+
+Here is the paper version Map
+of the Temple of Courage,
+in its prototype version.
+You can see that the path
+is very different compared to
+the final version.
+Originally, the dungeon's item
+was supposed to be Bombs but
+that was ultimately changed.
+You also notice that the key item
+for this place has an icon similar
+to the Kokiri Emerald...
+This paper version must be
+very old given the
+differences noted here...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_paper_2",
+  skip = "current",
+  text = [[
+
+ - Paper Notes : Temple of Wisdom -
+
+Here is the paper version Map
+of the Temple of Wisdom,
+showing the path up to the Miniboss
+The paper version you see here is
+very close to the
+final version of the place.
+There are also some notes
+about the basin system
+and the dungeon's bestiary/theme.
+The paper has been dampened
+over time at the top, making it
+hard to read...
+But it gives it an
+intense authentic charm.
+So emotional to see a paper
+dating back 10 years !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_paper_3",
+  skip = "current",
+  text = [[
+
+ - Paper Notes : Temple of Power - 
+
+Here is the paper version Map
+of the Temple of Power,
+in its early floors.
+The paper version was surely
+still in progress, explaining
+the empty rooms.
+Despite that, the room layout
+was already decided, so only
+filling them remained.
+There is also a small sketch
+on the right showing the logic
+of the various temple entrances,
+and the floor logic was
+already established... Zeldo was
+meticulous even in 2015 !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_scan_1",
+  skip = "current",
+  text = [[
+
+ - Scan 1st Solarus Quest folder -
+
+Here is a small screenshot
+of my Solarus folder from back then
+All dating from 10 years ago !
+You can see the folder for The
+1st Solarus Quest, simply called
+1ere_quete here.
+You can also see various
+resources and the tunics,
+ZSDX and ROTH Solarus Ed. projects.
+There are also hidden folders...
+maybe for future Content Waves ?
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_scan_2",
+  skip = "current",
+  text = [[
+
+   - Scan of first Lua scripts -
+
+Here is a small screenshot of my
+first Lua scripts. Not much
+else to say.
+I just wanted to show you
+what my first scripts looked like.
+Not bad ?
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_screen_1",
+  skip = "current",
+  text = [[
+
+        - Ingame Screen 1 -       
+
+Link is in the legendary
+Temple of Light. Does this place
+look familiar ?
+It's not a coincidence.
+You didn't see it in this
+Content Wave, but the location
+appears in Zelda Forgotten Legend.
+And that's normal. After all,
+this is its 'Definitive Edition'.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_screen_2",
+  skip = "current",
+  text = [[
+
+        - Ingame Screen 2 -       
+
+Link wandering in Cocorico Village,
+which I didn't present in this Wave
+The Village wasn't at an advanced
+enough stage to be presentable.
+So here is a screenshot.
+I also wanted to show it to you for
+a simple reason... Night time.
+Yes ! A day/night system was
+already planned and done.
+Many thanks to Christopho for
+his tutorials, which already
+enabled miracles back then !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_shop",
+  skip = "current",
+  text = [[
+
+- Great Shop (2015 version) - 
+
+The prototype version of the
+Great Shop. The basics
+were already there :
+Reception and management of the
+Fidelity Card, and the different
+sections dedicated to various
+Fidelity levels.
+
+
+It's funny to see that this whole
+system was already imagined
+so long ago...
+Sometimes, I surprise
+myself ! What a brilliant mind
+Zel...$0 Ok ok I stop.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_status",
+  skip = "current",
+  text = [[
+
+          - 100% Status -         
+
+Here is a screen showing
+The 1st Solarus Quest
+2018 version menu and max status.
+You can clearly see that the menu
+style changed to a uniform style
+at that time, compared to the 2015
+version which was an ALTTP-style
+menu with multiple tabs.
+This menu contains all
+planned items, so feel free
+to admire it at your leisure.
+Try to match the various
+icons to the items listed in
+the numeric lists. Have fun.
+By the way, I just noticed a
+mistake in the menu. There is one
+item that is not at max status.
+Can you find which one ?
+I will offer an EXCLUSIVE
+screenshot to those who find it.
+Contact me :P
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.dev_title",
+  skip = "current",
+  text = [[
+
+      - Title Screen V.2018 -      
+
+Here is a prototype version
+of the title screen of The 1st
+Solarus Quest 2018 version.
+It only lacks the corresponding
+subtitle.
+You can see that the logo style
+was much cleaner and
+resembles the original logo
+of Zeldo's Challenge - Chapter 1.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.forest_village",
+  skip = "current",
+  text = [[
+
+      - Forest Village -
+
+Link's adventures bring him
+to this village hidden deep
+in the Forest.
+As usual, the local Sage
+must know where to find
+the Trophy there...
+Difficulty : 6/10
+Objective : Inspect the Forest
+Tip : The usual order.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.ganon_castle",
+  skip = "current",
+  text = [[
+
+       - Ganon's Castle -
+
+The final point of The 1st Solarus
+Quest. A dark Castle
+ruled by the vile Ganon.
+Be careful, this place
+was imagined by the 2015 Zeldo,
+a worse version than 2017's.
+I let my legendary
+sadism run free here, even if
+the Zone isn't very big...
+Difficulty : 9/10
+Objective : Defeat Ganon
+Tip : It's the 2015 Zeldo...
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.hera_mountain",
+  skip = "current",
+  text = [[
+
+       - Hera Mountain -
+
+After conquering the Forest
+and the Lake, Link must go...
+to the Mountain. Original...
+Cross the Path of Death
+and make your way to the
+summit of Hera Mountain.
+Difficulty : 4/10
+Objective : Reach the Temple
+Tip : Detours are optional.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.hyrule_castle",
+  skip = "current",
+  text = [[
+
+       - Hyrule Castle -
+
+Link ends up in a cell
+after Ganon's assault.
+Does this seem familiar ?
+Your equipment has been hidden
+all over the Castle. Retrieve it
+and use it for the Trophy.
+Difficulty : 7/10
+Objective : Retrieve your items
+Tip : Inspect the cells.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.hyrule_field",
+  skip = "current",
+  text = [[
+
+       - Hyrule Field -
+
+Here is the vast Hyrule Field
+and its accompanying Citadel,
+just for you !
+Have fun exploring this space
+and finding many secrets.
+Rubies are very important !
+They will serve you in the Great
+Shop, an original 2016 idea
+that I brought back.
+Become a loyal Member of
+this money-smelling place
+and the Trophy will be yours !
+Difficulty : 7/10
+Objective : Become a Gold Member
+Tip : Long live CAPITALISM !!!
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.kokiri_garden",
+  skip = "current",
+  text = [[
+
+        - Kokiri Garden -
+
+Explore this Forgotten Legend
+Dungeon as a preview !
+
+Difficulty : ?/10
+Objective : ??
+Tip : ???
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.lake_village",
+  skip = "current",
+  text = [[
+
+        - Lake Village -
+
+Link finds himself in this village
+by Lake Hylia.
+A pleasant place to live !
+The Trophy must be somewhere...
+Question the local Sage...
+
+Difficulty : 5/10
+Objective : Help the inhabitants
+Tip : Night time is useless.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.link_house",
+  skip = "current",
+  text = [[
+
+       - Departure Grounds -      
+
+Link lives the start of his great
+adventure in this
+complete tutorial Zone.
+Explore, venture into
+the Forest, and find the Temple
+of Courage, your goal.
+Difficulty : 2/10
+Objective : Finish the Temple
+Tip : It's the tutorial ! GLHF !
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.power_temple",
+  skip = "current",
+  text = [[
+
+      - Temple of Power -
+
+The first draft of the Palace
+of Power. Longer, harder,
+and less fun !
+I recommend activating
+Help for Casuals if some parts
+seem too tedious.
+Difficulty : 8/10
+Objective : Finish the Dungeon
+Tip : The holes are important.
+]],
+}
+
+dialog{
+  id = "LABORS.1st_solarus_quest.paintings.wisdom_temple",
+  skip = "current",
+  text = [[
+
+     - Temple of Wisdom -
+
+My first water-themed Dungeon !
+Will it be as horrible as the
+TotT version ? Personally, I find
+it less bad...
+But you decide !
+
+Difficulty : 7/10
+Objective : Finish the Dungeon
+Tip : The basins go hand in hand.
 ]],
 }
 
@@ -16,52 +1823,12 @@ Let's inspect this place !
 }
 
 dialog{
-  id = "LABORS.end_1st_floor",
-  text = [[
-You managed to finish
-this first Wave of
-content ! Well done !
-Other Waves are of course planned,
-each relating to other unfinished
-projects... While waiting for these
-future contents, unfortunately I
-don't have much to offer you...
-
-My future project Zelda Another
-Hyrule Fantasy should arrive
-around summer 2024 !
-Forgotten Legend's development
-continues as well for
-a release in 2030 !
-I hope you enjoyed
-exploring my various Labors
-on Tower of the Triforce...
-The game could have been crazy,
-but my ambitions were too big
-and just drowned me...
-Meanwhile, I'm going back to The
-Capital, to my Castle... it's been
-5 years since I've been
-waiting for Link...
-Maybe he'll come one day,
-unexpectedly...
-Who knows what the Future holds...
-I also invite you to leave from here
-for now. When I have other Labors
-to offer, you will of course be
-invited. Let me offer you
-this credit as a reward.
-See you later !
-]],
-}
-
-dialog{
   id = "LABORS.entrance",
   text = [[
 Welcome to you Visitor !
 Welcome to this somewhat crazy
-project: The Labors of Zeldo !
-The concept is quite simple:
+project : The Labors of Zeldo !
+The concept is quite simple :
 in my long career as
 a Creator, I've made many
 things. Unfinished projects,
@@ -95,6 +1862,244 @@ much time.
 }
 
 dialog{
+  id = "LABORS.forest_village.bar_dude",
+  skip = "current",
+  text = [[
+Hey. You want a drink ? Between
+you and me, I think this bar
+is actually quite nicely decorated.
+But the shop in the back
+and the inn room are
+terribly empty...
+As if they didn't have time
+to add furniture...
+Kinda funny, isn't it ?
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.cant_enter_house",
+  skip = "current",
+  text = [[
+Oh hey. You wanted to see
+what's inside my house, huh ?
+That won't be possible, sorry.
+You see, the inside of this
+house was never mapped.
+Too bad.
+And I'm just here to stop
+you from going in.
+Pretty sad, huh...
+But hey, you could try
+getting into the Traveling
+Merchant's house...
+You know, the one who had the
+Wooden Key... Try hugging the
+trees. Trust me.
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.dania",
+  skip = "current",
+  text = [[
+Hi Link !
+I'm Dania, remember me ?
+Sure you do, you're going to save
+my cousin who got kidnapped by
+monsters in Forgotten Legend.
+Don't forget it.
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.elma",
+  skip = "current",
+  text = [[
+Hi Link !
+I'm Elma, remember me ?
+Sure you do, you're going to save
+me from terrible monsters in
+Forgotten Legend !
+Don't forget me.
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.guide",
+  skip = "current",
+  text = [[
+Greetings, young man.
+You're not from around here,
+am I right ?
+My name is Fado, and I
+know everything there is
+to know about this Village.
+Don't hesitate to ask
+if you need anything.
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.guide_repeat",
+  skip = "current",
+  text = [[
+Greetings, young man.
+You're not from around here,
+am I right ?
+My name is Fado, and I
+know everything there is
+to know about this Village.
+Don't hesitate to ask
+if you need anything.
+
+...$0What ?$0
+You expected a different dialogue ?
+How amusing !
+Unfortunately, the Great Zeldo
+only gave me this one to say.$0
+...$0Mmmh ?
+Where do you need to go, and what
+do you have to do ?$0 Figure it out.
+These post-2000 kids, I swear...
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.lumberjack",
+  skip = "current",
+  text = [[
+Oh hey. Need something ?
+My brother went off to the inn
+again for the day...
+Spending all his time drinking
+won't clear the path
+back to the house.
+Seriously... What a {{{{{
+And I thought he had memory lapses
+back then...
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.mido_day",
+  skip = "current",
+  text = [[
+Oh, a stranger... What do you want?
+I, the Great Mido, have no time
+to waste with you. Get out of here!
+Oh and... Be careful.
+People around here don't like
+outsiders, so watch your manners !
+(That's weird... He looks
+familiar... Mmmh no,
+that's impossible)
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.mido_night",
+  skip = "current",
+  text = [[
+What do you want ? I,
+the Great Mido, have every right
+to relax outside, don't I ?
+It's nighttime ? So what ?
+Scram, stranger !
+
+(That's weird... He looks
+familiar... Mmmh no,
+that's impossible)
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.saria_quest.chief_after_save",
+  skip = "current",
+  text = [[
+Thanks again, traveler. You have
+my eternal gratitude.
+I'm granting you access to our
+Altar. Go through the door on the
+right, and venture into the Lost
+Woods. Follow the idols and find
+the path. Good luck with your
+search, traveler. You don't seem to
+lack courage, I believe in you !
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.saria_quest.chief_default",
+  skip = "current",
+  text = [[
+Welcome, traveler.
+I'm the Chief of the Forest Village
+but also the Green Sage.
+Unfortunately, I'm not in the
+right state of mind to hear your
+request. My daughter, Saria, has
+disappeared ! She must've been
+kidnapped by Bokoblins, monsters
+from deep within the Forest.
+Those miserable vermin must be
+hiding somewhere, but our
+searches have come up empty !
+Oh what am I to do...
+My dear daughter...
+She must be out there, somewhere...
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.saria_quest.chief_saria_saved",
+  skip = "current",
+  text = [[
+Traveler, thank you a thousand
+times for saving my sweet Saria.
+We are grateful to you.
+Thanks also for driving out
+those vile Bokoblins from the
+Village. We won't be seeing them
+again anytime soon !
+How can I ever repay you ?$0
+A Trophy ?$0
+I don't know what you mean.
+But if it helps you in your search,
+I can grant you access
+to our Sacred Altar.
+Go through the door on the right,
+and venture into the Lost Woods.
+Follow the Idols and find the path.
+Good luck with your search,
+traveler. You don't seem to
+lack courage, I believe in you !
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.saria_quest.saria_saved",
+  skip = "current",
+  text = [[
+Thanks again for saving me,
+brave traveler.
+What's your name ?
+Link ?$0
+I'll try not to forget it !$0
+Good luck on your Quest, Link.
+]],
+}
+
+dialog{
+  id = "LABORS.forest_village.saria_quest.save",
+  skip = "current",
+  text = [[
+You saved my life !
+Let's get out of here quickly !
+]],
+}
+
+dialog{
   id = "LABORS.forgotten_corridor.paintings.1",
   skip = "current",
   text = [[
@@ -119,7 +2124,7 @@ dialog{
     - Digital notes : Script -    
 
 The most precious notes screenshot
-for some: the Script of
+for some : the Script of
 Forgotten Legend.
 The Script in this form exists
 for a large part of the game.
@@ -503,7 +2508,7 @@ dialog{
   id = "LABORS.tott.abuda.drunk_man",
   skip = "current",
   text = [[
-Hic! Welcome to the archipelago
+Hic ! Welcome to the archipelago
 of Abuda, my boy ! Hic !
 There's more than just
 butterbeer in the cellar,
@@ -531,7 +2536,7 @@ dialog{
   id = "LABORS.tott.abuda.kitchen_woman",
   skip = "current",
   text = [[
-Oh no! What am I going to do ?
+Oh no ! What am I going to do ?
 I don't have a frying pan
 anymore !
 How will I prepare
@@ -582,9 +2587,9 @@ dialog{
   id = "LABORS.tott.abuda.minigame_hookshot_steal",
   skip = "current",
   text = [[
-Hey! What do you think
+Hey ! What do you think
 you're doing stealing from
-honest people like that ??
+honest people like that ? ?
 Just because you're in
 a video game doesn't mean you can
 do whatever you want !
@@ -596,7 +2601,7 @@ knew you would steal from me...
 He's a true Genius !
 So he taught me this spell...
 Farewell, thief !
-game:set_life(0)
+game :set_life(0)
 ]],
 }
 
@@ -727,7 +2732,7 @@ I'm glad to see you passing by
 my place !
 As you can see,
 my house is completely
-flooded! Oh misery...
+flooded ! Oh misery...
 Can you help me ? The
 mechanism is in the basement.
 Unfortunately, you won't be able
@@ -984,8 +2989,8 @@ dialog{
   skip = "current",
   text = [[
 Temple of Light
-Origin: ALBW Sanctuary
-Author: Nintendo
+Origin : ALBW Sanctuary
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -998,8 +3003,8 @@ dialog{
   skip = "current",
   text = [[
 Wind Ruins
-Origin: MM Stone Tower Temple
-Author: Nintendo
+Origin : MM Stone Tower Temple
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1012,8 +3017,8 @@ dialog{
   skip = "current",
   text = [[
 Ancient Catacomb
-Origin: MC Royal Crypt RMIX
-Author: Nintendo (ZREO)
+Origin : MC Royal Crypt RMIX
+Author : Nintendo (ZREO)
 Listen to this track ?
 Yes
 No
@@ -1026,8 +3031,8 @@ dialog{
   skip = "current",
   text = [[
 Hyrule Castle Ruins
-Origin: WW Hyrule Castle
-Author: Nintendo
+Origin : WW Hyrule Castle
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1040,8 +3045,8 @@ dialog{
   skip = "current",
   text = [[
 Hyrule Casino
-Origin: Cuphead Funfair Fever
-Author: Studio MDHR
+Origin : Cuphead Funfair Fever
+Author : Studio MDHR
 Listen to this track ?
 Yes
 No
@@ -1054,8 +3059,8 @@ dialog{
   skip = "current",
   text = [[
 The Adventure Begins
-Origin: ALBW Beginning Fields
-Author: Nintendo
+Origin : ALBW Beginning Fields
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1068,8 +3073,8 @@ dialog{
   skip = "current",
   text = [[
 Hyrule Field
-Origin: Zelda 2 Overworld RMIX
-Author: Nintendo (Cheese71)
+Origin : Zelda 2 Overworld RMIX
+Author : Nintendo (Cheese71)
 Listen to this track ?
 Yes
 No
@@ -1082,8 +3087,8 @@ dialog{
   skip = "current",
   text = [[
 Hyrule Field - Night
-Origin: Zelda 2 Overworld RMIX
-Author: Nintendo (R3 Music Box)
+Origin : Zelda 2 Overworld RMIX
+Author : Nintendo (R3 Music Box)
 Listen to this track ?
 Yes
 No
@@ -1096,8 +3101,8 @@ dialog{
   skip = "current",
   text = [[
 Hyrule City
-Origin: ST Castle Town
-Author: Nintendo
+Origin : ST Castle Town
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1110,8 +3115,8 @@ dialog{
   skip = "current",
   text = [[
 Abuda Archipelago
-Origin: ST Aboda Village RMIX
-Author: Nintendo (ZREO)
+Origin : ST Aboda Village RMIX
+Author : Nintendo (ZREO)
 Listen to this track ?
 Yes
 No
@@ -1124,8 +3129,8 @@ dialog{
   skip = "current",
   text = [[
 Hyrule Forest
-Origin: TP Faron Woods
-Author: Nintendo
+Origin : TP Faron Woods
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1138,8 +3143,8 @@ dialog{
   skip = "current",
   text = [[
 Temple of Earth
-Origin: WW Earth Temple
-Author: Nintendo
+Origin : WW Earth Temple
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1152,8 +3157,8 @@ dialog{
   skip = "current",
   text = [[
 Icy Peaks
-Origin: TP Snowpeak
-Author: Nintendo
+Origin : TP Snowpeak
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1166,8 +3171,8 @@ dialog{
   skip = "current",
   text = [[
 Tabanta Marsh
-Origin: OOS Tarm Ruins RMIX
-Author: Nintendo (RebeccaETripp)
+Origin : OOS Tarm Ruins RMIX
+Author : Nintendo (RebeccaETripp)
 Listen to this track ?
 Yes
 No
@@ -1180,8 +3185,8 @@ dialog{
   skip = "current",
   text = [[
 Sacred Place
-Origin: BOTW Cave
-Author: Nintendo
+Origin : BOTW Cave
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1194,8 +3199,8 @@ dialog{
   skip = "current",
   text = [[
 New Hyrule Castle
-Origin: ST Hyrule Castle RMIX
-Author: Nintendo (ZREO)
+Origin : ST Hyrule Castle RMIX
+Author : Nintendo (ZREO)
 Listen to this track ?
 Yes
 No
@@ -1208,8 +3213,8 @@ dialog{
   skip = "current",
   text = [[
 House
-Origin: PH Inside a House RMIX
-Author: Nintendo (ZREO)
+Origin : PH Inside a House RMIX
+Author : Nintendo (ZREO)
 Listen to this track ?
 Yes
 No
@@ -1222,8 +3227,8 @@ dialog{
   skip = "current",
   text = [[
 Link's Ship
-Origin: WW HD Inside Pirate Ship
-Author: Nintendo
+Origin : WW HD Inside Pirate Ship
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1236,8 +3241,8 @@ dialog{
   skip = "current",
   text = [[
 Cave
-Origin: FSA Cave
-Author: Nintendo
+Origin : FSA Cave
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1250,8 +3255,8 @@ dialog{
   skip = "current",
   text = [[
 Mayor's House
-Origin: MM Mayor's Meeting
-Author: Nintendo
+Origin : MM Mayor's Meeting
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1264,8 +3269,8 @@ dialog{
   skip = "current",
   text = [[
 Agahnim's Battle 1
-Origin: ALBW Yuga Battle 1
-Author: Nintendo
+Origin : ALBW Yuga Battle 1
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1278,8 +3283,8 @@ dialog{
   skip = "current",
   text = [[
 Agahnim's Battle 2
-Origin: ALBW Yuga Battle 2
-Author: Nintendo
+Origin : ALBW Yuga Battle 2
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1292,8 +3297,8 @@ dialog{
   skip = "current",
   text = [[
 Temple of Fire
-Origin: SS Fire Sanctuary
-Author: Nintendo
+Origin : SS Fire Sanctuary
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1306,8 +3311,8 @@ dialog{
   skip = "current",
   text = [[
 Agahnim's Theme
-Origin: ALBW Yuga in Sanctuary
-Author: Nintendo
+Origin : ALBW Yuga in Sanctuary
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1320,8 +3325,8 @@ dialog{
   skip = "current",
   text = [[
 Temple of Water
-Origin: SS Ancient Cistern
-Author: Nintendo
+Origin : SS Ancient Cistern
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1334,8 +3339,8 @@ dialog{
   skip = "current",
   text = [[
 Temple of Desert
-Origin: OOT Koume and Kotake
-Author: Nintendo
+Origin : OOT Koume and Kotake
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1348,8 +3353,8 @@ dialog{
   skip = "current",
   text = [[
 Temple of Ice
-Origin: MM Snowhead Temple
-Author: Nintendo
+Origin : MM Snowhead Temple
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1362,8 +3367,8 @@ dialog{
   skip = "current",
   text = [[
 Temple of Wind
-Origin: MM STT Inversed
-Author: Nintendo
+Origin : MM STT Inversed
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1376,8 +3381,8 @@ dialog{
   skip = "current",
   text = [[
 Temple of Shadow
-Origin: TP Light and Darkness
-Author: Nintendo
+Origin : TP Light and Darkness
+Author : Nintendo
 Listen to this track ?
 Yes
 No
@@ -1390,8 +3395,8 @@ dialog{
   skip = "current",
   text = [[
 Tower of Triforce
-Origin: ST Tower of Spirits RMIX
-Author: Nintendo (ClefferNotes)
+Origin : ST Tower of Spirits RMIX
+Author : Nintendo (ClefferNotes)
 Listen to this track ?
 Yes
 No
@@ -1411,9 +3416,9 @@ Shadow.
 Don't be fooled by the illusions
 of this mysterious place
 and find the song pedestal.
-Difficulty: 8/10
-Objective: Complete the Dungeon
-Tip: Beware of appearances.
+Difficulty : 8/10
+Objective : Complete the Dungeon
+Tip : Beware of appearances.
 ]],
 }
 
@@ -1430,9 +3435,9 @@ A dream destination !
 Explore the area and find
 enough Seashells to
 exchange them for your goal.
-Difficulty: 3/10
-Objective: Collect Seashells
-Tip: Have fun and explore.
+Difficulty : 3/10
+Objective : Collect Seashells
+Tip : Have fun and explore.
 ]],
 }
 
@@ -1449,9 +3454,9 @@ at the summit !
 Defeat your opponent and
 free Hyrule from this
 dangerous threat.
-Difficulty: 9/10
-Objective: Defeat the Boss
-Tip: Eliminate the clones.
+Difficulty : 9/10
+Objective : Defeat the Boss
+Tip : Eliminate the clones.
 ]],
 }
 
@@ -1525,7 +3530,7 @@ dialog{
   skip = "current",
   text = [[
 
-    - Side Dungeon: Casino -
+    - Side Dungeon : Casino -
 
 Here is the plan of the famous Casino
 of Hyrule, the side Dungeon from which
@@ -1615,7 +3620,7 @@ Mmmh... it's also difficult now to
 say the prerequisites of the last<
 Dungeons as the lines converge and
 mix with each other... what an
-incredible brain Zeldo has!
+incredible brain Zeldo has !
 ]],
 }
 
@@ -1635,7 +3640,7 @@ We notice that the Rupees
 were important and
 that Link had to find a lot
 of money to complete
-all his purchases! But Zeldo, who
+all his purchases ! But Zeldo, who
 is a true Genius, had a solution.
 A treasure and resale system was
 planned... in the manner of
@@ -1645,7 +3650,7 @@ find treasures worth more than
 Dungeons of the game !
 Enough to allow him to easily
 get all these purchases.
-Well done Zeldo!
+Well done Zeldo !
 ]],
 }
 
@@ -1688,7 +3693,7 @@ This puzzle, like the
 entire Temple, exist in
 playable version...
 A comment from the testers
-of the time: What a hell !
+of the time : What a hell !
 ]],
 }
 
@@ -1703,7 +3708,7 @@ Link traversing the Earth Temple.
 This completely finished Dungeon
 was beta-tested in 2017.
 Here's the assessment from
-the testers of the time: it was long,
+the testers of the time : it was long,
 it was hard, it was the 2017 Zeldo !
 ]],
 }
@@ -1748,9 +3753,9 @@ dialog{
 Explore this Dungeon from
 Another Hyrule Fantasy
 in preview !
-Difficulty: ?/10
-Objective: ??
-Tip: ???
+Difficulty : ?/10
+Objective : ? ?
+Tip : ? ? ?
 ]],
 }
 
@@ -1767,9 +3772,9 @@ this Dungeon built within it.
 Find the Dungeon item and
 use it to reach
 your goal.
-Difficulty: 7/10
-Objective: Obtain the Dungeon item
-Tip: Fire lights torches.
+Difficulty : 7/10
+Objective : Obtain the Dungeon item
+Tip : Fire lights torches.
 ]],
 }
 
@@ -1786,9 +3791,9 @@ and the Wind Ruins.
 It is said that a Great Fairy exists
 in this place... your goal
 will be to find her and help her.
-Difficulty: 5/10
-Objective: Save the Great Fairy
-Tip: Night attracts Gems.
+Difficulty : 5/10
+Objective : Save the Great Fairy
+Tip : Night attracts Gems.
 ]],
 }
 
@@ -1802,9 +3807,9 @@ dialog{
 Link will have to rack his brain to
 solve these ice block puzzles... Help
 him and prove that you have a brain.
-Difficulty: 7/10
-Objective: Solve the puzzles
-Tip: Ice is slippery.
+Difficulty : 7/10
+Objective : Solve the puzzles
+Tip : Ice is slippery.
 ]],
 }
 
@@ -1813,7 +3818,7 @@ dialog{
   skip = "current",
   text = [[
 
-              - ??? -
+              - ? ? ? -
 ]],
 }
 
@@ -1830,9 +3835,210 @@ yours, possibly.
 Stay focused, take notes, and don't
 lose your mind. Everything
 should be fine.
-Difficulty: 8/10
-Objective: Complete the Dungeon
-Tip: Good luck
+Difficulty : 8/10
+Objective : Complete the Dungeon
+Tip : Good luck
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_1.after_battle",
+  text = [[
+It seems you're not as
+pathetic as I thought after all.
+
+I'll let you access the next
+floor of the Castle.
+
+But get ready, because next time,
+I won't be so merciful with you !
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_1.battle_start",
+  text = [[
+Try not to disappoint me...$0
+En garde !
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_1.beaten",
+  text = [[
+$2Phew...$0
+Phew......$0
+Not bad... $0For a mere Player...$0
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_1.before_battle",
+  text = [[
+As a reward,
+I'm giving you the great honor
+of facing me in a duel !
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_1.before_battle_alt",
+  skip = "current",
+  text = [[
+Try not to waste my time
+this time around.
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_1.desesperate_move",
+  text = [[
+So you never give up, huh ?
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_1.end_1st_floor",
+  text = [[
+You've managed to complete
+this first Wave of
+content ! Well done !
+To celebrate, I've got myself
+a brand new look !
+Thanks, DarkDavy15 !
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_1.end_1st_floor_alt",
+  skip = "current",
+  text = [[
+You're back again. Couldn't help
+dying, huh ? Because of you,
+I have to change again.
+Behold and admire
+Zeldo the Magnificent, version 2.0.
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_1.give_sword",
+  text = [[
+I'll give you a little help.
+You clearly need it...
+Take this legendary weapon !
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_1.spell_sprite",
+  skip = "current",
+  text = [[
+smoke:set_enabled('true')
+zeldo:set_sprite('enemies/boss/
+zeldo_new')
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_1.stop_the_joke",
+  text = [[
+Oops, looks like I went
+a bit too hard :P$0
+I'll give you one last chance.
+Try to last more than
+10 seconds this time...
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_2.desesperate_move",
+  text = [[
+So you never give up, huh ?
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_2.end_floor",
+  text = [[
+You managed to complete
+this second Wave of
+content ! Well done !
+I've barely shown you
+the extent of my
+unfinished Labors.
+We'll meet again !
+For a 3rd Wave !
+You have my word, little darling.
+In the meantime, I'll spend
+the end of the year working on
+the ZeldoPack...
+I plan to optimize many things,
+thanks to my recent progress
+and DarkDavy15's help.
+I hope you enjoyed
+exploring this second Wave
+dedicated to The 1st Solarus Quest.
+It was a first test game,
+which I might have released
+to the public, but in the end...
+Well, like with the first
+Wave back then, here's
+a modest credit roll for you.
+You'll be invited again
+to these mysterious rooms
+when the 3rd Wave is ready.
+Meanwhile, did you manage to 100%
+these 2 Waves of The Labors of
+Zeldo ? Good luck with that.
+See you later !
+And don't forget, you're
+all beautiful here ! :)
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_2.welcome",
+  text = [[
+Well done, little cutie.
+You're still alive, and you've
+reached the Hub of Wave 2.
+This one is dedicated to The
+1st Solarus Quest. It's my
+very first Solarus project.
+It was a huge test
+made when I discovered
+the engine in 2015/2016.
+Forgotten Legend takes up the lore
+from this first draft... So
+you might recognize some Zones.
+You'll notice pretty quickly that
+the Labor Zones in this Wave
+can be quite large.
+Also, to help you, let me
+give you this item : It's
+the Magic Mirror ! Take it.
+If you find yourself too far
+from the start of the Zone,
+just take a look at it...
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_2.welcome_2",
+  text = [[
+This magical artifact should
+be very useful to you !
+Oh yes, one last thing...
+Be careful, I wasn't as
+kind as I am now... Although
+the Zones were adapted,
+some tricks from back then
+were kept. Sorry in advance...
+or not ! :P
+Good luck to you !
+I'll see you at the end of this
+floor. I believe in you. Have fate.
 ]],
 }
 
@@ -1999,7 +4205,7 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Price: $v Rupees.
+Price : $v Rupees.
 Buy
 Do not buy
 ]],
@@ -2040,7 +4246,7 @@ You found the Gold Key ! $0
 
 You can now open the
 golden lock door in the
-area!
+area !
 ]],
 }
 
@@ -2094,6 +4300,20 @@ on the map screen.
 The dark rooms are
 those unexplored for the
 moment.
+]],
+}
+
+dialog{
+  id = "_treasure.dungeons/purple_key.1",
+  icon = "88",
+  skip = "all",
+  text = [[
+You found the purple
+Gallery Key ! $0
+
+It will allow you to open
+the purple Gallery door
+on this floor !
 ]],
 }
 
@@ -2171,11 +4391,11 @@ dialog{
   icon = "64",
   text = [[
 You found a Bomb
-Bag! $0
+Bag ! $0
 
 It contains 20 Bombs.
 Assign them to a key and
-blow everything up!
+blow everything up !
 ]],
 }
 
@@ -2184,7 +4404,7 @@ dialog{
   icon = "65",
   text = [[
 You get a
-Gold Bomb! $0
+Gold Bomb ! $0
 
 It will allow you to
 carry 20 additional Bombs
@@ -2196,7 +4416,7 @@ dialog{
   icon = "66",
   text = [[
 You get a
-Gold Bomb! $0
+Gold Bomb ! $0
 
 It will allow you to
 carry 20 additional Bombs
@@ -2208,11 +4428,11 @@ dialog{
   icon = "43",
   text = [[
 You found the
-Flippers! $0
+Flippers ! $0
 
 You can now
 swim in deep
-water!
+water !
 ]],
 }
 
@@ -2222,7 +4442,7 @@ dialog{
   skip = "current",
   text = [[
 You receive the
-Strength Gem Detector! $0
+Strength Gem Detector ! $0
 
 Thanks to this object, you will be able
 to be informed of the presence
@@ -2233,7 +4453,7 @@ Gems are there.
 In a Dungeon, the Detector
 will make a sound if a Gem
 is present on the floor.
-That's progress!
+That's progress !
 ]],
 }
 
@@ -2242,10 +4462,10 @@ dialog{
   icon = "40",
   text = [[
 You get the Power
-Bracelets! $0
+Bracelets ! $0
 
 You can now lift
-objects! Approach
+objects ! Approach
 and press Action to
 lift them.
 ]],
@@ -2256,12 +4476,12 @@ dialog{
   icon = "41",
   text = [[
 You get the Power
-Gloves! $0
+Gloves ! $0
 
 You can now lift
 white stones or
 other objects that were
-too heavy for you!
+too heavy for you !
 ]],
 }
 
@@ -2270,11 +4490,11 @@ dialog{
   icon = "42",
   text = [[
 You get the Titan's
-Mitts! $0
+Mitts ! $0
 
 You can now lift
 black stones that
-you couldn't budge before!
+you couldn't budge before !
 ]],
 }
 
@@ -2284,10 +4504,10 @@ dialog{
   skip = "current",
   text = [[
 You get the Pegasus
-Boots! $0
+Boots ! $0
 
 These boots will allow you
-to dash like the wind!
+to dash like the wind !
 ]],
 }
 
@@ -2296,7 +4516,7 @@ dialog{
   icon = "68",
   text = [[
 You get a
-Gold Arrow! $0
+Gold Arrow ! $0
 
 It will allow you to
 carry 20 additional Arrows
@@ -2308,7 +4528,7 @@ dialog{
   icon = "69",
   text = [[
 You get a
-Gold Arrow! $0
+Gold Arrow ! $0
 
 It will allow you to
 carry 20 additional Arrows
@@ -2320,7 +4540,7 @@ dialog{
   icon = "60",
   skip = "current",
   text = [[
-You found a Bag! $0
+You found a Bag ! $0
 
 
 You can now
@@ -2337,10 +4557,10 @@ dialog{
   skip = "current",
   text = [[
 You found the Big
-Ruby Bag! $0
+Ruby Bag ! $0
 
 It can contain
-up to 500 Rupees!
+up to 500 Rupees !
 ]],
 }
 
@@ -2350,10 +4570,10 @@ dialog{
   skip = "current",
   text = [[
 You found the Giant
-Ruby Bag! $0
+Ruby Bag ! $0
 
 It can contain
-up to 999 Rupees!
+up to 999 Rupees !
 ]],
 }
 
@@ -2363,10 +4583,10 @@ dialog{
   skip = "current",
   text = [[
 You found the Bottomless
-Ruby Bag! $0
+Ruby Bag ! $0
 
 It can contain
-up to 9999 Rupees!
+up to 9999 Rupees !
 ]],
 }
 
@@ -2376,7 +4596,7 @@ dialog{
   skip = "current",
   text = [[
 You get a
-Shield! $0
+Shield ! $0
 
 You are protected against
 enemy projectiles like
@@ -2390,7 +4610,7 @@ dialog{
   skip = "current",
   text = [[
 You get the
-Hylian Shield! $0
+Hylian Shield ! $0
 
 You are now protected
 against magical attacks.
@@ -2403,14 +4623,56 @@ dialog{
   skip = "current",
   text = [[
 You found the
-Mirror Shield! $0
+Mirror Shield ! $0
 
 You can now
 counter lasers or
 the most powerful spells.
 The shield's magic
 also increases
-your Defense!
+your Defense !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/shield_1st_solarus_quest.1",
+  icon = "103",
+  text = [[
+You got a Small
+Shield !$0
+
+You're now protected against
+enemy projectiles like
+stones and arrows.
+Your Defense has increased !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/shield_1st_solarus_quest.2",
+  icon = "104",
+  text = [[
+You got the
+Bling-Bling Shield !$0
+
+It's shiny, stylish, and
+can also repel
+magical attacks !
+Your Defense has increased !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/shield_1st_solarus_quest.3",
+  icon = "105",
+  text = [[
+You got the
+Mirror Shield !$0
+
+It lets you block
+powerful Lasers.
+And you can see yourself in it !
+Your Defense has increased !
 ]],
 }
 
@@ -2418,20 +4680,15 @@ dialog{
   id = "_treasure.equipment/sword.1",
   icon = "76",
   text = [[
-You get the Kokiri Sword! $0
+You get the Sword ! $0
 
 
-This sword made of
-Mojo bark is a gift from
-the Kokiri Forest Ancient.
-Press Attack to use it and fight your
-enemies.
-Hold Attack down
-to charge your sword and
-release the button after a
-certain time to perform
-a devastating circular
-attack!
+Its sharp blade is perfect for
+getting started in
+combat.
+Press Attack to use it and
+cross swords with your
+enemies!
 ]],
 }
 
@@ -2440,13 +4697,13 @@ dialog{
   icon = "77",
   text = [[
 You get the
-Viscen Sword! $0
-Your Strength increases!
+Viscen Sword ! $0
+Your Strength increases !
 This fine blade belonged to
 Captain Viscen... and it's
-you he entrusted it to!
+you he entrusted it to !
 Wield it in Remembrance of the bravest
-Captain the Kingdom has ever known!
+Captain the Kingdom has ever known !
 ]],
 }
 
@@ -2455,11 +4712,11 @@ dialog{
   icon = "78",
   text = [[
 You found
-the Legendary Sword! $0
+the Legendary Sword ! $0
 
 This Legendary Blade
 is said to have the power to
-repel Evil!
+repel Evil !
 ]],
 }
 
@@ -2468,11 +4725,24 @@ dialog{
   icon = "79",
   text = [[
 You had
-the Legendary Sword forged! $0
+the Legendary Sword forged ! $0
 
 The power of
 this sword surpasses
 understanding...
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/sword_PLAYER.1",
+  icon = "229",
+  text = [[
+Will you truly be able
+to wield this Sword ?$0
+
+In any case, there's no
+time to lose !
+Defeat that Carnavalous !
 ]],
 }
 
@@ -2482,11 +4752,11 @@ dialog{
   skip = "current",
   text = [[
 You get the Fencing
-Manual! $0
+Manual ! $0
 
 You can now perform
 the whirlwind attack, a technique
-of the great swordmasters!
+of the great swordmasters !
 ]],
 }
 
@@ -2495,7 +4765,7 @@ dialog{
   icon = "71",
   skip = "current",
   text = [[
-You found the Blue Tunic! $0
+You found the Blue Tunic ! $0
 
 This increases
 your defense.
@@ -2507,10 +4777,10 @@ dialog{
   icon = "72",
   skip = "current",
   text = [[
-You found the Red Tunic! $0
+You found the Red Tunic ! $0
 
 This increases
-your defense even more!
+your defense even more !
 ]],
 }
 
@@ -2520,10 +4790,10 @@ dialog{
   skip = "current",
   text = [[
 You get the
-Zora Scale! $0
+Zora Scale ! $0
 
 You can now dive
-into the depths of the sea!
+into the depths of the sea !
 ]],
 }
 
@@ -2533,7 +4803,7 @@ dialog{
   skip = "current",
   text = [[
 You get the
-Golden Zora Scale! $0
+Golden Zora Scale ! $0
 
 This very rare scale
 will allow you to stay
@@ -2563,7 +4833,7 @@ Super Boomerang !$0
 
 It is faster
 and goes farther than
-the old one!
+the old one !
 ]],
 }
 
@@ -2697,10 +4967,10 @@ dialog{
   icon = "2",
   text = [[
 You obtained the legendary
-Light Arrows! $0
+Light Arrows ! $0
 
 Their legendary power
-penetrates the Darkness!
+penetrates the Darkness !
 ]],
 }
 
@@ -2709,7 +4979,7 @@ dialog{
   icon = "21",
   text = [[
 You found the Cane
-of Byrna! $0
+of Byrna ! $0
 
 It will restore all your
 vital energy at the cost
@@ -2722,7 +4992,7 @@ dialog{
   icon = "20",
   text = [[
 You found the Cane
-of Somaria! $0
+of Somaria ! $0
 
 It will allow you to summon
 blocks in front of you.
@@ -2734,13 +5004,13 @@ dialog{
   icon = "30",
   text = [[
 You obtained a Jar
-of Spices! $0
+of Spices ! $0
 
 Its orange color will be missed
 by its owner but it's
 an essential ingredient for
 Cuvée Romani... take it
-quickly to the bar manager!
+quickly to the bar manager !
 ]],
 }
 
@@ -2748,13 +5018,13 @@ dialog{
   id = "_treasure.inventory/echange.2",
   icon = "31",
   text = [[
-You obtained a Sugar Flake! $0
+You obtained a Sugar Flake ! $0
 
 It may seem like ordinary ice
 but it has a sweet aroma.
 It's an ingredient that gives
 all its flavor to Cuvée
-Romani. Take it to the bar!
+Romani. Take it to the bar !
 ]],
 }
 
@@ -2762,13 +5032,89 @@ dialog{
   id = "_treasure.inventory/echange.3",
   icon = "32",
   text = [[
-You obtained some Honey! $0
+You obtained some Honey ! $0
 
 A few drops will be enough
 to give Cuvée Romani
 its irresistible taste.
 This should be the last
-ingredient to prepare it!
+ingredient to prepare it !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange_1st_solarus_quest.1",
+  icon = "30",
+  text = [[
+You got a Mirror ! $0
+You can see yourself in it...
+aren't you handsome !
+Maybe someone in this Village
+could use it ?
+Do some investigating !
+Use it with Item 1
+or Item 2 on the right
+person to trade it.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange_1st_solarus_quest.2",
+  icon = "31",
+  text = [[
+You got a brand new
+Broom ! $0
+Well done... maybe ?
+Perfect for cheering up
+a cleaning fanatic !
+Use it with Item 1
+or Item 2 on the right
+person to trade it.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange_1st_solarus_quest.3",
+  icon = "32",
+  text = [[
+You got a Precious
+Stone ! $0
+It's a diamond...
+Shining with innocent
+brilliance. Do you know
+someone who might want it ?
+Use it with Item 1
+or Item 2 on the right
+person to trade it.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange_1st_solarus_quest.4",
+  icon = "33",
+  text = [[
+You got a Book
+about rare stones ! $0
+Great...
+This Book probably
+belongs on a shelf,
+in a library.
+Use it with Item 1
+or Item 2 in the right place
+to put it away.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange_1st_solarus_quest.5",
+  icon = "34",
+  text = [[
+You got the Pearl
+Necklace ! $0
+It's a bit large.
+It seems the trial of
+the Blue Sage is nearly over.
+Better go show it to them !
 ]],
 }
 
@@ -2789,11 +5135,11 @@ dialog{
   id = "_treasure.inventory/hammer.1",
   icon = "9",
   text = [[
-You obtained a Hammer! $0
+You obtained a Hammer ! $0
 
 It will allow you to pound
 stakes in your way and
-rusty switches!
+rusty switches !
 ]],
 }
 
@@ -2826,7 +5172,7 @@ dialog{
   id = "_treasure.inventory/lamp.1",
   icon = "5",
   text = [[
-You obtained a Lantern ! $0
+You obtained a Lamp ! $0
 
 
 It will allow you to
@@ -2849,15 +5195,28 @@ as long as you have magic !
 }
 
 dialog{
+  id = "_treasure.inventory/magic_mirror.1",
+  icon = "26",
+  text = [[
+You obtain the Magic
+Mirror !$0
+
+When you are in a Labor
+Zone, use it to return
+in the current Wave HUB.
+]],
+}
+
+dialog{
   id = "_treasure.inventory/magic_mushroom.1",
   icon = "18",
   skip = "current",
   text = [[
-You found a Mushroom! $0
+You found a Mushroom ! $0
 
 
 It has a... special smell.
-Maybe someone needs it?
+Maybe someone needs it ?
 ]],
 }
 
@@ -2890,22 +5249,22 @@ illusions.
 dialog{
   id = "_treasure.other/ally_bomb.1",
   text = [[
-These Bombs are perfect!
+These Bombs are perfect !
 To place them, all I have to do
 is press Item 1.
 But beware of their devastating
-explosion!
+explosion !
 ]],
 }
 
 dialog{
   id = "_treasure.other/ally_bomb_throw.1",
   text = [[
-I found the Power Gloves!
+I found the Power Gloves !
 They were probably stolen
 from the blacksmith in Kakariko...
 With these, I'll be able to
-throw my Bombs!
+throw my Bombs !
 Just press Item 2.
 ]],
 }
@@ -2929,13 +5288,13 @@ dialog{
   icon = "24",
   text = [[
 You obtain Romani's
-Brew! $0
+Brew ! $0
 
 This unique and very
 complex mixture to prepare is
 delicious and knows how to
 revive anyone in
-a blink of an eye!
+a blink of an eye !
 Don't abuse it though...
 ]],
 }
@@ -2973,7 +5332,7 @@ dialog{
   icon = "23",
   skip = "current",
   text = [[
-You obtain Milk! $0
+You obtain Milk ! $0
 
 This widely spread beverage
 in Hyrule will restore
@@ -2992,6 +5351,106 @@ Red Potion ! $0
 This potion will restore
 all your hearts if you
 drink it.
+]],
+}
+
+dialog{
+  id = "_treasure.permanent/bombs.1",
+  icon = "94",
+  skip = "current",
+  text = [[
+You got the permanent item :
+Bombs ! $0
+
+You can now blow up any
+suspicious spots you find !
+This precious item will now
+be permanently available in
+all Labor Zones of this Wave.
+]],
+}
+
+dialog{
+  id = "_treasure.permanent/boomerang_2.1",
+  icon = "4",
+  skip = "current",
+  text = [[
+You got the permanent item :
+Super Boomerang ! $0
+
+Throw it to reach distant
+switches and hidden spots !
+This precious item will now
+be permanently available in
+all Labor Zones of this Wave.
+]],
+}
+
+dialog{
+  id = "_treasure.permanent/flippers.1",
+  icon = "43",
+  skip = "current",
+  text = [[
+You got the permanent item :
+Flippers ! $0
+
+You no longer need to fear
+the deep waters of the
+Zones in this Wave !
+This precious item will now
+be permanently available in
+all Labor Zones of this Wave.
+]],
+}
+
+dialog{
+  id = "_treasure.permanent/glove_3.1",
+  icon = "42",
+  skip = "current",
+  text = [[
+You got the permanent item :
+Titans Mitts ! $0
+
+You can now lift the brown
+stones that were once
+impossible to budge !
+This precious item will now
+be permanently available in
+all Labor Zones of this Wave.
+]],
+}
+
+dialog{
+  id = "_treasure.permanent/lamp.1",
+  icon = "5",
+  skip = "current",
+  text = [[
+You got the permanent item :
+Lamp ! $0
+
+You'll finally see clearly in
+dark and nighttime Zones !
+You can also light fires !
+This precious item will now
+be permanently available in
+all Labor Zones of this Wave.
+]],
+}
+
+dialog{
+  id = "_treasure.permanent/monicle_truth.1",
+  icon = "22",
+  skip = "current",
+  text = [[
+You got the permanent item :
+Lens of Truth ! $0
+
+You can now see the Truth
+hidden among illusions !
+Use it as much as you like !
+This precious item will now
+be permanently available in
+all Labor Zones of this Wave.
 ]],
 }
 
@@ -3120,7 +5579,7 @@ You obtain a Pile
 of 3 Hearts ! $0
 
 Your energy increases by
-3 Hearts!
+3 Hearts !
 ]],
 }
 
@@ -3292,13 +5751,13 @@ dialog{
   id = "_treasure.quest_items/din_pearl_1.1",
   icon = "132",
   text = [[
-You obtained Din's Pearl! $0
+You obtained Din's Pearl ! $0
 
 At least one of its
 fragments... Vire seems to
 have broken it...
 Go see Princess
-Zelda again! Maybe she'll
+Zelda again ! Maybe she'll
 know what to do...
 ]],
 }
@@ -3326,13 +5785,103 @@ dialog{
   id = "_treasure.quest_items/farore_pearl.1",
   icon = "130",
   text = [[
-You obtained Farore's Pearl! $0
+You obtained Farore's Pearl ! $0
 
 This strange Pearl
 contains the essence
 of Earth.
 Go see the Elder
-Kokiri again!
+Kokiri again !
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/fidelity_card_1st_solarus_quest.1",
+  icon = "212",
+  text = [[
+You got a Fidelity
+Card ! $0
+
+Earn Fidelity Points by
+shopping at the Store.
+You can check your current
+Points total in the Status.
+If you collect enough Points,
+you'll rank up your
+Fidelity Grade and gain
+access to new Store sections,
+where you can buy even more !
+Long live Purchasing Power !
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/fidelity_card_1st_solarus_quest.2",
+  icon = "213",
+  text = [[
+You got the Bronze
+Fidelity Card ! $0
+
+This card proves your
+Bronze Rank. You're a
+standard member to us.
+A new section of the
+Store has opened for you.
+Go check it out !
+Long live Capitalism !
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/fidelity_card_1st_solarus_quest.3",
+  icon = "214",
+  text = [[
+You got the Silver
+Fidelity Card ! $0
+
+This card proves your
+Silver Rank. You're an
+important member to us.
+A new section of the
+Store has opened for you.
+Go check it out !
+Long live Wealth !
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/fidelity_card_1st_solarus_quest.4",
+  icon = "215",
+  text = [[
+You got the Gold
+Fidelity Card ! $0
+
+This card proves your
+Gold Rank. You're an
+exceptional member to us.
+A new section of the
+Store has opened for you.
+Go check it out !
+Long live Compulsive
+Shopping !
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/fidelity_card_1st_solarus_quest.5",
+  icon = "216",
+  text = [[
+You got the VIP
+Fidelity Card ! $0
+
+This card proves your
+VIP Rank. You're a truly
+UNIQUE member to us.
+A new section of the
+Store has opened for you.
+Go check it out !
+Long live the CASH !$0
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ]],
 }
 
@@ -3342,11 +5891,11 @@ dialog{
   skip = "all",
   text = [[
 You found a Wandering
-Gratitude Gem! $0
+Gratitude Gem ! $0
 
 A strange force emanates
 from it... try to find
-more!
+more !
 ]],
 }
 
@@ -3357,7 +5906,7 @@ dialog{
   text = [[
 This person's gratitude
 fills you with
-Gratitude Gems! $0
+Gratitude Gems ! $0
 The felt Gratitude
 gives you 5 additional
 Gems.
@@ -3371,7 +5920,7 @@ dialog{
   text = [[
 This person's gratitude
 fills you with
-Gratitude Gems! $0
+Gratitude Gems ! $0
 The felt Gratitude
 gives you 10 additional
 Gems.
@@ -3385,7 +5934,7 @@ dialog{
   text = [[
 This person's gratitude
 fills you with
-Gratitude Gems! $0
+Gratitude Gems ! $0
 The felt Gratitude
 gives you 20 additional
 Gems.
@@ -3406,6 +5955,32 @@ by one Heart !
 }
 
 dialog{
+  id = "_treasure.quest_items/ice_key_1st_solarus_quest.1",
+  icon = "28",
+  text = [[
+You got the
+Ice Key ! $0
+
+Its lock must be hidden
+somewhere in the World...
+but where ?
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/iron_key_1st_solarus_quest.1",
+  icon = "35",
+  text = [[
+You got the
+Iron Key ! $0
+
+It will let you access
+the Lake Cavern. $0
+And maybe somewhere else ?
+]],
+}
+
+dialog{
   id = "_treasure.quest_items/magic_flask_upgrade.1",
   icon = "93",
   skip = "current",
@@ -3422,14 +5997,53 @@ dialog{
   id = "_treasure.quest_items/nayru_pearl.1",
   icon = "131",
   text = [[
-You obtained Nayru's Pearl! $0
+You obtained Nayru's Pearl ! $0
 
 This strange Pearl
 contains the essence
 of Water.
 There's only one
-Pearl left to find! You should
+Pearl left to find ! You should
 go see Zelda again...
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/pendants_1st_solarus_quest.1",
+  icon = "133",
+  text = [[
+You found the Pendant
+of Farore ! $0
+
+This legendary Relic is said
+to grant access
+to the Triforce...
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/pendants_1st_solarus_quest.2",
+  icon = "134",
+  text = [[
+You found the Pendant
+of Nayru ! $0
+
+This legendary Relic is said
+to grant access
+to the Triforce...
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/pendants_1st_solarus_quest.3",
+  icon = "135",
+  text = [[
+You found the Pendant
+of Din ! $0
+
+This legendary Relic is said
+to grant access
+to the Triforce...
 ]],
 }
 
@@ -3439,7 +6053,7 @@ dialog{
   skip = "current",
   text = [[
 You found a
-Heart Piece! $0
+Heart Piece ! $0
 ]],
 }
 
@@ -3499,6 +6113,171 @@ additional Remembrance Shards.
 }
 
 dialog{
+  id = "_treasure.quest_items/remembrance_shard_1st_solarus_quest.1",
+  icon = "230",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Shard !
+
+These mysterious shards were
+scattered in Zeldo's
+Labors...
+You'll need them to
+materialize Gallery Keys.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_1st_solarus_quest.2",
+  icon = "231",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Stone !
+
+This artifact gives you 5
+additional Remembrance Shards.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_1st_solarus_quest.3",
+  icon = "232",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Gem !
+
+This artifact gives you 10
+additional Remembrance Shards.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_1st_solarus_quest.4",
+  icon = "233",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Crystal !
+
+This artifact gives you 25
+additional Remembrance Shards.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_none.1",
+  icon = "230",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Shard !
+
+These mysterious shards were
+scattered in Zeldo's
+Labors...
+You'll need them to
+materialize Gallery Keys.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_none.2",
+  icon = "231",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Stone !
+
+This artifact gives you 5
+additional Remembrance Shards.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_none.3",
+  icon = "232",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Gem !
+
+This artifact gives you 10
+additional Remembrance Shards.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_none.4",
+  icon = "233",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Crystal !
+
+This artifact gives you 25
+additional Remembrance Shards.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_tott.1",
+  icon = "230",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Shard !
+
+These mysterious shards were
+scattered in Zeldo's
+Labors...
+You'll need them to
+materialize Gallery Keys.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_tott.2",
+  icon = "231",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Stone !
+
+This artifact gives you 5
+additional Remembrance Shards.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_tott.3",
+  icon = "232",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Gem !
+
+This artifact gives you 10
+additional Remembrance Shards.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_tott.4",
+  icon = "233",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Crystal !
+
+This artifact gives you 25
+additional Remembrance Shards.
+]],
+}
+
+dialog{
   id = "_treasure.quest_items/shell.1",
   icon = "211",
   skip = "all",
@@ -3514,7 +6293,7 @@ for trading...
 dialog{
   id = "_treasure.quest_items/triforce.1",
   text = [[
-You found the Triforce! $0
+You found the Triforce ! $0
 ]],
 }
 
@@ -3524,6 +6303,18 @@ dialog{
   text = [[
 You completed this Dungeon !
 Well done !
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/wooden_key_1st_solarus_quest.1",
+  icon = "29",
+  text = [[
+You obtain the Wooden
+Key !$0
+
+It must be used to open
+something nearby...
 ]],
 }
 
@@ -3540,7 +6331,7 @@ dialog{
   icon = "151",
   skip = "current",
   text = [[
-You found some Blue Chuchu Jelly! $0
+You found some Blue Chuchu Jelly ! $0
 
 Its magical properties
 are currently unknown.
@@ -3555,7 +6346,7 @@ dialog{
   icon = "153",
   skip = "current",
   text = [[
-You found some Green Chuchu Jelly! $0
+You found some Green Chuchu Jelly ! $0
 
 It's very rich in magical
 components but is
@@ -3570,7 +6361,7 @@ dialog{
   icon = "150",
   skip = "current",
   text = [[
-You found some Red Chuchu Jelly! $0
+You found some Red Chuchu Jelly ! $0
 
 It's very rich in
 revitalizing components
@@ -3585,7 +6376,7 @@ dialog{
   icon = "154",
   skip = "current",
   text = [[
-You found a Joy Pendant! $0
+You found a Joy Pendant ! $0
 
 It is said that these jewels
 bring happiness to their
@@ -3598,11 +6389,11 @@ dialog{
   icon = "158",
   skip = "current",
   text = [[
-You found a Knight's Crest! $0
+You found a Knight's Crest ! $0
 
 Collect enough and you
 have the potential to
-become a Knight!
+become a Knight !
 ]],
 }
 
@@ -3611,9 +6402,9 @@ dialog{
   icon = "169",
   skip = "current",
   text = [[
-You found a Lucky Egg! $0
+You found a Lucky Egg ! $0
 
-What a stroke of... luck!
+What a stroke of... luck !
 ]],
 }
 
@@ -3622,7 +6413,7 @@ dialog{
   icon = "155",
   skip = "current",
   text = [[
-You found a Monster Claw! $0
+You found a Monster Claw ! $0
 
 This sharp claw allows
 Zoras and Lizalfos
@@ -3635,7 +6426,7 @@ dialog{
   icon = "50",
   skip = "current",
   text = [[
-You obtain the Spoils Bag! $0
+You obtain the Spoils Bag ! $0
 
 This bag allows you to
 store the various spoils
@@ -3654,7 +6445,7 @@ dialog{
   icon = "190",
   skip = "all",
   text = [[
-You obtain an Amber Pearl! $0
+You obtain an Amber Pearl ! $0
 ]],
 }
 
@@ -3663,7 +6454,7 @@ dialog{
   icon = "208",
   skip = "all",
   text = [[
-You obtain a Golden Ore! $0
+You obtain a Golden Ore ! $0
 
 This extremely rare material
 is used in forging to
@@ -3678,7 +6469,7 @@ dialog{
   id = "_treasure.treasures/treasure_moon.1",
   icon = "209",
   text = [[
-You gain a Moon! $0
+You gain a Moon ! $0
 ]],
 }
 
@@ -3687,7 +6478,7 @@ dialog{
   icon = "170",
   skip = "current",
   text = [[
-You obtain an Apple! $0
+You obtain an Apple ! $0
 ]],
 }
 
@@ -3859,20 +6650,20 @@ dialog{
   id = "antiquarian.1st_time",
   skip = "current",
   text = [[
-    Well, well, well, if it isn't Link! How could you forget me?
+    Well, well, well, if it isn't Link ! How could you forget me ?
     It's me, the Antiquarian who travels the world in search of new treasures.
     I heard that many treasures were resting in Hyrule, so here I am.
-    What? My usefulness? Do I really have to remind you of everything?
+    What ? My usefulness ? Do I really have to remind you of everything ?
     As an Antiquarian, I search for treasures, just like you.
     So, you can show me the treasures you've found on your quest.
     If the item seems interesting to me, I'll buy it from you.
     This will not only allow you to get rid of those treasures
-    that you find too cumbersome but also to expand my collection!
-    Selling me a treasure also has another advantage:
-    every treasure you sell me will be for sale in my unique shop!
+    that you find too cumbersome but also to expand my collection !
+    Selling me a treasure also has another advantage :
+    every treasure you sell me will be for sale in my unique shop !
     However, I must warn you that I will take 25 percent of
     the profits on each treasure you sell to me; after all, I am a merchant...
-    I hope you won't forget this time! So, do you have a treasure for me?
+    I hope you won't forget this time ! So, do you have a treasure for me ?
     To show me a treasure, assign it to a key and press
     that key in front of me.
     I hope you have some interesting items... I'll give you a good price, I promise...
@@ -3884,7 +6675,7 @@ dialog{
   id = "antiquarian.amount_big_resell",
   skip = "current",
   text = [[
-    Not bad! I'll buy this item back from you for $v rupees.
+    Not bad ! I'll buy this item back from you for $v rupees.
   
 ]],
 }
@@ -3893,8 +6684,8 @@ dialog{
   id = "antiquarian.amount_bigger_resell",
   skip = "current",
   text = [[
-    But... where did you find this?
-    This is easily worth $v rupees at least!
+    But... where did you find this ?
+    This is easily worth $v rupees at least !
   
 ]],
 }
@@ -3903,7 +6694,7 @@ dialog{
   id = "antiquarian.amount_normal_resell",
   skip = "current",
   text = [[
-    A fine piece!
+    A fine piece !
     I'll buy it back from you for $v rupees.
   
 ]],
@@ -3925,7 +6716,7 @@ dialog{
   text = [[
     What's this...
     I'll buy it for $v rupees, but
-    only because it's you!
+    only because it's you !
   
 ]],
 }
@@ -3934,9 +6725,9 @@ dialog{
   id = "antiquarian.cant_resell",
   skip = "current",
   text = [[
-    I can't buy this from you!
+    I can't buy this from you !
     Don't you have anything else
-    to show me?
+    to show me ?
   
 ]],
 }
@@ -3946,7 +6737,7 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-    Does this suit you?
+    Does this suit you ?
     Yes
     No
   
@@ -3966,8 +6757,8 @@ dialog{
   id = "antiquarian.resale_no",
   skip = "current",
   text = [[
-    No? Then I won't buy it for any more, understand!
-    Do you have something else to show me?
+    No ? Then I won't buy it for any more, understand !
+    Do you have something else to show me ?
   
 ]],
 }
@@ -3976,7 +6767,7 @@ dialog{
   id = "antiquarian.resale_yes",
   skip = "current",
   text = [[
-    Thank you very much!
+    Thank you very much !
     Heh heh heh...
   
 ]],
@@ -3986,10 +6777,10 @@ dialog{
   id = "antiquarian.welcome",
   skip = "current",
   text = [[
-    Ah, there you are again! Do you have a treasure
-    you'd like to show me? I'll give you a good price.
+    Ah, there you are again ! Do you have a treasure
+    you'd like to show me ? I'll give you a good price.
     To show me a treasure, you need to press
-    the key to which you assigned it!
+    the key to which you assigned it !
   
 ]],
 }
@@ -4019,9 +6810,9 @@ Lord Zeldo is a little rascal...
 He actually hid
 a Silver Rupee in each
 of his Labor Zones,
-except in the Temples of
-Fire and Water, as those
-contain secret rooms.
+except in the Dungeons,
+as those contain secret
+rooms.
 These are, however, very
 well hidden behind
 elements of the decor.
@@ -4032,43 +6823,197 @@ Rupees to buy everything !
 }
 
 dialog{
-  id = "book.tips_shards_tott",
+  id = "book.tips_shards",
   skip = "all",
   text = [[
-Having trouble
-finding Remembrance Shards ?
+Having trouble finding
+the Remembrance Shards ?
 This Guide is for you !
-This wave of content
-contains 100 Remembrance
-Shards.
-Here is the list of Shards present
-in each Zone:
-
-- Abuda Archipelago: 15
-- Temple of Fire: 8
-- Hylia Falls: 15
-- Temple of Water: 25
-- Frozen Cave: 5
-- Ancient Catacomb: 32
 Shards (1) are generally
-in chests and Stones (5)
-are in hidden places.
-Gems (10) and Crystals
-(25) are left by the
-Bosses present in the Zones.
-It's then worth knowing that
-as usual in
-Zeldo's Creations,
-there's a secret room in
-each presented Dungeon
-(Water, Fire, and Tomb).
-These are not on
-the Map but can be deduced
-based on the Dungeon's pattern.
-You now have all the keys to find
-these precious Shards.
-Get to work! (And don't forget to
-have fun...)
+found in chests, and Stones (5)
+are hidden in secret places.
+Gems (10), on the other hand,
+are dropped by Bosses
+located in various Zones.
+Crystals (25) are hidden
+in the final Zones and
+represent a great treasure.
+You should also know that,
+as usual in Zeldo's Creations,
+there is a secret room in
+each presented Dungeon.
+
+
+These rooms don't appear
+on the Map but can be deduced
+by analyzing the Dungeon's pattern.
+You now have all the keys
+you need to find these
+precious Shards.
+Get to work ! (And don't forget
+to have fun...)
+]],
+}
+
+dialog{
+  id = "book.tips_shards_1st_solarus_quest_list_1",
+  skip = "current",
+  text = [[
+This content wave contains
+150 Remembrance Shards.
+
+Here is the list of
+Remembrance Shards found
+in each Zone :
+- Departure Grounds :
+
+              $v / 25
+]],
+}
+
+dialog{
+  id = "book.tips_shards_1st_solarus_quest_list_2",
+  skip = "current",
+  text = [[
+- Lake Village :
+
+              $v / 10
+]],
+}
+
+dialog{
+  id = "book.tips_shards_1st_solarus_quest_list_3",
+  skip = "current",
+  text = [[
+- Hera Mountain :
+
+              $v / 10
+]],
+}
+
+dialog{
+  id = "book.tips_shards_1st_solarus_quest_list_4",
+  skip = "current",
+  text = [[
+- Temple of Power :
+
+              $v / 20
+]],
+}
+
+dialog{
+  id = "book.tips_shards_1st_solarus_quest_list_5",
+  skip = "current",
+  text = [[
+- Temple of Wisdom :
+
+              $v / 23
+]],
+}
+
+dialog{
+  id = "book.tips_shards_1st_solarus_quest_list_6",
+  skip = "current",
+  text = [[
+- Hyrule Field :
+
+              $v / 20
+]],
+}
+
+dialog{
+  id = "book.tips_shards_1st_solarus_quest_list_7",
+  skip = "current",
+  text = [[
+- Hyrule Castle :
+
+              $v / 12
+]],
+}
+
+dialog{
+  id = "book.tips_shards_1st_solarus_quest_list_8",
+  skip = "current",
+  text = [[
+- Forest Village and Woods :
+
+              $v / 5
+]],
+}
+
+dialog{
+  id = "book.tips_shards_1st_solarus_quest_list_9",
+  skip = "current",
+  text = [[
+- Ganon's Castle :
+
+              $v / 25
+]],
+}
+
+dialog{
+  id = "book.tips_shards_tott_list_1",
+  skip = "current",
+  text = [[
+This content wave contains
+100 Remembrance Shards.
+
+Here is the list of
+Remembrance Shards found
+in each Zone :
+- Abuda Archipelago :
+
+              $v / 15
+]],
+}
+
+dialog{
+  id = "book.tips_shards_tott_list_2",
+  skip = "current",
+  text = [[
+- Fire Temple :
+
+              $v / 8
+]],
+}
+
+dialog{
+  id = "book.tips_shards_tott_list_3",
+  skip = "current",
+  text = [[
+ -Hylia Waterfalls :
+
+              $v / 15
+]],
+}
+
+dialog{
+  id = "book.tips_shards_tott_list_4",
+  skip = "current",
+  text = [[
+- Water Temple :
+
+              $v / 25
+]],
+}
+
+dialog{
+  id = "book.tips_shards_tott_list_5",
+  skip = "current",
+  text = [[
+- Ice Cavern :
+
+              $v / 5
+]],
+}
+
+dialog{
+  id = "book.tips_shards_tott_list_6",
+  skip = "current",
+  text = [[
+- Ancient Catacomb :
+
+              $v / 32
 ]],
 }
 
@@ -4077,10 +7022,10 @@ dialog{
   skip = "all",
   text = [[
        Adventurer's Guide
-Chapter 1: Basic Controls
+Chapter 1 : Basic Controls
 
 Here's the list of possible commands
-to use in the game:
+to use in the game :
 
 - Action (Space) allows various
 interactions (talk, run,
@@ -4105,7 +7050,7 @@ save the game. You
 can then choose to
 continue your game or not.
 Don't forget that every adventurer
-must rest regularly!
+must rest regularly !
 - Look around (S) allows you to
 look beyond the limits
 of the camera by moving it.
@@ -4117,7 +7062,7 @@ dialog{
   skip = "all",
   text = [[
        Adventurer's Guide
-Chapter 2: Pause Menus:
+Chapter 2 : Pause Menus :
 Inventory
 By pressing Pause, you
 will open by default the
@@ -4141,7 +7086,7 @@ dialog{
   skip = "all",
   text = [[
        Adventurer's Guide
-Chapter 3: Other pause menus
+Chapter 3 : Other pause menus
 The Inventory is not the only
 pause menu. By going to
 the extreme left/right with
@@ -4150,7 +7095,7 @@ switch to other menus.
 
 Know that there are also
 shortcut keys for some
-menus:
+menus :
 - A will open the Map menu.
 - Q will open the Commands menu.
 These keys can be modified.
@@ -4164,7 +7109,7 @@ main or side quests.
 
 You can also consult
 statistics related to the
-game: Your playtime,
+game : Your playtime,
 your attack/defense, and your
 number of deaths.
 
@@ -4188,7 +7133,7 @@ dialog{
   skip = "all",
   text = [[
        Adventurer's Guide
-Chapter 4: The HUD
+Chapter 4 : The HUD
 
 The HUD or game interface
 presents various information.
@@ -4216,7 +7161,7 @@ dialog{
   skip = "all",
   text = [[
        Adventurer's Guide
-Chapter 5: Customizing
+Chapter 5 : Customizing
 commands and controller support
 The detail of the commands is found
 in the Commands menu.
@@ -4227,8 +7172,8 @@ possible to modify them.
 To do so, press Action
 on the desired command and
 press the new key.
-Good news for gamepad enthusiasts: It's possible to
-play with a controller!
+Good news for gamepad enthusiasts : It's possible to
+play with a controller !
 To assign an action to a
 controller button, the method is
 the same as mentioned earlier.
@@ -4248,7 +7193,7 @@ dialog{
   skip = "all",
   text = [[
        Adventurer's Guide
-Chapter 6: Giving an item
+Chapter 6 : Giving an item
 to someone
 To give an item, it's not
 enough to talk to the person
@@ -4258,7 +7203,7 @@ then press the assigned key
 next to the person.
 This may seem trivial but can
 be counterintuitive for
-some!
+some !
 ]],
 }
 
@@ -4267,7 +7212,7 @@ dialog{
   skip = "all",
   text = [[
        Adventurer's Guide
-Chapter 7: Day/night cycle
+Chapter 7 : Day/night cycle
 
 In the world, Time passes
 only in the outside world
@@ -4282,7 +7227,7 @@ In the next zone change,
 Time will be in the next
 cycle.
 
-Time is divided into 6 cycles:
+Time is divided into 6 cycles :
 2 for day, 1 for evening,
 2 for night, 1 for dawn.
 It's advisable to visit
@@ -4290,7 +7235,7 @@ areas and especially
 villages during day and night.
 Depending on the time of day,
 various events can occur.
-Additional note: Sleeping in
+Additional note : Sleeping in
 a bed will immediately
 advance to the next
 day/night cycle.
@@ -4302,7 +7247,7 @@ dialog{
   skip = "all",
   text = [[
        Adventurer's Guide
-Chapter 8: Secret rooms
+Chapter 8 : Secret rooms
 
 Each Dungeon in the world hides
 at least one secret room.
@@ -4332,8 +7277,8 @@ dialog{
   id = "chest_game.finish",
   skip = "current",
   text = [[
-The Mini-game is over!
-So, happy?
+The Mini-game is over !
+So, happy ?
 ]],
 }
 
@@ -4343,7 +7288,7 @@ dialog{
   text = [[
 The Mini-game isn't
 finished yet, you know...
-What are you waiting for?
+What are you waiting for ?
 ]],
 }
 
@@ -4352,7 +7297,7 @@ dialog{
   skip = "current",
   text = [[
 Sorry, but you don't have
-enough money!
+enough money !
 ]],
 }
 
@@ -4363,7 +7308,7 @@ dialog{
 Sorry, but I just arrived 
 in town and my business 
 isn't ready yet...
-Come back later!
+Come back later !
 ]],
 }
 
@@ -4371,8 +7316,8 @@ dialog{
   id = "chest_game.pay_first",
   skip = "current",
   text = [[
-Hey! You need to pay
-before playing!
+Hey ! You need to pay
+before playing !
 ]],
 }
 
@@ -4381,10 +7326,10 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-The Mini-game is over!
+The Mini-game is over !
 You can try your luck again
 for 20 Rupees if you wish.
-Do you want to replay?
+Do you want to replay ?
 Yes
 No
 ]],
@@ -4396,12 +7341,12 @@ dialog{
   skip = "current",
   text = [[
 Welcome, here's my
-unique Chest Mini-game!
+unique Chest Mini-game !
 
-The rules are very simple:
+The rules are very simple :
 You pay 50 Rupees and you can
 open 3 Chests...
-So, are you in?
+So, are you in ?
 Yes
 No
 ]],
@@ -4413,11 +7358,11 @@ dialog{
   skip = "current",
   text = [[
 Welcome, I present to you
-the Chest Mini-game!
-The rules are very simple:
+the Chest Mini-game !
+The rules are very simple :
 You pay 20 Rupees and you can
 open 1 of the 6 Chests.
-So, are you in?
+So, are you in ?
 Yes
 No
 ]],
@@ -4427,7 +7372,7 @@ dialog{
   id = "chest_game.thanks",
   skip = "current",
   text = [[
-Good luck!
+Good luck !
 ]],
 }
 
@@ -4446,7 +7391,7 @@ dialog{
   skip = "all",
   text = [[
 It's way too
-heavy for you!
+heavy for you !
 ]],
 }
 
@@ -4455,11 +7400,11 @@ dialog{
   skip = "all",
   text = [[
 Oh dear, it's
-way too heavy!
+way too heavy !
 
 You'll never be able to
 move it just by the strength
-of your arms!
+of your arms !
 ]],
 }
 
@@ -4554,12 +7499,55 @@ will allow you to open it...
 }
 
 dialog{
+  id = "door.closed.8",
+  skip = "all",
+  text = [[
+This door has a purple lock...
+Only a Purple Key will
+be able to open it...
+]],
+}
+
+dialog{
+  id = "door.closed.ice_door",
+  skip = "all",
+  text = [[
+This lock is completely frozen...
+The Key needed to open it must
+be just as icy.
+But where could such a Key be ?
+]],
+}
+
+dialog{
+  id = "door.closed.iron_door",
+  skip = "all",
+  text = [[
+This barrier is securely locked...
+An Iron Key should allow
+you to open it.
+]],
+}
+
+dialog{
   id = "door.closed.platinum",
   skip = "all",
   text = [[
 Only those who achieve the
 Platinum Rank will ever see
 this door open...
+]],
+}
+
+dialog{
+  id = "door.closed.wooden_door",
+  skip = "all",
+  text = [[
+These roots have a
+keyhole at their center...
+
+Perhaps the Key to insert
+isn't too far from here ?
 ]],
 }
 
@@ -4605,11 +7593,11 @@ adventure comprising more than
 hours of gameplay.
 
 Thank you for making this dream
-possible!
+possible !
 
 If you wish to continue exploring
 the world of Forgotten
-Legend, let me help you:
+Legend, let me help you :
 I offer you an Ocarina and the
 Song of Soaring. They will
 allow you to travel quickly.
@@ -4622,7 +7610,7 @@ I believe everything has been said. Thank
 you for your contribution and don't
 forget to share your feedback.
 
-:)
+ :)
 ]],
 }
 
@@ -4634,7 +7622,7 @@ Congratulations and thank you again for
 completing the game.
 
 As a reward, here's a
-little gift: the heroic mode!
+little gift : the heroic mode !
 
 In this mode, enemies will
 deal twice as much
@@ -4644,7 +7632,7 @@ new game in the future, you
 can choose to play in
 heroic mode or not.
 Have fun and good luck if
-you're up for the challenge!
+you're up for the challenge !
 ]],
 }
 
@@ -4754,6 +7742,211 @@ dialog{
 {|{|{|{|{|{|{{{|
 {}||}{}|{}|{}|}{
 |{|{|{|}|}
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.1",
+  skip = "current",
+  text = [[
+We're on guard duty.
+Don't cause any trouble or
+you'll have to deal with us !
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.2",
+  skip = "current",
+  text = [[
+This area is under our control,
+day and night.
+Can't wait for a raise...
+well, at least a break... hmm !
+Move along !
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.3",
+  skip = "current",
+  text = [[
+Guard duty is tiring...
+Standing still for no reason...
+This job sucks... Ugh...
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.4",
+  skip = "current",
+  text = [[
+Glory and prosperity
+to the Kingdom of Hyrule !
+Long live Princess Zelda !
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.5",
+  skip = "current",
+  text = [[
+Halt ! Stop rolling
+around like that, it's
+unbearable !
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.6",
+  skip = "current",
+  text = [[
+Greetings young man.
+Look, you can talk to me thanks
+to the power of Programming !
+It's a power Zeldo made his own.
+But did you know Programming
+is accessible to everyone ? Even
+you. Ah, programming is wonderful.
+Do you like gladiator movies ?
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.7",
+  skip = "current",
+  text = [[
+...
+What ?
+I have nothing to say, move along !
+(Anyway, no one told me to say
+anything, not my fault...)
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.8",
+  skip = "current",
+  text = [[
+Man, this place is so boring...
+I wonder what Ganon is doing.
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.9",
+  skip = "current",
+  text = [[
+Hello young man. That's
+a fine sword you have there.
+Did you know if you hold
+Attack button... What ? You already
+knew ? We're not at the start of
+the game anymore ?
+What you're saying makes no sense !
+Get out of here before I throw
+you in the dungeons !
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.castle_enter",
+  skip = "current",
+  text = [[
+Access to Hyrule Castle
+is open to everyone at all times.
+It is the Princess Zelda's will.
+Be respectful !
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.castle_town",
+  skip = "current",
+  text = [[
+Access to Hyrule Citadel
+is open to all at all times.
+Go inside quick to protect yourself
+from monsters roaming the Plains !
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.castle_weird_bush",
+  skip = "current",
+  text = [[
+Hmm, this flower breaks
+the perfectionism of the maniac
+who decorated these gardens.
+Could it be a subliminal message
+indicating something ?
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.city_night_enter",
+  skip = "current",
+  text = [[
+Halt ! Access to the Citadel
+is blocked at night
+for security reasons.
+Come back when it's daytime !
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.city_night_leave",
+  skip = "current",
+  text = [[
+Sorry, but leaving the Citadel
+at night is forbidden.
+I suggest you rest at the inn
+until daybreak.
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.restricted_area",
+  skip = "current",
+  text = [[
+Halt ! This area is strictly
+forbidden !
+Move along immediately !
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.restricted_area_tower",
+  skip = "current",
+  text = [[
+Halt ! Beyond these stairs
+lies the Castle Tower.
+The soldiers guarding it
+have been acting strange
+lately...
+Be careful !
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.throne_room",
+  skip = "current",
+  text = [[
+These stairs lead to the
+Throne Room. Princess Zelda
+is available for audience
+to all citizens during the day.
+Glory to the Kingdom of Hyrule !
+]],
+}
+
+dialog{
+  id = "hyrule_city.soldiers.zelda_bodyguard",
+  skip = "current",
+  text = [[
+We are the personal Guard
+of Princess Zelda.
+Speak to her with respect ! Or...
 ]],
 }
 
@@ -4891,6 +8084,8 @@ a discount for a limited time !
 A room will only cost you
 $v Rupees. It's an offer
 not to be missed !
+
+
 Stay here ?
 Yes
 No
@@ -4964,6 +8159,20 @@ from afar and without risk !
 }
 
 dialog{
+  id = "shop.arrow_big_bundle",
+  icon = "95",
+  skip = "current",
+  text = [[
+A big pack of Arrows.
+
+
+Use them to
+eliminate your enemies
+from afar and without risk !
+]],
+}
+
+dialog{
   id = "shop.attack_boost",
   icon = "238",
   skip = "current",
@@ -5027,6 +8236,32 @@ any time in the Quest Status !
 }
 
 dialog{
+  id = "shop.bomb_big_bundle",
+  icon = "94",
+  skip = "current",
+  text = [[
+A big pack of Bombs.
+
+
+Use them to blow
+everything up !
+]],
+}
+
+dialog{
+  id = "shop.boomerang_2",
+  icon = "4",
+  skip = "current",
+  text = [[
+A Super Boomerang.
+
+This upgraded Boomerang
+will fly faster and farther
+than your old model.
+]],
+}
+
+dialog{
   id = "shop.bottle",
   icon = "10",
   skip = "current",
@@ -5060,6 +8295,21 @@ Remember that this Card
 is only valid in this Wave
 and can be deactivated at
 any time in the Quest Status !
+]],
+}
+
+dialog{
+  id = "shop.fairy",
+  icon = "25",
+  skip = "current",
+  text = [[
+A Lost Fairy.
+
+This little wonderful
+creature was hard to find.
+Its Magic will heal you
+effectively. You can even
+bottle it if needed.
 ]],
 }
 
@@ -5100,6 +8350,19 @@ A pile of 3 hearts.
 
 It will restore some
 of your vital energy.
+]],
+}
+
+dialog{
+  id = "shop.ice_key",
+  icon = "28",
+  skip = "current",
+  text = [[
+A mysterious Ice Key.
+
+This is my most
+precious Item ! I'm sure
+you'll find its Lock.
 ]],
 }
 
@@ -5146,6 +8409,90 @@ want to buy.
 }
 
 dialog{
+  id = "shop.perma_bombs",
+  icon = "94",
+  skip = "current",
+  text = [[
+Bombs.
+
+The permanent version of this
+Item will allow you to
+use it in all
+Zones of the current Wave.
+]],
+}
+
+dialog{
+  id = "shop.perma_boomerang_2",
+  icon = "4",
+  skip = "current",
+  text = [[
+Super Boomerang.
+
+The permanent version of this
+Item will allow you to
+use it in all
+Zones of the current Wave.
+]],
+}
+
+dialog{
+  id = "shop.perma_flippers",
+  icon = "43",
+  skip = "current",
+  text = [[
+Flippers.
+
+The permanent version of this
+Item will allow you to
+use it in all
+Zones of the current Wave.
+]],
+}
+
+dialog{
+  id = "shop.perma_glove_3",
+  icon = "42",
+  skip = "current",
+  text = [[
+Titan Gloves.
+
+The permanent version of this
+Item will allow you to
+use it in all
+Zones of the current Wave.
+]],
+}
+
+dialog{
+  id = "shop.perma_lamp",
+  icon = "5",
+  skip = "current",
+  text = [[
+The Lantern.
+
+The permanent version of this
+Item will allow you to
+use it in all
+Zones of the current Wave.
+]],
+}
+
+dialog{
+  id = "shop.perma_monicle_truth",
+  icon = "22",
+  skip = "current",
+  text = [[
+The Lens of Truth.
+
+The permanent version of this
+Item will allow you to
+use it in all
+Zones of the current Wave.
+]],
+}
+
+dialog{
   id = "shop.quiver",
   icon = "236",
   skip = "current",
@@ -5177,6 +8524,33 @@ buy it without a bottle !
 }
 
 dialog{
+  id = "shop.remembrance_shard",
+  icon = "231",
+  skip = "current",
+  text = [[
+I have absolutely no idea
+what this is...$0 It's
+as if this artifact
+doesn't belong
+here...$0$2 It gives me a strange
+feeling...$0$3 Will you buy it ?
+]],
+}
+
+dialog{
+  id = "shop.rupee",
+  skip = "current",
+  text = [[
+It's a Rupee.
+It's the currency in this World.
+But you know what it is, right ?
+Don't ask me why
+I'm selling it, it must be part
+of Zeldo's Genius.
+]],
+}
+
+dialog{
   id = "shop.shell",
   icon = "123",
   skip = "current",
@@ -5200,7 +8574,7 @@ A Wooden Shield.
 
 It will protect you from
 enemy attacks and provide
-you with Defense!
+you with Defense !
 ]],
 }
 
@@ -5220,6 +8594,22 @@ It's unique, don't miss out !
 }
 
 dialog{
+  id = "shop.shield_2_1st_solarus_quest",
+  icon = "104",
+  skip = "current",
+  text = [[
+Our famous Bling-Bling Shield.
+
+This Luxury Shield
+would suit you perfectly, dear
+Gold Member.
+Plus, it will protect you
+from magical attacks
+by your fiery enemies !
+]],
+}
+
+dialog{
   id = "shop.souvenir.blue_key",
   icon = "86",
   question = "1",
@@ -5231,7 +8621,7 @@ A blue Gallery Key.
 With it, you can open a blue
 Gallery door.
 
-Requires: 30 Shards
+Requires : 30 Shards
 Buy
 Do not buy
 ]],
@@ -5249,7 +8639,7 @@ Some Flippers.
 With these, you can
 swim in deep water.
 
-Price: 2 Shells
+Price : 2 Shells
 Buy
 Do not buy
 ]],
@@ -5267,7 +8657,7 @@ A green Gallery Key.
 With it, you can open a green
 Gallery door.
 
-Requires: 40 Shards
+Requires : 40 Shards
 Buy
 Do not buy
 ]],
@@ -5338,7 +8728,25 @@ A red Gallery Key.
 With it, you can open a red
 Gallery door.
 
-Requires: 20 Shards
+Requires : 20 Shards
+Buy
+Do not buy
+]],
+}
+
+dialog{
+  id = "shop.souvenir.red_key_2",
+  icon = "87",
+  question = "1",
+  skip = "current",
+  text = [[
+A red Gallery Key.
+
+
+With it, you can open a red
+Gallery door.
+
+Requires : 30 Shards
 Buy
 Do not buy
 ]],
@@ -5372,7 +8780,7 @@ A Trophy.
 A masked man left this for me...
 I think you need it to validate your
 visit to the archipelago.
-Price: 5 Shells
+Price : 5 Shells
 Buy
 Do not buy
 ]],
@@ -5403,9 +8811,40 @@ A yellow Gallery Key.
 With it, you can open a yellow
 Gallery door.
 
-Requires: 10 Shards
+Requires : 10 Shards
 Buy
 Do not buy
+]],
+}
+
+dialog{
+  id = "shop.souvenir.yellow_key_2",
+  icon = "84",
+  question = "1",
+  skip = "current",
+  text = [[
+A yellow Gallery Key.
+
+
+With it, you can open a yellow
+Gallery door.
+
+Requires : 50 Shards
+Buy
+Do not buy
+]],
+}
+
+dialog{
+  id = "shop.trade_1_1st_solarus_quest",
+  icon = "30",
+  skip = "current",
+  text = [[
+A simple Mirror.
+
+The essential item
+for anyone who loves
+to admire themselves !
 ]],
 }
 
@@ -5415,6 +8854,18 @@ dialog{
   text = [[
 You want this treasure ? Well,
 I hope you have the money !
+]],
+}
+
+dialog{
+  id = "shop.trophy",
+  skip = "current",
+  text = [[
+A Trophy ?
+
+A masked man left this with me...
+I could sell it to you
+at a good price, dear Gold Member.
 ]],
 }
 
@@ -5430,13 +8881,13 @@ This Card will make your
 progress much less
 difficult... Elements
 to make your life easier
-will appear:
+will appear :
 Arrows, tiles, and more...
 Zeldo has been very cunning,
 he admits it. If you find
 the game too difficult,
 don't hesitate to
-activate this Card!
+activate this Card !
 Remember that this Card
 is only valid in this Wave
 and can be deactivated at
@@ -5497,6 +8948,28 @@ enough Rupees...
 }
 
 dialog{
+  id = "shop.welcome_labors_permanent",
+  skip = "all",
+  text = [[
+Welcome, traveler !
+I am the Keeper of
+Permanent Wave Items.
+These precious Items will appear
+as you progress
+through the Labor Zones.
+These Items have the special feature
+of being granted to you permanently
+within the current Wave.
+They will allow you to discover secrets
+in Zones you've already visited.
+Pure extra fun !
+In exchange for precious,
+real and permanent Rupees,
+these Items will be yours.
+]],
+}
+
+dialog{
   id = "shop.welcome_labors_potion",
   skip = "all",
   text = [[
@@ -5528,12 +9001,38 @@ over these valuable Keys to you.
 }
 
 dialog{
+  id = "shop.welcome_merchant",
+  skip = "all",
+  text = [[
+Welcome young man !
+I am a traveling Merchant
+who sells all sorts of things.
+Feel free to take a look
+at my goods ! Press
+Action to inspect an item.
+]],
+}
+
+dialog{
+  id = "shop.wooden_key_1st_solarus_quest",
+  icon = "29",
+  skip = "current",
+  text = [[
+A Wooden Key.
+
+I found this Key in
+the Forest... if you have enough
+money, it's yours.
+]],
+}
+
+dialog{
   id = "sign.B3_directions",
   skip = "current",
   text = [[
-West: Lake Hylia
-North: Northern Hyrule Plain
-Southeast: Hyrule Citadel
+West : Lake Hylia
+North : Northern Hyrule Plain
+Southeast : Hyrule Citadel
 ]],
 }
 
@@ -5541,8 +9040,8 @@ dialog{
   id = "sign.B4_directions",
   skip = "current",
   text = [[
-East: Hyrule Citadel
-Northwest: Lake Hylia
+East : Hyrule Citadel
+Northwest : Lake Hylia
 ]],
 }
 
@@ -5550,8 +9049,8 @@ dialog{
   id = "sign.B5_directions",
   skip = "current",
   text = [[
-West: Kokiri Forest
-Northeast: Hyrule Citadel
+West : Kokiri Forest
+Northeast : Hyrule Citadel
 ]],
 }
 
@@ -5559,9 +9058,9 @@ dialog{
   id = "sign.C3_directions",
   skip = "current",
   text = [[
-South: Hyrule Citadel
-North: Hyrule Castle
-Northeast: Kakariko Village
+South : Hyrule Citadel
+North : Hyrule Castle
+Northeast : Kakariko Village
 ]],
 }
 
@@ -5569,9 +9068,9 @@ dialog{
   id = "sign.C5_directions",
   skip = "current",
   text = [[
-North: Hyrule Citadel
+North : Hyrule Citadel
 Closed at night for security
-reasons. Hurry in!
+reasons. Hurry in !
 ]],
 }
 
@@ -5579,9 +9078,9 @@ dialog{
   id = "sign.D2_directions",
   skip = "current",
   text = [[
-East: Kakariko Village
-West: Northern Hyrule Plain
-Southwest: Hyrule Citadel
+East : Kakariko Village
+West : Northern Hyrule Plain
+Southwest : Hyrule Citadel
 ]],
 }
 
@@ -5591,7 +9090,7 @@ dialog{
 This area is still in
 development and is therefore
 unavailable in this beta.
-Come back in a future version!
+Come back in a future version !
 ]],
 }
 
@@ -5613,12 +9112,42 @@ Kakariko Graveyard
 }
 
 dialog{
+  id = "sign.labors.1st_solarus_quest.field_boomerang_hint",
+  skip = "current",
+  text = [[
+An improved boomerang will take you
+to your goal. A redesigned return
+path is the key. Move. And observe.
+]],
+}
+
+dialog{
+  id = "sign.labors.1st_solarus_quest.field_directions",
+  skip = "current",
+  text = [[
+North : Castle Town
+West : Illusion Woods
+Northwest : Hera Mountain
+]],
+}
+
+dialog{
+  id = "sign.labors.1st_solarus_quest.link_house_directions",
+  skip = "current",
+  text = [[
+North : Illusion Woods
+West : Hylia Lake
+East : Hyrule Field
+]],
+}
+
+dialog{
   id = "sign.labors.B2_directions",
   skip = "current",
   text = [[
-North: Hylia Waterfalls, Icy Peaks
-East: Hyrule Castle
-West: Wind Ruins
+North : Hylia Waterfalls, Icy Peaks
+East : Hyrule Castle
+West : Wind Ruins
 ]],
 }
 
@@ -5626,7 +9155,7 @@ dialog{
   id = "sign.labors.B2_tip_look_command",
   skip = "current",
   text = [[
-Tourist tip:
+Tourist tip :
 Look around.
 
 Not sure where to go ?
@@ -5648,62 +9177,6 @@ Cave to the Icy Peaks.
 Please cover yourself and
 bring an item that allows you
 to cross gaps.
-]],
-}
-
-dialog{
-  id = "sign.zeldo3.flower_hamlet",
-  skip = "current",
-  text = [[
-Flower Hamlet
-]],
-}
-
-dialog{
-  id = "sign.zeldo3.great_bridge",
-  skip = "current",
-  text = [[
-Great Haïroule Viaduct
-Customs checkpoint
-Please wait.
-]],
-}
-
-dialog{
-  id = "sign.zeldo3.great_bridge_queue_1",
-  skip = "current",
-  text = [[
-Wait time from
-this point: 2 hours.
-Thank you for your patience.
-]],
-}
-
-dialog{
-  id = "sign.zeldo3.great_bridge_queue_2",
-  skip = "current",
-  text = [[
-Wait time from
-this point: 1 hour.
-Thank you for your patience.
-]],
-}
-
-dialog{
-  id = "sign.zeldo3.great_bridge_queue_3",
-  skip = "current",
-  text = [[
-Wait time from
-this point: 20 minutes.
-Thank you for your patience.
-]],
-}
-
-dialog{
-  id = "sign.zeldo3.takapa_village",
-  skip = "current",
-  text = [[
-Takapa Village
 ]],
 }
 
@@ -5791,7 +9264,7 @@ dialog{
 An Apple for 10 Rupees.
 
 
-Agree?
+Agree ?
 Yes
 No
 ]],
@@ -5805,7 +9278,7 @@ dialog{
 A Heart Piece for 
 20 Rupees and 3 Apples.
 
-Agree?
+Agree ?
 Yes
 No
 ]],
@@ -5891,7 +9364,7 @@ dialog{
   id = "ts.dungeon_2402.hint_3",
   skip = "current",
   text = [[
-Note to self:
+Note to self :
 Don't forget to tidy up the
 books in the library.
 Those darn monsters
@@ -5903,7 +9376,7 @@ dialog{
   id = "ts.dungeon_2402.hint_4",
   skip = "current",
   text = [[
-Note to self:
+Note to self :
 Don't forget that the stained
 glass in the room leads
 to the library's secret stash.
@@ -5948,6 +9421,241 @@ will be your guide.
 }
 
 dialog{
+  id = "ts.labors.1st_solarus_quest.courage_temple_hint_1",
+  skip = "current",
+  text = [[
+The Map never lies...
+always and forever !
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.din_shrine_hint",
+  skip = "current",
+  text = [[
+Armed with the Titan's Arms and
+the Eye of Truth, lift the rocks
+and follow the path of shields.
+Thus, the path of Strength
+will be revealed to you.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.farore_shrine_hint",
+  skip = "current",
+  text = [[
+Armed with What Always
+Comes Back to the Sender,
+fill the holes deep in the Forest.
+Thus, the path of Courage
+will be revealed to you.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.hera_mountain",
+  skip = "current",
+  text = [[
+What ?$0
+This map seems familiar to you ?$0
+...$0
+Pure coincidence.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.hero_cave",
+  skip = "current",
+  text = [[
+Welcome to the Hero's Cave.
+This mini dungeon was originally
+planned for endgame.
+For example, this first room
+required a very advanced item
+to pass. Which one ?
+Try to guess !
+This first room is the
+only trace of this side dungeon.
+Feel free to explore it !
+Anyway, you can't go further.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.hero_statue",
+  skip = "current",
+  text = [[
+Here is a representation of the
+Hero of Legend who
+once saved Hyrule from the Void.
+...$0 He looks a bit like you,
+right ?$0 What a funny
+coincidence, isn't it ? Heh heh heh
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.lost_woods",
+  skip = "current",
+  text = [[
+Behind this wall lies
+the hidden entrance to the
+Forest Village.
+The Player was supposed to have
+Zelda's Lullaby and play it on
+the Triforce to reveal the entrance
+That was not done for this
+version of The Labors of Zeldo.
+Find the entrance elsewhere !
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.nayru_shrine_hint",
+  skip = "current",
+  text = [[
+Equipped with Flippers and a Source
+of Fire, find the hidden water
+whirlpool in the Plains.
+Thus, the path of Wisdom
+will be revealed to you.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.power_temple_hint_1",
+  skip = "current",
+  text = [[
+Secrets can be
+cunningly hidden
+behind scenery elements.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.power_temple_hint_2",
+  skip = "current",
+  text = [[
+Not all holes
+necessarily lead to failure.
+Make the right choice.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.power_temple_hint_3",
+  skip = "current",
+  text = [[
+Walking on the right edges
+of the walls and dodging holes ?
+It's legal for 2015 Zeldo.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.to_castle_passage",
+  skip = "current",
+  text = [[
+In this direction lies
+a very mysterious cave...
+It has a specific purpose and
+is also present in
+Zelda Forgotten Legend.
+What is the purpose of this cave ?
+Good question...$0
+Wait for the release of Zelda
+Forgotten Legend to find out.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.to_castle_passage_2",
+  skip = "current",
+  text = [[
+In this direction lies
+a very mysterious cave...
+It has a specific purpose and
+is also present in
+Zelda Forgotten Legend.
+What is the purpose of this cave ?
+Good question...$0
+Wait for the release of Zelda
+Forgotten Legend to find out.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.triforce_shrine_hint",
+  skip = "current",
+  text = [[
+When the Goddess Pendants
+are found, the Path to the
+Sacred Triangles will be revealed.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.water_temple_hint_1",
+  skip = "current",
+  text = [[
+When the statues cover
+the water outlets, the torches
+will light up.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.water_temple_hint_2",
+  skip = "current",
+  text = [[
+Returning to rooms
+already visited, with new
+equipment, can open new
+exploration possibilities.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.water_temple_hint_3",
+  skip = "current",
+  text = [[
+Strike your sword against cracks
+and listen carefully... only the
+real ones make special sounds.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.water_temple_hint_4",
+  skip = "current",
+  text = [[
+Absolutely nothing this way.
+So why this alcove ?$0
+Even Zeldo doesn't remember.
+]],
+}
+
+dialog{
+  id = "ts.labors.1st_solarus_quest.water_temple_secret_room",
+  skip = "current",
+  text = [[
+Due to a design from 2015
+and rules not yet fully
+established, this Dungeon
+has 2 secret rooms.
+To stay compatible with
+the spirit of Zeldo's Labors,
+the rewards from these rooms
+can be obtained only once,
+so you don't need to find
+both rooms for 100%.
+But you can look for both
+just for fun.
+]],
+}
+
+dialog{
   id = "ts.labors.gallery_blue_room",
   skip = "current",
   text = [[
@@ -5960,6 +9668,22 @@ Sopranotes to listen to the various
 musics that were planned in the
 final project... Enjoy your
 listening, dear Guest.
+]],
+}
+
+dialog{
+  id = "ts.labors.gallery_blue_room_2",
+  skip = "current",
+  text = [[
+Welcome to the Blue
+Galleries Room !
+
+You will find here exclusive
+development notes, sketches,
+or screens !
+Inspect the paintings to
+learn more... happy
+reading, dear Guest.
 ]],
 }
 
@@ -5982,6 +9706,56 @@ Dungeon to another...
 There is also an informative plaque
 on each Dungeon presented.
 Enjoy, dear Guest.
+]],
+}
+
+dialog{
+  id = "ts.labors.gallery_green_room_2",
+  skip = "current",
+  text = [[
+Welcome to the Green Gallery Room
+of this Wave !
+
+Activate the crystal at the back
+of the room to access the
+Developer's Commentary.
+A hidden link will open, leading
+you to a private YouTube playlist.
+Enjoy the show, dear Guest.
+]],
+}
+
+dialog{
+  id = "ts.labors.gallery_purple_room",
+  skip = "current",
+  text = [[
+Welcome to the Purple Gallery Room
+of this Wave !
+
+You must have worked hard
+to find the Key
+to this secret Room...
+So here is a reward worthy
+of being so well hidden :
+Activate the crystal at the back
+of the room to access a secret
+download link.
+It's a prototype of
+The 1st Solarus Quest from 2016,
+fully playable !
+The game is in .exe format though,
+sorry to those playing
+on their favorite calculator...
+The game is uncalibrated,
+Zeldo wanted to keep the
+experience intact. So it'll be
+unplayable !
+Are you ready to face
+2016's Zeldo, aka oly64 ?
+Have fun, dear Guest.
+By the way, the project is hosted
+on Mediafire, since Google Drive
+refused... Sorry.
 ]],
 }
 
@@ -6034,6 +9808,25 @@ transition to the next room.
 }
 
 dialog{
+  id = "ts.labors.labors_end_wave",
+  skip = "all",
+  text = [[
+You have reached the end of
+this Wave of content.
+Congratulations !
+Take the teleporter on the right
+if you want to watch the Credits
+and view your Wave Statistics.
+Please note that checking your
+Statistics at least once is
+required to validate your Rank.
+The adventure is, of course,
+not over yet. Head North
+for the next Wave !
+]],
+}
+
+dialog{
   id = "ts.labors.labors_rules",
   skip = "current",
   text = [[
@@ -6078,7 +9871,7 @@ dialog{
   id = "ts.labors.tott.dungeon_1_info",
   skip = "current",
   text = [[
-Level 1:
+Level 1 :
 Light Temple
 
 The very first Dungeon that Link
@@ -6101,7 +9894,7 @@ dialog{
   id = "ts.labors.tott.dungeon_2_info",
   skip = "current",
   text = [[
-Level 2:
+Level 2 :
 Earth Temple
 
 This Dungeon located after the
@@ -6125,7 +9918,7 @@ dialog{
   id = "ts.labors.tott.dungeon_3_info",
   skip = "current",
   text = [[
-Level 3:
+Level 3 :
 Fire Temple
 
 A Dungeon at a fairly
@@ -6146,7 +9939,7 @@ dialog{
   id = "ts.labors.tott.dungeon_4_info",
   skip = "current",
   text = [[
-Level 4:
+Level 4 :
 Water Temple
 
 Probably my greatest
@@ -6164,7 +9957,7 @@ dialog{
   id = "ts.labors.tott.dungeon_5_info",
   skip = "current",
   text = [[
-Level 5:
+Level 5 :
 Desert Temple
 
 Probably the least advanced
@@ -6189,7 +9982,7 @@ dialog{
   id = "ts.labors.tott.dungeon_6_info",
   skip = "current",
   text = [[
-Level 6:
+Level 6 :
 Ice Temple
 
 A Dungeon located in the second
@@ -6208,11 +10001,11 @@ dialog{
   id = "ts.labors.tott.dungeon_7_info",
   skip = "current",
   text = [[
-Level 7:
+Level 7 :
 Wind Temple
 
 A Dungeon in a theme
-that I really like: the Sky !
+that I really like : the Sky !
 So I was very motivated to do it.
 Unfortunately, the planned
 item for the Dungeon, which was
@@ -6233,7 +10026,7 @@ dialog{
   id = "ts.labors.tott.dungeon_8_info",
   skip = "current",
   text = [[
-Level 8:
+Level 8 :
 Shadow Temple
 
 And no, this is not the
@@ -6259,7 +10052,7 @@ oppressive...$0
 An atmosphere where
 a more horrific atmosphere...$0
 Wouldn't it be an opportunity to...$0
-Redeem myself? $0
+Redeem myself ? $0
 
         $1I T    A R R I V E S
 ]],
@@ -6269,7 +10062,7 @@ dialog{
   id = "ts.labors.tott.dungeon_9_info",
   skip = "current",
   text = [[
-Level 9:
+Level 9 :
 Tower of the triforce
 
 The last Dungeon. The climax.
@@ -6349,6 +10142,28 @@ dialog{
 Hitting the frogs
 that don't spit
 is the key.
+]],
+}
+
+dialog{
+  id = "ts.labors.unknown_place",
+  skip = "current",
+  text = [[
+This cave must have had
+a very specific purpose
+in the final game.
+But Zeldo never found it.$0
+Too bad.
+]],
+}
+
+dialog{
+  id = "ts.north_palace.stone.1",
+  text = [[
+Four temples divine and grand,
+Yet only three within your hand.
+The keys of ages long gone by,
+Unlock the path where secrets lie.
 ]],
 }
 
@@ -6453,9 +10268,9 @@ Hehehe...
 You'll soon understand
 that Death was a better fate
 than what awaits you.
-We will meet again!
+We will meet again !
 Take what remains of
-Din's Pearl... I offer it to you!
+Din's Pearl... I offer it to you !
 Hehehe...
 ]],
 }
@@ -6466,22 +10281,22 @@ dialog{
 Hehehe... as Master Ganondorf predicted. 
 
 I suppose you've come
-for Din's Pearl?
+for Din's Pearl ?
 
 I regret to inform you that it
-is no longer here! Not entirely
+is no longer here ! Not entirely
 at least... hehehe...
 My name is Vire and I have come
 here on my Master's orders for 2 things...
-The first: To ensure that a
+The first : To ensure that a
 young blond boy could not find
 Din's Pearl.
-The second: To get rid of
-this young boy!
+The second : To get rid of
+this young boy !
 
 So I have only one
 thing left to do...
-En garde!
+En garde !
 ]],
 }
 
@@ -6491,7 +10306,7 @@ dialog{
   text = [[
 You're doing quite well...
 But will you be able to keep
-up the pace?
+up the pace ?
 ]],
 }
 
@@ -6499,7 +10314,7 @@ dialog{
   id = "vire.1.phase_2",
   skip = "current",
   text = [[
-Well done! But from now on,
+Well done ! But from now on,
 don't count on
 your Sword to reach me.
 ]],

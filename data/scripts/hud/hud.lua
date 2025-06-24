@@ -50,25 +50,25 @@ function hud_manager:create(game)
   floor:set_dst_position(5, 102)
   hud.elements[#hud.elements + 1] = floor
 
-  --local pause_icon = pause_icon_builder:new(game)
-  --pause_icon:set_dst_position(225, 7)
-  --hud.elements[#hud.elements + 1] = pause_icon
-
-  local item_icon_1 = item_icon_builder:new(game, 1)
-  item_icon_1:set_dst_position(236, 6)
-  hud.elements[#hud.elements + 1] = item_icon_1
+  local pause_icon = pause_icon_builder:new(game)
+  pause_icon:set_dst_position(192, 5)
+  hud.elements[#hud.elements + 1] = pause_icon
 
   local item_icon_2 = item_icon_builder:new(game, 2)
-  item_icon_2:set_dst_position(288, 6)
+  item_icon_2:set_dst_position(288, 17)
   hud.elements[#hud.elements + 1] = item_icon_2
 
-  local action_icon = action_icon_builder:new(game)
-  action_icon:set_dst_position(251, 29)
-  hud.elements[#hud.elements + 1] = action_icon
+  local item_icon_1 = item_icon_builder:new(game, 1)
+  item_icon_1:set_dst_position(268, 1)
+  hud.elements[#hud.elements + 1] = item_icon_1
 
   local attack_icon = attack_icon_builder:new(game)
-  attack_icon:set_dst_position(238, 6)
+  attack_icon:set_dst_position(224, 17)
   hud.elements[#hud.elements + 1] = attack_icon
+
+  local action_icon = action_icon_builder:new(game)
+  action_icon:set_dst_position(244, 33)
+  hud.elements[#hud.elements + 1] = action_icon
 
   local boss_life = boss_life_builder:new(game)
   boss_life:set_dst_position(110, 220)
@@ -97,7 +97,7 @@ function hud_manager:create(game)
       -- If the hero is below the top-left icons, make them semi-transparent.
       local hero = map:get_entity("hero")
       local hero_x, hero_y = hero:get_position()
-      local camera_x, camera_y = map:get_camera_position()
+      local camera_x, camera_y = map:get_camera():get_bounding_box()
       local x = hero_x - camera_x
       local y = hero_y - camera_y
       local opacity = nil
@@ -118,7 +118,7 @@ function hud_manager:create(game)
         hud.top_left_opacity = opacity
         item_icon_1.surface:set_opacity(opacity)
         item_icon_2.surface:set_opacity(opacity)
-        --pause_icon.surface:set_opacity(opacity)
+        pause_icon.surface:set_opacity(opacity)
         action_icon.surface:set_opacity(opacity)
         attack_icon.surface:set_opacity(opacity)
       end

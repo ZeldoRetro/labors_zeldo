@@ -3,8 +3,8 @@ properties{
   y = 0,
   width = 1600,
   height = 960,
-  min_layer = -1,
-  max_layer = 3,
+  min_layer = -5,
+  max_layer = 9,
   world = "dungeon_10010",
   floor = 2,
   tileset = "inside_white_dungeon",
@@ -13,20 +13,38 @@ properties{
 
 tile{
   layer = 1,
-  x = 368,
-  y = 528,
-  width = 224,
+  x = 1008,
+  y = 768,
+  width = 544,
   height = 144,
   pattern = "floor.18-1",
 }
 
 tile{
   layer = 1,
-  x = 376,
-  y = 584,
-  width = 32,
-  height = 32,
-  pattern = "floor_border.1",
+  x = 1080,
+  y = 872,
+  width = 80,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 800,
+  width = 80,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 528,
+  width = 224,
+  height = 144,
+  pattern = "floor.18-1",
 }
 
 tile{
@@ -1998,15 +2016,6 @@ tile{
   width = 8,
   height = 144,
   pattern = "wall_border.4-2",
-}
-
-tile{
-  layer = 1,
-  x = 1008,
-  y = 768,
-  width = 544,
-  height = 144,
-  pattern = "floor.18-1",
 }
 
 tile{
@@ -2965,7 +2974,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1432,
+  x = 1424,
   y = 264,
   width = 8,
   height = 16,
@@ -2974,7 +2983,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1456,
+  x = 1448,
   y = 264,
   width = 8,
   height = 16,
@@ -2983,7 +2992,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1440,
+  x = 1432,
   y = 264,
   width = 16,
   height = 16,
@@ -2992,7 +3001,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1456,
+  x = 1448,
   y = 200,
   width = 8,
   height = 16,
@@ -3001,7 +3010,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1440,
+  x = 1432,
   y = 200,
   width = 16,
   height = 16,
@@ -3010,7 +3019,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1432,
+  x = 1424,
   y = 200,
   width = 8,
   height = 16,
@@ -3019,7 +3028,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1440,
+  x = 1432,
   y = 216,
   width = 16,
   height = 48,
@@ -3028,7 +3037,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1432,
+  x = 1424,
   y = 216,
   width = 8,
   height = 48,
@@ -3037,7 +3046,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1456,
+  x = 1448,
   y = 216,
   width = 8,
   height = 48,
@@ -3509,7 +3518,7 @@ tile{
   y = 576,
   width = 64,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -3649,17 +3658,17 @@ tile{
 
 tile{
   layer = 1,
-  x = 144,
+  x = 464,
   y = 48,
   width = 32,
   height = 32,
-  pattern = "975",
+  pattern = "1008",
 }
 
 tile{
   layer = 1,
-  x = 464,
-  y = 48,
+  x = 224,
+  y = 160,
   width = 32,
   height = 32,
   pattern = "1003",
@@ -3689,7 +3698,7 @@ tile{
   y = 160,
   width = 32,
   height = 32,
-  pattern = "1031",
+  pattern = "998",
 }
 
 tile{
@@ -3703,11 +3712,11 @@ tile{
 
 tile{
   layer = 1,
-  x = 224,
-  y = 160,
+  x = 144,
+  y = 48,
   width = 32,
   height = 32,
-  pattern = "1055",
+  pattern = "1031",
 }
 
 tile{
@@ -3923,7 +3932,7 @@ tile{
   y = 96,
   width = 64,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -3941,21 +3950,12 @@ tile{
   y = 96,
   width = 64,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
   layer = 1,
   x = 64,
-  y = 160,
-  width = 32,
-  height = 32,
-  pattern = "floor.18-Alpha",
-}
-
-tile{
-  layer = 1,
-  x = 224,
   y = 160,
   width = 32,
   height = 32,
@@ -3973,6 +3973,15 @@ tile{
 
 tile{
   layer = 1,
+  x = 464,
+  y = 48,
+  width = 32,
+  height = 32,
+  pattern = "floor.18-Alpha",
+}
+
+tile{
+  layer = 1,
   x = 384,
   y = 48,
   width = 32,
@@ -3982,8 +3991,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 464,
-  y = 48,
+  x = 224,
+  y = 160,
   width = 32,
   height = 32,
   pattern = "floor.18-Alpha",
@@ -4184,7 +4193,7 @@ tile{
   y = 144,
   width = 32,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -4202,7 +4211,7 @@ tile{
   y = 144,
   width = 32,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -4220,7 +4229,7 @@ tile{
   y = 528,
   width = 32,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -4256,7 +4265,7 @@ tile{
   y = 288,
   width = 32,
   height = 144,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -4265,7 +4274,7 @@ tile{
   y = 288,
   width = 32,
   height = 144,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -4274,16 +4283,7 @@ tile{
   y = 352,
   width = 288,
   height = 16,
-  pattern = "floor_low.2-1",
-}
-
-tile{
-  layer = 1,
-  x = 304,
-  y = 408,
-  width = 32,
-  height = 24,
-  pattern = "fairy_fountain.1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -4535,7 +4535,7 @@ tile{
   y = 528,
   width = 32,
   height = 144,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -4553,7 +4553,7 @@ tile{
   y = 592,
   width = 96,
   height = 16,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -4585,24 +4585,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 384,
-  y = 592,
-  width = 16,
-  height = 16,
-  pattern = "floor_low.2-1",
-}
-
-tile{
-  layer = 1,
-  x = 304,
-  y = 296,
-  width = 32,
-  height = 24,
-  pattern = "fairy_fountain.1",
-}
-
-tile{
-  layer = 1,
   x = 1192,
   y = 584,
   width = 32,
@@ -4616,7 +4598,7 @@ tile{
   y = 592,
   width = 16,
   height = 16,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -4805,7 +4787,7 @@ tile{
   y = 48,
   width = 32,
   height = 144,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5039,7 +5021,7 @@ tile{
   y = 528,
   width = 32,
   height = 144,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5057,7 +5039,7 @@ tile{
   y = 592,
   width = 96,
   height = 16,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5174,7 +5156,7 @@ tile{
   y = 832,
   width = 16,
   height = 16,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5228,7 +5210,7 @@ tile{
   y = 816,
   width = 112,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5246,7 +5228,7 @@ tile{
   y = 816,
   width = 112,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5264,7 +5246,7 @@ tile{
   y = 816,
   width = 80,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5273,7 +5255,7 @@ tile{
   y = 768,
   width = 32,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5282,7 +5264,7 @@ tile{
   y = 864,
   width = 32,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5300,7 +5282,7 @@ tile{
   y = 864,
   width = 32,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5471,7 +5453,7 @@ tile{
   y = 576,
   width = 64,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5480,7 +5462,7 @@ tile{
   y = 592,
   width = 80,
   height = 16,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5489,7 +5471,7 @@ tile{
   y = 592,
   width = 80,
   height = 16,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5507,7 +5489,7 @@ tile{
   y = 336,
   width = 64,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5516,7 +5498,7 @@ tile{
   y = 288,
   width = 32,
   height = 384,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5543,7 +5525,7 @@ tile{
   y = 352,
   width = 80,
   height = 16,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5552,7 +5534,7 @@ tile{
   y = 352,
   width = 80,
   height = 16,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5570,7 +5552,7 @@ tile{
   y = 768,
   width = 32,
   height = 48,
-  pattern = "floor_low.2-1",
+  pattern = "floor_star.on-2",
 }
 
 tile{
@@ -5580,6 +5562,3325 @@ tile{
   width = 32,
   height = 24,
   pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 728,
+  y = 104,
+  width = 32,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 736,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 104,
+  width = 32,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 848,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 384,
+  y = 736,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 736,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 736,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 736,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+}
+
+tile{
+  layer = 1,
+  x = 920,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = 1,
+  x = 920,
+  y = 824,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 920,
+  y = 848,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 824,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 848,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 936,
+  y = 832,
+  width = 48,
+  height = 16,
+  pattern = "floor.8-1",
+}
+
+tile{
+  layer = 1,
+  x = 936,
+  y = 848,
+  width = 48,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 936,
+  y = 824,
+  width = 48,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 288,
+  width = 32,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 592,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "4_5",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 384,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "4_6",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 544,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "4_24",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "4_25",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 200,
+  width = 32,
+  height = 16,
+  pattern = "4_11",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 200,
+  width = 32,
+  height = 16,
+  pattern = "4_22",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 680,
+  width = 32,
+  height = 16,
+  pattern = "4_10",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 384,
+  y = 200,
+  width = 32,
+  height = 16,
+  pattern = "4_23",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 544,
+  y = 200,
+  width = 32,
+  height = 16,
+  pattern = "4_12",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1448,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 504,
+  width = 32,
+  height = 16,
+  pattern = "4_26",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1480,
+  y = 584,
+  width = 72,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1488,
+  y = 592,
+  width = 64,
+  height = 16,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 584,
+  width = 72,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 592,
+  width = 64,
+  height = 16,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 624,
+  width = 48,
+  height = 48,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 528,
+  width = 48,
+  height = 48,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1392,
+  y = 560,
+  width = 96,
+  height = 80,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 528,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 640,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 568,
+  width = 80,
+  height = 64,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1472,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.2.top",
+}
+
+tile{
+  layer = 1,
+  x = 1376,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.2.top",
+}
+
+tile{
+  layer = 1,
+  x = 1376,
+  y = 736,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1472,
+  y = 736,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1376,
+  y = 496,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1472,
+  y = 496,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1560,
+  y = 536,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.4.top",
+}
+
+tile{
+  layer = 1,
+  x = 1560,
+  y = 632,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.4.top",
+}
+
+tile{
+  layer = 1,
+  x = 1560,
+  y = 584,
+  width = 16,
+  height = 32,
+  pattern = "wall_torch.4",
+}
+
+tile{
+  layer = 1,
+  x = 1296,
+  y = 536,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 1,
+  x = 1296,
+  y = 632,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 1,
+  x = 1304,
+  y = 584,
+  width = 16,
+  height = 32,
+  pattern = "wall_torch.3",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 536,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1520,
+  y = 536,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1520,
+  y = 648,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 648,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 864,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 864,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 896,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 896,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 464,
+  width = 16,
+  height = 32,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 896,
+  y = 464,
+  width = 16,
+  height = 32,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 864,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 896,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 896,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 864,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 560,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 560,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 560,
+  width = 8,
+  height = 16,
+  pattern = "432",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 528,
+  width = 8,
+  height = 16,
+  pattern = "432",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 624,
+  width = 8,
+  height = 16,
+  pattern = "432",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 656,
+  width = 8,
+  height = 16,
+  pattern = "432",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 560,
+  width = 8,
+  height = 16,
+  pattern = "433",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 656,
+  width = 8,
+  height = 16,
+  pattern = "434",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 528,
+  width = 8,
+  height = 16,
+  pattern = "435",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 624,
+  width = 8,
+  height = 16,
+  pattern = "436",
+}
+
+tile{
+  layer = 1,
+  x = 1472,
+  y = 912,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 1392,
+  y = 912,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 1152,
+  y = 736,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 1072,
+  y = 736,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 1152,
+  y = 912,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 1072,
+  y = 912,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 1200,
+  y = 920,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.2",
+}
+
+tile{
+  layer = 1,
+  x = 1200,
+  y = 744,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.1",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 920,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.2",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 744,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.1",
+}
+
+tile{
+  layer = 1,
+  x = 1128,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1128,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 800,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1128,
+  y = 800,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1264,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1288,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1264,
+  y = 760,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1288,
+  y = 760,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1552,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1552,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1552,
+  y = 800,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1552,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1448,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1560,
+  y = 824,
+  width = 16,
+  height = 32,
+  pattern = "wall_torch.4",
+}
+
+tile{
+  layer = 1,
+  x = 920,
+  y = 776,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.4.top",
+}
+
+tile{
+  layer = 1,
+  x = 920,
+  y = 872,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.4.top",
+}
+
+tile{
+  layer = 1,
+  x = 976,
+  y = 776,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 1,
+  x = 976,
+  y = 872,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 1,
+  x = 1240,
+  y = 808,
+  width = 80,
+  height = 64,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1248,
+  y = 816,
+  width = 64,
+  height = 48,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1184,
+  y = 832,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1344,
+  y = 832,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 848,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 808,
+  width = 48,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 824,
+  width = 24,
+  height = 32,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1136,
+  y = 824,
+  width = 24,
+  height = 32,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 848,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 808,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1136,
+  y = 808,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1136,
+  y = 848,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1160,
+  y = 808,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1072,
+  y = 808,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1160,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1160,
+  y = 800,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1072,
+  y = 800,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1072,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 872,
+  width = 80,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 800,
+  width = 80,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1448,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 800,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1448,
+  y = 800,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 848,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 808,
+  width = 48,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 824,
+  width = 24,
+  height = 32,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1456,
+  y = 824,
+  width = 24,
+  height = 32,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 848,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 808,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1456,
+  y = 808,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1456,
+  y = 848,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1480,
+  y = 808,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1392,
+  y = 808,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1480,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1480,
+  y = 800,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1392,
+  y = 800,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1392,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 392,
+  width = 80,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 320,
+  width = 80,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1128,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1128,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1240,
+  y = 328,
+  width = 80,
+  height = 64,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1248,
+  y = 336,
+  width = 64,
+  height = 48,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1184,
+  y = 352,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1344,
+  y = 352,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 368,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 328,
+  width = 48,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 344,
+  width = 24,
+  height = 32,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1136,
+  y = 344,
+  width = 24,
+  height = 32,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 368,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 328,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1136,
+  y = 328,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1136,
+  y = 368,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 376,
+  width = 32,
+  height = 16,
+  pattern = "4_39",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 328,
+  width = 32,
+  height = 16,
+  pattern = "4_28",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1160,
+  y = 328,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1072,
+  y = 328,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1160,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1160,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1072,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1072,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 392,
+  width = 80,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 320,
+  width = 80,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1448,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1448,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 368,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 328,
+  width = 48,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 344,
+  width = 24,
+  height = 32,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1456,
+  y = 344,
+  width = 24,
+  height = 32,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 368,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 328,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1456,
+  y = 328,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1456,
+  y = 368,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 376,
+  width = 32,
+  height = 16,
+  pattern = "4_34",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 328,
+  width = 32,
+  height = 16,
+  pattern = "4_32",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1480,
+  y = 328,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1392,
+  y = 328,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1480,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1480,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1392,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1392,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1472,
+  y = 200,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.2.top",
+}
+
+tile{
+  layer = 1,
+  x = 1376,
+  y = 200,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.2.top",
+}
+
+tile{
+  layer = 1,
+  x = 1376,
+  y = 256,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1472,
+  y = 256,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1472,
+  y = 432,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 1392,
+  y = 432,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 1200,
+  y = 440,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.2",
+}
+
+tile{
+  layer = 1,
+  x = 1200,
+  y = 264,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.1",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 440,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.2",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 264,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.1",
+}
+
+tile{
+  layer = 1,
+  x = 1264,
+  y = 264,
+  width = 32,
+  height = 16,
+  pattern = "4_33",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1264,
+  y = 440,
+  width = 32,
+  height = 16,
+  pattern = "4_27",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1560,
+  y = 392,
+  width = 16,
+  height = 32,
+  pattern = "5_12",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1560,
+  y = 296,
+  width = 16,
+  height = 32,
+  pattern = "5_11",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1264,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1288,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1264,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1288,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1552,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1552,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1552,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1552,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 440,
+  width = 32,
+  height = 16,
+  pattern = "4_36",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1560,
+  y = 344,
+  width = 16,
+  height = 32,
+  pattern = "wall_torch.4",
+}
+
+tile{
+  layer = 1,
+  x = 976,
+  y = 344,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 392,
+  width = 16,
+  height = 32,
+  pattern = "5_3",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 296,
+  width = 16,
+  height = 32,
+  pattern = "5_4",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1000,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1000,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1000,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1000,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1152,
+  y = 200,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.2.top",
+}
+
+tile{
+  layer = 1,
+  x = 1056,
+  y = 200,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.2.top",
+}
+
+tile{
+  layer = 1,
+  x = 1056,
+  y = 256,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1152,
+  y = 256,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 768,
+  width = 48,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 768,
+  width = 48,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1008,
+  y = 824,
+  width = 24,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1008,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 768,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 768,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 288,
+  width = 48,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 288,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 288,
+  width = 48,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 288,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 400,
+  width = 48,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 400,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 824,
+  width = 72,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 848,
+  y = 832,
+  width = 64,
+  height = 16,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 824,
+  width = 72,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 832,
+  width = 64,
+  height = 16,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 776,
+  y = 864,
+  width = 48,
+  height = 48,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 776,
+  y = 768,
+  width = 48,
+  height = 48,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 800,
+  width = 96,
+  height = 80,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 768,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 880,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 760,
+  y = 808,
+  width = 80,
+  height = 64,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 920,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.2.top",
+}
+
+tile{
+  layer = 1,
+  x = 736,
+  y = 920,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.2.top",
+}
+
+tile{
+  layer = 1,
+  x = 736,
+  y = 736,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 736,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 656,
+  y = 776,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 1,
+  x = 656,
+  y = 872,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 1,
+  x = 664,
+  y = 824,
+  width = 16,
+  height = 32,
+  pattern = "wall_torch.3",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 776,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 776,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 888,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 888,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 912,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 736,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 912,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 736,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1448,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 808,
+  width = 32,
+  height = 16,
+  pattern = "4_40",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 856,
+  width = 32,
+  height = 16,
+  pattern = "4_38",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1264,
+  y = 744,
+  width = 32,
+  height = 16,
+  pattern = "4_29",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 856,
+  width = 32,
+  height = 16,
+  pattern = "4_35",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 920,
+  width = 32,
+  height = 16,
+  pattern = "4_31",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1264,
+  y = 920,
+  width = 32,
+  height = 16,
+  pattern = "4_30",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 920,
+  width = 32,
+  height = 16,
+  pattern = "4_37",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1560,
+  y = 872,
+  width = 16,
+  height = 32,
+  pattern = "5_9",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1560,
+  y = 776,
+  width = 16,
+  height = 32,
+  pattern = "5_10",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 808,
+  width = 32,
+  height = 16,
+  pattern = "4_41",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = -48,
+  y = 952,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 1,
+  x = -40,
+  y = 952,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 1,
+  x = 1480,
+  y = 104,
+  width = 72,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1488,
+  y = 112,
+  width = 64,
+  height = 16,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 104,
+  width = 72,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 112,
+  width = 64,
+  height = 16,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 144,
+  width = 48,
+  height = 48,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 48,
+  width = 48,
+  height = 48,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1392,
+  y = 80,
+  width = 96,
+  height = 80,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 48,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 160,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 88,
+  width = 80,
+  height = 64,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1376,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1472,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1560,
+  y = 56,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.4.top",
+}
+
+tile{
+  layer = 1,
+  x = 1560,
+  y = 152,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.4.top",
+}
+
+tile{
+  layer = 1,
+  x = 1560,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "wall_torch.4",
+}
+
+tile{
+  layer = 1,
+  x = 1296,
+  y = 56,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 1,
+  x = 1296,
+  y = 152,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 1,
+  x = 1304,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "wall_torch.3",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 56,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1520,
+  y = 56,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1520,
+  y = 168,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 168,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1160,
+  y = 104,
+  width = 72,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1168,
+  y = 112,
+  width = 64,
+  height = 16,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1008,
+  y = 104,
+  width = 72,
+  height = 32,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1008,
+  y = 112,
+  width = 64,
+  height = 16,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 144,
+  width = 48,
+  height = 48,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 48,
+  width = 48,
+  height = 48,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1072,
+  y = 80,
+  width = 96,
+  height = 80,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 48,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 160,
+  width = 32,
+  height = 32,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 88,
+  width = 80,
+  height = 64,
+  pattern = "floor_star.on-2",
+}
+
+tile{
+  layer = 1,
+  x = 1056,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1152,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1240,
+  y = 56,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.4.top",
+}
+
+tile{
+  layer = 1,
+  x = 1240,
+  y = 152,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.4.top",
+}
+
+tile{
+  layer = 1,
+  x = 1240,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "wall_torch.4",
+}
+
+tile{
+  layer = 1,
+  x = 976,
+  y = 56,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 1,
+  x = 976,
+  y = 152,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "wall_torch.3",
+}
+
+tile{
+  layer = 1,
+  x = 1008,
+  y = 56,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1200,
+  y = 56,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1200,
+  y = 168,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1008,
+  y = 168,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 1120,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 1424,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 1440,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 784,
+  width = 16,
+  height = 8,
+  pattern = "table.8",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "table.4",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 768,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 768,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 768,
+  width = 16,
+  height = 8,
+  pattern = "table.2",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 784,
+  width = 8,
+  height = 8,
+  pattern = "table.9",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 784,
+  width = 8,
+  height = 8,
+  pattern = "table.7",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "table.6",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 776,
+  width = 16,
+  height = 8,
+  pattern = "table.5",
+}
+
+wall{
+  name = "final_chest_1_2",
+  layer = 1,
+  x = 64,
+  y = 592,
+  enabled_at_start = false,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  name = "final_chest_2_2",
+  layer = 1,
+  x = 224,
+  y = 592,
+  enabled_at_start = false,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+dynamic_tile{
+  name = "book_shards_list_tile",
+  layer = 1,
+  x = 56,
+  y = 768,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "game_finished_2",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "520",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  name = "casual_entity_9",
+  layer = 1,
+  x = 784,
+  y = 80,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 32,
+  height = 16,
+  pattern = "wall",
+  tileset = "extra/casual_tileset",
+}
+
+sensor{
+  name = "welcome_shop_permanent",
+  layer = 1,
+  x = 264,
+  y = 813,
+  width = 128,
+  height = 80,
+}
+
+sensor{
+  name = "welcome_shop",
+  layer = 1,
+  x = 408,
+  y = 813,
+  width = 160,
+  height = 112,
+}
+
+sensor{
+  name = "welcome_shop_remembrance",
+  layer = 1,
+  x = 88,
+  y = 813,
+  width = 160,
+  height = 112,
 }
 
 wall{
@@ -5664,7 +8965,7 @@ wall{
 
 wall{
   layer = 1,
-  x = 1440,
+  x = 1432,
   y = 200,
   width = 16,
   height = 80,
@@ -5779,7 +9080,7 @@ door{
   sprite = "entities/Doors/Inside/door_d1_boss_key1",
   savegame_variable = "boss_key_10010_1_opened",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "boss_key_10010_1",
+  opening_condition = "boss_key_10010",
   cannot_open_dialog = "door.closed.3",
 }
 
@@ -5789,21 +9090,21 @@ door{
   y = 504,
   direction = 1,
   sprite = "entities/Doors/Inside/door_d1_red_key",
-  savegame_variable = "red_key_10010_1_1_opened",
+  savegame_variable = "red_key_10010_opened_1",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "red_key_10010_1_1",
+  opening_condition = "red_key_10010_1",
   cannot_open_dialog = "door.closed.6",
 }
 
 door{
   layer = 1,
-  x = 1440,
+  x = 1432,
   y = 264,
   direction = 1,
   sprite = "entities/Doors/Inside/door_d1_green_key",
-  savegame_variable = "green_key_10010_1_1_opened",
+  savegame_variable = "green_key_10010_opened_1",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "green_key_10010_1_1",
+  opening_condition = "green_key_10010_1",
   cannot_open_dialog = "door.closed.7",
 }
 
@@ -5813,9 +9114,9 @@ door{
   y = 680,
   direction = 3,
   sprite = "entities/Doors/Inside/door_d1_blue_key",
-  savegame_variable = "blue_key_10010_1_1_opened",
+  savegame_variable = "blue_key_10010_opened_1",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "blue_key_10010_1_1",
+  opening_condition = "blue_key_10010_1",
   cannot_open_dialog = "door.closed.5",
 }
 
@@ -5825,31 +9126,10 @@ door{
   y = 744,
   direction = 1,
   sprite = "entities/Doors/Inside/door_d1_yellow_key",
-  savegame_variable = "yellow_key_10010_1_opened",
+  savegame_variable = "yellow_key_10010_opened_1",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "yellow_key_10010_1",
   cannot_open_dialog = "door.closed.4",
-}
-
-door{
-  layer = 1,
-  x = 792,
-  y = 800,
-  direction = 1,
-  sprite = "entities/Doors/Inside/door_d1_normal",
-  savegame_variable = "door_platinum_rank_10010_1_opened",
-  opening_condition = "red_key_10000_1_1",
-  cannot_open_dialog = "door.closed.platinum",
-}
-
-npc{
-  name = "ts.labors.labors_rules",
-  layer = 1,
-  x = 392,
-  y = 605,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/no_character/owl_statue_2",
 }
 
 npc{
@@ -5873,46 +9153,14 @@ npc{
 }
 
 npc{
+  name = "welcome_shop_permanent_npc",
   layer = 1,
   x = 320,
   y = 813,
   direction = 3,
   subtype = 1,
-  sprite = "npc/witch",
-  behavior = "dialog#shop.welcome_labors_potion",
-}
-
-shop_treasure{
-  name = "shop_potion_1",
-  layer = 1,
-  x = 272,
-  y = 824,
-  treasure_name = "other/red_potion",
-  price = 30,
-  font = "la",
-  dialog = "shop.red_potion",
-}
-
-shop_treasure{
-  name = "shop_potion_2",
-  layer = 1,
-  x = 304,
-  y = 824,
-  treasure_name = "other/green_potion",
-  price = 15,
-  font = "la",
-  dialog = "shop.green_potion",
-}
-
-shop_treasure{
-  name = "shop_potion_3",
-  layer = 1,
-  x = 336,
-  y = 824,
-  treasure_name = "other/blue_potion",
-  price = 40,
-  font = "la",
-  dialog = "shop.blue_potion",
+  sprite = "npc/merchant_blue",
+  behavior = "dialog#shop.welcome_labors_permanent",
 }
 
 npc{
@@ -5940,7 +9188,7 @@ npc{
 wall{
   name = "red_key_wall",
   layer = 1,
-  x = 128,
+  x = 160,
   y = 824,
   width = 32,
   height = 32,
@@ -5953,17 +9201,17 @@ wall{
 npc{
   name = "red_key",
   layer = 1,
-  x = 144,
+  x = 176,
   y = 853,
   direction = 3,
   subtype = 0,
-  sprite = "npc/no_character/labors_remembrance_shop_red_key",
+  sprite = "npc/no_character/labors_remembrance_shop_red_key_2",
 }
 
 wall{
   name = "blue_key_wall",
   layer = 1,
-  x = 160,
+  x = 128,
   y = 824,
   width = 32,
   height = 32,
@@ -5976,7 +9224,7 @@ wall{
 npc{
   name = "blue_key",
   layer = 1,
-  x = 176,
+  x = 144,
   y = 853,
   direction = 3,
   subtype = 0,
@@ -5994,6 +9242,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 npc{
@@ -6001,6 +9250,7 @@ npc{
   layer = 1,
   x = 208,
   y = 853,
+  enabled_at_start = false,
   direction = 3,
   subtype = 0,
   sprite = "npc/no_character/labors_remembrance_shop_green_key",
@@ -6028,7 +9278,7 @@ npc{
   enabled_at_start = false,
   direction = 3,
   subtype = 0,
-  sprite = "npc/no_character/labors_remembrance_shop_yellow_key",
+  sprite = "npc/no_character/labors_remembrance_shop_yellow_key_2",
 }
 
 teletransporter{
@@ -6043,6 +9293,1942 @@ teletransporter{
   sound = "warp",
 }
 
+teletransporter{
+  layer = 1,
+  x = 392,
+  y = 168,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/lake_village/outside",
+  destination = "start",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 1,
+  x = 552,
+  y = 168,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/hera_mountain/death_path",
+  destination = "start",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 1,
+  x = 552,
+  y = 56,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/power_temple/1ET",
+  destination = "entree_donjon",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 1,
+  x = 392,
+  y = 56,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/wisdom_temple/RDC",
+  destination = "entree_donjon",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+destination{
+  name = "start_wave_2",
+  layer = 1,
+  x = 160,
+  y = 125,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 1,
+  x = 72,
+  y = 168,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "5",
+    },
+  },
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/hyrule_field/field_out",
+  destination = "start",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 56,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/hyrule_castle/SS2",
+  destination = "start",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 1,
+  x = 232,
+  y = 168,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "5",
+    },
+  },
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/link_forest/courage_palace_out",
+  destination = "start",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 592,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "6",
+    },
+  },
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/ganon_castle/out",
+  destination = "start",
+  sprite = "entities/Teletransporters/teletransporter_subrosia_red",
+  sound = "warp",
+}
+
+destination{
+  name = "start_final",
+  layer = 1,
+  x = 160,
+  y = 573,
+  direction = 1,
+}
+
+npc{
+  name = "book.tips_rupees",
+  layer = 1,
+  x = 400,
+  y = 765,
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "book.tips_shards",
+  layer = 1,
+  x = 240,
+  y = 765,
+  direction = 3,
+  subtype = 0,
+}
+
+shop_treasure{
+  name = "shop_magic_flask_upgrade",
+  layer = 1,
+  x = 424,
+  y = 824,
+  enabled_at_start = false,
+  treasure_name = "upgrade_cards/tott_magic",
+  treasure_savegame_variable = "labors_magic_flask_upgrade_wave_2",
+  price = 300,
+  font = "la",
+  dialog = "shop.magic_flask_upgrade",
+}
+
+shop_treasure{
+  name = "shop_attack_boost",
+  layer = 1,
+  x = 464,
+  y = 824,
+  enabled_at_start = false,
+  treasure_name = "upgrade_cards/tott_attack",
+  treasure_savegame_variable = "labors_attack_boost_wave_2",
+  price = 500,
+  font = "la",
+  dialog = "shop.attack_boost",
+}
+
+shop_treasure{
+  name = "shop_defense_boost",
+  layer = 1,
+  x = 504,
+  y = 824,
+  enabled_at_start = false,
+  treasure_name = "upgrade_cards/tott_defence",
+  treasure_savegame_variable = "labors_defense_boost_wave_2",
+  price = 300,
+  font = "la",
+  dialog = "shop.defense_boost",
+}
+
+shop_treasure{
+  name = "shop_casual",
+  layer = 1,
+  x = 424,
+  y = 824,
+  treasure_name = "upgrade_cards/tott_casual",
+  treasure_savegame_variable = "labors_casualization_wave_2",
+  price = 100,
+  font = "la",
+  dialog = "shop.upgrade_card_casual",
+}
+
+shop_treasure{
+  name = "shop_bomb_bag",
+  layer = 1,
+  x = 504,
+  y = 824,
+  treasure_name = "upgrade_cards/tott_bombs",
+  treasure_savegame_variable = "labors_bomb_bag_wave_2",
+  price = 200,
+  font = "la",
+  dialog = "shop.bomb_bag",
+}
+
+shop_treasure{
+  name = "shop_quiver",
+  layer = 1,
+  x = 464,
+  y = 824,
+  treasure_name = "upgrade_cards/tott_arrows",
+  treasure_savegame_variable = "labors_quiver_wave_2",
+  price = 200,
+  font = "la",
+  dialog = "shop.quiver",
+}
+
+chest{
+  name = "final_chest_1_1",
+  layer = 1,
+  x = 80,
+  y = 605,
+  enabled_at_start = false,
+  treasure_name = "dungeons/boss_key",
+  treasure_savegame_variable = "boss_key_10010",
+  sprite = "entities/Chests/chest_big_yellow",
+}
+
+shop_treasure{
+  name = "shop_perma_bombs",
+  layer = 1,
+  x = 336,
+  y = 824,
+  enabled_at_start = false,
+  treasure_name = "permanent/bombs",
+  treasure_savegame_variable = "labors_perma_bombs_wave_2",
+  price = 50,
+  font = "la",
+  dialog = "shop.perma_bombs",
+}
+
+shop_treasure{
+  name = "shop_perma_flippers",
+  layer = 1,
+  x = 272,
+  y = 824,
+  enabled_at_start = false,
+  treasure_name = "permanent/flippers",
+  treasure_savegame_variable = "labors_perma_flippers_wave_2",
+  price = 50,
+  font = "la",
+  dialog = "shop.perma_flippers",
+}
+
+shop_treasure{
+  name = "shop_perma_glove_3",
+  layer = 1,
+  x = 304,
+  y = 824,
+  enabled_at_start = false,
+  treasure_name = "permanent/glove_3",
+  treasure_savegame_variable = "labors_perma_glove_3_wave_2",
+  price = 75,
+  font = "la",
+  dialog = "shop.perma_glove_3",
+}
+
+shop_treasure{
+  name = "shop_perma_lamp",
+  layer = 1,
+  x = 272,
+  y = 824,
+  enabled_at_start = false,
+  treasure_name = "permanent/lamp",
+  treasure_savegame_variable = "labors_perma_lamp_wave_2",
+  price = 75,
+  font = "la",
+  dialog = "shop.perma_lamp",
+}
+
+shop_treasure{
+  name = "shop_perma_boomerang_2",
+  layer = 1,
+  x = 336,
+  y = 824,
+  enabled_at_start = false,
+  treasure_name = "permanent/boomerang_2",
+  treasure_savegame_variable = "labors_perma_boomerang_2_wave_2",
+  price = 75,
+  font = "la",
+  dialog = "shop.perma_boomerang_2",
+}
+
+shop_treasure{
+  name = "shop_perma_monicle_truth",
+  layer = 1,
+  x = 304,
+  y = 824,
+  enabled_at_start = false,
+  treasure_name = "permanent/monicle_truth",
+  treasure_savegame_variable = "labors_perma_monicle_truth_wave_2",
+  price = 99,
+  font = "la",
+  dialog = "shop.perma_monicle_truth",
+}
+
+chest{
+  name = "final_chest_2_1",
+  layer = 1,
+  x = 240,
+  y = 605,
+  enabled_at_start = false,
+  treasure_name = "dungeons/purple_key",
+  treasure_savegame_variable = "purple_key_10010_1",
+  sprite = "entities/Chests/chest_big_yellow",
+}
+
+door{
+  layer = 1,
+  x = 1112,
+  y = 264,
+  direction = 1,
+  sprite = "entities/Doors/Inside/door_d1_purple_key",
+  savegame_variable = "purple_key_10010_opened_1",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "purple_key_10010_1",
+  cannot_open_dialog = "door.closed.8",
+}
+
+switch{
+  name = "auto_switch_auto_door_1",
+  layer = 1,
+  x = 688,
+  y = 320,
+  subtype = "walkable",
+  sprite = "entities/Switches/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+door{
+  name = "auto_door_1",
+  layer = 1,
+  x = 920,
+  y = 592,
+  direction = 0,
+  sprite = "entities/Doors/Inside/door_d1_normal",
+  savegame_variable = "door_10010_1",
+  cannot_open_dialog = "door.closed.1",
+}
+
+wall{
+  layer = 1,
+  x = 920,
+  y = 832,
+  width = 80,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+door{
+  layer = 1,
+  x = 984,
+  y = 832,
+  direction = 2,
+  sprite = "entities/Doors/Inside/door_d1_normal",
+  savegame_variable = "door_platinum_rank_10010_1_opened",
+  opening_condition = "red_key_10000_1_1",
+  cannot_open_dialog = "door.closed.platinum",
+}
+
+npc{
+  name = "ts.labors.labors_rules",
+  layer = 1,
+  x = 320,
+  y = 309,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/no_character/owl_statue_2",
+}
+
+npc{
+  name = "npc_frame_area_1",
+  layer = 1,
+  x = 480,
+  y = 37,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.link_house",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_link_house.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_4",
+  layer = 1,
+  x = 400,
+  y = 37,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.wisdom_temple",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_wisdom_temple.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_2",
+  layer = 1,
+  x = 400,
+  y = 213,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.lake_village",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_lake_village.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_3",
+  layer = 1,
+  x = 560,
+  y = 213,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.hera_mountain",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_hera_mountain.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_5",
+  layer = 1,
+  x = 560,
+  y = 37,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.power_temple",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_power_temple.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_6",
+  layer = 1,
+  x = 160,
+  y = 37,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.hyrule_castle",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_hyrule_castle.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_7",
+  layer = 1,
+  x = 80,
+  y = 213,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.hyrule_field",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_hyrule_field.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_8",
+  layer = 1,
+  x = 240,
+  y = 213,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.forest_village",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_forest_village.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_area_9",
+  layer = 1,
+  x = 160,
+  y = 693,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.ganon_castle",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_ganon_castle.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+teletransporter{
+  layer = 1,
+  x = 1432,
+  y = 592,
+  width = 16,
+  height = 16,
+  destination_map = "creations/forgotten_legend/outside/light/sacred_forest_meadow",
+  destination = "start",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+destination{
+  name = "start_incoming",
+  layer = 1,
+  x = 1440,
+  y = 637,
+  direction = 3,
+}
+
+npc{
+  name = "npc_frame_area_spoil",
+  layer = 1,
+  x = 1440,
+  y = 517,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.kokiri_garden",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_kokiri_garden.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+enemy{
+  name = "auto_enemy_auto_door_2_1",
+  layer = 1,
+  x = 472,
+  y = 605,
+  direction = 3,
+  breed = "soldier_simple_oblivion_green",
+  treasure_name = "pickable/random",
+}
+
+enemy{
+  layer = 1,
+  x = 800,
+  y = 125,
+  direction = 3,
+  breed = "soldier_oblivion_blue",
+  treasure_name = "pickable/random_heart_magic",
+}
+
+destructible{
+  layer = 1,
+  x = 696,
+  y = 333,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "door_10010_1",
+    },
+  },
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_1",
+  layer = 1,
+  x = 728,
+  y = 301,
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_2",
+  layer = 1,
+  x = 872,
+  y = 301,
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_3",
+  layer = 1,
+  x = 872,
+  y = 669,
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_4",
+  layer = 1,
+  x = 728,
+  y = 669,
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_5",
+  layer = 1,
+  x = 904,
+  y = 333,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_6",
+  layer = 1,
+  x = 904,
+  y = 637,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_7",
+  layer = 1,
+  x = 696,
+  y = 637,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_8",
+  layer = 1,
+  x = 696,
+  y = 477,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_9",
+  layer = 1,
+  x = 696,
+  y = 493,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_10",
+  layer = 1,
+  x = 904,
+  y = 477,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_11",
+  layer = 1,
+  x = 904,
+  y = 493,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+door{
+  name = "auto_door_2",
+  layer = 1,
+  x = 472,
+  y = 504,
+  direction = 1,
+  sprite = "entities/Doors/Inside/door_d1_normal",
+  savegame_variable = "door_10010_2",
+  cannot_open_dialog = "door.closed.1",
+}
+
+door{
+  name = "auto_door_2_B",
+  layer = 1,
+  x = 472,
+  y = 680,
+  direction = 3,
+  sprite = "entities/Doors/Inside/door_d1_normal",
+  savegame_variable = "door_10010_2",
+  cannot_open_dialog = "door.closed.1",
+}
+
+door{
+  name = "auto_door_2_back",
+  layer = 1,
+  x = 600,
+  y = 592,
+  properties = {
+    {
+      key = "set_door_open",
+      value = "true",
+    },
+  },
+  direction = 0,
+  sprite = "entities/Doors/Inside/door_d1_normal",
+  cannot_open_dialog = "door.closed.1",
+}
+
+sensor{
+  name = "sensor_falling_auto_door_2_back",
+  layer = 1,
+  x = 592,
+  y = 597,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "door_10010_2",
+    },
+  },
+  width = 16,
+  height = 32,
+}
+
+sensor{
+  name = "sensor_push_hero_auto_door_2",
+  layer = 1,
+  x = 648,
+  y = 605,
+  properties = {
+    {
+      key = "direction",
+      value = "2",
+    },
+    {
+      key = "angle",
+      value = "3.14",
+    },
+    {
+      key = "disable_if_value",
+      value = "door_10010_2",
+    },
+  },
+  width = 16,
+  height = 16,
+}
+
+enemy{
+  name = "auto_enemy_auto_door_2_2",
+  layer = 1,
+  x = 488,
+  y = 605,
+  direction = 3,
+  breed = "soldier_simple_oblivion_green",
+  treasure_name = "pickable/random",
+}
+
+enemy{
+  layer = 1,
+  x = 320,
+  y = 365,
+  direction = 3,
+  breed = "soldier_oblivion_green",
+  treasure_name = "pickable/random_heart_magic",
+}
+
+enemy{
+  layer = 1,
+  x = 1112,
+  y = 605,
+  direction = 3,
+  breed = "soldier_simple_oblivion_blue",
+  treasure_name = "pickable/random",
+}
+
+enemy{
+  layer = 1,
+  x = 1128,
+  y = 605,
+  direction = 3,
+  breed = "soldier_simple_oblivion_blue",
+  treasure_name = "pickable/random",
+}
+
+enemy{
+  layer = 1,
+  x = 1280,
+  y = 893,
+  direction = 3,
+  breed = "soldier_oblivion_green",
+  treasure_name = "pickable/random_heart_magic",
+}
+
+door{
+  name = "auto_door_3",
+  layer = 1,
+  x = 152,
+  y = 440,
+  direction = 3,
+  sprite = "entities/Doors/Inside/door_d1_normal",
+  savegame_variable = "door_10010_3",
+  cannot_open_dialog = "door.closed.1",
+}
+
+switch{
+  name = "auto_switch_auto_door_3",
+  layer = 1,
+  x = 312,
+  y = 400,
+  subtype = "solid",
+  sprite = "entities/Switches/solid_switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 304,
+  y = 408,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+  tileset = "inside_house",
+}
+
+destructible{
+  name = "auto_destructible_12",
+  layer = 1,
+  x = 344,
+  y = 301,
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_13",
+  layer = 1,
+  x = 296,
+  y = 429,
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_14",
+  layer = 1,
+  x = 296,
+  y = 301,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_15",
+  layer = 1,
+  x = 344,
+  y = 429,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_17",
+  layer = 1,
+  x = 696,
+  y = 157,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_19",
+  layer = 1,
+  x = 728,
+  y = 61,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_21",
+  layer = 1,
+  x = 904,
+  y = 93,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_23",
+  layer = 1,
+  x = 872,
+  y = 189,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+door{
+  name = "auto_door_4",
+  layer = 1,
+  x = 792,
+  y = 24,
+  direction = 1,
+  sprite = "entities/Doors/Inside/door_d1_normal",
+  savegame_variable = "door_10010_4",
+  cannot_open_dialog = "door.closed.1",
+}
+
+switch{
+  name = "auto_switch_auto_door_4",
+  layer = 1,
+  x = 640,
+  y = 0,
+  subtype = "walkable",
+  sprite = "entities/Switches/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+switch{
+  name = "tiles_puzzle_switch_1",
+  layer = 1,
+  x = 896,
+  y = 144,
+  subtype = "walkable",
+  sprite = "entities/Switches/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+switch{
+  name = "tiles_puzzle_switch_2",
+  layer = 1,
+  x = 720,
+  y = 176,
+  subtype = "walkable",
+  sprite = "entities/Switches/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+switch{
+  name = "tiles_puzzle_switch_3",
+  layer = 1,
+  x = 864,
+  y = 48,
+  subtype = "walkable",
+  sprite = "entities/Switches/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+switch{
+  name = "tiles_puzzle_switch_4",
+  layer = 1,
+  x = 688,
+  y = 80,
+  subtype = "walkable",
+  sprite = "entities/Switches/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+destructible{
+  name = "auto_destructible_18",
+  layer = 1,
+  x = 88,
+  y = 541,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_20",
+  layer = 1,
+  x = 264,
+  y = 573,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_22",
+  layer = 1,
+  x = 232,
+  y = 669,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_24",
+  layer = 1,
+  x = 56,
+  y = 637,
+  sprite = "entities/Destructables/vase",
+  destruction_sound = "vase",
+  weight = 1,
+  can_be_cut = true,
+}
+
+npc{
+  name = "zeldo",
+  layer = 1,
+  x = 800,
+  y = 605,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "labors_wave_2_welcome",
+    },
+  },
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/boss/zeldo_wave_1/zeldo",
+}
+
+sensor{
+  name = "sensor_rules",
+  layer = 1,
+  x = 744,
+  y = 669,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "labors_wave_2_welcome",
+    },
+  },
+  width = 128,
+  height = 16,
+}
+
+npc{
+  name = "ts.labors.gallery_blue_room_2",
+  layer = 1,
+  x = 1280,
+  y = 845,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/no_character/owl_statue_2",
+}
+
+npc{
+  name = "ts.labors.gallery_red_room",
+  layer = 1,
+  x = 1280,
+  y = 365,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/no_character/owl_statue_2",
+}
+
+npc{
+  name = "npc_frame_dev_1",
+  layer = 1,
+  x = 1120,
+  y = 389,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_scan_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_scan_1.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_2",
+  layer = 1,
+  x = 1120,
+  y = 341,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_scan_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_scan_2.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_3",
+  layer = 1,
+  x = 992,
+  y = 413,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_menu_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_menu_1.png",
+    },
+  },
+  direction = 0,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_4",
+  layer = 1,
+  x = 992,
+  y = 317,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_menu_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_menu_2.png",
+    },
+  },
+  direction = 0,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_5",
+  layer = 1,
+  x = 1280,
+  y = 277,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_screen_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_screen_1.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_6",
+  layer = 1,
+  x = 1280,
+  y = 453,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_screen_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_screen_2.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_7",
+  layer = 1,
+  x = 1440,
+  y = 453,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_castle_town",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_castle_town.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_8",
+  layer = 1,
+  x = 1440,
+  y = 341,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_misc_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_misc_1.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_9",
+  layer = 1,
+  x = 1440,
+  y = 389,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_paper_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_paper_1.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_10",
+  layer = 1,
+  x = 1568,
+  y = 413,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_paper_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_paper_2.png",
+    },
+  },
+  direction = 2,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_11",
+  layer = 1,
+  x = 1568,
+  y = 317,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_paper_3",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_paper_3.png",
+    },
+  },
+  direction = 2,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_12",
+  layer = 1,
+  x = 1120,
+  y = 821,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_title",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_title.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_13",
+  layer = 1,
+  x = 1120,
+  y = 869,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_evolution",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_evolution.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_14",
+  layer = 1,
+  x = 1120,
+  y = 933,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_shop",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_shop.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_15",
+  layer = 1,
+  x = 1280,
+  y = 933,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_map_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_map_1.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_16",
+  layer = 1,
+  x = 1440,
+  y = 933,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_map_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_map_2.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_17",
+  layer = 1,
+  x = 1440,
+  y = 869,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_num_1",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_num_1.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_18",
+  layer = 1,
+  x = 1440,
+  y = 821,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_num_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_num_2.png",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_19",
+  layer = 1,
+  x = 1280,
+  y = 757,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_misc_2",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_misc_2.png",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_20",
+  layer = 1,
+  x = 1568,
+  y = 893,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_overworld",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_overworld.png",
+    },
+  },
+  direction = 2,
+  subtype = 0,
+}
+
+npc{
+  name = "npc_frame_dev_21",
+  layer = 1,
+  x = 1568,
+  y = 797,
+  properties = {
+    {
+      key = "dialog",
+      value = "LABORS.1st_solarus_quest.paintings.dev_status",
+    },
+    {
+      key = "image",
+      value = "entities/Decorations/frame_labors_1st_solarus_quest_dev_status.png",
+    },
+  },
+  direction = 2,
+  subtype = 0,
+}
+
+dynamic_tile{
+  name = "casual_entity_1",
+  layer = 1,
+  x = -48,
+  y = 912,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "symbol.small-key",
+  tileset = "extra/casual_tileset",
+}
+
+destructible{
+  name = "casual_entity_3",
+  layer = 1,
+  x = -24,
+  y = 925,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  treasure_name = "pickable/heart",
+  sprite = "entities/Destructables/vase_casual",
+  destruction_sound = "vase",
+  can_be_cut = true,
+  damage_on_enemies = 2,
+}
+
+block{
+  name = "casual_entity_2",
+  layer = 1,
+  x = -24,
+  y = 909,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  sprite = "entities/blocks/block_casual",
+  pushable = false,
+  pullable = false,
+}
+
+dynamic_tile{
+  name = "casual_entity_4",
+  layer = 1,
+  x = -48,
+  y = 928,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "tile",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_5",
+  layer = 1,
+  x = -48,
+  y = 944,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "wall",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_7",
+  layer = 1,
+  x = 288,
+  y = 400,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_8",
+  layer = 1,
+  x = 336,
+  y = 400,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.4",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_10",
+  layer = 1,
+  x = 784,
+  y = 144,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 32,
+  height = 16,
+  pattern = "wall",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_11",
+  layer = 1,
+  x = 816,
+  y = 96,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 48,
+  pattern = "wall",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_12",
+  layer = 1,
+  x = 768,
+  y = 96,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 48,
+  pattern = "wall",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_13",
+  layer = 1,
+  x = 704,
+  y = 80,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "2",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_14",
+  layer = 1,
+  x = 720,
+  y = 160,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "3",
+  tileset = "extra/casual_tileset",
+}
+
+npc{
+  name = "ts.labors.gallery_green_room_2",
+  layer = 1,
+  x = 1440,
+  y = 125,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/no_character/owl_statue_2",
+}
+
+npc{
+  name = "ts.labors.gallery_purple_room",
+  layer = 1,
+  x = 1120,
+  y = 125,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/no_character/owl_statue_2",
+}
+
+destination{
+  name = "start_meta_room",
+  layer = 1,
+  x = 840,
+  y = 845,
+  direction = 0,
+}
+
+teletransporter{
+  name = "shrine_portal",
+  layer = 1,
+  x = 792,
+  y = 832,
+  width = 16,
+  height = 16,
+  destination_map = "extra/mercuris_north_palace",
+  destination = "destination",
+  sprite = "additions/teletransporter_shrine",
+  sound = "warp",
+}
+
+switch{
+  name = "open_weblink_proto_dl",
+  layer = 1,
+  x = 1112,
+  y = 56,
+  subtype = "solid",
+  sprite = "entities/Switches/solid_switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+switch{
+  name = "open_weblink_dev_commentary",
+  layer = 1,
+  x = 1432,
+  y = 56,
+  subtype = "solid",
+  sprite = "entities/Switches/solid_switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+npc{
+  name = "book_shards_list",
+  layer = 1,
+  x = 64,
+  y = 789,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "game_finished_2",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+}
+
 destination{
   name = "start_wave_1",
   layer = 1,
@@ -6051,6 +11237,66 @@ destination{
   direction = 3,
 }
 
+dynamic_tile{
+  layer = 1,
+  x = 48,
+  y = 560,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "labors_wave_2_1_done",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "tongue",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 80,
+  y = 656,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "labors_wave_2_1_done",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "tongue",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 224,
+  y = 528,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "labors_wave_2_1_done",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "tongue",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 256,
+  y = 624,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "labors_wave_2_1_done",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "tongue",
+}
+
 tile{
   layer = 2,
   x = 640,
@@ -6881,7 +12127,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 1416,
+  x = 1408,
   y = 216,
   width = 64,
   height = 8,
@@ -6890,7 +12136,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 1416,
+  x = 1408,
   y = 256,
   width = 64,
   height = 8,
@@ -6899,7 +12145,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 1432,
+  x = 1424,
   y = 216,
   width = 32,
   height = 8,
@@ -6908,7 +12154,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 1432,
+  x = 1424,
   y = 256,
   width = 32,
   height = 8,
@@ -7144,15 +12390,6 @@ tile{
   layer = 2,
   x = 48,
   y = 48,
-  width = 32,
-  height = 8,
-  pattern = "fairy_fountain.2",
-}
-
-tile{
-  layer = 2,
-  x = 304,
-  y = 400,
   width = 32,
   height = 8,
   pattern = "fairy_fountain.2",
@@ -7171,15 +12408,6 @@ tile{
   layer = 2,
   x = 48,
   y = 344,
-  width = 32,
-  height = 8,
-  pattern = "fairy_fountain.2",
-}
-
-tile{
-  layer = 2,
-  x = 304,
-  y = 288,
   width = 32,
   height = 8,
   pattern = "fairy_fountain.2",
@@ -7311,6 +12539,267 @@ tile{
   pattern = "fairy_fountain.2",
 }
 
+tile{
+  layer = 2,
+  x = 936,
+  y = 808,
+  width = 8,
+  height = 64,
+  pattern = "door_cache.4-2",
+}
+
+tile{
+  layer = 2,
+  x = 976,
+  y = 808,
+  width = 8,
+  height = 64,
+  pattern = "door_cache.3-2",
+}
+
+tile{
+  layer = 2,
+  x = 976,
+  y = 824,
+  width = 8,
+  height = 32,
+  pattern = "door_top.3-6",
+}
+
+tile{
+  layer = 2,
+  x = 936,
+  y = 824,
+  width = 8,
+  height = 32,
+  pattern = "door_top.4-6",
+}
+
+tile{
+  layer = 2,
+  x = 368,
+  y = 584,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1328,
+  y = 528,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1520,
+  y = 528,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1520,
+  y = 640,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1328,
+  y = 640,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1104,
+  y = 832,
+  width = 32,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 1184,
+  y = 824,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1344,
+  y = 824,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1424,
+  y = 832,
+  width = 32,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 1104,
+  y = 352,
+  width = 32,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 1184,
+  y = 344,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1344,
+  y = 344,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1424,
+  y = 352,
+  width = 32,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 688,
+  y = 768,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 880,
+  y = 768,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 880,
+  y = 880,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 688,
+  y = 880,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1328,
+  y = 48,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1520,
+  y = 48,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1520,
+  y = 160,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1328,
+  y = 160,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1008,
+  y = 48,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1200,
+  y = 48,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1200,
+  y = 160,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 1008,
+  y = 160,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
 separator{
   name = "auto_separator_1",
   layer = 2,
@@ -7399,5 +12888,535 @@ separator{
   y = -8,
   width = 16,
   height = 976,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 408,
+  y = 168,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "421",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 400,
+  y = 168,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "420",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 384,
+  y = 168,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "777",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 568,
+  y = 168,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "421",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 560,
+  y = 168,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "420",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 544,
+  y = 168,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "777",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 568,
+  y = 56,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "423",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 560,
+  y = 56,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "420",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 544,
+  y = 56,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "777",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 408,
+  y = 56,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "423",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 400,
+  y = 56,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "420",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 384,
+  y = 56,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "777",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 168,
+  y = 56,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "423",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 160,
+  y = 56,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "420",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 144,
+  y = 56,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "777",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 88,
+  y = 168,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "5",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "425",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 80,
+  y = 168,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "5",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "420",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 64,
+  y = 168,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "5",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "777",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 248,
+  y = 168,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "5",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "425",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 240,
+  y = 168,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "5",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "420",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 224,
+  y = 168,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "5",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "777",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 168,
+  y = 592,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "6",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "402",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 160,
+  y = 592,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "6",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "396",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 144,
+  y = 592,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_1st_solarus_quest_amount",
+    },
+    {
+      key = "amount_number",
+      value = "6",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "777",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 304,
+  y = 400,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+  tileset = "inside_house",
+}
+
+custom_entity{
+  layer = 2,
+  x = 320,
+  y = 413,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Switches/switch_stars_effect",
+}
+
+custom_entity{
+  layer = 2,
+  x = 1120,
+  y = 69,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Switches/switch_stars_effect",
+}
+
+custom_entity{
+  layer = 2,
+  x = 1440,
+  y = 69,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Switches/switch_stars_effect",
+}
+
+custom_entity{
+  layer = 2,
+  x = 800,
+  y = 845,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "additions/teletransporter_light",
 }
 

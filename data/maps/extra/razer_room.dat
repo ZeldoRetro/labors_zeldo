@@ -135,6 +135,7 @@ teletransporter{
   height = 24,
   destination_map = "creations/labors/tott/hub",
   destination = "start_razer_room",
+  sound = "warp",
 }
 
 teletransporter{

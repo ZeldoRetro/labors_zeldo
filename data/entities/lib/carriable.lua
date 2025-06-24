@@ -371,10 +371,11 @@ function carriable_behavior.apply(carriable, properties)
   carriable:set_can_traverse_ground("prickles", true)
   carriable:set_can_traverse_ground("shallow_water", true)
   carriable:set_can_traverse(true) -- No way to get traversable entities later, make them all traversable.
+  carriable:set_can_traverse("block", false)
 
   -- Start a custom lifting on interaction to not destroy the carriable and keep events registered outside the entity script alive.
   carriable:register_event("on_interaction", function(carriable)
-    if game:get_ability("lift") >= carriable:get_weight() and carriable:get_weight() ~= -1 then
+    if game:get_ability("lift") >= carriable:get_weight() and carriable:get_weight() ~= -1 and (carriable:get_distance(carriable:get_map():get_hero()) < 32) then
       carrying_state.start(hero, carriable, sprite)
       if carriable.on_carrying then
         carriable:on_carrying() -- Call event

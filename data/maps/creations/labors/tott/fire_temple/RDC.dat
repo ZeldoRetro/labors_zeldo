@@ -13854,7 +13854,7 @@ chest{
   layer = 1,
   x = 344,
   y = 509,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_savegame_variable = "rupee_10004_1",
   sprite = "entities/Chests/chest_LttP",
 }
@@ -15484,6 +15484,7 @@ block{
   layer = 1,
   x = 360,
   y = 477,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -15500,6 +15501,7 @@ block{
   layer = 1,
   x = 312,
   y = 525,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -15516,6 +15518,7 @@ block{
   layer = 1,
   x = 280,
   y = 493,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -15532,6 +15535,7 @@ block{
   layer = 1,
   x = 328,
   y = 445,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -15649,6 +15653,96 @@ dynamic_tile{
   height = 16,
   pattern = "symbol.small-key",
   tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_53",
+  layer = 1,
+  x = 704,
+  y = 576,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 64,
+  height = 16,
+  pattern = "yellow.switch",
+  tileset = "inside_blue_dungeon",
+}
+
+dynamic_tile{
+  name = "casual_entity_88",
+  layer = 1,
+  x = 736,
+  y = 592,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 32,
+  height = 16,
+  pattern = "yellow.switch",
+  tileset = "inside_blue_dungeon",
+}
+
+dynamic_tile{
+  name = "casual_entity_89",
+  layer = 1,
+  x = 704,
+  y = 608,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 64,
+  height = 16,
+  pattern = "yellow.switch",
+  tileset = "inside_blue_dungeon",
+}
+
+dynamic_tile{
+  name = "casual_entity_90",
+  layer = 1,
+  x = 832,
+  y = 608,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 64,
+  height = 16,
+  pattern = "yellow.switch",
+  tileset = "inside_blue_dungeon",
+}
+
+dynamic_tile{
+  name = "casual_entity_91",
+  layer = 1,
+  x = 832,
+  y = 576,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 32,
+  height = 32,
+  pattern = "yellow.switch",
+  tileset = "inside_blue_dungeon",
 }
 
 tile{
@@ -17300,6 +17394,7 @@ block{
   layer = 2,
   x = 360,
   y = 477,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -17316,6 +17411,7 @@ block{
   layer = 2,
   x = 312,
   y = 525,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -17332,6 +17428,7 @@ block{
   layer = 2,
   x = 280,
   y = 493,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -17348,6 +17445,7 @@ block{
   layer = 2,
   x = 328,
   y = 445,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -17364,6 +17462,7 @@ block{
   layer = 2,
   x = 424,
   y = 845,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",

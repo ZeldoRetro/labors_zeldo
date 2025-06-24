@@ -9016,7 +9016,7 @@ sensor{
 }
 
 sensor{
-  name = "dungeon_room_4",
+  name = "dungeon_room_4_1",
   layer = 0,
   x = 480,
   y = 973,
@@ -9100,7 +9100,7 @@ pickable{
   layer = 0,
   x = 800,
   y = 365,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_variant = 2,
   treasure_savegame_variable = "remembrance_shard_10001_1",
 }
@@ -9416,6 +9416,15 @@ dynamic_tile{
   height = 16,
   pattern = "symbol.boss-lock",
   tileset = "extra/casual_tileset",
+}
+
+sensor{
+  name = "dungeon_room_4_2",
+  layer = 0,
+  x = 480,
+  y = 1149,
+  width = 16,
+  height = 16,
 }
 
 tile{
@@ -27376,7 +27385,7 @@ chest{
   layer = 1,
   x = 248,
   y = 821,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_savegame_variable = "rupees_10001_5",
   sprite = "entities/Chests/chest_LttP",
 }

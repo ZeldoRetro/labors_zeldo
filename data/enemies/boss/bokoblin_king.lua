@@ -89,13 +89,6 @@ function enemy:appear()
   end)
 end
 
---Beginning of the fight
-function enemy:on_enabled()
-  self:get_game():set_dialog_position("bottom")
-  self:get_map():get_game():start_dialog("bokoblin_king.1.intro")
-  self:get_game():set_dialog_position("auto")
-end
-
 function enemy:on_restarted()
 
   if not finished then
@@ -110,7 +103,6 @@ function enemy:on_restarted()
     enemy:get_sprite():set_animation("hurt")
     self:get_map():get_entity("hero"):freeze()
     sol.audio.play_music("none")
-    sol.timer.start(self, 100, function() self:end_dialog() end)
     sol.timer.start(self, 500, function() self:disappear() end)
     sol.timer.start(self, 1000, function() self:escape() end)
   end
@@ -133,11 +125,6 @@ function enemy:on_hurt()
     finished = true
   end
 
-end
-
-function enemy:end_dialog()
-  enemy:get_sprite():set_ignore_suspend(true)
-  self:get_map():get_game():start_dialog("bokoblin_king.1.escape")
 end
 
 function enemy:escape()

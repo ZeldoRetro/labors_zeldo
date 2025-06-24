@@ -10970,6 +10970,7 @@ block{
   layer = 2,
   x = 424,
   y = 605,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",

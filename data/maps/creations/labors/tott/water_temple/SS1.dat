@@ -5076,7 +5076,7 @@ chest{
   layer = 0,
   x = 1408,
   y = 1093,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_savegame_variable = "rupees_10001_3",
   sprite = "entities/Chests/chest_LttP",
 }
@@ -20832,7 +20832,7 @@ chest{
   layer = 1,
   x = 1864,
   y = 1101,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_savegame_variable = "rupees_10001_4",
   sprite = "entities/Chests/chest_LttP",
 }
@@ -23038,7 +23038,7 @@ destructible{
 }
 
 door{
-  name = "auto_door_3_2",
+  name = "auto_door_3_b",
   layer = 1,
   x = 1880,
   y = 1312,

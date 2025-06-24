@@ -8404,7 +8404,7 @@ chest{
   layer = 1,
   x = 552,
   y = 877,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_savegame_variable = "rupee_10004_2",
   sprite = "entities/Chests/chest_LttP",
 }
@@ -8423,7 +8423,7 @@ pickable{
   layer = 1,
   x = 800,
   y = 1085,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_variant = 2,
   treasure_savegame_variable = "remembrance_shard_10004_1",
 }
@@ -10444,6 +10444,7 @@ block{
   layer = 2,
   x = 408,
   y = 797,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",

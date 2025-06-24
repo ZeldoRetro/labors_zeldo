@@ -134,6 +134,11 @@ function separator_manager:manage_map(map)
       end
     end
 
+      -- Secret Rooms and secret sound
+    if separator:get_property("secret_separator") then
+      if direction4 == tonumber(separator:get_property("direction_trigger")) then sol.audio.play_sound("secret") end
+    end
+
   end
 
   for separator in map:get_entities("auto_separator") do

@@ -1,11 +1,89 @@
 map{ id = "creations/another_hyrule_fantasy/dungeons/1", description = "Niveau 1 - Ruines de l'Aigle" }
+map{ id = "creations/forgotten_legend/dungeons/4/1ET", description = "Jardins Kokiri (1ET)" }
+map{ id = "creations/forgotten_legend/dungeons/4/1ET_outside", description = "Jardins Kokiri (1ET - Ext)" }
+map{ id = "creations/forgotten_legend/dungeons/4/2ET", description = "Jardins Kokiri (2ET)" }
+map{ id = "creations/forgotten_legend/dungeons/4/RDC", description = "Jardins Kokiri (RDC)" }
+map{ id = "creations/forgotten_legend/dungeons/4/SS1", description = "Jardins Kokiri (SS1)" }
+map{ id = "creations/forgotten_legend/outside/light/sacred_forest_meadow", description = "Autel Kokiri (ext)" }
+map{ id = "creations/labors/1st_solarus_quest/forest_village/chief_house", description = "Maison du Maire" }
+map{ id = "creations/labors/1st_solarus_quest/forest_village/house_1", description = "Maison 1 - Mido" }
+map{ id = "creations/labors/1st_solarus_quest/forest_village/house_2", description = "Maison 2 - Planque Bokoblins" }
+map{ id = "creations/labors/1st_solarus_quest/forest_village/house_3", description = "Maison 3 - Jumelle" }
+map{ id = "creations/labors/1st_solarus_quest/forest_village/house_4", description = "Maison 4 - Jumellle" }
+map{ id = "creations/labors/1st_solarus_quest/forest_village/house_5", description = "Maison 5 - Cabane arrière" }
+map{ id = "creations/labors/1st_solarus_quest/forest_village/house_6", description = "Maison 6 - Cabane entrée" }
+map{ id = "creations/labors/1st_solarus_quest/forest_village/kokiri_garden", description = "Autel Kokiri" }
+map{ id = "creations/labors/1st_solarus_quest/forest_village/lost_woods", description = "Bois perdus" }
+map{ id = "creations/labors/1st_solarus_quest/forest_village/outside", description = "Village de la Forêt" }
+map{ id = "creations/labors/1st_solarus_quest/forest_village/shop", description = "Magasin" }
+map{ id = "creations/labors/1st_solarus_quest/ganon_castle/final_battle", description = "Combat final" }
+map{ id = "creations/labors/1st_solarus_quest/ganon_castle/ganon_castle", description = "Chateau de Ganon" }
+map{ id = "creations/labors/1st_solarus_quest/ganon_castle/out", description = "Chateau de Ganon (ext)" }
+map{ id = "creations/labors/1st_solarus_quest/ganon_castle/tower", description = "Tour de Ganon" }
+map{ id = "creations/labors/1st_solarus_quest/hera_mountain/blocks_cave", description = "Caverne - Énigme de Blocs" }
+map{ id = "creations/labors/1st_solarus_quest/hera_mountain/carrefour_cave_1ET", description = "Caverne - Galeries Sentier (1ET)" }
+map{ id = "creations/labors/1st_solarus_quest/hera_mountain/carrefour_cave_RDC", description = "Caverne - Galeries Sentier (RDC)" }
+map{ id = "creations/labors/1st_solarus_quest/hera_mountain/cave_to_mountain_1ET", description = "Caverne vers la Montagne (1ET)" }
+map{ id = "creations/labors/1st_solarus_quest/hera_mountain/cave_to_mountain_2ET", description = "Caverne vers la Montagne (2ET)" }
+map{ id = "creations/labors/1st_solarus_quest/hera_mountain/cave_to_mountain_RDC", description = "Caverne vers la Montagne (RDC)" }
+map{ id = "creations/labors/1st_solarus_quest/hera_mountain/death_path", description = "Sentier de la Mort" }
+map{ id = "creations/labors/1st_solarus_quest/hera_mountain/din_shrine", description = "Sanctuaire de Din" }
+map{ id = "creations/labors/1st_solarus_quest/hera_mountain/hera_mountain", description = "Montagne d'Hera" }
+map{ id = "creations/labors/1st_solarus_quest/hera_mountain/spectacle_rock", description = "Rocher du Spectacle" }
 map{ id = "creations/labors/1st_solarus_quest/hub", description = "Hub 1st Solarus Quest" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_castle/1ET", description = "Chateau d'Hyrule (1ET)" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_castle/RDC", description = "Chateau d'Hyrule (RDC)" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_castle/SS1", description = "Chateau d'Hyrule (SS1)" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_castle/SS2", description = "Chateau d'Hyrule (SS2)" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/crystal_blocks_cave", description = "Caverne - Labyrinthe de Plots" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/field_out", description = "Plaine d'Hyrule" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/grave", description = "Tombe de la Plaine" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/house_1", description = "Maison 1 - Faux Héros" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/house_2", description = "Maison 2 - Abandonnée" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/house_3", description = "Maison 3 - Riche propriétaire" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/house_4", description = "Maison 4 - Petite" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/house_merchant", description = "Cabane du Marchand" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/hyrule_castle", description = "Chateau d'Hyrule" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/hyrule_castle_tower", description = "Tour du Château" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/hyrule_castle_trone", description = "Salle du Trone" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/inn", description = "Auberge" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/secret_cave", description = "Caverne secrète" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/shop", description = "Grand Magasin" }
+map{ id = "creations/labors/1st_solarus_quest/hyrule_field/south_cave", description = "Caverne du Sud" }
+map{ id = "creations/labors/1st_solarus_quest/lake_village/cave", description = "Caverne des Palmes" }
+map{ id = "creations/labors/1st_solarus_quest/lake_village/chief_house", description = "Maison du Maire" }
+map{ id = "creations/labors/1st_solarus_quest/lake_village/house_1", description = "Maison 1 - Innondée" }
+map{ id = "creations/labors/1st_solarus_quest/lake_village/house_2", description = "Maison 2 - Mamie balai" }
+map{ id = "creations/labors/1st_solarus_quest/lake_village/house_3", description = "Maison 3 - Fan de Miroirs" }
+map{ id = "creations/labors/1st_solarus_quest/lake_village/house_4", description = "Maison 4 - Bibliotheque" }
+map{ id = "creations/labors/1st_solarus_quest/lake_village/house_merchant", description = "Cabane du Marchand" }
+map{ id = "creations/labors/1st_solarus_quest/lake_village/inn", description = "Auberge" }
+map{ id = "creations/labors/1st_solarus_quest/lake_village/nayru_shrine", description = "Sanctuaire de Nayru" }
+map{ id = "creations/labors/1st_solarus_quest/lake_village/outside", description = "Village du Lac" }
+map{ id = "creations/labors/1st_solarus_quest/lake_village/vortex_cave", description = "Caverne du Vortex" }
 map{ id = "creations/labors/1st_solarus_quest/link_forest/courage_palace", description = "Palais du Courage" }
 map{ id = "creations/labors/1st_solarus_quest/link_forest/courage_palace_out", description = "Palais du Courage (ext)" }
+map{ id = "creations/labors/1st_solarus_quest/link_forest/farore_shrine", description = "Sanctuaire de Farore" }
+map{ id = "creations/labors/1st_solarus_quest/link_forest/hero_cave", description = "Cave du Héros" }
+map{ id = "creations/labors/1st_solarus_quest/link_forest/link_cave_1F", description = "Caverne de Link (RDC)" }
+map{ id = "creations/labors/1st_solarus_quest/link_forest/link_cave_2F", description = "Caverne de Link (1ET)" }
 map{ id = "creations/labors/1st_solarus_quest/link_forest/link_house", description = "Maison de Link" }
+map{ id = "creations/labors/1st_solarus_quest/link_forest/link_house_in", description = "Maison de Link (interieur)" }
 map{ id = "creations/labors/1st_solarus_quest/link_forest/lost_woods", description = "Bois perdus" }
+map{ id = "creations/labors/1st_solarus_quest/power_temple/1ET", description = "Palais de la Force (1ET)" }
+map{ id = "creations/labors/1st_solarus_quest/power_temple/2ET", description = "Palais de la Force (2ET)" }
+map{ id = "creations/labors/1st_solarus_quest/power_temple/3ET", description = "Palais de la Force (3ET)" }
+map{ id = "creations/labors/1st_solarus_quest/power_temple/4ET", description = "Palais de la Force (4ET)" }
+map{ id = "creations/labors/1st_solarus_quest/power_temple/5ET", description = "Palais de la Force (5ET)" }
+map{ id = "creations/labors/1st_solarus_quest/power_temple/6ET", description = "Palais de la Force (6ET)" }
+map{ id = "creations/labors/1st_solarus_quest/power_temple/7ET", description = "Palais de la Force (7ET)" }
+map{ id = "creations/labors/1st_solarus_quest/power_temple/RDC", description = "Palais de la Force (RDC)" }
+map{ id = "creations/labors/1st_solarus_quest/wisdom_temple/RDC", description = "Palais de la Sagesse (RDC)" }
+map{ id = "creations/labors/1st_solarus_quest/wisdom_temple/SS1", description = "Palais de la Sagesse (SS1)" }
+map{ id = "creations/labors/1st_solarus_quest/wisdom_temple/SS2", description = "Palais de la Sagesse (SS2)" }
 map{ id = "creations/labors/FORBIDDEN_ACCESS", description = "FORBIDDEN_ACCESS" }
 map{ id = "creations/labors/castle_oblivion_1ET", description = "Manoir Oblivion 1ET - TotT" }
+map{ id = "creations/labors/castle_oblivion_2ET", description = "Manoir Oblivion (2ET) - 1st Solarus Quest" }
 map{ id = "creations/labors/castle_oblivion_RDC", description = "Manoir Oblivion RDC - Hall" }
 map{ id = "creations/labors/forgotten_corridor", description = "Couloir de Forgotten" }
 map{ id = "creations/labors/tott/abuda_archipelago/chief_house", description = "Maison du Maire" }
@@ -51,12 +129,16 @@ map{ id = "creations/labors/tott/water_temple/SS1", description = "Temple de l'E
 map{ id = "creations/labors/tott/water_temple/SS2", description = "Temple de l'Eau (SS2)" }
 map{ id = "creations/labors/tott/water_temple/SS3", description = "Temple de l'Eau (SS3)" }
 map{ id = "creations/labors/tott/water_temple/outside", description = "Temple de l'Eau (Ext)" }
-map{ id = "cutscenes/end_screen", description = "Ecran de fin" }
+map{ id = "cutscenes/end_screen_wave_1", description = "Ecran de fin Vague 1" }
+map{ id = "cutscenes/end_screen_wave_2", description = "Ecran de fin Vague 2" }
 map{ id = "cutscenes/ending", description = "Fin (epilogue)" }
-map{ id = "cutscenes/ending_2", description = "Fin (Staff Roll)" }
+map{ id = "cutscenes/ending_wave_1", description = "Générique Vague 1" }
+map{ id = "cutscenes/ending_wave_2", description = "Générique Vague 2" }
 map{ id = "cutscenes/intro", description = "Introduction" }
 map{ id = "extra/ending_room", description = "extra/ending_room" }
+map{ id = "extra/mercuris_north_palace", description = "extra/mercuris_north_palace" }
 map{ id = "extra/razer_room", description = "Razer Room" }
+map{ id = "extra/zeldo_boss", description = "Boss Zeldo - Vague 1" }
 map{ id = "inside/cave", description = "caverne" }
 map{ id = "inside/house_1", description = "maison briques" }
 map{ id = "inside/house_2", description = "maison briques/bois" }
@@ -73,6 +155,7 @@ map{ id = "tests/test_map", description = "tests entrée" }
 
 tileset{ id = "extra/casual_tileset", description = "Tiles Casu" }
 tileset{ id = "extra/mirror_corridor", description = "extra/mirror_corridor" }
+tileset{ id = "extra/north_palace", description = "extra/north_palace" }
 tileset{ id = "extra/razdarac_room", description = "extra/razdarac_room" }
 tileset{ id = "extra/zeldo_battle_room", description = "Zeldo Battle Room" }
 tileset{ id = "ff_style/battle_backgrounds" }
@@ -100,6 +183,7 @@ tileset{ id = "inside_water_dungeon", description = "Donjon bleu eau" }
 tileset{ id = "inside_white_dungeon", description = "Donjon blanc" }
 tileset{ id = "inside_yellow_dungeon", description = "Donjon jaune fonce" }
 tileset{ id = "outside_buildings", description = "Overworld (batiments)" }
+tileset{ id = "outside_extra", description = "Overworld (extra)" }
 tileset{ id = "outside_main", description = "Overworld" }
 tileset{ id = "outside_other", description = "Overworld (autres)" }
 tileset{ id = "outside_special", description = "Overworld (special)" }
@@ -108,6 +192,12 @@ tileset{ id = "sideview/mario_1_tileset", description = "Tileset Mario 1" }
 tileset{ id = "sideview/sideview_dungeon", description = "Vue de cote (donjons)" }
 tileset{ id = "stained_glass", description = "Vitraux Zeldo" }
 
+sprite{ id = "additions/painting", description = "additions/painting" }
+sprite{ id = "additions/stone_bottom", description = "additions/stone_bottom" }
+sprite{ id = "additions/stone_top", description = "additions/stone_top" }
+sprite{ id = "additions/teletransporter_light", description = "additions/teletransporter_light" }
+sprite{ id = "additions/teletransporter_shrine", description = "additions/teletransporter_shrine" }
+sprite{ id = "backgrounds/distorsion_effect_battle", description = "Effet de Distorion Interdimensionnel" }
 sprite{ id = "backgrounds/fog", description = "Brouillard" }
 sprite{ id = "backgrounds/img_chara", description = "CHARA" }
 sprite{ id = "backgrounds/mountains_light", description = "Montagnes (soleil)" }
@@ -116,10 +206,20 @@ sprite{ id = "backgrounds/triforce_sky", description = "Triforce Sky" }
 sprite{ id = "console/cursor", description = "cursor" }
 sprite{ id = "console/icons", description = "icons" }
 sprite{ id = "debug/commands", description = "debug/commands" }
+sprite{ id = "en/dungeon_maps/map_0", description = "Map - Donjon 0" }
+sprite{ id = "en/dungeon_maps/map_1", description = "Map - Palais du Courage" }
+sprite{ id = "en/dungeon_maps/map_1000", description = "Exemple 8x8" }
 sprite{ id = "en/dungeon_maps/map_10001", description = "Map - TotT Temple de l'Eau" }
 sprite{ id = "en/dungeon_maps/map_10002", description = "Map - TotT Tombe ancienne" }
 sprite{ id = "en/dungeon_maps/map_10004", description = "Map - TotT Temple du Feu" }
 sprite{ id = "en/dungeon_maps/map_1001", description = "Map - Ruines de l'Aigle" }
+sprite{ id = "en/dungeon_maps/map_10011", description = "Map - 1st Solarus Palais du Courage" }
+sprite{ id = "en/dungeon_maps/map_10014", description = "Map - 1st Solarus Palais de la Force" }
+sprite{ id = "en/dungeon_maps/map_10015", description = "Map - 1st Solarus Palais de la Sagesse" }
+sprite{ id = "en/dungeon_maps/map_10017", description = "Map - 1st Solarus Chateau d'Hyrule" }
+sprite{ id = "en/dungeon_maps/map_2", description = "Map - Palais de la Sagesse" }
+sprite{ id = "en/dungeon_maps/map_3", description = "Map - Palais de la Force" }
+sprite{ id = "en/dungeon_maps/map_4", description = "Map - Jardins Kokiri" }
 sprite{ id = "enemies/GUAY", description = "GUAY" }
 sprite{ id = "enemies/ally/bomb", description = "Allié - Bombe" }
 sprite{ id = "enemies/ally/viscen", description = "Viscen" }
@@ -145,6 +245,10 @@ sprite{ id = "enemies/bokoblin_weapon", description = "Bokoblin (épée)" }
 sprite{ id = "enemies/bomb", description = "Bombe (projectile)" }
 sprite{ id = "enemies/boomerang", description = "Boomerang" }
 sprite{ id = "enemies/boomerang_2", description = "Boomerang 2" }
+sprite{ id = "enemies/boss/1st_solarus_quest/papillosaur_king", description = "Papillosaure" }
+sprite{ id = "enemies/boss/1st_solarus_quest/plasmarine_ball", description = "Plasmarine (projectile)" }
+sprite{ id = "enemies/boss/1st_solarus_quest/plasmarine_blue", description = "Plasmarine bleu" }
+sprite{ id = "enemies/boss/1st_solarus_quest/plasmarine_red", description = "Plasmarine rouge" }
 sprite{ id = "enemies/boss/agahnim", description = "Agahnim" }
 sprite{ id = "enemies/boss/agahnim_alttp/agahnim", description = "Agahnim ALTTP" }
 sprite{ id = "enemies/boss/agahnim_alttp/agahnim_projo_1", description = "Agahnim ALTTP (projectile 1)" }
@@ -218,6 +322,8 @@ sprite{ id = "enemies/cannonball_hand", description = "Main (obstacle)" }
 sprite{ id = "enemies/chain", description = "Fléau (chaine)" }
 sprite{ id = "enemies/chain_gold", description = "Fléau doré (chaine)" }
 sprite{ id = "enemies/chasupa", description = "Chasupa" }
+sprite{ id = "enemies/chicken", description = "poulet darkdavy15" }
+sprite{ id = "enemies/chicken_big", description = "CHONK COCOTTE" }
 sprite{ id = "enemies/chuchu_blue", description = "Chuchu bleu" }
 sprite{ id = "enemies/chuchu_dark", description = "Chuchu noir" }
 sprite{ id = "enemies/chuchu_green", description = "Chuchu vert" }
@@ -329,9 +435,16 @@ sprite{ id = "enemies/snake", description = "Serpent" }
 sprite{ id = "enemies/snap_dragon", description = "Snap Dragon" }
 sprite{ id = "enemies/soldier_blue", description = "Soldat bleu" }
 sprite{ id = "enemies/soldier_green", description = "Soldat vert" }
+sprite{ id = "enemies/soldier_oblivion_blue", description = "Soldat bleu - Manoir Oblivion" }
+sprite{ id = "enemies/soldier_oblivion_green", description = "Soldat vert - Manoir Oblivion" }
+sprite{ id = "enemies/soldier_oblivion_red", description = "Soldat rouge - Manoir Oblivion" }
+sprite{ id = "enemies/soldier_oblivion_weapon", description = "Soldat Oblivion (arme)" }
 sprite{ id = "enemies/soldier_red", description = "Soldat rouge" }
 sprite{ id = "enemies/soldier_simple_blue", description = "Soldat bleu simple" }
 sprite{ id = "enemies/soldier_simple_green", description = "Soldat vert simple" }
+sprite{ id = "enemies/soldier_simple_oblivion_blue", description = "Soldat bleu simple - Manoir Oblivion" }
+sprite{ id = "enemies/soldier_simple_oblivion_green", description = "Soldat vert simple - Manoir Oblivion" }
+sprite{ id = "enemies/soldier_simple_oblivion_red", description = "Soldat rouge simple - Manoir Oblivion" }
 sprite{ id = "enemies/soldier_simple_red", description = "Soldat rouge simple" }
 sprite{ id = "enemies/soldier_weapon", description = "Soldat (arme)" }
 sprite{ id = "enemies/spark", description = "Spark" }
@@ -412,26 +525,17 @@ sprite{ id = "entities/Decorations/fairy_blue", description = "Fée bleue" }
 sprite{ id = "entities/Decorations/fairy_green", description = "Fée verte" }
 sprite{ id = "entities/Decorations/fairy_red", description = "Fée rouge" }
 sprite{ id = "entities/Decorations/fairy_yellow", description = "Fée jaune" }
+sprite{ id = "entities/Decorations/flashing_pendant_1st_solarus_quest", description = "Pendentif déco (1st Solarus Quest)" }
+sprite{ id = "entities/Decorations/ganon_tower_decoration", description = "Déco Tour de Ganon (1st Solarus Quest)" }
 sprite{ id = "entities/Decorations/ladder_wooden", description = "Echelle de bois" }
 sprite{ id = "entities/Decorations/ladder_wooden_top", description = "Echelle de bois (haut)" }
 sprite{ id = "entities/Decorations/little_flame", description = "Petite flamme" }
 sprite{ id = "entities/Decorations/master_sword_in_pedestal", description = "Master sword (dans piédestal)" }
 sprite{ id = "entities/Decorations/master_sword_pedestal", description = "Master sword (piédestal)" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_graph_1" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_graph_2" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_misc_1" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_misc_2" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_overworld_1" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_overworld_2" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_paper_1" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_paper_2" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_puzzle_1" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_puzzle_2" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_screen_1" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_screen_2" }
-sprite{ id = "entities/Decorations/paintings_labors_tott_dev_screen_3" }
 sprite{ id = "entities/Decorations/rain", description = "Effet de pluie" }
 sprite{ id = "entities/Decorations/snow", description = "Effet de neige" }
+sprite{ id = "entities/Decorations/triangle_pad", description = "Pad Triangle Triforce" }
+sprite{ id = "entities/Decorations/triforce_complete", description = "Triforce entière Déco" }
 sprite{ id = "entities/Decorations/triforce_rotating", description = "Fragment de Triforce (tournant)" }
 sprite{ id = "entities/Decorations/vine_down", description = "Lianes (bas)" }
 sprite{ id = "entities/Decorations/vine_left", description = "Lianes (gauche)" }
@@ -461,12 +565,15 @@ sprite{ id = "entities/Destructables/vase_skull_black", description = "Crane tr�
 sprite{ id = "entities/Destructables/vase_skull_heavy", description = "Crane lourd" }
 sprite{ id = "entities/Destructables/vase_very_heavy", description = "Vase très lourd" }
 sprite{ id = "entities/Doors/Inside/castle_lock", description = "Verrou prison" }
+sprite{ id = "entities/Doors/Inside/castle_lock_bosskey", description = "Verrou prison (clé de boss)" }
+sprite{ id = "entities/Doors/Inside/castle_lock_icekey", description = "Verrou prison (clé de glace)" }
 sprite{ id = "entities/Doors/Inside/door_cave_weak_block", description = "Bloc fissuré caverne" }
 sprite{ id = "entities/Doors/Inside/door_d1_big_key", description = "Porte verrouillée (grande clé)" }
 sprite{ id = "entities/Doors/Inside/door_d1_blue_key", description = "Porte verrouillée (serrure bleue)" }
 sprite{ id = "entities/Doors/Inside/door_d1_boss_key1", description = "Porte verrouillée (clé du boss)" }
 sprite{ id = "entities/Doors/Inside/door_d1_green_key", description = "Porte verrouillée (serrure verte)" }
 sprite{ id = "entities/Doors/Inside/door_d1_normal", description = "Porte fermée classique" }
+sprite{ id = "entities/Doors/Inside/door_d1_purple_key", description = "Porte verrouillée (serrure violette)" }
 sprite{ id = "entities/Doors/Inside/door_d1_red_key", description = "Porte verrouillée (serrure rouge)" }
 sprite{ id = "entities/Doors/Inside/door_d1_small_key", description = "Porte verrouillée (petite clé)" }
 sprite{ id = "entities/Doors/Inside/door_d1_very_weak_wall", description = "Mur très fissuré" }
@@ -717,6 +824,10 @@ sprite{ id = "fr/dungeon_maps/map_10001", description = "Map - TotT Temple de l'
 sprite{ id = "fr/dungeon_maps/map_10002", description = "Map - TotT Tombe ancienne" }
 sprite{ id = "fr/dungeon_maps/map_10004", description = "Map - TotT Temple du Feu" }
 sprite{ id = "fr/dungeon_maps/map_1001", description = "Map - Ruines de l'Aigle" }
+sprite{ id = "fr/dungeon_maps/map_10011", description = "Map - 1st Solarus Palais du Courage" }
+sprite{ id = "fr/dungeon_maps/map_10014", description = "Map - 1st Solarus Palais de la Force" }
+sprite{ id = "fr/dungeon_maps/map_10015", description = "Map - 1st Solarus Palais de la Sagesse" }
+sprite{ id = "fr/dungeon_maps/map_10017", description = "Map - 1st Solarus Chateau d'Hyrule" }
 sprite{ id = "fr/dungeon_maps/map_2", description = "Map - Palais de la Sagesse" }
 sprite{ id = "fr/dungeon_maps/map_3", description = "Map - Palais de la Force" }
 sprite{ id = "fr/dungeon_maps/map_4", description = "Map - Jardins Kokiri" }
@@ -732,10 +843,14 @@ sprite{ id = "hero/sword1", description = "Hero sword 1" }
 sprite{ id = "hero/sword2", description = "Hero sword 2" }
 sprite{ id = "hero/sword3", description = "Hero sword 3" }
 sprite{ id = "hero/sword4", description = "Hero sword 4" }
+sprite{ id = "hero/sword5", description = "Hero sword 5" }
+sprite{ id = "hero/sword6", description = "Hero sword 6" }
 sprite{ id = "hero/sword_stars1", description = "Hero sword stars 1" }
 sprite{ id = "hero/sword_stars2", description = "Hero sword stars 2" }
 sprite{ id = "hero/sword_stars3", description = "Hero sword stars 3" }
 sprite{ id = "hero/sword_stars4", description = "Hero sword star 4" }
+sprite{ id = "hero/sword_stars5", description = "Hero sword star 5" }
+sprite{ id = "hero/sword_stars6", description = "Hero sword star 6" }
 sprite{ id = "hero/trail", description = "Hero trail" }
 sprite{ id = "hero/tunic1", description = "Hero tunic 1" }
 sprite{ id = "hero/tunic2", description = "Hero tunic 2" }
@@ -802,6 +917,7 @@ sprite{ id = "npc/kid_4", description = "Quadruplé 4" }
 sprite{ id = "npc/link_stopped", description = "Link" }
 sprite{ id = "npc/link_stopped_shield", description = "Link (bouclier)" }
 sprite{ id = "npc/link_uncle", description = "Oncle de Link" }
+sprite{ id = "npc/link_uncle_alt", description = "Oncle de Link (alt)" }
 sprite{ id = "npc/little_elephant", description = "Petit éléphant" }
 sprite{ id = "npc/little_man", description = "Petit homme assis" }
 sprite{ id = "npc/little_tree", description = "Petit arbre" }
@@ -842,7 +958,9 @@ sprite{ id = "npc/no_character/hint_stone", description = "Stèle en hylien anci
 sprite{ id = "npc/no_character/labors_remembrance_shop_blue_key", description = "Magasin de souvenirs (Clé bleue)" }
 sprite{ id = "npc/no_character/labors_remembrance_shop_green_key", description = "Magasin de souvenirs (Clé verte)" }
 sprite{ id = "npc/no_character/labors_remembrance_shop_red_key", description = "Magasin de souvenirs (Clé rouge)" }
+sprite{ id = "npc/no_character/labors_remembrance_shop_red_key_2", description = "Magasin de souvenirs (Clé rouge 2)" }
 sprite{ id = "npc/no_character/labors_remembrance_shop_yellow_key", description = "Magasin de souvenirs (Clé du Spoil)" }
+sprite{ id = "npc/no_character/labors_remembrance_shop_yellow_key_2", description = "Magasin de souvenirs (Clé du Spoil 2)" }
 sprite{ id = "npc/no_character/library", description = "Bibliotheque vide" }
 sprite{ id = "npc/no_character/library_sanctuary", description = "Bibliotheque vide (sanctuaire)" }
 sprite{ id = "npc/no_character/owl_statue", description = "Statue de hibou" }
@@ -859,6 +977,7 @@ sprite{ id = "npc/no_character/souvenir_shop_trophy", description = "Magasin de 
 sprite{ id = "npc/no_character/souvenir_shop_zora_scale", description = "Magasin de souvenirs (Ecaille de Zora)" }
 sprite{ id = "npc/octopus", description = "Pieuvre (cible mini-jeu arc)" }
 sprite{ id = "npc/old_man", description = "Vieil homme assoupi" }
+sprite{ id = "npc/old_man_blue", description = "Vieil homme assoupi bleu" }
 sprite{ id = "npc/other_races/crazee_dayzee_1", description = "Barjo Daisy 1" }
 sprite{ id = "npc/other_races/goron_1", description = "Goron 1" }
 sprite{ id = "npc/other_races/kokiri_1", description = "Kokiri 1 (Mido)" }
@@ -873,12 +992,15 @@ sprite{ id = "npc/other_races/zora_guard", description = "Zora (Garde)" }
 sprite{ id = "npc/other_races/zora_king", description = "Roi Zora" }
 sprite{ id = "npc/pink_ball", description = "Monstre balle" }
 sprite{ id = "npc/playing_character/eldran2", description = "PLAYER" }
+sprite{ id = "npc/playing_character/eldran_shield1", description = "PLAYER SHIELD" }
+sprite{ id = "npc/playing_character/eldran_sword1", description = "PLAYER SWORD 1" }
+sprite{ id = "npc/playing_character/link_1st_solarus_quest/shield1", description = "Link 1st Solarus Quest - Bouclier 1" }
+sprite{ id = "npc/playing_character/link_1st_solarus_quest/shield2", description = "Link 1st Solarus Quest - Bouclier 2" }
+sprite{ id = "npc/playing_character/link_1st_solarus_quest/shield3", description = "Link 1st Solarus Quest - Bouclier 3" }
+sprite{ id = "npc/playing_character/link_1st_solarus_quest/sword2", description = "Link 1st Solarus Quest - Epee 2" }
 sprite{ id = "npc/playing_character/link_8bit", description = "Link (8-bit)" }
 sprite{ id = "npc/playing_character/link_sideview", description = "Link (vue de cote)" }
 sprite{ id = "npc/playing_character/link_sideview_sword", description = "Link (vue de cote) - Epee" }
-sprite{ id = "npc/playing_character/simon_belmont", description = "Simon Belmont" }
-sprite{ id = "npc/playing_character/viscen", description = "Viscen" }
-sprite{ id = "npc/playing_character/viscen_sword", description = "Viscen (epee)" }
 sprite{ id = "npc/priest", description = "Prêtre" }
 sprite{ id = "npc/quadruplet_mother", description = "Mère des quadruplés" }
 sprite{ id = "npc/running_man", description = "Homme rapide" }
@@ -916,11 +1038,45 @@ music{ id = "creations/acttp/dungeon", description = "Donjon" }
 music{ id = "creations/acttp/overworld", description = "Overworld" }
 music{ id = "creations/ahf/dungeon", description = "Donjon" }
 music{ id = "creations/forgotten_legend/agahnim_battle_1", description = "Combat contre Agahnim 1" }
+music{ id = "creations/forgotten_legend/kokiri_shrine", description = "Autel Kokiri" }
+music{ id = "creations/forgotten_legend/lost_woods_assault", description = "Bois perdus (Dark)" }
 music{ id = "creations/forgotten_legend/people_in_trouble", description = "Troubles et Ennuis" }
 music{ id = "creations/forgotten_legend/shooting_gallery", description = "Mini-jeu Archerie" }
+music{ id = "creations/labors/13th_dilemma", description = "Zeldo - Secondes Rencontres" }
+music{ id = "creations/labors/13th_struggle", description = "Zeldo - Vague 1 (hell)" }
+music{ id = "creations/labors/1st_solarus_quest/castle_town", description = "Citadelle" }
+music{ id = "creations/labors/1st_solarus_quest/castle_town_night", description = "Citadelle (Nuit)" }
+music{ id = "creations/labors/1st_solarus_quest/cave", description = "Cavernes" }
+music{ id = "creations/labors/1st_solarus_quest/dark_world", description = "Monde des Ténèbres" }
+music{ id = "creations/labors/1st_solarus_quest/dungeons", description = "Donjons" }
+music{ id = "creations/labors/1st_solarus_quest/dungeons_2", description = "Donjons P2" }
+music{ id = "creations/labors/1st_solarus_quest/final_ganon", description = "Final Ganon" }
+music{ id = "creations/labors/1st_solarus_quest/forest_village", description = "Village de la Forêt" }
+music{ id = "creations/labors/1st_solarus_quest/forest_village_night", description = "Village de la Forêt (Nuit)" }
+music{ id = "creations/labors/1st_solarus_quest/ganon_battle", description = "Combat contre Ganon" }
+music{ id = "creations/labors/1st_solarus_quest/ganon_castle", description = "Chateau de Ganon" }
+music{ id = "creations/labors/1st_solarus_quest/ganon_tower", description = "Tour de Ganon" }
+music{ id = "creations/labors/1st_solarus_quest/great_shop", description = "Grand Magasin" }
+music{ id = "creations/labors/1st_solarus_quest/hera_mountain", description = "Montagne d'Hera" }
+music{ id = "creations/labors/1st_solarus_quest/hera_mountain_night", description = "Montagne d'Hera (Nuit)" }
+music{ id = "creations/labors/1st_solarus_quest/house", description = "Maison" }
+music{ id = "creations/labors/1st_solarus_quest/hyrule_castle", description = "Chateau d'Hyrule" }
+music{ id = "creations/labors/1st_solarus_quest/hyrule_field", description = "Plaine d'Hyrule" }
+music{ id = "creations/labors/1st_solarus_quest/hyrule_field_night", description = "Plaine d'Hyrule (Nuit)" }
+music{ id = "creations/labors/1st_solarus_quest/lake_village", description = "Village du Lac" }
+music{ id = "creations/labors/1st_solarus_quest/lake_village_night", description = "Village du Lac (Nuit)" }
+music{ id = "creations/labors/1st_solarus_quest/lost_woods", description = "Bois perdus" }
+music{ id = "creations/labors/1st_solarus_quest/lost_woods_night", description = "Bois perdus (Nuit)" }
+music{ id = "creations/labors/1st_solarus_quest/rain", description = "Pluie" }
+music{ id = "creations/labors/1st_solarus_quest/rain_no_tears", description = "Pluie (sans effet sonore)" }
+music{ id = "creations/labors/1st_solarus_quest/tutorial_area", description = "Zone Tuto" }
+music{ id = "creations/labors/1st_solarus_quest/world_field", description = "Plaine d'Hyrule Alt" }
+music{ id = "creations/labors/1st_solarus_quest/world_field_night", description = "Plaine d'Hyrule Alt (Nuit)" }
+music{ id = "creations/labors/1st_solarus_quest/zelda_theme", description = "Theme de Zelda" }
 music{ id = "creations/labors/DARK_IMPETUS", description = "DARK_IMPETUS" }
 music{ id = "creations/labors/castle_hall", description = "Manoir Oblivion (Hall)" }
 music{ id = "creations/labors/results_screen", description = "Ecran Statistiques" }
+music{ id = "creations/labors/revenge_of_chaos", description = "Zeldo - Vague 1" }
 music{ id = "creations/labors/title_labors", description = "Ecran titre" }
 music{ id = "creations/labors/tott/agahnim_battle_2", description = "Combat contre Agahnim 2" }
 music{ id = "creations/labors/tott/agahnim_theme", description = "Tour du Chateau" }
@@ -952,13 +1108,17 @@ music{ id = "creations/labors/tott/water_temple", description = "Temple de l'Eau
 music{ id = "creations/labors/tott/wind_ruins", description = "Temple du Vent" }
 music{ id = "creations/labors/tott/wind_temple", description = "Ruines du Vent" }
 music{ id = "ending", description = "Staff Roll" }
+music{ id = "ending_2", description = "Staff Roll Vague 2" }
 music{ id = "game_over", description = "Game Over" }
 music{ id = "great_fairy", description = "Fontaine des fees" }
 music{ id = "miniboss", description = "Miniboss" }
 music{ id = "miniboss_2", description = "Miniboss 2" }
+music{ id = "north_palace", description = "north_palace" }
 music{ id = "razer_boss", description = "razer_boss" }
 music{ id = "razer_intro", description = "razer_intro" }
 music{ id = "shop", description = "Magasin" }
+music{ id = "triforce_chamber", description = "Chambre de la Triforce" }
+music{ id = "triforce_obtained", description = "Triforce obtenue" }
 music{ id = "victory", description = "Victory" }
 
 sound{ id = "arrow_hit", description = "arrow_hit" }
@@ -970,6 +1130,7 @@ sound{ id = "beedle_thankyou", description = "beedle_thankyou" }
 sound{ id = "bomb", description = "bomb" }
 sound{ id = "boomerang", description = "boomerang" }
 sound{ id = "boss_charge", description = "boss_charge" }
+sound{ id = "boss_charge_slow", description = "boss_charge_slow" }
 sound{ id = "boss_fireball", description = "boss_fireball" }
 sound{ id = "boss_hurt", description = "boss_hurt" }
 sound{ id = "boss_killed", description = "boss_killed" }
@@ -1016,6 +1177,7 @@ sound{ id = "fr/zeldo_wave_1_voice/hurt_2", description = "hurt_2" }
 sound{ id = "fr/zeldo_wave_1_voice/hurt_3", description = "hurt_3" }
 sound{ id = "fr/zeldo_wave_1_voice/laugh", description = "laugh" }
 sound{ id = "fr/zeldo_wave_1_voice/laugh_reverb", description = "laugh_reverb" }
+sound{ id = "ganon_tp", description = "ganon_tp" }
 sound{ id = "get_master_sword", description = "get_master_sword" }
 sound{ id = "glitch_transition", description = "glitch_transition" }
 sound{ id = "goron_1", description = "goron_1" }
@@ -1067,6 +1229,7 @@ sound{ id = "magic_bar", description = "magic_bar" }
 sound{ id = "magic_powder", description = "magic_powder" }
 sound{ id = "mario", description = "mario" }
 sound{ id = "mario_brick", description = "mario_brick" }
+sound{ id = "mask_break_1", description = "Masque brisé 1" }
 sound{ id = "message_end", description = "message_end" }
 sound{ id = "message_letter", description = "message_letter" }
 sound{ id = "moldorm", description = "moldorm" }
@@ -1176,6 +1339,7 @@ item{ id = "dungeons/boss_key", description = "Clé d'or" }
 item{ id = "dungeons/compass", description = "Boussole" }
 item{ id = "dungeons/green_key", description = "Clé verte" }
 item{ id = "dungeons/map", description = "Carte" }
+item{ id = "dungeons/purple_key", description = "Clé violette" }
 item{ id = "dungeons/red_key", description = "Clé rouge" }
 item{ id = "dungeons/small_key", description = "Petite clé" }
 item{ id = "dungeons/small_key_zelda_1_style", description = "Petite clé (style Zelda 1)" }
@@ -1189,7 +1353,9 @@ item{ id = "equipment/pegasus_shoes", description = "Bottes de Pégase" }
 item{ id = "equipment/quiver", description = "Carquois" }
 item{ id = "equipment/rupee_bag", description = "Bourse de rubis" }
 item{ id = "equipment/shield", description = "Bouclier" }
+item{ id = "equipment/shield_1st_solarus_quest", description = "Bouclier (1st Solarus Quest)" }
 item{ id = "equipment/sword", description = "Epée" }
+item{ id = "equipment/sword_PLAYER", description = "Epée de PLAYER" }
 item{ id = "equipment/swordsman_scroll", description = "Précis d'escrime" }
 item{ id = "equipment/tunic", description = "Tunique" }
 item{ id = "equipment/zora_scale", description = "Ecaile de zora" }
@@ -1205,6 +1371,7 @@ item{ id = "inventory/cane_of_byrna", description = "Canne de Byrna" }
 item{ id = "inventory/cane_of_somaria", description = "Canne de Somaria" }
 item{ id = "inventory/clock", description = "inventory/clock" }
 item{ id = "inventory/echange", description = "Echanges" }
+item{ id = "inventory/echange_1st_solarus_quest", description = "Echanges (1st Solarus Quest)" }
 item{ id = "inventory/feather", description = "Plume de Roc" }
 item{ id = "inventory/fire_rod", description = "Baguette de feu" }
 item{ id = "inventory/hammer", description = "Marteau" }
@@ -1212,6 +1379,7 @@ item{ id = "inventory/hookshot", description = "Grappin" }
 item{ id = "inventory/ice_rod", description = "Baguette de Glace" }
 item{ id = "inventory/lamp", description = "Lanterne" }
 item{ id = "inventory/magic_cape", description = "Cape magique" }
+item{ id = "inventory/magic_mirror", description = "Miroir magique" }
 item{ id = "inventory/magic_mushroom", description = "Champignon" }
 item{ id = "inventory/magic_powder", description = "Poudre magique" }
 item{ id = "inventory/monicle_truth", description = "Monocle de Vérité" }
@@ -1225,6 +1393,12 @@ item{ id = "other/green_potion", description = "Potion verte" }
 item{ id = "other/inn_key", description = "Clé auberge" }
 item{ id = "other/milk", description = "Lait" }
 item{ id = "other/red_potion", description = "Potion rouge" }
+item{ id = "permanent/bombs", description = "Perma - Bombes" }
+item{ id = "permanent/boomerang_2", description = "Perma - Super Boomerang" }
+item{ id = "permanent/flippers", description = "Perma - Palmes" }
+item{ id = "permanent/glove_3", description = "Perma - Moufles Titan" }
+item{ id = "permanent/lamp", description = "Perma - Lanterne" }
+item{ id = "permanent/monicle_truth", description = "Perma - Monocle Vérité" }
 item{ id = "pickable/arrow", description = "Flèches (x1,x5,x10,x30)" }
 item{ id = "pickable/arrow_light", description = "Flèches de Lumière (x1,x5,x10,x30)" }
 item{ id = "pickable/bomb", description = "Bombes (x1,x5,x10,x20)" }
@@ -1252,16 +1426,26 @@ item{ id = "quest_items/defense_boost", description = "Boost de Défense" }
 item{ id = "quest_items/din_pearl_1", description = "Perle de Din (Morceau 1)" }
 item{ id = "quest_items/fairy_power_fragment", description = "Fragment de Puissance de Fée" }
 item{ id = "quest_items/farore_pearl", description = "Perle de Farore" }
+item{ id = "quest_items/fidelity_card_1st_solarus_quest", description = "Carte de Fidélité" }
 item{ id = "quest_items/force_gem", description = "Gemme de Force" }
 item{ id = "quest_items/heart_container", description = "Réceptacle de Coeur" }
+item{ id = "quest_items/ice_key_1st_solarus_quest", description = "Clé de Glace" }
+item{ id = "quest_items/iron_key_1st_solarus_quest", description = "Clé de Fer" }
 item{ id = "quest_items/magic_flask_upgrade", description = "Flasque de magie bleue" }
 item{ id = "quest_items/nayru_pearl", description = "Perle de Nayru" }
+item{ id = "quest_items/pendants_1st_solarus_quest", description = "Pendentifs - 1st Solarus Quest" }
 item{ id = "quest_items/piece_of_heart", description = "Fragment de Coeur" }
 item{ id = "quest_items/remembrance_shard", description = "Eclats de Souvenir" }
+item{ id = "quest_items/remembrance_shard_1st_solarus_quest", description = "Eclats de Souvenir - 1st Solarus_quest" }
+item{ id = "quest_items/remembrance_shard_other", description = "Eclats de Souvenir - Autre" }
+item{ id = "quest_items/remembrance_shard_tott", description = "Eclats de Souvenir - TotT" }
 item{ id = "quest_items/shell", description = "Coquillage" }
 item{ id = "quest_items/triforce", description = "Triforce" }
 item{ id = "quest_items/trophy", description = "Trophée (item fin de donjon)" }
+item{ id = "quest_items/trophy_labors_1st_solarus_quest", description = "Trophée 1st Solarus Quest" }
+item{ id = "quest_items/trophy_labors_EX", description = "Trophée EX" }
 item{ id = "quest_items/trophy_labors_tott", description = "Trophée TotT" }
+item{ id = "quest_items/wooden_key_1st_solarus_quest", description = "Clé de Bois" }
 item{ id = "songs/flight_song", description = "Chant de l'Envol" }
 item{ id = "songs/sun_song", description = "Chant du Soleil" }
 item{ id = "songs/zelda_song", description = "Chant de Zelda" }
@@ -1322,6 +1506,14 @@ enemy{ id = "bokoblin_red", description = "Bokoblin rouge" }
 enemy{ id = "bomb", description = "Bombe (projectile)" }
 enemy{ id = "boomerang", description = "Boomerang" }
 enemy{ id = "boomerang_2", description = "Boomerang magique" }
+enemy{ id = "boss/1st_solarus_quest/arrghus_stone", description = "Arrghus de pierre" }
+enemy{ id = "boss/1st_solarus_quest/mothula", description = "Mothula" }
+enemy{ id = "boss/1st_solarus_quest/papillosaur_king", description = "Papillosaure" }
+enemy{ id = "boss/1st_solarus_quest/plasmarine_ball", description = "Plasmarine (projectile)" }
+enemy{ id = "boss/1st_solarus_quest/plasmarine_blue", description = "Plasmarine bleu" }
+enemy{ id = "boss/1st_solarus_quest/plasmarine_red", description = "Plasmarine rouge" }
+enemy{ id = "boss/1st_solarus_quest/poe_big", description = "Grande Ame" }
+enemy{ id = "boss/1st_solarus_quest/vire", description = "Vire" }
 enemy{ id = "boss/agahnim", description = "Agahnim" }
 enemy{ id = "boss/agahnim_3", description = "Agahnim Phase 3" }
 enemy{ id = "boss/agahnim_alttp/agahnim", description = "Agahnim ALTTP" }
@@ -1491,9 +1683,15 @@ enemy{ id = "snake", description = "Serpent" }
 enemy{ id = "snap_dragon", description = "Snap Dragon" }
 enemy{ id = "soldier_blue", description = "Soldat bleu" }
 enemy{ id = "soldier_green", description = "Soldat vert" }
+enemy{ id = "soldier_oblivion_blue", description = "Soldat bleu - Manoir Oblivion" }
+enemy{ id = "soldier_oblivion_green", description = "Soldat vert - Manoir Oblivion" }
+enemy{ id = "soldier_oblivion_red", description = "Soldat rouge - Manoir Oblivion" }
 enemy{ id = "soldier_red", description = "Soldat rouge" }
 enemy{ id = "soldier_simple_blue", description = "Soldat bleu simple" }
 enemy{ id = "soldier_simple_green", description = "Soldat vert simple" }
+enemy{ id = "soldier_simple_oblivion_blue", description = "Soldat bleu simple - Manoir Oblivion" }
+enemy{ id = "soldier_simple_oblivion_green", description = "Soldat vert simple - Manoir Oblivion" }
+enemy{ id = "soldier_simple_oblivion_red", description = "Soldat rouge simple - Manoir Oblivion" }
 enemy{ id = "soldier_simple_red", description = "Soldat rouge simple" }
 enemy{ id = "spark", description = "Spark" }
 enemy{ id = "taros_blue", description = "Taurus bleu" }
@@ -1531,7 +1729,6 @@ entity{ id = "follower", description = "Suiveux" }
 entity{ id = "hammer_stake", description = "Pieux au sol" }
 entity{ id = "hookable", description = "Tiré au grappin" }
 entity{ id = "ice_beam", description = "ice_beam" }
-entity{ id = "ladder", description = "echelles vue de cote" }
 entity{ id = "lever", description = "Levier" }
 entity{ id = "lib/carriable", description = "soulevable" }
 entity{ id = "light", description = "Effet de lumière" }
@@ -1607,6 +1804,15 @@ file{ path = "enemies/bomb.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/boomerang.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boomerang_2.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss", author = "Mixed", license = "GPL v3" }
+file{ path = "enemies/boss/1st_solarus_quest", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/boss/1st_solarus_quest/arrghus_stone.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/boss/1st_solarus_quest/mothula.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/boss/1st_solarus_quest/papillosaur_king.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/boss/1st_solarus_quest/plasmarine_ball.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/boss/1st_solarus_quest/plasmarine_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/boss/1st_solarus_quest/plasmarine_red.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/boss/1st_solarus_quest/poe_big.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/boss/1st_solarus_quest/vire.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss/agahnim.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss/agahnim_3.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/boss/agahnim_alttp", author = "Christopho, DarkDavy15", license = "GPL v3" }
@@ -1792,9 +1998,15 @@ file{ path = "enemies/snake.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/snap_dragon.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldier_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/soldier_green.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/soldier_oblivion_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/soldier_oblivion_green.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/soldier_oblivion_red.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/soldier_red.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/soldier_simple_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/soldier_simple_green.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/soldier_simple_oblivion_blue.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/soldier_simple_oblivion_green.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/soldier_simple_oblivion_red.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldier_simple_red.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/spark.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/taros_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -1825,7 +2037,7 @@ file{ path = "enemies/zoura_water_blue.lua", author = "ZeldoRetro", license = "G
 file{ path = "enemies/zoura_water_red.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "entities", author = "Mixed", license = "GPL v3" }
 file{ path = "entities/arrow.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "entities/bomb.lua", author = "Vlag", license = "GPL v3" }
+file{ path = "entities/bomb.lua", author = "Vlag, DarkDavy15", license = "GPL v3" }
 file{ path = "entities/burnable.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "entities/cactus.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "entities/explosion.lua", author = "Vlag", license = "GPL v3" }
@@ -1834,9 +2046,9 @@ file{ path = "entities/follower.lua", author = "Christopho", license = "GPL v3" 
 file{ path = "entities/hammer_stake.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/hookable.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/ice_beam.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "entities/ladder.lua", author = "PhoenixII54", license = "GPL v3" }
 file{ path = "entities/lever.lua", author = "ZeldoRetro", license = "GPL v3" }
-file{ path = "entities/lib/carriable.lua", author = "Binbin", license = "GPL v3" }
+file{ path = "entities/lib", author = "Vlag", license = "GPL v3" }
+file{ path = "entities/lib/carriable.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "entities/light.lua", author = "stdgregwar", license = "GPL v3" }
 file{ path = "entities/low_wall.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/minecart.lua", author = "Christopho", license = "GPL v3" }
@@ -1874,6 +2086,7 @@ file{ path = "items/dungeons/boss_key.lua", author = "Christopho", license = "GP
 file{ path = "items/dungeons/compass.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/dungeons/green_key.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/dungeons/map.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/dungeons/purple_key.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/dungeons/red_key.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/dungeons/small_key.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/dungeons/small_key_zelda_1_style.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -1888,7 +2101,9 @@ file{ path = "items/equipment/pegasus_shoes.lua", author = "Christopho", license
 file{ path = "items/equipment/quiver.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/rupee_bag.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/shield.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/equipment/shield_1st_solarus_quest.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/equipment/sword.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/equipment/sword_PLAYER.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/equipment/swordsman_scroll.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/tunic.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/zora_scale.lua", author = "ZeldoRetro, Binbin", license = "GPL v3" }
@@ -1906,6 +2121,7 @@ file{ path = "items/inventory/cane_of_byrna.lua", author = "ZeldoRetro", license
 file{ path = "items/inventory/cane_of_somaria.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/clock.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/inventory/echange.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/inventory/echange_1st_solarus_quest.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/inventory/feather.lua", author = "Christopho, Sam101", license = "GPL v3" }
 file{ path = "items/inventory/fire_rod.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/hammer.lua", author = "Christopho", license = "GPL v3" }
@@ -1914,6 +2130,7 @@ file{ path = "items/inventory/hookshot_config.lua", author = "Christopho", licen
 file{ path = "items/inventory/ice_rod.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/lamp.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/magic_cape.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/inventory/magic_mirror.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/inventory/magic_mushroom.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/inventory/magic_powder.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/inventory/monicle_truth.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -1928,6 +2145,13 @@ file{ path = "items/other/green_potion.lua", author = "Christopho", license = "G
 file{ path = "items/other/inn_key.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/other/milk.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/other/red_potion.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/permanent", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/permanent/bombs.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/permanent/boomerang_2.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/permanent/flippers.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/permanent/glove_3.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/permanent/lamp.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/permanent/monicle_truth.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/pickable", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "items/pickable/arrow.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/pickable/arrow_light.lua", author = "Christopho", license = "GPL v3" }
@@ -1957,16 +2181,26 @@ file{ path = "items/quest_items/defense_boost.lua", author = "ZeldoRetro", licen
 file{ path = "items/quest_items/din_pearl_1.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/quest_items/fairy_power_fragment.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/quest_items/farore_pearl.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/quest_items/fidelity_card_1st_solarus_quest.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/quest_items/force_gem.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/quest_items/heart_container.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/quest_items/ice_key_1st_solarus_quest.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/quest_items/iron_key_1st_solarus_quest.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/quest_items/magic_flask_upgrade.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/quest_items/nayru_pearl.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/quest_items/pendants_1st_solarus_quest.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/quest_items/piece_of_heart.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/quest_items/remembrance_shard.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/quest_items/remembrance_shard_1st_solarus_quest.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/quest_items/remembrance_shard_other.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/quest_items/remembrance_shard_tott.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/quest_items/shell.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/quest_items/triforce.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/quest_items/trophy.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/quest_items/trophy_labors_1st_solarus_quest.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/quest_items/trophy_labors_EX.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/quest_items/trophy_labors_tott.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/quest_items/wooden_key_1st_solarus_quest.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/songs", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/songs/flight_song.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/songs/sun_song.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -2031,23 +2265,166 @@ file{ path = "main.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "maps", author = "Christopho, ZeldoRetro, DarkDavy15", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/creations", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/creations/another_hyrule_fantasy", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/dungeons/4", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/dungeons/4/1ET.dat", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/dungeons/4/1ET.lua", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/dungeons/4/1ET_outside.dat", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/dungeons/4/1ET_outside.lua", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/dungeons/4/2ET.dat", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/dungeons/4/2ET.lua", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/dungeons/4/RDC.dat", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/dungeons/4/RDC.lua", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/dungeons/4/SS1.dat", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/dungeons/4/SS1.lua", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/outside/light/sacred_forest_meadow.dat", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/forgotten_legend/outside/light/sacred_forest_meadow.lua", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/creations/labors", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/creations/labors/1st_solarus_quest", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/chief_house.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/chief_house.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/house_1.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/house_1.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/house_2.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/house_2.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/house_3.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/house_3.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/house_4.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/house_4.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/house_5.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/house_5.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/house_6.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/house_6.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/kokiri_garden.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/kokiri_garden.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/lost_woods.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/lost_woods.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/outside.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/outside.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/shop.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/forest_village/shop.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/ganon_castle", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/ganon_castle/final_battle.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/ganon_castle/final_battle.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/ganon_castle/ganon_castle.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/ganon_castle/ganon_castle.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/ganon_castle/out.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/ganon_castle/out.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/ganon_castle/tower.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/ganon_castle/tower.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/blocks_cave.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/blocks_cave.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/carrefour_cave_1ET.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/carrefour_cave_1ET.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/cave_to_mountain_1ET.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/cave_to_mountain_1ET.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/cave_to_mountain_2ET.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/cave_to_mountain_2ET.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/cave_to_mountain_RDC.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/cave_to_mountain_RDC.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/death_path.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/death_path.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/hera_mountain.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/hera_mountain.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/spectacle_rock.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hera_mountain/spectacle_rock.lua", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/1st_solarus_quest/hub.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/creations/labors/1st_solarus_quest/hub.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_castle", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_castle/1ET.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_castle/1ET.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_castle/RDC.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_castle/RDC.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_castle/SS1.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_castle/SS1.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_castle/SS2.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_castle/SS2.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/field_out.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/field_out.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/house_1.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/house_1.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/house_2.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/house_2.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/house_3.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/house_3.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/house_4.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/house_4.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/house_merchant.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/house_merchant.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/hyrule_castle.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/hyrule_castle.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/hyrule_castle_trone.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/hyrule_castle_trone.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/inn.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/inn.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/shop.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/hyrule_field/shop.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/cave.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/cave.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/chief_house.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/chief_house.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/house_1.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/house_1.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/house_2.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/house_2.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/house_3.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/house_3.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/house_4.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/house_4.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/house_merchant.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/house_merchant.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/inn.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/inn.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/outside.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/lake_village/outside.lua", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/1st_solarus_quest/link_forest", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/courage_palace.dat", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/courage_palace.lua", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/courage_palace_out.dat", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/courage_palace_out.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/link_cave_1F.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/link_cave_1F.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/link_cave_2F.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/link_cave_2F.lua", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/link_house.dat", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/link_house.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/link_house_in.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/link_house_in.lua", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/lost_woods.dat", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/1st_solarus_quest/link_forest/lost_woods.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/1ET.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/1ET.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/2ET.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/2ET.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/3ET.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/3ET.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/4ET.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/4ET.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/5ET.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/5ET.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/6ET.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/6ET.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/7ET.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/7ET.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/RDC.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/power_temple/RDC.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/wisdom_temple", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/wisdom_temple/RDC.dat", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/wisdom_temple/RDC.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/1st_solarus_quest/wisdom_temple/SS1.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/wisdom_temple/SS1.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/wisdom_temple/SS2.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/1st_solarus_quest/wisdom_temple/SS2.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/creations/labors/FORBIDDEN_ACCESS.dat", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/FORBIDDEN_ACCESS.lua", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/castle_oblivion_1ET.dat", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/castle_oblivion_1ET.lua", author = "ZeldoRetro", }
+file{ path = "maps/creations/labors/castle_oblivion_2ET.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/creations/labors/castle_oblivion_2ET.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/creations/labors/castle_oblivion_RDC.dat", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/castle_oblivion_RDC.lua", author = "ZeldoRetro", }
 file{ path = "maps/creations/labors/forgotten_corridor.dat", author = "ZeldoRetro", }
@@ -2066,16 +2443,22 @@ file{ path = "maps/creations/labors/tott/ice_cave_puzzle.dat", author = "ZeldoRe
 file{ path = "maps/creations/labors/tott/ice_cave_puzzle.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/creations/labors/tott/water_temple", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/cutscenes", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/cutscenes/end_screen.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "maps/cutscenes/end_screen.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/cutscenes/end_screen_wave_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/cutscenes/end_screen_wave_1.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/cutscenes/ending.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/cutscenes/ending.lua", author = "ZeldoRetro", license = "GPL v3" }
-file{ path = "maps/cutscenes/ending_2.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "maps/cutscenes/ending_2.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/cutscenes/ending_wave_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/cutscenes/ending_wave_1.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/cutscenes/ending_wave_2.dat", author = "ZeldoRetro", }
+file{ path = "maps/cutscenes/ending_wave_2.lua", author = "ZeldoRetro", }
 file{ path = "maps/cutscenes/intro.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/cutscenes/intro.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/extra", author = "DarkDavy15", }
+file{ path = "maps/extra/mercuris_north_palace.dat", author = "Metallizer", }
+file{ path = "maps/extra/mercuris_north_palace.lua", author = "Metallizer", }
 file{ path = "maps/extra/razer_room.dat", author = "DarkDavy15", }
+file{ path = "maps/extra/zeldo_boss.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "maps/extra/zeldo_boss.lua", author = "DarkDavy15, ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/inside", author = "Christopho, ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/inside/cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/inside/cave.lua", author = "Christopho", license = "GPL v3" }
@@ -2119,14 +2502,50 @@ file{ path = "musics/boss.ogg", author = "Nintendo", license = "Proprietary (Fai
 file{ path = "musics/cave.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations", author = "Mixed", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/ahf", author = "Mixed", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/ahf/dungeon.ogg", author = "Marine", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/forgotten_legend", author = "Mixed", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/forgotten_legend/agahnim_battle_1.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/forgotten_legend/kokiri_shrine.ogg", author = "Baptiste Robert", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/forgotten_legend/lost_woods_assault.ogg", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/forgotten_legend/people_in_trouble.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/forgotten_legend/shooting_gallery.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/labors", author = "Mixed", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/13th_dilemma.ogg", author = "Square Enix", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/13th_struggle.ogg", author = "Square Enix", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest", author = "Mixed", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/castle_town.ogg", author = "ZREO", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/castle_town_night.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/cave.ogg", author = "ZREO", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/dark_world.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/dungeons.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/dungeons_2.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/final_ganon.ogg", author = "Square Enix", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/forest_village.ogg", author = "guapopollo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/forest_village_night.ogg", author = "Pennoink", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/ganon_battle.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/ganon_castle.ogg", author = "Killerx20", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/ganon_tower.ogg", author = "ZREO", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/great_shop.ogg", author = "Jorrick kees", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/hera_mountain.ogg", author = "Marine", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/hera_mountain_night.ogg", author = "Marine", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/house.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/hyrule_castle.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/hyrule_field.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/hyrule_field_night.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/lake_village.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/lake_village_night.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/lost_woods.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/lost_woods_night.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/rain.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/rain_no_tears.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/tutorial_area.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/world_field.ogg", author = "Bandai Namco", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/world_field_night.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/1st_solarus_quest/zelda_theme.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/labors/DARK_IMPETUS.ogg", author = "Square Enix", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/labors/castle_hall.ogg", author = "Square Enix", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/labors/results_screen.ogg", author = "Square Enix", license = "Proprietary (Fair use)" }
+file{ path = "musics/creations/labors/revenge_of_chaos.ogg", author = "Square Enix", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/labors/title_labors.ogg", author = "Square Enix", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/labors/tott", author = "Mixed", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/labors/tott/agahnim_battle_2.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2159,13 +2578,17 @@ file{ path = "musics/creations/labors/tott/water_temple.ogg", author = "Nintendo
 file{ path = "musics/creations/labors/tott/wind_ruins.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/creations/labors/tott/wind_temple.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/ending.ogg", author = "Ade AI", license = "Proprietary (Fair use)" }
+file{ path = "musics/ending_2.ogg", author = "Ade AI", license = "Proprietary (Fair use)" }
 file{ path = "musics/game_over.ogg", author = "Sygmx", license = "Proprietary (Fair use)" }
 file{ path = "musics/great_fairy.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/miniboss.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/miniboss_2.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/north_palace.it", author = "Metallizer", }
 file{ path = "musics/razer_boss.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/razer_intro.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/shop.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "musics/triforce_chamber.ogg", author = "Josiah Everhart", license = "Proprietary (Fair use)" }
+file{ path = "musics/triforce_obtained.ogg", author = "The Noble Demon", license = "Proprietary (Fair use)" }
 file{ path = "musics/victory.it", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/victory.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "scripts", author = "Christopho, stdgregwar, ZeldoRetro", license = "GPL v3" }
@@ -2191,7 +2614,7 @@ file{ path = "scripts/hud/boss_life.lua", author = "Christopho", license = "GPL 
 file{ path = "scripts/hud/clock.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/hud/floor.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud/hearts.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "scripts/hud/hud.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "scripts/hud/hud.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/hud/item_icon.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud/magic_bar.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud/pause_icon.lua", author = "Christopho", license = "GPL v3" }
@@ -2222,7 +2645,8 @@ file{ path = "scripts/menus/presentation_screen.lua", author = "ZeldoRetro", lic
 file{ path = "scripts/menus/records.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/menus/savegames.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/menus/solarus_logo.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "scripts/menus/stats.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/menus/stats_wave_1.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/menus/stats_wave_2.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/menus/title_screen_labors.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta", author = "Mixed", license = "GPL v3" }
 file{ path = "scripts/meta/block.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -2259,6 +2683,7 @@ file{ path = "sounds/beedle_thankyou.ogg", author = "Nintendo", license = "Propr
 file{ path = "sounds/bomb.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/boomerang.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/boss_charge.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sounds/boss_charge_slow.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/boss_fireball.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/boss_hurt.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/boss_killed.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
@@ -2307,6 +2732,7 @@ file{ path = "sounds/fr/zeldo_wave_1_voice/hurt_2.ogg", author = "ZeldoRetro", l
 file{ path = "sounds/fr/zeldo_wave_1_voice/hurt_3.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sounds/fr/zeldo_wave_1_voice/laugh.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sounds/fr/zeldo_wave_1_voice/laugh_reverb.ogg", author = "ZeldoRetro", license = "Proprietary (fair use)" }
+file{ path = "sounds/ganon_tp.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/get_master_sword.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/glitch_transition.ogg", license = "Proprietary (fair use)" }
 file{ path = "sounds/goron_1.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
@@ -2359,6 +2785,7 @@ file{ path = "sounds/magic_bar.ogg", author = "Nintendo", license = "Proprietary
 file{ path = "sounds/magic_powder.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/mario.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/mario_brick.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sounds/mask_break_1.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/message_end.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/message_letter.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/moldorm.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
@@ -2466,10 +2893,20 @@ file{ path = "sounds/wrong.ogg", author = "Nintendo", license = "Proprietary (fa
 file{ path = "sounds/zeldo_laugh.ogg", author = "ZeldoRetro", license = "Public Domain" }
 file{ path = "sounds/zora.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
+file{ path = "sprites/additions", author = "Metallizer", }
+file{ path = "sprites/additions/painting.dat", author = "Metallizer", }
+file{ path = "sprites/additions/painting.png", author = "Metallizer", }
+file{ path = "sprites/additions/stone.png", author = "Metallizer", }
+file{ path = "sprites/additions/stone_bottom.dat", author = "Metallizer", }
+file{ path = "sprites/additions/stone_top.dat", author = "Metallizer", }
+file{ path = "sprites/additions/teletransporter_light.dat", author = "Metallizer", }
+file{ path = "sprites/additions/teletransporter_shrine.dat", author = "Metallizer", }
+file{ path = "sprites/additions/teletransporter_shrine.png", author = "Metallizer", }
 file{ path = "sprites/backgrounds", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/backgrounds/CHARA.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/clouds_reflection.png", author = "stdgregwar", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/clouds_shadow.png", author = "stdgregwar", license = "Proprietary (fair use)" }
+file{ path = "sprites/backgrounds/distorsion_effect_battle.dat", author = "ZeldoRetro", }
 file{ path = "sprites/backgrounds/fog.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/fog.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/fsaeffect.png", author = "Nintendo", license = "Proprietary (fair use)" }
@@ -2481,6 +2918,7 @@ file{ path = "sprites/backgrounds/mountains background.png", author = "Nintendo,
 file{ path = "sprites/backgrounds/mountains.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/mountains_light.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/mountains_twilight.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/backgrounds/trees.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/triforce_sky.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/triforce_sky.png", author = "SquareSoft", license = "Proprietary (fair use)" }
 file{ path = "sprites/console", author = "Maxs", license = "CC BY-SA 4.0" }
@@ -2859,12 +3297,25 @@ file{ path = "sprites/enemies/soldier_blue.dat", author = "Christopho", license 
 file{ path = "sprites/enemies/soldier_blue.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/soldier_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldier_green.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/soldier_oblivion_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldier_oblivion_blue.png", author = "Newlink", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldier_oblivion_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldier_oblivion_green.png", author = "Newlink", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldier_oblivion_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldier_oblivion_red.png", author = "Newlink", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldier_oblivion_weapon.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldier_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldier_red.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/soldier_simple_blue.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldier_simple_blue.png", author = "Nintendo, ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/soldier_simple_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldier_simple_green.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/soldier_simple_oblivion_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldier_simple_oblivion_blue.png", author = "Newlink", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldier_simple_oblivion_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldier_simple_oblivion_green.png", author = "Newlink", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldier_simple_oblivion_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldier_simple_oblivion_red.png", author = "Newlink", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldier_simple_red.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldier_simple_red.png", author = "Nintendo, ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/soldier_weapon.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2982,6 +3433,7 @@ file{ path = "sprites/entities/Decorations/fairy_green.dat", author = "ZeldoRetr
 file{ path = "sprites/entities/Decorations/fairy_red.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/fairy_yellow.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/flashing_pendant.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/entities/Decorations/flashing_pendant_1st_solarus_quest.dat", author = "ZeldoRetro", }
 file{ path = "sprites/entities/Decorations/frame_labors_tott_ancient_catacomb.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/frame_labors_tott_archipelago.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/frame_labors_tott_castle_tower.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -3004,6 +3456,7 @@ file{ path = "sprites/entities/Decorations/frame_labors_tott_hylia_waterfall.png
 file{ path = "sprites/entities/Decorations/frame_labors_tott_ice_cave.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/frame_labors_tott_razdarac_room.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/frame_labors_tott_water_temple.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/ganon_tower_decoration.dat", author = "ZeldoRetro", }
 file{ path = "sprites/entities/Decorations/ladder_wooden.dat", author = "PhoenixII54", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/ladder_wooden.png", author = "JulioTanaka", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/ladder_wooden_top.dat", author = "PhoenixII54", license = "CC BY-SA 4.0" }
@@ -3013,23 +3466,11 @@ file{ path = "sprites/entities/Decorations/little_flame.png", author = "Nintendo
 file{ path = "sprites/entities/Decorations/master_sword_in_pedestal.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/master_sword_pedestal.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/master_sword_pedestal.png", author = "Nintendo, FFomega", license = "Proprietary (fair use)" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_graph_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_graph_2.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_misc_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_misc_2.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_overworld_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_overworld_2.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_paper_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_paper_2.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_puzzle_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_puzzle_2.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_screen_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_screen_2.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/Decorations/paintings_labors_tott_dev_screen_3.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/rain.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/rain.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/Decorations/snow.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/snow.png", author = "Vincent Jouillat", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Decorations/triangle_pad.dat", author = "ZeldoRetro", }
 file{ path = "sprites/entities/Decorations/triforce_rotating.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/triforce_rotating.png", author = "Chaotic Death", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Decorations/vine_down.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -3065,6 +3506,8 @@ file{ path = "sprites/entities/Destructables/vase_very_heavy.dat", author = "Zel
 file{ path = "sprites/entities/Doors", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/entities/Doors/Inside", author = "FFomega, JulioTanaka, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Inside/castle_lock.dat", author = "FFomega", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Doors/Inside/castle_lock_bosskey.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Doors/Inside/castle_lock_icekey.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Inside/door_cave_weak_block.dat", author = "JulioTanaka", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Inside/door_cave_weak_block.png", author = "JulioTanaka, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Inside/door_d1_big_key.dat", author = "FFomega", license = "CC BY-SA 4.0" }
@@ -3072,6 +3515,7 @@ file{ path = "sprites/entities/Doors/Inside/door_d1_blue_key.dat", author = "FFo
 file{ path = "sprites/entities/Doors/Inside/door_d1_boss_key1.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Inside/door_d1_green_key.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Inside/door_d1_normal.dat", author = "FFomega", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/Doors/Inside/door_d1_purple_key.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Inside/door_d1_red_key.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Inside/door_d1_small_key.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/Doors/Inside/door_d1_very_weak_wall.dat", author = "FFomega", license = "CC BY-SA 4.0" }
@@ -3378,7 +3822,7 @@ file{ path = "sprites/entities/very_weak_ground_bridge_horizontal.dat", author =
 file{ path = "sprites/entities/very_weak_ground_bridge_vertical.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/extra", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/extra/razer.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
-file{ path = "sprites/extra/razer.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/extra/razer.png", author = "DarkDavy15", license = "CC BY-NC-SA 4.0" }
 file{ path = "sprites/fr", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/fr/credits", author = "ZeldoRetro, Nintendo, Toby Fox", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/fr/credits/credits_1.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -3420,6 +3864,14 @@ file{ path = "sprites/fr/dungeon_maps/map_10004.dat", author = "ZeldoRetro", lic
 file{ path = "sprites/fr/dungeon_maps/map_10004.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/fr/dungeon_maps/map_1001.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/fr/dungeon_maps/map_1001.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/fr/dungeon_maps/map_10011.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/fr/dungeon_maps/map_10011.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/fr/dungeon_maps/map_10014.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/fr/dungeon_maps/map_10014.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/fr/dungeon_maps/map_10015.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/fr/dungeon_maps/map_10015.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/fr/dungeon_maps/map_10017.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/fr/dungeon_maps/map_10017.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/fr/dungeon_maps/map_2.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/fr/dungeon_maps/map_2.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/fr/dungeon_maps/map_3.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -3510,6 +3962,8 @@ file{ path = "sprites/hero/sword_stars1.dat", author = "Christopho", license = "
 file{ path = "sprites/hero/sword_stars2.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/sword_stars3.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/sword_stars4.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/sword_stars5.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/sword_stars6.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/sword_tapping.shield.png", author = "Nintendo, ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sprites/hero/sword_tapping.sword.png", author = "Nintendo, ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sprites/hero/sword_tapping.tunic.png", author = "Nintendo, ZeldoRetro", license = "Proprietary (fair use)" }
@@ -3543,8 +3997,8 @@ file{ path = "sprites/hud/gameover_fade.dat", author = "Christopho", license = "
 file{ path = "sprites/hud/gameover_fade.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/hud/hearts.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/hud/icons_flip.png", author = "Oclero", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hud/item_icon_1.png", author = "Oclero", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hud/item_icon_2.png", author = "Oclero", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hud/item_icon_1.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hud/item_icon_2.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/magic_bar.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/magic_bar.png", author = "Metallizer", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/pause_icon_flip.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -3651,7 +4105,9 @@ file{ path = "sprites/npc/castle_guard.dat", author = "Christopho", license = "C
 file{ path = "sprites/npc/castle_guard_blue.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/castle_guard_green.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/castle_guard_red.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/npc/dd15_npc/zeldo.dat", author = "DarkDavy15", }
+file{ path = "sprites/npc/dd15_npc", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/dd15_npc/zeldo.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/dd15_npc/zeldo.png", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/drunk_man.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/fairy.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/fairy.png", author = "Nintendo", license = "Proprietary (fair use)" }
@@ -3684,6 +4140,7 @@ file{ path = "sprites/npc/link_stopped.dat", author = "ZeldoRetro", license = "C
 file{ path = "sprites/npc/link_stopped_shield.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/link_uncle.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/link_uncle.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/npc/link_uncle_alt.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/little_elephant.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/little_man.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/little_tree.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -3751,6 +4208,7 @@ file{ path = "sprites/npc/no_character/souvenir_shop_trophy.dat", author = "Zeld
 file{ path = "sprites/npc/no_character/souvenir_shop_zora_scale.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/octopus.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/old_man.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/old_man_blue.dat", author = "ZeldoRetro", }
 file{ path = "sprites/npc/other_races", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "sprites/npc/other_races/crazee_dayzee.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/npc/other_races/crazee_dayzee_1.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -3792,18 +4250,25 @@ file{ path = "sprites/npc/playing_character/eldran2_sword_brandish.png", author 
 file{ path = "sprites/npc/playing_character/eldran2_sword_loading.png", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/playing_character/eldran2_sword_tapping.png", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/playing_character/eldran2_victory.png", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/playing_character/eldran_shield1.dat", author = "ZeldoRetro", }
+file{ path = "sprites/npc/playing_character/eldran_sword1.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/playing_character/link_1st_solarus_quest/shield1.dat", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "sprites/npc/playing_character/link_1st_solarus_quest/shield2.dat", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "sprites/npc/playing_character/link_1st_solarus_quest/shield3.dat", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "sprites/npc/playing_character/link_1st_solarus_quest/sword2.dat", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "sprites/npc/playing_character/link_8bit.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/playing_character/link_8bit.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/npc/playing_character/link_sideview.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/playing_character/link_sideview.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/npc/playing_character/link_sideview_sword.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/playing_character/link_sideview_sword.png", author = "Nintendo", license = "Proprietary (fair use)" }
-file{ path = "sprites/npc/playing_character/simon belmont sprite - Copie.png", author = "Konami", license = "Proprietary (fair use)" }
-file{ path = "sprites/npc/playing_character/simon_belmont.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/npc/playing_character/simon_belmont.png", author = "Konami", license = "Proprietary (fair use)" }
-file{ path = "sprites/npc/playing_character/viscen.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/npc/playing_character/viscen_sword.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/npc/playing_character/viscen_sword.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/playing_character/loading_sword_magic.png", author = "Diarandor, ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/playing_character/spin_attack.png", author = "Diarandor, ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/playing_character/sword_brandish.png", author = "Diarandor, ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/playing_character/sword_loading.png", author = "Diarandor, ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/playing_character/sword_running.png", author = "Diarandor, ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/playing_character/sword_tapping.png", author = "Diarandor, ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/playing_character/sword_victory.png", author = "Diarandor, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/priest.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/quadruplet_mother.dat", author = "JulioTanaka", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/quadruplet_mother.png", author = "JulioTanaka", license = "CC BY-SA 4.0" }
@@ -3846,6 +4311,9 @@ file{ path = "tilesets/extra/casual_tileset.dat", author = "ZeldoRetro", license
 file{ path = "tilesets/extra/casual_tileset.tiles.png", author = "ZeldoRetro, Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/extra/mirror_corridor.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/extra/mirror_corridor.tiles.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/extra/north_palace.dat", author = "Metallizer", }
+file{ path = "tilesets/extra/north_palace.entities.png", author = "Metallizer", }
+file{ path = "tilesets/extra/north_palace.tiles.png", author = "Metallizer", }
 file{ path = "tilesets/extra/razdarac_room.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/extra/razdarac_room.tiles.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/extra/zeldo_battle_room.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
@@ -3923,13 +4391,15 @@ file{ path = "tilesets/inside_yellow_dungeon.entities.png", author = "Nintendo, 
 file{ path = "tilesets/inside_yellow_dungeon.tiles.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/outside_buildings.dat", author = "FFomega, Christopho", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/outside_buildings.tiles.png", author = "FFomega, Christopho, Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/outside_extra.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/outside_extra.tiles.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/outside_main.dat", author = "FFomega, Christopho", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/outside_main.entities.png", author = "FFomega, Christopho, Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "tilesets/outside_main.tiles.png", author = "FFomega, Christopho, Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "tilesets/outside_other.dat", author = "FFomega, Christopho", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/outside_other.tiles.png", author = "FFomega, Christopho, Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/outside_main.entities.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/outside_main.tiles.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/outside_other.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/outside_other.tiles.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/outside_special.dat", author = "FFomega, Christopho", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/outside_special.tiles.png", author = "FFomega, Christopho, Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/outside_special.tiles.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/sideview", author = "Mixed", license = "CC BY-SA 4.0, Proprietary (Fair use)" }
 file{ path = "tilesets/sideview/mario_1_backgrounds.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/sideview/mario_1_backgrounds.tiles.png", author = "Nintendo", license = "Proprietary (Fair use)" }

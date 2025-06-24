@@ -142,7 +142,7 @@ function commands_manager:new(game)
       name = "look",
       unlocked = true,
       customizable = true,
-    }
+    },
   }
 
   local cursor_index = 1

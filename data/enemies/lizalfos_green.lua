@@ -6,7 +6,7 @@ sol.main.load_file("enemies/generic_soldier")(enemy)
 enemy:set_properties({
   main_sprite = "enemies/lizalfos_green",
   sword_sprite = "enemies/lizalfos_weapon",
-  life = 6,
+  life = 4,
   damage = 4,
   play_hero_seen_sound = true,
   hurt_style = "monster",

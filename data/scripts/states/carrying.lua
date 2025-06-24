@@ -57,10 +57,12 @@ function carrying_state.start(hero, carriable, carriable_sprite) -- Pass the car
   -- Start a custom carrying state when the lifting animation finished.
   sol.audio.play_sound("lift")
   hero:set_animation("lifting", function()
+    
     local carrying_state = sol.state.create()
     carrying_state:set_can_interact(false)
     carrying_state:set_can_grab(false)
     carrying_state:set_can_push(false)
+    carrying_state:set_can_use_sword(false)
 
     -- Initilize carrying object and animations.
     function carrying_state:on_started()
@@ -77,16 +79,20 @@ function carrying_state.start(hero, carriable, carriable_sprite) -- Pass the car
 
     -- Make carriable follow hero moves.
     function carrying_state:on_update()
-      local x, y, layer = hero:get_position()
-      carriable:set_position(x, y, layer)
+      if hero:get_map() == carriable:get_map() then
+        local x, y, layer = hero:get_position()
+        carriable:set_position(x, y, layer + 1) -- Move on the superior layer to fix display issues with multi-layer objects on the map.
+      end
     end
 
     -- Throw the carriable when the state finished, whatever the reason is.
     function carrying_state:on_finished()
       sol.audio.play_sound("throw")
-      local x, y, layer = hero:get_position()
-      carriable:set_position(x, y, layer)
-      carriable:throw(hero:get_direction())
+      if hero:get_map() == carriable:get_map() then
+        local x, y, layer = hero:get_position()
+        carriable:set_position(x, y, layer)
+        carriable:throw(hero:get_direction())
+      end
     end
 
     function carrying_state:on_command_pressed(command)

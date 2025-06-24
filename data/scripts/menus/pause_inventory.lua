@@ -13,7 +13,7 @@ local item_names = {
   "treasures/spoils_bag",
   "equipment/glove",
   "equipment/flippers",
-  "inventory/clock",
+  "inventory/magic_mirror",
   "inventory/bombs_counter", 
   "inventory/hookshot", 
   "inventory/hammer",
@@ -37,7 +37,7 @@ local item_names = {
   "inventory/clock",
   "inventory/magic_powder",
   "inventory/magic_cape",
-  "inventory/echange",
+  "inventory/echange_1st_solarus_quest",
 }
 local items_num_columns = 8
 local items_num_rows = math.ceil(#item_names / items_num_columns)

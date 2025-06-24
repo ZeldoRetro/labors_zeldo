@@ -9,10 +9,21 @@ Have fun !
 ## Wave 1 - Tower of the Triforce
 
 This 1st Wave of content is about **The Legend of Zelda - Tower of the Triforce**, a project made during 2017-2019 and never finished, due to a lack of inspiration and too many ideas and ambitions who overhelmed Zeldo.
-The wave have several environments with many collectibles to lengthen the playtime, and a lot of development notes, tips and anecdotes to reward the players who collect them all.
+The Wave has several environments with many collectibles to lengthen the playtime, and a lot of development notes, tips and anecdotes to reward the players who collect them all.
 
 - **Release Date:** January 30th, 2024
 - **Players:** 1
 - **Length:** 4-6 hours
+- **License:** Copyrighted assets + CC BY-SA 4.0 assets.
+- **Languages:** French, English
+
+## Wave 2 - The 1st Solarus Quest
+
+This 2nd Wave of content is about **The Legend of Zelda - The 1st Solarus Quest**, the very first project Zeldo made when he discovered the Solarus Engine in May 2015. The project was shut down after a little over 6 months due to personal circumstances. But today, the project boasts a new, much-improved version. It's called... **Forgotten Legend**.
+The Wave has more environments with even more collectibles, and a lot (really a lot) of development notes, tips and anecdotes.
+
+- **Release Date:** Juny 24th, 2025
+- **Players:** 1
+- **Length:** 6-10 hours
 - **License:** Copyrighted assets + CC BY-SA 4.0 assets.
 - **Languages:** French, English

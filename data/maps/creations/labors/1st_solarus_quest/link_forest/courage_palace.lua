@@ -1,24 +1,27 @@
--- Lua script of map creations/labors/1st_solarus_quest/link_forest/courage_palace.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map is loaded.
-function map:on_started()
+-- DEBUT DE LA MAP
+map:register_event("on_started",function(map, destination)
+  --Modèle LINK
+  hero:set_tunic_sprite_id("hero/tunic1")
+  hero:set_sword_sprite_id("hero/sword1")
+  hero:set_shield_sprite_id("npc/playing_character/link_1st_solarus_quest/shield1")
+end)
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
-end
+-- ÉNIGME DE BLOCS 1 (CLÉ)
+local goal = 0
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
-
+for switch in map:get_entities("block_puzzle_1_switch_") do
+  function switch:on_activated()
+    goal = goal + 1
+    if goal == 2 then
+      sol.timer.start(map, 100, function()
+        auto_switch_auto_chest_key_1:on_activated()
+        map:set_entities_enabled("block_puzzle_1_block_",false)
+        map:set_entities_enabled("definitive_block_puzzle_1_block_",true)
+      end)
+    end
+  end
+  function switch:on_inactivated() goal = goal - 1 end
 end

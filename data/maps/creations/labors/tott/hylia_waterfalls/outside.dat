@@ -8966,7 +8966,7 @@ chest{
   layer = -1,
   x = 112,
   y = 917,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_savegame_variable = "remembrance_shard_10005_5",
   sprite = "entities/Chests/chest_LttP",
 }
@@ -23884,7 +23884,7 @@ chest{
   layer = 0,
   x = 656,
   y = 309,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_savegame_variable = "remembrance_shard_10005_4",
   sprite = "entities/Chests/chest_LttP",
 }

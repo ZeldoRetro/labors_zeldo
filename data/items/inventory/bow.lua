@@ -98,7 +98,9 @@ end
 
 function item:get_force()
 
-  return 2
+  local force
+  if game:has_item("inventory/bow_light") then force = 8 else force = 2 end
+  return force
 end
 
 function item:get_arrow_sprite_id()
@@ -134,7 +136,6 @@ local function initialize_meta()
   end
 
   function enemy_meta:set_arrow_reaction(reaction, sprite)
-
     self.arrow_reaction = reaction
   end
 

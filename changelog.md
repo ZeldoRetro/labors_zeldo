@@ -2,6 +2,21 @@
 
 You can find here the version history of the Labors of Zeldo. Every version has a release linked to it.
 
+## v2.0.0
+
+Release of the Wave 2. A brand new Wave of content providing 6 to 10 hours of fun !
+
+All improvements provided by the Wave 2 (Tips for Remembrance Shards in a secret book that appears when the Wave is finished, new spriting system, improved drawing system for dev paintings, etc.) are included in the Wave 1 !
+
+Wave 1 Fixes
+
+- Agahnim's death is now saved
+- Updated Credits Roll
+- The Silver Rupee in the Ancient Catacomb is now visible without the Lens of Truth
+- The Defense Upgrade Card will now costs 300 Rupees instead of 200
+- The Yellow Galleries Key will now appears when all the Trophies are get in a Wave of content
+- Misc
+
 ## v1.2.0
 
 Migrations provided via the ZeldoPack

@@ -38812,7 +38812,7 @@ tile_pattern{
 
 tile_pattern{
   id = "rock.1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 360,
   y = 400,
@@ -38823,7 +38823,7 @@ tile_pattern{
 
 tile_pattern{
   id = "rock.2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 376,
   y = 400,
@@ -38834,7 +38834,7 @@ tile_pattern{
 
 tile_pattern{
   id = "rock.3",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 392,
   y = 400,
@@ -38845,7 +38845,7 @@ tile_pattern{
 
 tile_pattern{
   id = "rock.4",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 360,
   y = 408,
@@ -38856,7 +38856,7 @@ tile_pattern{
 
 tile_pattern{
   id = "rock.5",
-  ground = "traversable",
+  ground = "low_wall",
   default_layer = 0,
   x = 376,
   y = 408,
@@ -38866,7 +38866,7 @@ tile_pattern{
 
 tile_pattern{
   id = "rock.6",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 392,
   y = 408,
@@ -38877,7 +38877,7 @@ tile_pattern{
 
 tile_pattern{
   id = "rock.7",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 360,
   y = 424,
@@ -38888,7 +38888,7 @@ tile_pattern{
 
 tile_pattern{
   id = "rock.8",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 376,
   y = 424,
@@ -38899,7 +38899,7 @@ tile_pattern{
 
 tile_pattern{
   id = "rock.9",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 392,
   y = 424,

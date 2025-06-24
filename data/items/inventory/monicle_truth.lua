@@ -19,10 +19,7 @@ function item:on_using()
 		sol.audio.play_sound("monicle_off")
     for entity in map:get_entities("invisible_path") do
 			entity:set_visible(false)
-		end
-    for entity in map:get_entities("invisible_tile") do
-  	 entity:set_visible(false)
-    end
+	end
     for entity in map:get_entities("invisible_enemy") do
     	entity:set_visible(false)
     end
@@ -31,18 +28,15 @@ function item:on_using()
   		if self:get_game():get_magic() >= magic_needed then
    			sol.audio.play_sound("monicle_on")
       	for entity in map:get_entities("invisible_path") do
-  				entity:set_visible(true)
-  			end
-      	for entity in map:get_entities("invisible_tile") do
-  				entity:set_visible(true)
-  			end
+  			entity:set_visible(true)
+  		end
         for entity in map:get_entities("invisible_enemy") do
         	entity:set_visible(true)
         end
-			 game:set_value("monicle_active",true)
+			game:set_value("monicle_active",true)
   		else
-    			sol.audio.play_sound("wrong")
-          game:start_dialog("_need_magic")
+    		sol.audio.play_sound("wrong")
+          	game:start_dialog("_need_magic")
   		end
 	end
   	self:set_finished()
@@ -67,13 +61,10 @@ function item:on_update()
   if game:get_magic() < 1 then
     for entity in map:get_entities("invisible_path") do
 			entity:set_visible(false)
-		end
-    for entity in map:get_entities("invisible_tile") do
-			entity:set_visible(false)
-		end
+	end
     for entity in map:get_entities("invisible_enemy") do
     	entity:set_visible(false)
     end
-		game:set_value("monicle_active",false)
+	game:set_value("monicle_active",false)
   end
 end

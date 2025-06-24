@@ -6123,33 +6123,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1344,
-  y = 400,
-  width = 8,
-  height = 64,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 1,
-  x = 1288,
-  y = 408,
-  width = 88,
-  height = 8,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 1,
-  x = 1288,
-  y = 456,
-  width = 80,
-  height = 8,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 1,
   x = 1304,
   y = 392,
   width = 48,
@@ -6259,33 +6232,6 @@ tile{
 tile{
   layer = 1,
   x = 1512,
-  y = 456,
-  width = 80,
-  height = 8,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 1,
-  x = 1528,
-  y = 400,
-  width = 8,
-  height = 64,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 1,
-  x = 1528,
-  y = 408,
-  width = 72,
-  height = 8,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 1,
-  x = 1512,
   y = 440,
   width = 24,
   height = 24,
@@ -6389,42 +6335,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "wall_border.corner.4-3",
-}
-
-tile{
-  layer = 1,
-  x = 1296,
-  y = 304,
-  width = 56,
-  height = 8,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 1,
-  x = 1528,
-  y = 304,
-  width = 56,
-  height = 8,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 1,
-  x = 1344,
-  y = 256,
-  width = 8,
-  height = 48,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 1,
-  x = 1528,
-  y = 256,
-  width = 8,
-  height = 48,
-  pattern = "ceiling.2",
 }
 
 tile{
@@ -10605,9 +10515,9 @@ tile{
 
 tile{
   layer = 2,
-  x = 1280,
+  x = 1296,
   y = 416,
-  width = 64,
+  width = 48,
   height = 48,
   pattern = "ceiling.2",
 }
@@ -10616,16 +10526,16 @@ tile{
   layer = 2,
   x = 1536,
   y = 416,
-  width = 64,
+  width = 48,
   height = 48,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 2,
-  x = 1280,
+  x = 1296,
   y = 256,
-  width = 64,
+  width = 48,
   height = 48,
   pattern = "ceiling.2",
 }
@@ -10634,7 +10544,7 @@ tile{
   layer = 2,
   x = 1536,
   y = 256,
-  width = 64,
+  width = 48,
   height = 48,
   pattern = "ceiling.2",
 }

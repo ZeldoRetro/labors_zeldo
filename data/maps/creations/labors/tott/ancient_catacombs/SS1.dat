@@ -8369,6 +8369,16 @@ tile{
   pattern = "floor_pot",
 }
 
+wall{
+  layer = 1,
+  x = 600,
+  y = 1072,
+  width = 80,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
 sensor{
   name = "reset_solid_ground_sensor_4",
   layer = 1,
@@ -10233,9 +10243,9 @@ sensor{
 wall{
   layer = 1,
   x = 1748,
-  y = 336,
+  y = 352,
   width = 24,
-  height = 32,
+  height = 16,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -11104,7 +11114,7 @@ chest{
   layer = 1,
   x = 1224,
   y = 877,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_savegame_variable = "rupees_10002_3",
   sprite = "entities/Chests/chest_LttP",
 }
@@ -11567,7 +11577,7 @@ pickable{
   layer = 1,
   x = 480,
   y = 1085,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_variant = 2,
   treasure_savegame_variable = "remembrance_shard_10002_1",
 }
@@ -12129,7 +12139,7 @@ chest{
   layer = 1,
   x = 1160,
   y = 1229,
-  treasure_name = "quest_items/remembrance_shard",
+  treasure_name = "quest_items/remembrance_shard_tott",
   treasure_savegame_variable = "rupees_10002_4",
   sprite = "entities/Chests/chest_LttP",
 }
@@ -12167,7 +12177,6 @@ teletransporter{
 }
 
 pickable{
-  name = "invisible_path_57",
   layer = 1,
   x = 370,
   y = 125,
@@ -12244,39 +12253,6 @@ chest{
   treasure_name = "inventory/monicle_truth",
   treasure_savegame_variable = "get_monicle_truth_10002",
   sprite = "entities/Chests/chest_big_LttP",
-}
-
-wall{
-  layer = 1,
-  x = 144,
-  y = 592,
-  width = 32,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-custom_entity{
-  layer = 1,
-  x = 176,
-  y = 605,
-  width = 8,
-  height = 16,
-  direction = 0,
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 1,
-  x = 152,
-  y = 605,
-  width = 8,
-  height = 16,
-  direction = 0,
-  model = "hookable",
 }
 
 chest{
@@ -13189,6 +13165,7 @@ block{
   layer = 1,
   x = 1080,
   y = 845,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",
@@ -13205,6 +13182,7 @@ block{
   layer = 1,
   x = 1144,
   y = 845,
+  enabled_at_start = false,
   properties = {
     {
       key = "enable_if_value",

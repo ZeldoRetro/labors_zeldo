@@ -29,6 +29,8 @@ function map:on_started(destination)
 
     --Modèle LINK
     hero:set_tunic_sprite_id("hero/tunic2")
+    hero:set_sword_sprite_id("hero/sword3")
+    hero:set_shield_sprite_id("hero/shield2")
 
     game:set_max_life(12*4)
     game:set_life(game:get_max_life())
@@ -105,7 +107,7 @@ function map:on_started(destination)
     tomb_push_boss_tomb_sensor:set_position(1424, 328)
     local x, y = heart_container_spot:get_position()
     map:create_pickable{
-      treasure_name = "quest_items/remembrance_shard",
+      treasure_name = "quest_items/remembrance_shard_tott",
       treasure_variant = 4,
       treasure_savegame_variable = "heart_container_10002",
       x = x,
@@ -272,7 +274,7 @@ if boss ~= nil then
       sol.audio.play_music("after_boss")
       local x, y = heart_container_spot:get_position()
       map:create_pickable{
-        treasure_name = "quest_items/remembrance_shard",
+        treasure_name = "quest_items/remembrance_shard_tott",
         treasure_variant = 4,
         treasure_savegame_variable = "heart_container_10002",
         x = x,

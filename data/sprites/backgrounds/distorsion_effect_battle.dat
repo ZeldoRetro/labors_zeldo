@@ -1,0 +1,7 @@
+animation{
+  name = "default",
+  src_image = "backgrounds/distorsion_effect_battle.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 320, frame_height = 320, origin_x = 0, origin_y = 0 },
+  },
+}

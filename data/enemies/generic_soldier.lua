@@ -52,7 +52,7 @@ function enemy:set_properties(prop)
     properties.fire_reaction = 2
   end
   if properties.arrow_reaction == nil then
-    properties.arrow_reaction = 2
+    properties.arrow_reaction = game:get_item("inventory/bow"):get_force()
   end
   if properties.ice_reaction == nil then
     properties.ice_reaction = 2

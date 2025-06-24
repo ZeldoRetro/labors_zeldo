@@ -22,7 +22,7 @@ function enemy:on_created()
   enemy:set_fire_reaction("ignored")
   enemy:set_powder_reaction("ignored")
   enemy:set_life(1)
-  enemy:set_damage(2)
+  enemy:set_damage(4)
   if var_2 ~= nil then
     if var_2 <= 1 then
       enemy:set_damage(8)

@@ -79,7 +79,7 @@ end
 -- Initialization.
 enemy:register_event("on_enabled", function(enemy)
 
-  enemy:set_life(32)
+  enemy:set_life(30)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
   enemy:set_fire_reaction("protected")
@@ -111,7 +111,7 @@ enemy:register_event("on_restarted", function(enemy)
   -- States.
   flail:set_chain_origin_offset(0, 0)
   enemy:set_can_attack(true)
-  enemy:set_damage(32)
+  enemy:set_damage(36)
   if not is_attacking then
     enemy:start_walking()
   else

@@ -15,7 +15,6 @@ local item_names = {
 }
 local items_num_columns = 3
 local items_num_rows = math.ceil(#item_names / items_num_columns)
-local piece_of_heart_icon_img = sol.surface.create("hud/piece_of_heart_icon.png")
 local icons_img = sol.surface.create("menus/stats_icons.png")
 local items_img = sol.surface.create("entities/items.png")
 local quest_status_background = sol.surface.create("menus/quest_status_background.png")
@@ -70,46 +69,144 @@ local function create_menu_title_widget(game)
   return widget
 end
 
---QUARTS DE COEUR
-local function create_pieces_of_heart_widget(game)
-  local widget = gui_designer:create(320, 240)
-  widget:set_xy(135, 70)
-  local pieces_of_heart_img = sol.surface.create("menus/quest_status_pieces_of_heart.png")
-  local num_pieces_of_heart = game:get_item("quest_items/piece_of_heart"):get_num_pieces_of_heart()
-  local x = 51 * num_pieces_of_heart
-  pieces_of_heart_img:draw_region(x, 0, 51, 50, widget:get_surface(), 0, 0)
+--FENETRE DU STATUT QUETE
+
+local function create_status_widget(game)
+  local widget = gui_designer:create(192, 196)
+  widget:set_xy(196, 60)
+
+  local x_trophy = 0
+  local x_cards = 20
+  local x_keys = 40
+  local x_shards = 59
+
+  -- VAGUE 1
+
+  if game:get_value("labors_rules_done") then
+    local wave_y = 8
+
+    -- Trophées de Complétion
+
+    local trophy_counter = game:get_item("quest_items/trophy_labors_tott"):get_amount()
+    local MAX_trophy = 6
+
+    widget:make_image_region(items_img, 224, 48, 16, 16, x_trophy, wave_y)
+    if trophy_counter >= MAX_trophy then widget:make_green_counter(trophy_counter, x_trophy + 11, wave_y + 8)
+    else widget:make_counter(trophy_counter, x_trophy + 12, wave_y + 8) end
+
+    -- Cartes d'Upgrade
+
+    local cards_counter = 0
+    local MAX_cards = 6
+
+    if game:get_value("labors_casualization_wave_1") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_quiver_wave_1") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_bomb_bag_wave_1") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_magic_flask_upgrade_wave_1") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_defense_boost_wave_1") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_attack_boost_wave_1") then cards_counter = cards_counter + 1 end 
+
+    widget:make_image_region(items_img, 416, 48, 16, 16, x_cards, wave_y)
+    if cards_counter >= MAX_cards then  widget:make_green_counter(cards_counter, x_cards + 12, wave_y + 8)
+    else widget:make_counter(cards_counter, x_cards + 12, wave_y + 8) end
+
+    -- Clés de Galerie
+
+    local keys_counter = 0
+    local MAX_keys = 4
+
+    if game:get_value("red_key_10000_1_1") then keys_counter = keys_counter + 1 end
+    if game:get_value("blue_key_10000_1_1") then keys_counter = keys_counter + 1 end
+    if game:get_value("green_key_10000_1_1") then keys_counter = keys_counter + 1 end
+    if game:get_value("yellow_key_10000_1") then keys_counter = keys_counter + 1 end
+
+    widget:make_image_region(items_img, 496, 16, 16, 16, x_keys, wave_y)
+    if keys_counter >= MAX_keys then  widget:make_green_counter(keys_counter, x_keys + 12, wave_y + 8)
+    else widget:make_counter(keys_counter, x_keys + 12, wave_y + 8) end
+
+    -- Éclats de Souvenir
+
+    local shards_counter = game:get_value("remembrance_shard_tott_found")
+    local MAX_shards = 100
+
+    widget:make_image_region(items_img, 528, 64, 16, 16, x_shards, wave_y + 1)
+    if shards_counter >= MAX_shards then widget:make_green_counter(shards_counter, x_shards + 7, wave_y + 8)
+    elseif shards_counter >= 100 then widget:make_counter(shards_counter, x_shards + 7, wave_y + 8)
+    else widget:make_counter(shards_counter, x_shards + 14, wave_y + 8) end
+
+  end
+
+
+  -- VAGUE 2
+
+  if game:get_value("labors_wave_2_welcome") then
+
+    local wave_y = 28
+
+    -- Trophées de Complétion
+
+    local trophy_counter = game:get_item("quest_items/trophy_labors_1st_solarus_quest"):get_amount()
+    local MAX_trophy = 8
+
+    widget:make_image_region(items_img, 224, 48, 16, 16, x_trophy, wave_y)
+    if trophy_counter >= MAX_trophy then widget:make_green_counter(trophy_counter, x_trophy + 12, wave_y + 8)
+    else widget:make_counter(trophy_counter, x_trophy + 12, wave_y + 8) end
+
+    -- Cartes d'Upgrade
+
+    local cards_counter = 0
+    local MAX_cards = 6
+
+    if game:get_value("labors_casualization_wave_2") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_quiver_wave_2") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_bomb_bag_wave_2") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_magic_flask_upgrade_wave_2") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_defense_boost_wave_2") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_attack_boost_wave_2") then cards_counter = cards_counter + 1 end 
+
+    widget:make_image_region(items_img, 416, 48, 16, 16, x_cards, wave_y)
+    if cards_counter >= MAX_cards then  widget:make_green_counter(cards_counter, x_cards + 12, wave_y + 8)
+    else widget:make_counter(cards_counter, x_cards + 12, wave_y + 8) end
+
+    -- Clés de Galerie
+
+    local keys_counter = 0
+    local MAX_keys = 5
+
+    if game:get_value("red_key_10010_1") then keys_counter = keys_counter + 1 end
+    if game:get_value("blue_key_10010_1") then keys_counter = keys_counter + 1 end
+    if game:get_value("green_key_10010_1") then keys_counter = keys_counter + 1 end
+    if game:get_value("yellow_key_10010_1") then keys_counter = keys_counter + 1 end
+    if game:get_value("purple_key_10010_1") then keys_counter = keys_counter + 1 end
+
+    widget:make_image_region(items_img, 496, 16, 16, 16, x_keys, wave_y)
+    if keys_counter >= MAX_keys then  widget:make_green_counter(keys_counter, x_keys + 12, wave_y + 8)
+    else widget:make_counter(keys_counter, x_keys + 12, wave_y + 8) end
+
+    -- Éclats de Souvenir
+
+    local shards_counter = game:get_value("remembrance_shard_1st_solarus_quest_found")
+    local MAX_shards = 150
+
+    widget:make_image_region(items_img, 528, 64, 16, 16, x_shards, wave_y + 1)
+    if shards_counter >= MAX_shards then widget:make_green_counter(shards_counter, x_shards + 7, wave_y + 8)
+    elseif shards_counter >= 100 then widget:make_counter(shards_counter, x_shards + 7, wave_y + 8)
+    else widget:make_counter(shards_counter, x_shards + 14, wave_y + 8) end
+
+  end
+ 
   return widget
 end
 
---FENETRE DU STATUT QUETE
-local function create_status_widget(game)
-  local widget = gui_designer:create(192, 196)
+--FENETRE DES MASQUES DE ZELDO 
+local function create_masks_widget(game)
+  local widget = gui_designer:create(54, 54)
+  widget:set_xy(133, 68)
 
-  widget:set_xy(196, 60)
-
-  --Objets quête principale (1)
-  local colonne_p = 0
-  local rangee_p = 107
-  if game:get_value("yellow_key_10000_1") then widget:make_image_region(items_img, 448, 16, 16, 16, colonne_p, rangee_p) end
-  if game:get_value("red_key_10000_1_1") then widget:make_image_region(items_img, 480, 0, 16, 16, colonne_p + 24, rangee_p) end
-  if game:get_value("blue_key_10000_1_1") then widget:make_image_region(items_img, 464, 16, 16, 16, colonne_p + 48, rangee_p) end
-  if game:get_value("green_key_10000_1_1") then widget:make_image_region(items_img, 480, 16, 16, 16, colonne_p + 72, rangee_p) end
-
-  --Objets quête principale (2)
-  local x_tablet = 0
-  local y_tablet = 11
-  if game:get_value("get_trophy_10001") then widget:make_image_region(items_img, 224, 48, 16, 16, x_tablet + 72, y_tablet + 32) end
-  if game:get_value("get_trophy_10002") then widget:make_image_region(items_img, 224, 48, 16, 16, x_tablet + 52, y_tablet) end
-  if game:get_value("get_trophy_10003") then widget:make_image_region(items_img, 224, 48, 16, 16, x_tablet + 20, y_tablet) end
-  if game:get_value("get_trophy_10004") then widget:make_image_region(items_img, 224, 48, 16, 16, x_tablet + 52, y_tablet + 64) end
-  if game:get_value("get_trophy_10005") then widget:make_image_region(items_img, 224, 48, 16, 16, x_tablet + 20, y_tablet + 64) end
-  if game:get_value("get_trophy_10006") then widget:make_image_region(items_img, 224, 48, 16, 16, x_tablet, y_tablet + 32) end
-
-  --Jeu terminé
-  if game:get_value("boss_key_10000_1") then widget:make_image_region(items_img, 496, 0, 32, 32, x_tablet + 36, y_tablet + 32) end
-
-  --Autres objets
-  if game:get_item("quest_items/trophy"):get_variant() == 1 then widget:make_image_region(items_img, 240, 48, 16, 16, colonne_p + 136, rangee_p - 8) end
+  -- Vague 1
+  if game:get_value("zeldo_wave_1_defeated") then
+    widget:make_image_region(items_img, 240, 48, 16, 16, 6, 6)
+  end
  
   return widget
 end
@@ -132,24 +229,21 @@ local function create_stats_widget(game)
   return widget
 end
 
---FENETRE DU COMPTEUR D'ÉCLATS DE SOUVENIR
+--FENETRE DU COMPTEUR D'ÉCLATS DE SOUVENIR : ADAPTÉ À LA VAGUE EN COURS
 local function create_force_gem_widget(game)
   local widget = gui_designer:create(48, 52)
   widget:set_xy(134, 121)
     local x_gems
-    local amount = game:get_item("quest_items/remembrance_shard"):get_amount()
+    local amount = game:get_item("quest_items/remembrance_shard_"..game:get_current_wave()):get_amount()
     if amount < 10 then 
       x_gems = 21
       widget:make_counter(amount, x_gems + 7, 19)        
     elseif amount >= 10 and amount < 100 then
       x_gems = 19
       widget:make_counter(amount, x_gems + 7, 19) 
-    elseif amount >= 100 and amount < game:get_item("quest_items/remembrance_shard"):get_max_amount() then
+    elseif amount >= 100 then
       x_gems = 16
       widget:make_counter(amount, x_gems + 7, 19) 
-    elseif amount == game:get_item("quest_items/remembrance_shard"):get_max_amount() then
-      x_gems = 16
-      widget:make_green_counter(amount, x_gems + 7, 19)
     end
     local item_sprite = sol.sprite.create("entities/items")
     item_sprite:set_animation("quest_items/remembrance_shard")
@@ -159,10 +253,14 @@ local function create_force_gem_widget(game)
   return widget
 end
 
---FENETRE DU COMPTEUR DE FRAGMENTS DE PUISSANCE DE FEES
+--FENETRE D'AFFICHAGE DES OBJETS DE QUÊTE DE LA VAGUE EN COURS
 local function create_fairy_power_fragment_widget(game)
   local widget = gui_designer:create(96, 52)
   widget:set_xy(122, 153)
+
+  -- Vague 1 - Coquillages et Fragments de Puissance de Fée
+
+  if game:get_current_wave() == "tott" then
     local x_gems
     local amount = game:get_item("quest_items/fairy_power_fragment"):get_amount()
     if amount < 10 then 
@@ -190,6 +288,34 @@ local function create_fairy_power_fragment_widget(game)
     item_sprite:set_direction(0)
     item_sprite:set_xy(x_gems, 26)
     item_sprite:draw(widget:get_surface())
+  end
+
+  -- Vague 2 - Clés et Carte de Fidélité
+
+  if game:get_current_wave() == "1st_solarus_quest" then
+    
+    if game:get_value("get_pendant_10011") then widget:make_image_region(items_img, 240, 64, 16, 16, 10, 14)
+    elseif game:get_value("get_wooden_key_10011") then widget:make_image_region(items_img, 272, 16, 16, 16, 10, 14) end
+    
+    if game:get_value("get_pendant_10012") then widget:make_image_region(items_img, 256, 64, 16, 16, 18, 14)
+    elseif game:get_value("get_iron_key_10012") then widget:make_image_region(items_img, 304, 80, 16, 16, 18, 14) end
+    
+    if game:get_value("get_pendant_10013") then widget:make_image_region(items_img, 272, 64, 16, 16, 26, 14)
+    elseif game:get_value("get_ice_key_10016") then widget:make_image_region(items_img, 256, 0, 16, 16, 26, 14) end
+
+    if game:get_value("get_fidelity_card_10016_1") then
+      local x_card = 50
+      local item_sprite = sol.sprite.create("entities/items")
+      item_sprite:set_animation("quest_items/fidelity_card_1st_solarus_quest")
+      item_sprite:set_direction(game:get_item("quest_items/fidelity_card_1st_solarus_quest"):get_variant() - 1)
+      item_sprite:set_xy(x_card, 27)
+      item_sprite:draw(widget:get_surface())
+      local amount = game:get_item("quest_items/fidelity_card_1st_solarus_quest"):get_amount()
+      if amount >= game:get_item("quest_items/fidelity_card_1st_solarus_quest"):get_max_amount() then widget:make_green_counter(amount, x_card + 1, 22)
+      else widget:make_counter(amount, x_card + 1, 22) end
+    end
+  end
+  
   return widget
 end
 
@@ -201,8 +327,8 @@ function quest_status_manager:new(game)
 
   local menu_title_widget = create_menu_title_widget(game)
   local equipment_items_widget, item_sprites = create_equipment_items_widget(game, item_list)
-  local pieces_of_heart_widget = create_pieces_of_heart_widget(game)
   local status_widget = create_status_widget(game)
+  local masks_widget = create_masks_widget(game)
   local stats_widget = create_stats_widget(game)
   local force_gem_widget = create_force_gem_widget(game)
   local fairy_power_fragment_widget = create_fairy_power_fragment_widget(game)
@@ -314,8 +440,8 @@ function quest_status_manager:new(game)
 
     menu_title_widget:draw(dst_surface)
     equipment_items_widget:draw(dst_surface)
-    pieces_of_heart_widget:draw(dst_surface)
     status_widget:draw(dst_surface)
+    masks_widget:draw(dst_surface)
     stats_widget:draw(dst_surface)
     force_gem_widget:draw(dst_surface)
     fairy_power_fragment_widget:draw(dst_surface)
@@ -386,7 +512,7 @@ function quest_status_manager:new(game)
       if game:has_item(item:get_name()) then
         sol.audio.play_sound("ok")
         if item:get_variant() == 1 then item:set_variant(2) else item:set_variant(1) end
-        
+        set_cursor_position(cursor_row, cursor_column) 
       end
       handled = true
     end

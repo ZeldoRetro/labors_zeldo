@@ -5,7 +5,7 @@ properties{
   height = 480,
   min_layer = 0,
   max_layer = 2,
-  world = "dungeon_10000",
+  world = "dungeon_9999",
   floor = 0,
   tileset = "inside_pale_grey_dungeon",
   music = "creations/labors/castle_hall",
@@ -5188,46 +5188,6 @@ tile{
   pattern = "door_boss.1.pillar.1-1",
 }
 
-tile{
-  layer = 1,
-  x = 96,
-  y = 304,
-  width = 16,
-  height = 24,
-  pattern = "3_3",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 1,
-  x = 208,
-  y = 304,
-  width = 16,
-  height = 24,
-  pattern = "3_4",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 1,
-  x = 96,
-  y = 192,
-  width = 16,
-  height = 24,
-  pattern = "3_3",
-  tileset = "inside_other",
-}
-
-tile{
-  layer = 1,
-  x = 208,
-  y = 192,
-  width = 16,
-  height = 24,
-  pattern = "3_4",
-  tileset = "inside_other",
-}
-
 wall{
   layer = 1,
   x = 152,
@@ -5244,6 +5204,7 @@ destination{
   x = 160,
   y = 37,
   direction = 3,
+  starting_location_mode = "no",
 }
 
 teletransporter{
@@ -5316,5 +5277,137 @@ tile{
   width = 16,
   height = 8,
   pattern = "door_top.stairs_up.1-2",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 96,
+  y = 192,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 16,
+  height = 24,
+  pattern = "3_3",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 208,
+  y = 192,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 16,
+  height = 24,
+  pattern = "3_4",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 208,
+  y = 304,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 16,
+  height = 24,
+  pattern = "3_4",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 200,
+  y = 184,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 32,
+  height = 40,
+  pattern = "12_2",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 200,
+  y = 296,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 32,
+  height = 40,
+  pattern = "12_2",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 96,
+  y = 304,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 16,
+  height = 24,
+  pattern = "3_3",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 88,
+  y = 184,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 32,
+  height = 40,
+  pattern = "12",
+  tileset = "inside_other",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 88,
+  y = 296,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "zeldo_wave_1_defeated",
+    },
+  },
+  width = 32,
+  height = 40,
+  pattern = "12",
+  tileset = "inside_other",
 }
 

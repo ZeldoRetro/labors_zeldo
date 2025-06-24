@@ -17,6 +17,8 @@ function map:on_started(destination)
 
     --Modèle LINK
     hero:set_tunic_sprite_id("hero/tunic2")
+    hero:set_sword_sprite_id("hero/sword2")
+    hero:set_shield_sprite_id("hero/shield2")
 
     game:set_max_life(10*4)
     game:set_life(game:get_max_life())

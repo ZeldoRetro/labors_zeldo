@@ -75,28 +75,28 @@ local function read_savegames()
       	games[i] = game
 
         --Symboles en fonction de l'avancée dans la quête principale
-          if game:get_value("get_trophy_10001") then
-            icons_img:draw_region(224, 48, 16, 16, surface, 110, 0)
-          end
-          if game:get_value("get_trophy_10002") then
-            icons_img:draw_region(224, 48, 16, 16, surface, 126, 0)
-          end
-          if game:get_value("get_trophy_10003") then
-            icons_img:draw_region(224, 48, 16, 16, surface, 142, 0)
-          end
-          if game:get_value("get_trophy_10004") then
-            icons_img:draw_region(224, 48, 16, 16, surface, 158, 0)
-          end
-          if game:get_value("get_trophy_10005") then
-            icons_img:draw_region(224, 48, 16, 16, surface, 174, 0)
-          end
-          if game:get_value("get_trophy_10006") then
-            icons_img:draw_region(224, 48, 16, 16, surface, 190, 0)
-          end
+        if game:get_value("zeldo_wave_1_defeated") then
+          icons_img:draw_region(240, 48, 16, 16, surface, 110, 0)
+        end
+        --if game:get_value("get_trophy_10002") then
+        --  icons_img:draw_region(240, 48, 16, 16, surface, 126, 0)
+        --end
+        --if game:get_value("get_trophy_10003") then
+        --  icons_img:draw_region(240, 48, 16, 16, surface, 142, 0)
+        --end
+        --if game:get_value("get_trophy_10004") then
+        --  icons_img:draw_region(240, 48, 16, 16, surface, 158, 0)
+        --end
+        --if game:get_value("get_trophy_10005") then
+        --  icons_img:draw_region(240, 48, 16, 16, surface, 174, 0)
+        --end
+        --if game:get_value("get_trophy_10006") then
+        --  icons_img:draw_region(240, 48, 16, 16, surface, 190, 0)
+        --end
 
-          if game:get_value("boss_key_10000_1") then
-            icons_img:draw_region(496, 0, 16, 16, surface, 224, 0)
-          end
+        --if game:get_value("boss_key_10000_1") then
+        --  icons_img:draw_region(496, 0, 16, 16, surface, 224, 0)
+        --end
       
       draw_hearts(game, surface)
     end

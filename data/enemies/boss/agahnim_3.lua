@@ -233,6 +233,7 @@ function enemy:end_dialog()
 end
 
 function enemy:on_dying()
+  enemy:get_game():get_hero():freeze()
   sol.audio.play_music("none")
 end
 
@@ -249,7 +250,7 @@ function enemy:on_dead()
        hero:start_victory()
        sol.timer.start(1000,function()
     	  game:set_pause_allowed(true)
-        hero:teleport("creations/labors/tott/hub","start_final_1","fade")
+        hero:teleport("creations/labors/tott/hub","start_final","fade")
        end)     
     end)  
 end

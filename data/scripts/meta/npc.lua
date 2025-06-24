@@ -111,17 +111,8 @@ function npc_meta:on_interaction()
 
   --Soldats: disent un dialogue aléatoire
   if name:match("^soldier") then
-    local i = math.random(5)
+    local i = math.random(9)
     game:start_dialog("hyrule_city.soldiers."..i)
-  end
-
-  --Soldats de Cocorico: dialogue pendant menace goriya sinon autre
-  if name:match("^kakariko_soldier") then
-    if game:get_value("viscen_vs_goriyas_quest") == 6 then
-      game:start_dialog("hyrule_city.soldiers.kakariko")
-    else
-      game:start_dialog("hyrule_city.soldiers.kakariko_confined")
-    end
   end
 
   --Prendre l'item clé du donjon s'il est sur un piédestal

@@ -5,11 +5,15 @@ text{ key = "copyright_menu.solarus_license.line1", value = "Solarus is Free Sof
 text{ key = "copyright_menu.solarus_license.line2", value = "licensed under GPL v3." }
 text{ key = "copyright_menu.tloz_trademark.line1", value = "The Legend of Zelda is" }
 text{ key = "copyright_menu.tloz_trademark.line2", value = "a trademark from Nintendo." }
-text{ key = "dungeon_0.name", value = "Example" }
 text{ key = "dungeon_10001.name", value = "Water Temple" }
 text{ key = "dungeon_10002.name", value = "Ancient Catacomb" }
 text{ key = "dungeon_10004.name", value = "Fire Temple" }
 text{ key = "dungeon_1001.name", value = "Eagle Ruins" }
+text{ key = "dungeon_10011.name", value = "Temple of Courage" }
+text{ key = "dungeon_10014.name", value = "Temple of Power" }
+text{ key = "dungeon_10015.name", value = "Temple of Wisdom" }
+text{ key = "dungeon_10017.name", value = "Hyrule Castle" }
+text{ key = "dungeon_4.name", value = "Kokiri Garden" }
 text{ key = "dungeon_999.name", value = "Final Dungeon" }
 text{ key = "inventory.item_caption.equipment/flippers.1", value = "Flippers" }
 text{ key = "inventory.item_caption.equipment/gems_detector.1", value = "Gems Detector" }
@@ -61,6 +65,11 @@ text{ key = "inventory.item_caption.inventory/din_medallion.1", value = "Din Med
 text{ key = "inventory.item_caption.inventory/echange.1", value = "Spices Bottle" }
 text{ key = "inventory.item_caption.inventory/echange.2", value = "Sugar Crystal" }
 text{ key = "inventory.item_caption.inventory/echange.3", value = "Honey" }
+text{ key = "inventory.item_caption.inventory/echange_1st_solarus_quest.1", value = "Ordinary Mirror" }
+text{ key = "inventory.item_caption.inventory/echange_1st_solarus_quest.2", value = "New Broom" }
+text{ key = "inventory.item_caption.inventory/echange_1st_solarus_quest.3", value = "Diamond" }
+text{ key = "inventory.item_caption.inventory/echange_1st_solarus_quest.4", value = "Book about Stones" }
+text{ key = "inventory.item_caption.inventory/echange_1st_solarus_quest.5", value = "Pearl Necklace" }
 text{ key = "inventory.item_caption.inventory/farore_medallion.1", value = "Farore Medallion" }
 text{ key = "inventory.item_caption.inventory/feather.1", value = "Roc's Feather" }
 text{ key = "inventory.item_caption.inventory/fire_rod.1", value = "Fire Rod" }
@@ -70,9 +79,10 @@ text{ key = "inventory.item_caption.inventory/hookshot.2", value = "Longshot" }
 text{ key = "inventory.item_caption.inventory/ice_rod.1", value = "Ice Rod" }
 text{ key = "inventory.item_caption.inventory/lamp.1", value = "Lamp" }
 text{ key = "inventory.item_caption.inventory/magic_cape.1", value = "Magic Cape" }
+text{ key = "inventory.item_caption.inventory/magic_mirror.1", value = "Magic Mirror" }
 text{ key = "inventory.item_caption.inventory/magic_mushroom.1", value = "Mushroom" }
 text{ key = "inventory.item_caption.inventory/magic_powder.1", value = "Magic Powder" }
-text{ key = "inventory.item_caption.inventory/monicle_truth.1", value = "Monicle of Truth" }
+text{ key = "inventory.item_caption.inventory/monicle_truth.1", value = "Lens of Truth" }
 text{ key = "inventory.item_caption.inventory/nayru_medallion.1", value = "Nayru Medallion" }
 text{ key = "inventory.item_caption.inventory/ocarina.1", value = "Ocarina" }
 text{ key = "inventory.item_caption.songs/flight_song.1", value = "Song of Soaring" }
@@ -100,9 +110,24 @@ text{ key = "inventory.item_caption.treasures/treasure_zora_crown.1", value = "C
 text{ key = "inventory.item_caption.treasures/treasures_bag.1", value = "Sac à Trésors" }
 text{ key = "labors_castle_caption", value = "???" }
 text{ key = "light_world_caption", value = "Kingdom of Hyrule" }
+text{ key = "light_world_caption_1st_solarus_quest", value = "Hyrule - 1st Solarus Qst" }
+text{ key = "light_world_caption_tott", value = "Hyrule - TotT" }
+text{ key = "location.1st_solarus_quest.death_path", value = "Death Path" }
+text{ key = "location.1st_solarus_quest.din_shrine", value = "Din Shrine" }
+text{ key = "location.1st_solarus_quest.farore_shrine", value = "Farore Shrine" }
+text{ key = "location.1st_solarus_quest.forest_village", value = "Forest Village" }
+text{ key = "location.1st_solarus_quest.great_shop", value = "Great Shop" }
+text{ key = "location.1st_solarus_quest.hero_cave", value = "Hero's Cave" }
+text{ key = "location.1st_solarus_quest.illusion_woods", value = "Illusion Woods" }
+text{ key = "location.1st_solarus_quest.lake_village", value = "Lake Village" }
+text{ key = "location.1st_solarus_quest.link_house", value = "Departure Grounds" }
+text{ key = "location.1st_solarus_quest.nayru_shrine", value = "Nayru Shrine" }
 text{ key = "location.castle_oblivion_1ET", value = "2nd Floor - Tower of the Triforce" }
+text{ key = "location.castle_oblivion_2ET", value = "3rd Floor - The 1st Solarus Quest" }
 text{ key = "location.castle_oblivion_RDC", value = "Oblivion Castle" }
 text{ key = "location.castle_town", value = "Castle Town" }
+text{ key = "location.ganon_castle", value = "Ganon's Castle" }
+text{ key = "location.ganon_tower", value = "Ganon's Tower" }
 text{ key = "location.gerudo_prairie", value = "Gerudo Prairie" }
 text{ key = "location.hera_mountain", value = "Hera Mountain" }
 text{ key = "location.hyrule_castle", value = "Hyrule Castle" }
@@ -114,6 +139,7 @@ text{ key = "location.hyrule_field_south", value = "Plaine Sud d'Hyrule" }
 text{ key = "location.hyrule_field_west", value = "Plaine Ouest d'Hyrule" }
 text{ key = "location.kakariko_village", value = "Kakariko Village" }
 text{ key = "location.kokiri_forest", value = "Kokiri Forest" }
+text{ key = "location.kokiri_garden", value = "Kokiri Garden" }
 text{ key = "location.lake_hylia", value = "Lake Hylia" }
 text{ key = "location.light_temple", value = "Light Temple" }
 text{ key = "location.lost_woods", value = "Lost Woods" }
@@ -121,6 +147,7 @@ text{ key = "location.tott.abuda_archipelago", value = "Abuda Archipelago" }
 text{ key = "location.tott.hylia_waterfall", value = "Hylia Waterfalls" }
 text{ key = "location.tott.hyrule_castle_tower", value = "Hyrule Castle Tower" }
 text{ key = "location.tott.ice_cavern", value = "Ice cavern" }
+text{ key = "location.unknown", value = "???" }
 text{ key = "location.zora_waterfalls", value = "Zora Waterfalls" }
 text{ key = "menu_title.bags", value = "TREASURES" }
 text{ key = "menu_title.inventory", value = "INVENTORY" }
@@ -162,42 +189,18 @@ text{ key = "pause.commands.save", value = "Save" }
 text{ key = "pause.commands.sword", value = "Attack" }
 text{ key = "pause.commands.title", value = "COMMANDS" }
 text{ key = "pause.commands.up", value = "Up" }
-text{ key = "quest_status.item_caption.equipment/bomb_bag.1", value = "Bombs Capacity - 20" }
-text{ key = "quest_status.item_caption.equipment/bomb_bag.2", value = "Bombs Capacity - 40" }
-text{ key = "quest_status.item_caption.equipment/bomb_bag.3", value = "Bombs Capacity - 60" }
-text{ key = "quest_status.item_caption.equipment/quiver.1", value = "Arrows Capacity - 30" }
-text{ key = "quest_status.item_caption.equipment/quiver.2", value = "Arrows Capacity - 50" }
-text{ key = "quest_status.item_caption.equipment/quiver.3", value = "Arrows Capacity - 70" }
-text{ key = "quest_status.item_caption.equipment/rupee_bag.1", value = "Rupee Bag" }
-text{ key = "quest_status.item_caption.equipment/rupee_bag.2", value = "Grande Bourse de Rubis" }
-text{ key = "quest_status.item_caption.equipment/rupee_bag.3", value = "Bourse de Rubis géante" }
-text{ key = "quest_status.item_caption.equipment/rupee_bag.4", value = "Bourse de Rubis sans fond" }
-text{ key = "quest_status.item_caption.equipment/shield.1", value = "Wooden Shield" }
-text{ key = "quest_status.item_caption.equipment/shield.2", value = "Hylian Shield" }
-text{ key = "quest_status.item_caption.equipment/shield.3", value = "Mirror Shield" }
-text{ key = "quest_status.item_caption.equipment/sword.1", value = "Kokiri Sword" }
-text{ key = "quest_status.item_caption.equipment/sword.2", value = "Viscen's Sword" }
-text{ key = "quest_status.item_caption.equipment/sword.3", value = "Master Sword" }
-text{ key = "quest_status.item_caption.equipment/sword.4", value = "Forged Master Sword" }
-text{ key = "quest_status.item_caption.equipment/tunic.1", value = "Green Mail" }
-text{ key = "quest_status.item_caption.equipment/tunic.2", value = "Blue Mail" }
-text{ key = "quest_status.item_caption.equipment/tunic.3", value = "Red Mail" }
-text{ key = "quest_status.item_caption.equipment/tunic.4", value = "Purple Mail" }
-text{ key = "quest_status.item_caption.quest_items/attack_boost.1", value = "Attack Boost" }
-text{ key = "quest_status.item_caption.quest_items/defense_boost.1", value = "Defense Boost" }
-text{ key = "quest_status.item_caption.quest_items/magic_flask_upgrade.1", value = "Magic Flask Upgrade" }
-text{ key = "quest_status.item_caption.upgrade_cards/tott_arrows.1", value = "Arrows Upgrade" }
-text{ key = "quest_status.item_caption.upgrade_cards/tott_arrows.2", value = "Arrows Upgrade" }
-text{ key = "quest_status.item_caption.upgrade_cards/tott_attack.1", value = "Attack Upgrade" }
-text{ key = "quest_status.item_caption.upgrade_cards/tott_attack.2", value = "Attack Upgrade" }
-text{ key = "quest_status.item_caption.upgrade_cards/tott_bombs.1", value = "Bombs Upgrade" }
-text{ key = "quest_status.item_caption.upgrade_cards/tott_bombs.2", value = "Bombs Upgrade" }
-text{ key = "quest_status.item_caption.upgrade_cards/tott_casual.1", value = "Help for Casuals" }
-text{ key = "quest_status.item_caption.upgrade_cards/tott_casual.2", value = "Help for Casuals" }
-text{ key = "quest_status.item_caption.upgrade_cards/tott_defence.1", value = "Defense Upgrade" }
-text{ key = "quest_status.item_caption.upgrade_cards/tott_defence.2", value = "Defense Upgrade" }
-text{ key = "quest_status.item_caption.upgrade_cards/tott_magic.1", value = "Magic Capacity Upgrade" }
-text{ key = "quest_status.item_caption.upgrade_cards/tott_magic.2", value = "Magic Capacity Upgrade" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_arrows.1", value = "Arrows Upgrade - ON" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_arrows.2", value = "Arrows Upgrade - OFF" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_attack.1", value = "Attack Upgrade - ON" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_attack.2", value = "Attack Upgrade - OFF" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_bombs.1", value = "Bombs Upgrade - ON" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_bombs.2", value = "Bombs Upgrade - OFF" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_casual.1", value = "Help for Casuals - ON" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_casual.2", value = "Help for Casuals - OFF" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_defence.1", value = "Defense Upgrade - ON" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_defence.2", value = "Defense Upgrade - OFF" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_magic.1", value = "Magic Upgrade - ON" }
+text{ key = "quest_status.item_caption.upgrade_cards/tott_magic.2", value = "Magic Upgrade - OFF" }
 text{ key = "savegames_menu.cancel", value = "CANCEL" }
 text{ key = "savegames_menu.delete", value = "DELETE" }
 text{ key = "savegames_menu.delete_question", value = "ARE YOU SURE ?" }
@@ -210,7 +213,6 @@ text{ key = "savegames_menu.title", value = "FILE SELECT" }
 text{ key = "savegames_menu.yes", value = "YES" }
 text{ key = "stats_menu.death_count", value = "Game over: $v" }
 text{ key = "stats_menu.end", value = "THE END" }
-text{ key = "stats_menu.fairy_power_fragments", value = "Fairies Power Fragments :" }
 text{ key = "stats_menu.final_rank_bronze", value = "Rank : BRONZE" }
 text{ key = "stats_menu.final_rank_gold", value = "Rank : GOLD" }
 text{ key = "stats_menu.final_rank_platinum", value = "Rank : PLATINUM" }
@@ -220,8 +222,10 @@ text{ key = "stats_menu.game_time", value = "Play Time :" }
 text{ key = "stats_menu.items", value = "Items :" }
 text{ key = "stats_menu.items_dungeons", value = "Galleries Keys :" }
 text{ key = "stats_menu.items_equipment", value = "Equipment Items :" }
-text{ key = "stats_menu.items_inventory", value = "Shop Upgrades :" }
+text{ key = "stats_menu.items_inventory", value = "Upgrades Cards :" }
 text{ key = "stats_menu.items_main_quest", value = "Completion Trophies :" }
 text{ key = "stats_menu.percent", value = "Total Progress : $v %" }
 text{ key = "stats_menu.pieces_of_heart", value = "Heart Pieces :" }
 text{ key = "stats_menu.title", value = "STATISTICS" }
+text{ key = "stats_menu.title_wave_1", value = "STATISTICS WAVE 1" }
+text{ key = "stats_menu.title_wave_2", value = "STATISTICS WAVE 2" }

@@ -12,7 +12,11 @@ dynamic_tile_meta:register_event("on_created",function(dynamic_tile)
   -- Disable the tile if the savegame value passed in property is true (an opened door for example)
   if dynamic_tile:get_property("disable_if_value") ~= nil then
     if game:get_value(dynamic_tile:get_property("disable_if_value")) then
-      dynamic_tile:set_enabled(false)
+      if dynamic_tile:get_property("value_number") ~= nil then
+        if game:get_value(dynamic_tile:get_property("disable_if_value")) == tonumber(dynamic_tile:get_property("value_number")) then dynamic_tile:set_enabled(false) end
+      elseif dynamic_tile:get_property("amount_number") ~= nil then
+        if game:get_value(dynamic_tile:get_property("disable_if_value")) >= tonumber(dynamic_tile:get_property("amount_number")) then dynamic_tile:set_enabled(false) end
+      else dynamic_tile:set_enabled(false) end
     end
   end
 
@@ -21,6 +25,8 @@ dynamic_tile_meta:register_event("on_created",function(dynamic_tile)
     if game:get_value(dynamic_tile:get_property("enable_if_value")) then
       if dynamic_tile:get_property("value_number") ~= nil then
         if game:get_value(dynamic_tile:get_property("enable_if_value")) == tonumber(dynamic_tile:get_property("value_number")) then dynamic_tile:set_enabled(true) end
+      elseif dynamic_tile:get_property("amount_number") ~= nil then
+        if game:get_value(dynamic_tile:get_property("enable_if_value")) >= tonumber(dynamic_tile:get_property("amount_number")) then dynamic_tile:set_enabled(true) end
       else dynamic_tile:set_enabled(true) end
     end
   end

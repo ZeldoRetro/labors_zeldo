@@ -188,8 +188,8 @@ map_meta:register_event("on_started",function(map, destination)
         map:set_doors_open("door_boss")
         local x, y, layer = map:get_entity("heart_container_spot"):get_position()
         map:create_pickable{
-          treasure_name = "quest_items/heart_container",
-          treasure_variant = 1,
+          treasure_name = "quest_items/remembrance_shard_"..game:get_current_wave(),
+          treasure_variant = 3,
           treasure_savegame_variable = "heart_container_"..game:get_dungeon_index(),
           x = x,
           y = y,
@@ -207,21 +207,6 @@ map_meta:register_event("on_started",function(map, destination)
       map:set_entities_enabled("day_entity",false)
     end
   end
-
-  --Assaut de Ganondorf
-  --[[if game:get_value("ganondorf_dominated_hyrule") then
-    sol.audio.play_music("rain")
-    map:set_entities_enabled("enemy",true)
-    map:set_entities_enabled("soldier",false)
-    map:set_entities_enabled("night_entity_soldier",false)
-    dark = true
-    if game:get_value("day") or game:get_value("twilight") then
-      map:set_entities_enabled("night_entity",false)
-      map:set_entities_enabled("fairy_power_fragment",false)
-    elseif game:get_value("night") or game:get_value("dawn") then
-      map:set_entities_enabled("day_entity",false)
-    end
---]]
 
   -- Initialisation map extérieure
   if map:is_outside() then

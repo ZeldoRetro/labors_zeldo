@@ -62,7 +62,7 @@ local function hero_roll(game)
       local index = math.random(1, 3)
       if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/rolling_voice_" .. index) end
     end
-    movement:start(hero,function() hero:unfreeze() hero_rolling = false end)     
+    movement:start(hero,function() hero:unfreeze() hero_rolling = false end)
   end
 end
 
@@ -100,9 +100,19 @@ function game_manager:create(file)
     game:set_value("daytime", 1)
     game:set_value("day",true)
 
-    game:set_value("game_version", "1.2.0")
+    game:set_value("remembrance_shard_found",0)
+    game:set_value("remembrance_shard_tott_found",0)
+    game:set_value("remembrance_shard_1st_solarus_quest_found",0)
+    game:set_value("remembrance_shard_retranscriptions_found",0)
+    game:set_value("remembrance_shard_tott2_found",0)
+    game:set_value("remembrance_shard_retranscriptions2_found",0)
+    game:set_value("remembrance_shard_misc_found",0)
+    game:set_value("remembrance_shard_PAST_found",0)
 
-    game:set_value("remembrance_shard_found", 0)
+    game:set_value("remembrance_shard_other_found",0)
+
+    game:set_value("game_version", "1.2.0")
+    game:set_value("game_version", "2.0.0")
 
     if heroic_mode_enabled_for_this_savegame then game:set_value("heroic_mode",true) heroic_mode_enabled_for_this_savegame = false end
   end
@@ -115,7 +125,8 @@ function game_manager:create(file)
   local pause_menu
 
   -- Départ à l'entrée du Manoir quand le jeu est mis à jour
-  if game:get_value("game_version") == nil then
+  if game:get_value("game_version") == nil
+  or game:get_value("game_version") == "1.2.0" then
     game:set_starting_location("creations/labors/castle_oblivion_RDC","entree")
   end
 
@@ -124,17 +135,18 @@ function game_manager:create(file)
 
     -- Prepare the dialog box menu and the HUD.
     game:initialize_dialog_box()
+	  dungeon_manager:create(game)
     hud = hud_manager:create(game)
     pause_menu = pause_manager:create(game)
-	  dungeon_manager:create(game)
     equipment_manager:create(game)
     camera_manager:create(game)
 
     -- Update variables for the next version of the game
+    
     if game:get_value("game_version") == nil then -- Version before 1.2.0
 
       -- Ajustement de la variable de version
-      print("Te revoici après une longue attente... laisse-moi adapter certaines variables pour qu'elles correpondent à cette nouvelle version 1.2.")
+      print("Te revoici après une longue attente... laisse-moi adapter certaines variables pour qu'elles correspondent à cette nouvelle version")
       game:set_value("game_version", "1.2.0")
 
       -- Touche Menu Commandes et variable "intro" permettant au cycle jour/nuit de se faire
@@ -175,13 +187,31 @@ function game_manager:create(file)
 
     end
 
+    if game:get_value("game_version") == "1.2.0" then -- Version before 2.0.0
+
+      -- Ajustement de la variable de version
+      print("Bienvenue à toi pour cette seconde Vague de Contenu. Rejoins-moi là où la Vague 1 se finissait sans tarder !")
+      game:set_value("game_version", "2.0.0")
+
+      -- Ajustement variable des Éclats de souvenir
+      game:set_value("remembrance_shard_tott_amount",game:get_value("remembrance_shard_amount"))
+      game:set_value("remembrance_shard_tott_found",game:get_value("remembrance_shard_found"))
+      game:set_value("remembrance_shard_1st_solarus_quest_found",0)
+
+      -- Agahnim vaincu
+      game:set_value("boss_10007",true)
+
+    end
+
     -- Measure the time played.
     run_chronometer(game)
 
-    --Apply the FSA effect
-    local eff_m = require('scripts/effect_manager')
-    local fsa = require('scripts/fsa_effect')
-    eff_m:set_effect(game,fsa)
+    sol.timer.start(game,10, function()
+      --Apply the FSA effect
+      local eff_m = require('scripts/effect_manager')
+      local fsa = require('scripts/fsa_effect')
+      eff_m:set_effect(game,fsa)
+    end)
   end
 
   -- Function called when the game stops.
@@ -299,6 +329,15 @@ function game_manager:create(file)
         -- Map.
         if not game:is_suspended() or game:is_paused() then
           game:switch_pause_menu("map")
+          handled = true
+        end
+
+      elseif joypad_action == game:get_value("joypad_commands") then
+        -- Commands.
+        if not game:is_suspended() or game:is_paused() then
+          game:set_value("in_commands_menu", true)
+          game:switch_pause_menu("commands")
+          game:set_value("in_commands_menu", false)
           handled = true
         end
 
