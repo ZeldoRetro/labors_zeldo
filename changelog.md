@@ -16,6 +16,7 @@ Global Fixes
 - The frames in the Labors Area are now personalized
 - Music loops
 - Bombs are no longer usable when swimming
+- Updated Credits Roll : Additionnal testers have been added (mainly streamers for the release of Wave 2)
 - Misc
 
 Wave 2 Fixes
