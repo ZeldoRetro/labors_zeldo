@@ -2,6 +2,49 @@
 
 You can find here the version history of the Labors of Zeldo. Every version has a release linked to it.
 
+## v2.1.0
+
+Migrations provided via the ZeldoPack
+
+- 16/9 resolution
+- Brand new lighting system
+- New clock system
+- New map menu system
+
+Global Fixes
+
+- The frames in the Labors Area are now personalized
+- Music loops
+- Bombs are no longer usable when swimming
+- Misc
+
+Wave 2 Fixes
+
+- A sign will appear during nightime at the traveling merchant's stall
+- The player can sleep in Link's house (Departure Grounds)
+- A padlock symbol is now visible on the wooden and iron locks
+- A chest symbol will appear for the Remembrance Stone in Wisdom Temple
+- Preventing softlock in Power Temple (falling on chests case)
+- New layout for the central room 2F in Power Temple
+- New layout for the stars and blocks puzzle in Power Temple
+- Preventing softlock in Hyrule Castle (blue and orange blocks case)
+- HE IS HERE
+- Dialog typos fixes
+- Misc
+
+Wave 1 Fixes
+
+- Agahnim will not hurt the player when appearing/disappearing
+- Zeldo is more agressive
+- Baris damage on sword fix
+- The Potions merchant will not be there until the player has a Bottle
+- The Souvenir Shop will be updated immediately after buying the Flippers
+- The player can reach Beedle
+- Water Temple Fix : A chest will not require a back and forth (B1)
+- When the Arrghus Boss dies, the baris disappear too
+- Zeldo is clowning around in the hub
+- Misc
+
 ## v2.0.0
 
 Release of the Wave 2. A brand new Wave of content providing 6 to 10 hours of fun !
