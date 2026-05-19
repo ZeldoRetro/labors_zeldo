@@ -2932,7 +2932,8 @@ tile{
   y = 24,
   width = 32,
   height = 16,
-  pattern = "painting",
+  pattern = "14_15",
+  tileset = "inside_other",
 }
 
 tile{
@@ -3571,7 +3572,8 @@ tile{
   y = 24,
   width = 32,
   height = 16,
-  pattern = "painting",
+  pattern = "14_13",
+  tileset = "inside_other",
 }
 
 tile{
@@ -4363,16 +4365,8 @@ tile{
   y = 24,
   width = 32,
   height = 16,
-  pattern = "painting",
-}
-
-tile{
-  layer = 1,
-  x = 752,
-  y = 264,
-  width = 32,
-  height = 16,
-  pattern = "painting",
+  pattern = "14_16",
+  tileset = "inside_other",
 }
 
 tile{
@@ -4381,7 +4375,18 @@ tile{
   y = 24,
   width = 32,
   height = 16,
-  pattern = "painting",
+  pattern = "14_10",
+  tileset = "inside_other",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 264,
+  width = 32,
+  height = 16,
+  pattern = "14_9",
+  tileset = "inside_other",
 }
 
 tile{

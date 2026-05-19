@@ -341,8 +341,8 @@ tile{
   y = 24,
   width = 32,
   height = 16,
-  pattern = "painting",
-  tileset = "inside_house",
+  pattern = "14_5",
+  tileset = "inside_other",
 }
 
 tile{

@@ -6494,3 +6494,19 @@ separator{
   height = 464,
 }
 
+custom_entity{
+  name = "init_map",
+  layer = 2,
+  x = -8,
+  y = -3,
+  properties = {
+    {
+      key = "location_key",
+      value = "dungeon_10001.name",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+

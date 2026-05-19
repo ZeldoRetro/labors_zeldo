@@ -22,7 +22,7 @@ function tp_switch_previous:on_activated()
 end
 
 --EFFET DE CHALEUR
-local heat = sol.surface.create(320,240)
+local heat = sol.surface.create(432,240)
 heat:set_opacity(80)
 heat:fill_color({255,40,0})
 

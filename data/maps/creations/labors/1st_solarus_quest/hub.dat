@@ -8869,7 +8869,7 @@ sensor{
   name = "welcome_shop",
   layer = 1,
   x = 408,
-  y = 813,
+  y = 821,
   width = 160,
   height = 112,
 }
@@ -8878,9 +8878,9 @@ sensor{
   name = "welcome_shop_remembrance",
   layer = 1,
   x = 88,
-  y = 813,
+  y = 853,
   width = 160,
-  height = 112,
+  height = 80,
 }
 
 wall{
@@ -11295,6 +11295,28 @@ dynamic_tile{
   width = 16,
   height = 16,
   pattern = "tongue",
+}
+
+teletransporter{
+  layer = 1,
+  x = 848,
+  y = -16,
+  width = 16,
+  height = 16,
+  destination_map = "cutscenes/ending_wave_2",
+  destination = "destination",
+  sprite = "entities/Teletransporters/teletransporter_final",
+  sound = "warp",
+}
+
+npc{
+  name = "ts.labors.labors_end_wave",
+  layer = 1,
+  x = 744,
+  y = -3,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/no_character/owl_statue_2",
 }
 
 tile{

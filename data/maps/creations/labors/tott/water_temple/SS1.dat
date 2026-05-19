@@ -5162,6 +5162,16 @@ dynamic_tile{
   tileset = "extra/casual_tileset",
 }
 
+chest{
+  layer = 0,
+  x = 80,
+  y = 869,
+  treasure_name = "pickable/rupee",
+  treasure_variant = 4,
+  treasure_savegame_variable = "rupees_10001_2",
+  sprite = "entities/Chests/chest_LttP",
+}
+
 tile{
   layer = 1,
   x = 2288,
@@ -20816,16 +20826,6 @@ wall{
   width = 8,
   height = 48,
   stops_enemies = true,
-}
-
-chest{
-  layer = 1,
-  x = 80,
-  y = 861,
-  treasure_name = "pickable/rupee",
-  treasure_variant = 4,
-  treasure_savegame_variable = "rupees_10001_2",
-  sprite = "entities/Chests/chest_LttP",
 }
 
 chest{

@@ -53,32 +53,6 @@ local function get_lights_from_map(map)
   local environment = {
   }
 
-  local big = "110"
-  local small = "80"
-
-  local radii = {
-    ["torch"] = small,
-    ["torch_big.top"] = small,
-  }
-
-  local win_cut = "0.1"
-  local win_aperture = "0.707"
-
-  local dirs = {
-    ["window.1-1"] = "0,1",
-    ["window.2-1"] = "0,-1",
-    ["window.3-1"] = "1,0",
-    ["window.4-1"] = "-1,0",
-  }
-
-  local win_col = "128,128,255"
-  local colors = {
-    ["window.1-1"] = win_col,
-    ["window.2-1"] = win_col,
-    ["window.3-1"] = win_col,
-    ["window.4-1"] = win_col,
-  }
-
   -- Make any other function a no-op (tile(), enemy(), block(), etc.).
   setmetatable(environment, {
     __index = function()
@@ -146,28 +120,81 @@ end
 
 local function setup_inside_lights(map)
   light_mgr:init(map,
-                 (function()
-                    if map:get_game():get_value("dark_room") then return {12,12,12}
-                    elseif map:get_game():get_value("dark_room_middle") then return {128,128,128}
-                    elseif map:is_outside() then
-                      if map:get_game():get_value("night") then return {0,33,164}
-                      elseif map:get_game():get_value("dawn") then return {255,94,109}
-                      else return {255,255,255}
-                      end
-                    end
-                 end)())
+    (function()
+      -- Setup tone for overworld
+      if map:is_outside() then
+        if map:get_game():get_value("daytime") == 1 then return {250, 200, 100}
+        elseif map:get_game():get_value("daytime") == 2 then return {255, 255, 255}
+        elseif map:get_game():get_value("daytime") == 3 then return {245, 150, 0}
+        elseif map:get_game():get_value("daytime") == 4 then return {60, 0, 165}
+        elseif map:get_game():get_value("daytime") == 5 then return {0, 30, 120}
+        elseif map:get_game():get_value("daytime") == 6 then return {255, 95, 110}
+        else return {255,255,255}
+        end
+      end
+      if map:get_game():get_value("dark_room") then return {12,12,12}
+      elseif map:get_game():get_value("dark_room_middle") then return {128,128,128} end
+    end)())
   light_mgr:add_occluder(map:get_hero())
 
-
-    local hero = map:get_hero()
-    --create hero light if the player has the lamp
-    if map:get_game():has_item("inventory/lamp") then
-      local hl = create_light(map,0,0,0,"80","240,210,15")
-      function hl:on_update()
-        hl:set_position(hero:get_position())
+  -- Change tone if overworld, to emulate day/night cycle
+  local function change_tone(base_R, base_G, base_B, final_R, final_G, final_B, timer)
+    light_mgr:init(map, (function() return {base_R, base_G, base_B} end)())
+    sol.timer.start(map, timer, function()
+      if base_R ~= final_R then
+        if base_R > final_R then base_R = base_R - 5 else base_R = base_R + 5 end
       end
-      hl.excluded_occs = {[hero]=true}
+      if base_G ~= final_G then
+        if base_G > final_G then base_G = base_G - 5 else base_G = base_G + 5 end
+      end
+      if base_B ~= final_B then
+        if base_B > final_B then base_B = base_B - 5 else base_B = base_B + 5 end
+      end
+      light_mgr:init(map, (function() return {base_R, base_G, base_B} end)())
+      if base_R ~= final_R then return true end
+      if base_G ~= final_G then return true end
+      if base_B ~= final_B then return true end
+    end)
+  end
+
+  if map:is_outside() and not map:get_game():get_value("daytime_tone_done") then
+    map:get_game():set_value("daytime_tone_done", true)
+    if map:get_game():get_value("daytime") == 1 then
+      change_tone(255, 95, 110, 250, 200, 100, 600)
+    elseif map:get_game():get_value("daytime") == 2 then
+      change_tone(250, 200, 100, 255, 225, 255, 600)
+    elseif map:get_game():get_value("daytime") == 3 then
+      change_tone(255, 225, 255, 245, 150, 0, 500)
+    elseif map:get_game():get_value("daytime") == 4 then
+      change_tone(245, 150, 0, 60, 0, 165, 600)
+    elseif map:get_game():get_value("daytime") == 5 then
+      change_tone(60, 0, 165, 0, 30, 120, 800)
+    elseif map:get_game():get_value("daytime") == 6 then
+      change_tone(0, 30, 120, 255, 95, 110, 500)
+    else return {255,255,255}
     end
+  end
+
+  -- Change tone if entering a dark room
+  sol.timer.start(map, 30, function()
+    if map:get_game():get_value("dark_room") then
+      tone = tonumber(map:get_game():get_value("dark_room"))
+      map:get_game():set_value("dark_room", false)
+      change_tone(tone, tone, tone, tone, tone, tone, 1)
+    end
+    return true
+  end)
+
+
+  local hero = map:get_hero()
+  --create hero light if the player has the lamp
+  if map:get_game():has_item("inventory/lamp") then
+    local hl = create_light(map,0,0,0,"80","240,210,15")
+    function hl:on_update()
+      hl:set_position(hero:get_position())
+    end
+    hl.excluded_occs = {[hero]=true}
+  end
 
   --add a static light for each torch pattern in the map
   local map_lights = get_lights_from_map(map)
@@ -240,46 +267,50 @@ local function setup_inside_lights(map)
     light_mgr:add_occluder(en)
   end
 
-  for en in map:get_entities_by_type("pickable") do
-    if en:get_name() ~= nil then
-      if en:get_name():match("^fairy_power_fragment") then
+  sol.timer.start(map, 10, function()
+    for en in map:get_entities_by_type("pickable") do
+      if en:get_name() ~= nil then
+        if en:get_name():match("^fairy_power_fragment") then
+          local tx,ty,tl = en:get_position()
+          local tw,th = en:get_size()
+          local yoff = -8
+          local light = create_light(map,tx+tw*0.5,ty+th*0.5+yoff,tl,"165","250,110,230")
+          light:set_enabled(true)
+          function en:on_removed() light:set_enabled(false) end
+        end
+      end
+    end
+  end)
+
+  --generate lights for dynamic torches
+  sol.timer.start(map, 10, function()
+    for en in map:get_entities_by_type("custom_entity") do
+      if en:get_model() == "torch" and en:is_enabled() then
         local tx,ty,tl = en:get_position()
         local tw,th = en:get_size()
         local yoff = -8
-        local light = create_light(map,tx+tw*0.5,ty+th*0.5+yoff,tl,"165","250,110,230")
-        light:set_enabled(true)
-        function en:on_removed() light:set_enabled(false) end
+        local light = create_light(map,tx+tw*0.5,ty+th*0.5+yoff,tl,default_radius,en:get_property("light_color") or default_color)
+        en:register_event("on_unlit",function()
+          light:set_enabled(false)
+        end)
+        en:register_event("on_lit",function()
+          light:set_enabled(true)
+        end)
+        light:set_enabled(en:is_lit())
+      end
+      if en:get_model() == "ocarina_path" then
+        local tx,ty,tl = en:get_position()
+        local tw,th = en:get_size()
+        local yoff = -8
+        local light = create_light(map,tx+tw*0.5,ty+th*0.5+yoff,tl,default_radius,default_color)
+        if en:get_sprite():get_animation() == "linked" then
+          light:set_enabled(true)
+        else
+          light:set_enabled(false)
+        end
       end
     end
-  end
-
-  --generate lights for dynamic torches
-  for en in map:get_entities_by_type("custom_entity") do
-    if en:get_model() == "torch" then
-      local tx,ty,tl = en:get_position()
-      local tw,th = en:get_size()
-      local yoff = -8
-      local light = create_light(map,tx+tw*0.5,ty+th*0.5+yoff,tl,default_radius,default_color)
-      en:register_event("on_unlit",function()
-                          light:set_enabled(false)
-      end)
-      en:register_event("on_lit",function()
-                          light:set_enabled(true)
-      end)
-      light:set_enabled(en:is_lit())
-    end
-    if en:get_model() == "ocarina_path" then
-      local tx,ty,tl = en:get_position()
-      local tw,th = en:get_size()
-      local yoff = -8
-      local light = create_light(map,tx+tw*0.5,ty+th*0.5+yoff,tl,default_radius,default_color)
-      if en:get_sprite():get_animation() == "linked" then
-        light:set_enabled(true)
-      else
-        light:set_enabled(false)
-      end
-    end
-  end
+  end)
 end
 
 function fsa:on_map_changed(map)

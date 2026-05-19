@@ -123,6 +123,39 @@ function dungeon_manager:create(game)
         savegame_variable = "get_trophy_10017",
       }
     },
+    [10021] = {
+      lowest_floor = 0,
+      highest_floor = 0,
+      maps = { "creations/labors/retranscriptions/eagle_ruins/RDC","creations/labors/retranscriptions/eagle_ruins/SS1" },
+      key_item = {
+        floor = 0,
+        x = 1840 + 4160 - 440,
+        y = 1400 - 520,
+        savegame_variable = "get_trophy_10021",
+      }
+    },
+    [10022] = {
+      lowest_floor = -1,
+      highest_floor = 1,
+      maps = { "creations/labors/retranscriptions/parapa_palace/1ET", "creations/labors/retranscriptions/parapa_palace/RDC", "creations/labors/retranscriptions/parapa_palace/SS1" },
+      key_item = {
+        floor = -1,
+        x = 1840 + 3520 - 440,
+        y = 1400 - 500,
+        savegame_variable = "get_trophy_10022",
+      }
+    },
+    [10023] = {
+      lowest_floor = 0,
+      highest_floor = 0,
+      maps = { "creations/labors/retranscriptions/moon_ruins/RDC" },
+      key_item = {
+        floor = 0,
+        x = 1840 + 3200 - 440,
+        y = 1400 - 1000,
+        savegame_variable = "get_trophy_10023",
+      }
+    },
   }
 
   -- Returns the index of the current dungeon if any, or nil.

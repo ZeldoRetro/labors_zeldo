@@ -49,12 +49,12 @@ function bomb:launch_this_collision()
 end
 bomb:launch_this_collision()
 
-function bomb:on_finish_throw()
+bomb:register_event("on_finish_throw", function(carriable, direction)
   on_a_stream = nil
   bomb:launch_this_collision()
-end
+end)
 
-bomb:register_event("on_thrown", function(bomb)
+bomb:register_event("on_thrown", function(carriable, direction)
   on_a_stream = nil
   bomb:clear_collision_tests()
 end)

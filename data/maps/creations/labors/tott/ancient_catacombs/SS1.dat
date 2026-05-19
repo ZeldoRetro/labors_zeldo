@@ -15110,29 +15110,11 @@ dynamic_tile{
 }
 
 separator{
-  name = "auto_separator_10",
-  layer = 2,
-  x = 952,
-  y = 1192,
-  width = 16,
-  height = 256,
-}
-
-separator{
   name = "auto_separator_12",
   layer = 2,
   x = 1272,
   y = 712,
   width = 656,
-  height = 16,
-}
-
-separator{
-  name = "auto_separator_14",
-  layer = 2,
-  x = 968,
-  y = 712,
-  width = 304,
   height = 16,
 }
 
@@ -15522,5 +15504,59 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+custom_entity{
+  name = "init_map",
+  layer = 2,
+  x = -8,
+  y = -3,
+  properties = {
+    {
+      key = "location_key",
+      value = "dungeon_10002.name",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+separator{
+  name = "auto_separator_10",
+  layer = 2,
+  x = 952,
+  y = 1208,
+  properties = {
+    {
+      key = "secret_separator",
+      value = "true",
+    },
+    {
+      key = "direction_trigger",
+      value = "0",
+    },
+  },
+  width = 16,
+  height = 240,
+}
+
+separator{
+  name = "auto_separator_14",
+  layer = 2,
+  x = 968,
+  y = 712,
+  properties = {
+    {
+      key = "secret_separator",
+      value = "true",
+    },
+    {
+      key = "direction_trigger",
+      value = "3",
+    },
+  },
+  width = 304,
+  height = 16,
 }
 

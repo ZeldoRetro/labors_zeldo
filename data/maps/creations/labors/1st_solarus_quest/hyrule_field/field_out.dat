@@ -66473,21 +66473,6 @@ dynamic_tile{
   tileset = "outside_buildings",
 }
 
-npc{
-  name = "iron_door_npc",
-  layer = 0,
-  x = 336,
-  y = 805,
-  properties = {
-    {
-      key = "disable_if_value",
-      value = "iron_door_10016_opened",
-    },
-  },
-  direction = 1,
-  subtype = 0,
-}
-
 dynamic_tile{
   name = "invisible_tile_73",
   layer = 0,
@@ -67709,6 +67694,56 @@ npc{
   subtype = 1,
   sprite = "npc/soldier_intro",
   behavior = "dialog#hyrule_city.soldiers.castle_weird_bush",
+}
+
+dynamic_tile{
+  name = "iron_door_3",
+  layer = 0,
+  x = 336,
+  y = 784,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "iron_door_10016_opened",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "6212",
+  tileset = "outside_buildings",
+}
+
+dynamic_tile{
+  name = "iron_door_4",
+  layer = 0,
+  x = 328,
+  y = 784,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "iron_door_10016_opened",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "6213",
+  tileset = "outside_buildings",
+}
+
+npc{
+  name = "iron_door_npc",
+  layer = 0,
+  x = 336,
+  y = 797,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "iron_door_10016_opened",
+    },
+  },
+  direction = 1,
+  subtype = 0,
+  sprite = "entities/Doors/Outside/iron_lock",
 }
 
 tile{
@@ -80271,40 +80306,6 @@ dynamic_tile{
   pattern = "958",
 }
 
-dynamic_tile{
-  name = "iron_door_3",
-  layer = 1,
-  x = 336,
-  y = 784,
-  properties = {
-    {
-      key = "disable_if_value",
-      value = "iron_door_10016_opened",
-    },
-  },
-  width = 8,
-  height = 16,
-  pattern = "6212",
-  tileset = "outside_buildings",
-}
-
-dynamic_tile{
-  name = "iron_door_4",
-  layer = 1,
-  x = 328,
-  y = 784,
-  properties = {
-    {
-      key = "disable_if_value",
-      value = "iron_door_10016_opened",
-    },
-  },
-  width = 8,
-  height = 16,
-  pattern = "6213",
-  tileset = "outside_buildings",
-}
-
 npc{
   layer = 1,
   x = 976,
@@ -80530,6 +80531,16 @@ npc{
   layer = 1,
   x = 296,
   y = 533,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/no_character/sign01",
+}
+
+npc{
+  name = "night_entity_sign",
+  layer = 1,
+  x = 144,
+  y = 1797,
   direction = 3,
   subtype = 0,
   sprite = "npc/no_character/sign01",

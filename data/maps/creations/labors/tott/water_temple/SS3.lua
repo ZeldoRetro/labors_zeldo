@@ -1,13 +1,5 @@
 local map = ...
 local game = map:get_game()
-local music_map = map:get_music()
-
-local door_manager = require("maps/lib/door_manager")
-door_manager:manage_map(map)
-local chest_manager = require("maps/lib/chest_manager")
-chest_manager:manage_map(map)
-local separator_manager = require("maps/lib/separator_manager")
-separator_manager:manage_map(map)
 
 for block in map:get_entities("block_puzzle_1_") do
   function block:on_moved()
@@ -25,7 +17,7 @@ end
 
 
 --DEBUT DE LA MAP
-function map:on_started()
+map:register_event("on_started", function(map, destination)
   --Initialisation de base
   map:set_entities_enabled("auto_chest",false)
   block_code_1:get_sprite():set_direction(block_code_1:get_max_moves())
@@ -177,7 +169,7 @@ function map:on_started()
     }
   else map:set_doors_open("door_boss_1") boss:set_enabled(false) end
 
-end
+end)
 
 --ACTIVATION DES INTERRUPTEURS ET GESTION DU NIVEAU DE L'EAU
 function switch_water_remove_1:on_activated()

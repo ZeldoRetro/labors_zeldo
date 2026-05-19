@@ -51,7 +51,7 @@ local char_delays = {
   fast = 20  -- Default.
 }
 local letter_sound_delay = 100
-local box_width = 220
+local box_width = 236
 local box_height = 60
 
 -- Initializes the dialog box system.
@@ -184,7 +184,7 @@ function dialog_box:on_started()
   -- Determine the position of the dialog box on the screen.
   local map = game:get_map()
   local camera_x, camera_y = map:get_camera():get_position()
-  local camera_width, camera_height = map:get_camera():get_size()
+  local camera_width, camera_height = sol.video.get_quest_size()
   local top = false
   if self.vertical_position == "top" then
     top = true
@@ -196,7 +196,7 @@ function dialog_box:on_started()
   end
 
   -- Set the coordinates of graphic objects.
-  local x = camera_width / 2 - 110
+  local x = camera_width / 2 - 118
   local y = top and 32 or (camera_height - 96)
 
   if self.style == "empty" then
@@ -600,7 +600,7 @@ function dialog_box:on_draw(dst_surface)
 
   -- Draw the end message arrow.
   if self:is_full() then
-    self.end_lines_sprite:draw(self.dialog_surface, x + 103, y + 56)
+    self.end_lines_sprite:draw(self.dialog_surface, x + 110, y + 56)
   end
 
   -- Final blit.

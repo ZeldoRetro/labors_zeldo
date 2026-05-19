@@ -5783,6 +5783,32 @@ tile{
   pattern = "2761",
 }
 
+wall{
+  layer = 1,
+  x = 1488,
+  y = 1216,
+  width = 8,
+  height = 80,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 1384,
+  y = 1216,
+  width = 8,
+  height = 80,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
 dynamic_tile{
   name = "water_middle_2_5",
   layer = 1,
@@ -7264,9 +7290,9 @@ wall{
 wall{
   layer = 1,
   x = 1488,
-  y = 1216,
+  y = 1344,
   width = 8,
-  height = 176,
+  height = 48,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -7290,9 +7316,9 @@ wall{
 wall{
   layer = 1,
   x = 1384,
-  y = 1216,
+  y = 1344,
   width = 8,
-  height = 176,
+  height = 48,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -7320,26 +7346,6 @@ jumper{
   width = 8,
   height = 112,
   direction = 0,
-  jump_length = 40,
-}
-
-jumper{
-  layer = 1,
-  x = 1384,
-  y = 1272,
-  width = 8,
-  height = 72,
-  direction = 0,
-  jump_length = 40,
-}
-
-jumper{
-  layer = 1,
-  x = 1488,
-  y = 1272,
-  width = 8,
-  height = 72,
-  direction = 4,
   jump_length = 40,
 }
 
@@ -7521,16 +7527,6 @@ enemy{
   enabled_at_start = false,
   direction = 3,
   breed = "soldier_simple_green",
-  treasure_name = "pickable/random_heart_magic",
-}
-
-enemy{
-  layer = 1,
-  x = 1120,
-  y = 1133,
-  enabled_at_start = false,
-  direction = 3,
-  breed = "soldier_green",
   treasure_name = "pickable/random_heart_magic",
 }
 
@@ -8403,6 +8399,173 @@ dynamic_tile{
   height = 16,
   pattern = "symbol.bow",
   tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 1384,
+  y = 1296,
+  width = 112,
+  height = 48,
+  pattern = "abyss_bridge",
+}
+
+wall{
+  layer = 1,
+  x = 1376,
+  y = 1184,
+  width = 8,
+  height = 32,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 1,
+  x = 1496,
+  y = 1184,
+  width = 8,
+  height = 32,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 1,
+  x = 1496,
+  y = 1272,
+  width = 8,
+  height = 72,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 1,
+  x = 1376,
+  y = 1272,
+  width = 8,
+  height = 72,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  name = "water_low_7",
+  layer = 1,
+  x = 1384,
+  y = 1288,
+  width = 24,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  name = "water_low_8",
+  layer = 1,
+  x = 1472,
+  y = 1288,
+  width = 24,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  name = "water_low_9",
+  layer = 1,
+  x = 1472,
+  y = 1344,
+  width = 24,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  name = "water_low_10",
+  layer = 1,
+  x = 1384,
+  y = 1344,
+  width = 24,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+jumper{
+  layer = 1,
+  x = 1384,
+  y = 1272,
+  width = 8,
+  height = 24,
+  direction = 0,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 1,
+  x = 1488,
+  y = 1272,
+  width = 8,
+  height = 24,
+  direction = 4,
+  jump_length = 40,
+}
+
+jumper{
+  name = "water_low_5",
+  layer = 1,
+  x = 1408,
+  y = 1288,
+  width = 64,
+  height = 8,
+  direction = 2,
+  jump_length = 16,
+}
+
+jumper{
+  name = "water_low_6",
+  layer = 1,
+  x = 1408,
+  y = 1344,
+  width = 64,
+  height = 8,
+  direction = 6,
+  jump_length = 16,
+}
+
+enemy{
+  layer = 1,
+  x = 1080,
+  y = 1133,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldier_simple_green",
+  treasure_name = "pickable/random_heart_magic",
+}
+
+enemy{
+  layer = 1,
+  x = 1160,
+  y = 1133,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldier_simple_green",
+  treasure_name = "pickable/random_heart_magic",
 }
 
 tile{

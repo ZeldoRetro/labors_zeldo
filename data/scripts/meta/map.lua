@@ -3,39 +3,6 @@
 require("scripts/multi_events")
 
 local map_meta = sol.main.get_metatable("map")
-     
--- SYSTEME DE JOUR/NUIT
-
--- Crépuscule (+ aube avec effet soleil levant)
-local twilight = sol.surface.create(320,240)
-twilight:set_blend_mode("multiply")
-twilight:fill_color({244, 116, 0})
-local twilight_surface_yellow = sol.surface.create(320,240)
-twilight_surface_yellow:set_blend_mode("add")
-twilight_surface_yellow:fill_color({63, 42, 0})
-local twilight_surface_red = sol.surface.create(320,240)
-twilight_surface_red:set_blend_mode("multiply")
-twilight_surface_red:fill_color({255, 173, 226})
-
--- Nuit
-local night_surface = sol.surface.create(320,240)
-night_surface:set_blend_mode("multiply")
-night_surface:fill_color({0, 33, 164})
-
-map_meta:register_event("on_draw",function(map,dst_surface)
-  local game = map:get_game()
-  local hero = map:get_hero()
-
-  -- LUMIÈRE CRÉPUSCULE
-  if game:get_map():is_outside() then
-    if game:get_value("twilight") then
-      twilight:draw(dst_surface) 
-      --twilight_surface_red:draw(dst_surface) 
-      twilight_surface_yellow:draw(dst_surface)
-    end
-  end
-end)
-
 
 local ceiling_drop_manager = require("scripts/ceiling_drop_manager")
 for _, entity_type in pairs({"hero"}) do
@@ -175,11 +142,20 @@ map_meta:register_event("on_started",function(map, destination)
     elseif tonumber(map:get_entity("init_map"):get_property("shadow_degree")) == 2 then
       game:set_value("dark_room",true)
       sol.timer.start(map,10,function() game:set_value("dark_room",false) end)
-    end
+    else game:set_value("dark_room", tonumber(map:get_entity("init_map"):get_property("shadow_degree"))) end
+  end
+  if destination ~= nil and destination:get_property("dark_tone") ~= nil then
+    game:set_value("dark_room",tonumber(destination:get_property("dark_tone")))
   end
 
   -- Initialisation map intérieure
   if map:is_inside() then
+
+    -- Camera pour 16/9 : Bandes noires dans les intérieurs (sauf exception)
+    if map:get_entity("EXCEPTION_16/9_display") == nil then
+      map:get_camera():set_size(320,240)
+      map:get_camera():set_position_on_screen(56,0)
+    end
 
     -- Donjon
     -- Boss vaincu et conteneur de coeur disponible
@@ -201,10 +177,10 @@ map_meta:register_event("on_started",function(map, destination)
     -- Système jour/nuit: entités actives ou non
     if game:get_value("day") or game:get_value("twilight") then
       -- Jour/Crépuscule
-      map:set_entities_enabled("night_entity",false)
+      for entity in map:get_entities("night_entity") do entity:remove() end
     elseif game:get_value("night") or game:get_value("dawn") then
       -- Nuit/Aube
-      map:set_entities_enabled("day_entity",false)
+      for entity in map:get_entities("day_entity") do entity:remove() end
     end
   end
 
@@ -228,12 +204,12 @@ map_meta:register_event("on_started",function(map, destination)
     if game:get_value("day") or game:get_value("twilight") then
       -- Jour/Crépuscule
       if map:get_entity("EXCEPTION_outside") == nil then sol.audio.play_music(music_map) end
-      map:set_entities_enabled("night_entity",false)
-      map:set_entities_enabled("fairy_power_fragment",false)
+      for entity in map:get_entities("night_entity") do entity:remove() end
+      for entity in map:get_entities("fairy_power_fragment") do entity:remove() end
     elseif game:get_value("night") or game:get_value("dawn") then
       -- Nuit/Aube
       if map:get_entity("EXCEPTION_outside") == nil then sol.audio.play_music(music_map.."_night") end
-      map:set_entities_enabled("day_entity",false)
+      for entity in map:get_entities("day_entity") do entity:remove() end
     end
   end
 
@@ -252,7 +228,8 @@ map_meta:register_event("on_opening_transition_finished",function(map)
   -- Temps qui passe
   if map:is_outside() and game:get_value("timelapse") then
     sol.timer.start(30000, function() 
-      daytime_increment = true 
+      daytime_increment = true
+      game:set_value("daytime_tone_done", false)
       sol.audio.play_sound("time_cycle")
     end)
   end
@@ -331,12 +308,15 @@ end)
 
 map_meta:register_event("on_finished", function(map)
   local game = map:get_game()
+
+  -- Reset misc variables
   texte_lieu_on = false
   nb_torches_lit = 0
   temporary_torches = false
-
   hero_slowed = false
   map:get_hero():set_walking_speed(88)
+  local x, y, layer = map:get_hero():get_position()
+  game:set_value("hero_layer", layer)
 
   -- Système jour/nuit: Temps qui passe
   if daytime_increment then

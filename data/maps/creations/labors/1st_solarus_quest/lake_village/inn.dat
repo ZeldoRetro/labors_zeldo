@@ -971,7 +971,8 @@ tile{
   y = 264,
   width = 32,
   height = 16,
-  pattern = "painting",
+  pattern = "14_12",
+  tileset = "inside_other",
 }
 
 tile{
@@ -980,7 +981,8 @@ tile{
   y = 24,
   width = 32,
   height = 16,
-  pattern = "painting",
+  pattern = "14_11",
+  tileset = "inside_other",
 }
 
 tile{
@@ -1538,17 +1540,6 @@ npc{
   sprite = "entities/snores",
 }
 
-chest{
-  name = "invisible_path_1",
-  layer = 1,
-  x = 216,
-  y = 413,
-  treasure_name = "pickable/rupee",
-  treasure_variant = 4,
-  treasure_savegame_variable = "rupees_10012_3",
-  sprite = "entities/Chests/chest_LttP",
-}
-
 npc{
   name = "night_entity_1",
   layer = 1,
@@ -1590,6 +1581,33 @@ npc{
   subtype = 1,
   sprite = "npc/castle_guard_blue",
   behavior = "dialog#LABORS.1st_solarus_quest.lake_village.bodyguard_intendant",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 208,
+  y = 400,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "rupees_10012_3",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+chest{
+  name = "invisible_path_1",
+  layer = 1,
+  x = 216,
+  y = 413,
+  treasure_name = "pickable/rupee",
+  treasure_variant = 4,
+  treasure_savegame_variable = "rupees_10012_3",
+  sprite = "entities/Chests/chest_LttP",
 }
 
 tile{

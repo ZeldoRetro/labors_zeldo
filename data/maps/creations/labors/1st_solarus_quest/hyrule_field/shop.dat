@@ -3783,6 +3783,15 @@ tile{
   pattern = "floor_small.1",
 }
 
+tile{
+  layer = 1,
+  x = 584,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "475",
+}
+
 wall{
   layer = 1,
   x = 1024,
@@ -4356,12 +4365,6 @@ switch{
   inactivate_when_leaving = false,
 }
 
-pickable{
-  layer = 1,
-  x = 592,
-  y = 61,
-}
-
 wall{
   layer = 1,
   x = 632,
@@ -4400,7 +4403,8 @@ dynamic_tile{
   y = 264,
   width = 32,
   height = 16,
-  pattern = "painting",
+  pattern = "14_2",
+  tileset = "inside_other",
 }
 
 sensor{

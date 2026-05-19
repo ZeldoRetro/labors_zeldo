@@ -17940,3 +17940,13 @@ separator{
   height = 16,
 }
 
+custom_entity{
+  name = "EXCEPTION_inside",
+  layer = 2,
+  x = -8,
+  y = 13,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+

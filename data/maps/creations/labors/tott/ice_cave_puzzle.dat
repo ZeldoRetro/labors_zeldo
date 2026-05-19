@@ -4234,7 +4234,7 @@ wall{
 }
 
 block{
-  name = "auto_block_knight_7",
+  name = "block_ice_7",
   layer = 1,
   x = 128,
   y = 397,
@@ -4244,7 +4244,7 @@ block{
 }
 
 block{
-  name = "auto_block_knight_8",
+  name = "block_ice_8",
   layer = 1,
   x = 192,
   y = 397,
@@ -4254,7 +4254,7 @@ block{
 }
 
 block{
-  name = "auto_block_knight_9",
+  name = "block_ice_9",
   layer = 1,
   x = 192,
   y = 333,
@@ -4340,7 +4340,7 @@ wall{
 }
 
 block{
-  name = "auto_block_knight_4",
+  name = "block_ice_4",
   layer = 1,
   x = 136,
   y = 869,
@@ -4350,7 +4350,7 @@ block{
 }
 
 block{
-  name = "auto_block_knight_5",
+  name = "block_ice_5",
   layer = 1,
   x = 184,
   y = 869,
@@ -4360,7 +4360,7 @@ block{
 }
 
 block{
-  name = "auto_block_knight_6",
+  name = "block_ice_6",
   layer = 1,
   x = 184,
   y = 821,
@@ -4418,7 +4418,7 @@ switch{
 }
 
 block{
-  name = "auto_block_knight_2",
+  name = "block_ice_2",
   layer = 1,
   x = 176,
   y = 637,
@@ -4428,7 +4428,7 @@ block{
 }
 
 block{
-  name = "auto_block_knight_3",
+  name = "block_ice_3",
   layer = 1,
   x = 176,
   y = 573,
@@ -4514,7 +4514,7 @@ teletransporter{
 }
 
 block{
-  name = "auto_block_knight_1",
+  name = "block_ice_1",
   layer = 1,
   x = 144,
   y = 637,
@@ -5059,5 +5059,21 @@ custom_entity{
   height = 16,
   direction = 1,
   model = "light",
+}
+
+custom_entity{
+  name = "init_map",
+  layer = 2,
+  x = -8,
+  y = -3,
+  properties = {
+    {
+      key = "location_key",
+      value = "location.tott.ice_cavern",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 

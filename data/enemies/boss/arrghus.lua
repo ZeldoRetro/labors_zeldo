@@ -59,3 +59,7 @@ end
 function enemy:on_hurt()
   if self:get_map():get_entities_count("bari_") <= 3 then invoke_baris() end
 end
+
+enemy:register_event("on_dying", function(enemy)
+  enemy:get_map():set_entities_enabled("bari_", false)
+end)

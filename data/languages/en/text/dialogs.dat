@@ -1587,13 +1587,10 @@ to admire it at your leisure.
 Try to match the various
 icons to the items listed in
 the numeric lists. Have fun.
-By the way, I just noticed a
-mistake in the menu. There is one
-item that is not at max status.
-Can you find which one ?
-I will offer an EXCLUSIVE
-screenshot to those who find it.
-Contact me :P
+This menu has a few errors besides.
+Is that, once again, part of
+Zeldo's genius?
+Who knows...
 ]],
 }
 
@@ -2679,6 +2676,14 @@ dialog{
 Zzzz... Zzzz...$0
 (He's sleeping peacefully. It's
 better to leave him alone.)
+]],
+}
+
+dialog{
+  id = "LABORS.tott.abuda.terry",
+  skip = "current",
+  text = [[
+You shouldn't be here.
 ]],
 }
 
@@ -4963,6 +4968,19 @@ and without risk !
 }
 
 dialog{
+  id = "_treasure.inventory/bow_PLAYER.1",
+  icon = "228",
+  text = [[
+Will you truly be able
+to wield this Bow ?$0
+
+In any case, there's no
+time to lose !
+Defeat that Carnavalous !
+]],
+}
+
+dialog{
   id = "_treasure.inventory/bow_light.1",
   icon = "2",
   text = [[
@@ -6211,6 +6229,61 @@ additional Remembrance Shards.
 
 dialog{
   id = "_treasure.quest_items/remembrance_shard_none.4",
+  icon = "233",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Crystal !
+
+This artifact gives you 25
+additional Remembrance Shards.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_retranscriptions.1",
+  icon = "230",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Shard !
+
+These mysterious shards were
+scattered in Zeldo's
+Labors...
+You'll need them to
+materialize Gallery Keys.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_retranscriptions.2",
+  icon = "231",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Stone !
+
+This artifact gives you 5
+additional Remembrance Shards.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_retranscriptions.3",
+  icon = "232",
+  skip = "all",
+  text = [[
+You found a Remembrance
+Gem !
+
+This artifact gives you 10
+additional Remembrance Shards.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_retranscriptions.4",
   icon = "233",
   skip = "all",
   text = [[
@@ -9138,6 +9211,16 @@ dialog{
 North : Illusion Woods
 West : Hylia Lake
 East : Hyrule Field
+]],
+}
+
+dialog{
+  id = "sign.labors.1st_solarus_quest.merchant_closed",
+  skip = "current",
+  text = [[
+Closed for the moment.
+Come back when daytime.
+It could be useful...
 ]],
 }
 

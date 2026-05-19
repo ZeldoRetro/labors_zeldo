@@ -2,7 +2,7 @@ local map = ...
 local game = map:get_game()
 
 --TEMPS SOMBRE LORS DE LA ZONE DU CHÂTEAU
-local dark_img = sol.surface.create(320,240)
+local dark_img = sol.surface.create(432,240)
 dark_img:set_opacity(192)
 dark_img:fill_color({0, 0, 0})
 local dark = false
@@ -108,6 +108,11 @@ map:register_event("on_started",function(map, destination)
   end
 
 end)
+
+function night_entity_sign:on_interaction()
+  game:set_dialog_style("wood")
+  game:start_dialog("sign.labors.1st_solarus_quest.merchant_closed")
+end
 
 -- MARCHAND AMBULANT: BIENVENUE ET AUTRES
 function day_entity_shop_welcome:on_activated()

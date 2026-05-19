@@ -30,6 +30,7 @@ pike_ground:add_collision_test("center", function(pike_ground, entity)
   end
 
   local hero = entity
+  local game = hero:get_game()
 
   if hero:is_invincible() then
     return
@@ -40,6 +41,8 @@ pike_ground:add_collision_test("center", function(pike_ground, entity)
     return
   end
 
-	entity:get_game():remove_life(3)
-  hero:start_hurt(1)
+  game:remove_life(4)
+  hero:set_blinking(true, 1000)
+  hero:set_invincible(true, 1000)
+  hero:on_taking_damage(0)
 end)

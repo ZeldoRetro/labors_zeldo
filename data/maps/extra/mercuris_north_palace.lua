@@ -25,10 +25,10 @@ game:set_value("defense",2)
 if game:get_value("tott_upgrade_card_force_active") then local force = game:get_value("force") game:set_value("force", force + 1) end
 if game:get_value("tott_upgrade_card_defense_active") then local defense = game:get_value("defense") game:set_value("defense", defense + 1) end
 
-function map:on_started()
+map:register_event("on_started", function(map, destination)
   music:play()
   music:set_stage("main")
-end
+end)
 
 function music_stage_main:on_activated()
   music:set_stage("main")

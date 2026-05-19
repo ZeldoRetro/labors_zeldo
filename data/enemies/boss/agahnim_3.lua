@@ -75,6 +75,7 @@ end
 function enemy:on_restarted()
 
   vulnerable = false
+  enemy:set_can_attack(false)
 
   if not final_phase then
     sprite:set_animation("stopped")
@@ -110,6 +111,7 @@ end
 
 function enemy:fire_step_1()
 
+  enemy:set_can_attack(true)
   sprite:set_animation("arms_up")
   sol.timer.start(self, 1000, function() self:fire_step_2() end)
 end

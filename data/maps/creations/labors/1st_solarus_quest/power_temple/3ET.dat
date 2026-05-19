@@ -8500,3 +8500,163 @@ stream{
   allow_item = false,
 }
 
+stream{
+  layer = 4,
+  x = 2064,
+  y = 1101,
+  direction = 5,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 2096,
+  y = 1101,
+  direction = 7,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 2096,
+  y = 1069,
+  direction = 1,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 2064,
+  y = 1069,
+  direction = 3,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 2080,
+  y = 1101,
+  direction = 6,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 2080,
+  y = 1069,
+  direction = 2,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 2096,
+  y = 1085,
+  direction = 0,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 2064,
+  y = 1085,
+  direction = 4,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 784,
+  y = 1101,
+  direction = 5,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 816,
+  y = 1101,
+  direction = 7,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 816,
+  y = 1069,
+  direction = 1,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 784,
+  y = 1069,
+  direction = 3,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 800,
+  y = 1101,
+  direction = 6,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 800,
+  y = 1069,
+  direction = 2,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 816,
+  y = 1085,
+  direction = 0,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 4,
+  x = 784,
+  y = 1085,
+  direction = 4,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+

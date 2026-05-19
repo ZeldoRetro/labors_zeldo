@@ -49,6 +49,10 @@ map:register_event("on_started",function(map, destination)
   game:get_item("inventory/bow_light"):set_variant(0)
   game:get_item("inventory/echange_1st_solarus_quest"):set_variant(0)
 
+  -- Objets PLAYER
+  if game:get_value("zeldo_wave_1_defeated") then game:get_item("equipment/sword_PLAYER"):set_variant(1) end
+  if game:get_value("zeldo_wave_2_defeated") then game:get_item("inventory/bow_PLAYER"):set_variant(1) end
+
   -- Variables diverses
   game:set_value("dungeon_10017_initialized", false)
 
@@ -399,9 +403,16 @@ for npc in map:get_entities("npc_frame_") do
   end
 end
 
-function map:on_finished()
+-- INIT DRAW CADRES + ENLEVER OBJETS PLAYER QUAND VERS ZONE DE TRAVAUX
+map:register_event("on_finished",function(map)
   function sol.video:on_draw(screen) end
-end
+
+  local hero_x, hero_y = map:get_hero():get_position()
+  if hero_x < 776 or hero_y > 720 or hero_x > 824 then
+    game:get_item("equipment/sword_PLAYER"):set_variant(0)
+    game:get_item("inventory/bow_PLAYER"):set_variant(0)
+  end
+end)
 
 -- SALLE VERTE : COMMENTAIRES DU DÉVELOPPEUR
 function open_weblink_dev_commentary:on_activated()

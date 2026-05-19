@@ -324,7 +324,7 @@ animation{
     { x = 203, y = 560, frame_width = 17, frame_height = 17, origin_x = -203, origin_y = -80 },
     { x = 219, y = 560, frame_width = 17, frame_height = 17, origin_x = -219, origin_y = -80 },
     { x = 235, y = 560, frame_width = 17, frame_height = 17, origin_x = -235, origin_y = -80 },
-    { x = 251, y = 560, frame_width = 17, frame_height = 17, origin_x = -251, origin_y = -80 },
+    { x = 283, y = 592, frame_width = 17, frame_height = 17, origin_x = -251, origin_y = -80 },
     { x = 267, y = 560, frame_width = 17, frame_height = 17, origin_x = -267, origin_y = -80 },
     { x = 283, y = 240, frame_width = 17, frame_height = 17, origin_x = -283, origin_y = -80 },
     { x = 171, y = 256, frame_width = 17, frame_height = 17, origin_x = -171, origin_y = -96 },

@@ -1,9 +1,9 @@
 local map = ...
 local game = map:get_game()
 
-function map:on_started()
+map:register_event("on_started", function(map, destination)
   if game:get_value("labors_tott_minigame_hookshot_stolen") then steal_sensor:set_enabled(false) end
-end
+end)
 
 function steal_sensor:on_activated()
   if game:get_value("labors_tott_minigame_hookshot_stolen") then

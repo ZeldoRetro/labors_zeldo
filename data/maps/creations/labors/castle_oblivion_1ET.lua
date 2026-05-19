@@ -1,7 +1,7 @@
 local map = ...
 local game = map:get_game()
 
-local light_img = sol.surface.create(320,240)
+local light_img = sol.surface.create(432,240)
 light_img:fill_color({255, 255, 255})
 local light = false
 
@@ -95,7 +95,7 @@ function sensor_intro:on_activated()
   end)
 end
 
-local light_img = sol.surface.create(320,240)
+local light_img = sol.surface.create(432,240)
 light_img:fill_color({255, 255, 255})
 local light = false
 

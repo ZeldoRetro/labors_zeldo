@@ -22943,3 +22943,23 @@ tile{
   tileset = "outside_other",
 }
 
+custom_entity{
+  name = "init_map",
+  layer = 2,
+  x = -8,
+  y = -3,
+  properties = {
+    {
+      key = "timelapse",
+      value = "true",
+    },
+    {
+      key = "music_map",
+      value = "creations/labors/tott/field",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+

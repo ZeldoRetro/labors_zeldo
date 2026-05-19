@@ -8750,58 +8750,6 @@ dynamic_tile{
   pattern = "2761",
 }
 
-custom_entity{
-  name = "definitive_auto_timed_torch_auto_door_5_1",
-  layer = 1,
-  x = 408,
-  y = 605,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/Torches/torch",
-  model = "torch",
-}
-
-custom_entity{
-  name = "definitive_auto_timed_torch_auto_door_5_2",
-  layer = 1,
-  x = 568,
-  y = 781,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/Torches/torch",
-  model = "torch",
-}
-
-custom_entity{
-  name = "definitive_auto_timed_torch_auto_door_5_3",
-  layer = 1,
-  x = 888,
-  y = 605,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/Torches/torch",
-  model = "torch",
-}
-
-custom_entity{
-  name = "definitive_auto_timed_torch_auto_door_5_4",
-  layer = 1,
-  x = 696,
-  y = 909,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/Torches/torch",
-  model = "torch",
-}
-
 destructible{
   name = "casual_entity_2",
   layer = 1,

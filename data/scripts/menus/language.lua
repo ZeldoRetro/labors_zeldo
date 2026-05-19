@@ -5,7 +5,7 @@ local language_menu = {}
 
 local language_manager = require("scripts/language_manager")
 
-local background_img = sol.surface.create(320,240)
+local background_img = sol.surface.create(432,240)
 background_img:fill_color({255,255,255})
 
 function language_menu:on_started()
@@ -14,6 +14,10 @@ function language_menu:on_started()
     -- A language is already set: skip this screen.
     sol.menu.stop(self)
   else
+
+    -- Set Music and Sound volume to 50 on 1st boot
+    sol.audio.set_music_volume(50)
+    sol.audio.set_sound_volume(50)
 
     local ids = sol.language.get_languages()
     local index = 1

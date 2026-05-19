@@ -25231,21 +25231,6 @@ dynamic_tile{
 }
 
 npc{
-  name = "iron_door_npc",
-  layer = 0,
-  x = 192,
-  y = 229,
-  properties = {
-    {
-      key = "disable_if_value",
-      value = "iron_door_10012_opened",
-    },
-  },
-  direction = 3,
-  subtype = 0,
-}
-
-npc{
   name = "day_entity_trade_npc",
   layer = 0,
   x = 664,
@@ -25729,6 +25714,66 @@ npc{
   subtype = 1,
   sprite = "npc/drunk_man",
   behavior = "dialog#LABORS.1st_solarus_quest.lake_village.drunk_man",
+}
+
+dynamic_tile{
+  name = "iron_door_3",
+  layer = 0,
+  x = 192,
+  y = 208,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "iron_door_10012_opened",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "6212",
+  tileset = "outside_buildings",
+}
+
+dynamic_tile{
+  name = "iron_door_4",
+  layer = 0,
+  x = 184,
+  y = 208,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "iron_door_10012_opened",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "6213",
+  tileset = "outside_buildings",
+}
+
+npc{
+  name = "iron_door_npc",
+  layer = 0,
+  x = 192,
+  y = 229,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "iron_door_10012_opened",
+    },
+  },
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/Doors/Outside/iron_lock",
+}
+
+npc{
+  name = "night_entity_sign",
+  layer = 0,
+  x = 1592,
+  y = 821,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/no_character/sign01",
 }
 
 tile{
@@ -29531,40 +29576,6 @@ dynamic_tile{
   height = 16,
   pattern = "27",
   tileset = "outside_other",
-}
-
-dynamic_tile{
-  name = "iron_door_3",
-  layer = 1,
-  x = 192,
-  y = 208,
-  properties = {
-    {
-      key = "disable_if_value",
-      value = "iron_door_10012_opened",
-    },
-  },
-  width = 8,
-  height = 16,
-  pattern = "6212",
-  tileset = "outside_buildings",
-}
-
-dynamic_tile{
-  name = "iron_door_4",
-  layer = 1,
-  x = 184,
-  y = 208,
-  properties = {
-    {
-      key = "disable_if_value",
-      value = "iron_door_10012_opened",
-    },
-  },
-  width = 8,
-  height = 16,
-  pattern = "6213",
-  tileset = "outside_buildings",
 }
 
 tile{

@@ -113,6 +113,11 @@ function day_entity_trade_npc:on_interaction_item(item)
   end
 end
 
+function night_entity_sign:on_interaction()
+  game:set_dialog_style("wood")
+  game:start_dialog("sign.labors.1st_solarus_quest.merchant_closed")
+end
+
 -- PORTE DE FER : BESOIN DE LA CLÉ DE FER POUR OUVRIR
 function iron_door_npc:on_interaction()
   if game:get_value("get_iron_key_10012") then

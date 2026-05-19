@@ -32,7 +32,7 @@ local made_by_fans_line2
 local made_by_fans_line3
 local menu_items
 
-local background_img = sol.surface.create(320,240)
+local background_img = sol.surface.create(432,240)
 background_img:fill_color({255,255,255})
 
 -- Initialize the menu.

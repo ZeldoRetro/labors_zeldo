@@ -1,7 +1,6 @@
 local map = ...
 game = map:get_game()
 
-
 -- HOMME ASSIS SE SOUVIENT D'AVOIR ÉTÉ VOLÉ DANS LA VAGUE 1 : TE TUE
 function day_entity_1:on_interaction()
     if game:get_value("labors_tott_minigame_hookshot_stolen") and not game:get_value("labors_1st_solarus_quest_minigame_man_had_fun") then

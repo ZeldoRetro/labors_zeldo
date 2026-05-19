@@ -2,7 +2,7 @@ local map = ...
 local game = map:get_game()
 
 --DEBUT DE LA MAP
-function map:on_started()
+map:register_event("on_started", function(map, destination)
 
   --Etat des interrupteurs d'eau suivant le niveau de l'eau
   map:set_entities_enabled("water_middle",false)
@@ -12,7 +12,7 @@ function map:on_started()
     map:set_entities_enabled("water_high",false)
     map:set_entities_enabled("water_flux",false)
   else map:set_entities_enabled("water_low",false) end
-end
+end)
 
 --DIALOGUES AVEC TIM : VIDER L'EAU CONTRE UN COQUILLAGE
 function tim:on_interaction()

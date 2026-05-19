@@ -1,24 +1,8 @@
 local map = ...
 local game = map:get_game()
-local music_map = map:get_music()
-texte_lieu = sol.text_surface.create{
-  text_key = "dungeon_1001.name",
-  font = "alttp",
-  font_size = 24,
-  horizontal_alignment = "left",
-  vertical_alignment = "middle",
-}
-
-local door_manager = require("maps/lib/door_manager")
-door_manager:manage_map(map)
-local chest_manager = require("maps/lib/chest_manager")
-chest_manager:manage_map(map)
-local separator_manager = require("maps/lib/separator_manager")
-separator_manager:manage_map(map)
-
 
 --DEBUT DE LA MAP
-function map:on_started(destination)
+map:register_event("on_started", function(map, destination)
   --Initialisation de base
   map:set_entities_enabled("auto_chest",false)
   map:set_doors_open("auto_door_2_back")
@@ -102,7 +86,7 @@ function map:on_started(destination)
       layer = 1
     }
   else map:set_doors_open("door_boss_1") boss:set_enabled(false) gohma:set_enabled(false) end
-end
+end)
 
 --ENIGME DE BLOCS 1
 function block_puzzle_1_fake_switch:on_activated()

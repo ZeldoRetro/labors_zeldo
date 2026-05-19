@@ -8,6 +8,6 @@ local function npc_walk(npc)
 end
 
 --DEBUT DE LA MAP
-function map:on_started(destination)
+map:register_event("on_started", function(map, destination)
   npc_walk(boy_2)
-end
+end)

@@ -6,6 +6,7 @@ properties{
   min_layer = -1,
   max_layer = 2,
   world = "dungeon_10000",
+  floor = 1,
   tileset = "extra/zeldo_battle_room",
 }
 
@@ -21,6 +22,26 @@ custom_entity{
   direction = 0,
   sprite = "backgrounds/distorsion_effect_battle",
   tiled = true,
+}
+
+custom_entity{
+  name = "init_map",
+  layer = -1,
+  x = -24,
+  y = -3,
+  properties = {
+    {
+      key = "timelapse",
+      value = "false",
+    },
+    {
+      key = "disable_clouds",
+      value = "",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 
 tile{
@@ -1031,6 +1052,764 @@ destination{
   default = true,
 }
 
+custom_entity{
+  name = "firewall_3",
+  layer = 0,
+  x = 312,
+  y = 165,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_4",
+  layer = 0,
+  x = 328,
+  y = 165,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_6",
+  layer = 0,
+  x = 344,
+  y = 165,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_7",
+  layer = 0,
+  x = 360,
+  y = 165,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_9",
+  layer = 0,
+  x = 376,
+  y = 181,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_10",
+  layer = 0,
+  x = 392,
+  y = 197,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_11",
+  layer = 0,
+  x = 408,
+  y = 213,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_12",
+  layer = 0,
+  x = 424,
+  y = 229,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_13",
+  layer = 0,
+  x = 440,
+  y = 245,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_14",
+  layer = 0,
+  x = 440,
+  y = 261,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_15",
+  layer = 0,
+  x = 440,
+  y = 277,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_16",
+  layer = 0,
+  x = 440,
+  y = 293,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_17",
+  layer = 0,
+  x = 440,
+  y = 309,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_18",
+  layer = 0,
+  x = 424,
+  y = 325,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_19",
+  layer = 0,
+  x = 408,
+  y = 341,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_20",
+  layer = 0,
+  x = 392,
+  y = 357,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_21",
+  layer = 0,
+  x = 376,
+  y = 373,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_22",
+  layer = 0,
+  x = 360,
+  y = 389,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_23",
+  layer = 0,
+  x = 344,
+  y = 389,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_24",
+  layer = 0,
+  x = 328,
+  y = 389,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_25",
+  layer = 0,
+  x = 312,
+  y = 389,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_26",
+  layer = 0,
+  x = 296,
+  y = 389,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_27",
+  layer = 0,
+  x = 280,
+  y = 389,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_29",
+  layer = 0,
+  x = 264,
+  y = 373,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_30",
+  layer = 0,
+  x = 248,
+  y = 357,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_31",
+  layer = 0,
+  x = 232,
+  y = 341,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_32",
+  layer = 0,
+  x = 216,
+  y = 325,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_33",
+  layer = 0,
+  x = 296,
+  y = 165,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_34",
+  layer = 0,
+  x = 280,
+  y = 165,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_35",
+  layer = 0,
+  x = 264,
+  y = 181,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_36",
+  layer = 0,
+  x = 248,
+  y = 197,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_37",
+  layer = 0,
+  x = 232,
+  y = 213,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_38",
+  layer = 0,
+  x = 216,
+  y = 229,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_39",
+  layer = 0,
+  x = 200,
+  y = 245,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_40",
+  layer = 0,
+  x = 200,
+  y = 261,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_41",
+  layer = 0,
+  x = 200,
+  y = 277,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_42",
+  layer = 0,
+  x = 200,
+  y = 293,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+custom_entity{
+  name = "firewall_43",
+  layer = 0,
+  x = 200,
+  y = 309,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/fire_wall",
+  model = "pike_ground",
+}
+
+wall{
+  name = "firewall_2",
+  layer = 0,
+  x = 272,
+  y = 392,
+  enabled_at_start = false,
+  width = 96,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_5",
+  layer = 0,
+  x = 272,
+  y = 144,
+  enabled_at_start = false,
+  width = 96,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_8",
+  layer = 0,
+  x = 368,
+  y = 376,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_28",
+  layer = 0,
+  x = 384,
+  y = 360,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_44",
+  layer = 0,
+  x = 400,
+  y = 344,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_45",
+  layer = 0,
+  x = 416,
+  y = 328,
+  enabled_at_start = false,
+  width = 24,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_46",
+  layer = 0,
+  x = 448,
+  y = 232,
+  enabled_at_start = false,
+  width = 8,
+  height = 80,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_47",
+  layer = 0,
+  x = 416,
+  y = 208,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_48",
+  layer = 0,
+  x = 400,
+  y = 192,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_49",
+  layer = 0,
+  x = 384,
+  y = 176,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_50",
+  layer = 0,
+  x = 368,
+  y = 160,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_51",
+  layer = 0,
+  x = 184,
+  y = 232,
+  enabled_at_start = false,
+  width = 8,
+  height = 72,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_52",
+  layer = 0,
+  x = 256,
+  y = 160,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_53",
+  layer = 0,
+  x = 240,
+  y = 176,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_54",
+  layer = 0,
+  x = 224,
+  y = 192,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_55",
+  layer = 0,
+  x = 208,
+  y = 208,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_56",
+  layer = 0,
+  x = 208,
+  y = 328,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_57",
+  layer = 0,
+  x = 224,
+  y = 344,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_58",
+  layer = 0,
+  x = 240,
+  y = 360,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_59",
+  layer = 0,
+  x = 256,
+  y = 376,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_60",
+  layer = 0,
+  x = 432,
+  y = 224,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_61",
+  layer = 0,
+  x = 432,
+  y = 312,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_62",
+  layer = 0,
+  x = 192,
+  y = 224,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "firewall_63",
+  layer = 0,
+  x = 192,
+  y = 312,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+}
+
 npc{
   name = "zeldo_npc",
   layer = 1,
@@ -1051,5 +1830,15 @@ dynamic_tile{
   height = 544,
   pattern = "1098",
   tileset = "inside_blue_dungeon",
+}
+
+custom_entity{
+  name = "EXCEPTION_16/9_display",
+  layer = 2,
+  x = -8,
+  y = -3,
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 

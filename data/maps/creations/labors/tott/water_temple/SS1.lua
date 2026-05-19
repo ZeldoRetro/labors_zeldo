@@ -1,13 +1,5 @@
 local map = ...
 local game = map:get_game()
-local music_map = map:get_music()
-
-local door_manager = require("maps/lib/door_manager")
-door_manager:manage_map(map)
-local chest_manager = require("maps/lib/chest_manager")
-chest_manager:manage_map(map)
-local separator_manager = require("maps/lib/separator_manager")
-separator_manager:manage_map(map)
 
 for block in map:get_entities("block_puzzle_1_") do
   function block:on_moved()
@@ -18,7 +10,7 @@ end
 
 
 --DEBUT DE LA MAP
-function map:on_started()
+map:register_event("on_started", function(map, destination)
   --Initialisation de base
   map:set_entities_enabled("auto_chest",false)
   map:set_doors_open("auto_door_3_back")
@@ -89,7 +81,7 @@ function map:on_started()
 
   --Miniboss vaincu
   if game:get_value("miniboss_10001") then map:set_entities_enabled("telep_miniboss",true) end
-end
+end)
 
 --ENIGME DE BLOCS POUR CLE 1
 function block_puzzle_1_fake_switch:on_activated()

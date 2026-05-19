@@ -40,7 +40,7 @@ local animation_step = 0
 -- Time handling.
 local timer = nil
 
-local background_img = sol.surface.create(320,240)
+local background_img = sol.surface.create(432,240)
 background_img:fill_color({255,255,255})
 
 -------------------------------------------------------------------------------

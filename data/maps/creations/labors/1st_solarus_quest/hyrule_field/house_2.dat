@@ -798,7 +798,8 @@ tile{
   y = 24,
   width = 32,
   height = 16,
-  pattern = "painting",
+  pattern = "14_7",
+  tileset = "inside_other",
 }
 
 wall{
@@ -907,6 +908,17 @@ block{
   pushable = true,
   pullable = false,
   max_moves = 1,
+}
+
+dynamic_tile{
+  name = "invisible_path_1",
+  layer = 1,
+  x = 80,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "14_8",
+  tileset = "inside_other",
 }
 
 tile{

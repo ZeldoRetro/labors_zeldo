@@ -5640,6 +5640,7 @@ npc{
   },
   direction = 3,
   subtype = 0,
+  sprite = "entities/Doors/Outside/wooden_lock",
 }
 
 sensor{
@@ -5772,6 +5773,7 @@ npc{
   },
   direction = 3,
   subtype = 0,
+  sprite = "entities/Doors/Outside/wooden_lock",
 }
 
 dynamic_tile{

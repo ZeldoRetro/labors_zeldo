@@ -28,7 +28,8 @@ hero_meta:register_event("on_state_changed", function(hero , state)
       if game:get_life() >= 1 then game:add_life(2) end
     end
   end
-  if map:get_world() ~= "dungeon_10000" and map:get_world() ~= "dungeon_10010" then 
+  if map:get_world() ~= "dungeon_10000" and map:get_world() ~= "dungeon_10010" and map:get_world() ~= "dungeon_10020" and map:get_world() ~= "dungeon_10030" 
+  and map:get_world() ~= "dungeon_10040" and map:get_world() ~= "dungeon_10050" and map:get_world() ~= "dungeon_10060" then 
     if state == "sword swinging" then
       -- Sword swinging
       local index = math.random(1, 3)
@@ -78,7 +79,8 @@ hero_meta:register_event("on_taking_damage", function(hero , damage)
   game:remove_life(damage)
 
   if link_voice_manager:get_link_voice_enabled() then
-    if map:get_world() ~= "dungeon_10000" and map:get_world() ~= "dungeon_10010" then
+    if map:get_world() ~= "dungeon_10000" and map:get_world() ~= "dungeon_10010" and map:get_world() ~= "dungeon_10020" and map:get_world() ~= "dungeon_10030" 
+    and map:get_world() ~= "dungeon_10040" and map:get_world() ~= "dungeon_10050" and map:get_world() ~= "dungeon_10060" then 
       sol.audio.play_sound("link_voices/hero_hurt")
     end
   else sol.audio.play_sound("hero_hurt") end

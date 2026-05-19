@@ -1,17 +1,8 @@
 local map = ...
 local game = map:get_game()
-local music_map = map:get_music()
-
-local door_manager = require("maps/lib/door_manager")
-door_manager:manage_map(map)
-local chest_manager = require("maps/lib/chest_manager")
-chest_manager:manage_map(map)
-local separator_manager = require("maps/lib/separator_manager")
-separator_manager:manage_map(map)
-
 
 --DEBUT DE LA MAP
-function map:on_started()
+map:register_event("on_started", function(map, destination)
   --Initialisation de base
   map:set_entities_enabled("auto_chest",false)
   map:set_entities_enabled("miniboss",false)
@@ -79,7 +70,7 @@ function map:on_started()
   --Téléporteur vers le boss débloqué
   if game:get_value("telep_boss_10001") then map:set_entities_enabled("telep_boss",true) else map:set_entities_enabled("telep_boss",false) end
 
-end
+end)
 
 --SWITCH POUR ESCALIER RACCOURCI PIECE CENTRALE 1
 function switch_stair_central_room_1:on_activated()

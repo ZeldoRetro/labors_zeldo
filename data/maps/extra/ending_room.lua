@@ -5,7 +5,7 @@ local game = map:get_game()
 local hero = map:get_hero()
 
 local light_screen
-light_screen = sol.surface.create(320, 240)
+light_screen = sol.surface.create(432, 240)
 light_screen:fill_color({200, 85, 255, 255})
 light_screen:fade_out(0)
 

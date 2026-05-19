@@ -8,8 +8,8 @@ block_puzzle_2_fake_switch:register_event("on_activated", function(switch)
       local block = map:create_block({
         name = "block_puzzle_2_block_1",
         layer = 1,
-        x = 776,
-        y = 1581,
+        x = 792,
+        y = 1517,
         properties = {
           {
             key = "disable_if_value",
@@ -27,8 +27,8 @@ block_puzzle_2_fake_switch:register_event("on_activated", function(switch)
       local block = map:create_block({
         name = "block_puzzle_2_block_2",
         layer = 1,
-        x = 824,
-        y = 1581,
+        x = 808,
+        y = 1517,
         properties = {
           {
             key = "disable_if_value",

@@ -8,6 +8,16 @@ map:register_event("on_draw",function(map,dst_surface)
   trees:draw(dst_surface)
 end)
 
+-- Des chances d'entendre le rap de lost woods en arrivant
+map:register_event("on_started",function(map, destination)
+  local i = math.random(1,100)
+  if i == 1 then
+	if game:get_value("day") or game:get_value("twilight") then
+		sol.audio.play_music("creations/labors/1st_solarus_quest/lost_woods_RAP")
+	end
+  end
+end)
+
 
 -- GUIDE QUI NOUS INVITE À TROUVER ÉPÉE ET BOUCLIER
 function guide_foret:on_interaction()

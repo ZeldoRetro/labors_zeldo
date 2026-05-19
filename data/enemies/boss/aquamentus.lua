@@ -1,13 +1,13 @@
 local enemy = ...
 local game = enemy:get_game()
 
-local fly_proba = 20
+local fly_proba = 30
 local fly_fast = false
 local nb_balls_created = 0
 
 function enemy:on_created()
 
-  self:set_life(12)
+  self:set_life(8)
   self:set_damage(4)
   self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_size(48, 56)
@@ -76,9 +76,9 @@ function enemy:start_fly_attack()
   local sprite = enemy:get_sprite()
   local hero = enemy:get_map():get_hero()
   sprite:set_animation("fly")
-  game:get_map():set_entities_enabled("aquamentus_flux_slow",true)
+  game:get_map():set_entities_enabled("aquamentus_flux_",true)
   sol.timer.start(enemy,5000,function()
-    game:get_map():set_entities_enabled("aquamentus_flux_slow",false)
+    game:get_map():set_entities_enabled("aquamentus_flux_",false)
     enemy:restart()
   end)
 end
@@ -87,10 +87,10 @@ function enemy:start_fly_fast_attack()
   local sprite = enemy:get_sprite()
   local hero = enemy:get_map():get_hero()
   sprite:set_animation("fly_fast")
-  game:get_map():set_entities_enabled("aquamentus_flux_fast",true)
+  game:get_map():set_entities_enabled("aquamentus_flux_",true)
   sol.timer.start(enemy,3000,function()
     fly_fast = false 
-    game:get_map():set_entities_enabled("aquamentus_flux_fast",false)
+    game:get_map():set_entities_enabled("aquamentus_flux_",false)
     enemy:restart()
   end)
 end
@@ -98,7 +98,6 @@ end
 function enemy:on_hurt()
   fly_proba = fly_proba + 5
   nb_balls_created = 0
-  game:get_map():set_entities_enabled("aquamentus_flux_slow",false)
-  game:get_map():set_entities_enabled("aquamentus_flux_fast",false)
+  game:get_map():set_entities_enabled("aquamentus_flux_",false)
   fly_fast = true 
 end

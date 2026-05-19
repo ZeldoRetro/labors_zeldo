@@ -1,16 +1,8 @@
 local map = ...
 local game = map:get_game()
-local music_map = map:get_music()
-
-local door_manager = require("maps/lib/door_manager")
-door_manager:manage_map(map)
-local chest_manager = require("maps/lib/chest_manager")
-chest_manager:manage_map(map)
-local separator_manager = require("maps/lib/separator_manager")
-separator_manager:manage_map(map)
 
 --EFFET DE CHALEUR
-local heat = sol.surface.create(320,240)
+local heat = sol.surface.create(432,240)
 heat:set_opacity(65)
 heat:fill_color({255,40,0})
 
@@ -18,10 +10,8 @@ map:register_event("on_draw",function(map,dst_surface)
   heat:draw(dst_surface)
 end)
 
-
-
 --DEBUT DE LA MAP
-function map:on_started()
+map:register_event("on_started", function(map, destination)
   --Initialisation de base
   map:set_entities_enabled("auto_chest",false)
   for entity in map:get_entities("torch_path") do
@@ -35,7 +25,7 @@ function map:on_started()
     hero:set_visible()
   end
 
-end
+end)
 
 --TORCHES QUI REVELENT CHEMIN INVISIBLE
 local lit = 0

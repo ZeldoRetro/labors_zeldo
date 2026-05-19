@@ -2,6 +2,6 @@ local map = ...
 local game = map:get_game()
 
 -- DEBUT DE LA MAP
-function map:on_started()
+map:register_event("on_started", function(map, destination)
   snores:set_enabled(false)
-end
+end)

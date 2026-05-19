@@ -13,6 +13,9 @@ text{ key = "dungeon_10011.name", value = "Temple du Courage" }
 text{ key = "dungeon_10014.name", value = "Temple de la Force" }
 text{ key = "dungeon_10015.name", value = "Temple de la Sagesse" }
 text{ key = "dungeon_10017.name", value = "Château d'Hyrule" }
+text{ key = "dungeon_10021.name", value = "Ruines de l'Aigle" }
+text{ key = "dungeon_10022.name", value = "Palais de Parapa" }
+text{ key = "dungeon_10023.name", value = "Ruines du Croissant" }
 text{ key = "dungeon_4.name", value = "Jardins Kokiri" }
 text{ key = "dungeon_999.name", value = "Donjon du Grand Final" }
 text{ key = "inventory.item_caption.equipment/flippers.1", value = "Palmes" }
@@ -20,7 +23,8 @@ text{ key = "inventory.item_caption.equipment/gems_detector.1", value = "Détect
 text{ key = "inventory.item_caption.equipment/glove.1", value = "Bracelets de Force" }
 text{ key = "inventory.item_caption.equipment/glove.2", value = "Gants de Puissance" }
 text{ key = "inventory.item_caption.equipment/glove.3", value = "Moufles des Titans" }
-text{ key = "inventory.item_caption.equipment/swordsman_scroll.1", value = "Précis-Attaque Tourbillon" }
+text{ key = "inventory.item_caption.equipment/sword_PLAYER.1", value = "Epée du Tricheur" }
+text{ key = "inventory.item_caption.equipment/swordsman_scroll.1", value = "Précis d'escrime" }
 text{ key = "inventory.item_caption.inventory/bombs_counter.1", value = "Bombes" }
 text{ key = "inventory.item_caption.inventory/boomerang.1", value = "Boomerang" }
 text{ key = "inventory.item_caption.inventory/boomerang.2", value = "Super Boomerang" }
@@ -57,6 +61,7 @@ text{ key = "inventory.item_caption.inventory/bottle_4.6", value = "Fée en bout
 text{ key = "inventory.item_caption.inventory/bottle_4.7", value = "Lait" }
 text{ key = "inventory.item_caption.inventory/bottle_4.8", value = "Cuvée Romani" }
 text{ key = "inventory.item_caption.inventory/bow.1", value = "Arc et flèches" }
+text{ key = "inventory.item_caption.inventory/bow_PLAYER.1", value = "Arc du Voleur" }
 text{ key = "inventory.item_caption.inventory/bow_light.1", value = "Arc de Lumière" }
 text{ key = "inventory.item_caption.inventory/cane_of_byrna.1", value = "Canne de Byrna" }
 text{ key = "inventory.item_caption.inventory/cane_of_somaria.1", value = "Canne de Somaria" }
@@ -124,6 +129,7 @@ text{ key = "location.1st_solarus_quest.link_house", value = "Terrain du Départ
 text{ key = "location.1st_solarus_quest.nayru_shrine", value = "Sanctuaire de Nayru" }
 text{ key = "location.castle_oblivion_1ET", value = "1er Etage - Tower of the Triforce" }
 text{ key = "location.castle_oblivion_2ET", value = "2e Etage - The 1st Solarus Quest" }
+text{ key = "location.castle_oblivion_3ET", value = "3e Etage - Retranscriptions" }
 text{ key = "location.castle_oblivion_RDC", value = "Manoir Oblivion" }
 text{ key = "location.castle_town", value = "Citadelle d'Hyrule" }
 text{ key = "location.ganon_castle", value = "Château de Ganon" }

@@ -24,7 +24,7 @@ function map:set_joypad_commands()
 end
 
 --DÉBUT DE LA MAP
-function map:on_started(destination)
+map:register_event("on_started", function(map, destination)
 
   --Modèle PLAYER
   hero:set_tunic_sprite_id("npc/playing_character/eldran2")
@@ -82,12 +82,12 @@ function map:on_started(destination)
 
   game:set_value("force",1)
   game:set_value("defense",1)
-
-  if destination == entree then map:set_joypad_commands() end
-end
+end)
 
 function map:on_opening_transition_finished(destination)
-  if destination == entree then game:set_dialog_style("blank") game:start_dialog("LABORS.1st_message") end
+  if destination == entree and not game:get_value("zeldo_1st_voice_in_castle_entrance") then
+    map:set_joypad_commands() game:set_dialog_style("blank") game:set_value("zeldo_1st_voice_in_castle_entrance", true) game:start_dialog("LABORS.1st_message")
+  end
 end
 
 --Mur invisible pour ne pas sortir

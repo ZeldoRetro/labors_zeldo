@@ -2830,3 +2830,13 @@ custom_entity{
   direction = 0,
 }
 
+custom_entity{
+  name = "EXCEPTION_16/9_display",
+  layer = 2,
+  x = 624,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+

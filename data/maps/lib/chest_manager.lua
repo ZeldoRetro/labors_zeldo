@@ -172,8 +172,9 @@ function chest_manager:open_when_timed_torches_lit(chest)
       remaining = remaining - 1
       if remaining == 0 then
         sol.audio.play_sound("correct")
-        for torch in map:get_entities("definitive_"..torch_prefix) do
-          torch:set_enabled(true) torch:set_lit(true) torch:on_lit()
+        -- Put a property on the torch, preventing it to unlit after the duration
+        for torch in map:get_entities(torch_prefix) do
+          torch:set_property("stays_lit", "true")
         end
         map:move_camera(chest_prefix_x,chest_prefix_y,256,function()
           sol.audio.play_sound("chest_appears")

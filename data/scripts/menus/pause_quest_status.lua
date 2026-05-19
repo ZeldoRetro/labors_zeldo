@@ -25,8 +25,8 @@ local item_caption
 
 --FENETRE DES OBJETS D'INVENTAIRE
 local function create_equipment_items_widget(game)
-  local widget = gui_designer:create(320, 240)
-  widget:set_xy(17 - movement_distance, 119)
+  local widget = gui_designer:create(432, 240)
+  widget:set_xy(17 + 56 - movement_distance, 119)
   local items_surface = widget:get_surface()
 
   local item_sprites = {}
@@ -64,7 +64,7 @@ end
 --TITRE DU MENU
 local function create_menu_title_widget(game)
   local widget = gui_designer:create(80, 28)
-  widget:set_xy(118, 7)
+  widget:set_xy(118 + 56, 7)
   widget:make_text(sol.language.get_string("menu_title.quest_status"), 6, 6, "left")
   return widget
 end
@@ -73,7 +73,7 @@ end
 
 local function create_status_widget(game)
   local widget = gui_designer:create(192, 196)
-  widget:set_xy(196, 60)
+  widget:set_xy(196 + 56, 60)
 
   local x_trophy = 0
   local x_cards = 20
@@ -194,6 +194,62 @@ local function create_status_widget(game)
     else widget:make_counter(shards_counter, x_shards + 14, wave_y + 8) end
 
   end
+
+
+  -- VAGUE 3
+
+  if game:get_value("labors_wave_3_welcome") then
+
+    local wave_y = 48
+
+    -- Trophées de Complétion
+
+    local trophy_counter = game:get_item("quest_items/trophy_labors_retranscriptions"):get_amount()
+    local MAX_trophy = 15
+
+    widget:make_image_region(items_img, 224, 48, 16, 16, x_trophy, wave_y)
+    if trophy_counter >= MAX_trophy then widget:make_green_counter(trophy_counter, x_trophy + 12, wave_y + 8)
+    else widget:make_counter(trophy_counter, x_trophy + 12, wave_y + 8) end
+
+    -- Cartes d'Upgrade
+
+    local cards_counter = 0
+    local MAX_cards = 6
+
+    if game:get_value("labors_casualization_wave_3") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_quiver_wave_3") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_bomb_bag_wave_3") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_magic_flask_upgrade_wave_3") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_defense_boost_wave_3") then cards_counter = cards_counter + 1 end
+    if game:get_value("labors_attack_boost_wave_3") then cards_counter = cards_counter + 1 end 
+
+    widget:make_image_region(items_img, 416, 48, 16, 16, x_cards, wave_y)
+    if cards_counter >= MAX_cards then  widget:make_green_counter(cards_counter, x_cards + 12, wave_y + 8)
+    else widget:make_counter(cards_counter, x_cards + 12, wave_y + 8) end
+
+    -- Clés de Galerie
+
+    local keys_counter = 0
+    local MAX_keys = 2
+
+    if game:get_value("red_key_10020_1") then keys_counter = keys_counter + 1 end
+    if game:get_value("blue_key_10020_1") then keys_counter = keys_counter + 1 end
+
+    widget:make_image_region(items_img, 496, 16, 16, 16, x_keys, wave_y)
+    if keys_counter >= MAX_keys then  widget:make_green_counter(keys_counter, x_keys + 12, wave_y + 8)
+    else widget:make_counter(keys_counter, x_keys + 12, wave_y + 8) end
+
+    -- Éclats de Souvenir
+
+    local shards_counter = game:get_value("remembrance_shard_retranscriptions_found")
+    local MAX_shards = 80
+
+    widget:make_image_region(items_img, 528, 64, 16, 16, x_shards, wave_y + 1)
+    if shards_counter >= MAX_shards then widget:make_green_counter(shards_counter, x_shards + 7, wave_y + 8)
+    elseif shards_counter >= 100 then widget:make_counter(shards_counter, x_shards + 7, wave_y + 8)
+    else widget:make_counter(shards_counter, x_shards + 14, wave_y + 8) end
+
+  end
  
   return widget
 end
@@ -201,11 +257,43 @@ end
 --FENETRE DES MASQUES DE ZELDO 
 local function create_masks_widget(game)
   local widget = gui_designer:create(54, 54)
-  widget:set_xy(133, 68)
+  widget:set_xy(133 + 56, 68)
 
+  -- Vague 6
+  if game:get_value("zeldo_wave_6_defeated") then
+    widget:make_image_region(items_img, 304, 96, 16, 16, 6, 6)
   -- Vague 1
-  if game:get_value("zeldo_wave_1_defeated") then
+  elseif game:get_value("zeldo_wave_1_defeated") then
     widget:make_image_region(items_img, 240, 48, 16, 16, 6, 6)
+  end
+  -- Vague 5
+  if game:get_value("zeldo_wave_5_defeated") then
+    widget:make_image_region(items_img, 320, 96, 16, 16, 32, 6)
+  -- Vague 2
+  elseif game:get_value("zeldo_wave_2_defeated") then
+    widget:make_image_region(items_img, 256, 48, 16, 16, 32, 6)
+  end
+  -- Vague 7
+  if game:get_value("zeldo_wave_7_defeated") then
+    widget:make_image_region(items_img, 368, 96, 16, 16, 6, 32)
+  -- Event X (Reveal Masque 3)
+  elseif game:get_value("zeldo_wave_X_defeated") then
+    widget:make_image_region(items_img, 336, 96, 16, 16, 6, 32)
+  -- Vague 3
+  elseif game:get_value("zeldo_wave_3_defeated") then
+    widget:make_image_region(items_img, 272, 48, 16, 16, 6, 32)
+  end
+  -- Event X (Reveal Masque 4)
+  if game:get_value("zeldo_wave_X_defeated") then
+    widget:make_image_region(items_img, 352, 96, 16, 16, 32, 32)
+  -- Vague 4
+  elseif game:get_value("zeldo_wave_4_defeated") then
+    widget:make_image_region(items_img, 288, 48, 16, 16, 32, 32)
+  end
+
+  -- Vague 7
+  if game:get_value("zeldo_wave_7_defeated") then
+    widget:make_image_region(items_img, 304, 48, 16, 16, 19, 19)
   end
  
   return widget
@@ -215,7 +303,7 @@ end
 local function create_stats_widget(game)
   local widget = gui_designer:create(112, 64)
 
-  widget:set_xy(34, 72)
+  widget:set_xy(34 + 56, 72)
   --Temps de jeu
   widget:make_image_region(icons_img, 24, 0, 12, 12, 10, 6)
   --Force
@@ -232,7 +320,7 @@ end
 --FENETRE DU COMPTEUR D'ÉCLATS DE SOUVENIR : ADAPTÉ À LA VAGUE EN COURS
 local function create_force_gem_widget(game)
   local widget = gui_designer:create(48, 52)
-  widget:set_xy(134, 121)
+  widget:set_xy(134 + 56, 121)
     local x_gems
     local amount = game:get_item("quest_items/remembrance_shard_"..game:get_current_wave()):get_amount()
     if amount < 10 then 
@@ -256,7 +344,7 @@ end
 --FENETRE D'AFFICHAGE DES OBJETS DE QUÊTE DE LA VAGUE EN COURS
 local function create_fairy_power_fragment_widget(game)
   local widget = gui_designer:create(96, 52)
-  widget:set_xy(122, 153)
+  widget:set_xy(122 + 56, 153)
 
   -- Vague 1 - Coquillages et Fragments de Puissance de Fée
 
@@ -366,10 +454,10 @@ function quest_status_manager:new(game)
   local function draw_player_stats(dst_surface)
     local force = game:get_value("force")
     force_text:set_text(force)
-    force_text:draw(dst_surface, 55, 107) 
+    force_text:draw(dst_surface, 55 + 56, 107) 
     local defense = game:get_value("defense")
     defense_text:set_text(defense)
-    defense_text:draw(dst_surface, 77, 107)
+    defense_text:draw(dst_surface, 77 + 56, 107)
   end
 
   local time_played_text = sol.text_surface.create{
@@ -382,7 +470,7 @@ function quest_status_manager:new(game)
   local function draw_time_played(dst_surface)
     local time_string = game:get_time_played_string()
     time_played_text:set_text(time_string)
-    time_played_text:draw(dst_surface, 56, 81)
+    time_played_text:draw(dst_surface, 56 + 56, 81)
   end
 
   -- Draws the inventory item name
@@ -393,7 +481,7 @@ function quest_status_manager:new(game)
   }
   local function draw_item_name(dst_surface)
     item_caption_text:set_text(item_caption)
-    item_caption_text:draw(dst_surface, 159, 207)
+    item_caption_text:draw(dst_surface, 159 + 56, 207)
   end
 
   local cursor_index = game:get_value("pause_quest_status_last_item_index") or 0
@@ -404,7 +492,7 @@ function quest_status_manager:new(game)
   local function draw_item_cursors(dst_surface)
 
     -- Selected item.
-    local widget_x, widget_y = 16, 119
+    local widget_x, widget_y = 16 + 56, 119
     item_cursor_moving_sprite:draw(
         dst_surface,
         widget_x + 32 + 32 * cursor_column,
@@ -450,7 +538,7 @@ function quest_status_manager:new(game)
       if not (game:get_item(item_sprite:get_animation()):get_variant()-1 == item_sprite:get_direction()) then
         item_sprite:set_direction(game:get_item(item_sprite:get_animation()):get_variant()-1)
       end
-      item_sprite:draw(dst_surface,16,119)
+      item_sprite:draw(dst_surface,16 + 56,119)
     end
 
     draw_player_stats(dst_surface)

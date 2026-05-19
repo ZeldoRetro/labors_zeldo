@@ -58,11 +58,11 @@ if not game:get_value("razer_defeated") then
 
 
  local light_screen
- light_screen = sol.surface.create(320, 240)
+ light_screen = sol.surface.create(432, 240)
  light_screen:fill_color({255, 255, 255, 255})
  light_screen:fade_out(0)
  local black_screen
- black_screen = sol.surface.create(320, 240)
+ black_screen = sol.surface.create(432, 240)
  black_screen:fill_color({0, 0, 0, 55})
  black_screen:fade_out(0)
 

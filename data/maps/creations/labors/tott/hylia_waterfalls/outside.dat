@@ -21037,6 +21037,24 @@ tile{
   tileset = "outside_special",
 }
 
+tile{
+  layer = 0,
+  x = 0,
+  y = 768,
+  width = 8,
+  height = 32,
+  pattern = "3545",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 800,
+  width = 8,
+  height = 16,
+  pattern = "3543",
+}
+
 sensor{
   name = "texte_lieu_1",
   layer = 0,
@@ -24387,6 +24405,114 @@ dynamic_tile{
   tileset = "extra/casual_tileset",
 }
 
+dynamic_tile{
+  name = "casual_entity_40",
+  layer = 0,
+  x = 360,
+  y = 848,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_41",
+  layer = 0,
+  x = 1104,
+  y = 96,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_42",
+  layer = 0,
+  x = 408,
+  y = 480,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_43",
+  layer = 0,
+  x = 240,
+  y = 112,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.2",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_44",
+  layer = 0,
+  x = 448,
+  y = 320,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.2",
+  tileset = "extra/casual_tileset",
+}
+
+dynamic_tile{
+  name = "casual_entity_48",
+  layer = 0,
+  x = 1344,
+  y = 272,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "tott_upgrade_card_casual_active",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "arrow.3",
+  tileset = "extra/casual_tileset",
+}
+
 tile{
   layer = 1,
   x = 1552,
@@ -27484,5 +27610,29 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/Decorations/little_flame",
+}
+
+custom_entity{
+  name = "init_map",
+  layer = 2,
+  x = -8,
+  y = -3,
+  properties = {
+    {
+      key = "timelapse",
+      value = "true",
+    },
+    {
+      key = "music_map",
+      value = "creations/labors/tott/field",
+    },
+    {
+      key = "location_key",
+      value = "location.tott.hylia_waterfall",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 

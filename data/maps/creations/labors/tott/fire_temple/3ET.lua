@@ -1,16 +1,8 @@
 local map = ...
 local game = map:get_game()
-local music_map = map:get_music()
-
-local door_manager = require("maps/lib/door_manager")
-door_manager:manage_map(map)
-local chest_manager = require("maps/lib/chest_manager")
-chest_manager:manage_map(map)
-local separator_manager = require("maps/lib/separator_manager")
-separator_manager:manage_map(map)
 
 --EFFET DE CHALEUR
-local heat = sol.surface.create(320,240)
+local heat = sol.surface.create(432,240)
 heat:set_opacity(80)
 heat:fill_color({255,40,0})
 
@@ -18,10 +10,8 @@ map:register_event("on_draw",function(map,dst_surface)
   heat:draw(dst_surface)
 end)
 
-
-
 --DEBUT DE LA MAP
-function map:on_started()
+map:register_event("on_started", function(map, destination)
   --Initialisation de base
   map:set_entities_enabled("auto_chest",false)
   map:set_doors_open("auto_door_6_back")
@@ -37,7 +27,7 @@ function map:on_started()
   --Téléporteur vers le boss débloqué
   if game:get_value("telep_boss_10004") then map:set_entities_enabled("telep_boss",true) else map:set_entities_enabled("telep_boss",false) end
 
-end
+end)
 
 --PORTES OUVERTES: COMBATS
 if game:get_value("door_10004_6") then sensor_falling_auto_door_6_back:set_enabled(false) end

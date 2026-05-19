@@ -1276,7 +1276,8 @@ tile{
   y = 264,
   width = 32,
   height = 16,
-  pattern = "painting",
+  pattern = "14_3",
+  tileset = "inside_other",
 }
 
 tile{
@@ -1285,7 +1286,8 @@ tile{
   y = 264,
   width = 32,
   height = 16,
-  pattern = "painting",
+  pattern = "14_4",
+  tileset = "inside_other",
 }
 
 tile{

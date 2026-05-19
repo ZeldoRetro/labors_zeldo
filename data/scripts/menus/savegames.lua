@@ -21,7 +21,7 @@ local heroic_mode_manager = require("scripts/heroic_mode_manager")
 
 local layout
 
-local background_img = sol.surface.create(320,240)
+local background_img = sol.surface.create(432,240)
 background_img:fill_color({255,255,255})
 local background_slabs_img = sol.surface.create("menus/title_labors_background.png")
 
@@ -29,10 +29,10 @@ local background_file_select = sol.surface.create("menus/file_select_labors_back
 
 local function build_layout()
 
-  layout = gui_designer:create(320, 240)
-  layout:make_wooden_frame(16, 8, 160, 32)
-  layout:make_text(sol.language.get_string("savegames_menu.title"), 96, 16, "center")
-  layout:make_text(sol.language.get_string("savegames_menu.options"), 84, 200, "center")
+  layout = gui_designer:create(432, 240)
+  layout:make_wooden_frame(16 + 56, 8, 160, 32)
+  layout:make_text(sol.language.get_string("savegames_menu.title"), 96 + 56, 16, "center")
+  layout:make_text(sol.language.get_string("savegames_menu.options"), 84 + 56, 200, "center")
 end
 
 -- Places the cursor on the savegame 1, 2 or 3.
@@ -40,9 +40,9 @@ local function set_cursor_position(index)
 
   cursor_position = index
   if index <= 4 then
-    cursor_img:set_xy(28, 8 + index * 48)
+    cursor_img:set_xy(28 + 56, 8 + index * 48)
   else
-    cursor_img:set_xy(184, 212)
+    cursor_img:set_xy(184 + 56, 212)
   end
 end
 
@@ -64,7 +64,7 @@ local function read_savegames()
   for i = 1, 3 do
     local file_name = get_savegame_file_name(i)
     local surface = sol.surface.create(257, 20)
-    surface:set_xy(48, 8 + i * 48)
+    surface:set_xy(48 + 56, 8 + i * 48)
     savegames_surfaces[i] = surface
     
     if not sol.game.exists(file_name) then
@@ -75,27 +75,34 @@ local function read_savegames()
       	games[i] = game
 
         --Symboles en fonction de l'avancée dans la quête principale
-        if game:get_value("zeldo_wave_1_defeated") then
-          icons_img:draw_region(240, 48, 16, 16, surface, 110, 0)
+        if game:get_value("zeldo_wave_6_defeated") then
+          icons_img:draw_region(304, 96, 16, 16, surface, 104, 0)
+        elseif game:get_value("zeldo_wave_1_defeated") then
+          icons_img:draw_region(240, 48, 16, 16, surface, 104, 0)
         end
-        --if game:get_value("get_trophy_10002") then
-        --  icons_img:draw_region(240, 48, 16, 16, surface, 126, 0)
-        --end
-        --if game:get_value("get_trophy_10003") then
-        --  icons_img:draw_region(240, 48, 16, 16, surface, 142, 0)
-        --end
-        --if game:get_value("get_trophy_10004") then
-        --  icons_img:draw_region(240, 48, 16, 16, surface, 158, 0)
-        --end
-        --if game:get_value("get_trophy_10005") then
-        --  icons_img:draw_region(240, 48, 16, 16, surface, 174, 0)
-        --end
-        --if game:get_value("get_trophy_10006") then
-        --  icons_img:draw_region(240, 48, 16, 16, surface, 190, 0)
-        --end
+        if game:get_value("zeldo_wave_5_defeated") then
+          icons_img:draw_region(320, 96, 16, 16, surface, 128, 0)
+        elseif game:get_value("zeldo_wave_2_defeated") then
+          icons_img:draw_region(256, 48, 16, 16, surface, 128, 0)
+        end
+        if game:get_value("zeldo_wave_7_defeated") then
+          icons_img:draw_region(368, 96, 16, 16, surface, 152, 0)
+        elseif game:get_value("zeldo_wave_X_defeated") then
+          icons_img:draw_region(336, 96, 16, 16, surface, 152, 0)
+        elseif game:get_value("zeldo_wave_3_defeated") then
+          icons_img:draw_region(272, 48, 16, 16, surface, 152, 0)
+        end
+        if game:get_value("zeldo_wave_X_defeated") then
+          icons_img:draw_region(352, 96, 16, 16, surface, 176, 0)
+        elseif game:get_value("zeldo_wave_4_defeated") then
+          icons_img:draw_region(288, 48, 16, 16, surface, 176, 0)
+        end
+        if game:get_value("zeldo_wave_7_defeated") then
+          icons_img:draw_region(304, 48, 16, 16, surface, 200, 0)
+        end
 
-        --if game:get_value("boss_key_10000_1") then
-        --  icons_img:draw_region(496, 0, 16, 16, surface, 224, 0)
+        --if game:get_value("game_finished") then
+        --  icons_img:draw_region(224, 48, 16, 16, surface, 228, 0)
         --end
       
       draw_hearts(game, surface)
@@ -108,7 +115,7 @@ local function check_heroic_savegames()
   for i = 1, 3 do
     local file_name = get_savegame_file_name(i)
     local surface = sol.surface.create(288, 32)
-    surface:set_xy(16, 0 + i * 48)
+    surface:set_xy(16 + 56, 0 + i * 48)
     heroic_savegames_surfaces[i] = surface
     
     if not sol.game.exists(file_name) then
@@ -269,8 +276,8 @@ function show_savegame_action_box(savegame_index)
 
   function action_box_menu:on_draw(dst_surface)
 
-    layout:draw(dst_surface, 104, 84)
-    fairy_img:draw(dst_surface, 112, 72 + fairy_cursor_position * 20)
+    layout:draw(dst_surface, 104 + 56, 84)
+    fairy_img:draw(dst_surface, 112 + 56, 72 + fairy_cursor_position * 20)
   end
 
   gui_designer:map_joypad_to_keyboard(action_box_menu)
@@ -312,8 +319,8 @@ function show_confirm_delete_box(action)
 
   function delete_box_menu:on_draw(dst_surface)
 
-    layout:draw(dst_surface, 104, 84)
-    fairy_img:draw(dst_surface, 112, 92 + fairy_cursor_position * 20)
+    layout:draw(dst_surface, 104 + 56, 84)
+    fairy_img:draw(dst_surface, 112 + 56, 92 + fairy_cursor_position * 20)
   end
 
   gui_designer:map_joypad_to_keyboard(delete_box_menu)
@@ -354,8 +361,8 @@ function show_heroic_mode_action_box(action)
 
   function heroic_mode_box_menu:on_draw(dst_surface)
 
-    layout:draw(dst_surface, 104, 84)
-    fairy_img:draw(dst_surface, 112, 92 + fairy_cursor_position * 20)
+    layout:draw(dst_surface, 104 + 56, 84)
+    fairy_img:draw(dst_surface, 112 + 56, 92 + fairy_cursor_position * 20)
   end
 
   gui_designer:map_joypad_to_keyboard(heroic_mode_box_menu)

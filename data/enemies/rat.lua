@@ -50,4 +50,5 @@ function enemy:go()
     m:set_speed(72)
     m:set_max_distance(max_distance)
     m:set_angle(direction4 * math.pi / 2)
+    m:set_smooth(false)
 end

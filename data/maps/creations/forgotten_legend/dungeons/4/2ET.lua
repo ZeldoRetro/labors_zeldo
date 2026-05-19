@@ -3,7 +3,7 @@ local game = map:get_game()
 
 
 --DEBUT DE LA MAP
-function map:on_started()
+map:register_event("on_started", function(map, destination)
   --Initialisation de base
   map:set_entities_enabled("auto_chest",false)
 
@@ -28,7 +28,7 @@ function map:on_started()
     khorneth_pnj:get_sprite():set_animation("immobilized")
     bokoblin_king_pnj:get_sprite():set_animation("immobilized") end
 
-end
+end)
 
 function sensor_boss:on_activated()
   self:set_enabled(false)

@@ -25,7 +25,7 @@ end
 function item:start_using()
   if item:get_amount() == 0 then
     sol.audio.play_sound("wrong")
-  elseif game:get_hero():get_sprite():get_animation() == "carrying_stopped" or game:get_hero():get_sprite():get_animation() == "carrying_walking" or game:get_hero():get_sprite():get_animation() == "lifting" then
+  elseif game:get_hero():get_state() ~= "free"  then
     return
   else
     local hero=item:get_game():get_hero()

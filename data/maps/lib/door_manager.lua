@@ -147,8 +147,9 @@ function door_manager:open_when_timed_torches_lit(door)
       remaining = remaining - 1
       if remaining == 0 then
         sol.audio.play_sound("correct")
-        for torch in map:get_entities("definitive_"..torch_prefix) do
-          torch:set_enabled(true) torch:set_lit(true) torch:on_lit()
+        -- Put a property on the torch, preventing it to unlit after the duration
+        for torch in map:get_entities(torch_prefix) do
+          torch:set_property("stays_lit", "true")
         end
         map:move_camera(door_prefix_x,door_prefix_y,256,function() map:open_doors(door_prefix) end)
       end

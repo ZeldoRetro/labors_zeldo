@@ -2,24 +2,8 @@ local map = ...
 local game = map:get_game()
 local music_map = map:get_music()
 
-local door_manager = require("maps/lib/door_manager")
-door_manager:manage_map(map)
-local chest_manager = require("maps/lib/chest_manager")
-chest_manager:manage_map(map)
-local separator_manager = require("maps/lib/separator_manager")
-separator_manager:manage_map(map)
-
-texte_lieu = sol.text_surface.create{
-  text_key = "dungeon_10002.name",
-  font = "alttp",
-  font_size = 24,
-  horizontal_alignment = "left",
-  vertical_alignment = "middle",
-}
-
-
 --DEBUT DE LA MAP
-function map:on_started(destination)
+map:register_event("on_started", function(map, destination)
 
   game:set_value("dark_room_middle",true)
   sol.timer.start(map,10,function() game:set_value("dark_room_middle",false) end)
@@ -115,7 +99,7 @@ function map:on_started(destination)
       layer = 1
     }
   else boss:set_enabled(false) end
-end
+end)
 
 --SALLES:COMBAT
 function sensor_battle_2:on_activated()
@@ -164,16 +148,6 @@ if miniboss ~= nil then
 end
 
 --PORTES INVISIBLES
-auto_separator_14:register_event("on_activating", function(separator, direction4)
-  if direction4 == 3 then
-    sol.audio.play_sound("secret")
-  end
-end)
-auto_separator_10:register_event("on_activating", function(separator, direction4)
-  if direction4 == 0 then
-    sol.audio.play_sound("secret")
-  end
-end)
 function secret_separator:on_activating(direction4)
   if direction4 == 2 then sol.audio.play_sound("secret") end
 end

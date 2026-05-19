@@ -30,7 +30,9 @@ sound_list[7] = sol.language.get_language().."/zeldo_wave_1_voice/attack_cards" 
 local card_projectile_id = "boss/zeldo_wave_1/card_projo"
 
 local id_dialog_1 = "LABORS.zeldo_wave_1.desesperate_move" -- lorsqu'il utilise la "desperate move"
-local id_dialog_2 = "LABORS.zeldo_wave_1.desesperate_move" -- lorsqu'il est definitivement tuee
+local id_dialog_2 = "LABORS.zeldo_wave_1.desesperate_move" -- lorsqu'il est definitivement tue
+
+local fist_move = true
 
 movement:set_target(hero)
 movement:set_speed(48)
@@ -44,6 +46,7 @@ function enemy:stop_the_joke()
   state = 0
   enemy:set_damage(4)
   var_2 = 6
+  map:set_entities_enabled("firewall_", false)
   enemy:restart()
 end
 
@@ -163,6 +166,7 @@ function enemy:on_created()
   enemy:set_damage(8)
   enemy:set_invincible()
   enemy:set_attacking_collision_mode("overlapping")
+
 end
 
 function enemy:on_immobilized()
@@ -179,7 +183,7 @@ function enemy:on_restarted()
     element_card[0]:set_direction(4)
     element_card[1]:set_direction(5)
     sprite:set_animation("flying")
-    state = math.random(3,12)
+    if fist_move then state = 4 fist_move = false else state = math.random(3,12) end
     enemy:set_can_attack(true)
     sprite:set_xy(0, 0)
   end
@@ -215,36 +219,37 @@ function enemy:on_restarted()
     local previous_x, previous_y = x, y
     local i = 0
     enemy:set_can_attack(false)
-    sol.timer.start(enemy, (7-(life_difficulty_calcul*3))*math.min(var_2,2), function()
-      i = i+1
+    sol.timer.start(enemy, (320-(life_difficulty_calcul*300))*math.min(var_2,2), function()
       previous_x, previous_y = x, y
-      x = x+(math.cos(math.random(0,360))*(32))
-      y = y-(math.sin(math.random(0,360))*(32))
+      x = first_x_spawn+(math.cos(math.rad(math.random(0,360)))*math.random(0,128))
+      y = first_y_spawn+(math.sin(math.rad(math.random(0,360)))*math.random(0,128))
       if not enemy:test_obstacles(x-previous_x, y-previous_y) then
         enemy:set_position(x, y, layer)
       else
         x, y = previous_x, previous_y
+        x = first_x_spawn+(math.cos(math.rad(math.random(0,360)))*64)
+        y = first_y_spawn+(math.sin(math.rad(math.random(0,360)))*64)
+        if not enemy:test_obstacles(x-previous_x, y-previous_y) then
+          enemy:set_position(x, y, layer)
+        else
+          x, y = previous_x, previous_y
+        end
       end
-      if i < 20 then
-        return true
-      else
-        sprite:set_opacity(255)
-        i = 0
-        sol.timer.start(enemy, (7-(life_difficulty_calcul*3))*math.min(var_2,2), function()
-          i = i+0.05
-          sprite:set_scale(0+i, 2-i)
-          shadow_spr:set_opacity(i*255)
-          if i < 1 then
-            return true
-          else
-            sprite:set_opacity(255)
-            shadow_spr:set_opacity(255)
-            sprite:set_scale(1, 1)
-            state = 0
-            enemy:restart()
-          end
-        end)
-      end
+      sprite:set_opacity(255)
+      sol.timer.start(enemy, (7-(life_difficulty_calcul*3))*math.min(var_2,2), function()
+        i = i+0.05
+        sprite:set_scale(0+i, 2-i)
+        shadow_spr:set_opacity(i*255)
+        if i < 1 then
+          return true
+        else
+          sprite:set_opacity(255)
+          shadow_spr:set_opacity(255)
+          sprite:set_scale(1, 1)
+          state = 0
+          enemy:restart()
+        end
+      end)
     end)
   elseif state == 3 then -- attack fire on ground
     sol.audio.play_sound(sound_list[4])
@@ -305,10 +310,10 @@ function enemy:on_restarted()
     sol.timer.start(enemy, 10, function()
       i = i+1
       sprite:set_xy(0, 0-(i))
-      if i < 64 then
+      if i < 48 then
         return true
       else
-        sol.timer.start(enemy, (60-(life_difficulty_calcul*40))*var_2, function()
+        sol.timer.start(enemy, (60-(life_difficulty_calcul*40))*var_2 / 2, function()
           if sprite:get_animation() == "flying" then
             sol.audio.play_sound(sound_list[3])
             spawn_card(x, y, layer, 1, 1, var_1)
@@ -317,7 +322,9 @@ function enemy:on_restarted()
             return true
           end
         end)
-        sol.timer.start(enemy, 5000, function()
+        local timer = 3500
+        if var_2 == 1 then timer = 500 end
+        sol.timer.start(enemy, timer, function()
           sol.timer.start(enemy, 10, function()
             i = i-1
             sprite:set_xy(0, 0-(i))
@@ -373,7 +380,7 @@ function enemy:on_restarted()
         return true
       end
     end)
-    sol.timer.start(enemy, (400-(life_difficulty_calcul*200))*var_2, function()
+    sol.timer.start(enemy, (400-(life_difficulty_calcul*200))*var_2 / 2, function()
       sol.audio.play_sound(sound_list[0])
       local x_temp, y_temp, layer_temp = hero:get_position()
       i = i+1

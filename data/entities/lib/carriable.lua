@@ -81,7 +81,6 @@ function carriable_behavior.apply(carriable, properties)
     shadow:set_weight(-1)
     shadow:set_traversable_by(true)
     shadow:set_drawn_in_y_order(false) -- Display the shadow as a flat entity.
-    shadow:bring_to_back()
 
     -- Make the shadow not visible on lifted and carried.
     carriable:register_event("on_interaction", function(carriable)
@@ -250,7 +249,7 @@ function carriable_behavior.apply(carriable, properties)
     -- Function called when the carriable has fallen.
     local function finish_bounce()
       carriable:stop_movement()
-      carriable:set_follow_streams(true)
+      carriable:set_follow_streams(false)
       --set_animation_if_exists("stopped")
       if carriable.on_finish_throw then
         carriable:on_finish_throw() -- Call event

@@ -1,0 +1,256 @@
+properties{
+  x = 800,
+  y = 480,
+  width = 1920,
+  height = 1440,
+  min_layer = 0,
+  max_layer = 3,
+  world = "dungeon_10021",
+  floor = 0,
+  tileset = "inside_blue_dungeon",
+  music = "creations/labors/tott/ancient_catacomb",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "13",
+  tileset = "inside_other",
+}
+
+wall{
+  layer = 1,
+  x = 320,
+  y = 0,
+  width = 32,
+  height = 240,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 368,
+  y = 0,
+  width = 128,
+  height = 192,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 496,
+  y = 0,
+  width = 112,
+  height = 128,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 608,
+  y = 0,
+  width = 32,
+  height = 208,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 352,
+  y = 208,
+  width = 288,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 496,
+  y = 144,
+  width = 96,
+  height = 48,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+pickable{
+  layer = 1,
+  x = 520,
+  y = 141,
+  treasure_name = "inventory/bow",
+  treasure_savegame_variable = "get_bow_10021",
+}
+
+enemy{
+  layer = 1,
+  x = 360,
+  y = 133,
+  direction = 3,
+  breed = "keese",
+}
+
+enemy{
+  layer = 1,
+  x = 456,
+  y = 173,
+  direction = 3,
+  breed = "keese",
+}
+
+enemy{
+  layer = 1,
+  x = 552,
+  y = 125,
+  direction = 3,
+  breed = "keese",
+}
+
+enemy{
+  layer = 1,
+  x = 600,
+  y = 157,
+  direction = 3,
+  breed = "keese",
+}
+
+wall{
+  layer = 1,
+  x = 352,
+  y = 0,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+teletransporter{
+  layer = 1,
+  x = 352,
+  y = 0,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/retranscriptions/eagle_ruins/RDC",
+  destination = "escalier",
+}
+
+destination{
+  name = "escalier",
+  layer = 1,
+  x = 360,
+  y = 21,
+  direction = 3,
+}
+
+separator{
+  name = "auto_separator_1",
+  layer = 2,
+  x = -8,
+  y = 232,
+  width = 1936,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_2",
+  layer = 2,
+  x = -8,
+  y = 472,
+  width = 1936,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_3",
+  layer = 2,
+  x = -8,
+  y = 712,
+  width = 1936,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_4",
+  layer = 2,
+  x = -8,
+  y = 952,
+  width = 1936,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_5",
+  layer = 2,
+  x = -8,
+  y = 1192,
+  width = 1936,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_6",
+  layer = 2,
+  x = 312,
+  y = -8,
+  width = 16,
+  height = 1456,
+}
+
+separator{
+  name = "auto_separator_7",
+  layer = 2,
+  x = 632,
+  y = -8,
+  width = 16,
+  height = 1456,
+}
+
+separator{
+  name = "auto_separator_8",
+  layer = 2,
+  x = 952,
+  y = -8,
+  width = 16,
+  height = 1456,
+}
+
+separator{
+  name = "auto_separator_9",
+  layer = 2,
+  x = 1272,
+  y = -8,
+  width = 16,
+  height = 1456,
+}
+
+separator{
+  name = "auto_separator_10",
+  layer = 2,
+  x = 1592,
+  y = -8,
+  width = 16,
+  height = 1456,
+}
+

@@ -97,7 +97,7 @@ function game_manager:create(file)
     game:set_value("defense", 0)
     game:set_value("time_played", 0)
     game:set_value("death_counter", 0)
-    game:set_value("daytime", 1)
+    game:set_value("daytime", 2)
     game:set_value("day",true)
 
     game:set_value("remembrance_shard_found",0)
@@ -111,8 +111,8 @@ function game_manager:create(file)
 
     game:set_value("remembrance_shard_other_found",0)
 
-    game:set_value("game_version", "1.2.0")
-    game:set_value("game_version", "2.0.0")
+    game:set_value("game_version", "2.1.0")
+    --game:set_value("game_version", "3.0.0")
 
     if heroic_mode_enabled_for_this_savegame then game:set_value("heroic_mode",true) heroic_mode_enabled_for_this_savegame = false end
   end
@@ -126,8 +126,10 @@ function game_manager:create(file)
 
   -- Départ à l'entrée du Manoir quand le jeu est mis à jour
   if game:get_value("game_version") == nil
-  or game:get_value("game_version") == "1.2.0" then
-    game:set_starting_location("creations/labors/castle_oblivion_RDC","entree")
+  or game:get_value("game_version") == "1.2.0"
+  or game:get_value("game_version") == "2.0.0" then
+  --or game:get_value("game_version") == "2.1.0" then
+    game:set_starting_location("creations/labors/castle_oblivion_RDC","from_update")
   end
 
   -- Function called when the player runs this game.
@@ -199,9 +201,33 @@ function game_manager:create(file)
       game:set_value("remembrance_shard_1st_solarus_quest_found",0)
 
       -- Agahnim vaincu
-      game:set_value("boss_10007",true)
+      if game:get_value("boss_key_10000_1") then game:set_value("boss_10007",true) end
 
     end
+
+    if game:get_value("game_version") == "2.0.0" then -- Version before 2.0.0
+
+      -- Ajustement de la variable de version
+      print("Te revoici après une longue attente... laisse-moi adapter certaines variables pour qu'elles correspondent à cette nouvelle version")
+      game:set_value("game_version", "2.1.0")
+
+      -- Castle Entry Message
+      game:set_value("zeldo_1st_voice_in_castle_entrance", true)
+
+    end
+
+    --[[
+    if game:get_value("game_version") == "2.1.0" then -- Version before 3.0.0
+
+      -- Ajustement de la variable de version
+      print("Ca y est ! La nouvelle Vague de Contenu est sortie ! Retrouve-moi au second étage du Manoir. Hâte-toi petit pipou !")
+      game:set_value("game_version", "3.0.0")
+
+      -- Ajustement variable des Éclats de souvenir
+      game:set_value("remembrance_shard_retranscriptions_found",0)
+
+    end
+    ]]--
 
     -- Measure the time played.
     run_chronometer(game)
@@ -303,11 +329,11 @@ function game_manager:create(file)
           handled = true
         end
       end
+    end
 
-      if key == game:get_value("keyboard_roll") then
-        hero_roll(game)
-      end
-   end
+    if key == game:get_value("keyboard_roll") then
+      hero_roll(game)
+    end
 
     return handled
   end

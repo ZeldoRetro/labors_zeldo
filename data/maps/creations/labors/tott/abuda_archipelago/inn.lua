@@ -8,10 +8,10 @@ local function npc_walk(npc)
 end
 
 -- DEBUT DE LA MAP
-function map:on_started()
+map:register_event("on_started", function(map, destination)
   npc_walk(kitchen_woman)
   snores:set_enabled(false)
-end
+end)
 
 --INTERACTIONS AVEC L'AUBERGISTE
 for npc in map:get_entities("aubergiste") do

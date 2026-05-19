@@ -6,14 +6,14 @@ local gui_designer = require("scripts/menus/lib/gui_designer")
 
 local item_names = {
   -- Place inventory items here
-  "inventory/ocarina",  
+  "inventory/bow",  
   "inventory/boomerang",
-  "inventory/bow",
+  "inventory/magic_powder",
   "inventory/fire_rod",
   "treasures/spoils_bag",
   "equipment/glove",
   "equipment/flippers",
-  "inventory/magic_mirror",
+  "inventory/clock",
   "inventory/bombs_counter", 
   "inventory/hookshot", 
   "inventory/hammer",
@@ -26,7 +26,7 @@ local item_names = {
   "inventory/monicle_truth",
   "inventory/lamp",
   "inventory/bow_light",
-  "inventory/clock",
+  "inventory/bow_PLAYER",
   "equipment/swordsman_scroll",
   "equipment/swordsman_scroll",
   "inventory/clock",
@@ -35,8 +35,8 @@ local item_names = {
   "inventory/bottle_3",
   "inventory/bottle_4",
   "inventory/clock",
-  "inventory/magic_powder",
-  "inventory/magic_cape",
+  "equipment/sword_PLAYER",
+  "inventory/magic_mirror",
   "inventory/echange_1st_solarus_quest",
 }
 local items_num_columns = 8
@@ -52,8 +52,8 @@ local item_caption
 
 --FENETRE DES OBJETS D'INVENTAIRE
 local function create_item_widget(game)
-  local widget = gui_designer:create(320, 240)
-  widget:set_xy(17 - movement_distance, 55)
+  local widget = gui_designer:create(432, 240)
+  widget:set_xy(17 + 56 - movement_distance, 55)
   local items_surface = widget:get_surface()
 
 --  item_names[2] = game:has_item("inventory/bow_light") and "inventory/bow_light" or "inventory/bow"
@@ -90,7 +90,7 @@ end
 --TITRE DU MENU
 local function create_menu_title_widget(game)
   local widget = gui_designer:create(72, 28)
-  widget:set_xy(124, 7)
+  widget:set_xy(124 + 56, 7)
   widget:make_text(sol.language.get_string("menu_title.inventory"), 6, 6, "left")
   return widget
 end
@@ -130,7 +130,7 @@ function inventory_manager:new(game)
   }
   local function draw_item_name(dst_surface)
     item_caption_text:set_text(item_caption)
-    item_caption_text:draw(dst_surface, 159, 207)
+    item_caption_text:draw(dst_surface, 159 + 56, 207)
   end
 
   local cursor_index = game:get_value("pause_inventory_last_item_index") or 0

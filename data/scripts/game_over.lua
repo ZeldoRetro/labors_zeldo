@@ -12,6 +12,10 @@ local fairy_sprite
 local fairy_npc
 local cursor_position
 local state
+local center_img_position_x
+local center_img_position_y
+local center_menu_position_x
+local center_menu_position_y
 
 -- state can be one of:
 -- "waiting_start": The game-over scene will start soon.
@@ -38,6 +42,9 @@ function game_over_menu:on_started()
   hero:set_visible(false)
   music = sol.audio.get_music()
   background_img = sol.surface.create("gameover_menu.png", true)
+  center_img_position_x, center_img_position_y = background_img:get_size()
+  center_img_position_x, center_img_position_y = center_img_position_x/2, center_img_position_y/2
+  background_img:set_xy(-center_img_position_x, -center_img_position_y)
   local tunic = game:get_ability("tunic")
   hero_dead_sprite = sol.sprite.create(hero:get_tunic_sprite_id())
   hero_dead_sprite:set_animation("hurt")
@@ -55,6 +62,9 @@ function game_over_menu:on_started()
   local hero_x, hero_y = hero:get_position()
   hero_dead_x = hero_x - camera_x
   hero_dead_y = hero_y - camera_y
+
+  center_menu_position_x, center_menu_position_y = map:get_camera():get_surface():get_size()
+  center_menu_position_x, center_menu_position_y = center_menu_position_x/2, center_menu_position_y/2
 
   sol.timer.start(self, 500, function()
     state = "closing_game"
@@ -106,7 +116,7 @@ function game_over_menu:on_started()
           state = "menu"
           sol.audio.play_music("game_over")
           game:set_value("death_counter", game:get_value("death_counter") + 1)
-          fairy_sprite:set_xy(76, 99)  -- Cursor.
+          fairy_sprite:set_xy(center_menu_position_x - 84, center_menu_position_y - 21)  -- Cursor.
           cursor_position = 0
         end
 
@@ -149,7 +159,7 @@ function game_over_menu:on_draw(dst_surface)
   end
 
   if state == "menu" or state == "finished" then
-    background_img:draw(dst_surface)
+    background_img:draw(dst_surface, center_menu_position_x, center_menu_position_y)
     fairy_sprite:draw(dst_surface)
   elseif state ~= "resume_game" then
     hero_dead_sprite:draw(dst_surface, hero_dead_x, hero_dead_y)
@@ -170,13 +180,13 @@ function game_over_menu:on_command_pressed(command)
     sol.audio.play_sound("save_menu_cursor")
     cursor_position = (cursor_position + 1) % 4
     local fairy_x, fairy_y = fairy_sprite:get_xy()
-    fairy_y = 99 + cursor_position * 16
+    fairy_y = (center_menu_position_y - 21) + cursor_position * 16
     fairy_sprite:set_xy(fairy_x, fairy_y)
   elseif command == "up" then
     sol.audio.play_sound("save_menu_cursor")
     cursor_position = (cursor_position + 3) % 4
     local fairy_x, fairy_y = fairy_sprite:get_xy()
-    fairy_y = 99 + cursor_position * 16
+    fairy_y = (center_menu_position_y - 21) + cursor_position * 16
     fairy_sprite:set_xy(fairy_x, fairy_y)
   elseif command == "action" or command == "attack" then
 

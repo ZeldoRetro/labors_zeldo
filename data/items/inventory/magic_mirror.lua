@@ -66,6 +66,15 @@ local function get_return_map()
       return_dest = "start_wave_1"
     end  
 
+  -- Vague 3 - Retranscriptions
+  elseif world == "dungeon_10021" -- Ruines de l'Aigle
+  or world == "dungeon_10022" -- Palais de Parapa
+  or world == "dungeon_10023" -- Ruines du Croissant
+  or world == "outside_light_labors_retranscriptions"
+  or world == "inside_world_labors_retranscriptions" then
+    return_map = "creations/labors/retranscriptions/hub"
+    return_dest = "start_wave_1"
+
   -- Manoir ou Hors Vague : Rien ne se passe
   else return "other" end
 end

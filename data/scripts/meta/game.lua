@@ -74,6 +74,15 @@ game_meta:register_event("get_current_wave",function(game)
   or world == "inside_world_labors_1st_solarus_quest" then
     return "1st_solarus_quest"
 
+  -- Vague 3 - Retranscriptions
+  elseif world == "dungeon_10020" -- Manoir Oblivion - Étage 3
+  or world == "dungeon_10021" -- Ruines de l'Aigle
+  or world == "dungeon_10022" -- Palais de Parapa
+  or world == "dungeon_10023" -- Ruines du Croissant
+  or world == "outside_light_labors_retranscriptions"
+  or world == "inside_world_labors_retranscriptions" then
+    return "retranscriptions"
+
   -- Hors Vague - Autre contenu 
   else return "other" end
 end)

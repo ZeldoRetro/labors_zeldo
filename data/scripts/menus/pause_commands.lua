@@ -162,25 +162,25 @@ function commands_manager:new(game)
 
   local function build_layout()
 
-    layout = gui_designer:create(320, 240)
+    layout = gui_designer:create(432, 240)
 
     local title = sol.language.get_string("pause.commands.title")
-    layout:make_text(title, 160, 13, "center")
+    layout:make_text(title, 160 + 56, 13, "center")
 
     local title = sol.language.get_string("pause.commands.commands")
-    layout:make_text(title, 76, 66, "center")
+    layout:make_text(title, 76 + 56, 66, "center")
 
     local title = sol.language.get_string("pause.commands.keyboard")
-    layout:make_text(title, 161, 66, "center")
+    layout:make_text(title, 161 + 56, 66, "center")
 
     local title = sol.language.get_string("pause.commands.joypad")
-    layout:make_text(title, 243, 66, "center")
+    layout:make_text(title, 243 + 56, 66, "center")
 
     if commands_items[cursor_index].customizable then
       local footer = game.customizing_command and
           sol.language.get_string("pause.commands.press_new_key") or
           sol.language.get_string("pause.commands.action_to_configure")
-      layout:make_text(footer, 160, 208, "center")
+      layout:make_text(footer, 160 + 56, 208, "center")
     end
 
     local first = first_shown
@@ -202,13 +202,13 @@ function commands_manager:new(game)
           color = { 0, 136, 12 }
         end
         if color ~= nil then
-          layout:make_color_background(color, 36, y, 248, 16)
+          layout:make_color_background(color, 36 + 56, y, 248, 16)
         end
       end
 
       local name = sol.language.get_string("pause.commands." .. item.name)
       assert(name ~= nil)
-      layout:make_text(name, 40, y)
+      layout:make_text(name, 40 + 56, y)
 
       local keyboard_text
       local joypad_text
@@ -220,9 +220,9 @@ function commands_manager:new(game)
         keyboard_text = item.key
       end
 
-      layout:make_text(keyboard_text, 127, y)
+      layout:make_text(keyboard_text, 127 + 56, y)
       if joypad_text ~= nil then
-        layout:make_text(joypad_text, 208, y)
+        layout:make_text(joypad_text, 208 + 56, y)
       end
 
       y = y + 16

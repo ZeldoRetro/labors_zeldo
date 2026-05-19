@@ -16,7 +16,7 @@ local last_option
 local link_voice_option
 local link_voice_manager = require("scripts/link_voice_manager")
 
-local background_img = sol.surface.create(320,240)
+local background_img = sol.surface.create(432,240)
 background_img:fill_color({255,255,255})
 local background_slabs_img = sol.surface.create("menus/title_labors_background.png")
 
@@ -34,24 +34,24 @@ local shader
 
 local function build_layout()
 
-  layout = gui_designer:create(320, 240)
+  layout = gui_designer:create(432, 240)
 
-  layout:make_wooden_frame(16, 8, 160, 32)
-  layout:make_text(sol.language.get_string("options_menu.title"), 95, 16, "center")
-  layout:make_text(sol.language.get_string("options_menu.music_volume"), 64, 56)
-  layout:make_image(slider_img, 128, 56)
-  layout:make_text(sol.language.get_string("options_menu.sound_volume"), 64, 80)
-  layout:make_image(slider_img, 128, 80)
-  layout:make_text(sol.language.get_string("options_menu.link_voice"), 64, 104)
+  layout:make_wooden_frame(16 + 56, 8, 160, 32)
+  layout:make_text(sol.language.get_string("options_menu.title"), 95 + 56, 16, "center")
+  layout:make_text(sol.language.get_string("options_menu.music_volume"), 64 + 56, 56)
+  layout:make_image(slider_img, 128 + 56, 56)
+  layout:make_text(sol.language.get_string("options_menu.sound_volume"), 64 + 56, 80)
+  layout:make_image(slider_img, 128 + 56, 80)
+  layout:make_text(sol.language.get_string("options_menu.link_voice"), 64 + 56, 104)
   if link_voice_manager:get_link_voice_enabled() then link_voice_option = "options_menu.link_voice_yes"
   else link_voice_option = "options_menu.link_voice_no" end
-  layout:make_text("< " .. sol.language.get_string(link_voice_option) .. " >", 288, 104, "right")
-  layout:make_text(sol.language.get_string("options_menu.video_filter"), 64, 128)
-  if sol.video.get_shader()== nil then layout:make_text("< " .. sol.language.get_string("options_menu.video_filter_nil") .. " >", 288, 128, "right")
-  else shader = sol.video.get_shader() layout:make_text("< " .. shader:get_id() .. " >", 288, 128, "right") end
-  layout:make_text(sol.language.get_string("options_menu.language"), 64, 152)
-  layout:make_text("< " .. sol.language.get_language_name() .. " >", 288, 152, "right")
-  layout:make_text(sol.language.get_string("options_menu.back"), 64, 200)
+  layout:make_text("< " .. sol.language.get_string(link_voice_option) .. " >", 288 + 56, 104, "right")
+  layout:make_text(sol.language.get_string("options_menu.video_filter"), 64 + 56, 128)
+  if sol.video.get_shader()== nil then layout:make_text("< " .. sol.language.get_string("options_menu.video_filter_nil") .. " >", 288 + 56, 128, "right")
+  else shader = sol.video.get_shader() layout:make_text("< " .. shader:get_id() .. " >", 288 + 56, 128, "right") end
+  layout:make_text(sol.language.get_string("options_menu.language"), 64 + 56, 152)
+  layout:make_text("< " .. sol.language.get_language_name() .. " >", 288 + 56, 152, "right")
+  layout:make_text(sol.language.get_string("options_menu.back"), 64 + 56, 200)
 end
 
 -- Places the cursor on option 1, 2 or 3, 4
@@ -59,25 +59,25 @@ end
 local function set_cursor_position(index)
 
   cursor_position = index
-  cursor_img:set_xy(28, 28 + index * 24)
-  if cursor_position == 1 then cursor_img:set_xy(28, 56)
-  elseif cursor_position == 2 then cursor_img:set_xy(28, 80)
-  elseif cursor_position == 3 then cursor_img:set_xy(28, 104)
-  elseif cursor_position == 4 then cursor_img:set_xy(28, 128)
-  elseif cursor_position == 5 then cursor_img:set_xy(28, 152) 
-  elseif cursor_position == 6 then cursor_img:set_xy(28, 200) end
+  cursor_img:set_xy(28 + 56, 28 + index * 24)
+  if cursor_position == 1 then cursor_img:set_xy(28 + 56, 56)
+  elseif cursor_position == 2 then cursor_img:set_xy(28 + 56, 80)
+  elseif cursor_position == 3 then cursor_img:set_xy(28 + 56, 104)
+  elseif cursor_position == 4 then cursor_img:set_xy(28 + 56, 128)
+  elseif cursor_position == 5 then cursor_img:set_xy(28 + 56, 152) 
+  elseif cursor_position == 6 then cursor_img:set_xy(28 + 56, 200) end
 end
 
 local function update_music_slider()
 
   local volume = sol.audio.get_music_volume()
-  music_slider_x = 136 + (volume * 128 / 100)
+  music_slider_x = 136 + 56 + (volume * 128 / 100)
 end
 
 local function update_sound_slider()
 
   local volume = sol.audio.get_sound_volume()
-  sound_slider_x = 136 + (volume * 128 / 100)
+  sound_slider_x = 136 + 56 + (volume * 128 / 100)
 end
 
 local function increase_music_volume()

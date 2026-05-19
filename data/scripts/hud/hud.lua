@@ -31,11 +31,11 @@ function hud_manager:create(game)
   local clock_builder = require("scripts/hud/clock")
 
   local hearts = hearts_builder:new(game)
-  hearts:set_dst_position(-312, 6)
+  hearts:set_dst_position(8, 6)
   hud.elements[#hud.elements + 1] = hearts
 
   local magic_bar = magic_bar_builder:new(game)
-  magic_bar:set_dst_position(-312, 25)
+  magic_bar:set_dst_position(8, 25)
   hud.elements[#hud.elements + 1] = magic_bar
 
   local rupees = rupees_builder:new(game)
@@ -51,31 +51,31 @@ function hud_manager:create(game)
   hud.elements[#hud.elements + 1] = floor
 
   local pause_icon = pause_icon_builder:new(game)
-  pause_icon:set_dst_position(192, 5)
+  pause_icon:set_dst_position(192 + 53 + 53 + 6, 10)
   hud.elements[#hud.elements + 1] = pause_icon
 
   local item_icon_2 = item_icon_builder:new(game, 2)
-  item_icon_2:set_dst_position(288, 17)
+  item_icon_2:set_dst_position(288 + 53 + 53 + 6, 22)
   hud.elements[#hud.elements + 1] = item_icon_2
 
   local item_icon_1 = item_icon_builder:new(game, 1)
-  item_icon_1:set_dst_position(268, 1)
+  item_icon_1:set_dst_position(268 + 53 + 53 + 6, 6)
   hud.elements[#hud.elements + 1] = item_icon_1
 
   local attack_icon = attack_icon_builder:new(game)
-  attack_icon:set_dst_position(224, 17)
+  attack_icon:set_dst_position(224 + 53 + 53 + 6, 22)
   hud.elements[#hud.elements + 1] = attack_icon
 
   local action_icon = action_icon_builder:new(game)
-  action_icon:set_dst_position(244, 33)
+  action_icon:set_dst_position(244 + 53 + 53 + 6, 39)
   hud.elements[#hud.elements + 1] = action_icon
 
   local boss_life = boss_life_builder:new(game)
-  boss_life:set_dst_position(110, 220)
+  boss_life:set_dst_position(110 + 56, 220)
   hud.elements[#hud.elements + 1] = boss_life
 
   local clock = clock_builder:new(game)
-  clock:set_dst_position(280, 200)
+  clock:set_dst_position(280 + 53 + 53, 200)
   hud.elements[#hud.elements + 1] = clock
 
 

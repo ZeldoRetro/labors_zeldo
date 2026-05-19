@@ -2,7 +2,7 @@ local map = ...
 local game = map:get_game()
 
 --TEMPS SOMBRE LORS DE L'ASSAUT DE GANON
-local dark_img = sol.surface.create(320,240)
+local dark_img = sol.surface.create(432,240)
 dark_img:set_opacity(160)
 dark_img:fill_color({0, 0, 0})
 

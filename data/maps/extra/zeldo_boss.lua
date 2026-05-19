@@ -1,7 +1,7 @@
 local map = ...
 local game = map:get_game()
 
-local light_img = sol.surface.create(320,240)
+local light_img = sol.surface.create(432,240)
 light_img:fill_color({255, 255, 255})
 local light = false
 
@@ -9,6 +9,7 @@ local phase_1 = false
 
 local end_ok = false
 local hero_dead = false
+local saved_by_fairy = false
 
 -- Effet de distorsion en arrière plan
 
@@ -49,6 +50,7 @@ map:register_event("on_started",function(map)
         camera:start_tracking(hero)
         zeldo_npc:set_enabled(false)
         zeldo_boss:set_enabled()
+        map:set_entities_enabled("firewall_", true)
         game:set_max_life(20*4)
         game:set_life(game:get_max_life())
         phase_1 = true
@@ -97,16 +99,26 @@ function map:on_update()
       end)
     end
   else
-    if game:get_life() < 1 then
-      if not hero_dead then
-        hero_dead = true
-        sol.timer.start(game, 3000, function()
-          sol.audio.play_sound(sol.language.get_language().."/zeldo_wave_1_voice/gonna_cry")
-          local i = game:get_value("death_counter_zeldo_wave_1")
-          if i == nil then i = 0 end
-          game:set_value("death_counter_zeldo_wave_1",i + 1)
-          print("Eh eh eh... ça fait "..game:get_value("death_counter_zeldo_wave_1").."-0 !")
-        end)
+    if game:get_life() < 1 and not saved_by_fairy then
+      local bottle_with_fairy = nil
+      if game.get_first_bottle_with ~= nil then
+        bottle_with_fairy = game:get_first_bottle_with(6)
+      end
+      if bottle_with_fairy ~= nil then
+        saved_by_fairy = true
+        sol.timer.start(map, 10000, function() saved_by_fairy = false end)
+      else
+        if not hero_dead then
+          hero_dead = true
+          sol.timer.start(game, 3000, function()
+            game:get_item("equipment/sword_PLAYER"):set_variant(0)
+            sol.audio.play_sound(sol.language.get_language().."/zeldo_wave_1_voice/gonna_cry")
+            local i = game:get_value("death_counter_zeldo_wave_1")
+            if i == nil then i = 0 end
+            game:set_value("death_counter_zeldo_wave_1",i + 1)
+            print("Eh eh eh... ça fait "..game:get_value("death_counter_zeldo_wave_1").."-0 !")
+          end)
+        end
       end
     end
   end

@@ -40,9 +40,12 @@ function torch:set_lit(lit)
     sprite:set_animation("lit")
     if torch.duration ~= nil then
       sol.timer.start(torch, torch.duration, function()
-        torch:set_lit(false)
-        if torch.on_unlit ~= nil then
-          torch:on_unlit()
+        -- If torch get a certain property, the timer is "canceled" and the torch stays lit
+        if not torch:get_property("stays_lit") then
+          torch:set_lit(false)
+          if torch.on_unlit ~= nil then
+            torch:on_unlit()
+          end
         end
       end)
     end

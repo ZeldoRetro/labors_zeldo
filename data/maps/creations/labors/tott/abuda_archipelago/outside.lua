@@ -1,22 +1,8 @@
 local map = ...
 local game = map:get_game()
 
-texte_lieu = sol.text_surface.create{
-  text_key = "location.tott.abuda_archipelago",
-  font = "alttp",
-  font_size = 24,
-  horizontal_alignment = "left",
-  vertical_alignment = "middle",
-}
-
-local function npc_walk(npc)
-  local movement = sol.movement.create("random_path")
-  movement:set_speed(32)
-  movement:start(npc)
-end
-
 --DEBUT DE LA MAP
-function map:on_started(destination)
+map:register_event("on_started", function(map, destination)
 
   --Equipement requis + Initialisation variables
   if destination == start then
@@ -62,20 +48,4 @@ function map:on_started(destination)
     if game:get_value("tott_upgrade_card_bombs_active") then game:get_item("equipment/bomb_bag"):set_variant(2) game:get_item("inventory/bombs_counter"):set_amount(40) end
 
   end
-
-  npc_walk(night_entity_bed_woman)
-
-  --Système jour/nuit
-  game:set_value("timelapse",false)
-  if game:get_value("day") or game:get_value("twilight") then
-    --Jour/Crépuscule
-    sol.audio.play_music("creations/labors/tott/island_village")
-    map:set_entities_enabled("night_entity",false)
-    map:set_entities_enabled("day_entity",true)
-  elseif game:get_value("night") or game:get_value("dawn") then
-    --Nuit/Aube
-    sol.audio.play_music("creations/labors/tott/island_village_night")
-    map:set_entities_enabled("night_entity",true)
-    map:set_entities_enabled("day_entity",false)
-  end
-end
+end)

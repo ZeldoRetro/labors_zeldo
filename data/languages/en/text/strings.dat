@@ -13,6 +13,9 @@ text{ key = "dungeon_10011.name", value = "Temple of Courage" }
 text{ key = "dungeon_10014.name", value = "Temple of Power" }
 text{ key = "dungeon_10015.name", value = "Temple of Wisdom" }
 text{ key = "dungeon_10017.name", value = "Hyrule Castle" }
+text{ key = "dungeon_10021.name", value = "Eagle Ruins" }
+text{ key = "dungeon_10022.name", value = "Parapa Palace" }
+text{ key = "dungeon_10023.name", value = "Moon Ruins" }
 text{ key = "dungeon_4.name", value = "Kokiri Garden" }
 text{ key = "dungeon_999.name", value = "Final Dungeon" }
 text{ key = "inventory.item_caption.equipment/flippers.1", value = "Flippers" }
@@ -20,6 +23,7 @@ text{ key = "inventory.item_caption.equipment/gems_detector.1", value = "Gems De
 text{ key = "inventory.item_caption.equipment/glove.1", value = "Power Bracelet" }
 text{ key = "inventory.item_caption.equipment/glove.2", value = "Power Glove" }
 text{ key = "inventory.item_caption.equipment/glove.3", value = "Titans Mitts" }
+text{ key = "inventory.item_caption.equipment/sword_PLAYER.1", value = "Cheater's Sword" }
 text{ key = "inventory.item_caption.equipment/swordsman_scroll.1", value = "Swordsman Scroll" }
 text{ key = "inventory.item_caption.inventory/bombs_counter.1", value = "Bombs" }
 text{ key = "inventory.item_caption.inventory/boomerang.1", value = "Boomerang" }
@@ -57,6 +61,7 @@ text{ key = "inventory.item_caption.inventory/bottle_4.6", value = "Fairy" }
 text{ key = "inventory.item_caption.inventory/bottle_4.7", value = "Milk" }
 text{ key = "inventory.item_caption.inventory/bottle_4.8", value = "Château Romani" }
 text{ key = "inventory.item_caption.inventory/bow.1", value = "Bow and arrows" }
+text{ key = "inventory.item_caption.inventory/bow_PLAYER.1", value = "Thief's Bow" }
 text{ key = "inventory.item_caption.inventory/bow_light.1", value = "Bow of Light" }
 text{ key = "inventory.item_caption.inventory/cane_of_byrna.1", value = "Cane of Byrna" }
 text{ key = "inventory.item_caption.inventory/cane_of_somaria.1", value = "Cane of Somaria" }
@@ -124,6 +129,7 @@ text{ key = "location.1st_solarus_quest.link_house", value = "Departure Grounds"
 text{ key = "location.1st_solarus_quest.nayru_shrine", value = "Nayru Shrine" }
 text{ key = "location.castle_oblivion_1ET", value = "2nd Floor - Tower of the Triforce" }
 text{ key = "location.castle_oblivion_2ET", value = "3rd Floor - The 1st Solarus Quest" }
+text{ key = "location.castle_oblivion_3ET", value = "4th Floor - Retranscriptions" }
 text{ key = "location.castle_oblivion_RDC", value = "Oblivion Castle" }
 text{ key = "location.castle_town", value = "Castle Town" }
 text{ key = "location.ganon_castle", value = "Ganon's Castle" }

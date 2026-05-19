@@ -5564,15 +5564,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 784,
-  y = 920,
-  width = 32,
-  height = 16,
-  pattern = "wall_torch.2",
-}
-
-tile{
-  layer = 1,
   x = 688,
   y = 880,
   width = 32,
@@ -8015,11 +8006,35 @@ tile{
   pattern = "table.5",
 }
 
+tile{
+  layer = 1,
+  x = 792,
+  y = 480,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+custom_entity{
+  name = "zeldoclown",
+  layer = 1,
+  x = 688,
+  y = 768,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  origin_x = 0,
+  origin_y = 0,
+  direction = 0,
+  sprite = "backgrounds/zeldoclown",
+}
+
 sensor{
   name = "welcome_shop_potion",
   layer = 1,
   x = 1224,
   y = 93,
+  enabled_at_start = false,
   width = 128,
   height = 80,
 }
@@ -8634,9 +8649,11 @@ shop_treasure{
 }
 
 npc{
+  name = "welcome_shop_potion_npc",
   layer = 1,
   x = 1280,
   y = 93,
+  enabled_at_start = false,
   direction = 3,
   subtype = 1,
   sprite = "npc/witch",
@@ -9485,26 +9502,6 @@ teletransporter{
   sound = "warp",
 }
 
-custom_entity{
-  layer = 1,
-  x = 1432,
-  y = 557,
-  width = 8,
-  height = 16,
-  direction = 0,
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 1,
-  x = 1456,
-  y = 557,
-  width = 8,
-  height = 16,
-  direction = 0,
-  model = "hookable",
-}
-
 chest{
   name = "final_chest_1_1",
   layer = 1,
@@ -9969,6 +9966,27 @@ npc{
   },
   direction = 3,
   subtype = 0,
+}
+
+switch{
+  name = "zeldoclown_switch",
+  layer = 1,
+  x = 792,
+  y = 920,
+  subtype = "solid",
+  sprite = "entities/Switches/solid_switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 784,
+  y = 920,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.2",
 }
 
 tile{
@@ -11280,5 +11298,15 @@ dynamic_tile{
   width = 8,
   height = 16,
   pattern = "423",
+}
+
+custom_entity{
+  layer = 2,
+  x = 800,
+  y = 933,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Switches/switch_stars_effect",
 }
 

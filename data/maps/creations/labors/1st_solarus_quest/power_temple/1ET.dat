@@ -9742,6 +9742,60 @@ tile{
   pattern = "stairs_inner_up.1.border.2-1",
 }
 
+tile{
+  layer = 2,
+  x = 1088,
+  y = 1136,
+  width = 16,
+  height = 24,
+  pattern = "barrier_big.border.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 1088,
+  y = 1000,
+  width = 16,
+  height = 16,
+  pattern = "barrier_big.border.1-1",
+}
+
+tile{
+  layer = 2,
+  x = 1088,
+  y = 1016,
+  width = 16,
+  height = 120,
+  pattern = "barrier_big.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 1776,
+  y = 1136,
+  width = 16,
+  height = 24,
+  pattern = "barrier_big.border.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 1776,
+  y = 1000,
+  width = 16,
+  height = 16,
+  pattern = "barrier_big.border.1-1",
+}
+
+tile{
+  layer = 2,
+  x = 1776,
+  y = 1016,
+  width = 16,
+  height = 120,
+  pattern = "barrier_big.2-1",
+}
+
 custom_entity{
   layer = 2,
   x = 1312,
@@ -10020,26 +10074,6 @@ jumper{
   height = 8,
   direction = 6,
   jump_length = 40,
-}
-
-jumper{
-  layer = 2,
-  x = 1104,
-  y = 1000,
-  width = 8,
-  height = 160,
-  direction = 0,
-  jump_length = 64,
-}
-
-jumper{
-  layer = 2,
-  x = 1768,
-  y = 1000,
-  width = 8,
-  height = 160,
-  direction = 4,
-  jump_length = 64,
 }
 
 jumper{

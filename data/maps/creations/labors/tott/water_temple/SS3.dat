@@ -20867,7 +20867,7 @@ sensor{
 }
 
 sensor{
-  name = "dungeon_room_14",
+  name = "dungeon_room_14_1",
   layer = 1,
   x = 1272,
   y = 1085,
@@ -21808,6 +21808,25 @@ sensor{
   y = 1085,
   width = 16,
   height = 16,
+}
+
+sensor{
+  name = "dungeon_room_14_2",
+  layer = 1,
+  x = 968,
+  y = 1085,
+  width = 16,
+  height = 16,
+}
+
+wall{
+  layer = 1,
+  x = 440,
+  y = 792,
+  width = 80,
+  height = 8,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 tile{

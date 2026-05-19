@@ -1,7 +1,7 @@
 local map = ...
 local game = map:get_game()
 
-function map:on_started()
+map:register_event("on_started", function(map, destination)
 
   --Palmes achetées
   if game:get_value("get_flippers_10006") then flippers:set_enabled(false) trophy:set_enabled(true) end
@@ -13,7 +13,12 @@ function map:on_started()
   if game:get_value("pm_4_10006") then magic_flask_blue:set_enabled(false) end
   --Palmes achetées
   if game:get_value("get_zora_scale_1_10006") then zora_scale:set_enabled(false) end
-end
+
+  --Entités invisibles
+  for entity in map:get_entities("invisible_path") do
+	  entity:set_visible(false)
+  end
+end)
 
 --DIALOGUE DE BIENVENUE DU MARCHAND
 function trigger_dialog:on_activated() 
@@ -56,4 +61,11 @@ function trophy:on_interaction()
       end
     end
   end)
+end
+
+-- SHOP S'ACTUALISE APRÈS ACHAT DES PALMES
+function map:on_obtained_treasure(item, variant, treasure_savegame_variable)
+  if item:get_name() == "equipment/flippers" and item:get_variant() == 1 then
+    trophy:set_enabled(true)
+  end
 end

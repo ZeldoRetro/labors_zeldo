@@ -2,7 +2,7 @@ local presentation_screen = {}
 
 local presentation_img = sol.surface.create("menus/presentation.png")
 
-local background_img = sol.surface.create(320,240)
+local background_img = sol.surface.create(432,240)
 background_img:fill_color({255,255,255})
 
 function presentation_screen:on_started()

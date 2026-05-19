@@ -9390,7 +9390,7 @@ destructible{
 }
 
 door{
-  name = "auto_door_2_2",
+  name = "auto_door_2_behind",
   layer = 0,
   x = 472,
   y = 1008,
@@ -26268,43 +26268,6 @@ block{
   layer = 1,
   x = 856,
   y = 1117,
-  direction = 1,
-  sprite = "entities/blocks/block-dungeon1",
-  pushable = true,
-  pullable = false,
-  max_moves = 1,
-}
-
-block{
-  name = "auto_block_2",
-  layer = 1,
-  x = 872,
-  y = 1117,
-  direction = 0,
-  sprite = "entities/blocks/block-dungeon1",
-  pushable = true,
-  pullable = false,
-  max_moves = 1,
-}
-
-block{
-  name = "auto_block_3",
-  layer = 1,
-  x = 728,
-  y = 1117,
-  direction = 2,
-  sprite = "entities/blocks/block-dungeon1",
-  pushable = true,
-  pullable = false,
-  max_moves = 1,
-}
-
-block{
-  name = "auto_block_4",
-  layer = 1,
-  x = 744,
-  y = 1117,
-  direction = 3,
   sprite = "entities/blocks/block-dungeon1",
   pushable = true,
   pullable = false,
@@ -31213,6 +31176,24 @@ dynamic_tile{
   height = 16,
   pattern = "symbol.small-key",
   tileset = "extra/casual_tileset",
+}
+
+block{
+  layer = 1,
+  x = 872,
+  y = 1133,
+  sprite = "entities/blocks/block-dungeon1",
+  pushable = false,
+  pullable = false,
+}
+
+block{
+  layer = 1,
+  x = 728,
+  y = 1133,
+  sprite = "entities/blocks/block-dungeon1",
+  pushable = false,
+  pullable = false,
 }
 
 tile{

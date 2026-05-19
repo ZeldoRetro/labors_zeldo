@@ -1,13 +1,8 @@
 local map = ...
 local game = map:get_game()
-local door_manager = require("maps/lib/door_manager")
-door_manager:manage_map(map)
-local separator_manager = require("maps/lib/separator_manager")
-separator_manager:manage_map(map)
-
 
 --DÉBUT DE LA MAP
-function map:on_started()
+map:register_event("on_started", function(map, destination)
 
   shrine_portal:set_drawn_in_y_order(true)
 
@@ -53,6 +48,10 @@ function map:on_started()
   local arrows_counter = game:get_item("inventory/bow")
   arrows_counter:set_variant(0)
   arrows_counter:set_amount(0)
+
+  -- Objets PLAYER
+  if game:get_value("zeldo_wave_1_defeated") then game:get_item("equipment/sword_PLAYER"):set_variant(1) end
+  if game:get_value("zeldo_wave_2_defeated") then game:get_item("inventory/bow_PLAYER"):set_variant(1) end
 
   --Upgrades si achat au magasin
   if game:get_value("tott_upgrade_card_force_active") then local force = game:get_value("force") game:set_value("force", force + 1) end
@@ -101,7 +100,8 @@ function map:on_started()
   --Marchands
   if game:get_value("red_key_10000_1_1") and game:get_value("blue_key_10000_1_1") and game:get_value("green_key_10000_1_1") and game:get_value("yellow_key_10000_1") then map:set_entities_enabled("welcome_shop_remembrance",false) end
   if game:get_value("labors_magic_flask_upgrade_wave_1") and game:get_value("labors_attack_boost_wave_1") and game:get_value("labors_defense_boost_wave_1") then welcome_shop:set_enabled(false) welcome_shop_npc:set_enabled(false) end
-end
+
+end)
 
 --ZELDO EXPLIQUE LES RÈGLES
 function sensor_rules:on_activated()
@@ -161,7 +161,8 @@ end
 
 
 --PAS DE POTION SI PAS DE BOUTEILLE VIDE
-if game:get_value("labors_bottle_1") then
+if game:get_value("labors_bottle_1") or game:get_value("labors_bottle_2") or game:get_value("labors_bottle_3") or game:get_value("labors_bottle_4") then
+  map:set_entities_enabled("welcome_shop_potion", true)
   function shop_potion_1:on_buying()
     local first_empty_bottle = self:get_game():get_first_empty_bottle()
     if first_empty_bottle == nil then
@@ -344,8 +345,20 @@ for npc in map:get_entities("npc_frame_") do
   end
 end
 
-function map:on_finished()
+-- INIT DRAW CADRES + ENLEVER OBJETS PLAYER QUAND VERS ZONE DE TRAVAUX
+map:register_event("on_finished",function(map)
   function sol.video:on_draw(screen) end
+
+  local hero_x, hero_y = map:get_hero():get_position()
+  if hero_x < 776 or hero_y > 480 or hero_x > 824 then
+    game:get_item("equipment/sword_PLAYER"):set_variant(0)
+    game:get_item("inventory/bow_PLAYER"):set_variant(0)
+  end
+end)
+
+-- ZeldoClown Easter Egg
+function zeldoclown_switch:on_activated()
+  zeldoclown:set_enabled(true)
 end
 
 --TEST SON ET LISTE DES MUSIQUES

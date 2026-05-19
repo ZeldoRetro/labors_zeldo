@@ -11,7 +11,7 @@ function map:on_draw(dst_surface)
 end
 
 -- DEBUT DE LA MAP
-function map:on_started(destination)
+map:register_event("on_started", function(map, destination)
 
   if destination ~= start then
     snores:set_enabled(false)
@@ -69,7 +69,7 @@ function map:on_started(destination)
       end)
     end)
   end)
-end
+end)
 
 
 

@@ -65,7 +65,7 @@ function enemy:go()
     m:set_speed(24)
     m:set_max_distance(32 + math.random(64))
     m:set_angle(direction4 * math.pi / 2)
-    
+    m:set_smooth(false)
     
 end
 
@@ -86,12 +86,16 @@ function enemy:go_hero()
     m:set_speed(64)
     m:set_max_distance(64 + math.random(128))
     m:set_angle(direction4 * math.pi / 2)
+    m:set_smooth(false)
     m:start(self)
     
     
 end
 
-function enemy:on_attacking_hero(hero, enemy_sprite)
-  hero:start_hurt(enemy, 1)
-  enemy:get_game():set_life(1)
+function enemy:on_attacking_hero(hero,enemy_sprite)
+
+  -- Hero loses 1/2 of his life
+  local game = enemy:get_game()
+  hero:start_hurt(enemy, 0)
+  game:remove_life(math.floor(game:get_life() / 2))
 end

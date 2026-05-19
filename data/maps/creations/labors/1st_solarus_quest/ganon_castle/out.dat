@@ -68505,6 +68505,26 @@ custom_entity{
   sprite = "entities/stars_effect",
 }
 
+custom_entity{
+  name = "EXCEPTION_outside",
+  layer = 2,
+  x = -8,
+  y = -3,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "EXCEPTION_16/9_display",
+  layer = 2,
+  x = -24,
+  y = -3,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
 tile{
   layer = 3,
   x = 944,

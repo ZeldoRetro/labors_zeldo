@@ -11823,6 +11823,16 @@ custom_entity{
   model = "torch",
 }
 
+custom_entity{
+  name = "EXCEPTION_16/9_display",
+  layer = 2,
+  x = 624,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
 tile{
   layer = 3,
   x = 984,

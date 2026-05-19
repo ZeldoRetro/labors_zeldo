@@ -32,7 +32,7 @@ local get_out_here = sol.surface.create("screen_image/GETOUT.png")
 get_out_here:set_scale(2, 2)
 
 
-function map:on_started()
+map:register_event("on_started", function(map, destination)
 
   if game:get_value("CH3ATER_forgotten_corridor") then
     print("SALE TRICHEUR ! DISPARAIS !")
@@ -117,7 +117,7 @@ function map:on_started()
     end)
   end)
 
-end
+end)
 
 function game:on_draw(dst_surface)
   if draw_bg then console_background:draw(dst_surface) end

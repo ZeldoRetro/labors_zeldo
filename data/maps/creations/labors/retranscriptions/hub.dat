@@ -1,0 +1,1073 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 1600,
+  height = 960,
+  min_layer = -5,
+  max_layer = 9,
+  world = "dungeon_10020",
+  floor = 3,
+  tileset = "inside_green_dungeon",
+  music = "dungeons/final_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 920,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-5",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 760,
+  width = 24,
+  height = 160,
+  pattern = "wall.3-5",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 736,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 920,
+  width = 240,
+  height = 24,
+  pattern = "wall.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 920,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-5",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 736,
+  width = 240,
+  height = 24,
+  pattern = "wall.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 760,
+  width = 24,
+  height = 160,
+  pattern = "wall.4-5",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 736,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 760,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-5",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-5",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 912,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 768,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.3-5",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 760,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 760,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 768,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.4-5",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 768,
+  width = 224,
+  height = 144,
+  pattern = "floor.12-1",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 880,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 880,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 376,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "door.1",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 816,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 376,
+  y = 816,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 816,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 376,
+  y = 832,
+  width = 16,
+  height = 48,
+  pattern = "floor.8-1",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 832,
+  width = 8,
+  height = 48,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 832,
+  width = 8,
+  height = 48,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 768,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 768,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 760,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 784,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 760,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 784,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 768,
+  width = 48,
+  height = 16,
+  pattern = "floor.8-1",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 784,
+  width = 48,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 760,
+  width = 48,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 768,
+  y = 784,
+  width = 64,
+  height = 112,
+  pattern = "floor.12-1",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 904,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 904,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 904,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 920,
+  width = 16,
+  height = 32,
+  pattern = "floor.8-1",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 920,
+  width = 8,
+  height = 24,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 920,
+  width = 8,
+  height = 24,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 944,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 896,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 896,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 768,
+  y = 896,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 760,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 760,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 760,
+  width = 16,
+  height = 16,
+  pattern = "door.1",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 728,
+  width = 16,
+  height = 32,
+  pattern = "floor.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 736,
+  width = 8,
+  height = 24,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 736,
+  width = 8,
+  height = 24,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 728,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 736,
+  y = 752,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 752,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 768,
+  y = 776,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 800,
+  width = 192,
+  height = 96,
+  pattern = "floor.20-1",
+}
+
+wall{
+  layer = 1,
+  x = 376,
+  y = 816,
+  width = 16,
+  height = 80,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 1,
+  x = 344,
+  y = 768,
+  width = 80,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 1,
+  x = 792,
+  y = 904,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+destination{
+  name = "start",
+  layer = 1,
+  x = 800,
+  y = 933,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 1,
+  x = 792,
+  y = 928,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/castle_oblivion_3ET",
+  destination = "debut_etage",
+  sound = "warp",
+}
+
+npc{
+  name = "zeldo",
+  layer = 1,
+  x = 800,
+  y = 829,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "labors_wave_3_welcome",
+    },
+  },
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/boss/zeldo_wave_1/zeldo",
+}
+
+sensor{
+  name = "sensor_rules",
+  layer = 1,
+  x = 792,
+  y = 877,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "labors_wave_2_welcome",
+    },
+  },
+  width = 32,
+  height = 16,
+}
+
+wall{
+  layer = 1,
+  x = 792,
+  y = 760,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+destination{
+  name = "end",
+  layer = 1,
+  x = 800,
+  y = 757,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 1,
+  x = 792,
+  y = 736,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/castle_oblivion_3ET",
+  destination = "fin_etage",
+  sound = "warp",
+}
+
+destination{
+  name = "start_wave_1",
+  layer = 1,
+  x = 928,
+  y = 853,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 1,
+  x = 848,
+  y = 864,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/retranscriptions/eagle_ruins/RDC",
+  destination = "entree_donjon",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 1,
+  x = 992,
+  y = 864,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/retranscriptions/parapa_palace/RDC",
+  destination = "entree_donjon",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 1,
+  x = 848,
+  y = 816,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "trophy_labors_retranscriptions_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/hera_mountain/death_path",
+  destination = "start",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 1,
+  x = 992,
+  y = 816,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "trophy_labors_retranscriptions_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/retranscriptions/moon_ruins/RDC",
+  destination = "entree_donjon",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 1,
+  x = 920,
+  y = 816,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "enable_if_value",
+      value = "trophy_labors_retranscriptions_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/1st_solarus_quest/hera_mountain/death_path",
+  destination = "start",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 1,
+  x = 992,
+  y = 848,
+  width = 16,
+  height = 16,
+  destination_map = "creations/labors/retranscriptions/moon_ruins/RDC",
+  destination = "entree_donjon",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 720,
+  width = 16,
+  height = 240,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 720,
+  width = 16,
+  height = 240,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 720,
+  width = 288,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 944,
+  width = 288,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 360,
+  y = 872,
+  width = 48,
+  height = 8,
+  pattern = "door_cache.1-5",
+}
+
+tile{
+  layer = 2,
+  x = 360,
+  y = 832,
+  width = 48,
+  height = 8,
+  pattern = "door_cache.2-5",
+}
+
+tile{
+  layer = 2,
+  x = 368,
+  y = 872,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-5",
+}
+
+tile{
+  layer = 2,
+  x = 368,
+  y = 832,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-5",
+}
+
+tile{
+  layer = 2,
+  x = 360,
+  y = 744,
+  width = 8,
+  height = 64,
+  pattern = "door_cache.4-5",
+}
+
+tile{
+  layer = 2,
+  x = 360,
+  y = 760,
+  width = 8,
+  height = 32,
+  pattern = "door_top.4-5",
+}
+
+tile{
+  layer = 2,
+  x = 400,
+  y = 744,
+  width = 8,
+  height = 64,
+  pattern = "door_cache.3-5",
+}
+
+tile{
+  layer = 2,
+  x = 400,
+  y = 760,
+  width = 8,
+  height = 32,
+  pattern = "door_top.3-5",
+}
+
+tile{
+  layer = 2,
+  x = 768,
+  y = 920,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.2-2",
+}
+
+tile{
+  layer = 2,
+  x = 784,
+  y = 920,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-6",
+}
+
+tile{
+  layer = 2,
+  x = 768,
+  y = 752,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.1-2",
+}
+
+tile{
+  layer = 2,
+  x = 784,
+  y = 752,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-6",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 864,
+  y = 800,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_retranscriptions_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "421",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 856,
+  y = 800,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_retranscriptions_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "420",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 840,
+  y = 800,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_retranscriptions_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "777",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1008,
+  y = 800,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_retranscriptions_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "421",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1000,
+  y = 800,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_retranscriptions_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "420",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 984,
+  y = 800,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_retranscriptions_amount",
+    },
+    {
+      key = "amount_number",
+      value = "1",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "777",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 936,
+  y = 800,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_retranscriptions_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "399",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 928,
+  y = 800,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_retranscriptions_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 8,
+  height = 16,
+  pattern = "396",
+  tileset = "inside_house",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 912,
+  y = 800,
+  properties = {
+    {
+      key = "disable_if_value",
+      value = "trophy_labors_retranscriptions_amount",
+    },
+    {
+      key = "amount_number",
+      value = "3",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "777",
+  tileset = "inside_house",
+}
+

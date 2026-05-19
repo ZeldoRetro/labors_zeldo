@@ -6617,12 +6617,13 @@ tile{
 
 custom_entity{
   layer = 1,
-  x = 864,
+  x = 8,
   y = 5,
-  width = 576,
-  height = 280,
+  width = 1568,
+  height = 296,
   direction = 0,
   sprite = "backgrounds/mountains_light",
+  tiled = true,
 }
 
 tile{

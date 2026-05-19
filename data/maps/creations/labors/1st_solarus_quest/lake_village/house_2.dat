@@ -462,11 +462,12 @@ tile{
 
 tile{
   layer = 1,
-  x = 184,
+  x = 168,
   y = 24,
   width = 32,
   height = 16,
-  pattern = "painting",
+  pattern = "14",
+  tileset = "inside_other",
 }
 
 tile{

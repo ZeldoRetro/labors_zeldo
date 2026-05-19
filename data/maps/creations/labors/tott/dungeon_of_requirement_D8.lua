@@ -4,7 +4,7 @@ local game = map:get_game()
 local screamer = sol.surface.create("backgrounds/CHARA.png")
 screamer:set_opacity(0)
 
-local dark = sol.surface.create(320,240)
+local dark = sol.surface.create(432,240)
 dark:set_opacity(0)
 dark:fill_color({0,0,0})
 

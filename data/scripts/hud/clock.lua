@@ -2,10 +2,7 @@
 
 local clock_builder = {}
 
-local clock_img_day = sol.surface.create("hud/clock_day.png")
-local clock_img_twilight = sol.surface.create("hud/clock_twilight.png")
-local clock_img_night = sol.surface.create("hud/clock_night.png")
-local clock_img_dawn = sol.surface.create("hud/clock_dawn.png")
+local clock_img = sol.sprite.create("hud/clock_daytime")
 
 function clock_builder:new(game)
 
@@ -27,15 +24,9 @@ function clock_builder:new(game)
       y = height + y
     end
 
-    if game:get_value("day") then
-      clock_img_day:draw(dst_surface, x-2, y-2)
-    elseif game:get_value("twilight") then
-      clock_img_twilight:draw(dst_surface, x-2, y-2)
-    elseif game:get_value("night") then
-      clock_img_night:draw(dst_surface, x-2, y-2)
-    elseif game:get_value("dawn") then
-      clock_img_dawn:draw(dst_surface, x-2, y-2)
-    end
+    if daytime_increment then clock_img:draw(dst_surface, x + 18, y + 29) clock_img:set_animation("cycle_"..(game:get_value("daytime") - 1).."_to_"..game:get_value("daytime"))
+    else clock_img:draw(dst_surface, x + 18, y + 29) clock_img:set_animation("cycle_"..game:get_value("daytime") - 1) end
+
   end
 
   return clock

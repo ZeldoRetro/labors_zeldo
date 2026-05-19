@@ -45,16 +45,16 @@ function bari_mixin.mixin(enemy)
 
     function enemy:on_hurt_by_sword(hero, enemy_sprite)
         if self:is_shocking() then
-        	enemy:get_game():remove_life(3)
+          enemy:get_game():remove_life(3)
           hero:start_hurt(enemy, 1)
           hero:freeze()
-        	hero:set_animation("electrocuted")
+          hero:set_animation("electrocuted")
           sol.audio.play_sound("hero_hurt")
           sol.timer.start(1000, function () hero:unfreeze() enemy:set_pushed_back_when_hurt(true) end)
         else
-            -- Why doesn't hurt() remove life?
-            self:hurt(game:get_ability('sword'))
-            self:remove_life(game:get_ability('sword'))
+          if hero:get_animation() == "spin_attack" then 
+            enemy:remove_life(game:get_ability('sword') * 2)
+          else enemy:remove_life(game:get_ability('sword')) end
         end
     end
 

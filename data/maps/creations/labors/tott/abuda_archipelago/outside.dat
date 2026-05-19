@@ -25970,6 +25970,12 @@ npc{
   layer = 0,
   x = 888,
   y = 549,
+  properties = {
+    {
+      key = "walking_npc",
+      value = "32",
+    },
+  },
   direction = 3,
   subtype = 1,
   sprite = "npc/woman_blue",
@@ -28677,5 +28683,29 @@ tile{
   width = 48,
   height = 48,
   pattern = "3170",
+}
+
+custom_entity{
+  name = "init_map",
+  layer = 2,
+  x = -8,
+  y = -3,
+  properties = {
+    {
+      key = "timelapse",
+      value = "false",
+    },
+    {
+      key = "music_map",
+      value = "creations/labors/tott/island_village",
+    },
+    {
+      key = "location_key",
+      value = "location.tott.abuda_archipelago",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 

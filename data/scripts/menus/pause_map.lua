@@ -48,7 +48,7 @@ function map_manager:new(game)
 
   local function build_rooms_image()
 
-    rooms_img = sol.surface.create(320, 168)
+    rooms_img = sol.surface.create(432, 168)
     rooms_sprite:set_animation(selected_floor)
 
     -- Background: show the whole floor as non visited.
@@ -98,25 +98,25 @@ function map_manager:new(game)
 
   local function build_dungeon_map_widget()
  
-    dungeon_map_widget = gui_designer:create(320, 240)
-    dungeon_map_widget:make_text(sol.language.get_string("menu_title.map"), 160, 13, "center")
-    dungeon_map_widget:make_text(game:get_dungeon_name(), 159, 207, "center")
+    dungeon_map_widget = gui_designer:create(432, 240)
+    dungeon_map_widget:make_text(sol.language.get_string("menu_title.map"), 160 + 56, 13, "center")
+    dungeon_map_widget:make_text(game:get_dungeon_name(), 159 + 56, 207, "center")
 
     -- Dungeon items.
     if game:has_dungeon_map() then
       local sprite = sol.sprite.create("entities/items")
       sprite:set_animation("dungeons/map")
-      dungeon_map_widget:make_sprite(sprite, 48, 180)
+      dungeon_map_widget:make_sprite(sprite, 48 + 56, 180)
     end
     if game:has_dungeon_compass() then
       local sprite = sol.sprite.create("entities/items")
       sprite:set_animation("dungeons/compass")
-      dungeon_map_widget:make_sprite(sprite, 80, 180)
+      dungeon_map_widget:make_sprite(sprite, 80 + 56, 180)
     end
     if game:has_dungeon_boss_key() then
       local sprite = sol.sprite.create("entities/items")
       sprite:set_animation("dungeons/boss_key")
-      dungeon_map_widget:make_sprite(sprite, 64, 148)
+      dungeon_map_widget:make_sprite(sprite, 64 + 56, 148)
     end
 
     -- Floors.
@@ -156,14 +156,14 @@ function map_manager:new(game)
     dungeon_map_widget:draw(dst_surface)
 
       -- Show rooms.
-      rooms_img:draw(dst_surface, -32, 48)
+      rooms_img:draw(dst_surface, -32 + 56, 48)
     if game:has_dungeon_compass() then
       local map_x, map_y = map:get_location()
       local hero_x, hero_y = map:get_hero():get_position()
       dst_x, dst_y = to_dungeon_minimap_coordinates(map_x + hero_x, map_y + hero_y)
       dst_x, dst_y = dst_x + 128 - 20, dst_y + 48 - 6
       if selected_floor == current_floor then
-        link_head_sprite:draw(dst_surface, dst_x, dst_y)
+        link_head_sprite:draw(dst_surface, dst_x + 56, dst_y)
       end
     end
   end
@@ -180,13 +180,14 @@ function map_manager:new(game)
     or world == "outside_light_labors_1st_solarus_quest" then
       hero_x, hero_y = hero:get_position()
     end
-    if world == "dungeon_9999" or world == "dungeon_10000" or world == "dungeon_10010" or world == "dungeon_4_out" then
+    if world == "dungeon_9999" or world == "dungeon_10000" or world == "dungeon_10010" or world == "dungeon_4_out"
+    or world == "dungeon_10020" then
       hero_x, hero_y = 4000, 2400
     end
     local x, y = map_x + hero_x, map_y + hero_y
     x, y = x / world_map_scale_x, y / world_map_scale_y
     x, y = x - 8, y - 8
-    link_head_sprite:set_xy(x + 36, y + 61)
+    link_head_sprite:set_xy(x + 36 + 56, y + 61)
     -- Farore Pearl
     local x, y = 0 + 160, 3840 + 101
     x, y = x / world_map_scale_x, y / world_map_scale_y
@@ -210,22 +211,23 @@ function map_manager:new(game)
   end
 
   local function draw_world_map(dst_surface)
-    world_map_widget = gui_designer:create(320, 240)
-    world_map_widget:make_text(sol.language.get_string("menu_title.map"), 160, 13, "center")
+    world_map_widget = gui_designer:create(432, 240)
+    world_map_widget:make_text(sol.language.get_string("menu_title.map"), 160 + 56, 13, "center")
 
     --Travaux de Zeldo - Manoir Oblivion
-  	if world == "dungeon_9999" or world == "dungeon_10000" or world == "dungeon_10010" or world == "dungeon_4_out" then
-      world_map_widget:make_text(sol.language.get_string("labors_castle_caption"), 159, 207, "center")
+  	if world == "dungeon_9999" or world == "dungeon_10000" or world == "dungeon_10010" or world == "dungeon_4_out"
+    or world == "dungeon_10020" then
+      world_map_widget:make_text(sol.language.get_string("labors_castle_caption"), 159 + 56, 207, "center")
       world_map_img:draw(dst_surface)
 
     --Travaux de Zeldo - TotT
     elseif world == "outside_light_labors_tott" or world == "inside_world_labors_tott" or world == "dungeon_10007" then
-      world_map_widget:make_text(sol.language.get_string("light_world_caption_tott"), 159, 207, "center")
+      world_map_widget:make_text(sol.language.get_string("light_world_caption_tott"), 159 + 56, 207, "center")
       world_map_img:draw(dst_surface)
     
     --Travaux de Zeldo - 1st Solarus Quest
     elseif world == "outside_light_labors_1st_solarus_quest" or world == "inside_world_labors_1st_solarus_quest" or world == "dungeon_10018" or world == "dungeon_10012" then
-      world_map_widget:make_text(sol.language.get_string("light_world_caption_1st_solarus_quest"), 159, 207, "center")
+      world_map_widget:make_text(sol.language.get_string("light_world_caption_1st_solarus_quest"), 159 + 56, 207, "center")
       world_map_img:draw(dst_surface)    
 
     end
@@ -244,7 +246,8 @@ function map_manager:new(game)
     rooms_img = nil
 
     --Travaux de Zeldo - Manoir Oblivion
-    if world == "dungeon_9999" or world == "dungeon_10000" or world == "dungeon_10010" or world == "dungeon_4_out" then
+    if world == "dungeon_9999" or world == "dungeon_10000" or world == "dungeon_10010" or world == "dungeon_4_out"
+    or world == "dungeon_10020" then
       world_map_img = sol.surface.create("menus/world_map_labors_castle.png")
     
     --Travaux de Zeldo - TotT

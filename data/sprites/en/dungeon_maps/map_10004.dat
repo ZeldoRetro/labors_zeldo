@@ -36,7 +36,7 @@ animation{
     { x = 491, y = 240, frame_width = 17, frame_height = 17, origin_x = -171, origin_y = -80 },
     { x = 507, y = 240, frame_width = 17, frame_height = 17, origin_x = -187, origin_y = -80 },
     { x = 523, y = 240, frame_width = 17, frame_height = 17, origin_x = -203, origin_y = -80 },
-    { x = 507, y = 256, frame_width = 17, frame_height = 17, origin_x = -187, origin_y = -96 },
+    { x = 523, y = 256, frame_width = 17, frame_height = 17, origin_x = -187, origin_y = -96 },
   },
 }
 animation{

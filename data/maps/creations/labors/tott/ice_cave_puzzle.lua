@@ -1,22 +1,11 @@
 local map = ...
 local game = map:get_game()
 
-texte_lieu = sol.text_surface.create{
-  text_key = "location.tott.ice_cavern",
-  font = "alttp",
-  font_size = 24,
-  horizontal_alignment = "left",
-  vertical_alignment = "middle",
-}
-
-local door_manager = require("maps/lib/door_manager")
-door_manager:manage_map(map)
-
 local ice_knights_targets = {}
 local ice_knights = {}
 
 --DEBUT DE LA MAP
-function map:on_started(destination)
+map:register_event("on_started", function(map, destination)
 
   --Equipement requis + Initialisation variables
   if destination == start then
@@ -61,7 +50,7 @@ function map:on_started(destination)
   --Entrée éclairée si jour
   if game:get_value("day") or game:get_value("twilight") then map:set_entities_enabled("day_entity",true) else map:set_entities_enabled("day_entity",false) end
 
-end
+end)
 
 --ENIGMES DES BLOCS SUR GLACE
 
@@ -116,7 +105,7 @@ local function block_on_moved_ice(block)
   end
 end
 
-for knight in map:get_entities("auto_block_knight") do
+for knight in map:get_entities("block_ice") do
   ice_knights[#ice_knights + 1] = knight
   knight.on_moved = block_on_moved_ice
 end

@@ -24,12 +24,12 @@ function pause_manager:create(game)
   local arrow_sprite_left = sol.sprite.create("menus/arrow")
   arrow_sprite_left:set_animation("blinking")
   arrow_sprite_left:set_direction(1)
-  arrow_sprite_left:set_xy(1, 120)
+  arrow_sprite_left:set_xy(1 + 56, 120)
 
   local arrow_sprite_right = sol.sprite.create("menus/arrow")
   arrow_sprite_right:set_animation("blinking")
   arrow_sprite_right:set_direction(0)
-  arrow_sprite_right:set_xy(309, 120)
+  arrow_sprite_right:set_xy(309 + 56, 120)
 
   local arrows_menu = {}
 

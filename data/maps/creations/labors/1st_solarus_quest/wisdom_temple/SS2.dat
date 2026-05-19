@@ -24017,16 +24017,6 @@ switch{
   inactivate_when_leaving = false,
 }
 
-destructible{
-  layer = 1,
-  x = 1864,
-  y = 781,
-  sprite = "entities/Destructables/vase",
-  destruction_sound = "vase",
-  weight = 1,
-  can_be_cut = true,
-}
-
 dynamic_tile{
   name = "water_middle_2_7",
   layer = 1,
@@ -29129,24 +29119,6 @@ dynamic_tile{
   width = 16,
   height = 16,
   pattern = "symbol.sword",
-  tileset = "extra/casual_tileset",
-}
-
-dynamic_tile{
-  name = "casual_entity_78",
-  layer = 1,
-  x = 1856,
-  y = 784,
-  enabled_at_start = false,
-  properties = {
-    {
-      key = "enable_if_value",
-      value = "tott_upgrade_card_casual_active",
-    },
-  },
-  width = 16,
-  height = 16,
-  pattern = "symbol.switch",
   tileset = "extra/casual_tileset",
 }
 

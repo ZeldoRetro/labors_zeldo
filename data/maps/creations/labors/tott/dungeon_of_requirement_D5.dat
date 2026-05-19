@@ -1,7 +1,7 @@
 properties{
   x = 0,
   y = 0,
-  width = 320,
+  width = 432,
   height = 240,
   min_layer = 0,
   max_layer = 2,
@@ -12,7 +12,7 @@ properties{
 
 tile{
   layer = 1,
-  x = 48,
+  x = 104,
   y = 48,
   width = 224,
   height = 144,
@@ -22,7 +22,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 40,
+  x = 96,
   y = 48,
   width = 8,
   height = 144,
@@ -31,7 +31,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 48,
+  x = 104,
   y = 192,
   width = 224,
   height = 8,
@@ -40,7 +40,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 48,
+  x = 104,
   y = 40,
   width = 224,
   height = 8,
@@ -49,7 +49,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 272,
+  x = 328,
   y = 40,
   width = 8,
   height = 8,
@@ -58,7 +58,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 272,
+  x = 328,
   y = 48,
   width = 8,
   height = 144,
@@ -67,7 +67,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 272,
+  x = 328,
   y = 192,
   width = 8,
   height = 8,
@@ -76,7 +76,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 40,
+  x = 96,
   y = 40,
   width = 8,
   height = 8,
@@ -85,7 +85,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 40,
+  x = 96,
   y = 192,
   width = 8,
   height = 8,
@@ -94,7 +94,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 16,
+  x = 72,
   y = 16,
   width = 24,
   height = 24,
@@ -103,7 +103,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 280,
+  x = 336,
   y = 16,
   width = 24,
   height = 24,
@@ -112,7 +112,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 280,
+  x = 336,
   y = 200,
   width = 24,
   height = 24,
@@ -121,7 +121,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 16,
+  x = 72,
   y = 200,
   width = 24,
   height = 24,
@@ -130,7 +130,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 16,
+  x = 72,
   y = 40,
   width = 24,
   height = 160,
@@ -139,7 +139,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 40,
+  x = 96,
   y = 16,
   width = 240,
   height = 24,
@@ -148,7 +148,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 280,
+  x = 336,
   y = 40,
   width = 24,
   height = 160,
@@ -157,7 +157,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 40,
+  x = 96,
   y = 200,
   width = 240,
   height = 24,
@@ -166,7 +166,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 112,
+  x = 168,
   y = 144,
   width = 96,
   height = 48,
@@ -175,7 +175,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 152,
+  x = 208,
   y = 216,
   width = 16,
   height = 16,
@@ -184,7 +184,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 144,
+  x = 200,
   y = 216,
   width = 8,
   height = 16,
@@ -193,7 +193,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 168,
+  x = 224,
   y = 216,
   width = 8,
   height = 16,
@@ -202,7 +202,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 152,
+  x = 208,
   y = 232,
   width = 16,
   height = 8,
@@ -211,7 +211,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 168,
+  x = 224,
   y = 200,
   width = 8,
   height = 16,
@@ -220,7 +220,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 144,
+  x = 200,
   y = 200,
   width = 8,
   height = 16,
@@ -229,7 +229,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 136,
+  x = 192,
   y = 48,
   width = 48,
   height = 96,
@@ -238,7 +238,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 144,
+  x = 200,
   y = 48,
   width = 32,
   height = 96,
@@ -247,7 +247,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 144,
+  x = 200,
   y = 24,
   width = 8,
   height = 16,
@@ -256,7 +256,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 168,
+  x = 224,
   y = 24,
   width = 8,
   height = 16,
@@ -265,7 +265,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 152,
+  x = 208,
   y = 24,
   width = 16,
   height = 16,
@@ -274,7 +274,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 192,
+  x = 248,
   y = 16,
   width = 16,
   height = 32,
@@ -283,7 +283,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 112,
+  x = 168,
   y = 16,
   width = 16,
   height = 32,
@@ -292,7 +292,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 224,
+  x = 280,
   y = 200,
   width = 32,
   height = 16,
@@ -301,7 +301,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 64,
+  x = 120,
   y = 200,
   width = 32,
   height = 16,
@@ -310,7 +310,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 64,
+  x = 120,
   y = 16,
   width = 32,
   height = 24,
@@ -319,7 +319,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 224,
+  x = 280,
   y = 16,
   width = 32,
   height = 24,
@@ -328,7 +328,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 152,
+  x = 208,
   y = 200,
   width = 16,
   height = 16,
@@ -337,7 +337,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 120,
+  x = 176,
   y = 152,
   width = 40,
   height = 40,
@@ -346,7 +346,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 160,
+  x = 216,
   y = 152,
   width = 40,
   height = 40,
@@ -355,7 +355,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 144,
+  x = 200,
   y = 176,
   width = 32,
   height = 24,
@@ -364,7 +364,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 64,
+  x = 120,
   y = 64,
   width = 32,
   height = 32,
@@ -373,7 +373,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 224,
+  x = 280,
   y = 64,
   width = 32,
   height = 32,
@@ -382,7 +382,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 16,
+  x = 72,
   y = 104,
   width = 24,
   height = 32,
@@ -391,7 +391,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 280,
+  x = 336,
   y = 104,
   width = 24,
   height = 32,
@@ -400,7 +400,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 272,
+  x = 328,
   y = 152,
   width = 32,
   height = 16,
@@ -409,7 +409,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 272,
+  x = 328,
   y = 72,
   width = 32,
   height = 16,
@@ -418,7 +418,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 16,
+  x = 72,
   y = 152,
   width = 32,
   height = 16,
@@ -427,7 +427,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 16,
+  x = 72,
   y = 72,
   width = 32,
   height = 16,
@@ -436,7 +436,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 176,
+  x = 232,
   y = 192,
   width = 24,
   height = 32,
@@ -445,7 +445,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 120,
+  x = 176,
   y = 192,
   width = 24,
   height = 32,
@@ -454,7 +454,7 @@ tile{
 
 wall{
   layer = 1,
-  x = 152,
+  x = 208,
   y = 200,
   width = 16,
   height = 16,
@@ -464,7 +464,7 @@ wall{
 
 teletransporter{
   layer = 1,
-  x = 152,
+  x = 208,
   y = 216,
   width = 16,
   height = 16,
@@ -475,7 +475,7 @@ teletransporter{
 destination{
   name = "entree_donjon_1",
   layer = 1,
-  x = 160,
+  x = 216,
   y = 197,
   direction = 1,
 }
@@ -483,7 +483,7 @@ destination{
 npc{
   name = "ts.labors.tott.dungeon_5_info",
   layer = 1,
-  x = 160,
+  x = 216,
   y = 61,
   direction = 3,
   subtype = 0,
@@ -493,7 +493,7 @@ npc{
 switch{
   name = "tp_switch_next",
   layer = 1,
-  x = 256,
+  x = 312,
   y = 112,
   subtype = "walkable",
   sprite = "entities/Switches/switch_star",
@@ -505,7 +505,7 @@ switch{
 switch{
   name = "tp_switch_previous",
   layer = 1,
-  x = 48,
+  x = 104,
   y = 112,
   subtype = "walkable",
   sprite = "entities/Switches/switch_star",
@@ -517,7 +517,7 @@ switch{
 destination{
   name = "previous",
   layer = 1,
-  x = 72,
+  x = 128,
   y = 125,
   direction = 0,
 }
@@ -525,7 +525,7 @@ destination{
 destination{
   name = "next",
   layer = 1,
-  x = 248,
+  x = 304,
   y = 125,
   direction = 2,
 }
@@ -534,23 +534,23 @@ tile{
   layer = 2,
   x = 0,
   y = 0,
-  width = 16,
+  width = 72,
   height = 240,
   pattern = "ceiling.1",
 }
 
 tile{
   layer = 2,
-  x = 304,
+  x = 360,
   y = 0,
-  width = 16,
+  width = 72,
   height = 240,
   pattern = "ceiling.1",
 }
 
 tile{
   layer = 2,
-  x = 16,
+  x = 72,
   y = 0,
   width = 288,
   height = 16,
@@ -559,7 +559,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 16,
+  x = 72,
   y = 224,
   width = 288,
   height = 16,
@@ -568,7 +568,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 142,
+  x = 198,
   y = 16,
   width = 48,
   height = 8,
@@ -577,7 +577,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 0,
+  x = 56,
   y = 112,
   width = 8,
   height = 16,
@@ -586,7 +586,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 304,
+  x = 360,
   y = 112,
   width = 8,
   height = 16,
@@ -595,7 +595,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 312,
+  x = 368,
   y = 112,
   width = 8,
   height = 16,
@@ -604,7 +604,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 8,
+  x = 64,
   y = 112,
   width = 8,
   height = 16,
@@ -613,7 +613,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 144,
+  x = 200,
   y = 16,
   width = 32,
   height = 8,
@@ -622,7 +622,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 144,
+  x = 200,
   y = 216,
   width = 32,
   height = 8,

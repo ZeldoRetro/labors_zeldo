@@ -1,0 +1,98 @@
+animation{
+  name = "cycle_1",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_0",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 0, y = 160, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_0_to_1",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 40, y = 160, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_1_to_2",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 40, y = 0, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_2",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 0, y = 32, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_2_to_3",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 40, y = 32, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_3",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 0, y = 64, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_3_to_4",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 40, y = 64, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_4",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 0, y = 96, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_4_to_5",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 40, y = 96, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_5",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 0, y = 128, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_5_to_6",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 40, y = 128, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_6",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 0, y = 160, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}
+animation{
+  name = "cycle_6_to_7",
+  src_image = "hud/clock_daytime.png",
+  directions = {
+    { x = 40, y = 160, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+  },
+}

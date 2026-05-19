@@ -35,7 +35,8 @@ function carrying_state.start(hero, carriable, carriable_sprite) -- Pass the car
     function () y = y + 16 end,
   }
   adjust_direction[hero:get_direction()]()
-  carriable:set_position(x, y, layer + 1) -- Move on the superior layer to fix display issues with multi-layer objects on the map.
+  carriable:set_position(x, y, layer ) -- Move on the superior layer to fix display issues with multi-layer objects on the map.
+  carriable:bring_to_front()
   hero:freeze()
 
   -- Lifting movement.
@@ -81,7 +82,8 @@ function carrying_state.start(hero, carriable, carriable_sprite) -- Pass the car
     function carrying_state:on_update()
       if hero:get_map() == carriable:get_map() then
         local x, y, layer = hero:get_position()
-        carriable:set_position(x, y, layer + 1) -- Move on the superior layer to fix display issues with multi-layer objects on the map.
+        carriable:set_position(x, y, layer ) -- Move on the superior layer to fix display issues with multi-layer objects on the map.
+        carriable:bring_to_front()
       end
     end
 

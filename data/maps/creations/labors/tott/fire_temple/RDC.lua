@@ -1,23 +1,8 @@
 local map = ...
 local game = map:get_game()
-local music_map = map:get_music()
-texte_lieu = sol.text_surface.create{
-  text_key = "dungeon_10004.name",
-  font = "alttp",
-  font_size = 24,
-  horizontal_alignment = "left",
-  vertical_alignment = "middle",
-}
-
-local door_manager = require("maps/lib/door_manager")
-door_manager:manage_map(map)
-local chest_manager = require("maps/lib/chest_manager")
-chest_manager:manage_map(map)
-local separator_manager = require("maps/lib/separator_manager")
-separator_manager:manage_map(map)
 
 --EFFET DE CHALEUR
-local heat = sol.surface.create(320,240)
+local heat = sol.surface.create(432,240)
 heat:set_opacity(35)
 heat:fill_color({255,40,0})
 
@@ -27,7 +12,7 @@ end)
 
 
 --DEBUT DE LA MAP
-function map:on_started(destination)
+map:register_event("on_started", function(map, destination)
 
   --Equipement requis pour le Temple + Initialisation variables
   if destination == entree_donjon then
@@ -87,4 +72,4 @@ function map:on_started(destination)
   map:set_entities_enabled("telep_miniboss",false)
   if game:get_value("miniboss_10004") then map:set_entities_enabled("telep_miniboss",true) end
 
-end
+end)

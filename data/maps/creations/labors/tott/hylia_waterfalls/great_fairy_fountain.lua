@@ -2,7 +2,7 @@ local map = ...
 local game = map:get_game()
 
 --DEBUT DE LA MAP
-function map:on_started()
+map:register_event("on_started", function(map, destination)
 
   game:set_value("dark_room_middle",true)
   sol.timer.start(map,10,function() game:set_value("dark_room_middle",false) end)
@@ -15,7 +15,7 @@ function map:on_started()
     map:set_entities_enabled("fairy",true)
   else map:set_entities_enabled("fairy",false) end 
   map:set_entities_enabled("great_fairy",false)
-end
+end)
 
 --ANIMATION DE LA BENEDICTION
 local hearts = {}

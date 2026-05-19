@@ -1016,7 +1016,7 @@ Cette vue étoilée au-dessus du Lac
 est magnifique, n'est-ce pas ?
 Une fois de plus, le Grand Zeldo
 n'a pas eu le temps de mettre
-ça en place... Il fous rien, hein ?
+ça en place... Il fout rien, hein ?
 Si tu penses de telles choses,
 c'est mal le connaître ! Crois-moi,
 Le Making lui tient à coeur !
@@ -1629,12 +1629,10 @@ donc le contempler à votre guise.
 Essayez d'associer les diverses
 icones aux objets figurants dans
 les listes numériques. Amusez-vous.
-Au fait, je viens de constater une
-erreur dans le menu. Il y a un item
-qui n'est pas à son statut max.
-Saurez-vous découvrir lequel ?
-J'offre un screen INEDIT à ceux
-qui le trouveront. Contactez-moi :P
+Ce menu comporte quelques erreurs
+d'ailleurs... cela fait-il une fois
+de plus partie du Génie de Zeldo ?
+Qui sait...
 ]],
 }
 
@@ -2461,8 +2459,8 @@ Il y a aussi un Magasin. Tu y
 trouveras des bonus divers pour
 t'aider dans les Zones de Travaux.
 La partie de gauche renferme
-les Galeries de Dévelopement.
-C'est le contenus Bonus en gros.
+les Galeries de Développement.
+C'est le contenu Bonus en gros.
 Tu devras cependant collecter
 diverses Clés de couleur pour
 accéder aux diverses sections.
@@ -2729,6 +2727,14 @@ dialog{
 Rzzz... Zzzz...$0
 (Il dort paisiblement. Il vaut
 mieux le laisser tranquille.)
+]],
+}
+
+dialog{
+  id = "LABORS.tott.abuda.terry",
+  skip = "current",
+  text = [[
+Tu ne devrais pas être ici.
 ]],
 }
 
@@ -3702,9 +3708,9 @@ de Phantom Hourglass.
 Ainsi Link pouvait trouver des
 trésors valant plus de 500 Rubis
 dans les Donjons avancés du jeu !
-De quoi lui permettre de pouvoir
-se procurer plus facilement toute
-cette liste d'achats. Bien joué Zeldo !
+De quoi lui permettre de pouvoir se
+procurer plus facilement toute cette
+liste d'achats. Bien joué Zeldo !
 ]],
 }
 
@@ -4013,10 +4019,67 @@ Essaie de tenir plus de
 }
 
 dialog{
+  id = "LABORS.zeldo_wave_2.after_battle",
+  text = [[
+Félicitations ! Tu as remporté ce
+combat. Cela signifie que tu peux
+accéder à l'étage suivant.
+Courage à toi, tu en auras besoin.
+Et... Les gens...
+Pensez à suivre les étoiles !
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_2.battle_start",
+  text = [[
+Stylé ce nouveau vitrail, non ?
+Tu peux dire merci à DarkDavy15,
+il est vraiment trop cute, hein ?
+Allez, en garde !
+Ton épée devrait pouvoir parer mes
+flèches perçantes...
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_2.beaten",
+  text = [[
+$2Pfiou...$0
+Pfiou......$0
+Bien joué... $0Joueur...$0
+]],
+}
+
+dialog{
   id = "LABORS.zeldo_wave_2.desesperate_move",
   text = [[
-Tu n'abandonnes donc
-jamais ou quoi ?
+Pas mal !
+Mais voici ma super attaque...
+En garde !
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_2.end_1st_floor",
+  text = [[
+Tu as réussi à terminer
+cette deuxième Vague de
+contenus ! Bien joué !
+Je suppose que le moment est venu.
+Il est temps de tester ta force,
+petit pipou !
+Ne déçois pas le Grand Zeldo !
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_2.end_1st_floor_alt",
+  skip = "current",
+  text = [[
+Te revoici. J'imagine que c'était
+une simple erreur de ta part ?
+Bon... on y retourne ?
 ]],
 }
 
@@ -4056,6 +4119,18 @@ Zeldo ? Courage pour tout trouver.
 A plus tard !
 Et n'oubliez pas, vous êtes
 tous bos ici ! :)
+]],
+}
+
+dialog{
+  id = "LABORS.zeldo_wave_2.give_item",
+  text = [[
+Mmmh, tu auras du mal à me vaincre
+si je garde tout le temps ce
+bouclier magique.
+Prends donc ce nouvel objet.
+Perce ma défense, et emmène-moi
+au 7e ciel, bg !
 ]],
 }
 
@@ -5035,6 +5110,19 @@ et des flèches !$0
 Tu peux maintenant vaincre
 les ennemis à distance et
 sans risque !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bow_PLAYER.1",
+  icon = "228",
+  text = [[
+Sauras-tu vraiment
+manier cet Arc ?$0
+
+En tout cas, il n'y a pas
+une seconde à perdre !
+Terrasse ce Carnavaleux !
 ]],
 }
 
@@ -6330,6 +6418,65 @@ supplémentaires.
 
 dialog{
   id = "_treasure.quest_items/remembrance_shard_none.4",
+  icon = "233",
+  skip = "all",
+  text = [[
+Tu as trouvé un Cristal
+de Souvenir !
+
+Cet artefact te donne 25
+Eclats de Souvenir
+supplémentaires.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_retranscriptions.1",
+  icon = "230",
+  skip = "all",
+  text = [[
+Tu as trouvé un Eclat
+de Souvenir !
+
+Ces éclats mystérieux ont été
+dispersés dans les Travaux
+de Zeldo...
+Tu en auras besoin pour
+matérialiser les Clés de
+Galerie.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_retranscriptions.2",
+  icon = "231",
+  skip = "all",
+  text = [[
+Tu as trouvé une Pierre
+de Souvenir !
+
+Cet artefact te donne 5
+Eclats de Souvenir
+supplémentaires.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_retranscriptions.3",
+  icon = "232",
+  skip = "all",
+  text = [[
+Tu as trouvé une Gemme
+de Souvenir !
+
+Cet artefact te donne 10
+Eclats de Souvenir
+supplémentaires.
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/remembrance_shard_retranscriptions.4",
   icon = "233",
   skip = "all",
   text = [[
@@ -9365,6 +9512,16 @@ Est : Plaine d'Hyrule
 }
 
 dialog{
+  id = "sign.labors.1st_solarus_quest.merchant_closed",
+  skip = "current",
+  text = [[
+Fermé pour le moment.
+Revenez quand il fera jour !
+Cela pourrait en valoir la peine...
+]],
+}
+
+dialog{
   id = "sign.labors.B2_directions",
   skip = "current",
   text = [[
@@ -9723,7 +9880,7 @@ dialog{
   id = "ts.labors.1st_solarus_quest.lost_woods",
   skip = "current",
   text = [[
-Derrière se mur se trouve
+Derrière ce mur se trouve
 l'entrée cachée du Village
 de la Forêt.
 Le Joueur devait posséder la

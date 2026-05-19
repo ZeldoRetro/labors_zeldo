@@ -72,6 +72,14 @@ map:register_event("on_started",function(map, destination)
     hero:set_sword_sprite_id("hero/sword1")
     if game:get_value("get_shield_10011") then hero:set_shield_sprite_id("npc/playing_character/link_1st_solarus_quest/shield1") end
   end
+
+  -- Des chances d'entendre le rap de lost woods en arrivant
+  local i = math.random(1,100)
+  if i == 1 then
+    if game:get_value("day") or game:get_value("twilight") then
+      sol.audio.play_music("creations/labors/1st_solarus_quest/lost_woods_RAP")
+    end
+  end
 end)
 
 -- PORTE DE BOIS: BESOIN DE LA CLÉ DE BOIS POUR OUVRIR
@@ -79,7 +87,9 @@ function wooden_door_npc:on_interaction()
   if game:get_value("get_wooden_key_10011") then
     sol.audio.play_sound("secret")
     sol.audio.play_sound("door_open")
-    map:set_entities_enabled("wooden_door", false)
+    wooden_door_npc:set_enabled(false)
+    wooden_door_1:set_enabled(false)
+    wooden_door_2:set_enabled(false)
     game:set_value("wooden_door_10011_opened", true)
   else sol.audio.play_sound("wrong") game:start_dialog("door.closed.wooden_door") end
 end
